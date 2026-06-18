@@ -369,37 +369,63 @@ def translate_sentence(sentence):
     return translated
 
 def generate_chinese_summary(item):
-    """为新闻生成流畅的中文摘要 - 基于内容理解而非逐字翻译"""
+    """为新闻生成详细的中文摘要 - 结构化展示交易信息"""
     title = item.get('title', '')
     desc = item.get('description', '')
     text = (title + ' ' + desc).lower()
+    import re
 
-    # 分析新闻类型并提取关键信息
-    summary_parts = []
+    # ===== 交易类型识别 =====
+    deal_type = ''
+    if any(k in text for k in ['acquisition', 'merger', 'acquire', 'will pay']):
+        deal_type = '收购/并购'
+    elif any(k in text for k in ['partnership', 'collaboration', 'turns to']):
+        deal_type = '战略合作'
+    elif any(k in text for k in ['raises', 'series', 'boosts', 'secures', 'funded', 'investment']):
+        deal_type = '融资'
+    elif any(k in text for k in ['expands', 'expansion', 'invested', 'manufacturing', 'facility']):
+        deal_type = '业务扩展'
+    elif any(k in text for k in ['phase', 'clinical trial']):
+        deal_type = '临床试验'
+    elif any(k in text for k in ['approval', 'approved', 'fda', 'ema']):
+        deal_type = '监管批准'
+    elif any(k in text for k in ['stops', 'terminates', 'discontinues']):
+        deal_type = '试验终止'
+
+    # ===== 交易详情 =====
+    details = []
 
     # 并购/收购
-    if any(k in text for k in ['acquisition', 'merger', 'acquire', 'biogen will pay']):
+    if deal_type == '收购/并购':
         acquirer = ''
         acquired = ''
         amount = ''
 
         # 识别收购方
-        for eng, cn in TRANSLATIONS.items():
-            if eng in ['biogen', 'eli lilly', 'gsk', 'novartis', 'roche', 'pfizer', 'merck', 'bristol myers squibb', 'johnson & johnson', 'astrazeneca', 'sanofi', 'amgen', 'regeneron', 'gilead', 'moderna', 'vertex', 'abbvie', 'bayer']:
-                if eng in text:
-                    acquirer = TRANSLATIONS.get(eng, eng)
-                    break
+        company_list = {
+            'biogen': 'Biogen', 'eli lilly': '礼来', 'gsk': '葛兰素史克',
+            'novartis': '诺华', 'roche': '罗氏', 'pfizer': '辉瑞', 'merck': '默克',
+            'bristol myers squibb': '百时美施贵宝', 'johnson & johnson': '强生',
+            'astrazeneca': '阿斯利康', 'sanofi': '赛诺菲', 'amgen': '安进',
+            'regeneron': '再生元', 'gilead': '吉利德', 'moderna': 'Moderna',
+            'vertex': '福泰制药', 'abbvie': '艾伯维', 'bayer': '拜耳'
+        }
+        for eng, cn in company_list.items():
+            if eng in text:
+                acquirer = cn
+                break
 
         # 识别被收购方
         if 'raythera' in text:
-            acquired = 'RayThera'
+            acquired = '生物技术公司RayThera（位于圣迭戈）'
         elif 'abcellera' in text:
-            acquired = 'AbCellera'
+            acquired = '抗体开发公司AbCellera'
         elif 'cellares' in text:
-            acquired = 'Cellares'
+            acquired = '细胞疗法公司Cellares'
+        else:
+            acquired = '某生物技术公司'
 
         # 提取金额
-        import re
         amount_match = re.search(r'\$?(\d+\.?\d*)\s*(billion|million)', text)
         if amount_match:
             val = float(amount_match.group(1))
@@ -412,65 +438,65 @@ def generate_chinese_summary(item):
             field = '抗炎药物'
         elif 't cell engagers' in text or 'tce' in text:
             field = 'T细胞衔接器'
+        elif 'gene editing' in text or 'crispr' in text:
+            field = '基因编辑技术'
+        elif 'cell therapy' in text or 'car-t' in text:
+            field = '细胞治疗'
 
-        # 生成流畅摘要
-        if acquirer and acquired:
-            if amount:
-                if field:
-                    summary_parts.append(f'{acquirer}宣布以最高{amount}收购{acquired}，主要看中其{field}研发管线')
-                else:
-                    summary_parts.append(f'{acquirer}宣布以最高{amount}收购{acquired}')
-            else:
-                summary_parts.append(f'{acquirer}宣布收购{acquired}')
-        elif acquirer:
-            summary_parts.append(f'{acquirer}达成收购交易')
-
+        # 构建详情
+        if acquirer:
+            details.append(f'{acquirer}将以最高{amount}收购{acquired}')
+        if field:
+            details.append(f'主要看中其{field}研发管线')
         if 'milestone' in text:
-            summary_parts.append('大部分款项将根据研发里程碑支付')
+            details.append('大部分款项将根据研发里程碑支付')
 
-    # 合作/ partnership
-    elif any(k in text for k in ['partnership', 'collaboration', 'turns to']):
+    # 战略合作
+    elif deal_type == '战略合作':
         partners = []
-        for eng in ['jazz', 'eli lilly', 'gsk', 'novartis', 'roche', 'pfizer', 'merck', 'bristol myers squibb', 'astrazeneca', 'sanofi', 'amgen', 'regeneron']:
-            if eng in text and eng not in ['lilly']:
-                cn = TRANSLATIONS.get(eng, eng)
-                if cn not in partners:
-                    partners.append(cn)
+        company_list = {
+            'jazz': 'Jazz制药', 'eli lilly': '礼来', 'gsk': '葛兰素史克',
+            'novartis': '诺华', 'roche': '罗氏', 'pfizer': '辉瑞',
+            'bristol myers squibb': '百时美施贵宝', 'astrazeneca': '阿斯利康',
+            'sanofi': '赛诺菲', 'amgen': '安进', 'regeneron': '再生元'
+        }
+        for eng, cn in company_list.items():
+            if eng in text and cn not in partners:
+                partners.append(cn)
 
-        import re
         amount_match = re.search(r'\$?(\d+\.?\d*)\s*(billion|million)', text)
         if amount_match:
             val = float(amount_match.group(1))
             unit = '亿' if amount_match.group(2) == 'billion' else '百万'
             amount = f'最高{val}{unit}美元'
         else:
-            amount = '未披露金额'
+            amount = '未披露'
 
         field = ''
         if 't cell engagers' in text:
             field = 'T细胞衔接器'
         elif 'crispr' in text or 'gene editing' in text:
             field = '基因编辑'
+        elif 'adc' in text or 'antibody' in text:
+            field = '抗体药物'
 
         if partners:
-            if amount != '未披露金额':
-                summary_parts.append(f'{"与".join(partners)}达成{amount}战略合作')
-            else:
-                summary_parts.append(f'{"与".join(partners)}达成战略合作')
-            if field:
-                summary_parts.append(f'合作领域为{field}')
-        else:
-            summary_parts.append('两家公司达成战略合作')
+            details.append(f'{"与".join(partners)}达成{amount}美元战略合作')
+        if field:
+            details.append(f'合作领域：{field}')
+        if '40 alliances' in text or 'partnership after partnership' in text:
+            details.append('AbCellera已建立40余项生物制药合作')
 
     # 融资
-    elif any(k in text for k in ['raises', 'series d', 'series c', 'boosts', 'secures', 'funded']):
+    elif deal_type == '融资':
         company = ''
-        for eng in ['cellares', 'biogen', 'jazz', 'novo nordisk', 'moderna']:
-            if eng in text:
-                company = TRANSLATIONS.get(eng, eng)
-                break
+        if 'cellares' in text:
+            company = 'Cellares'
+        elif 'novo nordisk' in text:
+            company = '诺和诺德'
+        elif 'moderna' in text:
+            company = 'Moderna'
 
-        import re
         amount_match = re.search(r'\$?(\d+\.?\d*)\s*(billion|million)', text)
         if amount_match:
             val = float(amount_match.group(1))
@@ -480,35 +506,24 @@ def generate_chinese_summary(item):
             amount = '新一轮融资'
 
         round_match = re.search(r'Series\s+([A-Z])', text, re.IGNORECASE)
-        if round_match:
-            round_name = round_match.group(1) + '轮'
-        else:
-            round_name = ''
+        round_name = f'{round_match.group(1)}轮' if round_match else ''
 
         if company:
             if round_name:
-                summary_parts.append(f'{company}完成{round_name}{amount}融资')
+                details.append(f'{company}完成{round_name}{amount}融资')
             else:
-                summary_parts.append(f'{company}完成{amount}融资')
-        else:
-            summary_parts.append(f'生物技术公司完成新一轮融资')
+                details.append(f'{company}完成{amount}融资')
 
-    # 扩产/扩建
-    elif any(k in text for k in ['expands', 'expansion', 'invested', 'manufacturing']):
+    # 业务扩展
+    elif deal_type == '业务扩展':
         company = ''
-        location = ''
-
         if 'novo nordisk' in text:
             company = '诺和诺德'
         elif 'eisai' in text:
             company = '卫材'
+        elif 'siegfried' in text:
+            company = 'Siegfried'
 
-        if 'china' in text:
-            location = '中国'
-        elif 'czech' in text or 'bohumil' in text:
-            location = '捷克'
-
-        import re
         amount_match = re.search(r'\$?(\d+\.?\d*)\s*(billion|million)', text)
         if amount_match:
             val = float(amount_match.group(1))
@@ -517,18 +532,21 @@ def generate_chinese_summary(item):
         else:
             amount = ''
 
-        if company:
-            if location and amount:
-                summary_parts.append(f'{company}宣布投资{amount}在{location}扩建生产设施')
-            elif location:
-                summary_parts.append(f'{company}扩大在{location}的业务布局')
-            else:
-                summary_parts.append(f'{company}宣布业务扩展')
-        else:
-            summary_parts.append('生物制药公司宣布扩产计划')
+        location = ''
+        if 'china' in text:
+            location = '中国'
+        elif 'czech' in text or 'bohumil' in text:
+            location = '捷克共和国'
+
+        if company and location and amount:
+            details.append(f'{company}宣布投资{amount}在{location}扩建生产设施')
+        elif company and location:
+            details.append(f'{company}扩大在{location}的业务布局')
+        elif company:
+            details.append(f'{company}宣布业务扩展')
 
     # 临床试验
-    elif any(k in text for k in ['phase', 'clinical trial', 'stops', 'terminates']):
+    elif deal_type == '临床试验':
         phase = ''
         for p in ['phase 3', 'phase 2', 'phase 1']:
             if p in text:
@@ -537,42 +555,63 @@ def generate_chinese_summary(item):
                 break
 
         company = ''
-        for eng in ['be bio', 'jazz', 'biogen', 'novo nordisk']:
-            if eng in text.replace(' ', ''):
-                company = TRANSLATIONS.get(eng.replace(' ', ''), eng)
-                break
+        if 'be bio' in text.replace(' ', ''):
+            company = 'Be Bio'
+        elif 'jazz' in text:
+            company = 'Jazz制药'
+        elif 'biogen' in text:
+            company = 'Biogen'
 
         if 'stops' in text or 'terminates' in text:
-            if company:
-                if phase:
-                    summary_parts.append(f'{company}终止其{phase}期临床试验')
-                else:
-                    summary_parts.append(f'{company}终止某临床试验')
+            if company and phase:
+                details.append(f'{company}终止其{phase}期临床试验')
+            elif company:
+                details.append(f'{company}终止某临床试验')
             else:
-                summary_parts.append('某临床试验被终止')
+                details.append('某临床试验被终止')
 
             if 'hemophilia' in text:
-                summary_parts.append('试验涉及血友病治疗')
-        else:
-            if company and phase:
-                summary_parts.append(f'{company}推进{phase}期临床试验')
-            elif phase:
-                summary_parts.append(f'有药物正在推进{phase}期临床试验')
+                details.append('试验涉及血友病B基因治疗')
+        elif phase:
+            if company:
+                details.append(f'{company}推进{phase}期临床试验')
+            else:
+                details.append(f'有药物正在推进{phase}期临床试验')
 
-    # 组合摘要
-    if summary_parts:
-        cn_desc = '。'.join(summary_parts)
-        if not cn_desc.endswith('。'):
-            cn_desc += '。'
-    else:
-        # 如果无法归类，使用智能翻译但保持流畅
-        cn_desc = smart_translate(desc[:300]) if desc else ''
+    # ===== 战略意义 =====
+    significance = []
+
+    if deal_type == '收购/并购':
+        if 'secretive' in text or 'little about its pipeline' in text:
+            significance.append('目标公司较为低调，管线信息披露有限')
+        significance.append('收购方借此扩展其研发管线')
+    elif deal_type == '战略合作':
+        significance.append('有助于加速创新药物开发')
+    elif deal_type == '融资':
+        significance.append('表明投资者对该公司技术平台的信心')
+    elif deal_type == '业务扩展':
+        significance.append('显示公司对市场需求前景的看好')
+    elif deal_type == '临床试验终止':
+        significance.append('可能影响公司后续管线进展')
+
+    # ===== 组装完整详情 =====
+    result_parts = []
+    if deal_type:
+        result_parts.append(f'【交易类型】{deal_type}')
+
+    if details:
+        result_parts.append('【交易详情】' + '；'.join(details))
+
+    if significance:
+        result_parts.append('【战略意义】' + '；'.join(significance))
+
+    cn_desc = '\n'.join(result_parts)
 
     # 标题保持英文
     cn_title = title
 
-    # 生成简短摘要（用于列表预览，限制在100字以内）
-    short_summary = cn_desc[:150] + '...' if len(cn_desc) > 150 else cn_desc
+    # 简短摘要（用于列表预览）
+    short_summary = cn_desc[:200].replace('\n', '；') + '...' if len(cn_desc) > 200 else cn_desc.replace('\n', '；')
 
     return short_summary, cn_title, cn_desc
 

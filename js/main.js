@@ -344,25 +344,26 @@ function openModal(type, index) {
     if (item.authors?.length) metaHtml += `<span class="modal-meta-item"><strong>作者:</strong> ${item.authors.slice(0, 5).join(', ')}${item.authors.length > 5 ? ' et al.' : ''}</span>`;
     document.getElementById('modalMeta').innerHTML = metaHtml || '<span class="modal-meta-item">无详细信息</span>';
 
-    // Chinese content - detailed
+    // Chinese content - detailed (handle structured content with line breaks)
     let cnContent = '';
     if (item.description_cn) {
-        cnContent += `<p>${item.description_cn}</p>`;
+        // Convert newlines and section markers to formatted HTML
+        cnContent += item.description_cn.replace(/\n/g, '<br>').replace(/【([^】]+)】/g, '<strong style="color:#166534;">[$1]</strong> ');
     } else if (item.summary_cn) {
-        cnContent += `<p>${item.summary_cn}</p>`;
+        cnContent += item.summary_cn.replace(/\n/g, '<br>').replace(/【([^】]+)】/g, '<strong style="color:#166534;">[$1]</strong> ');
     }
-    if (item.abstract_cn) {
-        cnContent += `<h4 style="margin-top:1rem;font-size:0.9rem;color:#166534;">中文摘要</h4><p>${item.abstract_cn}</p>`;
+    if (item.abstract_cn && item.abstract_cn !== item.summary_cn) {
+        cnContent += `<div style="margin-top:1rem;"><strong style="color:#166534;">【详细中文摘要】</strong><br>${item.abstract_cn.replace(/\n/g, '<br>').replace(/【([^】]+)】/g, '<strong>[$1]</strong> ')}</div>`;
     }
     if (!cnContent) cnContent = '<p style="color:#64748b;">暂无中文详情</p>';
     document.getElementById('modalCnContent').innerHTML = cnContent;
 
-    // English content
+    // English content - clean display
     let enContent = '';
-    if (item.title) enContent += `<p><strong>英文标题:</strong> ${item.title}</p>`;
-    if (item.description) enContent += `<p><strong>英文正文:</strong> ${item.description}</p>`;
-    if (item.abstract) enContent += `<p><strong>英文摘要:</strong> ${item.abstract}</p>`;
-    if (!enContent) enContent = '<p style="color:#64748b;">无英文原文</p>';
+    if (item.title) enContent += `<p><strong>Title:</strong> ${item.title}</p>`;
+    if (item.description) enContent += `<p style="margin-top:0.5rem;"><strong>Content:</strong> ${item.description.replace(/\.\.\./g, '').substring(0, 500)}${item.description.length > 500 ? '...' : ''}</p>`;
+    if (item.abstract) enContent += `<p style="margin-top:0.5rem;"><strong>Abstract:</strong> ${item.abstract.substring(0, 600)}${item.abstract.length > 600 ? '...' : ''}</p>`;
+    if (!enContent) enContent = '<p style="color:#64748b;">No original content available</p>';
     document.getElementById('modalEnContent').innerHTML = enContent;
 
     // Link

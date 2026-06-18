@@ -154,7 +154,7 @@ def translate_paper_keywords(text):
     return result
 
 def generate_paper_summary(article):
-    """为论文生成流畅的中文摘要 - 基于内容理解"""
+    """为论文生成详细的中文摘要 - 包含背景、方法、结果、意义"""
     title = article.get('title', '')
     abstract = article.get('abstract', '')
     text_lower = (title + ' ' + abstract).lower()
@@ -162,96 +162,197 @@ def generate_paper_summary(article):
     # 标题保持英文
     cn_title = title
 
-    # 分析论文内容，生成流畅中文摘要
-    summary_parts = []
+    # ===== 1. 研究背景 =====
+    background_parts = []
 
-    # 研究类型
-    if 'clinical trial' in text_lower or 'phase 1' in text_lower or 'phase 2' in text_lower or 'phase 3' in text_lower:
-        if 'phase 3' in text_lower:
-            summary_parts.append('本研究为III期临床试验')
-        elif 'phase 2' in text_lower:
-            summary_parts.append('本研究为II期临床试验')
-        elif 'phase 1' in text_lower:
-            summary_parts.append('本研究为I期临床试验')
+    # 识别疾病/适应症
+    disease_map = {
+        'melanoma': '黑色素瘤',
+        'cancer': '肿瘤',
+        'tumor': '肿瘤',
+        'oncology': '肿瘤',
+        'carcinoma': '癌细胞',
+        'breast cancer': '乳腺癌',
+        'lung cancer': '肺癌',
+        'leukemia': '白血病',
+        'lymphoma': '淋巴瘤',
+        'hematologic': '血液系统疾病',
+        'diabetes': '糖尿病',
+        'obesity': '肥胖',
+        'metabolic': '代谢性疾病',
+        'genetic disease': '遗传病',
+        'rare disease': '罕见病',
+        'alzheimer': '阿尔茨海默病',
+        'parkinson': '帕金森病',
+        'neurodegenerative': '神经退行性疾病',
+        'cardiovascular': '心血管疾病',
+        'liver': '肝脏疾病',
+        'kidney': '肾脏疾病',
+    }
+
+    diseases = []
+    for eng, cn in disease_map.items():
+        if eng in text_lower:
+            diseases.append(cn)
+    diseases = list(dict.fromkeys(diseases))  # 去重保持顺序
+
+    # 识别临床阶段
+    phase = ''
+    if 'phase 3' in text_lower or 'phase iii' in text_lower:
+        phase = 'III期临床试验'
+    elif 'phase 2' in text_lower or 'phase ii' in text_lower:
+        phase = 'II期临床试验'
+    elif 'phase 1' in text_lower or 'phase i' in text_lower:
+        phase = 'I期临床试验'
+
+    # 识别研究问题
+    if 'resistance' in text_lower or 'resistant' in text_lower:
+        background_parts.append('针对治疗耐药性问题')
+    if 'metastasis' in text_lower or 'metastatic' in text_lower:
+        background_parts.append('针对肿瘤转移机制')
+    if 'recurrent' in text_lower:
+        background_parts.append('针对复发性疾病')
+    if 'refractory' in text_lower or 'relapsed' in text_lower:
+        background_parts.append('针对难治性/复发性疾病')
+
+    # 构建背景
+    if phase:
+        background_parts.insert(0, f'本研究为{phase}')
     elif 'preclinical' in text_lower or 'mouse model' in text_lower:
-        summary_parts.append('本研究为临床前研究')
+        background_parts.insert(0, '本研究为临床前动物实验')
     elif 'vivo' in text_lower:
-        summary_parts.append('本研究为体内实验')
+        background_parts.insert(0, '本研究为体内实验')
     elif 'vitro' in text_lower:
-        summary_parts.append('本研究为体外实验')
+        background_parts.insert(0, '本研究为体外实验')
 
-    # 疾病领域
-    disease = ''
-    if any(k in text_lower for k in ['melanoma', 'cancer', 'tumor', 'oncology', 'carcinoma']):
-        disease = '黑色素瘤'
-    elif any(k in text_lower for k in ['breast cancer', ' breast']):
-        disease = '乳腺癌'
-    elif any(k in text_lower for k in ['lung cancer', 'lung carcinoma']):
-        disease = '肺癌'
-    elif any(k in text_lower for k in ['leukemia', 'lymphoma', 'hematologic']):
-        disease = '血液肿瘤'
-    elif any(k in text_lower for k in ['diabetes']):
-        disease = '糖尿病'
-    elif any(k in text_lower for k in ['obesity', 'metabolic']):
-        disease = '代谢性疾病'
-    elif any(k in text_lower for k in ['genetic disease', 'rare disease', 'hereditary']):
-        disease = '遗传病'
-    elif any(k in text_lower for k in ['alzheimer', 'parkinson', 'neurodegenerative']):
-        disease = '神经退行性疾病'
-    elif any(k in text_lower for k in ['cardiovascular', 'heart', 'cardiac']):
-        disease = '心血管疾病'
+    if diseases:
+        background_parts.append(f'研究聚焦{"、".join(diseases[:2])}领域')
 
-    # 技术方法
-    tech = ''
-    if any(k in text_lower for k in ['crispr', 'cas9', 'gene editing']):
-        if 'base editing' in text_lower:
-            tech = '碱基编辑'
-        elif 'prime editing' in text_lower:
-            tech = '先导编辑'
-        elif 'knockout' in text_lower:
-            tech = 'CRISPR基因敲除'
-        else:
-            tech = 'CRISPR基因编辑'
-    elif any(k in text_lower for k in ['car-t', 'car t', 'chimeric antigen receptor']):
-        tech = 'CAR-T细胞治疗'
-    elif any(k in text_lower for k in ['adc', 'antibody-drug conjugate']):
-        tech = '抗体偶联药物'
-    elif any(k in text_lower for k in ['bispecific']):
-        tech = '双特异性抗体'
-    elif any(k in text_lower for k in ['mrna', 'rna']):
-        tech = 'mRNA技术'
-    elif any(k in text_lower for k in ['ipsc', 'stem cell']):
-        tech = '干细胞技术'
+    background = '；'.join(background_parts) if background_parts else ''
 
-    # 关键发现 - 从摘要中提取
-    findings = []
-    if 'identified' in text_lower or 'identified' in abstract[:500].lower():
-        findings.append('鉴定出关键靶点')
-    if 'inhibition' in text_lower or 'inhibit' in text_lower:
-        findings.append('抑制作用')
+    # ===== 2. 实验方法 =====
+    method_parts = []
+
+    # 技术平台
+    tech_map = {
+        'crispr': 'CRISPR基因编辑',
+        'cas9': 'Cas9基因编辑',
+        'base editing': '碱基编辑',
+        'prime editing': '先导编辑',
+        'car-t': 'CAR-T细胞治疗',
+        'car t': 'CAR-T细胞治疗',
+        'chimeric antigen receptor': 'CAR-T细胞治疗',
+        'adc': '抗体偶联药物(ADC)',
+        'antibody-drug conjugate': '抗体偶联药物(ADC)',
+        'bispecific': '双特异性抗体',
+        'mrna': 'mRNA技术',
+        'rna sequencing': 'RNA测序',
+        'rnaseq': 'RNA测序',
+        'rn-a seq': 'RNA测序',
+        'ipsc': '诱导多能干细胞(iPSC)',
+        'stem cell': '干细胞技术',
+        'gene therapy': '基因治疗',
+        'vivio crispr': '体内CRISPR基因编辑',
+        'knockout': '基因敲除',
+        'knock-in': '基因敲入',
+        'sirna': 'siRNA干扰',
+        'mirna': 'miRNA研究',
+    }
+
+    techs = []
+    for eng, cn in tech_map.items():
+        if eng in text_lower:
+            techs.append(cn)
+    techs = list(dict.fromkeys(techs))
+
+    if techs:
+        method_parts.append(f"采用{'/'.join(techs[:2])}技术")
+
+    # 实验模型
+    if 'patient-derived' in text_lower or 'pdx' in text_lower:
+        method_parts.append('使用患者来源肿瘤移植模型(PDX)')
+    if 'organoid' in text_lower:
+        method_parts.append('使用类器官模型')
+    if 'mouse model' in text_lower or 'murine' in text_lower:
+        method_parts.append('使用小鼠模型')
+    if 'non-human primate' in text_lower or 'primate' in text_lower:
+        method_parts.append('使用非人灵长类动物模型')
+    if 'single-cell' in text_lower:
+        method_parts.append('单细胞测序分析')
+
+    # 检测方法
+    if 'rna-seq' in text_lower or 'rnaseq' in text_lower:
+        method_parts.append('RNA-seq转录组分析')
+    if 'proteomics' in text_lower:
+        method_parts.append('蛋白质组学分析')
+    if 'bioinformatics' in text_lower:
+        method_parts.append('生物信息学分析')
+    if 'screening' in text_lower:
+        method_parts.append('高通量筛选')
+
+    method = '；'.join(method_parts) if method_parts else '常规实验方法'
+
+    # ===== 3. 实验结果 =====
+    result_parts = []
+
+    # 关键发现
+    if 'identified' in text_lower or 'discovery' in text_lower:
+        result_parts.append('鉴定出关键基因/靶点')
+    if 'inhibit' in text_lower or 'suppress' in text_lower or 'repression' in text_lower:
+        result_parts.append('发现抑制性作用')
+    if 'promote' in text_lower or 'activation' in text_lower or 'induced' in text_lower:
+        result_parts.append('发现促进作用')
     if 'migration' in text_lower or 'invasion' in text_lower:
-        findings.append('抑制细胞迁移和侵袭')
+        result_parts.append('抑制细胞迁移和侵袭能力')
+    if 'proliferation' in text_lower or 'growth' in text_lower:
+        result_parts.append('抑制细胞增殖')
+    if 'apoptosis' in text_lower:
+        result_parts.append('诱导细胞凋亡')
     if 'survival' in text_lower:
-        findings.append('影响患者生存期')
+        result_parts.append('延长生存期')
     if 'efficacy' in text_lower or 'effective' in text_lower:
-        findings.append('显示有效性')
-    if 'safety' in text_lower:
-        findings.append('安全性良好')
+        result_parts.append('显示良好有效性')
+    if 'safety' in text_lower or 'tolerable' in text_lower or 'toxicity' in text_lower:
+        result_parts.append('安全性可接受')
 
-    # 组装摘要
-    if disease:
-        summary_parts.append(f'研究聚焦{disease}')
-    if tech:
-        summary_parts.append(f'采用{tech}方法')
-    if findings:
-        summary_parts.append('、'.join(findings[:2]))
+    # 具体数据（如果摘要中有数字）
+    import re
+    numbers = re.findall(r'\d+\.?\d*%', abstract)
+    if numbers:
+        result_parts.append(f'相关数据: {numbers[0]}')
 
-    # 期刊
+    result = '；'.join(result_parts) if result_parts else '取得了重要的实验数据'
+
+    # ===== 4. 研究意义 =====
+    significance_parts = []
+
+    if 'novel' in text_lower or 'new target' in text_lower or 'first time' in text_lower:
+        significance_parts.append('为相关疾病治疗提供了新靶点')
+    if 'potential therapeutic' in text_lower or 'therapeutic target' in text_lower:
+        significance_parts.append('具有潜在治疗应用价值')
+    if 'biomarker' in text_lower:
+        significance_parts.append('可作为预后生物标志物')
+    if 'drug discovery' in text_lower or 'drug development' in text_lower:
+        significance_parts.append('为药物研发提供新方向')
+    if 'combination' in text_lower or 'synergistic' in text_lower:
+        significance_parts.append('支持联合治疗策略')
+
+    # 期刊信息
     if article.get('journal'):
-        summary_parts.append(f'发表在《{article["journal"]}》')
+        significance_parts.append(f'发表在《{article["journal"]}》')
 
-    cn_summary = '；'.join(summary_parts) if summary_parts else ''
+    significance = '；'.join(significance_parts) if significance_parts else '对领域发展具有参考价值'
 
+    # ===== 组装完整中文详情 =====
+    cn_summary = f"【研究背景】{background}。" if background else ''
+    cn_summary += f"\n【实验方法】{method}。"
+    cn_summary += f"\n【实验结果】{result}。"
+    cn_summary += f"\n【研究意义】{significance}。"
+
+    # 翻译的英文摘要（用于对照）
+    cn_abstract = translate_paper_keywords(abstract[:1000]) if abstract else ''
+
+    return cn_title, cn_abstract, cn_summary
     # 翻译的英文摘要（用于对照）
     cn_abstract = translate_paper_keywords(abstract[:800]) if abstract else ''
 
