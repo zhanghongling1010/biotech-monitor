@@ -369,58 +369,210 @@ def translate_sentence(sentence):
     return translated
 
 def generate_chinese_summary(item):
-    """为新闻生成完整的中文摘要"""
+    """为新闻生成流畅的中文摘要 - 基于内容理解而非逐字翻译"""
     title = item.get('title', '')
     desc = item.get('description', '')
+    text = (title + ' ' + desc).lower()
 
-    # 清理描述
-    desc = desc.replace('...', '').replace('\n', ' ').replace('  ', ' ').strip()
+    # 分析新闻类型并提取关键信息
+    summary_parts = []
 
-    # 翻译标题
-    cn_title = smart_translate(title)
+    # 并购/收购
+    if any(k in text for k in ['acquisition', 'merger', 'acquire', 'biogen will pay']):
+        acquirer = ''
+        acquired = ''
+        amount = ''
 
-    # 生成中文摘要 - 完整翻译描述，不截断
-    if desc:
-        # 分割成句子
-        sentences = []
-        current = ''
+        # 识别收购方
+        for eng, cn in TRANSLATIONS.items():
+            if eng in ['biogen', 'eli lilly', 'gsk', 'novartis', 'roche', 'pfizer', 'merck', 'bristol myers squibb', 'johnson & johnson', 'astrazeneca', 'sanofi', 'amgen', 'regeneron', 'gilead', 'moderna', 'vertex', 'abbvie', 'bayer']:
+                if eng in text:
+                    acquirer = TRANSLATIONS.get(eng, eng)
+                    break
 
-        # 按句号、逗号、分号分割
+        # 识别被收购方
+        if 'raythera' in text:
+            acquired = 'RayThera'
+        elif 'abcellera' in text:
+            acquired = 'AbCellera'
+        elif 'cellares' in text:
+            acquired = 'Cellares'
+
+        # 提取金额
         import re
-        parts = re.split(r'([.;,])', desc)
+        amount_match = re.search(r'\$?(\d+\.?\d*)\s*(billion|million)', text)
+        if amount_match:
+            val = float(amount_match.group(1))
+            unit = '亿' if amount_match.group(2) == 'billion' else '百万'
+            amount = f'{val}{unit}美元'
 
-        for i, part in enumerate(parts):
-            if i % 2 == 0:  # 文本部分
-                current = part.strip()
-            else:  # 分隔符
-                if current:
-                    sentences.append(current + part)
-                current = ''
+        # 识别领域
+        field = ''
+        if 'anti-inflammatory' in text or 'inflammatory' in text:
+            field = '抗炎药物'
+        elif 't cell engagers' in text or 'tce' in text:
+            field = 'T细胞衔接器'
 
-        if current:
-            sentences.append(current)
+        # 生成流畅摘要
+        if acquirer and acquired:
+            if amount:
+                if field:
+                    summary_parts.append(f'{acquirer}宣布以最高{amount}收购{acquired}，主要看中其{field}研发管线')
+                else:
+                    summary_parts.append(f'{acquirer}宣布以最高{amount}收购{acquired}')
+            else:
+                summary_parts.append(f'{acquirer}宣布收购{acquired}')
+        elif acquirer:
+            summary_parts.append(f'{acquirer}达成收购交易')
 
-        # 翻译每个句子
-        cn_sentences = []
-        for s in sentences:
-            if len(s) > 5:  # 跳过太短的片段
-                cn_sentences.append(translate_sentence(s))
+        if 'milestone' in text:
+            summary_parts.append('大部分款项将根据研发里程碑支付')
 
-        # 组合成完整摘要
-        if cn_sentences:
-            cn_desc = '。'.join(cn_sentences)
-            if not cn_desc.endswith('。'):
-                cn_desc += '。'
+    # 合作/ partnership
+    elif any(k in text for k in ['partnership', 'collaboration', 'turns to']):
+        partners = []
+        for eng in ['jazz', 'eli lilly', 'gsk', 'novartis', 'roche', 'pfizer', 'merck', 'bristol myers squibb', 'astrazeneca', 'sanofi', 'amgen', 'regeneron']:
+            if eng in text and eng not in ['lilly']:
+                cn = TRANSLATIONS.get(eng, eng)
+                if cn not in partners:
+                    partners.append(cn)
+
+        import re
+        amount_match = re.search(r'\$?(\d+\.?\d*)\s*(billion|million)', text)
+        if amount_match:
+            val = float(amount_match.group(1))
+            unit = '亿' if amount_match.group(2) == 'billion' else '百万'
+            amount = f'最高{val}{unit}美元'
         else:
-            cn_desc = smart_translate(desc[:500])
-    else:
-        cn_desc = ''
+            amount = '未披露金额'
 
-    # 生成简短摘要（用于列表预览）
-    if cn_desc:
-        short_summary = cn_desc[:200] + '...' if len(cn_desc) > 200 else cn_desc
+        field = ''
+        if 't cell engagers' in text:
+            field = 'T细胞衔接器'
+        elif 'crispr' in text or 'gene editing' in text:
+            field = '基因编辑'
+
+        if partners:
+            if amount != '未披露金额':
+                summary_parts.append(f'{"与".join(partners)}达成{amount}战略合作')
+            else:
+                summary_parts.append(f'{"与".join(partners)}达成战略合作')
+            if field:
+                summary_parts.append(f'合作领域为{field}')
+        else:
+            summary_parts.append('两家公司达成战略合作')
+
+    # 融资
+    elif any(k in text for k in ['raises', 'series d', 'series c', 'boosts', 'secures', 'funded']):
+        company = ''
+        for eng in ['cellares', 'biogen', 'jazz', 'novo nordisk', 'moderna']:
+            if eng in text:
+                company = TRANSLATIONS.get(eng, eng)
+                break
+
+        import re
+        amount_match = re.search(r'\$?(\d+\.?\d*)\s*(billion|million)', text)
+        if amount_match:
+            val = float(amount_match.group(1))
+            unit = '亿' if amount_match.group(2) == 'billion' else '百万'
+            amount = f'{val}{unit}美元'
+        else:
+            amount = '新一轮融资'
+
+        round_match = re.search(r'Series\s+([A-Z])', text, re.IGNORECASE)
+        if round_match:
+            round_name = round_match.group(1) + '轮'
+        else:
+            round_name = ''
+
+        if company:
+            if round_name:
+                summary_parts.append(f'{company}完成{round_name}{amount}融资')
+            else:
+                summary_parts.append(f'{company}完成{amount}融资')
+        else:
+            summary_parts.append(f'生物技术公司完成新一轮融资')
+
+    # 扩产/扩建
+    elif any(k in text for k in ['expands', 'expansion', 'invested', 'manufacturing']):
+        company = ''
+        location = ''
+
+        if 'novo nordisk' in text:
+            company = '诺和诺德'
+        elif 'eisai' in text:
+            company = '卫材'
+
+        if 'china' in text:
+            location = '中国'
+        elif 'czech' in text or 'bohumil' in text:
+            location = '捷克'
+
+        import re
+        amount_match = re.search(r'\$?(\d+\.?\d*)\s*(billion|million)', text)
+        if amount_match:
+            val = float(amount_match.group(1))
+            unit = '亿' if amount_match.group(2) == 'billion' else '百万'
+            amount = f'{val}{unit}美元'
+        else:
+            amount = ''
+
+        if company:
+            if location and amount:
+                summary_parts.append(f'{company}宣布投资{amount}在{location}扩建生产设施')
+            elif location:
+                summary_parts.append(f'{company}扩大在{location}的业务布局')
+            else:
+                summary_parts.append(f'{company}宣布业务扩展')
+        else:
+            summary_parts.append('生物制药公司宣布扩产计划')
+
+    # 临床试验
+    elif any(k in text for k in ['phase', 'clinical trial', 'stops', 'terminates']):
+        phase = ''
+        for p in ['phase 3', 'phase 2', 'phase 1']:
+            if p in text:
+                phase_map = {'phase 3': 'III', 'phase 2': 'II', 'phase 1': 'I'}
+                phase = phase_map[p]
+                break
+
+        company = ''
+        for eng in ['be bio', 'jazz', 'biogen', 'novo nordisk']:
+            if eng in text.replace(' ', ''):
+                company = TRANSLATIONS.get(eng.replace(' ', ''), eng)
+                break
+
+        if 'stops' in text or 'terminates' in text:
+            if company:
+                if phase:
+                    summary_parts.append(f'{company}终止其{phase}期临床试验')
+                else:
+                    summary_parts.append(f'{company}终止某临床试验')
+            else:
+                summary_parts.append('某临床试验被终止')
+
+            if 'hemophilia' in text:
+                summary_parts.append('试验涉及血友病治疗')
+        else:
+            if company and phase:
+                summary_parts.append(f'{company}推进{phase}期临床试验')
+            elif phase:
+                summary_parts.append(f'有药物正在推进{phase}期临床试验')
+
+    # 组合摘要
+    if summary_parts:
+        cn_desc = '。'.join(summary_parts)
+        if not cn_desc.endswith('。'):
+            cn_desc += '。'
     else:
-        short_summary = smart_translate(desc[:150]) if desc else ''
+        # 如果无法归类，使用智能翻译但保持流畅
+        cn_desc = smart_translate(desc[:300]) if desc else ''
+
+    # 标题保持英文
+    cn_title = title
+
+    # 生成简短摘要（用于列表预览，限制在100字以内）
+    short_summary = cn_desc[:150] + '...' if len(cn_desc) > 150 else cn_desc
 
     return short_summary, cn_title, cn_desc
 

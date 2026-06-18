@@ -209,9 +209,9 @@ function renderPaperSection(containerId, items) {
     container.innerHTML = items.map(paper => `
         <div class="paper-card" onclick="openPaperDetail(${JSON.stringify(paper).replace(/"/g, '&quot;')})">
             <div class="paper-journal">${paper.journal || '期刊'}</div>
-            <h4>${paper.title_cn || paper.title || '无标题'}</h4>
+            <h4>${paper.title || '无标题'}</h4>
             <div class="authors">${(paper.authors || []).slice(0, 3).join(', ')}${(paper.authors || []).length > 3 ? ' et al.' : ''}</div>
-            ${paper.abstract_cn ? `<p class="abstract">${paper.abstract_cn}</p>` : paper.abstract ? `<p class="abstract">${paper.abstract}</p>` : ''}
+            ${paper.summary_cn ? `<p class="abstract">${paper.summary_cn}</p>` : paper.abstract_cn ? `<p class="abstract">${paper.abstract_cn}</p>` : paper.abstract ? `<p class="abstract">${paper.abstract}</p>` : ''}
             <div class="tags">
                 ${(paper.keywords || []).slice(0, 4).map(k => `<span class="tag">${k}</span>`).join('')}
             </div>
@@ -326,8 +326,8 @@ function openModal(type, index) {
     document.getElementById('modalTag').textContent = tag;
     document.getElementById('modalTag').className = 'modal-tag ' + typeClass;
 
-    // Title - prefer Chinese
-    const title = item.title_cn || item.title || '无标题';
+    // Title - show English title
+    const title = item.title || item.title_cn || '无标题';
     document.getElementById('modalTitle').textContent = title;
 
     // Meta info

@@ -49,17 +49,53 @@ def merge_data():
     bd_clinical = [item for item in bd_news_data.get('items', []) if 'clinical' in item.get('categories', [])]
     bd_regulatory = [item for item in bd_news_data.get('items', []) if 'regulatory' in item.get('categories', [])]
 
+    # 标准化新闻数据格式：确保title为英文，description_cn为中文
+    def normalize_news_item(item):
+        return {
+            'title': item.get('title', ''),  # 英文标题
+            'title_cn': item.get('title_cn', item.get('title', '')),  # 保持英文
+            'description_cn': item.get('description_cn', ''),  # 中文摘要
+            'description': item.get('description', ''),  # 英文原文
+            'link': item.get('link', ''),
+            'source': item.get('source', ''),
+            'date': item.get('date', item.get('pub_date', '')),
+            'companies': item.get('companies', []),
+            'priority': item.get('priority', 'normal')
+        }
+
+    bd_deals = [normalize_news_item(i) for i in bd_deals]
+    bd_clinical = [normalize_news_item(i) for i in bd_clinical]
+    bd_regulatory = [normalize_news_item(i) for i in bd_regulatory]
+
+    # 标准化公司数据格式
+    def normalize_company_deal(item):
+        # 如果title已经是中文，保留title为英文，把title_cn设为空
+        # 如果需要，这里可以添加翻译逻辑
+        return {
+            'title': item.get('title', ''),  # 保持原样
+            'title_cn': item.get('title_cn', item.get('title', '')),
+            'description_cn': item.get('description_cn', item.get('description', '')),
+            'description': item.get('description', ''),
+            'company': item.get('company', ''),
+            'value': item.get('value', ''),
+            'date': item.get('date', ''),
+            'priority': item.get('priority', 'normal')
+        }
+
+    company_deals = [normalize_company_deal(i) for i in company_data.get('deals', [])]
+    company_clinical = [normalize_company_deal(i) for i in company_data.get('clinical', [])]
+
     # 构建今日重点
     critical = {
-        'deals': company_data.get('deals', [])[:5] + bd_deals[:5],
-        'clinical': company_data.get('clinical', [])[:5] + bd_clinical[:5],
+        'deals': company_deals[:5] + bd_deals[:5],
+        'clinical': company_clinical[:5] + bd_clinical[:5],
         'approvals': bd_regulatory[:5]
     }
 
     # 每日简报
     daily = {
-        'deals': company_data.get('deals', []) + bd_deals,
-        'clinical': company_data.get('clinical', []) + bd_clinical,
+        'deals': company_deals + bd_deals,
+        'clinical': company_clinical + bd_clinical,
         'research': []
     }
 

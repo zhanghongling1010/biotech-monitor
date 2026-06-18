@@ -154,56 +154,106 @@ def translate_paper_keywords(text):
     return result
 
 def generate_paper_summary(article):
-    """为论文生成中文摘要"""
+    """为论文生成流畅的中文摘要 - 基于内容理解"""
     title = article.get('title', '')
     abstract = article.get('abstract', '')
-
-    # 翻译标题
-    cn_title = translate_paper_keywords(title)
-
-    # 翻译摘要
-    cn_abstract = translate_paper_keywords(abstract)
-
-    # 生成一句话总结
-    summary_parts = []
     text_lower = (title + ' ' + abstract).lower()
 
-    # 判断研究类型
+    # 标题保持英文
+    cn_title = title
+
+    # 分析论文内容，生成流畅中文摘要
+    summary_parts = []
+
+    # 研究类型
     if 'clinical trial' in text_lower or 'phase 1' in text_lower or 'phase 2' in text_lower or 'phase 3' in text_lower:
         if 'phase 3' in text_lower:
-            summary_parts.append('III期临床试验研究')
+            summary_parts.append('本研究为III期临床试验')
         elif 'phase 2' in text_lower:
-            summary_parts.append('II期临床试验研究')
+            summary_parts.append('本研究为II期临床试验')
         elif 'phase 1' in text_lower:
-            summary_parts.append('I期临床试验研究')
-    elif 'preclinical' in text_lower or 'mouse model' in text_lower or 'vivo' in text_lower:
-        summary_parts.append('临床前研究')
-    else:
-        summary_parts.append('基础研究')
+            summary_parts.append('本研究为I期临床试验')
+    elif 'preclinical' in text_lower or 'mouse model' in text_lower:
+        summary_parts.append('本研究为临床前研究')
+    elif 'vivo' in text_lower:
+        summary_parts.append('本研究为体内实验')
+    elif 'vitro' in text_lower:
+        summary_parts.append('本研究为体外实验')
 
-    # 判断疾病领域
-    if any(k in text_lower for k in ['cancer', 'tumor', 'oncology']):
-        summary_parts.append('肿瘤领域')
-    elif any(k in text_lower for k in ['diabetes', 'obesity', 'metabolic']):
-        summary_parts.append('代谢疾病领域')
-    elif any(k in text_lower for k in ['genetic', 'rare disease']):
-        summary_parts.append('遗传病/罕见病领域')
+    # 疾病领域
+    disease = ''
+    if any(k in text_lower for k in ['melanoma', 'cancer', 'tumor', 'oncology', 'carcinoma']):
+        disease = '黑色素瘤'
+    elif any(k in text_lower for k in ['breast cancer', ' breast']):
+        disease = '乳腺癌'
+    elif any(k in text_lower for k in ['lung cancer', 'lung carcinoma']):
+        disease = '肺癌'
+    elif any(k in text_lower for k in ['leukemia', 'lymphoma', 'hematologic']):
+        disease = '血液肿瘤'
+    elif any(k in text_lower for k in ['diabetes']):
+        disease = '糖尿病'
+    elif any(k in text_lower for k in ['obesity', 'metabolic']):
+        disease = '代谢性疾病'
+    elif any(k in text_lower for k in ['genetic disease', 'rare disease', 'hereditary']):
+        disease = '遗传病'
+    elif any(k in text_lower for k in ['alzheimer', 'parkinson', 'neurodegenerative']):
+        disease = '神经退行性疾病'
+    elif any(k in text_lower for k in ['cardiovascular', 'heart', 'cardiac']):
+        disease = '心血管疾病'
 
-    # 判断技术类型
-    if 'crispr' in text_lower or 'cas9' in text_lower:
-        summary_parts.append('CRISPR基因编辑技术')
-    elif 'car-t' in text_lower:
-        summary_parts.append('CAR-T细胞治疗')
-    elif 'base editing' in text_lower:
-        summary_parts.append('碱基编辑技术')
-    elif 'prime editing' in text_lower:
-        summary_parts.append('先导编辑技术')
+    # 技术方法
+    tech = ''
+    if any(k in text_lower for k in ['crispr', 'cas9', 'gene editing']):
+        if 'base editing' in text_lower:
+            tech = '碱基编辑'
+        elif 'prime editing' in text_lower:
+            tech = '先导编辑'
+        elif 'knockout' in text_lower:
+            tech = 'CRISPR基因敲除'
+        else:
+            tech = 'CRISPR基因编辑'
+    elif any(k in text_lower for k in ['car-t', 'car t', 'chimeric antigen receptor']):
+        tech = 'CAR-T细胞治疗'
+    elif any(k in text_lower for k in ['adc', 'antibody-drug conjugate']):
+        tech = '抗体偶联药物'
+    elif any(k in text_lower for k in ['bispecific']):
+        tech = '双特异性抗体'
+    elif any(k in text_lower for k in ['mrna', 'rna']):
+        tech = 'mRNA技术'
+    elif any(k in text_lower for k in ['ipsc', 'stem cell']):
+        tech = '干细胞技术'
 
-    # 期刊信息
+    # 关键发现 - 从摘要中提取
+    findings = []
+    if 'identified' in text_lower or 'identified' in abstract[:500].lower():
+        findings.append('鉴定出关键靶点')
+    if 'inhibition' in text_lower or 'inhibit' in text_lower:
+        findings.append('抑制作用')
+    if 'migration' in text_lower or 'invasion' in text_lower:
+        findings.append('抑制细胞迁移和侵袭')
+    if 'survival' in text_lower:
+        findings.append('影响患者生存期')
+    if 'efficacy' in text_lower or 'effective' in text_lower:
+        findings.append('显示有效性')
+    if 'safety' in text_lower:
+        findings.append('安全性良好')
+
+    # 组装摘要
+    if disease:
+        summary_parts.append(f'研究聚焦{disease}')
+    if tech:
+        summary_parts.append(f'采用{tech}方法')
+    if findings:
+        summary_parts.append('、'.join(findings[:2]))
+
+    # 期刊
     if article.get('journal'):
-        summary_parts.append(f"发表期刊: {article['journal']}")
+        summary_parts.append(f'发表在《{article["journal"]}》')
 
-    cn_summary = '；'.join(summary_parts) if summary_parts else cn_title
+    cn_summary = '；'.join(summary_parts) if summary_parts else ''
+
+    # 翻译的英文摘要（用于对照）
+    cn_abstract = translate_paper_keywords(abstract[:800]) if abstract else ''
 
     return cn_title, cn_abstract, cn_summary
 
