@@ -146,6 +146,12 @@ main {
     padding: 1.25rem;
     box-shadow: var(--shadow);
     border-left: 4px solid var(--primary);
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+.alert-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .alert-card.critical {
@@ -163,6 +169,26 @@ main {
     justify-content: space-between;
     align-items: start;
     margin-bottom: 0.75rem;
+    gap: 1rem;
+}
+
+.alert-card .header-right {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.alert-card .companies {
+    font-size: 0.75rem;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.alert-card .expand-icon {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    transition: transform 0.2s;
 }
 
 .alert-card .tag {
@@ -194,10 +220,47 @@ main {
     margin-top: 0.5rem;
 }
 
+/* Card Detail (Expandable) */
+.card-detail {
+    display: none;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+}
+
+.card-detail.expanded {
+    display: block;
+}
+
+.card-detail .description {
+    font-size: 0.875rem;
+    color: var(--text-primary);
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+}
+
+.card-detail .meta-item {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+}
+
+.card-detail .read-more {
+    display: inline-block;
+    margin-top: 0.75rem;
+    color: var(--primary);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.card-detail .read-more:hover {
+    text-decoration: underline;
+}
+
 /* ===== Daily Brief Grid ===== */
 .brief-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 }
 
@@ -208,6 +271,10 @@ main {
     box-shadow: var(--shadow);
 }
 
+.brief-card.wide {
+    grid-column: span 1;
+}
+
 .brief-card h3 {
     font-size: 1rem;
     font-weight: 600;
@@ -216,28 +283,129 @@ main {
     border-bottom: 1px solid var(--border);
 }
 
-.brief-card ul {
-    list-style: none;
+.brief-card > div {
+    max-height: 500px;
+    overflow-y: auto;
 }
 
-.brief-card li {
+/* Brief Items */
+.brief-item {
     padding: 0.75rem 0;
     border-bottom: 1px solid var(--border);
-    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background 0.2s;
 }
 
-.brief-card li:last-child {
+.brief-item:hover {
+    background: var(--bg-light);
+    margin: 0 -0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.brief-item:last-child {
     border-bottom: none;
 }
 
-.brief-card li .item-title {
+.brief-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 0.5rem;
+}
+
+.brief-item .item-title {
     font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.4;
+}
+
+.brief-item .expand-icon {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    transition: transform 0.2s;
+    flex-shrink: 0;
+}
+
+.brief-item .brief-item-meta {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 0.35rem;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    flex-wrap: wrap;
+}
+
+.brief-item .brief-item-meta .value {
+    color: var(--success);
+    font-weight: 500;
+}
+
+.brief-item .brief-item-meta .stage {
+    background: #e0e7ff;
+    color: #3730a3;
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+}
+
+.brief-item .brief-item-meta .journal {
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.brief-item .card-detail {
+    display: none;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px dashed var(--border);
+}
+
+.brief-item .card-detail.expanded {
     display: block;
 }
 
-.brief-card li .item-meta {
+.brief-item .card-detail p {
+    font-size: 0.8rem;
+    color: var(--text-primary);
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+.brief-item .card-detail .abstract {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.brief-item .card-detail .authors,
+.brief-item .card-detail .keywords {
     font-size: 0.75rem;
     color: var(--text-secondary);
+    margin-top: 0.35rem;
+}
+
+.brief-item .card-detail .read-more {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: var(--primary);
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.empty-card {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+}
+
+.section-desc {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
 }
 
 /* ===== Paper Grid ===== */

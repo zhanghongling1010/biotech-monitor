@@ -108,15 +108,26 @@ function renderCritical(data) {
         return;
     }
 
-    container.innerHTML = items.map(item => `
-        <div class="alert-card ${item.priority === 'critical' ? 'critical' : 'warning'}">
+    container.innerHTML = items.map((item, idx) => `
+        <div class="alert-card ${item.priority === 'critical' ? 'critical' : 'warning'}" onclick="toggleDetail('critical-${idx}')">
             <div class="card-header">
                 <span class="tag ${item.type}">${item.tag}</span>
-                <span class="date">${item.date || ''}</span>
+                <div class="header-right">
+                    ${item.companies?.length ? `<span class="companies">${item.companies.join(', ')}</span>` : ''}
+                    <span class="date">${formatDate(item.date || item.pub_date || '')}</span>
+                    <span class="expand-icon">▼</span>
+                </div>
             </div>
             <h4>${item.title}</h4>
-            <p>${item.description || ''}</p>
-            ${item.source ? `<div class="meta">来源: ${item.source}</div>` : ''}
+            <div class="card-detail" id="critical-${idx}">
+                ${item.description ? `<p class="description">${item.description}</p>` : ''}
+                ${item.value ? `<div class="meta-item"><strong>交易金额:</strong> ${item.value}</div>` : ''}
+                ${item.indication ? `<div class="meta-item"><strong>适应症:</strong> ${item.indication}</div>` : ''}
+                ${item.stage ? `<div class="meta-item"><strong>阶段:</strong> ${item.stage}</div>` : ''}
+                ${item.company ? `<div class="meta-item"><strong>公司:</strong> ${item.company}</div>` : ''}
+                ${item.link ? `<a href="${item.link}" target="_blank" class="read-more" onclick="event.stopPropagation()">阅读原文 →</a>` : ''}
+                ${item.source ? `<div class="meta">来源: ${item.source}</div>` : ''}
+            </div>
         </div>
     `).join('');
 }
@@ -125,30 +136,81 @@ function renderCritical(data) {
 function renderDailyBrief(data) {
     // Deals
     const dealsList = document.getElementById('dealsList');
-    dealsList.innerHTML = (data.daily?.deals || []).map(d => `
-        <li>
-            <span class="item-title">${d.title}</span>
-            <span class="item-meta">${d.company} | ${d.value || ''} | ${d.date || ''}</span>
-        </li>
-    `).join('') || '<li>暂无新交易</li>';
+    const deals = data.daily?.deals || [];
+    if (deals.length === 0) {
+        dealsList.innerHTML = '<div class="empty-card">暂无新交易</div>';
+    } else {
+        dealsList.innerHTML = deals.map((d, i) => `
+            <div class="brief-item" onclick="toggleDetail('deal-${i}')">
+                <div class="brief-item-header">
+                    <span class="item-title">${d.title}</span>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="brief-item-meta">
+                    ${d.company ? `<span>${d.company}</span>` : ''}
+                    ${d.value ? `<span class="value">${d.value}</span>` : ''}
+                    ${d.date ? `<span class="date">${formatDate(d.date)}</span>` : ''}
+                </div>
+                <div class="card-detail" id="deal-${i}">
+                    ${d.description ? `<p>${d.description}</p>` : ''}
+                    ${d.link ? `<a href="${d.link}" target="_blank" class="read-more" onclick="event.stopPropagation()">阅读原文 →</a>` : ''}
+                </div>
+            </div>
+        `).join('');
+    }
 
     // Clinical
     const clinicalList = document.getElementById('clinicalList');
-    clinicalList.innerHTML = (data.daily?.clinical || []).map(c => `
-        <li>
-            <span class="item-title">${c.title}</span>
-            <span class="item-meta">${c.company} | ${c.indication} | ${c.stage}</span>
-        </li>
-    `).join('') || '<li>暂无临床进展</li>';
+    const clinical = data.daily?.clinical || [];
+    if (clinical.length === 0) {
+        clinicalList.innerHTML = '<div class="empty-card">暂无临床进展</div>';
+    } else {
+        clinicalList.innerHTML = clinical.map((c, i) => `
+            <div class="brief-item" onclick="toggleDetail('clinical-${i}')">
+                <div class="brief-item-header">
+                    <span class="item-title">${c.title}</span>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="brief-item-meta">
+                    ${c.company ? `<span>${c.company}</span>` : ''}
+                    ${c.indication ? `<span>${c.indication}</span>` : ''}
+                    ${c.stage ? `<span class="stage">${c.stage}</span>` : ''}
+                </div>
+                <div class="card-detail" id="clinical-${i}">
+                    ${c.description ? `<p>${c.description}</p>` : ''}
+                    ${c.link ? `<a href="${c.link}" target="_blank" class="read-more" onclick="event.stopPropagation()">阅读原文 →</a>` : ''}
+                </div>
+            </div>
+        `).join('');
+    }
 
-    // Research
+    // Research - Papers from PubMed
     const researchList = document.getElementById('researchList');
-    researchList.innerHTML = (data.daily?.research || []).slice(0, 5).map(r => `
-        <li>
-            <span class="item-title">${r.title}</span>
-            <span class="item-meta">${r.journal} | ${r.date || ''}</span>
-        </li>
-    `).join('') || '<li>暂无新文献</li>';
+    const papers = [];
+    for (const [cat, catPapers] of Object.entries(data.papers || {})) {
+        papers.push(...(catPapers || []).slice(0, 3));
+    }
+    if (papers.length === 0) {
+        researchList.innerHTML = '<div class="empty-card">暂无新文献</div>';
+    } else {
+        researchList.innerHTML = papers.slice(0, 8).map((p, i) => `
+            <div class="brief-item paper-item" onclick="toggleDetail('paper-${i}')">
+                <div class="brief-item-header">
+                    <span class="item-title">${p.title}</span>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="brief-item-meta">
+                    <span class="journal">${p.journal}</span>
+                    ${p.date ? `<span class="date">${p.date}</span>` : ''}
+                </div>
+                <div class="card-detail" id="paper-${i}">
+                    ${p.abstract ? `<p class="abstract">${p.abstract}</p>` : ''}
+                    ${p.authors?.length ? `<div class="authors">作者: ${p.authors.slice(0, 5).join(', ')}${p.authors.length > 5 ? ' et al.' : ''}</div>` : ''}
+                    ${p.keywords?.length ? `<div class="keywords">关键词: ${p.keywords.slice(0, 6).join(', ')}</div>` : ''}
+                </div>
+            </div>
+        `).join('');
+    }
 }
 
 // ===== Render Papers by Section =====
@@ -241,6 +303,24 @@ function renderEarnings(data) {
             </li>
         `;
     }).join('');
+}
+
+// ===== Helper Functions =====
+function toggleDetail(id) {
+    const detail = document.getElementById(id);
+    if (detail) {
+        detail.classList.toggle('expanded');
+    }
+}
+
+function formatDate(dateStr) {
+    if (!dateStr) return '';
+    try {
+        const d = new Date(dateStr);
+        return d.toLocaleDateString('zh-CN', { month: '2-digit', day: '2-digit' });
+    } catch {
+        return dateStr;
+    }
 }
 
 // ===== Sample Data for Demo =====

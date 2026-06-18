@@ -37,6 +37,7 @@
         <!-- 今日重点 Critical Today -->
         <section id="today" class="section active">
             <h2 class="section-title">🔴 今日重点 Critical</h2>
+            <div class="section-desc">重大BD/并购、临床数据读出、监管批准、高管变动</div>
             <div class="alert-cards" id="criticalCards">
                 <!-- 重大事件卡片 -->
             </div>
@@ -45,18 +46,19 @@
         <!-- 每日简报 Daily Brief -->
         <section id="daily" class="section">
             <h2 class="section-title">📋 每日简报 Daily Brief</h2>
+            <div class="section-desc">新交易汇总、临床进展、科研文献速递</div>
             <div class="brief-grid">
-                <div class="brief-card">
-                    <h3>💰 新交易 Deals</h3>
-                    <ul id="dealsList"></ul>
+                <div class="brief-card wide">
+                    <h3>💰 BD交易 Deals</h3>
+                    <div id="dealsList"></div>
                 </div>
-                <div class="brief-card">
+                <div class="brief-card wide">
                     <h3>🧪 临床进展 Clinical</h3>
-                    <ul id="clinicalList"></ul>
+                    <div id="clinicalList"></div>
                 </div>
                 <div class="brief-card">
-                    <h3>📚 科研新文 Research</h3>
-                    <ul id="researchList"></ul>
+                    <h3>📚 科研文献 Research</h3>
+                    <div id="researchList"></div>
                 </div>
             </div>
         </section>
