@@ -173,293 +173,311 @@ REGULATORY_KEYWORDS = [
     '获批', '批准', '拒绝', '优先审评'
 ]
 
-# 中文翻译映射
+# 完整翻译字典（短语优先）
 TRANSLATIONS = {
-    # 交易类型
-    'strategic partnership': '达成战略合作',
-    'partnership': '合作',
-    'collaboration': '合作',
-    'acquisition': '收购',
-    'merger': '并购',
-    'licensing deal': '授权许可交易',
-    'licensing': '授权',
-    'deal': '交易',
-    # 融资
-    'raises': '完成融资',
-    'raises $': '完成',
-    'million in': '融资金额',
-    'billion in': '融资金额',
-    'ipo': 'IPO上市',
-    'series a': 'A轮',
-    'series b': 'B轮',
-    'series c': 'C轮',
-    'funding': '融资',
-    # 临床阶段
-    'phase 3': 'III期临床',
-    'phase 2': 'II期临床',
-    'phase 1': 'I期临床',
-    'clinical trial': '临床试验',
-    'data readout': '数据公布',
-    'topline results': '主要结果',
-    'interim analysis': '中期分析',
-    # 监管
-    'fda approval': 'FDA批准',
-    'ema approval': 'EMA批准',
-    'receives approval': '获得批准',
-    'approved': '获批',
-    'rejected': '被拒/拒绝',
+    # 完整短语
+    'strategic partnership': '战略合作',
+    'T cell engagers': 'T细胞衔接器',
+    'T cell engager': 'T细胞衔接器',
+    'phase 3 trial': 'III期临床试验',
+    'phase 2 trial': 'II期临床试验',
+    'phase 1 trial': 'I期临床试验',
+    'phase 3 study': 'III期临床研究',
+    'phase 2 study': 'II期临床研究',
+    'phase 1 study': 'I期临床研究',
     'breakthrough therapy': '突破性疗法',
-    # 公司类型
-    'biotech': '生物科技公司',
-    'biopharmaceutical': '生物制药公司',
-    'pharmaceutical': '制药公司',
-    # 技术
-    'car-t': 'CAR-T细胞疗法',
-    'car t': 'CAR-T',
-    'gene therapy': '基因疗法',
+    'clinical trial': '临床试验',
+    'clinical data': '临床数据',
+    'topline results': '主要试验结果',
+    'interim analysis': '中期分析',
+    'rare disease': '罕见病',
+    'gene therapy': '基因治疗',
     'gene editing': '基因编辑',
+    'cell therapy': '细胞治疗',
+    'antibody drug conjugate': '抗体偶联药物',
+    'anti-inflammatory': '抗炎',
+    'manufacturing facility': '生产设施',
+    'Series D': 'D轮融资',
+    'Series C': 'C轮融资',
+    'Series B': 'B轮融资',
+    'Series A': 'A轮融资',
+    'has invested': '投资',
+    'invests': '投资',
+    'invested': '投资',
+    'boosts': '获得',
+    'announced': '宣布',
+    'announced plans': '公布计划',
+    'expand': '扩展',
+    'expansion': '扩展',
+    'in China': '在中国',
+    'in the Czech Republic': '在捷克共和国',
+    'Czech Republic': '捷克共和国',
+    # 公司名称
+    'biogen': 'Biogen',
+    'eli lilly': '礼来',
+    'gsk': '葛兰素史克',
+    'novartis': '诺华',
+    'roche': '罗氏',
+    'pfizer': '辉瑞',
+    'merck': '默克',
+    'bristol myers squibb': '百时美施贵宝',
+    'johnson & johnson': '强生',
+    'astrazeneca': '阿斯利康',
+    'sanofi': '赛诺菲',
+    'amgen': '安进',
+    'regeneron': '再生元',
+    'gilead': '吉利德',
+    'moderna': 'Moderna',
+    'vertex': '福泰制药',
+    'jazz': 'Jazz制药',
+    'novo nordisk': '诺和诺德',
+    'abbvie': '艾伯维',
+    'bayer': '拜耳',
+    ' Boehringer': '勃林格殷格翰',
+    ' BMS': 'BMS',
+    'cellares': 'Cellares',
+    'abcellera': 'AbCellera',
+    'raythera': 'RayThera',
+    # 技术词汇
+    'car-t': 'CAR-T',
+    'car t': 'CAR-T',
     'crispr': 'CRISPR',
     'base editing': '碱基编辑',
     'prime editing': '先导编辑',
-    'adc': '抗体偶联药物',
+    'adc': 'ADC',
     'bispecific': '双特异性抗体',
     'mrna': 'mRNA',
     'lnp': '脂质纳米颗粒',
     'glp-1': 'GLP-1',
+    'pdl1': 'PD-L1',
+    'pd-1': 'PD-1',
+    'ctla-4': 'CTLA-4',
     # 疾病
     'cancer': '肿瘤',
     'tumor': '肿瘤',
-    'oncology': '肿瘤',
-    'rare disease': '罕见病',
+    'oncology': '肿瘤学',
     'hemophilia': '血友病',
     'diabetes': '糖尿病',
     'obesity': '肥胖',
+    'alzheimer': '阿尔茨海默病',
+    'parkinson': '帕金森病',
     # 金额
     'billion': '亿美元',
-    'million': '万美元',
+    'million': '百万美元',
+    '$': '美元',
     # 其他
-    'therapy': '疗法',
-    'treatment': '治疗',
-    'drug candidate': '候选药物',
-    'drug': '药物',
-    'patient': '患者',
-    'study': '研究',
-    'trial': '试验',
-    'results': '结果',
-    'data': '数据',
-    'update': '更新',
-    'stops': '停止',
+    'acquisition': '收购',
+    'acquire': '收购',
+    'merger': '并购',
+    'merges': '并购',
+    'partnership': '合作',
+    'collaboration': '合作',
+    'licensing': '授权许可',
+    'ipo': 'IPO上市',
+    'funding': '融资',
+    'raises': '融资',
+    'secured': '获得',
+    'secures': '获得',
+    'milestone': '里程碑',
+    'upfront': '预付款',
+    'approval': '批准',
+    'approved': '获批',
+    'rejected': '被拒',
+    'discontinues': '终止',
     'terminates': '终止',
-    'anti-inflammatory': '抗炎',
-    ' T cell engagers': 'T细胞衔接器',
+    'pipeline': '研发管线',
+    'drug candidate': '候选药物',
+    'clinical stage': '临床阶段',
+    'preclinical': '临床前',
+    'phase': '期临床',
+    'patient': '患者',
+    'patients': '患者',
+    'study': '研究',
+    'studies': '研究',
+    'trial': '试验',
+    'trials': '试验',
+    'data': '数据',
+    'results': '结果',
+    'efficacy': '有效性',
+    'safety': '安全性',
+    'secures': '获得',
+    'expands': '扩展',
+    'expansion': '扩展',
+    'biotech': '生物技术公司',
+    'biotechnology': '生物技术',
+    'pharma': '制药',
+    'pharmaceutical': '制药',
+    'deal': '交易',
+    'options': '期权',
+    'receives': '获得',
+    'receive': '获得',
+    'to acquire': '收购',
+    'to purchase': '收购',
+    'raises': '融资',
+    'raise': '融资',
 }
 
-def translate_to_chinese(text):
-    """将英文关键词翻译为中文"""
+def smart_translate(text):
+    """智能翻译：优先匹配长词组，然后处理单词"""
     if not text:
         return ''
     result = text
 
-    # 按关键词长度排序（优先匹配长词）
-    sorted_keywords = sorted(TRANSLATIONS.keys(), key=len, reverse=True)
-    for kw in sorted_keywords:
-        # 替换时不使用单词边界，直接替换（长词优先）
-        result = result.replace(kw, TRANSLATIONS[kw])
-        result = result.replace(kw.capitalize(), TRANSLATIONS[kw])
-        result = result.replace(kw.upper(), TRANSLATIONS[kw])
+    # 先处理HTML标签和特殊字符
+    result = result.replace('<[^>]+>', '')
+    result = result.replace('&amp;', '&')
+    result = result.replace('&quot;', '"')
+    result = result.replace('\n', ' ')
+    result = result.replace('\r', ' ')
 
-    # 后处理：修复一些常见问题
-    result = result.replace('T 细胞', 'T细胞')
-    result = result.replace('细胞era', 'Cellera')  # 还原被误翻的公司名
-    result = result.replace('Biotech 生物', 'Biotech/生物')
+    # 按长度降序排列关键词，优先匹配最长词
+    sorted_items = sorted(TRANSLATIONS.items(), key=lambda x: len(x[0]), reverse=True)
+    for eng, cn in sorted_items:
+        # 大小写不敏感替换
+        pattern = eng
+        result = result.replace(pattern, cn)
+        result = result.replace(pattern.upper(), cn)
+        result = result.replace(pattern.capitalize(), cn)
 
-    return result
+    # 清理多余空格
+    while '  ' in result:
+        result = result.replace('  ', ' ')
+
+    # 修复常见问题
+    result = result.replace('Biotech 生物', 'Biotech公司')
+    result = result.replace('亿美元万美元', '亿美元')
+    result = result.replace('百万美元万美元', '百万美元')
+
+    return result.strip()
+
+def translate_sentence(sentence):
+    """翻译单个句子"""
+    sentence = sentence.strip()
+    if not sentence:
+        return ''
+
+    # 如果句子很短或几乎没有可翻译的词，直接返回原文
+    if len(sentence.split()) < 3:
+        return smart_translate(sentence)
+
+    # 智能翻译
+    translated = smart_translate(sentence)
+
+    # 修复不流畅的地方
+    translated = translated.replace('Biogen宣布收购Biogen', 'Biogen')
+
+    return translated
 
 def generate_chinese_summary(item):
     """为新闻生成完整的中文摘要"""
     title = item.get('title', '')
     desc = item.get('description', '')
-    # 清理描述中的省略号和多余空白
-    desc = desc.replace('...', '').replace('  ', ' ').strip()
-    text = title + ' ' + desc
-    text_lower = text.lower()
 
-    # 公司名称映射
-    company_names = {
-        'biogen': 'Biogen',
-        'eli lilly': '礼来(Eli Lilly)',
-        'lilly': '礼来',
-        'gsk': '葛兰素史克(GSK)',
-        'novartis': '诺华(Novartis)',
-        'roche': '罗氏(Roche)',
-        'pfizer': '辉瑞(Pfizer)',
-        'merck': '默克(Merck)',
-        'bristol myers squibb': '百时美施贵宝(BMS)',
-        'bms': '百时美施贵宝',
-        'johnson & johnson': '强生(J&J)',
-        'jnj': '强生',
-        'astrazeneca': '阿斯利康(AstraZeneca)',
-        'sanofi': '赛诺菲(Sanofi)',
-        'amgen': '安进(Amgen)',
-        'regeneron': '再生元(Regeneron)',
-        'gilead': '吉利德(Gilead)',
-        'moderna': 'Moderna',
-        'vertex': '福泰制药(Vertex)',
-        'jazz': 'Jazz Pharmaceuticals',
-        'novo nordisk': '诺和诺德(Novo Nordisk)',
-        ' Bayer': '拜耳(Bayer)'
-    }
+    # 清理描述
+    desc = desc.replace('...', '').replace('\n', ' ').replace('  ', ' ').strip()
 
-    # 判断新闻类型并生成中文摘要
-    if any(k in text_lower for k in ['acquisition', 'merger', 'acquire']):
-        # 找出收购方
-        acquirer = '某制药公司'
-        for eng, cn in company_names.items():
-            if eng in text_lower:
-                acquirer = cn
-                break
+    # 翻译标题
+    cn_title = smart_translate(title)
 
-        # 找出被收购方
-        acquired = '目标公司'
-        if 'raythera' in text_lower:
-            acquired = 'RayThera'
-        elif 'abcellera' in text_lower:
-            acquired = 'AbCellera'
+    # 生成中文摘要 - 完整翻译描述，不截断
+    if desc:
+        # 分割成句子
+        sentences = []
+        current = ''
 
-        # 提取金额
+        # 按句号、逗号、分号分割
         import re
-        amount_str = ''
-        billion_match = re.search(r'\$?(\d+\.?\d*)\s*billion', text_lower)
-        million_match = re.search(r'\$?(\d+\.?\d*)\s*million', text_lower)
-        if billion_match:
-            amount_str = f'总金额最高可达{billion_match.group(1)}亿美元'
-        elif million_match:
-            amount_str = f'总金额约{million_match.group(1)}百万美元'
+        parts = re.split(r'([.;,])', desc)
 
-        # 生成摘要
-        summary_parts = [f'{acquirer}宣布收购{acquired}']
-        if amount_str:
-            summary_parts.append(amount_str)
-        if 'milestone' in text_lower:
-            summary_parts.append('其中大部分为里程碑付款')
-        if 'secretive' in text_lower or 'little about its pipeline' in text_lower:
-            summary_parts.append('该公司目前较为低调，管线信息披露有限')
-        if 'anti-inflammatory' in text_lower or 'inflammatory' in text_lower:
-            summary_parts.append('此次收购主要针对抗炎药物研发领域')
+        for i, part in enumerate(parts):
+            if i % 2 == 0:  # 文本部分
+                current = part.strip()
+            else:  # 分隔符
+                if current:
+                    sentences.append(current + part)
+                current = ''
 
-    elif any(k in text_lower for k in ['partnership', 'collaboration']):
-        # 找出合作方
-        partners = []
-        for eng, cn in company_names.items():
-            if eng in text_lower:
-                partners.append(cn)
+        if current:
+            sentences.append(current)
 
-        import re
-        amount_str = ''
-        amount_match = re.search(r'up to \$?(\d+\.?\d*)\s*(billion|million)', text_lower)
-        if amount_match:
-            amount = float(amount_match.group(1))
-            unit = '亿' if amount_match.group(2) == 'billion' else '百万'
-            amount_str = f'潜在合作金额最高达{amount}{unit}美元'
+        # 翻译每个句子
+        cn_sentences = []
+        for s in sentences:
+            if len(s) > 5:  # 跳过太短的片段
+                cn_sentences.append(translate_sentence(s))
 
-        summary_parts = [f'{"与".join(partners)}达成战略合作' if partners else '双方达成战略合作']
-        if amount_str:
-            summary_parts.append(amount_str)
-        if 't cell engagers' in text_lower or 'tce' in text_lower:
-            summary_parts.append('合作领域为T细胞衔接器开发')
-        if 'crispr' in text_lower or 'gene editing' in text_lower:
-            summary_parts.append('涉及基因编辑技术')
-
-    elif any(k in text_lower for k in ['raises', 'ipo', 'funding']):
-        import re
-        amount_match = re.search(r'\$?(\d+\.?\d*)\s*(billion|million)', text_lower)
-        company = '该公司'
-        for eng, cn in company_names.items():
-            if eng in text_lower:
-                company = cn
-                break
-
-        if amount_match:
-            amount = float(amount_match.group(1))
-            unit = '亿' if amount_match.group(2) == 'billion' else '百万'
-            if 'raises' in text_lower or 'raised' in text_lower or 'secures' in text_lower:
-                summary_parts = [f'{company}完成{amount}{unit}美元融资']
-            elif 'ipo' in text_lower:
-                summary_parts = [f'{company}宣布{amount}{unit}美元IPO计划']
+        # 组合成完整摘要
+        if cn_sentences:
+            cn_desc = '。'.join(cn_sentences)
+            if not cn_desc.endswith('。'):
+                cn_desc += '。'
         else:
-            summary_parts = [f'{company}完成新一轮融资']
-
-    elif any(k in text_lower for k in ['phase 3', 'phase 2', 'phase 1']):
-        phase_map = {'phase 3': 'III', 'phase 2': 'II', 'phase 1': 'I'}
-        phase = '临床试验'
-        for p, cn in phase_map.items():
-            if p in text_lower:
-                phase = f'{cn}期临床试验'
-                break
-
-        company = ''
-        for eng, cn in company_names.items():
-            if eng in text_lower:
-                company = cn
-                break
-
-        summary_parts = [f'{company}的药物正在推进{phase}' if company else f'药物正在推进{phase}']
-
-        if 'data' in text_lower or 'results' in text_lower:
-            summary_parts.append('试验结果已对外公布')
-        if 'topline' in text_lower:
-            summary_parts.append('主要结果积极')
-
-    elif any(k in text_lower for k in ['approval', 'approved', 'fda', 'ema', 'cleared']):
-        summary_parts = ['获得监管机构批准']
-        if 'fda' in text_lower:
-            summary_parts = ['获得FDA批准']
-        if 'reject' in text_lower or 'refuse' in text_lower:
-            summary_parts = ['未获得FDA批准']
-
-    elif any(k in text_lower for k in ['stops', 'terminates', 'discontinues']):
-        company = ''
-        for eng, cn in company_names.items():
-            if eng in text_lower:
-                company = cn
-                break
-        summary_parts = [f'{company}终止某临床试验' if company else '某临床试验已终止']
-        if 'hemophilia' in text_lower:
-            summary_parts.append('涉及血友病治疗领域')
-
-    elif any(k in text_lower for k in ['expands', 'expansion']):
-        company = ''
-        for eng, cn in company_names.items():
-            if eng in text_lower:
-                company = cn
-                break
-        summary_parts = [f'{company}进行业务扩展']
-        if 'china' in text_lower:
-            summary_parts.append('市场扩展至中国')
-
+            cn_desc = smart_translate(desc[:500])
     else:
-        summary_parts = []
+        cn_desc = ''
 
-    # 清理描述并翻译
-    clean_desc = desc.strip()
-    if clean_desc and len(clean_desc) > 10:
-        # 翻译整个描述
-        cn_desc = translate_to_chinese(clean_desc)
-        if cn_desc and not cn_desc.startswith('。'):
-            summary_parts.append(cn_desc)
-
-    # 组合最终摘要
-    if summary_parts:
-        final_summary = '。'.join(summary_parts)
-        if not final_summary.endswith('。'):
-            final_summary += '。'
+    # 生成简短摘要（用于列表预览）
+    if cn_desc:
+        short_summary = cn_desc[:200] + '...' if len(cn_desc) > 200 else cn_desc
     else:
-        final_summary = translate_to_chinese(clean_desc[:300]) if clean_desc else '暂无详细描述'
+        short_summary = smart_translate(desc[:150]) if desc else ''
 
-    # 中文标题
-    cn_title = translate_to_chinese(title)
+    return short_summary, cn_title, cn_desc
 
-    return final_summary, cn_title, translate_to_chinese(clean_desc)
+def generate_paper_summary(paper):
+    """为论文生成中文摘要"""
+    title = paper.get('title', '')
+    abstract = paper.get('abstract', '')
+
+    # 翻译标题
+    cn_title = smart_translate(title)
+
+    # 翻译摘要
+    if abstract:
+        sentences = []
+        import re
+        parts = re.split(r'([.;,])', abstract)
+
+        current = ''
+        for i, part in enumerate(parts):
+            if i % 2 == 0:
+                current = part.strip()
+            else:
+                if current:
+                    sentences.append(current + part)
+                current = ''
+
+        if current:
+            sentences.append(current)
+
+        cn_sentences = [translate_sentence(s) for s in sentences if len(s) > 10]
+        cn_abstract = '。'.join(cn_sentences)
+        if not cn_abstract.endswith('。'):
+            cn_abstract += '。'
+    else:
+        cn_abstract = ''
+
+    # 生成研究概要
+    cn_title_lower = cn_title.lower()
+    summary_parts = []
+
+    if 'crispr' in cn_title_lower or 'gene editing' in cn_title_lower:
+        summary_parts.append('基因编辑技术研究')
+    elif 'car-t' in cn_title_lower or 'cell therapy' in cn_title_lower:
+        summary_parts.append('细胞治疗研究')
+    elif 'adc' in cn_title_lower or 'antibody' in cn_title_lower:
+        summary_parts.append('抗体药物研究')
+    elif 'glp-1' in cn_title_lower or 'diabetes' in cn_title_lower:
+        summary_parts.append('代谢疾病研究')
+    elif 'pd-1' in cn_title_lower or 'immunotherapy' in cn_title_lower:
+        summary_parts.append('肿瘤免疫研究')
+
+    if paper.get('journal'):
+        summary_parts.append(f"发表在{paper['journal']}")
+
+    cn_summary = '；'.join(summary_parts) if summary_parts else cn_title
+
+    return cn_title, cn_abstract, cn_summary
 
 def fetch_rss(url, source_name):
     """抓取RSS源"""

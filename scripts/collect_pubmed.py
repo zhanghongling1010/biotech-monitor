@@ -449,10 +449,36 @@ def save_data(data, output_dir):
     with open(today_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
+    # 读取并合并新闻数据
+    news_file = os.path.join(output_dir, 'news_latest.json')
+    combined_data = dict(data)
+    if os.path.exists(news_file):
+        try:
+            with open(news_file, 'r', encoding='utf-8') as f:
+                news_data = json.load(f)
+            # 从新闻数据提取分类
+            items = news_data.get('items', [])
+            deals = [i for i in items if 'deal' in i.get('categories', [])]
+            clinical = [i for i in items if 'clinical' in i.get('categories', [])]
+            regulatory = [i for i in items if 'regulatory' in i.get('categories', [])]
+            # 构建critical和daily结构
+            combined_data['critical'] = {
+                'deals': deals[:5],
+                'clinical': clinical[:5],
+                'approvals': regulatory[:5]
+            }
+            combined_data['daily'] = {
+                'deals': deals,
+                'clinical': clinical,
+                'regulatory': regulatory
+            }
+        except Exception as e:
+            print(f"  合并新闻数据失败: {e}")
+
     # 更新latest链接
     latest_file = os.path.join(output_dir, 'latest.json')
     with open(latest_file, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+        json.dump(combined_data, f, ensure_ascii=False, indent=2)
 
     print(f"\n数据已保存到: {today_file}")
 
