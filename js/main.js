@@ -14,9 +14,27 @@ document.addEventListener('DOMContentLoaded', () => {
     initNavigation();
     initFilters();
     initCompanyTabs();
+    initClickHandlers();
     loadData();
     setInterval(loadData, CONFIG.updateInterval);
 });
+
+// ===== Click Handlers (Event Delegation) =====
+function initClickHandlers() {
+    document.addEventListener('click', (e) => {
+        const card = e.target.closest('.alert-card, .brief-item');
+        if (card) {
+            const detail = card.querySelector('.card-detail');
+            if (detail) {
+                detail.classList.toggle('expanded');
+                const icon = card.querySelector('.expand-icon');
+                if (icon) {
+                    icon.textContent = detail.classList.contains('expanded') ? '▲' : '▼';
+                }
+            }
+        }
+    });
+}
 
 // ===== Navigation =====
 function initNavigation() {
@@ -109,23 +127,26 @@ function renderCritical(data) {
     }
 
     container.innerHTML = items.map((item, idx) => `
-        <div class="alert-card ${item.priority === 'critical' ? 'critical' : 'warning'}" onclick="toggleDetail('critical-${idx}')">
+        <div class="alert-card ${item.priority === 'critical' ? 'critical' : 'warning'}">
             <div class="card-header">
                 <span class="tag ${item.type}">${item.tag}</span>
                 <div class="header-right">
                     ${item.companies?.length ? `<span class="companies">${item.companies.join(', ')}</span>` : ''}
+                    ${item.company_type ? `<span class="company-type">${item.company_type}</span>` : ''}
                     <span class="date">${formatDate(item.date || item.pub_date || '')}</span>
                     <span class="expand-icon">▼</span>
                 </div>
             </div>
-            <h4>${item.title}</h4>
+            <h4>${item.title_cn || item.title}</h4>
             <div class="card-detail" id="critical-${idx}">
+                ${item.title_cn && item.title ? `<p class="description"><strong>原文:</strong> ${item.title}</p>` : ''}
                 ${item.description ? `<p class="description">${item.description}</p>` : ''}
+                ${item.description_cn ? `<p class="description-cn"><strong>中文摘要:</strong> ${item.description_cn}</p>` : ''}
                 ${item.value ? `<div class="meta-item"><strong>交易金额:</strong> ${item.value}</div>` : ''}
                 ${item.indication ? `<div class="meta-item"><strong>适应症:</strong> ${item.indication}</div>` : ''}
                 ${item.stage ? `<div class="meta-item"><strong>阶段:</strong> ${item.stage}</div>` : ''}
                 ${item.company ? `<div class="meta-item"><strong>公司:</strong> ${item.company}</div>` : ''}
-                ${item.link ? `<a href="${item.link}" target="_blank" class="read-more" onclick="event.stopPropagation()">阅读原文 →</a>` : ''}
+                ${item.link ? `<a href="${item.link}" target="_blank" class="read-more">阅读原文 →</a>` : ''}
                 ${item.source ? `<div class="meta">来源: ${item.source}</div>` : ''}
             </div>
         </div>
@@ -141,9 +162,9 @@ function renderDailyBrief(data) {
         dealsList.innerHTML = '<div class="empty-card">暂无新交易</div>';
     } else {
         dealsList.innerHTML = deals.map((d, i) => `
-            <div class="brief-item" onclick="toggleDetail('deal-${i}')">
+            <div class="brief-item">
                 <div class="brief-item-header">
-                    <span class="item-title">${d.title}</span>
+                    <span class="item-title">${d.title_cn || d.title}</span>
                     <span class="expand-icon">▼</span>
                 </div>
                 <div class="brief-item-meta">
@@ -152,8 +173,10 @@ function renderDailyBrief(data) {
                     ${d.date ? `<span class="date">${formatDate(d.date)}</span>` : ''}
                 </div>
                 <div class="card-detail" id="deal-${i}">
+                    ${d.title && d.title_cn ? `<p class="description"><strong>原文:</strong> ${d.title}</p>` : ''}
                     ${d.description ? `<p>${d.description}</p>` : ''}
-                    ${d.link ? `<a href="${d.link}" target="_blank" class="read-more" onclick="event.stopPropagation()">阅读原文 →</a>` : ''}
+                    ${d.description_cn ? `<p class="description-cn"><strong>中文摘要:</strong> ${d.description_cn}</p>` : ''}
+                    ${d.link ? `<a href="${d.link}" target="_blank" class="read-more">阅读原文 →</a>` : ''}
                 </div>
             </div>
         `).join('');
@@ -166,9 +189,9 @@ function renderDailyBrief(data) {
         clinicalList.innerHTML = '<div class="empty-card">暂无临床进展</div>';
     } else {
         clinicalList.innerHTML = clinical.map((c, i) => `
-            <div class="brief-item" onclick="toggleDetail('clinical-${i}')">
+            <div class="brief-item">
                 <div class="brief-item-header">
-                    <span class="item-title">${c.title}</span>
+                    <span class="item-title">${c.title_cn || c.title}</span>
                     <span class="expand-icon">▼</span>
                 </div>
                 <div class="brief-item-meta">
@@ -177,8 +200,10 @@ function renderDailyBrief(data) {
                     ${c.stage ? `<span class="stage">${c.stage}</span>` : ''}
                 </div>
                 <div class="card-detail" id="clinical-${i}">
+                    ${c.title && c.title_cn ? `<p class="description"><strong>原文:</strong> ${c.title}</p>` : ''}
                     ${c.description ? `<p>${c.description}</p>` : ''}
-                    ${c.link ? `<a href="${c.link}" target="_blank" class="read-more" onclick="event.stopPropagation()">阅读原文 →</a>` : ''}
+                    ${c.description_cn ? `<p class="description-cn"><strong>中文摘要:</strong> ${c.description_cn}</p>` : ''}
+                    ${c.link ? `<a href="${c.link}" target="_blank" class="read-more">阅读原文 →</a>` : ''}
                 </div>
             </div>
         `).join('');
@@ -194,7 +219,7 @@ function renderDailyBrief(data) {
         researchList.innerHTML = '<div class="empty-card">暂无新文献</div>';
     } else {
         researchList.innerHTML = papers.slice(0, 8).map((p, i) => `
-            <div class="brief-item paper-item" onclick="toggleDetail('paper-${i}')">
+            <div class="brief-item paper-item">
                 <div class="brief-item-header">
                     <span class="item-title">${p.title}</span>
                     <span class="expand-icon">▼</span>
@@ -205,6 +230,7 @@ function renderDailyBrief(data) {
                 </div>
                 <div class="card-detail" id="paper-${i}">
                     ${p.abstract ? `<p class="abstract">${p.abstract}</p>` : ''}
+                    ${p.abstract_cn ? `<p class="description-cn"><strong>中文摘要:</strong> ${p.abstract_cn}</p>` : ''}
                     ${p.authors?.length ? `<div class="authors">作者: ${p.authors.slice(0, 5).join(', ')}${p.authors.length > 5 ? ' et al.' : ''}</div>` : ''}
                     ${p.keywords?.length ? `<div class="keywords">关键词: ${p.keywords.slice(0, 6).join(', ')}</div>` : ''}
                 </div>

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-18T22:00:17.591294",
+  "timestamp": "2026-06-18T22:57:01.850746",
   "items": [
     {
       "title": "Biogen makes up to $1B deal for secretive anti-inflammatory biotech",
@@ -13,7 +13,9 @@
       "companies": [],
       "priority": "critical",
       "date": "Thu, 18 Jun 2026 00:43:13 +0000",
-      "company_type": null
+      "company_type": null,
+      "title_cn": "Biogen makes up to $1B 交易 for secretive 抗炎 生物科技公司",
+      "description_cn": "该公司被收购"
     },
     {
       "title": "Jazz turns to AbCellera for T cell engagers in up to $4.1B partnership",
@@ -27,7 +29,9 @@
       "companies": [],
       "priority": "normal",
       "date": "Wed, 17 Jun 2026 11:00:12 +0000",
-      "company_type": null
+      "company_type": null,
+      "title_cn": "Jazz turns to AbCellera forT细胞衔接器 in up to $4.1B 合作",
+      "description_cn": "达成战略合作"
     },
     {
       "title": "B cell therapy maker Be Bio stops hemophilia trial",
@@ -41,29 +45,14 @@
       "companies": [],
       "priority": "normal",
       "date": "Tue, 16 Jun 2026 19:05:16 +0000",
-      "company_type": null
-    },
-    {
-      "title": "Lilly buys another pain biotech; FDA sets decision for once-weekly PrEP pill",
-      "link": "https://endpoints.news/lilly-buys-another-pain-biotech-fda-sets-decision-for-once-weekly-prep-pill/",
-      "description": "Plus, news about Merck, MultiValent Biotherapies, Alvotech, enGene, Mirum, and Adaptive Biotechnologies.\n\n 💸 Eli Lilly acquires another pain biotech: The Indianapolis pharma giant has made its 11th acquisition of the year, snapping up Austin, TX-based ...",
-      "pub_date": "Tue, 16 Jun 2026 14:22:47 +0000",
-      "source": "endpoints",
-      "categories": [
-        "deal"
-      ],
-      "companies": [
-        "MRK",
-        "LLY"
-      ],
-      "priority": "critical",
-      "date": "Tue, 16 Jun 2026 14:22:47 +0000",
-      "company_type": "Keytruda/IO"
+      "company_type": null,
+      "title_cn": "B cell 疗法 maker Be Bio 停止 血友病 试验",
+      "description_cn": "临床试验终止"
     }
   ],
   "summary": {
-    "total": 4,
-    "deals": 3,
+    "total": 3,
+    "deals": 2,
     "clinical": 1,
     "regulatory": 0
   }

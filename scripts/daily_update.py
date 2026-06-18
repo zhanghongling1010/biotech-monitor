@@ -44,7 +44,7 @@ def merge_data():
     company_data = load_company_data(data_dir)
     bd_news_data = load_bd_news_data(data_dir)
 
-    # 从BD新闻提取交易和临床数据
+    # 从BD新闻提取交易和临床数据（保留完整字段包括中文翻译）
     bd_deals = [item for item in bd_news_data.get('items', []) if 'deal' in item.get('categories', [])]
     bd_clinical = [item for item in bd_news_data.get('items', []) if 'clinical' in item.get('categories', [])]
     bd_regulatory = [item for item in bd_news_data.get('items', []) if 'regulatory' in item.get('categories', [])]

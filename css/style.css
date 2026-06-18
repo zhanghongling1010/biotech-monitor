@@ -237,6 +237,22 @@ main {
     color: var(--text-primary);
     line-height: 1.6;
     margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.card-detail .description-cn {
+    font-size: 0.875rem;
+    color: #065f46;
+    background: #ecfdf5;
+    padding: 0.75rem;
+    border-radius: 6px;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+}
+
+.card-detail .description-cn strong {
+    color: #059669;
 }
 
 .card-detail .meta-item {

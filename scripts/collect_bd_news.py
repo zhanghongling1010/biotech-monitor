@@ -173,6 +173,154 @@ REGULATORY_KEYWORDS = [
     '获批', '批准', '拒绝', '优先审评'
 ]
 
+# 中文翻译映射
+TRANSLATIONS = {
+    # 交易类型
+    'strategic partnership': '达成战略合作',
+    'partnership': '合作',
+    'collaboration': '合作',
+    'acquisition': '收购',
+    'merger': '并购',
+    'licensing deal': '授权许可交易',
+    'licensing': '授权',
+    'deal': '交易',
+    # 融资
+    'raises': '完成融资',
+    'raises $': '完成',
+    'million in': '融资金额',
+    'billion in': '融资金额',
+    'ipo': 'IPO上市',
+    'series a': 'A轮',
+    'series b': 'B轮',
+    'series c': 'C轮',
+    'funding': '融资',
+    # 临床阶段
+    'phase 3': 'III期临床',
+    'phase 2': 'II期临床',
+    'phase 1': 'I期临床',
+    'clinical trial': '临床试验',
+    'data readout': '数据公布',
+    'topline results': '主要结果',
+    'interim analysis': '中期分析',
+    # 监管
+    'fda approval': 'FDA批准',
+    'ema approval': 'EMA批准',
+    'receives approval': '获得批准',
+    'approved': '获批',
+    'rejected': '被拒/拒绝',
+    'breakthrough therapy': '突破性疗法',
+    # 公司类型
+    'biotech': '生物科技公司',
+    'biopharmaceutical': '生物制药公司',
+    'pharmaceutical': '制药公司',
+    # 技术
+    'car-t': 'CAR-T细胞疗法',
+    'car t': 'CAR-T',
+    'gene therapy': '基因疗法',
+    'gene editing': '基因编辑',
+    'crispr': 'CRISPR',
+    'base editing': '碱基编辑',
+    'prime editing': '先导编辑',
+    'adc': '抗体偶联药物',
+    'bispecific': '双特异性抗体',
+    'mrna': 'mRNA',
+    'lnp': '脂质纳米颗粒',
+    'glp-1': 'GLP-1',
+    # 疾病
+    'cancer': '肿瘤',
+    'tumor': '肿瘤',
+    'oncology': '肿瘤',
+    'rare disease': '罕见病',
+    'hemophilia': '血友病',
+    'diabetes': '糖尿病',
+    'obesity': '肥胖',
+    # 金额
+    'billion': '亿美元',
+    'million': '万美元',
+    # 其他
+    'therapy': '疗法',
+    'treatment': '治疗',
+    'drug candidate': '候选药物',
+    'drug': '药物',
+    'patient': '患者',
+    'study': '研究',
+    'trial': '试验',
+    'results': '结果',
+    'data': '数据',
+    'update': '更新',
+    'stops': '停止',
+    'terminates': '终止',
+    'anti-inflammatory': '抗炎',
+    ' T cell engagers': 'T细胞衔接器',
+}
+
+def translate_to_chinese(text):
+    """将英文关键词翻译为中文"""
+    if not text:
+        return ''
+    result = text
+
+    # 按关键词长度排序（优先匹配长词）
+    sorted_keywords = sorted(TRANSLATIONS.keys(), key=len, reverse=True)
+    for kw in sorted_keywords:
+        # 替换时不使用单词边界，直接替换（长词优先）
+        result = result.replace(kw, TRANSLATIONS[kw])
+        result = result.replace(kw.capitalize(), TRANSLATIONS[kw])
+        result = result.replace(kw.upper(), TRANSLATIONS[kw])
+
+    # 后处理：修复一些常见问题
+    result = result.replace('T 细胞', 'T细胞')
+    result = result.replace('细胞era', 'Cellera')  # 还原被误翻的公司名
+    result = result.replace('Biotech 生物', 'Biotech/生物')
+
+    return result
+
+def generate_chinese_summary(item):
+    """为新闻生成中文摘要"""
+    title = item.get('title', '')
+    desc = item.get('description', '')[:300]
+    text = title + ' ' + desc
+    text_lower = text.lower()
+
+    # 翻译标题
+    cn_title = translate_to_chinese(title)
+
+    # 生成中文摘要
+    summary_parts = []
+
+    # 判断新闻类型
+    if any(k in text_lower for k in ['acquisition', 'merger', 'acquire']):
+        summary_parts.append('该公司被收购')
+    elif any(k in text_lower for k in ['partnership', 'collaboration']):
+        summary_parts.append('达成战略合作')
+    elif any(k in text_lower for k in ['raises', 'ipo', 'funding', 'series a', 'series b']):
+        summary_parts.append('完成融资')
+    elif any(k in text_lower for k in ['phase 3', 'phase 2', 'phase 1']):
+        if 'phase 3' in text_lower:
+            summary_parts.append('III期临床试验')
+        elif 'phase 2' in text_lower:
+            summary_parts.append('II期临床试验')
+        else:
+            summary_parts.append('I期临床试验')
+    elif any(k in text_lower for k in ['approval', 'approved', 'fda', 'ema', 'cleared']):
+        summary_parts.append('获得监管批准')
+    elif any(k in text_lower for k in ['data readout', 'topline results', 'interim analysis']):
+        summary_parts.append('发布临床数据')
+    elif any(k in text_lower for k in ['stops', 'terminates', 'discontinues']):
+        summary_parts.append('临床试验终止')
+    elif any(k in text_lower for k in ['anti-inflammatory', 'inflammatory']):
+        summary_parts.append('抗炎药物')
+
+    # 添加公司信息
+    companies = item.get('companies', [])
+    if companies:
+        company_str = ', '.join(companies[:3])
+        summary_parts.append(f"涉及: {company_str}")
+
+    cn_summary = ' | '.join(summary_parts) if summary_parts else translate_to_chinese(desc[:100])
+
+    return cn_summary, cn_title, translate_to_chinese(desc[:200])
+
 def fetch_rss(url, source_name):
     """抓取RSS源"""
     print(f"  [{source_name}] 抓取RSS...")
@@ -378,6 +526,10 @@ def collect_all_news():
         classification = classify_news(item)
         if classification['categories']:  # 只保留有明确分类的
             item.update(classification)
+            # 添加中文翻译
+            cn_summary, cn_title, cn_desc = generate_chinese_summary(item)
+            item['title_cn'] = cn_title
+            item['description_cn'] = cn_summary
             classified.append(item)
 
     return classified
