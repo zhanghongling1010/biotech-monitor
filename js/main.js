@@ -127,28 +127,18 @@ function renderCritical(data) {
     }
 
     container.innerHTML = items.map((item, idx) => `
-        <div class="alert-card ${item.priority === 'critical' ? 'critical' : 'warning'}">
+        <div class="alert-card ${item.priority === 'critical' ? 'critical' : 'warning'}" onclick="openDetailModal(${JSON.stringify(item).replace(/"/g, '&quot;')})">
             <div class="card-header">
                 <span class="tag ${item.type}">${item.tag}</span>
                 <div class="header-right">
                     ${item.companies?.length ? `<span class="companies">${item.companies.join(', ')}</span>` : ''}
                     ${item.company_type ? `<span class="company-type">${item.company_type}</span>` : ''}
                     <span class="date">${formatDate(item.date || item.pub_date || '')}</span>
-                    <span class="expand-icon">▼</span>
+                    <span class="expand-icon">▶</span>
                 </div>
             </div>
             <h4>${item.title_cn || item.title}</h4>
-            <div class="card-detail" id="critical-${idx}">
-                ${item.title_cn && item.title ? `<p class="description"><strong>原文:</strong> ${item.title}</p>` : ''}
-                ${item.description ? `<p class="description">${item.description}</p>` : ''}
-                ${item.description_cn ? `<p class="description-cn"><strong>中文摘要:</strong> ${item.description_cn}</p>` : ''}
-                ${item.value ? `<div class="meta-item"><strong>交易金额:</strong> ${item.value}</div>` : ''}
-                ${item.indication ? `<div class="meta-item"><strong>适应症:</strong> ${item.indication}</div>` : ''}
-                ${item.stage ? `<div class="meta-item"><strong>阶段:</strong> ${item.stage}</div>` : ''}
-                ${item.company ? `<div class="meta-item"><strong>公司:</strong> ${item.company}</div>` : ''}
-                ${item.link ? `<a href="${item.link}" target="_blank" class="read-more">阅读原文 →</a>` : ''}
-                ${item.source ? `<div class="meta">来源: ${item.source}</div>` : ''}
-            </div>
+            ${item.description_cn ? `<p class="preview">${item.description_cn.slice(0, 80)}...</p>` : ''}
         </div>
     `).join('');
 }
@@ -162,22 +152,17 @@ function renderDailyBrief(data) {
         dealsList.innerHTML = '<div class="empty-card">暂无新交易</div>';
     } else {
         dealsList.innerHTML = deals.map((d, i) => `
-            <div class="brief-item">
+            <div class="brief-item" onclick="openDetailModal(${JSON.stringify(d).replace(/"/g, '&quot;')})">
                 <div class="brief-item-header">
                     <span class="item-title">${d.title_cn || d.title}</span>
-                    <span class="expand-icon">▼</span>
+                    <span class="expand-icon">▶</span>
                 </div>
                 <div class="brief-item-meta">
                     ${d.company ? `<span>${d.company}</span>` : ''}
                     ${d.value ? `<span class="value">${d.value}</span>` : ''}
                     ${d.date ? `<span class="date">${formatDate(d.date)}</span>` : ''}
                 </div>
-                <div class="card-detail" id="deal-${i}">
-                    ${d.title && d.title_cn ? `<p class="description"><strong>原文:</strong> ${d.title}</p>` : ''}
-                    ${d.description ? `<p>${d.description}</p>` : ''}
-                    ${d.description_cn ? `<p class="description-cn"><strong>中文摘要:</strong> ${d.description_cn}</p>` : ''}
-                    ${d.link ? `<a href="${d.link}" target="_blank" class="read-more">阅读原文 →</a>` : ''}
-                </div>
+                ${d.description_cn ? `<p class="preview">${d.description_cn.slice(0, 60)}...</p>` : ''}
             </div>
         `).join('');
     }
@@ -189,22 +174,17 @@ function renderDailyBrief(data) {
         clinicalList.innerHTML = '<div class="empty-card">暂无临床进展</div>';
     } else {
         clinicalList.innerHTML = clinical.map((c, i) => `
-            <div class="brief-item">
+            <div class="brief-item" onclick="openDetailModal(${JSON.stringify(c).replace(/"/g, '&quot;')})">
                 <div class="brief-item-header">
                     <span class="item-title">${c.title_cn || c.title}</span>
-                    <span class="expand-icon">▼</span>
+                    <span class="expand-icon">▶</span>
                 </div>
                 <div class="brief-item-meta">
                     ${c.company ? `<span>${c.company}</span>` : ''}
                     ${c.indication ? `<span>${c.indication}</span>` : ''}
                     ${c.stage ? `<span class="stage">${c.stage}</span>` : ''}
                 </div>
-                <div class="card-detail" id="clinical-${i}">
-                    ${c.title && c.title_cn ? `<p class="description"><strong>原文:</strong> ${c.title}</p>` : ''}
-                    ${c.description ? `<p>${c.description}</p>` : ''}
-                    ${c.description_cn ? `<p class="description-cn"><strong>中文摘要:</strong> ${c.description_cn}</p>` : ''}
-                    ${c.link ? `<a href="${c.link}" target="_blank" class="read-more">阅读原文 →</a>` : ''}
-                </div>
+                ${c.description_cn ? `<p class="preview">${c.description_cn.slice(0, 60)}...</p>` : ''}
             </div>
         `).join('');
     }
@@ -348,6 +328,96 @@ function formatDate(dateStr) {
         return dateStr;
     }
 }
+
+function openDetailModal(item) {
+    const modal = document.getElementById('detailModal');
+    const tagMap = { 'deal': 'BD交易', 'clinical': '临床进展', 'approval': '监管批准' };
+
+    // Set tag
+    document.getElementById('modalTag').textContent = tagMap[item.type] || item.type;
+    document.getElementById('modalTag').className = 'modal-tag ' + (item.type || '');
+
+    // Set title
+    document.getElementById('modalTitle').textContent = item.title_cn || item.title || '';
+
+    // Set meta
+    let metaHtml = '';
+    if (item.companies?.length) {
+        metaHtml += `<span class="modal-meta-item"><strong>涉及公司:</strong> ${item.companies.join(', ')}</span>`;
+    }
+    if (item.company) {
+        metaHtml += `<span class="modal-meta-item"><strong>公司:</strong> ${item.company}</span>`;
+    }
+    if (item.value) {
+        metaHtml += `<span class="modal-meta-item"><strong>交易金额:</strong> ${item.value}</span>`;
+    }
+    if (item.indication) {
+        metaHtml += `<span class="modal-meta-item"><strong>适应症:</strong> ${item.indication}</span>`;
+    }
+    if (item.stage) {
+        metaHtml += `<span class="modal-meta-item"><strong>临床阶段:</strong> ${item.stage}</span>`;
+    }
+    if (item.date || item.pub_date) {
+        metaHtml += `<span class="modal-meta-item"><strong>日期:</strong> ${formatDate(item.date || item.pub_date)}</span>`;
+    }
+    if (item.source) {
+        metaHtml += `<span class="modal-meta-item"><strong>来源:</strong> ${item.source}</span>`;
+    }
+    document.getElementById('modalMeta').innerHTML = metaHtml;
+
+    // Set Chinese content
+    let cnContent = '';
+    if (item.description_cn) {
+        cnContent = `<h3>中文摘要</h3><p>${item.description_cn}</p>`;
+    } else if (item.title_cn) {
+        cnContent = `<h3>中文摘要</h3><p>${item.title_cn}</p>`;
+    }
+    document.getElementById('modalCnContent').innerHTML = cnContent || '<p style="color:#64748b;">暂无中文翻译</p>';
+
+    // Set English content
+    let enContent = '';
+    if (item.title) {
+        enContent += `<p><strong>标题:</strong> ${item.title}</p>`;
+    }
+    if (item.description) {
+        enContent += `<p><strong>正文:</strong> ${item.description}</p>`;
+    }
+    document.getElementById('modalEnContent').innerHTML = enContent;
+
+    // Set link
+    const linkEl = document.getElementById('modalLink');
+    if (item.link) {
+        linkEl.href = item.link;
+        linkEl.style.display = 'inline-block';
+    } else {
+        linkEl.style.display = 'none';
+    }
+
+    // Show modal
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+    const modal = document.getElementById('detailModal');
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+// Close modal on outside click
+document.addEventListener('click', (e) => {
+    const modal = document.getElementById('detailModal');
+    if (e.target === modal) {
+        closeModal();
+    }
+});
+
+// Close modal on Escape key
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        closeModal();
+    }
+});
 
 // ===== Sample Data for Demo =====
 function loadSampleData() {

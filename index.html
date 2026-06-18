@@ -120,6 +120,26 @@
         </section>
     </main>
 
+    <!-- 详情弹窗 Modal -->
+    <div id="detailModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="modal-tag" id="modalTag"></span>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <h2 class="modal-title" id="modalTitle"></h2>
+            <div class="modal-meta" id="modalMeta"></div>
+            <div class="modal-body">
+                <div class="modal-cn-content" id="modalCnContent"></div>
+                <div class="modal-divider">原文 / Original</div>
+                <div class="modal-en-content" id="modalEnContent"></div>
+            </div>
+            <div class="modal-footer">
+                <a id="modalLink" href="#" target="_blank" class="modal-link">阅读原文 →</a>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <p>Biotech Monitor | 数据来源: PubMed, ClinicalTrials.gov, 公司公告 | 每日更新</p>
     </footer>
