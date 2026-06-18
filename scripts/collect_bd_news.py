@@ -276,108 +276,190 @@ def translate_to_chinese(text):
     return result
 
 def generate_chinese_summary(item):
-    """为新闻生成详细的中文摘要"""
+    """为新闻生成完整的中文摘要"""
     title = item.get('title', '')
-    desc = item.get('description', '')[:500]
+    desc = item.get('description', '')
+    # 清理描述中的省略号和多余空白
+    desc = desc.replace('...', '').replace('  ', ' ').strip()
     text = title + ' ' + desc
     text_lower = text.lower()
 
-    # 翻译标题
-    cn_title = translate_to_chinese(title)
+    # 公司名称映射
+    company_names = {
+        'biogen': 'Biogen',
+        'eli lilly': '礼来(Eli Lilly)',
+        'lilly': '礼来',
+        'gsk': '葛兰素史克(GSK)',
+        'novartis': '诺华(Novartis)',
+        'roche': '罗氏(Roche)',
+        'pfizer': '辉瑞(Pfizer)',
+        'merck': '默克(Merck)',
+        'bristol myers squibb': '百时美施贵宝(BMS)',
+        'bms': '百时美施贵宝',
+        'johnson & johnson': '强生(J&J)',
+        'jnj': '强生',
+        'astrazeneca': '阿斯利康(AstraZeneca)',
+        'sanofi': '赛诺菲(Sanofi)',
+        'amgen': '安进(Amgen)',
+        'regeneron': '再生元(Regeneron)',
+        'gilead': '吉利德(Gilead)',
+        'moderna': 'Moderna',
+        'vertex': '福泰制药(Vertex)',
+        'jazz': 'Jazz Pharmaceuticals',
+        'novo nordisk': '诺和诺德(Novo Nordisk)',
+        ' Bayer': '拜耳(Bayer)'
+    }
 
-    # 生成详细的中文摘要
-    summary_parts = []
-
-    # 1. 判断交易类型并详细描述
+    # 判断新闻类型并生成中文摘要
     if any(k in text_lower for k in ['acquisition', 'merger', 'acquire']):
-        # 提取买方和卖方
-        if 'biogen' in text_lower:
-            summary_parts.append('Biogen达成收购交易')
-        elif 'eli lilly' in text_lower or 'lilly' in text_lower:
-            summary_parts.append('Eli Lilly达成收购交易')
-        elif 'gsk' in text_lower:
-            summary_parts.append('GSK达成收购交易')
-        elif 'novartis' in text_lower:
-            summary_parts.append('Novartis达成收购交易')
-        elif 'roche' in text_lower:
-            summary_parts.append('Roche达成收购交易')
-        elif 'pfizer' in text_lower:
-            summary_parts.append('Pfizer达成收购交易')
-        elif 'merck' in text_lower:
-            summary_parts.append('Merck达成收购交易')
-        else:
-            summary_parts.append('某大型药企达成收购交易')
+        # 找出收购方
+        acquirer = '某制药公司'
+        for eng, cn in company_names.items():
+            if eng in text_lower:
+                acquirer = cn
+                break
+
+        # 找出被收购方
+        acquired = '目标公司'
+        if 'raythera' in text_lower:
+            acquired = 'RayThera'
+        elif 'abcellera' in text_lower:
+            acquired = 'AbCellera'
 
         # 提取金额
         import re
+        amount_str = ''
         billion_match = re.search(r'\$?(\d+\.?\d*)\s*billion', text_lower)
         million_match = re.search(r'\$?(\d+\.?\d*)\s*million', text_lower)
         if billion_match:
-            summary_parts.append(f'交易金额约{billion_match.group(1)}亿美元')
+            amount_str = f'总金额最高可达{billion_match.group(1)}亿美元'
         elif million_match:
-            summary_parts.append(f'交易金额约{million_match.group(1)}百万美元')
+            amount_str = f'总金额约{million_match.group(1)}百万美元'
+
+        # 生成摘要
+        summary_parts = [f'{acquirer}宣布收购{acquired}']
+        if amount_str:
+            summary_parts.append(amount_str)
+        if 'milestone' in text_lower:
+            summary_parts.append('其中大部分为里程碑付款')
+        if 'secretive' in text_lower or 'little about its pipeline' in text_lower:
+            summary_parts.append('该公司目前较为低调，管线信息披露有限')
+        if 'anti-inflammatory' in text_lower or 'inflammatory' in text_lower:
+            summary_parts.append('此次收购主要针对抗炎药物研发领域')
 
     elif any(k in text_lower for k in ['partnership', 'collaboration']):
-        if 'up to' in text_lower:
-            import re
-            amount_match = re.search(r'up to \$?(\d+\.?\d*)\s*(billion|million)', text_lower)
-            if amount_match:
-                amount = float(amount_match.group(1))
-                unit = '亿' if amount_match.group(2) == 'billion' else '百万'
-                summary_parts.append(f'战略合作、潜在交易金额最高达{amount}{unit}美元')
-            else:
-                summary_parts.append('达成战略合作')
-        else:
-            summary_parts.append('达成战略合作')
+        # 找出合作方
+        partners = []
+        for eng, cn in company_names.items():
+            if eng in text_lower:
+                partners.append(cn)
 
-    elif any(k in text_lower for k in ['raises', 'ipo', 'funding', 'series a', 'series b', 'series c']):
         import re
-        if 'raises' in text_lower or 'raised' in text_lower:
-            amount_match = re.search(r'\$?(\d+\.?\d*)\s*(billion|million)', text_lower)
-            if amount_match:
-                amount = float(amount_match.group(1))
-                unit = '亿' if amount_match.group(2) == 'billion' else '百万'
-                summary_parts.append(f'完成{amount}{unit}美元融资')
-        if 'ipo' in text_lower:
-            summary_parts.append('进行IPO上市')
+        amount_str = ''
+        amount_match = re.search(r'up to \$?(\d+\.?\d*)\s*(billion|million)', text_lower)
+        if amount_match:
+            amount = float(amount_match.group(1))
+            unit = '亿' if amount_match.group(2) == 'billion' else '百万'
+            amount_str = f'潜在合作金额最高达{amount}{unit}美元'
+
+        summary_parts = [f'{"与".join(partners)}达成战略合作' if partners else '双方达成战略合作']
+        if amount_str:
+            summary_parts.append(amount_str)
+        if 't cell engagers' in text_lower or 'tce' in text_lower:
+            summary_parts.append('合作领域为T细胞衔接器开发')
+        if 'crispr' in text_lower or 'gene editing' in text_lower:
+            summary_parts.append('涉及基因编辑技术')
+
+    elif any(k in text_lower for k in ['raises', 'ipo', 'funding']):
+        import re
+        amount_match = re.search(r'\$?(\d+\.?\d*)\s*(billion|million)', text_lower)
+        company = '该公司'
+        for eng, cn in company_names.items():
+            if eng in text_lower:
+                company = cn
+                break
+
+        if amount_match:
+            amount = float(amount_match.group(1))
+            unit = '亿' if amount_match.group(2) == 'billion' else '百万'
+            if 'raises' in text_lower or 'raised' in text_lower or 'secures' in text_lower:
+                summary_parts = [f'{company}完成{amount}{unit}美元融资']
+            elif 'ipo' in text_lower:
+                summary_parts = [f'{company}宣布{amount}{unit}美元IPO计划']
+        else:
+            summary_parts = [f'{company}完成新一轮融资']
 
     elif any(k in text_lower for k in ['phase 3', 'phase 2', 'phase 1']):
         phase_map = {'phase 3': 'III', 'phase 2': 'II', 'phase 1': 'I'}
+        phase = '临床试验'
         for p, cn in phase_map.items():
             if p in text_lower:
-                summary_parts.append(f'推进{cn}期临床试验')
+                phase = f'{cn}期临床试验'
                 break
+
+        company = ''
+        for eng, cn in company_names.items():
+            if eng in text_lower:
+                company = cn
+                break
+
+        summary_parts = [f'{company}的药物正在推进{phase}' if company else f'药物正在推进{phase}']
+
         if 'data' in text_lower or 'results' in text_lower:
-            summary_parts.append('发布临床数据')
+            summary_parts.append('试验结果已对外公布')
+        if 'topline' in text_lower:
+            summary_parts.append('主要结果积极')
 
     elif any(k in text_lower for k in ['approval', 'approved', 'fda', 'ema', 'cleared']):
-        summary_parts.append('获得监管机构批准')
-
-    elif any(k in text_lower for k in ['data readout', 'topline results', 'interim analysis']):
-        summary_parts.append('公布临床试验数据')
+        summary_parts = ['获得监管机构批准']
+        if 'fda' in text_lower:
+            summary_parts = ['获得FDA批准']
+        if 'reject' in text_lower or 'refuse' in text_lower:
+            summary_parts = ['未获得FDA批准']
 
     elif any(k in text_lower for k in ['stops', 'terminates', 'discontinues']):
-        summary_parts.append('临床试验终止')
+        company = ''
+        for eng, cn in company_names.items():
+            if eng in text_lower:
+                company = cn
+                break
+        summary_parts = [f'{company}终止某临床试验' if company else '某临床试验已终止']
+        if 'hemophilia' in text_lower:
+            summary_parts.append('涉及血友病治疗领域')
 
-    elif any(k in text_lower for k in ['anti-inflammatory', 'inflammatory']):
-        summary_parts.append('涉及抗炎治疗领域')
+    elif any(k in text_lower for k in ['expands', 'expansion']):
+        company = ''
+        for eng, cn in company_names.items():
+            if eng in text_lower:
+                company = cn
+                break
+        summary_parts = [f'{company}进行业务扩展']
+        if 'china' in text_lower:
+            summary_parts.append('市场扩展至中国')
 
-    # 2. 提取涉及的公司
-    companies = item.get('companies', [])
-    if companies:
-        summary_parts.append(f'涉及公司: {", ".join(companies[:3])}')
+    else:
+        summary_parts = []
 
-    # 3. 提取关键信息
-    if 'milestone' in text_lower:
-        summary_parts.append('包含里程碑付款')
-    if 'upfront' in text_lower:
-        summary_parts.append('有预付款')
-    if 'rare disease' in text_lower or 'orphan' in text_lower:
-        summary_parts.append('罕见病领域')
+    # 清理描述并翻译
+    clean_desc = desc.strip()
+    if clean_desc and len(clean_desc) > 10:
+        # 翻译整个描述
+        cn_desc = translate_to_chinese(clean_desc)
+        if cn_desc and not cn_desc.startswith('。'):
+            summary_parts.append(cn_desc)
 
-    cn_summary = '；'.join(summary_parts) if summary_parts else translate_to_chinese(desc[:150])
+    # 组合最终摘要
+    if summary_parts:
+        final_summary = '。'.join(summary_parts)
+        if not final_summary.endswith('。'):
+            final_summary += '。'
+    else:
+        final_summary = translate_to_chinese(clean_desc[:300]) if clean_desc else '暂无详细描述'
 
-    return cn_summary, cn_title, translate_to_chinese(desc[:300])
+    # 中文标题
+    cn_title = translate_to_chinese(title)
+
+    return final_summary, cn_title, translate_to_chinese(clean_desc)
 
 def fetch_rss(url, source_name):
     """抓取RSS源"""
