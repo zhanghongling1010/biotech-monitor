@@ -58,6 +58,155 @@ JOURNALS = {
     'nejm': 'New England Journal of Medicine'
 }
 
+# 论文关键词翻译
+PAPER_TRANSLATIONS = {
+    'CRISPR': 'CRISPR基因编辑',
+    'Cas9': 'Cas9基因编辑工具',
+    'base editing': '碱基编辑',
+    'prime editing': '先导编辑',
+    'gene editing': '基因编辑',
+    'gene therapy': '基因治疗',
+    'gene therapy': '基因疗法',
+    'in vivo': '体内',
+    'ex vivo': '体外',
+    'CAR-T': 'CAR-T细胞疗法',
+    'cell therapy': '细胞治疗',
+    'iPSC': '诱导多能干细胞',
+    'stem cell': '干细胞',
+    'ADC': '抗体偶联药物',
+    'bispecific': '双特异性抗体',
+    'GLP-1': 'GLP-1受体激动剂',
+    'semaglutide': '司美格鲁肽',
+    'ozempic': ' Ozempic（降糖减重药）',
+    'wegovy': 'Wegovy（减重药）',
+    'PD-1': 'PD-1免疫检查点',
+    'PD-L1': 'PD-L1免疫检查点',
+    'checkpoint inhibitor': '免疫检查点抑制剂',
+    'immunotherapy': '免疫治疗',
+    'tumor': '肿瘤',
+    'cancer': '癌症',
+    'metastasis': '转移',
+    'clinical trial': '临床试验',
+    'phase 1': 'I期临床',
+    'phase 2': 'II期临床',
+    'phase 3': 'III期临床',
+    'efficacy': '有效性',
+    'safety': '安全性',
+    'efficacy and safety': '有效性和安全性',
+    'randomized': '随机对照',
+    'double-blind': '双盲',
+    'placebo': '安慰剂',
+    'overall survival': '总生存期',
+    'progression-free survival': '无进展生存期',
+    'objective response rate': '客观缓解率',
+    'patient': '患者',
+    'cohort': '队列',
+    'study': '研究',
+    'data': '数据',
+    'results': '结果',
+    'showed': '显示',
+    'demonstrated': '表明',
+    'significantly': '显著',
+    'improved': '改善',
+    'reduced': '降低',
+    'increased': '增加',
+    'knockout': '敲除',
+    'knock-in': '敲入',
+    'delivery': '递送',
+    'AAV': '腺相关病毒',
+    'lentiviral': '慢病毒载体',
+    'mRNA': '信使RNA',
+    'siRNA': '小干扰RNA',
+    'novel': '新型',
+    'new': '新',
+    'potential': '潜在',
+    'therapeutic': '治疗性',
+    'target': '靶点',
+    'mechanism': '机制',
+    'pathway': '通路',
+    'inflammation': '炎症',
+    'autoimmune': '自身免疫',
+    'rare disease': '罕见病',
+    'genetic disease': '遗传病',
+    'hematopoietic': '造血干细胞',
+    'liver': '肝脏',
+    'lung': '肺',
+    'brain': '脑',
+    'kidney': '肾脏',
+    'heart': '心脏',
+    'muscle': '肌肉',
+    'mouse model': '小鼠模型',
+    'non-human primate': '非人灵长类',
+    'preclinical': '临床前',
+    'translational': '转化医学',
+}
+
+def translate_paper_keywords(text):
+    """翻译论文关键词"""
+    if not text:
+        return ''
+    result = text
+    # 按长度排序，优先匹配长词
+    sorted_keywords = sorted(PAPER_TRANSLATIONS.keys(), key=len, reverse=True)
+    for kw in sorted_keywords:
+        result = result.replace(kw, PAPER_TRANSLATIONS[kw])
+        result = result.replace(kw.lower(), PAPER_TRANSLATIONS[kw])
+    return result
+
+def generate_paper_summary(article):
+    """为论文生成中文摘要"""
+    title = article.get('title', '')
+    abstract = article.get('abstract', '')
+
+    # 翻译标题
+    cn_title = translate_paper_keywords(title)
+
+    # 翻译摘要
+    cn_abstract = translate_paper_keywords(abstract)
+
+    # 生成一句话总结
+    summary_parts = []
+    text_lower = (title + ' ' + abstract).lower()
+
+    # 判断研究类型
+    if 'clinical trial' in text_lower or 'phase 1' in text_lower or 'phase 2' in text_lower or 'phase 3' in text_lower:
+        if 'phase 3' in text_lower:
+            summary_parts.append('III期临床试验研究')
+        elif 'phase 2' in text_lower:
+            summary_parts.append('II期临床试验研究')
+        elif 'phase 1' in text_lower:
+            summary_parts.append('I期临床试验研究')
+    elif 'preclinical' in text_lower or 'mouse model' in text_lower or 'vivo' in text_lower:
+        summary_parts.append('临床前研究')
+    else:
+        summary_parts.append('基础研究')
+
+    # 判断疾病领域
+    if any(k in text_lower for k in ['cancer', 'tumor', 'oncology']):
+        summary_parts.append('肿瘤领域')
+    elif any(k in text_lower for k in ['diabetes', 'obesity', 'metabolic']):
+        summary_parts.append('代谢疾病领域')
+    elif any(k in text_lower for k in ['genetic', 'rare disease']):
+        summary_parts.append('遗传病/罕见病领域')
+
+    # 判断技术类型
+    if 'crispr' in text_lower or 'cas9' in text_lower:
+        summary_parts.append('CRISPR基因编辑技术')
+    elif 'car-t' in text_lower:
+        summary_parts.append('CAR-T细胞治疗')
+    elif 'base editing' in text_lower:
+        summary_parts.append('碱基编辑技术')
+    elif 'prime editing' in text_lower:
+        summary_parts.append('先导编辑技术')
+
+    # 期刊信息
+    if article.get('journal'):
+        summary_parts.append(f"发表期刊: {article['journal']}")
+
+    cn_summary = '；'.join(summary_parts) if summary_parts else cn_title
+
+    return cn_title, cn_abstract, cn_summary
+
 def search_pubmed(query, days_back=7, max_results=50):
     """搜索PubMed"""
     search_url = PUBMED_API + "esearch.fcgi"
@@ -170,7 +319,8 @@ def fetch_article_details(pmids):
                     if company.lower() in text_for_search.lower():
                         mentioned_companies.append(company)
 
-                articles.append({
+                # 创建临时文章对象用于翻译
+                temp_article = {
                     'pmid': pmid_text,
                     'title': title,
                     'abstract': abstract[:500] + '...' if len(abstract) > 500 else abstract,
@@ -179,7 +329,15 @@ def fetch_article_details(pmids):
                     'date': pub_date,
                     'keywords': keywords,
                     'companies': mentioned_companies
-                })
+                }
+
+                # 生成中文翻译
+                cn_title, cn_abstract, cn_summary = generate_paper_summary(temp_article)
+                temp_article['title_cn'] = cn_title
+                temp_article['abstract_cn'] = cn_abstract
+                temp_article['summary_cn'] = cn_summary
+
+                articles.append(temp_article)
             except Exception as e:
                 print(f"Error parsing article: {e}")
                 continue

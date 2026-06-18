@@ -199,21 +199,16 @@ function renderDailyBrief(data) {
         researchList.innerHTML = '<div class="empty-card">暂无新文献</div>';
     } else {
         researchList.innerHTML = papers.slice(0, 8).map((p, i) => `
-            <div class="brief-item paper-item">
+            <div class="brief-item paper-item" onclick="openPaperModal(${JSON.stringify(p).replace(/"/g, '&quot;')})">
                 <div class="brief-item-header">
-                    <span class="item-title">${p.title}</span>
-                    <span class="expand-icon">▼</span>
+                    <span class="item-title">${p.title_cn || p.title}</span>
+                    <span class="expand-icon">▶</span>
                 </div>
                 <div class="brief-item-meta">
                     <span class="journal">${p.journal}</span>
                     ${p.date ? `<span class="date">${p.date}</span>` : ''}
                 </div>
-                <div class="card-detail" id="paper-${i}">
-                    ${p.abstract ? `<p class="abstract">${p.abstract}</p>` : ''}
-                    ${p.abstract_cn ? `<p class="description-cn"><strong>中文摘要:</strong> ${p.abstract_cn}</p>` : ''}
-                    ${p.authors?.length ? `<div class="authors">作者: ${p.authors.slice(0, 5).join(', ')}${p.authors.length > 5 ? ' et al.' : ''}</div>` : ''}
-                    ${p.keywords?.length ? `<div class="keywords">关键词: ${p.keywords.slice(0, 6).join(', ')}</div>` : ''}
-                </div>
+                ${p.summary_cn ? `<p class="preview">${p.summary_cn.slice(0, 80)}...</p>` : ''}
             </div>
         `).join('');
     }
@@ -418,6 +413,73 @@ document.addEventListener('keydown', (e) => {
         closeModal();
     }
 });
+
+// ===== Paper Modal =====
+function openPaperModal(paper) {
+    const modal = document.getElementById('detailModal');
+
+    // Set tag
+    document.getElementById('modalTag').textContent = '科研文献';
+    document.getElementById('modalTag').className = 'modal-tag clinical';
+
+    // Set title
+    document.getElementById('modalTitle').textContent = paper.title_cn || paper.title || '';
+
+    // Set meta
+    let metaHtml = '';
+    if (paper.journal) {
+        metaHtml += `<span class="modal-meta-item"><strong>期刊:</strong> ${paper.journal}</span>`;
+    }
+    if (paper.date) {
+        metaHtml += `<span class="modal-meta-item"><strong>发表日期:</strong> ${paper.date}</span>`;
+    }
+    if (paper.pmid) {
+        metaHtml += `<span class="modal-meta-item"><strong>PMID:</strong> ${paper.pmid}</span>`;
+    }
+    if (paper.companies?.length) {
+        metaHtml += `<span class="modal-meta-item"><strong>相关公司:</strong> ${paper.companies.join(', ')}</span>`;
+    }
+    document.getElementById('modalMeta').innerHTML = metaHtml;
+
+    // Set Chinese content
+    let cnContent = '';
+    cnContent += `<h3>研究概要</h3>`;
+    if (paper.summary_cn) {
+        cnContent += `<p>${paper.summary_cn}</p>`;
+    }
+    if (paper.abstract_cn) {
+        cnContent += `<h4 style="margin-top:1rem;font-size:0.85rem;color:#166534;">中文摘要</h4><p>${paper.abstract_cn}</p>`;
+    }
+    document.getElementById('modalCnContent').innerHTML = cnContent;
+
+    // Set English content
+    let enContent = '';
+    enContent += `<p><strong>英文标题:</strong> ${paper.title || 'N/A'}</p>`;
+    if (paper.abstract) {
+        enContent += `<p><strong>英文摘要:</strong> ${paper.abstract}</p>`;
+    }
+    if (paper.authors?.length) {
+        enContent += `<p><strong>作者:</strong> ${paper.authors.slice(0, 5).join(', ')}${paper.authors.length > 5 ? ' et al.' : ''}</p>`;
+    }
+    if (paper.keywords?.length) {
+        enContent += `<p><strong>关键词:</strong> ${paper.keywords.join(', ')}</p>`;
+    }
+    document.getElementById('modalEnContent').innerHTML = enContent;
+
+    // Set link
+    const linkEl = document.getElementById('modalLink');
+    if (paper.pmid) {
+        linkEl.href = `https://pubmed.ncbi.nlm.nih.gov/${paper.pmid}/`;
+        linkEl.textContent = '在 PubMed 查看全文 →';
+        linkEl.style.display = 'inline-block';
+    } else {
+        linkEl.style.display = 'none';
+    }
+
+    // Show modal
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
 
 // ===== Sample Data for Demo =====
 function loadSampleData() {

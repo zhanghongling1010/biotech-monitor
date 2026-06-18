@@ -276,50 +276,108 @@ def translate_to_chinese(text):
     return result
 
 def generate_chinese_summary(item):
-    """为新闻生成中文摘要"""
+    """为新闻生成详细的中文摘要"""
     title = item.get('title', '')
-    desc = item.get('description', '')[:300]
+    desc = item.get('description', '')[:500]
     text = title + ' ' + desc
     text_lower = text.lower()
 
     # 翻译标题
     cn_title = translate_to_chinese(title)
 
-    # 生成中文摘要
+    # 生成详细的中文摘要
     summary_parts = []
 
-    # 判断新闻类型
+    # 1. 判断交易类型并详细描述
     if any(k in text_lower for k in ['acquisition', 'merger', 'acquire']):
-        summary_parts.append('该公司被收购')
-    elif any(k in text_lower for k in ['partnership', 'collaboration']):
-        summary_parts.append('达成战略合作')
-    elif any(k in text_lower for k in ['raises', 'ipo', 'funding', 'series a', 'series b']):
-        summary_parts.append('完成融资')
-    elif any(k in text_lower for k in ['phase 3', 'phase 2', 'phase 1']):
-        if 'phase 3' in text_lower:
-            summary_parts.append('III期临床试验')
-        elif 'phase 2' in text_lower:
-            summary_parts.append('II期临床试验')
+        # 提取买方和卖方
+        if 'biogen' in text_lower:
+            summary_parts.append('Biogen达成收购交易')
+        elif 'eli lilly' in text_lower or 'lilly' in text_lower:
+            summary_parts.append('Eli Lilly达成收购交易')
+        elif 'gsk' in text_lower:
+            summary_parts.append('GSK达成收购交易')
+        elif 'novartis' in text_lower:
+            summary_parts.append('Novartis达成收购交易')
+        elif 'roche' in text_lower:
+            summary_parts.append('Roche达成收购交易')
+        elif 'pfizer' in text_lower:
+            summary_parts.append('Pfizer达成收购交易')
+        elif 'merck' in text_lower:
+            summary_parts.append('Merck达成收购交易')
         else:
-            summary_parts.append('I期临床试验')
+            summary_parts.append('某大型药企达成收购交易')
+
+        # 提取金额
+        import re
+        billion_match = re.search(r'\$?(\d+\.?\d*)\s*billion', text_lower)
+        million_match = re.search(r'\$?(\d+\.?\d*)\s*million', text_lower)
+        if billion_match:
+            summary_parts.append(f'交易金额约{billion_match.group(1)}亿美元')
+        elif million_match:
+            summary_parts.append(f'交易金额约{million_match.group(1)}百万美元')
+
+    elif any(k in text_lower for k in ['partnership', 'collaboration']):
+        if 'up to' in text_lower:
+            import re
+            amount_match = re.search(r'up to \$?(\d+\.?\d*)\s*(billion|million)', text_lower)
+            if amount_match:
+                amount = float(amount_match.group(1))
+                unit = '亿' if amount_match.group(2) == 'billion' else '百万'
+                summary_parts.append(f'战略合作、潜在交易金额最高达{amount}{unit}美元')
+            else:
+                summary_parts.append('达成战略合作')
+        else:
+            summary_parts.append('达成战略合作')
+
+    elif any(k in text_lower for k in ['raises', 'ipo', 'funding', 'series a', 'series b', 'series c']):
+        import re
+        if 'raises' in text_lower or 'raised' in text_lower:
+            amount_match = re.search(r'\$?(\d+\.?\d*)\s*(billion|million)', text_lower)
+            if amount_match:
+                amount = float(amount_match.group(1))
+                unit = '亿' if amount_match.group(2) == 'billion' else '百万'
+                summary_parts.append(f'完成{amount}{unit}美元融资')
+        if 'ipo' in text_lower:
+            summary_parts.append('进行IPO上市')
+
+    elif any(k in text_lower for k in ['phase 3', 'phase 2', 'phase 1']):
+        phase_map = {'phase 3': 'III', 'phase 2': 'II', 'phase 1': 'I'}
+        for p, cn in phase_map.items():
+            if p in text_lower:
+                summary_parts.append(f'推进{cn}期临床试验')
+                break
+        if 'data' in text_lower or 'results' in text_lower:
+            summary_parts.append('发布临床数据')
+
     elif any(k in text_lower for k in ['approval', 'approved', 'fda', 'ema', 'cleared']):
-        summary_parts.append('获得监管批准')
+        summary_parts.append('获得监管机构批准')
+
     elif any(k in text_lower for k in ['data readout', 'topline results', 'interim analysis']):
-        summary_parts.append('发布临床数据')
+        summary_parts.append('公布临床试验数据')
+
     elif any(k in text_lower for k in ['stops', 'terminates', 'discontinues']):
         summary_parts.append('临床试验终止')
-    elif any(k in text_lower for k in ['anti-inflammatory', 'inflammatory']):
-        summary_parts.append('抗炎药物')
 
-    # 添加公司信息
+    elif any(k in text_lower for k in ['anti-inflammatory', 'inflammatory']):
+        summary_parts.append('涉及抗炎治疗领域')
+
+    # 2. 提取涉及的公司
     companies = item.get('companies', [])
     if companies:
-        company_str = ', '.join(companies[:3])
-        summary_parts.append(f"涉及: {company_str}")
+        summary_parts.append(f'涉及公司: {", ".join(companies[:3])}')
 
-    cn_summary = ' | '.join(summary_parts) if summary_parts else translate_to_chinese(desc[:100])
+    # 3. 提取关键信息
+    if 'milestone' in text_lower:
+        summary_parts.append('包含里程碑付款')
+    if 'upfront' in text_lower:
+        summary_parts.append('有预付款')
+    if 'rare disease' in text_lower or 'orphan' in text_lower:
+        summary_parts.append('罕见病领域')
 
-    return cn_summary, cn_title, translate_to_chinese(desc[:200])
+    cn_summary = '；'.join(summary_parts) if summary_parts else translate_to_chinese(desc[:150])
+
+    return cn_summary, cn_title, translate_to_chinese(desc[:300])
 
 def fetch_rss(url, source_name):
     """抓取RSS源"""

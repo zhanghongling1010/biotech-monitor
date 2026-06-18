@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-18T22:57:01.947024",
+  "timestamp": "2026-06-18T23:25:38.767495",
   "critical": {
     "deals": [
       {
@@ -24,7 +24,7 @@
         "date": "Thu, 18 Jun 2026 00:43:13 +0000",
         "company_type": null,
         "title_cn": "Biogen makes up to $1B 交易 for secretive 抗炎 生物科技公司",
-        "description_cn": "该公司被收购"
+        "description_cn": "Biogen达成收购交易；交易金额约1亿美元；包含里程碑付款"
       },
       {
         "title": "Jazz turns to AbCellera for T cell engagers in up to $4.1B partnership",
@@ -94,7 +94,7 @@
         "date": "Thu, 18 Jun 2026 00:43:13 +0000",
         "company_type": null,
         "title_cn": "Biogen makes up to $1B 交易 for secretive 抗炎 生物科技公司",
-        "description_cn": "该公司被收购"
+        "description_cn": "Biogen达成收购交易；交易金额约1亿美元；包含里程碑付款"
       },
       {
         "title": "Jazz turns to AbCellera for T cell engagers in up to $4.1B partnership",
@@ -305,7 +305,10 @@
         "journal": "Oncogene",
         "date": "2026-06-17",
         "keywords": [],
-        "companies": []
+        "companies": [],
+        "title_cn": "In vivo CRISPR基因编辑 敲除 screen identifies Polr1a as a key driver and a 潜在 治疗性 靶点 for melanoma 转移.",
+        "abstract_cn": "Identification and characterization of 新型 机制s driving melanoma metastases and ways to 靶点 them are paramount for the development of effective treatment modalities. Here, we employed 体内 CRISPR基因编辑 敲除 screening 靶点ing the genes associated with poor prognosis to identify Polr1a as a potent driver of melanoma 转移. High Polr1a levels correlate with 增加 转移 and 降低 survival in 患者s. Polr1a inhibition suppressed migration, invasion, and the ability of ...",
+        "summary_cn": "临床前研究；CRISPR基因编辑技术；发表期刊: Oncogene"
       },
       {
         "pmid": "42310064",
@@ -326,7 +329,10 @@
           "In silico CRISPR-CAS9",
           "Omnigenic model"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Simulation of CRISPR基因编辑/Cas9基因编辑工具-mediated 基因编辑 for the Vitellogenin gene in Apis mellifera.",
+        "abstract_cn": "CRISPR基因编辑/Cas9基因编辑工具 genome editing provides a powerful framework for interrogating gene function in Apis mellifera. Yet, empirical application remains challenging due to biological constraints, including haplodiploid genetics, narrow embryonic injection window, and the social rearing requirements that complicate functional validation. These constraints necessitate in silico pre-screening to maximize editing success before resource-intensive wet-lab implementation. Within the omnigenic framework, which d...",
+        "summary_cn": "基础研究；遗传病/罕见病领域；CRISPR基因编辑技术；发表期刊: Scientific reports"
       },
       {
         "pmid": "42309993",
@@ -342,7 +348,10 @@
         "journal": "Nature communications",
         "date": "2026-06-17",
         "keywords": [],
-        "companies": []
+        "companies": [],
+        "title_cn": "Guide RNA reprogramming facilitates minimized tracrRNA-dependent off-靶点 and versatile CRISPR基因编辑/Cas9基因编辑工具 engineering.",
+        "abstract_cn": "While innovative, current CRISPR基因编辑-Cas9基因编辑工具 systems face 安全性 concerns and practical hurdles, notably sequence-independent, noncanonical off-靶点ing. We demonstrate that the crRNA:tracrRNA duplex in guide RNAs (gRNA) is both splittable and reprogrammable. This property, however, enables endogenous RNAs with crRNA-like sequences to hijack any gRNAs, causing low-frequency yet pervasive tracrRNA-dependent off-靶点 (TDO) effects. Using machine learning trained on high-throughput gRNA variant screens...",
+        "summary_cn": "基础研究；CRISPR基因编辑技术；发表期刊: Nature communications"
       },
       {
         "pmid": "42309898",
@@ -364,7 +373,10 @@
           "NHEJ",
           "Phaeodactylum tricornutum"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "A modular all-in-one genetic engineering tool for the diatom Phaeodactylum tricornutum based on CRISPR基因编辑-Cas12a.",
+        "abstract_cn": "The marine diatom Phaeodactylum tricornutum is a model microalgal species that is emerging as a platform for the photosynthetic production of industrial chemicals such as carotenoids and polyunsaturated fatty acids, but it lacks efficient genetic tools to realize this 潜在. In this 研究, we expanded the toolbox for P. tricornutum by developing an all-in-one-plasmid Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR基因编辑)-Cas12a genome engineering tool. We achieved efficient (88-9...",
+        "summary_cn": "基础研究；遗传病/罕见病领域；CRISPR基因编辑技术；发表期刊: Trends in biotechnology"
       },
       {
         "pmid": "42308857",
@@ -385,7 +397,10 @@
           "Cycling amplification",
           "Lateral flow assay"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "High-sensitivity and portable detection of oral pathogens based on CRISPR基因编辑/Cas13a combined with exonuclease-assisted cycling amplification and lateral flow assay.",
+        "abstract_cn": "Infectious diseases caused by oral pathogens represent a significant threat to human health. Current diagnostic technologies for oral pathogens lack the characteristics of speed, sensitivity, and convenience, making it difficult to meet the needs of rapid testing in laboratories and on-site. Consequently, the development of 新型 high-sensitivity and high-specificity pathogen analysis methods and sensing systems is imperative. In this 研究, we established a high-throughput CRISPR基因编辑/Cas13a method ...",
+        "summary_cn": "基础研究；CRISPR基因编辑技术；发表期刊: Biosensors & bioelectronics"
       },
       {
         "pmid": "42308298",
@@ -401,7 +416,10 @@
         "journal": "Science advances",
         "date": "2026-06-17",
         "keywords": [],
-        "companies": []
+        "companies": [],
+        "title_cn": "Control of naive T cell reactivity and peripheral tolerance by ascorbate and TET activity.",
+        "abstract_cn": "Peripheral tolerance depends on limiting conventional T cell responses to self-antigens. To define the contribution of nutritional factors and related epigenetic regulation, we perform 体内 CRISPR基因编辑 screening and identify the ascorbate transporter Slc23a2 as a key regulator of naive T cell (Tn) reactivity. T cell-specific loss of Slc23a2 reduces intracellular ascorbate, induces regional DNA hypermethylation, enhances differentiation of Tn cells into effector and memory populations, and promotes...",
+        "summary_cn": "临床前研究；遗传病/罕见病领域；CRISPR基因编辑技术；发表期刊: Science advances"
       },
       {
         "pmid": "42308031",
@@ -422,7 +440,10 @@
           "genetic screen",
           "photosynthesis"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "A genome-wide CRISPR基因编辑 screen reveals how diatoms thrive in dynamic light.",
+        "abstract_cn": "Diatoms are a highly diverse algal group with outsized impact on global primary production and marine carbon sequestration. They are red lineage phototrophs of complex endosymbiotic origin and therefore evolutionarily divergent from plants and other green lineage phototrophs that typically serve as photosynthesis models. To accelerate the discovery of unique diatom biology, we developed a genome-wide CRISPR基因编辑/Cas9基因编辑工具 screen in the marine diatom, Phaeodactylum tricornutum. Dynamic light conditions are...",
+        "summary_cn": "基础研究；CRISPR基因编辑技术；发表期刊: Proceedings of the National Academy of Sciences of the United States of America"
       },
       {
         "pmid": "42307111",
@@ -446,7 +467,10 @@
           "sustainable agriculture",
           "synthetic biology"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Beyond pesticides: next-generation genetic biocontrol technologies for sustainable population suppression of agricultural insect pests.",
+        "abstract_cn": "Chemical insecticides have long been used to control agricultural pests, but their widespread application has driven resistance and caused significant ecological and health impacts. CRISPR基因编辑/Cas9基因编辑工具-based genetic biocontrol technologies, including the precision-guided sterile insect technique (pgSIT) and homing gene drives (HGDs), offer 靶点ed alternatives for suppressing pest populations with 降低 environmental cost. pgSIT produces sterile males without radiation and achieves high mating compet...",
+        "summary_cn": "基础研究；遗传病/罕见病领域；CRISPR基因编辑技术；发表期刊: Fly"
       },
       {
         "pmid": "42306087",
@@ -475,7 +499,10 @@
           "off-target risk",
           "whole-genome sequencing"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Comprehensive assessment of on- and off-靶点 mutagenesis via lipid nanoparticle 递送 of CRISPR基因编辑-Cas9基因编辑工具 genome editing.",
+        "abstract_cn": "Ensuring the 安全性 of CRISPR基因编辑-Cas9基因编辑工具 genome editing requires comprehensive assessment of off-靶点 mutagenesis, particularly for 治疗性 applications under regulatory review. DNA-free lipid nanoparticle (LNP) 递送 is expected to minimize insertional risks compared to adeno-associated virus (腺相关病毒) vectors, but experimental validation has been limited. Here, on-靶点 amplicon sequencing in mouse 肌肉 表明 insertions largely derived from host genomic sequences, with no detectable A...",
+        "summary_cn": "基础研究；CRISPR基因编辑技术；发表期刊: Molecular therapy. Nucleic acids"
       },
       {
         "pmid": "42304391",
@@ -491,7 +518,10 @@
         "journal": "Genome biology",
         "date": "2026-06-16",
         "keywords": [],
-        "companies": []
+        "companies": [],
+        "title_cn": "Directed evolution of compact RNA-guided nucleases for enhanced activity in mammalian cells.",
+        "abstract_cn": "BACKGROUND: RNA-guided nucleases enable DNA editing and offer promise for treating 遗传病s, particularly when used for precise sequence replacement. However, many of the most effective enzymes, such as Streptococcus pyogenes Cas9基因编辑工具, are too large for 递送 using vectors like adeno-associated virus. This has prompted interest in smaller alternatives from the Cas12f and TnpB families. Yet, these nucleases often show low activity in mammalian cells, limiting their utility. RESULTS: We use...",
+        "summary_cn": "基础研究；遗传病/罕见病领域；CRISPR基因编辑技术；发表期刊: Genome biology"
       },
       {
         "pmid": "42303814",
@@ -507,7 +537,10 @@
         "journal": "Nature biomedical engineering",
         "date": "2026-06-16",
         "keywords": [],
-        "companies": []
+        "companies": [],
+        "title_cn": "Programmable 信使RNA 3'UTR engineering restores MHC-I and overcomes immune evasion in prostate 癌症.",
+        "abstract_cn": "Immune-cold tumours such as prostate 癌症 often resist immune checkpoint therapies (ICT) due to impaired antigen presentation via major histocompatibility complex class I (MHC-I). While MHC-I downregulation is a common immune evasion 机制, no approved therapies selectively restore MHC-I expression in tumours. We developed a programmable RNA engineering platform, termed the 3'UTR CRISPR基因编辑/dCas13 Engineering System (3'UTRCES), to precisely manipulate 信使RNA alternative polyadenylation (APA) in ...",
+        "summary_cn": "基础研究；肿瘤领域；CRISPR基因编辑技术；发表期刊: Nature biomedical engineering"
       },
       {
         "pmid": "42303719",
@@ -528,7 +561,10 @@
           "Mouse model",
           "X-linked Alport syndrome"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Mouse model of X-linked Alport syndrome with K229X mutation in the COL4A5 gene.",
+        "abstract_cn": "X-linked Alport syndrome (XLAS) is a hereditary glomerular basement membrane (GBM) disease caused by COL4A5 mutations, leading to end-stage renal disease. With unclear pathogenesis and limited treatments, reliable animal models are urgently needed. In this 研究, the mutation K229X in COL4A5 detected in XLAS 患者s was introduced into mice model by CRISPR基因编辑/Cas. The clinical manifestations and pathological changes in the K229X mice were characterized through urinary and serum tests, histopatholo...",
+        "summary_cn": "临床前研究；CRISPR基因编辑技术；发表期刊: Scientific reports"
       },
       {
         "pmid": "42303162",
@@ -550,7 +586,10 @@
           "Targeted Editing",
           "Therapeutic Applications"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "CRISPR基因编辑 Cas9基因编辑工具 revolutionizing genetic engineering and 治疗性 applications.",
+        "abstract_cn": "Genetic engineering has been transformed by CRISPR基因编辑-Cas9基因编辑工具 technology, offering high precision and adaptability in biological research and 治疗性 innovation. Originating from a bacterial defense system, CRISPR基因编辑-Cas9基因编辑工具 enables 靶点ed DNA editing through guide RNA-directed Cas9基因编辑工具 nuclease activity, allowing gene modification, mutation correction, and disease 机制 analysis. This has opened 新 avenues in personalized medicine and 基因疗法, particularly for 癌症 and inherited disorders, al...",
+        "summary_cn": "基础研究；肿瘤领域；CRISPR基因编辑技术；发表期刊: Journal of biotechnology"
       },
       {
         "pmid": "42309896",
@@ -570,7 +609,10 @@
           "lifespan",
           "rejuvenation"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Gene therapy for aging and longevity.",
+        "abstract_cn": "Aging affects virtually all organs and biological processes, and age-related diseases remain the leading causes of death worldwide. Genetic factors play a central role in modulating lifespan, and discoveries in the genetic manipulation of the aging process in animal models have transformed our perception of aging. However, translating these findings into clinical therapies remains challenging. Recent breakthroughs demonstrate that gene therapies can directly 靶点 aging 机制s. Single-gene ...",
+        "summary_cn": "基础研究；遗传病/罕见病领域；发表期刊: Trends in molecular medicine"
       },
       {
         "pmid": "42308604",
@@ -593,7 +635,10 @@
           "Glycoengineering",
           "Liver fibrosis and hemophilia"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Precision glycoengineered 腺相关病毒 capsids enhance hepatocyte 靶点ing and attenuated immune activation for 肝脏-directed 基因疗法.",
+        "abstract_cn": "Adeno-associated virus (腺相关病毒) vectors are a promising platform for 肝脏-directed 基因疗法, yet their clinical translation is hindered by limited cell-type specificity and dose-dependent immune responses. Here, we report a chemical biology strategy for programmable, site-defined glycan installation on intact 腺相关病毒 capsids via genetic code expansion and biorthogonal chemistry. This approach enables precise conjugation of triantennary N-acetylgalactosamine (GN3), a model ligand of the hepatocyte-...",
+        "summary_cn": "基础研究；遗传病/罕见病领域；发表期刊: Biomaterials"
       },
       {
         "pmid": "42307907",
@@ -609,7 +654,10 @@
         "journal": "JAMA cardiology",
         "date": "2026-06-17",
         "keywords": [],
-        "companies": []
+        "companies": [],
+        "title_cn": "腺相关病毒rh.10hFXN Gene Therapy for the Cardiomyopathy of Friedreich Ataxia: A Non随机对照 Clinical Trial.",
+        "abstract_cn": "IMPORTANCE: Friedreich ataxia (FA), a fatal, autosomal recessive disorder caused by pathogenic variants in the frataxin (FXN) gene, is characterized by progressive neurologic and cardiac disease, with cardiac disease being the major cause of death. Preclinical studies have 表明 that systemic administration of 腺相关病毒rh.10hFXN, an rh.10 serotype cardiotropic adenoassociated virus (腺相关病毒) vector expressing the normal human FXN coding sequence, reverses the cardiomyopathy in FXN-deficient mice. O...",
+        "summary_cn": "发表期刊: JAMA cardiology"
       },
       {
         "pmid": "42307761",
@@ -631,7 +679,10 @@
           "Clinical trials",
           "Gene therapy"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Gene therapy in 患者s with choroideremia: a meta-analysis of 临床试验s.",
+        "abstract_cn": "PURPOSE: To systematically review the published literature on 临床试验s of 基因疗法 in 患者s with choroideremia (CHM gene mutation). METHODS: A comprehensive search was conducted in Medline, Cochrane Central Register of Controlled Trials and ClinicalTrials.gov up to April 2026, and was limited to studies published in English or Spanish. Clinical trials evaluating the 有效性 of 基因疗法 in 患者s with a confirmed molecular diagnosis were included. Methodological quality was a...",
+        "summary_cn": "发表期刊: Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie"
       },
       {
         "pmid": "42307737",
@@ -650,7 +701,10 @@
           "Stria vascularis",
           "Vestibular regeneration"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "[Cell and gene therapies in Menière's disease: perspectives for a slowly progressive inner ear disease].",
+        "abstract_cn": "Menière's disease (MD) is classically understood as a pressure-related disease of the inner ear; however, 新 histopathologic and imaging findings call for reassessment of this model. The current article focuses on 新 aspects of MD pathophysiology and derives innovative causal treatment approaches for the future based on cell and 基因疗法. The recent differentiation between two biologically distinct endotypes (hypoplastic vs. degenerative) shifts the 治疗性 focus from purely symptomic ...",
+        "summary_cn": "基础研究；发表期刊: HNO"
       },
       {
         "pmid": "42304030",
@@ -674,7 +728,10 @@
           "Substantia nigra",
           "Transduction"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Retrograde transduction of dopaminergic cells in substantia nigra of the rhesus monkey.",
+        "abstract_cn": "Recent advances in molecular tools have changed how researchers approach selective neural modulation, especially in rodent models where germline modifications and viral vector 递送 are readily optimized. However, these tools have not advanced as rapidly for nonhuman primates, despite critical need for 转化医学 基因疗法 models. A key barrier is 靶点ing specific neuronal populations in the larger primate 脑 with cell-type and circuit specificity. Dopaminergic neurons pose a parti...",
+        "summary_cn": "基础研究；发表期刊: Scientific reports"
       },
       {
         "pmid": "42301793",
@@ -696,7 +753,10 @@
           "gene therapy",
           "mitochondria"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Restoring the interplay between the endoplasmic reticulum and mitochondria by 基因疗法 improves Charcot-Marie-Tooth type 2A disease.",
+        "abstract_cn": "Charcot-Marie-Tooth disease type 2A (CMT2A) is the most common axonal CMT and is associated with an early onset and severe motor neuropathy. CMT2A is mainly caused by dominant mutations in the MFN2 gene, encoding mitofusin-2, a GTPase located in the outer membrane of the mitochondria and endoplasmic reticulum (ER). Mutations in MFN2 affect mitochondrial dynamics. We previously 表明 that mutated MFN2 further disrupts contacts between the ER and the mitochondria, leading to axonal degenera...",
+        "summary_cn": "基础研究；发表期刊: Proceedings of the National Academy of Sciences of the United States of America"
       }
     ],
     "cell_therapy": [
@@ -716,7 +776,10 @@
         "keywords": [],
         "companies": [
           "Scribe"
-        ]
+        ],
+        "title_cn": "iSCORE-PD: an isogenic 干细胞 collection to research Parkinson's disease.",
+        "abstract_cn": "Genome-edited human pluripotent 干细胞s (hPSCs) provide a powerful platform to 研究 complex diseases such as Parkinson's disease (PD). Here, we describe iSCORE-PD, an isogenic collection of 65 genome-edited hPSC lines carrying disease-causing or high-risk variants in 11 PD-linked genes (SNCA, PRKN, PINK1, DJ1/PARK7, LRRK2, ATP13A2, FBXO7, DNAJC6, SYNJ1, VPS13C, and GBA1). All lines are derived from a well-characterized female hESC line and subjected to extensive quality control. Whole-genome...",
+        "summary_cn": "基础研究；发表期刊: Nature communications"
       },
       {
         "pmid": "42310754",
@@ -738,7 +801,10 @@
           "REDD1",
           "Targeted delivery"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Vitamin A-coupled MSCs- derived extracellular vesicles relieve acute 肝脏 injury by 靶点ing hepatic stellate cells to de肝脏 REDD1.",
+        "abstract_cn": "Mesenchymal 干细胞s (MSCs)-derived extracellular vesicles (EVs) offer great 潜在 for treating 肝脏 injury. However, owing to their intrinsic surface characteristics, bare EVs are non-specifically distributed in the 肝脏 tissue after systemic administration, leading to limited 治疗性 有效性. Acute 肝脏 injury, often induced by acetaminophen overdose, can progress to life-threatening fibrosis, with hepatic stellate cells (HSCs) recognized as central drivers of this pathological p...",
+        "summary_cn": "基础研究；发表期刊: Journal of nanobiotechnology"
       },
       {
         "pmid": "42288693",
@@ -754,7 +820,10 @@
         "journal": "Cancer gene therapy",
         "date": "2026-06-13",
         "keywords": [],
-        "companies": []
+        "companies": [],
+        "title_cn": "Mesenchymal 干细胞-mediated 递送 boosts the 有效性 of suicide 基因疗法 based on retroviral replicating vectors in peritoneally disseminated 癌症.",
+        "abstract_cn": "Retroviral replicating vectors (RRVs) hold promise for 癌症 基因疗法 but face limitations due to their relatively low titers and susceptibility to inactivation by body fluids, limiting their application to intra肿瘤al 递送. To overcome these challenges and 靶点 metastatic 癌症s, we investigated the use of 肿瘤-homing mesenchymal 干细胞s (MSCs) as RRV carriers in a clinically relevant model of malignant peritoneal mesothelioma. MSCs derived from adipose tissue, bone marrow, and...",
+        "summary_cn": "基础研究；肿瘤领域；发表期刊: Cancer gene therapy"
       },
       {
         "pmid": "42287831",
@@ -777,7 +846,10 @@
           "Niosome",
           "SOX9"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Development of a gene-activated scaffold using niosomes and minicircle DNA as a 新型 non-viral 递送 platform to enhance cartilage repair.",
+        "abstract_cn": "Gene therapy combined with advanced biomaterial-based 递送 systems represents a powerful strategy to enhance chondrogenic differentiation of mesenchymal 干细胞s (MSCs), enabling the development of next-generation regenerative therapies for cartilage repair. In this context, gene-activated biomaterials provide a versatile tool for spatially and temporally regulating cell fate within three-dimensional (3D) microenvironments. Here, we combine collagen type I/type II-hyaluronic acid (CI/CII-H...",
+        "summary_cn": "基础研究；发表期刊: Colloids and surfaces. B, Biointerfaces"
       },
       {
         "pmid": "42134333",
@@ -803,7 +875,10 @@
           "secretory peptide.",
           "transplantation"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Therapeutic activity of a 造血干细胞 干细胞-de肝脏ed cell-penetrating frataxin in Friedreich's ataxia models.",
+        "abstract_cn": "Friedreich's ataxia (FRDA) is an autosomal recessive neurodegenerative disease caused by a GAA repeat expansion in the frataxin (FXN) gene, leading to 降低 frataxin, a protein essential for mitochondrial function. We developed a replacement strategy using a fusion protein containing secretion and cell-penetrating sequences fused to the frataxin precursor. In vitro studies confirmed secretion, cellular penetration, mitochondrial localization, and rescue of biochemical defects and apoptosis in ...",
+        "summary_cn": "基础研究；发表期刊: Cell reports. Medicine"
       },
       {
         "pmid": "42110477",
@@ -826,7 +901,10 @@
           "multicellular tumor spheroids",
           "tumor microenvironment"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "CAR-T细胞疗法 cells directed toward PD-L1免疫检查点 demonstrate potent, antigen-specific activity against cholangiocarcinoma: A proof of concept 研究.",
+        "abstract_cn": "An immunosuppressive microenvironment driven by 肿瘤 and stromal cells expressing programmed death-ligand 1 (PD-L1免疫检查点) contributes to immune evasion and poor prognosis in cholangiocarcinoma. Although antibodies to PD-L1免疫检查点 are used clinically, their benefit is limited by immune exclusion within the local microenvironment. To overcome this, we evaluated engineered T cells directed toward PD-L1免疫检查点 that simultaneously 靶点 肿瘤 cells and the immunosuppressive microenvironment. Human donor T cells were t...",
+        "summary_cn": "基础研究；肿瘤领域；CAR-T细胞治疗；发表期刊: Molecular therapy. Oncology"
       },
       {
         "pmid": "42310743",
@@ -848,7 +926,10 @@
           "T cell exhaustion",
           "T cell therapy"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Precise control of switchable chimeric antigen receptor T cells allows enhanced 安全性 and less T cell exhaustion.",
+        "abstract_cn": "BACKGROUND: Chimeric antigen receptor (CAR)-T cell therapies have achieved remarkable success in hematologic malignancies, yet their clinical utility remains limited by 安全性 concerns, limited persistence, and T-cell exhaustion driven by continuous receptor signaling. While switchable CAR designs provide external control, many reported systems are irreversible, strictly binary, or compromise CAR-T细胞疗法 potency. METHODS: We engineered an optimized chemically switchable CAR platform (CSN CAR) that pha...",
+        "summary_cn": "基础研究；CAR-T细胞治疗；发表期刊: Journal of translational medicine"
       },
       {
         "pmid": "42310741",
@@ -870,7 +951,10 @@
           "Tumor infiltrating lymphocytes",
           "Xenograft models"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "PD-1免疫检查点 and TIGIT coexpression enables selective enrichment of clonally expanded 肿瘤-reactive CD8 T cells for melanoma TIL therapy.",
+        "abstract_cn": "BACKGROUND: Although anti-PD-1免疫检查点 antibodies are approved as first-line treatment for 患者s with metastatic melanoma (MM), many 患者s remain resistant. Adoptive 细胞治疗 (ACT) using 肿瘤-infiltrating lymphocytes (TILs) represents a promising alternative or complementary strategy, but heterogeneous clinical response rates indicate that TIL-ACT still requires optimization, particularly through enrichment of 肿瘤-specific T lymphocytes. We recently identified a circulating CD8⁺ T-cell popu...",
+        "summary_cn": "基础研究；肿瘤领域；发表期刊: Journal of translational medicine"
       },
       {
         "pmid": "42309461",
@@ -893,7 +977,10 @@
           "anakinra",
           "toxicity"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Real-world assessment of prophylactic anakinra on neurotoxicity and cytokine release syndrome after CD19 CAR T-细胞治疗 in R/R B-cell lymphoma: An inverse probability of treatment weighting analysis.",
+        "abstract_cn": "BACKGROUND: CD19-directed chimeric antigen receptor T-cell (CAR T) therapy has 显著 改善 outcomes for 患者s with relapsed or refractory B-cell non-Hodgkin lymphoma (R/R B-NHL) but is frequently complicated by immune effector cell-associated neurotoxicity syndrome (ICANS), a major cause of morbidity and mortality. Preclinical and early phase clinical studies suggest that interleukin-1 blockade with anakinra may mitigate ICANS without impairing CAR T 有效性. However, real-world d...",
+        "summary_cn": "临床前研究；发表期刊: Transplantation and cellular therapy"
       },
       {
         "pmid": "42308995",
@@ -915,7 +1002,10 @@
           "Neurotoxicity",
           "Quantitative EEG"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Pre-infusion quantitative EEG features associated with delayed neurocognitive impairment following CAR T-细胞治疗.",
+        "abstract_cn": "Immune effector cell-associated neurotoxicity syndrome (ICANS) is a frequent and 潜在ly severe complication of chimeric antigen receptor (CAR) T-细胞治疗, reflecting complex interactions between the immune system and the central nervous system. Reliable baseline biomarkers capable of identifying 患者s at 增加 risk of late post-infusion neurological impairment within the first 10 days after CAR T-细胞治疗 remain limited. We conducted a prospective single-center 研究 to evalu...",
+        "summary_cn": "基础研究；发表期刊: Journal of neuroimmunology"
       }
     ],
     "adc": [
@@ -942,7 +1032,10 @@
         ],
         "companies": [
           "Scribe"
-        ]
+        ],
+        "title_cn": "Cardiac Risk Without a Roadmap: Lack of Evidence-Based Guidance for Cardiovascular Toxicity of T-Cell Redirecting Therapies.",
+        "abstract_cn": "PURPOSE OF REVIEW: T-cell redirecting therapies have revolutionized the treatment of several hematologic malignancies. These include CAR T-细胞治疗, an adoptive 免疫治疗 in which a 患者's T-cells are engineered to express synthetic receptors against 肿瘤 surface antigens, and 双特异性抗体 T-cell engagers, antibodies simultaneously 靶点ing CD3 and a 肿瘤-specific antigen. Both approaches redirect T-cells toward 肿瘤 cells, thereby enhancing anti-肿瘤 immunity independent of major ...",
+        "summary_cn": "基础研究；肿瘤领域；发表期刊: Current oncology reports"
       },
       {
         "pmid": "41562197",
@@ -954,7 +1047,10 @@
         "journal": "The Journal of infectious diseases",
         "date": "",
         "keywords": [],
-        "companies": []
+        "companies": [],
+        "title_cn": "CXCR6 in the Blood Is Not the Liver: Clarifying NK-Cell \"Homing\" and Postcure 抗体偶联药物C Imprints in Acute Hepatitis C.",
+        "abstract_cn": "",
+        "summary_cn": "基础研究；发表期刊: The Journal of infectious diseases"
       },
       {
         "pmid": "42310934",
@@ -978,7 +1074,10 @@
           "proteolysis-targeting chimeras",
           "targeted protein degradation"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Integrating antibody-drug conjugates, multispecific antibodies, 靶点ed protein degradation, and nanomedicine in precision oncology.",
+        "abstract_cn": "Molecular engineering, chemical biology, and 转化医学 oncology have transformed the landscape of 靶点ed 癌症 therapies. Antibody-drug conjugates (抗体偶联药物s) have advanced into clinically validated platforms that combine antigen-specific recognition with potent cytotoxic payloads, supported by innovations in linker chemistry, drug-to-antibody ratio (DAR) optimization, and 双特异性抗体 or multispecific antigen 靶点ing. Parallel to 抗体偶联药物 development, 靶点ed protein degradation (TPD) technologie...",
+        "summary_cn": "基础研究；肿瘤领域；发表期刊: Journal of drug targeting"
       },
       {
         "pmid": "42310572",
@@ -1000,7 +1099,10 @@
           "Immunotherapy",
           "Urothelial carcinoma"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "A case report of pathological complete response in an elderly 患者 with advanced urothelial carcinoma treated with disitamab vedotin plus toripalimab.",
+        "abstract_cn": "Urothelial carcinoma is a common malignancy of the urinary tract and occurs predominantly in elderly men. Although surgery, chemotherapy, and radiotherapy remain the main treatment options, their 有效性 in advanced disease is often limited, particularly in elderly 患者s with comorbidities or poor surgical tolerance. Antibody-drug conjugates (抗体偶联药物s) combined with immune 免疫检查点抑制剂s have recently emerged as a promising 治疗性 strategy. We report the case of a 79-year-old man wit...",
+        "summary_cn": "基础研究；发表期刊: BMC urology"
       },
       {
         "pmid": "42309467",
@@ -1022,7 +1124,10 @@
           "Normalized internalization",
           "Pancreatic cancer"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Normalized internalization predicts potency of carcinoembryonic antigen-related cell adhesion molecule 6-靶点ing antibody-drug conjugates.",
+        "abstract_cn": "Antibody-drug conjugate (抗体偶联药物) 有效性 in solid 肿瘤s frequently fails to track with 靶点 abundance or binding affinity, reflecting 递送 bottlenecks that remain difficult to quantify during lead selection. Here, we develop a discovery-to-function workflow for carcinoembryonic antigen-related cell adhesion molecule 6 (CEACAM6), a glycosylphosphatidylinositol (GPI)-anchored antigen with context-dependent trafficking and show that intracellular 递送-related parameters can better organize...",
+        "summary_cn": "基础研究；肿瘤领域；发表期刊: Journal of controlled release : official journal of the Controlled Release Society"
       },
       {
         "pmid": "42308036",
@@ -1044,7 +1149,10 @@
           "breast cancer",
           "circulating tumor cells"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Dynamic monitoring of antibody drug conjugates 靶点ing TROP2 or HER2 in breast 癌症 using circulating 肿瘤 cells.",
+        "abstract_cn": "Antibody-drug conjugates (抗体偶联药物s) 靶点 surface proteins on 癌症 cells, leading to internalization and 递送 of a drug payload, thereby enhancing selectivity and minimizing toxicity. 抗体偶联药物s against TROP2 (Sacituzumab govitecan) or HER2 (T-DXd) have 表明 有效性 in metastatic breast 癌症, yet paradoxically, outside of HER2-amplified breast 癌症s, expression levels of these breast 癌症-enriched epitopes in 肿瘤 biopsies have not been strongly correlated with clinical response. We...",
+        "summary_cn": "基础研究；肿瘤领域；发表期刊: Proceedings of the National Academy of Sciences of the United States of America"
       },
       {
         "pmid": "42307382",
@@ -1060,7 +1168,10 @@
         "journal": "Bioconjugate chemistry",
         "date": "2026-06-17",
         "keywords": [],
-        "companies": []
+        "companies": [],
+        "title_cn": "A Cathepsin B-Cleavable Self-Immolative Linker for the De肝脏y of Hydroxyl-Containing Payloads in Antibody-Drug Conjugates.",
+        "abstract_cn": "In development of antibody-drug conjugates (抗体偶联药物s), cathepsin B-cleavable linkers have been extensively optimized for amine-containing payloads and successfully translated into clinic practice, whereas effective solutions for hydroxyl-containing payloads remain limited. Here, we report a cathepsin B-cleavable VA-PAB-2-HPCCONH self-immolative linker platform featuring three orthogonal attachment sites that enable modulation of linker-payload hydrophilicity. Using this platform, we designed and syn...",
+        "summary_cn": "基础研究；发表期刊: Bioconjugate chemistry"
       },
       {
         "pmid": "42303924",
@@ -1078,7 +1189,10 @@
           "ADCs",
           "Emerging ADC payloads and linkers"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Advances in Payload and Linker Designs for 抗体偶联药物s.",
+        "abstract_cn": "Antibody-drug conjugates (抗体偶联药物s) are a 治疗性 approach that embodies the \"magic bullet\" concept envisioned by Paul Ehrlich. Since their initial clinical 潜在 was recognized in the early 1980s, 抗体偶联药物s have undergone several generations of development to enhance their 治疗性 index (Poon KA, et. al. 273(2):298-313, 2013). Recent advancements, particularly in the last third and the beginning of the fourth generation, have primarily focused on discovering 新 drug modalities and more pote...",
+        "summary_cn": "基础研究；发表期刊: AAPS PharmSciTech"
       },
       {
         "pmid": "42303884",
@@ -1099,7 +1213,10 @@
           "anti-tumor",
           "antibody–drug conjugate"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "A Newly Designed Antibody-drug Conjugate Targeting B7-H3 Demonstrates Enhanced Therapeutic Efficacy Across a Spectrum of Cancers.",
+        "abstract_cn": "INTRODUCTION: The development of antibody-drug conjugates (抗体偶联药物s) has accelerated due to their 肿瘤-靶点ing precision. However, challenges in optimizing the 靶点-linker-payload combination often lead to attrition from 安全性 or 有效性 issues, highlighting the need for 抗体偶联药物s with an 改善 治疗性 index. This 研究 presents a 新ly designed B7-H3-靶点ed 抗体偶联药物, BR112, and demonstrates its superior 临床前 有效性 across multiple models. METHODS: BR112 comprises a humanized anti-B7-...",
+        "summary_cn": "临床前研究；肿瘤领域；发表期刊: Pharmaceutical research"
       },
       {
         "pmid": "42302184",
@@ -1115,7 +1232,10 @@
         "journal": "Cancer research communications",
         "date": "2026-06-16",
         "keywords": [],
-        "companies": []
+        "companies": [],
+        "title_cn": "Development of Glypican-3-Targeting Antibody-Drug Conjugates for Hepatocellular Carcinoma Therapy.",
+        "abstract_cn": "Hepatocellular carcinoma, a leading cause of global 癌症 mortality, is characterized by intra肿瘤al heterogeneity, chemoresistance, and limited treatments. Glypican-3 (GPC3), an oncofetal glycoprotein overexpressed in ~70% of HCC cases but absent in normal adult tissues, represents an attractive 靶点 for antibody-drug conjugates (抗体偶联药物s). To address this unmet need, three GPC3-specific antibodies were developed: a fully human Mab-A with moderate affinity (Kd=45.7 nM), recognizing a unique epi...",
+        "summary_cn": "基础研究；肿瘤领域；发表期刊: Cancer research communications"
       }
     ],
     "glp1": [
@@ -1139,7 +1259,10 @@
           "SLC6A8",
           "β-GPA"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Targeting the creatine transporter SLC6A8: Mechanisms and emerging 治疗性 strategies for multiple diseases.",
+        "abstract_cn": "Solute carrier family 6 member 8 (SLC6A8) is a Na+- and Cl--dependent creatine transporter that mediates the transmembrane uptake of creatine, thereby sustaining intracellular creatine pools and cellular energy homeostasis. Dysregulated expression and function of SLC6A8 have been linked to creatine transporter deficiency (CTD), multiple malignancies, diabetes, obesity, and 心脏 failure, underscoring its promising 潜在 as a 治疗性 靶点. Conventional creatine supplementation yields li...",
+        "summary_cn": "基础研究；代谢疾病领域；发表期刊: Biochemical pharmacology"
       },
       {
         "pmid": "42277427",
@@ -1161,7 +1284,10 @@
           "Lentivirus",
           "Type 2 diabetes mellitus"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Lentiviral GLP-1受体激动剂 基因疗法 elicits developmental stage-dependent β-cell regeneration in diabetic rats.",
+        "abstract_cn": "Pancreatic β-cell differentiation and regenerative capacity differ markedly between developmental stages, with the neonatal pancreas exhibiting high plasticity that enables ongoing progenitor- and ductal-derived β-cell formation, whereas the adult pancreas demonstrates limited neogenic 潜在. Glucagon-like peptide-1 (GLP-1受体激动剂) promotes β-cell survival, proliferation, and differentiation; however, its developmental stage-specific effects on β-cell regeneration are not fully understood. To invest...",
+        "summary_cn": "基础研究；发表期刊: Journal of molecular medicine (Berlin, Germany)"
       },
       {
         "pmid": "42292743",
@@ -1182,7 +1308,10 @@
           "tissue engineering",
           "β-cell repair"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Mesenchymal Stem Cell Therapy for Type 2 Diabetes: Synergistic β-Cell Regeneration, Immune Modulation, and Exosome-Mediated Glucose Homeostasis.",
+        "abstract_cn": "Type 2 diabetes mellitus (T2DM) is a chronic metabolic disorder characterized by hyperglycemia, insulin resistance, and a progressive decline in pancreatic β-cell function, leading to impaired glucose regulation. It is often accompanied by severe complications, including cardiovascular diseases, nephropathy, and retinopathy. Conventional treatments, such as sulfonylurea pills, insulin injections, and GLP-1受体激动剂 receptor agonist injections, provide transient glycemic control but are often costly with ...",
+        "summary_cn": "基础研究；代谢疾病领域；发表期刊: Stem cells international"
       },
       {
         "pmid": "42312439",
@@ -1205,7 +1334,10 @@
         ],
         "companies": [
           "Scribe"
-        ]
+        ],
+        "title_cn": "Real-world experience of 司美格鲁肽 2.4 mg in the US: a retrospective analysis of profiles, satisfaction, and treatment patterns in people with obesity and overweight.",
+        "abstract_cn": "OBJECTIVE: To characterize treatment experiences, compliance with dosing frequency, and adherence to treatment regimen, and to assess factors associated with adherence and compliance among 患者s with obesity or overweight (PwO) receiving 司美格鲁肽 2.4 mg for weight management. METHODS: This retrospective analysis used cross-sectional survey 数据 from the Adelphi Real World Obesity US Disease Specific Programme. Demographics, clinical characteristics, treatment experiences, and adherence/com...",
+        "summary_cn": "基础研究；代谢疾病领域；发表期刊: Current medical research and opinion"
       },
       {
         "pmid": "42311917",
@@ -1226,7 +1358,10 @@
           "hepatotoxicity",
           "liraglutide"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Liraglutide-Induced Acute Hepatocellular Injury With Positive Rechallenge: A Case Report and Literature Review.",
+        "abstract_cn": "Glucagon-like peptide-1 receptor agonist liraglutide is widely used in type 2 diabetes mellitus and obesity and is generally considered non-hepatotoxic, with only rare reports of idiosyncratic 肝脏 injury. We report the case of a 58-year-old obese woman with type 2 diabetes who developed marked hepatocellular injury 12 weeks after initiating liraglutide therapy, with alanine aminotransferase (ALT) 876 U/L and aspartate aminotransferase (AST) 702 U/L after exclusion of alternative causes. Liver ...",
+        "summary_cn": "基础研究；代谢疾病领域；发表期刊: Clinical medicine insights. Case reports"
       },
       {
         "pmid": "42311474",
@@ -1246,7 +1381,10 @@
           "tirzepatide",
           "weight loss"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Weight-loss dynamics with tirzepatide versus 司美格鲁肽.",
+        "abstract_cn": "Glucagon-like peptide-1 receptor agonists (GLP-1受体激动剂RAs) are widely used for obesity and type 2 diabetes, yet substantial variability in weight-loss response remains poorly understood. We conducted a retrospective 队列 研究 using de-identified electronic health records and performed 1:1 propensity matching on age, sex, type 2 diabetes status, baseline BMI and weight, index year, and follow-up duration. The matched 队列s included 10,339 tirzepatide-treated and 10,339 司美格鲁肽-treated 患者s...",
+        "summary_cn": "基础研究；代谢疾病领域；发表期刊: PNAS nexus"
       },
       {
         "pmid": "42311464",
@@ -1266,7 +1404,10 @@
           "neuroinflammation",
           "neuroprotection"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "GLP-1受体激动剂 Receptor Agonists in Neurological Disorders: From Mechanisms to Clinical Translation.",
+        "abstract_cn": "Glucagon-like peptide-1 receptor agonists, or GLP-1受体激动剂RAs, have been used for years to treat type 2 diabetes and obesity. More recently, it has become clear that these receptors are widely distributed throughout the central nervous system (CNS), which has raised the possibility of repurposing these drugs for neurological disorders. In this review we go through the evidence across a range of neurological conditions, discuss the main 机制s thought to explain their neuroprotective effects, and po...",
+        "summary_cn": "基础研究；代谢疾病领域；发表期刊: Drug design, development and therapy"
       },
       {
         "pmid": "42310909",
@@ -1289,7 +1430,10 @@
           "pharmacokinetics",
           "safety"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Pharmacokinetics and Food Effect of HDM1002, a Novel Oral Small-Molecule GLP-1受体激动剂 Receptor Agonist, in Healthy Chinese Volunteers: A Bioequivalence Study.",
+        "abstract_cn": "PURPOSE: HDM1002 is a potent, orally active, and highly selective small-molecule full agonist of the glucagon-like peptide-1 receptor (GLP-1受体激动剂R), independently developed by Hangzhou Sino-American Huadong Pharmaceutical Co. Ltd. Our aim was to evaluate the pharmacokinetics, relative bioavailability, and food effects of two tablet strengths (100 and 200 mg) of HDM1002 in Chinese health volunteers (HVs). METHODS: This single-centre, randomised, open-label, single-dose, two-formulation, three-period, ...",
+        "summary_cn": "基础研究；发表期刊: Diabetes, obesity & metabolism"
       },
       {
         "pmid": "42310901",
@@ -1312,7 +1456,10 @@
           "pharmaco‐epidemiology",
           "population study"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Prescribing Trajectories in Type 2 Diabetes in the United States, 2019-2024.",
+        "abstract_cn": "IMPORTANCE: Clinical guidelines for type 2 diabetes (T2D) provide population-level recommendations, but real-world treatment patterns evolve dynamically and vary across 患者s. Understanding longitudinal prescribing trajectories may reveal heterogeneity in care not captured by cross-sectional analyses. OBJECTIVE: To identify and characterise real-world T2D prescribing trajectories using nationwide electronic health record (EHR) 数据. DESIGN, SETTING AND PARTICIPANTS: This retrospective 队列 ...",
+        "summary_cn": "基础研究；代谢疾病领域；发表期刊: Diabetes, obesity & metabolism"
       },
       {
         "pmid": "42310900",
@@ -1334,7 +1481,10 @@
           "pharmacotherapy",
           "weight management"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Pharmacotherapy for Children and Adolescents With Overweight or Obesity: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials.",
+        "abstract_cn": "AIMS: The escalating global prevalence of childhood and adolescent overweight and obesity constitutes a pressing public health issue. This network meta-analysis aimed to compare the 有效性和安全性 of pharmacologic interventions as adjuncts to lifestyle therapy in this population. MATERIALS AND METHODS: Randomized controlled trials (RCTs) were sourced from systematic searches of PubMed, Embase (using the OVID platform), the Cochrane Library (CENTRAL), the WHO International Clinical Trials Re...",
+        "summary_cn": "代谢疾病领域；发表期刊: Diabetes, obesity & metabolism"
       }
     ],
     "io": [
@@ -1352,7 +1502,10 @@
         "journal": "Nature biomedical engineering",
         "date": "2026-06-16",
         "keywords": [],
-        "companies": []
+        "companies": [],
+        "title_cn": "Programmable 信使RNA 3'UTR engineering restores MHC-I and overcomes immune evasion in prostate 癌症.",
+        "abstract_cn": "Immune-cold tumours such as prostate 癌症 often resist immune checkpoint therapies (ICT) due to impaired antigen presentation via major histocompatibility complex class I (MHC-I). While MHC-I downregulation is a common immune evasion 机制, no approved therapies selectively restore MHC-I expression in tumours. We developed a programmable RNA engineering platform, termed the 3'UTR CRISPR基因编辑/dCas13 Engineering System (3'UTRCES), to precisely manipulate 信使RNA alternative polyadenylation (APA) in ...",
+        "summary_cn": "基础研究；肿瘤领域；CRISPR基因编辑技术；发表期刊: Nature biomedical engineering"
       },
       {
         "pmid": "42110477",
@@ -1375,7 +1528,10 @@
           "multicellular tumor spheroids",
           "tumor microenvironment"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "CAR-T细胞疗法 cells directed toward PD-L1免疫检查点 demonstrate potent, antigen-specific activity against cholangiocarcinoma: A proof of concept 研究.",
+        "abstract_cn": "An immunosuppressive microenvironment driven by 肿瘤 and stromal cells expressing programmed death-ligand 1 (PD-L1免疫检查点) contributes to immune evasion and poor prognosis in cholangiocarcinoma. Although antibodies to PD-L1免疫检查点 are used clinically, their benefit is limited by immune exclusion within the local microenvironment. To overcome this, we evaluated engineered T cells directed toward PD-L1免疫检查点 that simultaneously 靶点 肿瘤 cells and the immunosuppressive microenvironment. Human donor T cells were t...",
+        "summary_cn": "基础研究；肿瘤领域；CAR-T细胞治疗；发表期刊: Molecular therapy. Oncology"
       },
       {
         "pmid": "42311101",
@@ -1397,7 +1553,10 @@
           "microwave ablation (MWA)",
           "peri-ablational, thermally stressed tumor microenvironment (TME)"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "High-Intensity thermal stress enhances adoptive NK-cell cytotoxicity in poorly differentiated hepatocellular carcinoma.",
+        "abstract_cn": "BACKGROUND: Percutaneous thermal ablation is used to treat early-stage, non-resectable hepatocellular carcinoma (HCC). NK-cell 免疫治疗 has been studied as an adjuvant treatment, but the 有效性 remains unclear when combined with ablation. PURPOSE: To evaluate the 潜在 of peri-ablational, high-intensity thermal stress to augment adoptive NK-cell cytotoxicity in HCC. METHODS: HCC cells were exposed to 37, 43, and 47 °C in water baths to recapitulate peri-ablational heat stress before d...",
+        "summary_cn": "基础研究；发表期刊: International journal of hyperthermia : the official journal of European Society for Hyperthermic Oncology, North American Hyperthermia Group"
       },
       {
         "pmid": "42311073",
@@ -1419,7 +1578,10 @@
           "Ovarian cancer",
           "Tumor microenvironment"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Immunotherapy for gynecological 肿瘤s: From 机制 to clinical practice.",
+        "abstract_cn": "Gynecological 肿瘤s are a group of prevalent and highly lethal malignancies affecting the female reproductive system. The immunosuppressive 肿瘤 microenvironment, characterized by immune cell dysfunction and inhibitory cytokine dysregulation, plays a pivotal role in 肿瘤 initiation, progression, and resistance to conventional therapies. Although standard treatments-including surgery, radiotherapy, and chemotherapy-remain the mainstay for early-stage disease, they often fail to manage advanced...",
+        "summary_cn": "基础研究；肿瘤领域；发表期刊: Chinese medical journal"
       },
       {
         "pmid": "42310741",
@@ -1441,7 +1603,10 @@
           "Tumor infiltrating lymphocytes",
           "Xenograft models"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "PD-1免疫检查点 and TIGIT coexpression enables selective enrichment of clonally expanded 肿瘤-reactive CD8 T cells for melanoma TIL therapy.",
+        "abstract_cn": "BACKGROUND: Although anti-PD-1免疫检查点 antibodies are approved as first-line treatment for 患者s with metastatic melanoma (MM), many 患者s remain resistant. Adoptive 细胞治疗 (ACT) using 肿瘤-infiltrating lymphocytes (TILs) represents a promising alternative or complementary strategy, but heterogeneous clinical response rates indicate that TIL-ACT still requires optimization, particularly through enrichment of 肿瘤-specific T lymphocytes. We recently identified a circulating CD8⁺ T-cell popu...",
+        "summary_cn": "基础研究；肿瘤领域；发表期刊: Journal of translational medicine"
       },
       {
         "pmid": "42307813",
@@ -1466,7 +1631,10 @@
         ],
         "companies": [
           "Scribe"
-        ]
+        ],
+        "title_cn": "Cardiac Risk Without a Roadmap: Lack of Evidence-Based Guidance for Cardiovascular Toxicity of T-Cell Redirecting Therapies.",
+        "abstract_cn": "PURPOSE OF REVIEW: T-cell redirecting therapies have revolutionized the treatment of several hematologic malignancies. These include CAR T-细胞治疗, an adoptive 免疫治疗 in which a 患者's T-cells are engineered to express synthetic receptors against 肿瘤 surface antigens, and 双特异性抗体 T-cell engagers, antibodies simultaneously 靶点ing CD3 and a 肿瘤-specific antigen. Both approaches redirect T-cells toward 肿瘤 cells, thereby enhancing anti-肿瘤 immunity independent of major ...",
+        "summary_cn": "基础研究；肿瘤领域；发表期刊: Current oncology reports"
       },
       {
         "pmid": "42304441",
@@ -1489,7 +1657,10 @@
           "MSS",
           "Tumor microenvironment"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Immunotherapy resistance in colorectal 癌症: 治疗性 strategies and biomarker-guided approaches.",
+        "abstract_cn": "Overcoming 免疫治疗 resistance remains a major challenge in colorectal 癌症 (CRC), particularly because most 肿瘤s are microsatellite stable/proficient mismatch repair (MSS/pMMR) and respond poorly to immune 免疫检查点抑制剂s (ICIs). In contrast, deficient mismatch repair/high microsatellite instability (dMMR/MSI-H) 肿瘤s show greater sensitivity to PD-1免疫检查点/PD-L1免疫检查点 and CTLA-4 blockade due to high 肿瘤 mutational burden, neoantigen generation, and immune-inflamed 肿瘤 microenvironments....",
+        "summary_cn": "基础研究；肿瘤领域；发表期刊: Cancer cell international"
       },
       {
         "pmid": "42303806",
@@ -1505,7 +1676,10 @@
         "journal": "Cancer gene therapy",
         "date": "2026-06-16",
         "keywords": [],
-        "companies": []
+        "companies": [],
+        "title_cn": "Reprogramming the 肿瘤 microenvironment via TFF3 靶点ing: a 潜在 新型 avenue to boost CAR-T细胞疗法 细胞治疗 in solid 肿瘤s.",
+        "abstract_cn": "CAR-T细胞疗法 细胞治疗 has shown great success in hematological malignancies. However, this immuno治疗性 strategy faces critical challenges in solid 肿瘤s mainly due to the key hurdles brought about by the hostile 肿瘤 microenvironment (TME). Effective CAR-T细胞疗法 细胞治疗 in solid 肿瘤s is hampered by low 肿瘤 infiltration of the administered T cells due to the dense fibrotic nature of the TME and its aberrant vasculature. Also, solid 肿瘤s shape a highly immunosuppressive milieu in which t...",
+        "summary_cn": "基础研究；肿瘤领域；CAR-T细胞治疗；发表期刊: Cancer gene therapy"
       },
       {
         "pmid": "42303142",
@@ -1526,7 +1700,10 @@
           "Solid tumors",
           "Tumor microenvironment remodeling"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Challenges and Recent Advances in CAR-T细胞疗法 Cell Therapy for Solid Tumors.",
+        "abstract_cn": "Chimeric Antigen Receptor T-cell (CAR-T细胞疗法) therapy has achieved revolutionary success in hematological malignancies. However, its broad application in solid 肿瘤 treatment still faces fundamental challenges. This review explores the multiple obstacles encountered by CAR-T细胞疗法 therapy in conquering solid 肿瘤s, including core issues such as 肿瘤 antigen heterogeneity, the immunosuppressive 肿瘤 microenvironment (TME), difficulties in T-cell infiltration, and treatment-related toxicities. Beyond mer...",
+        "summary_cn": "基础研究；肿瘤领域；CAR-T细胞治疗；发表期刊: Critical reviews in oncology/hematology"
       },
       {
         "pmid": "42302064",
@@ -1547,7 +1724,10 @@
           "plasticity",
           "therapeutic resistance"
         ],
-        "companies": []
+        "companies": [],
+        "title_cn": "Chromosomal Instability Drives Glioblastoma Heterogeneity and Therapeutic Opportunities.",
+        "abstract_cn": "Glioblastoma, the most aggressive and lethal form of 脑 癌症, is defined by profound genomic instability, with Chromosomal Instability (CIN) playing a central role in driving 肿瘤 progression, therapy resistance, and poor prognosis. CIN is characterized by numerical and structural alterations, is driven by 机制s such as mitotic errors, centrosome amplification, spindle assembly checkpoint dysfunction, and defective DNA repair 通路s. These aberrations contribute to 肿瘤 heterogenei...",
+        "summary_cn": "基础研究；肿瘤领域；发表期刊: Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
       }
     ]
   },
