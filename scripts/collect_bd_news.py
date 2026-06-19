@@ -403,7 +403,7 @@ def generate_chinese_summary(item):
 
         # 识别收购方
         company_list = {
-            'biogen': 'Biogen', 'eli lilly': '礼来', 'gsk': '葛兰素史克',
+            'biogen': '百健(Biogen)', 'eli lilly': '礼来', 'gsk': '葛兰素史克',
             'novartis': '诺华', 'roche': '罗氏', 'pfizer': '辉瑞', 'merck': '默克',
             'bristol myers squibb': '百时美施贵宝', 'johnson & johnson': '强生',
             'astrazeneca': '阿斯利康', 'sanofi': '赛诺菲', 'amgen': '安进',
@@ -491,11 +491,11 @@ def generate_chinese_summary(item):
     elif deal_type == '融资':
         company = ''
         if 'cellares' in text:
-            company = 'Cellares'
+            company = '细胞疗法公司Cellares'
         elif 'novo nordisk' in text:
             company = '诺和诺德'
         elif 'moderna' in text:
-            company = 'Moderna'
+            company = 'Moderna公司'
 
         amount_match = re.search(r'\$?(\d+\.?\d*)\s*(billion|million)', text)
         if amount_match:
@@ -506,7 +506,7 @@ def generate_chinese_summary(item):
             amount = '新一轮融资'
 
         round_match = re.search(r'Series\s+([A-Z])', text, re.IGNORECASE)
-        round_name = f'{round_match.group(1)}轮' if round_match else ''
+        round_name = f'{round_match.group(1).upper()}轮' if round_match else ''
 
         if company:
             if round_name:
