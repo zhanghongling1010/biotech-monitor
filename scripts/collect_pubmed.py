@@ -616,208 +616,300 @@ def translate_paper_keywords(text):
 
 def generate_paper_summary(article):
     """为论文生成专业分析师风格的中文总结"""
+    import re
+    
     title = article.get('title', '')
     abstract = article.get('abstract', '')
     text = title + ' ' + abstract
     text_lower = text.lower()
-
+    
     cn_title = title
 
-    # 维度1：研究基础与实验设计
+    # ===== 维度1：研究基础与实验设计 =====
     dim1_parts = []
-
-    # 研究对象
-    diseases = []
-    disease_map = {
-        'melanoma': '黑色素瘤',
-        'non-small cell lung cancer': '非小细胞肺癌',
-        'nsclc': '非小细胞肺癌',
-        'breast cancer': '乳腺癌',
-        'lung cancer': '肺癌',
-        'colorectal cancer': '结直肠癌',
-        'liver cancer': '肝癌',
-        'hepatocellular carcinoma': '肝细胞癌',
-        'leukemia': '白血病',
-        'acute myeloid leukemia': '急性髓系白血病',
-        'aml': '急性髓系白血病',
-        'lymphoma': '淋巴瘤',
-        'multiple myeloma': '多发性骨髓瘤',
-        'diabetes': '糖尿病',
-        'obesity': '肥胖',
-        'alzheimer': '阿尔茨海默病',
-        'parkinson': '帕金森病',
-    }
-    for eng, cn in disease_map.items():
-        if eng in text_lower:
-            diseases.append(cn)
-    diseases = list(dict.fromkeys(diseases))
-
-    # 细胞/动物模型
-    models = []
-    if 'hepg2' in text_lower:
-        models.append('肝癌HepG2细胞')
-    if 'a549' in text_lower:
-        models.append('肺癌A549细胞')
-    if 'xenograft' in text_lower:
-        models.append('异种移植瘤模型')
-    if 'patient-derived' in text_lower or 'pdx' in text_lower:
-        models.append('患者来源肿瘤移植模型(PDX)')
-    if 'organoid' in text_lower:
-        models.append('类器官模型')
-    if 'mouse model' in text_lower or 'murine' in text_lower:
-        models.append('小鼠模型')
-    if 'non-human primate' in text_lower:
-        models.append('非人灵长类动物模型')
-    models = list(dict.fromkeys(models))
-
-    if diseases and models:
-        d_str = '、'.join(diseases[:2])
-        m_str = '、'.join(models[:2])
-        dim1_parts.append(f"研究针对{d_str}，使用{m_str}")
-    elif diseases:
-        d_str = '、'.join(diseases[:2])
-        dim1_parts.append(f"研究针对{d_str}")
-    elif models:
-        m_str = '、'.join(models[:2])
-        dim1_parts.append(f"使用{m_str}")
-
+    
+    # 提取具体研究对象（疾病/细胞/模型）
+    disease_patterns = [
+        (r'melanoma', '黑色素瘤'),
+        (r'bladder cancer|urothelial carcinoma', '膀胱癌/尿路上皮癌'),
+        (r'breast cancer', '乳腺癌'),
+        (r'non.?small cell lung cancer|nsclc', '非小细胞肺癌'),
+        (r'lung cancer', '肺癌'),
+        (r'colorectal cancer', '结直肠癌'),
+        (r'liver cancer|hepatocellular carcinoma', '肝癌/肝细胞癌'),
+        (r'acute myeloid leukemia|aml', '急性髓系白血病'),
+        (r'chronic myeloid leukemia|cml', '慢性髓系白血病'),
+        (r'lymphoma', '淋巴瘤'),
+        (r'multiple myeloma', '多发性骨髓瘤'),
+        (r'prostate cancer', '前列腺癌'),
+        (r'ovarian cancer', '卵巢癌'),
+        (r'pancreatic cancer', '胰腺癌'),
+        (r'glioma|glioblastoma', '胶质瘤/胶质母细胞瘤'),
+        (r'autism|asd', '自闭症谱系障碍'),
+        (r'alzheimer', '阿尔茨海默病'),
+        (r'parkinson', '帕金森病'),
+        (r'diabetes', '糖尿病'),
+        (r'obesity', '肥胖'),
+        (r'cardiovascular disease', '心血管疾病'),
+        (r'covid-?19|sars-cov-2', 'COVID-19/新冠病毒'),
+        (r'hiv|aids', 'HIV/艾滋病'),
+        (r'sickle cell', '镰状细胞病'),
+        (r'duchenne muscular dystrophy|dmd', '杜氏肌营养不良'),
+        (r'Duchenne', '杜氏肌营养不良'),
+    ]
+    diseases_found = []
+    for pattern, cn_name in disease_patterns:
+        if re.search(pattern, text_lower):
+            diseases_found.append(cn_name)
+    diseases_found = list(dict.fromkeys(diseases_found))
+    
+    # 提取细胞系/动物模型
+    model_patterns = [
+        (r'C\.? albicans|Candida albicans', '白色念珠菌'),
+        (r'patient.derived.*xenograft|pdx', '患者来源异种移植模型(PDX)'),
+        (r'xenograft', '异种移植瘤模型'),
+        (r'organoid', '类器官模型'),
+        (r'mouse model|mice|muROS', '小鼠模型'),
+        (r'rat model', '大鼠模型'),
+        (r'non.?human primate|primate', '非人灵长类动物模型'),
+        (r'zebrafish', '斑马鱼模型'),
+        (r'ipsc|induced pluripotent', '诱导多能干细胞(iPSC)'),
+        (r'hepg2', '肝癌HepG2细胞'),
+        (r'a549', '肺癌A549细胞'),
+        (r'mcf-?7', '乳腺癌MCF-7细胞'),
+        (r'jurkat', 'T细胞Jurkat细胞'),
+        (r'hek293|hek ?293', 'HEK293细胞'),
+    ]
+    models_found = []
+    for pattern, cn_name in model_patterns:
+        if re.search(pattern, text_lower):
+            models_found.append(cn_name)
+    models_found = list(dict.fromkeys(models_found))
+    
+    if diseases_found:
+        d_str = '、'.join(diseases_found[:2])
+        dim1_parts.append('研究针对：' + d_str)
+    if models_found:
+        m_str = '、'.join(models_found[:2])
+        dim1_parts.append('模型：' + m_str)
+    
     # 核心技术体系
-    tech_details = []
-    if 'crispr' in text_lower and 'cas9' in text_lower:
-        if 'base editing' in text_lower:
-            tech_details.append('碱基编辑(CBE/ABE)')
-        elif 'prime editing' in text_lower:
-            tech_details.append('先导编辑')
-        elif 'knockout' in text_lower:
-            tech_details.append('CRISPR-Cas9基因敲除')
-        else:
-            tech_details.append('CRISPR-Cas9基因编辑')
-    elif 'crispr' in text_lower:
-        tech_details.append('CRISPR基因编辑')
-    elif 'car-t' in text_lower or 'car t' in text_lower:
-        tech_details.append('CAR-T细胞治疗')
-    elif 'bispecific' in text_lower:
-        tech_details.append('双特异性抗体')
-    elif 'adc' in text_lower:
-        tech_details.append('抗体偶联药物(ADC)')
-    elif 'mrna' in text_lower:
-        tech_details.append('mRNA技术')
-    elif 'rna sequencing' in text_lower or 'rnaseq' in text_lower:
-        tech_details.append('RNA-seq转录组测序')
-    elif 'single-cell' in text_lower:
-        tech_details.append('单细胞测序')
-    elif 'ipsc' in text_lower:
-        tech_details.append('诱导多能干细胞(iPSC)')
-
-    if tech_details:
-        dim1_parts.append(f"核心技术：{'/'.join(tech_details)}")
-
+    tech_patterns = [
+        (r'base editing|cbe|abe', '碱基编辑(CBE/ABE)'),
+        (r'prime editing', '先导编辑'),
+        (r'crispr.*cas9|cas9.*crispr', 'CRISPR-Cas9系统'),
+        (r'crispr', 'CRISPR基因编辑'),
+        (r'car-?t cell|chimeric antigen receptor', 'CAR-T细胞治疗'),
+        (r'bispecific antibody', '双特异性抗体'),
+        (r'adc|antibody.?drug conjugate', '抗体偶联药物(ADC)'),
+        (r'mrna|messenger rna', 'mRNA技术'),
+        (r'rna.?seq|rna sequencing', 'RNA-seq转录组测序'),
+        (r'single.?cell', '单细胞测序'),
+        (r'sirna|rnai|rna interference', 'RNA干扰(siRNA)'),
+        (r'crispri|crispra|crispr activation|crispr interference', 'CRISPR基因调控'),
+        (r'ipsc|stem cell', '干细胞技术'),
+        (r'gene therapy', '基因治疗'),
+        (r'lentiviral|aa[vv]', '病毒载体递送'),
+    ]
+    techs_found = []
+    for pattern, cn_name in tech_patterns:
+        if re.search(pattern, text_lower):
+            techs_found.append(cn_name)
+    techs_found = list(dict.fromkeys(techs_found))
+    
+    if techs_found:
+        t_str = '、'.join(techs_found[:2])
+        dim1_parts.append('核心技术：' + t_str)
+    
     # 研究层级
-    level = '基础研究'
-    if 'phase 3' in text_lower or 'phase iii' in text_lower:
-        level = 'III期临床试验'
-    elif 'phase 2' in text_lower or 'phase ii' in text_lower:
-        level = 'II期临床试验'
-    elif 'phase 1' in text_lower or 'phase i' in text_lower:
-        level = 'I期临床试验'
+    if re.search(r'phase\s*3|phase\s*iii|phase\s*2|phase\s*ii|phase\s*1|phase\s*i', text_lower):
+        level_match = re.search(r'phase\s*([123])', text_lower)
+        if level_match:
+            dim1_parts.append(f"研究层级：{level_match.group(1)}期临床试验")
     elif 'clinical trial' in text_lower:
-        level = '临床试验'
+        dim1_parts.append('研究层级：临床试验')
     elif 'preclinical' in text_lower:
-        level = '临床前研究'
-    elif 'vivo' in text_lower:
-        level = '动物体内实验'
-    elif 'vitro' in text_lower:
-        level = '体外细胞实验'
-    dim1_parts.append(f"研究层级：{level}")
-
+        dim1_parts.append('研究层级：临床前研究')
+    elif re.search(r'in vivo.*mouse|mouse.*in vivo|animal model', text_lower):
+        dim1_parts.append('研究层级：动物体内实验')
+    elif 'in vitro' in text_lower:
+        dim1_parts.append('研究层级：体外细胞实验')
+    else:
+        dim1_parts.append('研究层级：基础研究')
+    
     dim1 = '；'.join(dim1_parts) if dim1_parts else '研究层级：基础研究'
-
-    # 维度2：核心实验关键数据
-    import re
+    
+    # ===== 维度2：核心实验关键数据 =====
     dim2_parts = []
-
-    # 量化数据
-    quant_data = []
-    percent_matches = re.findall(r'(\d+\.?\d*)\s*%', abstract)
-    for p in percent_matches[:5]:
-        quant_data.append(f'{p}%')
-
-    # 核心发现
+    
+    # 提取量化数据
+    quant_matches = re.findall(r'(\d+\.?\d*)\s*(?:fold|%)', text_lower)
+    if quant_matches:
+        dim2_parts.append(f"数据倍数/百分比：{', '.join(quant_matches[:3])}")
+    
+    # 提取具体基因/蛋白名称
+    gene_matches = re.findall(r'(?:gene|protein|mrna|lncrna|circrna)[^\s]*\s+([A-Z][a-z]+\d*)', text)
+    gene_matches = list(dict.fromkeys([g for g in gene_matches if len(g) > 2 and len(g) < 15]))[:5]
+    if gene_matches:
+        dim2_parts.append(f"关键分子：{', '.join(gene_matches)}")
+    
+    # 核心发现（机制/作用）
     findings = []
-    if any(k in text_lower for k in ['identified', 'discovered', 'revealed']):
-        findings.append('首次鉴定/发现')
-    if any(k in text_lower for k in ['inhibit', 'suppress', 'repress']):
+    if re.search(r'novel|new|first time|first identification|discover', text_lower):
+        findings.append('首次发现/鉴定')
+    if re.search(r'inhibit|suppress|repress|block', text_lower):
         findings.append('抑制作用')
-    if any(k in text_lower for k in ['promote', 'activate', 'induce']):
+    if re.search(r'promote|activat|induce|enhance', text_lower):
         findings.append('促进作用')
-    if any(k in text_lower for k in ['migration', 'invasion', 'metastasis']):
-        findings.append('抑制转移')
-    if any(k in text_lower for k in ['proliferation', 'growth']):
+    if re.search(r'migration|invasion|metastasis', text_lower):
+        findings.append('抑制转移/侵袭')
+    if re.search(r'proliferation|growth', text_lower):
         findings.append('抑制增殖')
-    if any(k in text_lower for k in ['apoptosis']):
+    if re.search(r'apoptosis|cell death', text_lower):
         findings.append('诱导凋亡')
-    if any(k in text_lower for k in ['survival']):
-        findings.append('延长生存')
-    if any(k in text_lower for k in ['efficacy', 'effective']):
-        findings.append('显示有效')
-    if any(k in text_lower for k in ['safety', 'tolerable']):
-        findings.append('安全可接受')
-
+    if re.search(r'drug resistance|therapy resistance|treatment resistance', text_lower):
+        findings.append('耐药机制')
+    if re.search(r'survival|overall survival|progression.free', text_lower):
+        findings.append('影响生存')
+    if re.search(r'safety|tolerab|toxicity|adverse', text_lower):
+        findings.append('安全性评估')
+    if re.search(r'efficacy|effective|response|treatment effect', text_lower):
+        findings.append('有效性验证')
+    if re.search(r'expression|level|abundance', text_lower):
+        findings.append('表达水平变化')
+    if re.search(r'binding|affinity|interaction', text_lower):
+        findings.append('结合/相互作用')
+    
     if findings:
         dim2_parts.append('核心发现：' + '、'.join(findings[:4]))
-    if quant_data:
-        dim2_parts.append('量化数据：' + '、'.join(quant_data[:4]))
-    if ('first time' in text_lower or 'novel' in text_lower):
-        if 'mechanism' in text_lower or 'pathway' in text_lower:
-            dim2_parts.append('发现新型分子机制')
-        if 'target' in text_lower:
-            dim2_parts.append('鉴定新靶点')
-
+    
+    # 具体表型/结果描述
+    pheno_matches = re.findall(r'(?:significantly|markedly|drastically)\s+(\w+(?:\s+\w+){0,2})', text_lower)
+    if pheno_matches:
+        dim2_parts.append(f"显著变化：{pheno_matches[0]}")
+    
+    # 关键突破点
+    breakthroughs = []
+    if re.search(r'novel|new target|first time', text_lower):
+        breakthroughs.append('新靶点/新机制')
+    if re.search(r'overcome.*resistance|bypass.*resistance', text_lower):
+        breakthroughs.append('克服耐药')
+    if re.search(r'improve.*efficacy|enhance.*effect', text_lower):
+        breakthroughs.append('提高疗效')
+    if re.search(r'reduce.*toxicity|decrease.*side', text_lower):
+        breakthroughs.append('降低毒性')
+    
+    if breakthroughs:
+        dim2_parts.append('关键突破：' + '、'.join(breakthroughs[:2]))
+    
+    # 局限性
+    limitations = []
+    if re.search(r'not.*disclosed|not.*mention|unclear|unknown', text_lower):
+        limitations.append('原文未披露详细信息')
+    if re.search(r'further.*(study|research|investigation)|need.*more', text_lower):
+        limitations.append('需进一步研究')
+    if re.search(r'limitation|limiting', text_lower):
+        limitations.append('存在实验局限性')
+    
+    if limitations:
+        dim2_parts.append('局限性：' + '；'.join(limitations))
+    
     dim2 = '；'.join(dim2_parts) if dim2_parts else '原文未披露详细量化数据'
-
-    # 维度3：机制创新与产业价值
+    
+    # ===== 维度3：机制创新与产业价值 =====
     dim3_parts = []
-    if 'mechanism' in text_lower or 'pathway' in text_lower:
-        dim3_parts.append('科学机制：新调控通路')
-    if 'target' in text_lower and ('novel' in text_lower or 'new' in text_lower):
-        dim3_parts.append('靶点创新：新治疗靶点')
-
-    clinical_value = []
-    if 'resistance' in text_lower:
-        clinical_value.append('针对耐药')
-    if 'metastasis' in text_lower:
-        clinical_value.append('针对转移')
-    if clinical_value:
-        dim3_parts.append('临床痛点：' + '、'.join(clinical_value))
-
+    
+    # 涉及的信号通路
+    pathway_patterns = [
+        (r'pi3k.*akt|akt.*pi3k', 'PI3K/AKT通路'),
+        (r'mapk|erk', 'MAPK/ERK通路'),
+        (r'jak.*stat|stat.*jak', 'JAK/STAT通路'),
+        (r'nf.?kb|nfkappa', 'NF-κB通路'),
+        (r'tgf.?beta|tgfbeta', 'TGF-β通路'),
+        (r'wnt|beta.?catenin', 'Wnt/β-catenin通路'),
+        (r'notch', 'Notch通路'),
+        (r'hippo', 'Hippo通路'),
+        (r'apoptosis.*pathway|caspase', '细胞凋亡通路'),
+        (r'autophagy', '自噬通路'),
+        (r'immune checkpoint|pd-1|pd-l1|ctla-4', '免疫检查点通路'),
+        (r'clock|circadian', '生物钟通路'),
+    ]
+    pathways_found = []
+    for pattern, cn_name in pathway_patterns:
+        if re.search(pattern, text_lower):
+            pathways_found.append(cn_name)
+    if pathways_found:
+        dim3_parts.append('信号通路：' + '、'.join(pathways_found[:2]))
+    
+    # 科学机制创新
+    mech_innovations = []
+    if re.search(r'novel.*mechanism|new.*pathway|discover.*mechanism', text_lower):
+        mech_innovations.append('发现新型分子机制')
+    if re.search(r'identify.*target|identify.*biomarker', text_lower):
+        mech_innovations.append('鉴定新靶点/生物标志物')
+    if re.search(r'regulatory.*network|network.*analysis', text_lower):
+        mech_innovations.append('揭示调控网络')
+    
+    if mech_innovations:
+        dim3_parts.append('机制创新：' + '、'.join(mech_innovations))
+    
+    # 临床痛点对应
+    clinical_problems = []
+    if re.search(r'drug resistance|therapy resistance', text_lower):
+        clinical_problems.append('针对治疗耐药')
+    if re.search(r'metastasis|recurrence', text_lower):
+        clinical_problems.append('针对肿瘤转移/复发')
+    if re.search(r'side effect|toxicity|adverse', text_lower):
+        clinical_problems.append('针对药物毒性/副作用')
+    if re.search(r'poor prognosis|low response', text_lower):
+        clinical_problems.append('针对不良预后/低响应率')
+    if re.search(r'limited efficacy|no effective treatment', text_lower):
+        clinical_problems.append('针对现有治疗局限')
+    
+    if clinical_problems:
+        dim3_parts.append('临床痛点：' + '、'.join(clinical_problems[:2]))
+    
+    # 期刊
     journal = article.get('journal', '')
     if journal:
-        dim3_parts.append(f'发表期刊：{journal}')
-
+        dim3_parts.append(f"发表期刊：{journal}")
+    
     dim3 = '；'.join(dim3_parts) if dim3_parts else '产业价值需后续评估'
-
-    # 维度4：后续追踪要点
+    
+    # ===== 维度4：后续追踪要点 =====
+    dim4_parts = []
+    
     follow_ups = []
-    if 'further' in text_lower or 'future' in text_lower:
-        follow_ups.append('需进一步验证')
-    if 'clinical' in text_lower:
-        follow_ups.append('需临床安全性评估')
-    if 'combination' in text_lower:
-        follow_ups.append('联合用药待探索')
-    if 'biomarker' in text_lower:
-        follow_ups.append('伴随诊断开发')
-
-    dim4 = '；'.join(follow_ups) if follow_ups else '持续关注后续进展'
-
-    # 组装
+    if re.search(r'further.*(study|research|validation)|need.*more.*evidence', text_lower):
+        follow_ups.append('需进一步功能验证')
+    if re.search(r'animal model|preclinical', text_lower) and not re.search(r'clinical', text_lower):
+        follow_ups.append('需开展体内/临床前研究')
+    if re.search(r'clinical.*trial|clinical.*study', text_lower):
+        follow_ups.append('关注临床试验进展')
+    if re.search(r'combination|synergistic', text_lower):
+        follow_ups.append('联合用药方案待探索')
+    if re.search(r'biomarker|diagnostic', text_lower):
+        follow_ups.append('伴随诊断开发潜力')
+    if re.search(r'drug.*development|therapeutic.*potential', text_lower):
+        follow_ups.append('新药研发潜力评估')
+    if re.search(r'patent|intellectual property|ip', text_lower):
+        follow_ups.append('知识产权布局关注')
+    
+    if follow_ups:
+        dim4 = '；'.join(follow_ups[:3])
+    else:
+        dim4 = '持续关注该研究领域后续进展及临床转化动态'
+    
+    # ===== 组装专业分析师总结 =====
     cn_summary = f"【研究基础与实验设计】{dim1}。\n"
     cn_summary += f"【核心实验关键数据】{dim2}。\n"
     cn_summary += f"【机制创新与产业价值】{dim3}。\n"
     cn_summary += f"【后续追踪要点】{dim4}。"
-
+    
     cn_abstract = translate_abstract_fluent(abstract) if abstract else ''
-
+    
     return cn_title, cn_abstract, cn_summary
+
 
 
 def search_pubmed(query, days_back=7, max_results=50):
