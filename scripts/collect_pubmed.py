@@ -615,7 +615,7 @@ def translate_paper_keywords(text):
     return result
 
 def generate_paper_summary(article):
-    """为论文生成专业分析师风格的中文总结"""
+    """为论文生成专业分析师风格的中文总结 - 详细提取所有关键信息"""
     import re
     
     title = article.get('title', '')
@@ -628,34 +628,37 @@ def generate_paper_summary(article):
     # ===== 维度1：研究基础与实验设计 =====
     dim1_parts = []
     
-    # 提取具体研究对象（疾病/细胞/模型）
+    # 提取具体研究对象（疾病/细胞/模型）- 避免混淆
     disease_patterns = [
         (r'melanoma', '黑色素瘤'),
         (r'bladder cancer|urothelial carcinoma', '膀胱癌/尿路上皮癌'),
         (r'breast cancer', '乳腺癌'),
         (r'non.?small cell lung cancer|nsclc', '非小细胞肺癌'),
-        (r'lung cancer', '肺癌'),
-        (r'colorectal cancer', '结直肠癌'),
-        (r'liver cancer|hepatocellular carcinoma', '肝癌/肝细胞癌'),
-        (r'acute myeloid leukemia|aml', '急性髓系白血病'),
+        (r'lung cancer(?!.*cell)', '肺癌'),  # 排除non-small cell lung cancer
+        (r'colorectal cancer|colon cancer', '结直肠癌'),
+        (r'liver cancer|hepatocellular carcinoma|hepatocellular cancer', '肝癌/肝细胞癌'),
+        (r'acute myeloid leukemia|aml(?!i)', '急性髓系白血病'),  # 排除amli等
         (r'chronic myeloid leukemia|cml', '慢性髓系白血病'),
         (r'lymphoma', '淋巴瘤'),
         (r'multiple myeloma', '多发性骨髓瘤'),
         (r'prostate cancer', '前列腺癌'),
         (r'ovarian cancer', '卵巢癌'),
         (r'pancreatic cancer', '胰腺癌'),
-        (r'glioma|glioblastoma', '胶质瘤/胶质母细胞瘤'),
-        (r'autism|asd', '自闭症谱系障碍'),
+        (r'glioma|glioblastoma multiforme', '胶质母细胞瘤'),
+        (r'autism spectrum disorder|autism|asd(?!v)', '自闭症谱系障碍'),  # 排除ASDV等
         (r'alzheimer', '阿尔茨海默病'),
         (r'parkinson', '帕金森病'),
-        (r'diabetes', '糖尿病'),
-        (r'obesity', '肥胖'),
-        (r'cardiovascular disease', '心血管疾病'),
-        (r'covid-?19|sars-cov-2', 'COVID-19/新冠病毒'),
+        (r'diabetes mellitus|diabetes', '糖尿病'),
+        (r'obesity(?!n)', '肥胖'),  # 排除obesity-associated
+        (r'cardiovascular disease|heart disease', '心血管疾病'),
+        (r'covid-?19|sars-cov-2', 'COVID-19'),
         (r'hiv|aids', 'HIV/艾滋病'),
-        (r'sickle cell', '镰状细胞病'),
-        (r'duchenne muscular dystrophy|dmd', '杜氏肌营养不良'),
-        (r'Duchenne', '杜氏肌营养不良'),
+        (r'sickle cell disease', '镰状细胞病'),
+        (r'duchenne muscular dystrophy', '杜氏肌营养不良'),
+        (r'fuchs? endothelial corneal dystrophy|fecd', 'Fuchs角膜内皮营养不良'),
+        (r'microglia', '小胶质细胞'),
+        (r' Candida albicans', '白色念珠菌'),
+        (r'leishmaniasis', '利什曼病'),
     ]
     diseases_found = []
     for pattern, cn_name in disease_patterns:
@@ -665,20 +668,23 @@ def generate_paper_summary(article):
     
     # 提取细胞系/动物模型
     model_patterns = [
-        (r'C\.? albicans|Candida albicans', '白色念珠菌'),
-        (r'patient.derived.*xenograft|pdx', '患者来源异种移植模型(PDX)'),
-        (r'xenograft', '异种移植瘤模型'),
+        (r'patient.derived.*xenograft|pdx model', '患者来源异种移植模型(PDX)'),
+        (r'xenograft model', '异种移植瘤模型'),
+        (r'patient.derived organoid|pdo', '患者来源类器官(PDO)'),
         (r'organoid', '类器官模型'),
-        (r'mouse model|mice|muROS', '小鼠模型'),
+        (r'chd8[+]/?[R+]', 'Chd8基因突变小鼠'),
+        (r'mouse model|chd8.*mouse|muROS', '小鼠模型'),
         (r'rat model', '大鼠模型'),
-        (r'non.?human primate|primate', '非人灵长类动物模型'),
+        (r'non.?human primate|macaque|macaca', '非人灵长类动物'),
         (r'zebrafish', '斑马鱼模型'),
-        (r'ipsc|induced pluripotent', '诱导多能干细胞(iPSC)'),
+        (r'ipsc|induced pluripotent stem cell', '诱导多能干细胞(iPSC)'),
         (r'hepg2', '肝癌HepG2细胞'),
         (r'a549', '肺癌A549细胞'),
         (r'mcf-?7', '乳腺癌MCF-7细胞'),
         (r'jurkat', 'T细胞Jurkat细胞'),
-        (r'hek293|hek ?293', 'HEK293细胞'),
+        (r'hek293', 'HEK293细胞'),
+        (r'sw480', '结直肠癌SW480细胞'),
+        (r'b16|b16f10', '黑色素瘤B16细胞'),
     ]
     models_found = []
     for pattern, cn_name in model_patterns:
@@ -693,23 +699,27 @@ def generate_paper_summary(article):
         m_str = '、'.join(models_found[:2])
         dim1_parts.append('模型：' + m_str)
     
-    # 核心技术体系
+    # 核心技术体系 - 更精确
     tech_patterns = [
-        (r'base editing|cbe|abe', '碱基编辑(CBE/ABE)'),
+        (r'base editing|cbe|abe|adenine base editor', '碱基编辑(CBE/ABE)'),
         (r'prime editing', '先导编辑'),
-        (r'crispr.*cas9|cas9.*crispr', 'CRISPR-Cas9系统'),
-        (r'crispr', 'CRISPR基因编辑'),
-        (r'car-?t cell|chimeric antigen receptor', 'CAR-T细胞治疗'),
-        (r'bispecific antibody', '双特异性抗体'),
+        (r'crispr.?cas9|cas9.?crispr', 'CRISPR-Cas9系统'),
+        (r'\bcas9\b(?!\s*-?crispr)', 'Cas9核酸酶'),
+        (r'crispri|crispra|crispr activation|crispra', 'CRISPR激活(CRISPRa)'),
+        (r'crispri|crispr interference|crispri', 'CRISPR干扰(CRISPRi)'),
+        (r'crispr.?gene (?:edit|editing)', 'CRISPR基因编辑'),
+        (r'car.?t cell|chimeric antigen receptor.?t', 'CAR-T细胞治疗'),
+        (r'car.?nk cell', 'CAR-NK细胞治疗'),
+        (r'bispecific (?:antibody|tcell engager)', '双特异性抗体/T细胞衔接器'),
         (r'adc|antibody.?drug conjugate', '抗体偶联药物(ADC)'),
         (r'mrna|messenger rna', 'mRNA技术'),
-        (r'rna.?seq|rna sequencing', 'RNA-seq转录组测序'),
-        (r'single.?cell', '单细胞测序'),
+        (r'rna.?seq|rna sequencing|transcriptomics', 'RNA-seq转录组测序'),
+        (r'single.?cell (?:rna|atac)', '单细胞RNA/ATAC测序'),
         (r'sirna|rnai|rna interference', 'RNA干扰(siRNA)'),
-        (r'crispri|crispra|crispr activation|crispr interference', 'CRISPR基因调控'),
-        (r'ipsc|stem cell', '干细胞技术'),
-        (r'gene therapy', '基因治疗'),
-        (r'lentiviral|aa[vv]', '病毒载体递送'),
+        (r'gene therapy|viral vector', '基因治疗/病毒载体'),
+        (r'optogenetics', '光遗传学'),
+        (r'chemogenetics', '化学遗传学'),
+        (r' Crispr-Cas9-generated', 'CRISPR-Cas9构建'),
     ]
     techs_found = []
     for pattern, cn_name in tech_patterns:
@@ -722,15 +732,17 @@ def generate_paper_summary(article):
         dim1_parts.append('核心技术：' + t_str)
     
     # 研究层级
-    if re.search(r'phase\s*3|phase\s*iii|phase\s*2|phase\s*ii|phase\s*1|phase\s*i', text_lower):
-        level_match = re.search(r'phase\s*([123])', text_lower)
-        if level_match:
-            dim1_parts.append(f"研究层级：{level_match.group(1)}期临床试验")
-    elif 'clinical trial' in text_lower:
+    if re.search(r'phase\s*3|phase\s*iii', text_lower):
+        dim1_parts.append('研究层级：III期临床试验')
+    elif re.search(r'phase\s*2|phase\s*ii', text_lower):
+        dim1_parts.append('研究层级：II期临床试验')
+    elif re.search(r'phase\s*1|phase\s*i', text_lower):
+        dim1_parts.append('研究层级：I期临床试验')
+    elif 'clinical trial' in text_lower and 'phase' in text_lower:
         dim1_parts.append('研究层级：临床试验')
     elif 'preclinical' in text_lower:
         dim1_parts.append('研究层级：临床前研究')
-    elif re.search(r'in vivo.*mouse|mouse.*in vivo|animal model', text_lower):
+    elif re.search(r'in vivo', text_lower) and re.search(r'mouse|rat|primate|animal', text_lower):
         dim1_parts.append('研究层级：动物体内实验')
     elif 'in vitro' in text_lower:
         dim1_parts.append('研究层级：体外细胞实验')
@@ -742,137 +754,200 @@ def generate_paper_summary(article):
     # ===== 维度2：核心实验关键数据 =====
     dim2_parts = []
     
-    # 提取量化数据
-    quant_matches = re.findall(r'(\d+\.?\d*)\s*(?:fold|%)', text_lower)
-    if quant_matches:
-        dim2_parts.append(f"数据倍数/百分比：{', '.join(quant_matches[:3])}")
+    # 提取所有量化数据（倍数、百分比）
+    quant_patterns = [
+        (r'(\d+\.?\d*)\s*%', '%'),
+        (r'(\d+\.?\d*)\s*-?fold', '倍'),
+        (r'(\d+\.?\d*)\s*-?fold', '倍'),
+        (r'(\$\d+\.?\d*)\s*(?:million|billion)', '$'),
+    ]
+    all_quants = []
+    for pattern, unit in quant_patterns:
+        matches = re.findall(pattern, text_lower)
+        for m in matches[:3]:
+            all_quants.append(m + unit)
     
-    # 提取具体基因/蛋白名称
-    gene_matches = re.findall(r'(?:gene|protein|mrna|lncrna|circrna)[^\s]*\s+([A-Z][a-z]+\d*)', text)
-    gene_matches = list(dict.fromkeys([g for g in gene_matches if len(g) > 2 and len(g) < 15]))[:5]
-    if gene_matches:
-        dim2_parts.append(f"关键分子：{', '.join(gene_matches)}")
+    if all_quants:
+        dim2_parts.append('量化数据：' + ', '.join(all_quants[:4]))
     
-    # 核心发现（机制/作用）
-    findings = []
-    if re.search(r'novel|new|first time|first identification|discover', text_lower):
-        findings.append('首次发现/鉴定')
-    if re.search(r'inhibit|suppress|repress|block', text_lower):
-        findings.append('抑制作用')
-    if re.search(r'promote|activat|induce|enhance', text_lower):
-        findings.append('促进作用')
+    # 提取具体基因/蛋白
+    gene_patterns = [
+        r'(?:gene|protein|mrna|circrna|lncrna)\s+([A-Z][a-z]\d*)',
+        r'(?:mutant|knockout|knock.?in)\s+([A-Z][a-z]\d*)',
+        r'target\s+([A-Z][a-z]\d*)',
+        r'receptor\s+([A-Z][a-z]\d*)',
+        r'factor\s+([A-Z][a-z]\d*)',
+    ]
+    genes_found = []
+    for pat in gene_patterns:
+        genes_found.extend(re.findall(pat, text))
+    genes_found = list(dict.fromkeys([g for g in genes_found if len(g) > 2 and len(g) < 15]))[:5]
+    if genes_found:
+        dim2_parts.append('关键分子：' + ', '.join(genes_found[:3]))
+    
+    # 核心表型/发现
+    phenotypes = []
+    if re.search(r'macrocephaly|large brain|enlarged brain', text_lower):
+        phenotypes.append('大头症/脑体积增大')
+    if re.search(r'microcephaly|small brain|reduced brain', text_lower):
+        phenotypes.append('小头症/脑体积减小')
+    if re.search(r'autistic.?like|social deficit|social behavior', text_lower):
+        phenotypes.append('自闭样行为/社交缺陷')
+    if re.search(r'seizure|epilepsy', text_lower):
+        phenotypes.append('癫痫发作')
+    if re.search(r'anxiety|depressive.?like', text_lower):
+        phenotypes.append('焦虑/抑郁样行为')
+    if re.search(r'cognitive|learning|memory', text_lower):
+        phenotypes.append('认知/学习记忆障碍')
+    if re.search(r'motor|locomotor|rotarod', text_lower):
+        phenotypes.append('运动功能障碍')
+    if re.search(r'sleep|circadian', text_lower):
+        phenotypes.append('睡眠/昼夜节律异常')
+    if re.search(r'tumor|carcinoma|cancer', text_lower):
+        phenotypes.append('肿瘤发生')
+    if re.search(r'apoptosis|cell death|cytotoxicity', text_lower):
+        phenotypes.append('细胞凋亡/细胞毒性')
+    if re.search(r'proliferation|cell growth', text_lower):
+        phenotypes.append('细胞增殖')
     if re.search(r'migration|invasion|metastasis', text_lower):
-        findings.append('抑制转移/侵袭')
-    if re.search(r'proliferation|growth', text_lower):
-        findings.append('抑制增殖')
-    if re.search(r'apoptosis|cell death', text_lower):
-        findings.append('诱导凋亡')
-    if re.search(r'drug resistance|therapy resistance|treatment resistance', text_lower):
-        findings.append('耐药机制')
-    if re.search(r'survival|overall survival|progression.free', text_lower):
-        findings.append('影响生存')
+        phenotypes.append('迁移/侵袭/转移')
+    if re.search(r'drug resistance|therapy resistance', text_lower):
+        phenotypes.append('耐药性')
+    
+    if phenotypes:
+        dim2_parts.append('表型：' + ', '.join(phenotypes[:3]))
+    
+    # 核心发现（机制/作用）- 更全面
+    findings = []
+    if re.search(r'novel|first (?:time|identification)|discover|newly found', text_lower):
+        findings.append('首次发现/鉴定')
+    if re.search(r'identify|characterize|elucidate', text_lower):
+        findings.append('鉴定/表征')
+    if re.search(r'inhibit|suppress|repress|block|knockdown', text_lower):
+        findings.append('抑制作用')
+    if re.search(r'promote|activat|induce|enhance|upregulate', text_lower):
+        findings.append('促进作用')
+    if re.search(r'regulat|modulat|mediat', text_lower):
+        findings.append('调控作用')
+    if re.search(r'correlat|association|link', text_lower):
+        findings.append('相关性')
+    if re.search(r'recapitul|model|phenocop', text_lower):
+        findings.append('疾病模型建立')
+    if re.search(r' sex difference|gender|differential|male bias|female bias', text_lower):
+        findings.append('性别差异')
     if re.search(r'safety|tolerab|toxicity|adverse', text_lower):
         findings.append('安全性评估')
-    if re.search(r'efficacy|effective|response|treatment effect', text_lower):
+    if re.search(r'efficacy|effective|response|treatment', text_lower):
         findings.append('有效性验证')
-    if re.search(r'expression|level|abundance', text_lower):
+    if re.search(r'express|level|abundance', text_lower):
         findings.append('表达水平变化')
-    if re.search(r'binding|affinity|interaction', text_lower):
+    if re.search(r'binding|affinity|interaction|complex', text_lower):
         findings.append('结合/相互作用')
+    if re.search(r'structure|crystal|resolution', text_lower):
+        findings.append('结构解析')
     
     if findings:
-        dim2_parts.append('核心发现：' + '、'.join(findings[:4]))
-    
-    # 具体表型/结果描述
-    pheno_matches = re.findall(r'(?:significantly|markedly|drastically)\s+(\w+(?:\s+\w+){0,2})', text_lower)
-    if pheno_matches:
-        dim2_parts.append(f"显著变化：{pheno_matches[0]}")
+        dim2_parts.append('核心发现：' + ', '.join(findings[:4]))
     
     # 关键突破点
     breakthroughs = []
-    if re.search(r'novel|new target|first time', text_lower):
-        breakthroughs.append('新靶点/新机制')
-    if re.search(r'overcome.*resistance|bypass.*resistance', text_lower):
+    if re.search(r'overcome|bypass.*resistance', text_lower):
         breakthroughs.append('克服耐药')
     if re.search(r'improve.*efficacy|enhance.*effect', text_lower):
         breakthroughs.append('提高疗效')
     if re.search(r'reduce.*toxicity|decrease.*side', text_lower):
         breakthroughs.append('降低毒性')
+    if re.search(r'novel target|new target|druggable', text_lower):
+        breakthroughs.append('新靶点')
+    if re.search(r'sexual dimorphism|dimorphic', text_lower):
+        breakthroughs.append('性别二态性')
     
     if breakthroughs:
-        dim2_parts.append('关键突破：' + '、'.join(breakthroughs[:2]))
+        dim2_parts.append('关键突破：' + ', '.join(breakthroughs[:2]))
     
     # 局限性
     limitations = []
-    if re.search(r'not.*disclosed|not.*mention|unclear|unknown', text_lower):
+    if re.search(r'not (?:yet )?(?:disclosed|mention|clear)|unknown|unclear', text_lower):
         limitations.append('原文未披露详细信息')
-    if re.search(r'further.*(study|research|investigation)|need.*more', text_lower):
+    if re.search(r'further.*(study|research)|more.*evidence|additional.*experiment', text_lower):
         limitations.append('需进一步研究')
-    if re.search(r'limitation|limiting', text_lower):
+    if re.search(r'limitation|caveat|caveats', text_lower):
         limitations.append('存在实验局限性')
+    if re.search(r'cannot|unable|failed', text_lower):
+        limitations.append('存在技术局限')
     
     if limitations:
-        dim2_parts.append('局限性：' + '；'.join(limitations))
+        dim2_parts.append('局限性：' + '; '.join(limitations))
     
     dim2 = '；'.join(dim2_parts) if dim2_parts else '原文未披露详细量化数据'
     
     # ===== 维度3：机制创新与产业价值 =====
     dim3_parts = []
     
-    # 涉及的信号通路
+    # 信号通路 - 避免与器官混淆
     pathway_patterns = [
         (r'pi3k.*akt|akt.*pi3k', 'PI3K/AKT通路'),
-        (r'mapk|erk', 'MAPK/ERK通路'),
+        (r'mapk.*erk|erk.*mapk', 'MAPK/ERK通路'),
         (r'jak.*stat|stat.*jak', 'JAK/STAT通路'),
-        (r'nf.?kb|nfkappa', 'NF-κB通路'),
+        (r'nf.?kappa.*b|nfkb', 'NF-κB通路'),
         (r'tgf.?beta|tgfbeta', 'TGF-β通路'),
-        (r'wnt|beta.?catenin', 'Wnt/β-catenin通路'),
-        (r'notch', 'Notch通路'),
-        (r'hippo', 'Hippo通路'),
-        (r'apoptosis.*pathway|caspase', '细胞凋亡通路'),
+        (r'wnt.*catenin|beta.?catenin.*wnt', 'Wnt/β-catenin通路'),
+        (r'notch signaling', 'Notch信号通路'),
+        (r'hippo signaling|hippo pathway', 'Hippo信号通路'),  # 确保是通路不是hippocampal
+        (r'apoptosis pathway|caspase', '细胞凋亡通路'),
         (r'autophagy', '自噬通路'),
         (r'immune checkpoint|pd-1|pd-l1|ctla-4', '免疫检查点通路'),
-        (r'clock|circadian', '生物钟通路'),
+        (r'clock|circadian rhythm', '昼夜节律通路'),
+        (r'ampk', 'AMPK通路'),
+        (r'mtor', 'mTOR通路'),
+        (r'oxytocin', '催产素通路'),
+        (r'dopamine', '多巴胺通路'),
+        (r'serotonin|5-ht', '血清素通路'),
     ]
     pathways_found = []
     for pattern, cn_name in pathway_patterns:
         if re.search(pattern, text_lower):
             pathways_found.append(cn_name)
+    pathways_found = list(dict.fromkeys(pathways_found))
     if pathways_found:
-        dim3_parts.append('信号通路：' + '、'.join(pathways_found[:2]))
+        dim3_parts.append('信号通路：' + ', '.join(pathways_found[:2]))
     
-    # 科学机制创新
-    mech_innovations = []
-    if re.search(r'novel.*mechanism|new.*pathway|discover.*mechanism', text_lower):
-        mech_innovations.append('发现新型分子机制')
-    if re.search(r'identify.*target|identify.*biomarker', text_lower):
-        mech_innovations.append('鉴定新靶点/生物标志物')
-    if re.search(r'regulatory.*network|network.*analysis', text_lower):
-        mech_innovations.append('揭示调控网络')
-    
-    if mech_innovations:
-        dim3_parts.append('机制创新：' + '、'.join(mech_innovations))
+    # 脑区/器官 - hippocampal是海马体不是Hippo通路
+    brain_regions = []
+    if re.search(r'hippocamp(?!al signaling)', text_lower):
+        brain_regions.append('海马体')
+    if re.search(r'prefrontal cortex', text_lower):
+        brain_regions.append('前额叶皮层')
+    if re.search(r'amygdala', text_lower):
+        brain_regions.append('杏仁核')
+    if re.search(r'cerebellum', text_lower):
+        brain_regions.append('小脑')
+    if re.search(r'striatum', text_lower):
+        brain_regions.append('纹状体')
+    if brain_regions:
+        dim3_parts.append('相关脑区：' + ', '.join(brain_regions[:2]))
     
     # 临床痛点对应
     clinical_problems = []
-    if re.search(r'drug resistance|therapy resistance', text_lower):
-        clinical_problems.append('针对治疗耐药')
-    if re.search(r'metastasis|recurrence', text_lower):
-        clinical_problems.append('针对肿瘤转移/复发')
-    if re.search(r'side effect|toxicity|adverse', text_lower):
-        clinical_problems.append('针对药物毒性/副作用')
-    if re.search(r'poor prognosis|low response', text_lower):
-        clinical_problems.append('针对不良预后/低响应率')
-    if re.search(r'limited efficacy|no effective treatment', text_lower):
-        clinical_problems.append('针对现有治疗局限')
-    
+    if re.search(r'drug resistance|therapy resistance|treatment resistance', text_lower):
+        clinical_problems.append('治疗耐药')
+    if re.search(r'metastasis|recurrence|progression', text_lower):
+        clinical_problems.append('转移/复发')
+    if re.search(r'side effect|toxicity|adverse event', text_lower):
+        clinical_problems.append('药物毒性/副作用')
+    if re.search(r'poor prognosis|low response|non.?responder', text_lower):
+        clinical_problems.append('不良预后/低响应')
+    if re.search(r'limited efficacy|novel treatment', text_lower):
+        clinical_problems.append('现有治疗局限')
+    if re.search(r'cognitive decline|neurodegeneration', text_lower):
+        clinical_problems.append('认知衰退/神经退行')
     if clinical_problems:
-        dim3_parts.append('临床痛点：' + '、'.join(clinical_problems[:2]))
+        dim3_parts.append('临床痛点：' + ', '.join(clinical_problems[:2]))
     
     # 期刊
     journal = article.get('journal', '')
     if journal:
-        dim3_parts.append(f"发表期刊：{journal}")
+        dim3_parts.append('发表期刊：' + journal)
     
     dim3 = '；'.join(dim3_parts) if dim3_parts else '产业价值需后续评估'
     
@@ -880,37 +955,41 @@ def generate_paper_summary(article):
     dim4_parts = []
     
     follow_ups = []
-    if re.search(r'further.*(study|research|validation)|need.*more.*evidence', text_lower):
-        follow_ups.append('需进一步功能验证')
-    if re.search(r'animal model|preclinical', text_lower) and not re.search(r'clinical', text_lower):
-        follow_ups.append('需开展体内/临床前研究')
-    if re.search(r'clinical.*trial|clinical.*study', text_lower):
-        follow_ups.append('关注临床试验进展')
-    if re.search(r'combination|synergistic', text_lower):
-        follow_ups.append('联合用药方案待探索')
-    if re.search(r'biomarker|diagnostic', text_lower):
-        follow_ups.append('伴随诊断开发潜力')
-    if re.search(r'drug.*development|therapeutic.*potential', text_lower):
-        follow_ups.append('新药研发潜力评估')
-    if re.search(r'patent|intellectual property|ip', text_lower):
-        follow_ups.append('知识产权布局关注')
+    if re.search(r'further.*validation|additional.*experiment', text_lower):
+        follow_ups.append('功能验证')
+    if re.search(r'animal model|preclinical', text_lower) and 'clinical' not in text_lower:
+        follow_ups.append('体内/临床前研究')
+    if re.search(r'clinical trial|clinical study', text_lower):
+        follow_ups.append('临床试验')
+    if re.search(r'combination therapy|synergistic', text_lower):
+        follow_ups.append('联合用药')
+    if re.search(r'biomarker|companion diagnostic', text_lower):
+        follow_ups.append('伴随诊断')
+    if re.search(r'drug development|therapeutic', text_lower):
+        follow_ups.append('新药研发')
+    if re.search(r'gene therapy|cell therapy', text_lower):
+        follow_ups.append('基因/细胞治疗')
+    if re.search(r'sexual dimorphism|gender difference', text_lower):
+        follow_ups.append('性别差异研究')
+    if re.search(r'long.?term|chronic', text_lower):
+        follow_ups.append('长期疗效评估')
+    if re.search(r'safety|toxicity', text_lower):
+        follow_ups.append('安全性监测')
     
     if follow_ups:
         dim4 = '；'.join(follow_ups[:3])
     else:
-        dim4 = '持续关注该研究领域后续进展及临床转化动态'
+        dim4 = '持续关注后续进展及临床转化'
     
     # ===== 组装专业分析师总结 =====
-    cn_summary = f"【研究基础与实验设计】{dim1}。\n"
-    cn_summary += f"【核心实验关键数据】{dim2}。\n"
-    cn_summary += f"【机制创新与产业价值】{dim3}。\n"
-    cn_summary += f"【后续追踪要点】{dim4}。"
+    cn_summary = '【研究基础与实验设计】' + dim1 + '。\n'
+    cn_summary += '【核心实验关键数据】' + dim2 + '。\n'
+    cn_summary += '【机制创新与产业价值】' + dim3 + '。\n'
+    cn_summary += '【后续追踪要点】' + dim4 + '。'
     
     cn_abstract = translate_abstract_fluent(abstract) if abstract else ''
     
     return cn_title, cn_abstract, cn_summary
-
-
 
 def search_pubmed(query, days_back=7, max_results=50):
     """搜索PubMed"""
@@ -1024,11 +1103,11 @@ def fetch_article_details(pmids):
                     if company.lower() in text_for_search.lower():
                         mentioned_companies.append(company)
 
-                # 创建临时文章对象用于翻译
+                # 创建临时文章对象用于翻译（保留完整摘要）
                 temp_article = {
                     'pmid': pmid_text,
                     'title': title,
-                    'abstract': abstract[:500] + '...' if len(abstract) > 500 else abstract,
+                    'abstract': abstract,  # 保留完整摘要，不截断
                     'authors': authors,
                     'journal': journal,
                     'date': pub_date,
