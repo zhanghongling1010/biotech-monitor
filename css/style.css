@@ -853,3 +853,41 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* ===== AI Loading Animation ===== */
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.ai-analysis-container {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-radius: 12px;
+    border-left: 4px solid #16a34a;
+}
+
+.ai-analysis-loading {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: #f8fafc;
+    border-radius: 12px;
+    border-left: 4px solid #3b82f6;
+}
+
+.ai-badge {
+    background: #16a34a;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+}
+
+.ai-badge-loading {
+    background: #3b82f6;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+}
+

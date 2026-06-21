@@ -1,13 +1,141 @@
 // ===== Configuration =====
 const CONFIG = {
     dataUrl: 'data/daily/latest.json',
-    updateInterval: 300000
+    updateInterval: 300000,
+    openaiApiKey: 'sk-cp-QGn3Ig1iuD0anJwkEZglYUwFS_lEgQHhHcbHE0QYIBV0qBCZc2j1o44z5v_VX5jBtfnqtxqDSTNzw0tzqoJBLs0GspfyaX9WrxsDCvUM_dbN2KrfTZg_cTk',
+    openaiModel: 'gpt-4o-mini'
 };
+
+// ===== Analysis Cache =====
+const ANALYSIS_CACHE_PREFIX = 'biotech_analysis_';
+let pendingRequests = new Set(); // 防止重复请求
+
+function getCachedAnalysis(pmid) {
+    const cached = localStorage.getItem(ANALYSIS_CACHE_PREFIX + pmid);
+    if (cached) {
+        try {
+            return JSON.parse(cached);
+        } catch(e) {
+            return null;
+        }
+    }
+    return null;
+}
+
+function setCachedAnalysis(pmid, analysis) {
+    localStorage.setItem(ANALYSIS_CACHE_PREFIX + pmid, JSON.stringify(analysis));
+}
+
+// ===== AI Analysis Functions =====
+async function generateDetailedAnalysis(paper) {
+    const pmid = paper.pmid || paper.title;
+    const cacheKey = ANALYSIS_CACHE_PREFIX + pmid;
+
+    // Check cache first
+    const cached = getCachedAnalysis(pmid);
+    if (cached) {
+        return cached;
+    }
+
+    // Prevent duplicate requests
+    if (pendingRequests.has(cacheKey)) {
+        return null;
+    }
+    pendingRequests.add(cacheKey);
+
+    try {
+        const prompt = `请为以下生物医学论文提供详细的中文深度解读，使用专业分析师的风格。
+
+【论文信息】
+PMID: ${paper.pmid || 'N/A'}
+标题: ${paper.title || paper.title_cn || 'N/A'}
+期刊: ${paper.journal || 'N/A'}
+发表日期: ${paper.date || 'N/A'}
+作者: ${(paper.authors || []).slice(0, 5).join(', ')}${(paper.authors || []).length > 5 ? ' et al.' : ''}
+
+【原始摘要】
+${paper.abstract || 'N/A'}
+
+请按以下格式输出详细解读（如果某项信息不足则跳过）：
+
+【研究背景与科学问题】
+2-3句话描述研究背景和要解决的科学问题
+
+【实验设计】
+使用的方法、模型、技术路线、主要技术
+
+【关键数据】
+所有量化数据、统计学结果（用数字加粗）
+
+【核心发现】
+主要结论、创新点
+
+【机制解析】
+分子机制、信号通路
+
+【产业意义】
+对临床治疗的潜在影响、对biotech公司的意义
+
+【局限性】
+研究的不足之处
+
+【参考文献】
+如有必要，可补充相关文献引用
+
+只用中文输出以上内容，每部分用【】标注。如果摘要信息不足，请基于已有信息尽量分析，并说明"基于有限信息分析"。`;
+
+        const response = await fetch('https://api.openai.com/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${CONFIG.openaiApiKey}`
+            },
+            body: JSON.stringify({
+                model: CONFIG.openaiModel,
+                messages: [
+                    {
+                        role: 'system',
+                        content: '你是一位资深的生物医药行业分析师，专注于基因编辑、细胞治疗、抗体药物偶联物(ADC)、GLP-1和肿瘤免疫领域。你的分析风格专业、深入、量化，具备产业视角。'
+                    },
+                    {
+                        role: 'user',
+                        content: prompt
+                    }
+                ],
+                max_tokens: 2000,
+                temperature: 0.7
+            })
+        });
+
+        if (!response.ok) {
+            throw new Error(`API error: ${response.status}`);
+        }
+
+        const data = await response.json();
+        const analysis = data.choices?.[0]?.message?.content || '';
+
+        // Cache the result
+        const result = {
+            analysis: analysis,
+            timestamp: Date.now()
+        };
+        setCachedAnalysis(pmid, result);
+
+        return result;
+
+    } catch (error) {
+        console.error('AI Analysis error:', error);
+        return null;
+    } finally {
+        pendingRequests.delete(cacheKey);
+    }
+}
 
 let currentSection = 'today';
 let currentFilter = 'all';
 let currentCompanyType = 'international';
 let allData = null;
+let currentModalItem = null;
 
 // ===== Initialize =====
 document.addEventListener('DOMContentLoaded', () => {
@@ -355,6 +483,63 @@ function openModal(type, index) {
     if (item.abstract_cn && item.abstract_cn !== item.summary_cn) {
         cnContent += `<div style="margin-top:1rem;"><strong style="color:#166534;">【详细中文摘要】</strong><br>${item.abstract_cn.replace(/\n/g, '<br>').replace(/【([^】]+)】/g, '<strong>[$1]</strong> ')}</div>`;
     }
+
+    // For papers, add AI analysis section
+    if (item.pmid && type === 'paper') {
+        const pmid = item.pmid;
+        const cached = getCachedAnalysis(pmid);
+
+        if (cached && cached.analysis) {
+            // Show cached analysis immediately
+            cnContent += `<div style="margin-top:1.5rem; padding:1rem; background:linear-gradient(135deg,#f0fdf4 0%,#dcfce7 100%); border-radius:12px; border-left:4px solid #16a34a;">
+                <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.75rem;">
+                    <span style="background:#16a34a;color:white;padding:2px 8px;border-radius:4px;font-size:0.75rem;">AI 深度解读</span>
+                    <span style="color:#64748b;font-size:0.75rem;">已缓存 · 即时显示</span>
+                </div>
+                <div style="white-space:pre-wrap; line-height:1.7; font-size:0.9rem;">${cached.analysis.replace(/\n/g, '<br>').replace(/【([^】]+)】/g, '<strong style="color:#16a34a;">[$1]</strong> ')}</div>
+            </div>`;
+        } else {
+            // Show loading and trigger AI analysis
+            cnContent += `<div id="aiAnalysisLoading" style="margin-top:1.5rem; padding:1rem; background:#f8fafc; border-radius:12px; border-left:4px solid #3b82f6;">
+                <div style="display:flex; align-items:center; gap:0.5rem;">
+                    <span style="background:#3b82f6;color:white;padding:2px 8px;border-radius:4px;font-size:0.75rem;">AI 深度解读</span>
+                    <span id="aiAnalysisStatus" style="color:#64748b;font-size:0.75rem;">正在生成...</span>
+                </div>
+                <div style="margin-top:1rem;">
+                    <div style="display:flex;align-items:center;gap:0.5rem;color:#64748b;font-size:0.85rem;">
+                        <div style="width:16px;height:16px;border:2px solid #3b82f6;border-top-color:transparent;border-radius:50%;animation:spin 1s linear infinite;"></div>
+                        首次生成需3-5秒，之后即时显示
+                    </div>
+                </div>
+            </div>`;
+
+            // Trigger AI analysis (async)
+            setTimeout(async () => {
+                const result = await generateDetailedAnalysis(item);
+                if (result && result.analysis) {
+                    const analysisHtml = `<div style="margin-top:1.5rem; padding:1rem; background:linear-gradient(135deg,#f0fdf4 0%,#dcfce7 100%); border-radius:12px; border-left:4px solid #16a34a;">
+                        <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.75rem;">
+                            <span style="background:#16a34a;color:white;padding:2px 8px;border-radius:4px;font-size:0.75rem;">AI 深度解读</span>
+                            <span style="color:#64748b;font-size:0.75rem;">已生成</span>
+                        </div>
+                        <div style="white-space:pre-wrap; line-height:1.7; font-size:0.9rem;">${result.analysis.replace(/\n/g, '<br>').replace(/【([^】]+)】/g, '<strong style="color:#16a34a;">[$1]</strong> ')}</div>
+                    </div>`;
+
+                    const loadingEl = document.getElementById('aiAnalysisLoading');
+                    if (loadingEl) {
+                        loadingEl.outerHTML = analysisHtml;
+                    }
+                } else {
+                    const statusEl = document.getElementById('aiAnalysisStatus');
+                    if (statusEl) {
+                        statusEl.textContent = '生成失败，请刷新重试';
+                        statusEl.style.color = '#dc2626';
+                    }
+                }
+            }, 100);
+        }
+    }
+
     if (!cnContent) cnContent = '<p style="color:#64748b;">暂无中文详情</p>';
     document.getElementById('modalCnContent').innerHTML = cnContent;
 
@@ -386,44 +571,16 @@ function openModal(type, index) {
 
 function openPaperDetail(paper) {
     if (!paper) return;
-    openModal('paper', -1);
-    // Override with specific paper data
-    document.getElementById('modalTag').textContent = '科研文献';
-    document.getElementById('modalTag').className = 'modal-tag clinical';
-    document.getElementById('modalTitle').textContent = paper.title_cn || paper.title || '无标题';
 
-    let metaHtml = '';
-    if (paper.journal) metaHtml += `<span class="modal-meta-item"><strong>期刊:</strong> ${paper.journal}</span>`;
-    if (paper.date) metaHtml += `<span class="modal-meta-item"><strong>发表日期:</strong> ${paper.date}</span>`;
-    if (paper.pmid) metaHtml += `<span class="modal-meta-item"><strong>PMID:</strong> ${paper.pmid}</span>`;
-    if (paper.companies?.length) metaHtml += `<span class="modal-meta-item"><strong>相关公司:</strong> ${paper.companies.join(', ')}</span>`;
-    document.getElementById('modalMeta').innerHTML = metaHtml;
-
-    let cnContent = '';
-    if (paper.summary_cn) cnContent += `<p>${paper.summary_cn}</p>`;
-    if (paper.abstract_cn) cnContent += `<h4 style="margin-top:1rem;font-size:0.9rem;color:#166534;">中文摘要</h4><p>${paper.abstract_cn}</p>`;
-    if (!cnContent) cnContent = '<p style="color:#64748b;">暂无中文翻译</p>';
-    document.getElementById('modalCnContent').innerHTML = cnContent;
-
-    let enContent = '';
-    if (paper.title) enContent += `<p><strong>英文标题:</strong> ${paper.title}</p>`;
-    if (paper.abstract) enContent += `<p><strong>英文摘要:</strong> ${paper.abstract}</p>`;
-    if (paper.authors?.length) enContent += `<p><strong>作者:</strong> ${paper.authors.slice(0, 5).join(', ')}${paper.authors.length > 5 ? ' et al.' : ''}</p>`;
-    if (paper.keywords?.length) enContent += `<p><strong>关键词:</strong> ${paper.keywords.join(', ')}</p>`;
-    if (!enContent) enContent = '<p style="color:#64748b;">无英文原文</p>';
-    document.getElementById('modalEnContent').innerHTML = enContent;
-
-    const linkEl = document.getElementById('modalLink');
-    if (paper.pmid) {
-        linkEl.href = `https://pubmed.ncbi.nlm.nih.gov/${paper.pmid}/`;
-        linkEl.textContent = '在 PubMed 查看全文 →';
-        linkEl.style.display = 'inline-block';
-    } else {
-        linkEl.style.display = 'none';
+    // Find paper index in allPapers array
+    const allPapers = [];
+    for (const [cat, papers] of Object.entries(allData?.papers || {})) {
+        allPapers.push(...(papers || []));
     }
+    const paperIndex = allPapers.findIndex(p => (p.pmid || p.title) === (paper.pmid || paper.title));
 
-    document.getElementById('detailModal').classList.add('active');
-    document.body.style.overflow = 'hidden';
+    currentModalItem = paper;
+    openModal('paper', paperIndex >= 0 ? paperIndex : 0);
 }
 
 function closeModal() {
