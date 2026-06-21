@@ -661,7 +661,14 @@ function openModal(type, index) {
     // Add AI analysis for all types (papers, deals, clinical, approvals)
     // For critical items, use _type to determine actual content type
     const actualType = (type === 'critical' && item._type) ? item._type : type;
-    const cacheKey = item.pmid || (item.title + '_' + (item.date || item.pub_date || ''));
+    let cacheKey;
+    if (item.pmid) {
+        cacheKey = 'paper_' + item.pmid;
+    } else if (actualType === 'paper' || !actualType || actualType === 'unknown') {
+        cacheKey = 'paper_' + (item.title || '') + '_' + (item.date || '');
+    } else {
+        cacheKey = actualType + '_' + (item.title || '') + '_' + (item.date || item.pub_date || '');
+    }
     const contentType = actualType || 'unknown';
 
     console.log('AI Analysis Check:', { cacheKey, contentType, originalType: type });

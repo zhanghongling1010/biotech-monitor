@@ -138,21 +138,21 @@ def main():
     # 今日重点交易
     for deal in (data.get('critical', {}).get('deals') or []):
         if deal:
-            key = f"deal_{(deal.get('title') or '')[:50]}_{deal.get('date') or ''}"
+            key = f"deal_{(deal.get('title') or '')}_{deal.get('date') or ''}"
             if key not in cache or not cache[key].get('analysis'):
                 items_to_analyze.append((key, deal, 'deal'))
 
     # 今日重点临床
     for clinical in (data.get('critical', {}).get('clinical') or []):
         if clinical:
-            key = f"clinical_{(clinical.get('title') or '')[:50]}_{clinical.get('date') or ''}"
+            key = f"clinical_{(clinical.get('title') or '')}_{clinical.get('date') or ''}"
             if key not in cache or not cache[key].get('analysis'):
                 items_to_analyze.append((key, clinical, 'clinical'))
 
     # 监管批准
     for approval in (data.get('critical', {}).get('approvals') or []):
         if approval:
-            key = f"approval_{(approval.get('title') or '')[:50]}_{approval.get('date') or ''}"
+            key = f"approval_{(approval.get('title') or '')}_{approval.get('date') or ''}"
             if key not in cache or not cache[key].get('analysis'):
                 items_to_analyze.append((key, approval, 'approval'))
 
@@ -174,6 +174,9 @@ def main():
 
         analysis = call_ai(prompt)
         if analysis:
+            # 移除 <think> 思考标签
+            import re
+            analysis = re.sub(r'<think>.*?</think>\s*', '', analysis, flags=re.DOTALL)
             cache[key] = {
                 'analysis': analysis,
                 'item': {
