@@ -120,6 +120,13 @@ async function generateDetailedAnalysis(cacheKey, prompt) {
 
     } catch (error) {
         console.error('AI Analysis error:', error);
+        // 显示错误到页面
+        const errEl = document.getElementById('aiAnalysisStatus');
+        if (errEl) {
+            errEl.textContent = '错误: ' + (error.message || 'unknown');
+            errEl.style.color = '#dc2626';
+            errEl.style.fontSize = '0.7rem';
+        }
         return null;
     } finally {
         pendingRequests.delete(ANALYSIS_CACHE_PREFIX + cacheKey);
