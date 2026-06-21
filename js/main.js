@@ -2,7 +2,6 @@
 const CONFIG = {
     dataUrl: 'data/daily/latest.json',
     updateInterval: 300000,
-    openaiModel: 'gpt-4o-mini',
     // Use local proxy server: python3 proxy.py
     proxyUrl: 'http://localhost:3000'
 };
@@ -28,70 +27,38 @@ function setCachedAnalysis(pmid, analysis) {
 }
 
 // ===== AI Analysis Functions =====
-async function generateDetailedAnalysis(paper) {
-    const pmid = paper.pmid || paper.title;
-    const cacheKey = ANALYSIS_CACHE_PREFIX + pmid;
+async function generateDetailedAnalysis(cacheKey, prompt) {
+    console.log('generateDetailedAnalysis called for:', cacheKey);
 
-    // Check cache first
-    const cached = getCachedAnalysis(pmid);
-    if (cached) {
+    // Check cache first (only return if has valid content)
+    const cached = getCachedAnalysis(cacheKey);
+    console.log('Cache check:', cached);
+    if (cached && cached.analysis && cached.analysis.trim().length > 0) {
+        console.log('Returning cached analysis');
         return cached;
     }
 
+    // Clear invalid cache if exists
+    if (cached) {
+        localStorage.removeItem(ANALYSIS_CACHE_PREFIX + cacheKey);
+        console.log('Cleared invalid empty cache');
+    }
+
     // Prevent duplicate requests
-    if (pendingRequests.has(cacheKey)) {
+    if (pendingRequests.has(ANALYSIS_CACHE_PREFIX + cacheKey)) {
         return null;
     }
-    pendingRequests.add(cacheKey);
+    pendingRequests.add(ANALYSIS_CACHE_PREFIX + cacheKey);
 
     try {
-        const prompt = `请为以下生物医学论文提供详细的中文深度解读，使用专业分析师的风格。
-
-【论文信息】
-PMID: ${paper.pmid || 'N/A'}
-标题: ${paper.title || paper.title_cn || 'N/A'}
-期刊: ${paper.journal || 'N/A'}
-发表日期: ${paper.date || 'N/A'}
-作者: ${(paper.authors || []).slice(0, 5).join(', ')}${(paper.authors || []).length > 5 ? ' et al.' : ''}
-
-【原始摘要】
-${paper.abstract || 'N/A'}
-
-请按以下格式输出详细解读（如果某项信息不足则跳过）：
-
-【研究背景与科学问题】
-2-3句话描述研究背景和要解决的科学问题
-
-【实验设计】
-使用的方法、模型、技术路线、主要技术
-
-【关键数据】
-所有量化数据、统计学结果（用数字加粗）
-
-【核心发现】
-主要结论、创新点
-
-【机制解析】
-分子机制、信号通路
-
-【产业意义】
-对临床治疗的潜在影响、对biotech公司的意义
-
-【局限性】
-研究的不足之处
-
-【参考文献】
-如有必要，可补充相关文献引用
-
-只用中文输出以上内容，每部分用【】标注。如果摘要信息不足，请基于已有信息尽量分析，并说明"基于有限信息分析"。`;
-
+        console.log('Calling AI proxy:', CONFIG.proxyUrl + '/v1/chat/completions');
         const response = await fetch(CONFIG.proxyUrl + '/v1/chat/completions', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                model: CONFIG.openaiModel,
+                model: 'MiniMax-M3',
                 messages: [
                     {
                         role: 'system',
@@ -107,11 +74,14 @@ ${paper.abstract || 'N/A'}
             })
         });
 
+        console.log('Response status:', response.status);
+        const data = await response.json();
+        console.log('Response data:', JSON.stringify(data).substring(0, 500));
+
         if (!response.ok) {
-            throw new Error(`API error: ${response.status}`);
+            throw new Error(`API error: ${response.status} - ${JSON.stringify(data)}`);
         }
 
-        const data = await response.json();
         const analysis = data.choices?.[0]?.message?.content || '';
 
         // Cache the result
@@ -119,7 +89,7 @@ ${paper.abstract || 'N/A'}
             analysis: analysis,
             timestamp: Date.now()
         };
-        setCachedAnalysis(pmid, result);
+        setCachedAnalysis(cacheKey, result);
 
         return result;
 
@@ -127,7 +97,7 @@ ${paper.abstract || 'N/A'}
         console.error('AI Analysis error:', error);
         return null;
     } finally {
-        pendingRequests.delete(cacheKey);
+        pendingRequests.delete(ANALYSIS_CACHE_PREFIX + cacheKey);
     }
 }
 
@@ -484,12 +454,121 @@ function openModal(type, index) {
         cnContent += `<div style="margin-top:1rem;"><strong style="color:#166534;">【详细中文摘要】</strong><br>${item.abstract_cn.replace(/\n/g, '<br>').replace(/【([^】]+)】/g, '<strong>[$1]</strong> ')}</div>`;
     }
 
-    // For papers, add AI analysis section
-    if (item.pmid && type === 'paper') {
-        const pmid = item.pmid;
-        const cached = getCachedAnalysis(pmid);
+    // Add AI analysis for all types (papers, deals, clinical, approvals)
+    const cacheKey = item.pmid || (item.title + '_' + (item.date || item.pub_date || ''));
+    const contentType = type || 'unknown';
 
-        if (cached && cached.analysis) {
+    console.log('AI Analysis Check:', { cacheKey, contentType });
+
+    // Generate appropriate prompt based on content type
+    let analysisPrompt = '';
+    if (contentType === 'paper' && item.abstract) {
+        analysisPrompt = `请为以下生物医学论文提供详细的中文深度解读，使用专业分析师的风格。
+
+【论文信息】
+PMID: ${item.pmid || 'N/A'}
+标题: ${item.title || item.title_cn || 'N/A'}
+期刊: ${item.journal || 'N/A'}
+发表日期: ${item.date || 'N/A'}
+作者: ${(item.authors || []).slice(0, 5).join(', ')}${(item.authors || []).length > 5 ? ' et al.' : ''}
+
+【原始摘要】
+${item.abstract}
+
+请按以下格式输出详细解读（如果某项信息不足则跳过）：
+
+【研究背景与科学问题】
+2-3句话描述研究背景和要解决的科学问题
+
+【实验设计】
+使用的方法、模型、技术路线、主要技术
+
+【关键数据】
+所有量化数据、统计学结果
+
+【核心发现】
+主要结论、创新点
+
+【机制解析】
+分子机制、信号通路
+
+【产业意义】
+对临床治疗的潜在影响、对biotech公司的意义
+
+【局限性】
+研究的不足之处
+
+只用中文输出以上内容，每部分用【】标注。如果摘要信息不足，请基于已有信息尽量分析。`;
+    } else if ((contentType === 'deal' || contentType === 'approval') && (item.description || item.description_cn || item.title)) {
+        analysisPrompt = `请为以下BD交易/监管动态提供专业的中文深度分析，使用生物医药行业分析师的风格。
+
+【交易信息】
+标题: ${item.title || item.title_cn || 'N/A'}
+公司: ${item.company || 'N/A'}
+交易金额: ${item.value || '未披露'}
+日期: ${item.date || item.pub_date || 'N/A'}
+来源: ${item.source || 'N/A'}
+
+【内容详情】
+${item.description || item.description_cn || '无详细信息'}
+
+请按以下格式输出详细分析：
+
+【交易概况】
+交易的简要说明和主要条款
+
+【战略意义】
+这笔交易对双方公司的战略价值
+
+【行业影响】
+对整个生物医药行业的潜在影响
+
+【投资亮点】
+从投资者角度的关键关注点
+
+【风险提示】
+潜在的风险因素
+
+只用中文输出以上内容，每部分用【】标注。`;
+    } else if (contentType === 'clinical' && (item.description || item.description_cn || item.title)) {
+        analysisPrompt = `请为以下临床进展提供专业的中文深度分析，使用生物医药行业分析师的风格。
+
+【临床信息】
+标题: ${item.title || item.title_cn || 'N/A'}
+公司: ${item.company || 'N/A'}
+适应症: ${item.indication || 'N/A'}
+临床阶段: ${item.stage || 'N/A'}
+日期: ${item.date || item.pub_date || 'N/A'}
+来源: ${item.source || 'N/A'}
+
+【内容详情】
+${item.description || item.description_cn || '无详细信息'}
+
+请按以下格式输出详细分析：
+
+【临床概况】
+试验的基本信息和设计
+
+【数据解读】
+关键临床数据和分析
+
+【竞争格局】
+同类产品在研情况对比
+
+【上市前景】
+获批可能性和商业化潜力
+
+【投资要点】
+从投资者角度的关键关注点
+
+只用中文输出以上内容，每部分用【】标注。`;
+    }
+
+    // Show AI analysis section if we have content to analyze
+    if (analysisPrompt) {
+        const cached = getCachedAnalysis(cacheKey);
+
+        if (cached && cached.analysis && cached.analysis.trim().length > 0) {
             // Show cached analysis immediately
             cnContent += `<div style="margin-top:1.5rem; padding:1rem; background:linear-gradient(135deg,#f0fdf4 0%,#dcfce7 100%); border-radius:12px; border-left:4px solid #16a34a;">
                 <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.75rem;">
@@ -515,7 +594,7 @@ function openModal(type, index) {
 
             // Trigger AI analysis (async)
             setTimeout(async () => {
-                const result = await generateDetailedAnalysis(item);
+                const result = await generateDetailedAnalysis(cacheKey, analysisPrompt);
                 if (result && result.analysis) {
                     const analysisHtml = `<div style="margin-top:1.5rem; padding:1rem; background:linear-gradient(135deg,#f0fdf4 0%,#dcfce7 100%); border-radius:12px; border-left:4px solid #16a34a;">
                         <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.75rem;">
@@ -532,7 +611,7 @@ function openModal(type, index) {
                 } else {
                     const statusEl = document.getElementById('aiAnalysisStatus');
                     if (statusEl) {
-                        statusEl.textContent = '生成失败，请刷新重试';
+                        statusEl.textContent = '生成失败，请查看Console错误';
                         statusEl.style.color = '#dc2626';
                     }
                 }

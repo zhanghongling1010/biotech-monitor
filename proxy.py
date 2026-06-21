@@ -1,24 +1,37 @@
 #!/usr/bin/env python3
 """
-Local proxy server for OpenAI API calls
-Solves CORS issue when calling OpenAI from browser
+Local proxy server for MiniMax API calls
+Solves CORS issue when calling AI APIs from browser
 """
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, make_response
 import requests
-import os
 
 app = Flask(__name__)
 
-# Configure your OpenAI-compatible API key here
-API_KEY = os.environ.get('OPENAI_API_KEY', 'sk-cp-QGn3Ig1iuD0anJwkEZglYUwFS_lEgQHhHcbHE0QYIBV0qBCZc2j1o44z5v_VX5jBtfnqtxqDSTNzw0tzqoJBLs0GspfyaX9WrxsDCvUM_dbN2KrfTZg_cTk')
-API_BASE = os.environ.get('OPENAI_API_BASE', 'https://api.openai.com/v1')
+# MiniMax API configuration
+API_KEY = 'sk-cp-QGn3Ig1iuD0anJwkEZglYUwFS_lEgQHhHcbHE0QYIBV0qBCZc2j1o44z5v_VX5jBtfnqtxqDSTNzw0tzqoJBLs0GspfyaX9WrxsDCvUM_dbN2KrfTZg_cTk'
+API_BASE = 'https://api.minimax.chat/v1'
 
-@app.route('/v1/chat/completions', methods=['POST'])
+@app.after_request
+def add_cors_headers(response):
+    """Add CORS headers to all responses"""
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS'
+    response.headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization'
+    return response
+
+@app.route('/v1/chat/completions', methods=['POST', 'OPTIONS'])
 def chat_completions():
+    # Handle CORS preflight
+    if request.method == 'OPTIONS':
+        return ''
+
     try:
         data = request.get_json()
 
-        # Forward to OpenAI-compatible API
+        # Always use MiniMax-M3 model (exact case required)
+        data['model'] = 'MiniMax-M3'
+
         headers = {
             'Content-Type': 'application/json',
             'Authorization': f'Bearer {API_KEY}'
@@ -28,7 +41,7 @@ def chat_completions():
             f'{API_BASE}/chat/completions',
             headers=headers,
             json=data,
-            timeout=30
+            timeout=60
         )
 
         return jsonify(response.json()), response.status_code
@@ -40,9 +53,8 @@ def chat_completions():
 
 @app.route('/health', methods=['GET'])
 def health():
-    return jsonify({'status': 'ok'})
+    return jsonify({'status': 'ok', 'provider': 'MiniMax'})
 
 if __name__ == '__main__':
-    print("Starting proxy server on http://localhost:3000")
-    print("Update main.js CONFIG.proxyUrl to 'http://localhost:3000'")
+    print("Starting MiniMax proxy server on http://localhost:3000")
     app.run(host='0.0.0.0', port=3000, debug=False)
