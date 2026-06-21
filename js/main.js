@@ -2,8 +2,9 @@
 const CONFIG = {
     dataUrl: 'data/daily/latest.json',
     updateInterval: 300000,
-    openaiApiKey: 'sk-cp-QGn3Ig1iuD0anJwkEZglYUwFS_lEgQHhHcbHE0QYIBV0qBCZc2j1o44z5v_VX5jBtfnqtxqDSTNzw0tzqoJBLs0GspfyaX9WrxsDCvUM_dbN2KrfTZg_cTk',
-    openaiModel: 'gpt-4o-mini'
+    openaiModel: 'gpt-4o-mini',
+    // Use local proxy server: python3 proxy.py
+    proxyUrl: 'http://localhost:3000'
 };
 
 // ===== Analysis Cache =====
@@ -84,11 +85,10 @@ ${paper.abstract || 'N/A'}
 
 只用中文输出以上内容，每部分用【】标注。如果摘要信息不足，请基于已有信息尽量分析，并说明"基于有限信息分析"。`;
 
-        const response = await fetch('https://api.openai.com/v1/chat/completions', {
+        const response = await fetch(CONFIG.proxyUrl + '/v1/chat/completions', {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${CONFIG.openaiApiKey}`
+                'Content-Type': 'application/json'
             },
             body: JSON.stringify({
                 model: CONFIG.openaiModel,
