@@ -328,8 +328,8 @@ function renderCompanies() {
         return;
     }
 
-    container.innerHTML = companies.map(company => `
-        <div class="company-card">
+    container.innerHTML = companies.map((company, index) => `
+        <div class="company-card" onclick="openCompanyDetail(${index})" style="cursor:pointer;">
             <div class="ticker">${company.ticker || company.code || ''}</div>
             <h4>${company.name || ''}</h4>
             <div class="company-type">${company.type || company.focus || ''}</div>
@@ -340,6 +340,181 @@ function renderCompanies() {
             </div>
         </div>
     `).join('');
+}
+
+// ===== Open Company Detail =====
+function openCompanyDetail(companyIndex) {
+    const companies = allData.companies?.[currentCompanyType] || [];
+    const company = companies[companyIndex];
+    if (!company) return;
+
+    const companyName = company.name || '';
+    const companyTicker = company.ticker || company.code || '';
+
+    // Find related news, deals, clinical from daily data
+    const relatedDeals = (allData.daily?.deals || []).filter(d =>
+        (d.company && (d.company.toLowerCase().includes(companyName.toLowerCase()) ||
+                       d.company.toLowerCase().includes(companyTicker.toLowerCase()))) ||
+        (d.companies && d.companies.some(c =>
+            c.toLowerCase().includes(companyName.toLowerCase()) ||
+            c.toLowerCase().includes(companyTicker.toLowerCase())
+        ))
+    );
+
+    const relatedClinical = (allData.daily?.clinical || []).filter(c =>
+        (c.company && (c.company.toLowerCase().includes(companyName.toLowerCase()) ||
+                       c.company.toLowerCase().includes(companyTicker.toLowerCase()))) ||
+        (c.companies && c.companies.some(c =>
+            c.toLowerCase().includes(companyName.toLowerCase()) ||
+            c.toLowerCase().includes(companyTicker.toLowerCase())
+        ))
+    );
+
+    // Find related papers
+    const allPapers = [];
+    for (const [cat, papers] of Object.entries(allData.papers || {})) {
+        allPapers.push(...(papers || []).map(p => ({...p, _category: cat})));
+    }
+    const relatedPapers = allPapers.filter(p =>
+        (p.companies && p.companies.some(c =>
+            c.toLowerCase().includes(companyName.toLowerCase()) ||
+            c.toLowerCase().includes(companyTicker.toLowerCase())
+        ))
+    );
+
+    // Build content for AI analysis
+    let relatedContent = '';
+    if (relatedDeals.length > 0) {
+        relatedContent += '\n【相关BD交易】\n';
+        relatedDeals.forEach(d => {
+            relatedContent += `- ${d.title || d.title_cn || 'N/A'}\n  公司: ${d.company || 'N/A'}\n  金额: ${d.value || '未披露'}\n  日期: ${d.date || 'N/A'}\n  详情: ${d.description_cn || d.description || 'N/A'}\n\n`;
+        });
+    }
+    if (relatedClinical.length > 0) {
+        relatedContent += '\n【相关临床进展】\n';
+        relatedClinical.forEach(c => {
+            relatedContent += `- ${c.title || c.title_cn || 'N/A'}\n  公司: ${c.company || 'N/A'}\n  阶段: ${c.stage || 'N/A'}\n  适应症: ${c.indication || 'N/A'}\n  详情: ${c.description_cn || c.description || 'N/A'}\n\n`;
+        });
+    }
+    if (relatedPapers.length > 0) {
+        relatedContent += '\n【相关科研论文】\n';
+        relatedPapers.slice(0, 5).forEach(p => {
+            relatedContent += `- ${p.title || 'N/A'}\n  期刊: ${p.journal || 'N/A'}\n  日期: ${p.date || 'N/A'}\n  摘要: ${p.abstract ? p.abstract.substring(0, 300) + '...' : 'N/A'}\n\n`;
+        });
+    }
+
+    // Open modal with company info
+    const modal = document.getElementById('detailModal');
+    if (!modal) return;
+
+    document.getElementById('modalTag').textContent = '公司监控';
+    document.getElementById('modalTag').className = 'modal-tag clinical';
+    document.getElementById('modalTitle').textContent = `${companyTicker} - ${companyName}`;
+    document.getElementById('modalLink').style.display = 'none';
+
+    let metaHtml = '';
+    if (company.type) metaHtml += `<span class="modal-meta-item"><strong>业务类型:</strong> ${company.type}</span>`;
+    if (company.pipeline) metaHtml += `<span class="modal-meta-item"><strong>管线更新:</strong> 有</span>`;
+    if (company.news) metaHtml += `<span class="modal-meta-item"><strong>最新新闻:</strong> 有</span>`;
+    if (company.paper) metaHtml += `<span class="modal-meta-item"><strong>相关论文:</strong> 有</span>`;
+    metaHtml += `<span class="modal-meta-item"><strong>相关BD交易:</strong> ${relatedDeals.length}条</span>`;
+    metaHtml += `<span class="modal-meta-item"><strong>相关临床:</strong> ${relatedClinical.length}条</span>`;
+    metaHtml += `<span class="modal-meta-item"><strong>相关论文:</strong> ${relatedPapers.length}篇</span>`;
+    document.getElementById('modalMeta').innerHTML = metaHtml;
+
+    let cnContent = '<h3 style="margin-bottom:1rem;">公司动态概览</h3>';
+
+    if (relatedContent) {
+        cnContent += `<p style="color:#64748b;margin-bottom:1.5rem;">找到 ${relatedDeals.length} 条相关BD交易、${relatedClinical.length} 条临床进展、${relatedPapers.length} 篇论文</p>`;
+    } else {
+        cnContent += `<p style="color:#64748b;margin-bottom:1.5rem;">暂无相关动态记录</p>`;
+    }
+
+    // AI analysis prompt
+    const cacheKey = 'company_' + companyTicker + '_' + (companyName || '');
+
+    // Generate AI analysis
+    const analysisPrompt = `请为以下${companyName}(${companyTicker})公司的最新动态提供专业的中文深度分析，使用生物医药行业分析师的风格。
+
+【公司信息】
+公司名称: ${companyName}
+股票代码: ${companyTicker}
+业务类型: ${company.type || 'N/A'}
+
+${relatedContent ? '【公司动态汇总】\n' + relatedContent : '【暂无动态记录】'}
+
+请按以下格式输出详细分析：
+
+【公司概况】
+基于现有信息分析公司的核心业务和市场地位
+
+【近期动态解读】
+对相关BD交易、临床进展、论文进行综合分析
+
+【管线价值评估】
+如果有管线更新，分析其对公司的价值影响
+
+【投资关注点】
+从投资者角度的关键关注点
+
+【风险提示】
+潜在的风险因素
+
+只用中文输出以上内容，每部分用【】标注。`;
+
+    const cached = getCachedAnalysis(cacheKey);
+    if (cached && cached.analysis && cached.analysis.trim().length > 0) {
+        cnContent += `<div style="margin-top:1.5rem; padding:1rem; background:linear-gradient(135deg,#f0fdf4 0%,#dcfce7 100%); border-radius:12px; border-left:4px solid #16a34a;">
+            <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.75rem;">
+                <span style="background:#16a34a;color:white;padding:2px 8px;border-radius:4px;font-size:0.75rem;">AI 深度解读</span>
+                <span style="color:#64748b;font-size:0.75rem;">已缓存 · 即时显示</span>
+            </div>
+            <div style="white-space:pre-wrap; line-height:1.7; font-size:0.9rem;">${cached.analysis.replace(/\n/g, '<br>').replace(/【([^】]+)】/g, '<strong style="color:#16a34a;">[$1]</strong> ')}</div>
+        </div>`;
+    } else {
+        cnContent += `<div id="aiAnalysisLoading" style="margin-top:1.5rem; padding:1rem; background:#f8fafc; border-radius:12px; border-left:4px solid #3b82f6;">
+            <div style="display:flex; align-items:center; gap:0.5rem;">
+                <span style="background:#3b82f6;color:white;padding:2px 8px;border-radius:4px;font-size:0.75rem;">AI 深度解读</span>
+                <span id="aiAnalysisStatus" style="color:#64748b;font-size:0.75rem;">正在生成...</span>
+            </div>
+            <div style="margin-top:1rem;">
+                <div style="display:flex;align-items:center;gap:0.5rem;color:#64748b;font-size:0.85rem;">
+                    <div style="width:16px;height:16px;border:2px solid #3b82f6;border-top-color:transparent;border-radius:50%;animation:spin 1s linear infinite;"></div>
+                    首次生成需3-5秒，之后即时显示
+                </div>
+            </div>
+        </div>`;
+
+        setTimeout(async () => {
+            const result = await generateDetailedAnalysis(cacheKey, analysisPrompt);
+            if (result && result.analysis) {
+                const analysisHtml = `<div style="margin-top:1.5rem; padding:1rem; background:linear-gradient(135deg,#f0fdf4 0%,#dcfce7 100%); border-radius:12px; border-left:4px solid #16a34a;">
+                    <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.75rem;">
+                        <span style="background:#16a34a;color:white;padding:2px 8px;border-radius:4px;font-size:0.75rem;">AI 深度解读</span>
+                        <span style="color:#64748b;font-size:0.75rem;">已生成</span>
+                    </div>
+                    <div style="white-space:pre-wrap; line-height:1.7; font-size:0.9rem;">${result.analysis.replace(/\n/g, '<br>').replace(/【([^】]+)】/g, '<strong style="color:#16a34a;">[$1]</strong> ')}</div>
+                </div>`;
+
+                const loadingEl = document.getElementById('aiAnalysisLoading');
+                if (loadingEl) {
+                    loadingEl.outerHTML = analysisHtml;
+                }
+            } else {
+                const statusEl = document.getElementById('aiAnalysisStatus');
+                if (statusEl) {
+                    statusEl.textContent = '生成失败';
+                    statusEl.style.color = '#dc2626';
+                }
+            }
+        }, 100);
+    }
+
+    document.getElementById('modalCnContent').innerHTML = cnContent;
+    document.getElementById('modalEnContent').innerHTML = '<p style="color:#64748b;">无英文原文</p>';
+
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
 }
 
 // ===== Render Earnings =====
