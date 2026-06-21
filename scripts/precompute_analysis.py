@@ -127,10 +127,11 @@ def main():
     # 收集需要分析的项目
     items_to_analyze = []
 
-    # 论文
+    # 论文 - 每个分类只取前3篇（限制数量避免超时）
     for category, papers in data.get('papers', {}).items():
-        for paper in papers[:5]:  # 每个分类前5篇
-            key = f"paper_{paper.get('pmid', paper.get('title', '')[:50])}"
+        for paper in papers[:3]:
+            pmid = paper.get('pmid') or paper.get('title', '')[:50]
+            key = f"paper_{pmid}"
             if key not in cache or not cache[key].get('analysis'):
                 items_to_analyze.append((key, paper, 'paper'))
 

@@ -33,6 +33,26 @@ python3 scripts/daily_update.py >> "$LOG_FILE" 2>&1
 MERGE_EXIT=$?
 echo "[$(date '+%H:%M:%S')] 数据合并完成, 退出码: $MERGE_EXIT" >> "$LOG_FILE"
 
+# 3.5 预生成 AI 分析（让所有人都能看 AI 解读）
+if [ $MERGE_EXIT -eq 0 ]; then
+    echo "[$(date '+%H:%M:%S')] 预生成 AI 分析..." >> "$LOG_FILE"
+    # 先确保代理在运行
+    if ! curl -s --connect-timeout 2 http://localhost:3000/health > /dev/null 2>&1; then
+        nohup /usr/bin/python3 -u proxy.py < /dev/null > "$LOG_DIR/proxy.log" 2>&1 &
+        disown
+        sleep 12  # Flask 启动需要时间
+    fi
+
+    if curl -s --connect-timeout 2 http://localhost:3000/health > /dev/null 2>&1; then
+        # 限制每次最多10分钟
+        timeout 600 python3 scripts/precompute_analysis.py >> "$LOG_FILE" 2>&1
+        PRE_EXIT=$?
+        echo "[$(date '+%H:%M:%S')] AI 预生成完成, 退出码: $PRE_EXIT" >> "$LOG_FILE"
+    else
+        echo "[$(date '+%H:%M:%S')] 代理不可用,跳过 AI 预生成" >> "$LOG_FILE"
+    fi
+fi
+
 # 4. 提交并推送到GitHub
 if [ $PUBMED_EXIT -eq 0 ] || [ $BD_EXIT -eq 0 ]; then
     echo "[$(date '+%H:%M:%S')] 提交到Git..." >> "$LOG_FILE"
