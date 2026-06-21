@@ -455,10 +455,12 @@ function openModal(type, index) {
     }
 
     // Add AI analysis for all types (papers, deals, clinical, approvals)
+    // For critical items, use _type to determine actual content type
+    const actualType = (type === 'critical' && item._type) ? item._type : type;
     const cacheKey = item.pmid || (item.title + '_' + (item.date || item.pub_date || ''));
-    const contentType = type || 'unknown';
+    const contentType = actualType || 'unknown';
 
-    console.log('AI Analysis Check:', { cacheKey, contentType });
+    console.log('AI Analysis Check:', { cacheKey, contentType, originalType: type });
 
     // Generate appropriate prompt based on content type
     let analysisPrompt = '';
@@ -501,6 +503,38 @@ ${item.abstract}
 只用中文输出以上内容，每部分用【】标注。如果摘要信息不足，请基于已有信息尽量分析。`;
     } else if ((contentType === 'deal' || contentType === 'approval') && (item.description || item.description_cn || item.title)) {
         analysisPrompt = `请为以下BD交易/监管动态提供专业的中文深度分析，使用生物医药行业分析师的风格。
+
+【交易信息】
+标题: ${item.title || item.title_cn || 'N/A'}
+公司: ${item.company || 'N/A'}
+交易金额: ${item.value || '未披露'}
+日期: ${item.date || item.pub_date || 'N/A'}
+来源: ${item.source || 'N/A'}
+
+【内容详情】
+${item.description || item.description_cn || '无详细信息'}
+
+请按以下格式输出详细分析：
+
+【交易概况】
+交易的简要说明和主要条款
+
+【战略意义】
+这笔交易对双方公司的战略价值
+
+【行业影响】
+对整个生物医药行业的潜在影响
+
+【投资亮点】
+从投资者角度的关键关注点
+
+【风险提示】
+潜在的风险因素
+
+只用中文输出以上内容，每部分用【】标注。`;
+    } else if ((contentType === 'approval' || contentType === 'deal') && (item.description || item.description_cn || item.title)) {
+        // Use deal prompt for approvals as well
+        analysisPrompt = `请为以下监管动态/BD交易提供专业的中文深度分析，使用生物医药行业分析师的风格。
 
 【交易信息】
 标题: ${item.title || item.title_cn || 'N/A'}
