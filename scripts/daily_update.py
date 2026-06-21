@@ -2,6 +2,7 @@
 """
 Biotech Monitor - 每日数据汇总脚本
 整合所有数据源，生成网站所需的JSON文件
+内容按时间倒序排列（最新在前）
 """
 import json
 import os
@@ -11,6 +12,24 @@ import sys
 # 添加父目录到路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
+
+def sort_by_date_desc(items, date_keys=None):
+    """按日期字段倒序排序（最新在前）"""
+    if not items:
+        return items
+    date_keys = date_keys or ['date', 'pub_date', 'timestamp', 'created_at']
+
+    def get_sort_key(item):
+        if not isinstance(item, dict):
+            return ''
+        for key in date_keys:
+            if key in item and item[key]:
+                return str(item[key])
+        return ''
+
+    return sorted(items, key=get_sort_key, reverse=True)
+
+
 def load_pubmed_data(data_dir):
     """加载PubMed数据"""
     latest_file = os.path.join(data_dir, 'latest.json')
@@ -18,6 +37,7 @@ def load_pubmed_data(data_dir):
         with open(latest_file, 'r', encoding='utf-8') as f:
             return json.load(f)
     return {'papers': {}, 'company_news': [], 'timestamp': None}
+
 
 def load_company_data(data_dir):
     """加载公司数据"""
@@ -27,6 +47,7 @@ def load_company_data(data_dir):
             return json.load(f)
     return {'deals': [], 'clinical': [], 'earnings': [], 'companies': {'international': [], 'china': []}}
 
+
 def load_bd_news_data(data_dir):
     """加载BD新闻数据"""
     latest_file = os.path.join(data_dir, 'news_latest.json')
@@ -34,6 +55,7 @@ def load_bd_news_data(data_dir):
         with open(latest_file, 'r', encoding='utf-8') as f:
             return json.load(f)
     return {'items': [], 'summary': {'total': 0, 'deals': 0, 'clinical': 0, 'regulatory': 0}}
+
 
 def merge_data():
     """合并所有数据源"""
@@ -44,18 +66,18 @@ def merge_data():
     company_data = load_company_data(data_dir)
     bd_news_data = load_bd_news_data(data_dir)
 
-    # 从BD新闻提取交易和临床数据（保留完整字段包括中文翻译）
+    # 从BD新闻提取交易和临床数据
     bd_deals = [item for item in bd_news_data.get('items', []) if 'deal' in item.get('categories', [])]
     bd_clinical = [item for item in bd_news_data.get('items', []) if 'clinical' in item.get('categories', [])]
     bd_regulatory = [item for item in bd_news_data.get('items', []) if 'regulatory' in item.get('categories', [])]
 
-    # 标准化新闻数据格式：确保title为英文，description_cn为中文
+    # 标准化新闻数据格式
     def normalize_news_item(item):
         return {
-            'title': item.get('title', ''),  # 英文标题
-            'title_cn': item.get('title_cn', item.get('title', '')),  # 保持英文
-            'description_cn': item.get('description_cn', ''),  # 中文摘要
-            'description': item.get('description', ''),  # 英文原文
+            'title': item.get('title', ''),
+            'title_cn': item.get('title_cn', item.get('title', '')),
+            'description_cn': item.get('description_cn', ''),
+            'description': item.get('description', ''),
             'link': item.get('link', ''),
             'source': item.get('source', ''),
             'date': item.get('date', item.get('pub_date', '')),
@@ -67,12 +89,15 @@ def merge_data():
     bd_clinical = [normalize_news_item(i) for i in bd_clinical]
     bd_regulatory = [normalize_news_item(i) for i in bd_regulatory]
 
+    # 按日期倒序排序
+    bd_deals = sort_by_date_desc(bd_deals)
+    bd_clinical = sort_by_date_desc(bd_clinical)
+    bd_regulatory = sort_by_date_desc(bd_regulatory)
+
     # 标准化公司数据格式
     def normalize_company_deal(item):
-        # 如果title已经是中文，保留title为英文，把title_cn设为空
-        # 如果需要，这里可以添加翻译逻辑
         return {
-            'title': item.get('title', ''),  # 保持原样
+            'title': item.get('title', ''),
             'title_cn': item.get('title_cn', item.get('title', '')),
             'description_cn': item.get('description_cn', item.get('description', '')),
             'description': item.get('description', ''),
@@ -85,11 +110,20 @@ def merge_data():
     company_deals = [normalize_company_deal(i) for i in company_data.get('deals', [])]
     company_clinical = [normalize_company_deal(i) for i in company_data.get('clinical', [])]
 
+    # 按日期倒序排序
+    company_deals = sort_by_date_desc(company_deals)
+    company_clinical = sort_by_date_desc(company_clinical)
+
+    # 对PubMed论文也按日期倒序排序
+    sorted_papers = {}
+    for category, papers in pubmed_data.get('papers', {}).items():
+        sorted_papers[category] = sort_by_date_desc(papers)
+
     # 构建今日重点
     critical = {
-        'deals': company_deals[:5] + bd_deals[:5],
-        'clinical': company_clinical[:5] + bd_clinical[:5],
-        'approvals': bd_regulatory[:5]
+        'deals': (company_deals + bd_deals)[:10],
+        'clinical': (company_clinical + bd_clinical)[:10],
+        'approvals': bd_regulatory[:10]
     }
 
     # 每日简报
@@ -100,7 +134,7 @@ def merge_data():
     }
 
     # 添加PubMed最新文献到每日简报
-    for category, papers in pubmed_data.get('papers', {}).items():
+    for category, papers in sorted_papers.items():
         if papers:
             for paper in papers[:3]:
                 daily['research'].append({
@@ -109,6 +143,9 @@ def merge_data():
                     'date': paper.get('date', ''),
                     'authors': paper.get('authors', [])[:3]
                 })
+
+    # 对research也排序
+    daily['research'] = sort_by_date_desc(daily['research'])
 
     # 公司列表（带状态标记）
     companies = {
@@ -125,7 +162,7 @@ def merge_data():
             'type': company.get('type', ''),
             'pipeline': updates.get('has_pipeline_update', False),
             'news': len(updates.get('recent_news', [])) > 0,
-            'paper': False  # 需要与PubMed数据匹配
+            'paper': False
         })
 
     for company in company_data.get('companies', {}).get('china', []):
@@ -145,12 +182,13 @@ def merge_data():
         'timestamp': datetime.now().isoformat(),
         'critical': critical,
         'daily': daily,
-        'papers': pubmed_data.get('papers', {}),
+        'papers': sorted_papers,
         'companies': companies,
-        'earnings': company_data.get('earnings', [])
+        'earnings': sort_by_date_desc(company_data.get('earnings', []))
     }
 
     return final_data
+
 
 def save_combined_data(data, output_dir):
     """保存合并后的数据"""
@@ -161,7 +199,7 @@ def save_combined_data(data, output_dir):
     with open(latest_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    # 保存压缩版本（只包含必要字段）
+    # 保存压缩版本
     summary = {
         'timestamp': data['timestamp'],
         'critical': data['critical'],
@@ -183,6 +221,7 @@ def save_combined_data(data, output_dir):
 
     print(f"数据已保存到: {output_dir}")
 
+
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     output_dir = os.path.join(script_dir, '..', 'data', 'daily')
@@ -202,6 +241,7 @@ def main():
     print(f"  财报: {len(data['earnings'])}")
 
     print("\n完成!")
+
 
 if __name__ == '__main__':
     main()
