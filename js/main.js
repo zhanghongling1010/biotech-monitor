@@ -9,21 +9,46 @@ const CONFIG = {
 // ===== Analysis Cache =====
 const ANALYSIS_CACHE_PREFIX = 'biotech_analysis_';
 let pendingRequests = new Set(); // 防止重复请求
+let serverCache = null; // 服务器端预生成的缓存
 
-function getCachedAnalysis(pmid) {
-    const cached = localStorage.getItem(ANALYSIS_CACHE_PREFIX + pmid);
-    if (cached) {
-        try {
-            return JSON.parse(cached);
-        } catch(e) {
-            return null;
+// 加载服务器端预生成的缓存
+async function loadServerCache() {
+    if (serverCache) return serverCache;
+    try {
+        const response = await fetch('data/daily/analysis_cache.json');
+        if (response.ok) {
+            serverCache = await response.json();
+            console.log(`Loaded ${Object.keys(serverCache).length} pre-computed analyses`);
         }
+    } catch (e) {
+        console.log('No server cache available');
+        serverCache = {};
     }
+    return serverCache || {};
+}
+
+function getCachedAnalysis(key) {
+    // 1. 优先检查 localStorage
+    const local = localStorage.getItem(ANALYSIS_CACHE_PREFIX + key);
+    if (local) {
+        try {
+            const parsed = JSON.parse(local);
+            if (parsed && parsed.analysis && parsed.analysis.trim().length > 0) {
+                return parsed;
+            }
+        } catch(e) {}
+    }
+
+    // 2. 检查服务器端预生成缓存
+    if (serverCache && serverCache[key]) {
+        return serverCache[key];
+    }
+
     return null;
 }
 
-function setCachedAnalysis(pmid, analysis) {
-    localStorage.setItem(ANALYSIS_CACHE_PREFIX + pmid, JSON.stringify(analysis));
+function setCachedAnalysis(key, analysis) {
+    localStorage.setItem(ANALYSIS_CACHE_PREFIX + key, JSON.stringify(analysis));
 }
 
 // ===== AI Analysis Functions =====
@@ -162,6 +187,10 @@ async function loadData() {
         const response = await fetch(CONFIG.dataUrl);
         if (!response.ok) throw new Error('Network response was not ok');
         allData = await response.json();
+
+        // 加载预生成的 AI 分析缓存
+        await loadServerCache();
+
         updateLastUpdate(allData.timestamp);
         renderCritical(allData);
         renderDailyBrief(allData);
