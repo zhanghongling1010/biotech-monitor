@@ -1,302 +1,4 @@
 {
-  "timestamp": "2026-06-21T11:50:37.563364",
-  "critical": {
-    "deals": [
-      {
-        "title": "BMS与Prime Medicine达成25亿美元合作",
-        "title_cn": "BMS与Prime Medicine达成25亿美元合作",
-        "description_cn": "",
-        "description": "",
-        "company": "Bristol Myers Squibb / Prime Medicine",
-        "value": "$2.5B total",
-        "date": "2026-06-18",
-        "priority": "critical"
-      },
-      {
-        "title": "Endpoints News History: 10 Years, Bootstrap to FT",
-        "title_cn": "Endpoints News History: 10 Years, Bootstrap to FT",
-        "description_cn": "【交易类型】战略合作；【战略意义】有助于加速创新药物开发",
-        "description": "Ten years of Endpoints News: no investors, a 50/50 split, profitable from day one. Co-founders Arsalan Arif and John Carroll on how the partnership held.",
-        "link": "https://endpoints.news/endpoints-news-history-10-years-bootstrap-to-ft/",
-        "source": "endpoints",
-        "date": "Sat, 20 Jun 2026 04:37:05 +0000",
-        "companies": [],
-        "priority": "normal"
-      },
-      {
-        "title": "Novo Nordisk expands in China and Czech; Cellares boosts Series D by $50M",
-        "title_cn": "Novo Nordisk expands in China and Czech; Cellares boosts Series D by $50M",
-        "description_cn": "【交易类型】融资；【交易详情】细胞疗法公司Cellares完成D轮380.0百万美元融资；【战略意义】表明投资者对该公司技术平台的信心",
-        "description": "Plus more from Eisai and Siegfried.\n\n 🧱 Novo Nordisk's expansions: Novo Nordisk has invested around $380 million to expand its manufacturing facility in Bohumil, Central Bohemia, in the Czech Republic. Meanwhile ...",
-        "link": "https://endpoints.news/novo-nordisk-expands-in-china-and-czech-cellares-boosts-series-d-by-50m/",
-        "source": "endpoints",
-        "date": "Thu, 18 Jun 2026 15:28:19 +0000",
-        "companies": [
-          "NVO"
-        ],
-        "priority": "normal"
-      },
-      {
-        "title": "Biogen makes up to $1B deal for secretive anti-inflammatory biotech",
-        "title_cn": "Biogen makes up to $1B deal for secretive anti-inflammatory biotech",
-        "description_cn": "【交易类型】收购/并购；【交易详情】百健(Biogen)将以最高1.0亿美元收购生物技术公司RayThera（位于圣迭戈）；主要看中其抗炎药物研发管线；大部分款项将根据研发里程碑支付；【战略意义】目标公司较为低调，管线信息披露有限；收购方借此扩展其研发管线",
-        "description": "Biogen will pay as much as $1 billion — “predominantly” in milestone payments — to acquire a San Diego biotech that has disclosed little about its pipeline.\n\n The startup, RayThera, debuted last year with a little more ...",
-        "link": "https://endpoints.news/biogen-makes-up-to-1b-deal-for-secretive-anti-inflammatory-biotech/",
-        "source": "endpoints",
-        "date": "Thu, 18 Jun 2026 00:43:13 +0000",
-        "companies": [],
-        "priority": "critical"
-      },
-      {
-        "title": "Jazz turns to AbCellera for T cell engagers in up to $4.1B partnership",
-        "title_cn": "Jazz turns to AbCellera for T cell engagers in up to $4.1B partnership",
-        "description_cn": "【交易类型】战略合作；【交易详情】Jazz制药达成未披露美元战略合作；合作领域：T细胞衔接器；AbCellera已建立40余项生物制药合作；【战略意义】有助于加速创新药物开发",
-        "description": "For much of its first decade, Canadian antibody developer AbCellera signed partnership after partnership, securing 40 biopharma alliances that led to more than a dozen clinical-stage drug candidates.\n\n Then, in 2023 ...",
-        "link": "https://endpoints.news/jazz-turns-to-abcellera-for-t-cell-engagers-in-up-to-4-1b-partnership/",
-        "source": "endpoints",
-        "date": "Wed, 17 Jun 2026 11:00:12 +0000",
-        "companies": [],
-        "priority": "normal"
-      }
-    ],
-    "clinical": [
-      {
-        "title": null,
-        "title_cn": null,
-        "description_cn": "",
-        "description": "",
-        "company": "",
-        "value": "",
-        "date": "",
-        "priority": "normal"
-      }
-    ],
-    "approvals": []
-  },
-  "daily": {
-    "deals": [
-      {
-        "title": "BMS与Prime Medicine达成25亿美元合作",
-        "title_cn": "BMS与Prime Medicine达成25亿美元合作",
-        "description_cn": "",
-        "description": "",
-        "company": "Bristol Myers Squibb / Prime Medicine",
-        "value": "$2.5B total",
-        "date": "2026-06-18",
-        "priority": "critical"
-      },
-      {
-        "title": "Endpoints News History: 10 Years, Bootstrap to FT",
-        "title_cn": "Endpoints News History: 10 Years, Bootstrap to FT",
-        "description_cn": "【交易类型】战略合作；【战略意义】有助于加速创新药物开发",
-        "description": "Ten years of Endpoints News: no investors, a 50/50 split, profitable from day one. Co-founders Arsalan Arif and John Carroll on how the partnership held.",
-        "link": "https://endpoints.news/endpoints-news-history-10-years-bootstrap-to-ft/",
-        "source": "endpoints",
-        "date": "Sat, 20 Jun 2026 04:37:05 +0000",
-        "companies": [],
-        "priority": "normal"
-      },
-      {
-        "title": "Novo Nordisk expands in China and Czech; Cellares boosts Series D by $50M",
-        "title_cn": "Novo Nordisk expands in China and Czech; Cellares boosts Series D by $50M",
-        "description_cn": "【交易类型】融资；【交易详情】细胞疗法公司Cellares完成D轮380.0百万美元融资；【战略意义】表明投资者对该公司技术平台的信心",
-        "description": "Plus more from Eisai and Siegfried.\n\n 🧱 Novo Nordisk's expansions: Novo Nordisk has invested around $380 million to expand its manufacturing facility in Bohumil, Central Bohemia, in the Czech Republic. Meanwhile ...",
-        "link": "https://endpoints.news/novo-nordisk-expands-in-china-and-czech-cellares-boosts-series-d-by-50m/",
-        "source": "endpoints",
-        "date": "Thu, 18 Jun 2026 15:28:19 +0000",
-        "companies": [
-          "NVO"
-        ],
-        "priority": "normal"
-      },
-      {
-        "title": "Biogen makes up to $1B deal for secretive anti-inflammatory biotech",
-        "title_cn": "Biogen makes up to $1B deal for secretive anti-inflammatory biotech",
-        "description_cn": "【交易类型】收购/并购；【交易详情】百健(Biogen)将以最高1.0亿美元收购生物技术公司RayThera（位于圣迭戈）；主要看中其抗炎药物研发管线；大部分款项将根据研发里程碑支付；【战略意义】目标公司较为低调，管线信息披露有限；收购方借此扩展其研发管线",
-        "description": "Biogen will pay as much as $1 billion — “predominantly” in milestone payments — to acquire a San Diego biotech that has disclosed little about its pipeline.\n\n The startup, RayThera, debuted last year with a little more ...",
-        "link": "https://endpoints.news/biogen-makes-up-to-1b-deal-for-secretive-anti-inflammatory-biotech/",
-        "source": "endpoints",
-        "date": "Thu, 18 Jun 2026 00:43:13 +0000",
-        "companies": [],
-        "priority": "critical"
-      },
-      {
-        "title": "Jazz turns to AbCellera for T cell engagers in up to $4.1B partnership",
-        "title_cn": "Jazz turns to AbCellera for T cell engagers in up to $4.1B partnership",
-        "description_cn": "【交易类型】战略合作；【交易详情】Jazz制药达成未披露美元战略合作；合作领域：T细胞衔接器；AbCellera已建立40余项生物制药合作；【战略意义】有助于加速创新药物开发",
-        "description": "For much of its first decade, Canadian antibody developer AbCellera signed partnership after partnership, securing 40 biopharma alliances that led to more than a dozen clinical-stage drug candidates.\n\n Then, in 2023 ...",
-        "link": "https://endpoints.news/jazz-turns-to-abcellera-for-t-cell-engagers-in-up-to-4-1b-partnership/",
-        "source": "endpoints",
-        "date": "Wed, 17 Jun 2026 11:00:12 +0000",
-        "companies": [],
-        "priority": "normal"
-      }
-    ],
-    "clinical": [
-      {
-        "title": null,
-        "title_cn": null,
-        "description_cn": "",
-        "description": "",
-        "company": "",
-        "value": "",
-        "date": "",
-        "priority": "normal"
-      }
-    ],
-    "research": [
-      {
-        "title": "Engineered Neutrophils in Translational Medicine: Gene Editing, Nanotechnology, and AI-Driven Clinical Breakthroughs.",
-        "journal": "Advanced healthcare materials",
-        "date": "2026-06-20",
-        "authors": [
-          "Jingru Chen",
-          "Jiaqi Xu",
-          "Subinuer Aikebaier"
-        ]
-      },
-      {
-        "title": "Transcriptional Knockdown of GGPPS Increases Cellular FPP Availability and Heterologous Sesquiterpene Production in the Green Microalga Chlamydomonas reinhardtii.",
-        "journal": "ACS synthetic biology",
-        "date": "2026-06-19",
-        "authors": [
-          "Merve Saudhof",
-          "Marie Beretz",
-          "Lina Inkmann"
-        ]
-      },
-      {
-        "title": "Mesoscopic Calculation of Single Mismatches in RNA/DNA Hybrids: Strong Hydrogen Bonds of dTrG Affect CRISPR Off-Target Binding.",
-        "journal": "The journal of physical chemistry. B",
-        "date": "2026-06-19",
-        "authors": [
-          "Maria Izabel Muniz",
-          "Erik de Oliveira Martins",
-          "Thomas Carzaniga"
-        ]
-      },
-      {
-        "title": "Next-generation CAR-NK cell therapy: engineering strategies, translational challenges, and future perspectives in cancer immunotherapy.",
-        "journal": "Cancer cell international",
-        "date": "2026-06-18",
-        "authors": [
-          "Minoo Bakhtiari",
-          "Hamid Nickho",
-          "Mahmoud Mahmoudi"
-        ]
-      },
-      {
-        "title": "Vitamin A-coupled MSCs- derived extracellular vesicles relieve acute liver injury by targeting hepatic stellate cells to deliver REDD1.",
-        "journal": "Journal of nanobiotechnology",
-        "date": "2026-06-17",
-        "authors": [
-          "Tingjuan Huang",
-          "Zixu Li",
-          "Xinrui Shi"
-        ]
-      },
-      {
-        "title": "CRISPR Cas9 revolutionizing genetic engineering and therapeutic applications.",
-        "journal": "Journal of biotechnology",
-        "date": "2026-06-16",
-        "authors": [
-          "Sivakumar Durairaj",
-          "Shankar Durairaj",
-          "Sundar Krishnan"
-        ]
-      },
-      {
-        "title": "Engineered Neutrophils in Translational Medicine: Gene Editing, Nanotechnology, and AI-Driven Clinical Breakthroughs.",
-        "journal": "Advanced healthcare materials",
-        "date": "2026-06-20",
-        "authors": [
-          "Jingru Chen",
-          "Jiaqi Xu",
-          "Subinuer Aikebaier"
-        ]
-      },
-      {
-        "title": "Optimized R2 retroelement complexes for DNA insertion into plant genomes.",
-        "journal": "Nature biotechnology",
-        "date": "2026-06-19",
-        "authors": [
-          "Kimberley T Muchenje",
-          "Carl L McCombe",
-          "Yunqing Wang"
-        ]
-      },
-      {
-        "title": "Bispecific CAR T and CAR NK cells in dual-threat immunotherapy: opportunities and challenges.",
-        "journal": "Molecular biology reports",
-        "date": "2026-06-19",
-        "authors": [
-          "Ali Shahin Baher",
-          "Aya Khalid",
-          "Anahita Ganjalikhani Hakemi"
-        ]
-      },
-      {
-        "title": "Targeting the creatine transporter SLC6A8: Mechanisms and emerging therapeutic strategies for multiple diseases.",
-        "journal": "Biochemical pharmacology",
-        "date": "2026-06-15",
-        "authors": [
-          "Kai Wang",
-          "Chenjie Liu",
-          "Jinkang He"
-        ]
-      },
-      {
-        "title": "Enhanced efficacy of gastric cancer treatment by a combination of NK cells and chemotherapy.",
-        "journal": "iScience",
-        "date": "2026-04-27",
-        "authors": [
-          "Jingjing Yue",
-          "Jie Ma",
-          "Yangyang Li"
-        ]
-      },
-      {
-        "title": "A scoping review of obesity policies and reimbursement landscape: global insights and lessons for Thailand.",
-        "journal": "Implementation science communications",
-        "date": "2026-06-19",
-        "authors": [
-          "Petch Rawdaree",
-          "Nisita Jirawutkornkul",
-          "Parnnaphat Luksameesate"
-        ]
-      },
-      {
-        "title": "Engineered Neutrophils in Translational Medicine: Gene Editing, Nanotechnology, and AI-Driven Clinical Breakthroughs.",
-        "journal": "Advanced healthcare materials",
-        "date": "2026-06-20",
-        "authors": [
-          "Jingru Chen",
-          "Jiaqi Xu",
-          "Subinuer Aikebaier"
-        ]
-      },
-      {
-        "title": "Spatial and Single-cell Multi-omics Approaches Unravel the Genetic and Immunological Landscape of SIRPB1 in Kidney Renal Clear Cell Carcinoma.",
-        "journal": "Recent patents on anti-cancer drug discovery",
-        "date": "2026-06-17",
-        "authors": [
-          "Chien-Wei Huang",
-          "Chen-Yueh Wen",
-          "Tzu-Hung Hsiao"
-        ]
-      },
-      {
-        "title": "Next-generation CAR-NK cell therapy: engineering strategies, translational challenges, and future perspectives in cancer immunotherapy.",
-        "journal": "Cancer cell international",
-        "date": "2026-06-18",
-        "authors": [
-          "Minoo Bakhtiari",
-          "Hamid Nickho",
-          "Mahmoud Mahmoudi"
-        ]
-      }
-    ]
-  },
   "papers": {
     "gene_editing": [
       {
@@ -8342,203 +8044,496 @@
       }
     ]
   },
-  "companies": {
-    "international": [
-      {
-        "ticker": "BEAM",
-        "name": "Beam Therapeutics",
-        "type": "Base/Prime Editing",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "ticker": "VERV",
-        "name": "Verve Therapeutics",
-        "type": "In Vivo Gene Editing",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "ticker": "NTLA",
-        "name": "Intellia Therapeutics",
-        "type": "In Vivo CRISPR",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "ticker": "EDIT",
-        "name": "Editas Medicine",
-        "type": "In Vivo CRISPR",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "ticker": "CRSP",
-        "name": "CRISPR Therapeutics",
-        "type": "Ex Vivo CRISPR",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "ticker": "PRME",
-        "name": "Prime Medicine",
-        "type": "Prime Editing",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "ticker": "SGMO",
-        "name": "Sangamo Therapeutics",
-        "type": "Zinc Finger",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "ticker": "QURE",
-        "name": "uniQure",
-        "type": "AAV Gene Therapy",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "ticker": "BMRN",
-        "name": "BioMarin",
-        "type": "AAV Gene Therapy",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "ticker": "PTCT",
-        "name": "PTC Therapeutics",
-        "type": "Gene Therapy",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "ticker": "RGRX",
-        "name": "REGENXBIO",
-        "type": "AAV Vector",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "ticker": "TESS",
-        "name": "Tessera Therapeutics",
-        "type": "Gene Writing",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "ticker": "ARBT",
-        "name": "Arbor Biotechnologies",
-        "type": "CRISPR Discovery",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "ticker": "SCRIBE",
-        "name": "Scribe Therapeutics",
-        "type": "CRISPR Delivery",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "ticker": "MGEN",
-        "name": "Metagenomi",
-        "type": "In Vivo Gene Editing",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      }
-    ],
-    "china": [
-      {
-        "code": "688265",
-        "name": "博雅基因",
-        "type": "CRISPR/Cas9",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "code": "688321",
-        "name": "邦耀生物",
-        "type": "Gene Editing",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "code": "688180",
-        "name": "君实生物",
-        "type": "Cell Therapy/IO",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "code": "688235",
-        "name": "百济神州",
-        "type": "Cell Therapy",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "code": "688061",
-        "name": "瑞风生物",
-        "type": "Gene Editing",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "code": "688222",
-        "name": "纽福斯",
-        "type": "Ophthalmology Gene Therapy",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "code": "301080",
-        "name": "中因科技",
-        "type": "Ophthalmology Gene Therapy",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "code": "301073",
-        "name": "本导基因",
-        "type": "Viral Vector",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      },
-      {
-        "code": "301047",
-        "name": "信念医药",
-        "type": "AAV Gene Therapy",
-        "pipeline": false,
-        "news": false,
-        "paper": false
-      }
-    ]
-  },
-  "earnings": []
+  "company_news": [
+    {
+      "pmid": "42321772",
+      "title": "Evaluation of Rosenmüller fossa depth and nasopharyngeal structures in individuals with cleft lip and palate using cone-beam computed tomography.",
+      "abstract": "BACKGROUND: Cleft lip and palate (CLP) is a malformation traditionally attributed to muscle dysfunction but with deep anatomical origins. While early radiological signs of nasopharyngeal carcinoma often present as an asymmetric obliteration of the Rosenmüller fossa (RF), the impact of congenital CLP-related variations on this clinical detection remains a subject of debate with no definitive consensus. This study investigates these hypotheses by evaluating nasopharyngeal structural remodeling using cone-beam computed tomography (CBCT). To determine whether the morphometric changes are local or regional, unilateral (cleft/non-cleft sides), bilateral, and healthy individuals were compared. Based on our measurements, results indicate a specific structural transformation in the CLP nasopharynx characterized as a 'narrow and long' configuration, with both sides similarly affected even in unilateral cases. These findings suggest that CLP should be viewed not merely as a localized anatomical defect, but rather as a regional morphometric remodeling involving the entire nasopharyngeal complex. METHODS: This retrospective study analyzed CBCT images of 78 CLP and 78 healthy individuals. Parameters included RF depth and type, torus levatorius (TL) length, inter-torus distance (ITD), posterior nasal spine - posterior pharyngeal wall distance (PNS-PPW), eustachian tube length (ETL), ET angle (ETA), tympanotubal angle (TTA), and pharyngeal bursa (PB) presence. Subjects were categorized as unilateral (cleft/non-cleft sides), bilateral, or control. RESULTS: RF morphological types varied significantly between groups (p = 0.022), although RF depth (p = 0.155) and PB presence showed no significant differences. CLP groups exhibited significantly higher TTA and TL length (p < 0.001) and increased PNS-PPW distance, particularly in bilateral cases (p < 0.001). Conversely, ETL (p = 0.047) and ITD (p = 0.009) were significantly higher in controls. ETA showed no significant difference. CONCLUSIONS: CLP appears to be associated with morphometric remodeling of the nasopharynx and the eustachian tube, which is more pronounced in bilateral cases. These structural abnormalities may provide a potential framework for assessing velopharyngeal dysfunction and middle ear pathologies in this population.",
+      "authors": [
+        "Merva Güneyli",
+        "Emin Murat Canger"
+      ],
+      "journal": "BMC oral health",
+      "date": "2026-06-20",
+      "keywords": [
+        "Cleft lip and palate",
+        "Cone-beam computed tomography",
+        "Eustachian tube",
+        "Pharyngeal bursa",
+        "Rosenmüller’s fossa"
+      ],
+      "companies": [
+        "Beam"
+      ],
+      "title_cn": "Evaluation of Rosenmüller fossa depth and nasopharyngeal structures in individuals with cleft lip and palate using cone-beam computed tomography.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：鉴定/表征, 疾病模型建立, 结合/相互作用, 结构解析。\n【机制创新与产业价值】发表期刊：BMC oral health。\n【后续追踪要点】持续关注后续进展及临床转化。"
+    },
+    {
+      "pmid": "42321761",
+      "title": "FLASH radiotherapy preserves hepatic function and maintains metabolic homeostasis in a murine breast cancer model: an experimental preclinical study.",
+      "abstract": "BACKGROUND: Radiotherapy (RT) for treating breast cancer can result in incidental dose deposition to the liver, leading to functional impairment. FLASH radiotherapy (FLASH-RT), delivered at ultra-high dose rates (UHDR), has demonstrated remarkable normal tissue sparing. We investigated the hepatoprotective effects and metabolic alterations associated with FLASH-RT and conventional radiotherapy (CONV-RT) in a preclinical breast cancer model. METHODS: Female BALB/c mice bearing syngeneic 4T1 breast tumors were randomized to receive a single 20 Gy fraction of either FLASH-RT (625 Gy/s) or CONV-RT (0.54 Gy/s) using a 6 MeV electron beam. Tumor kinetics and systemic toxicity were monitored for 14 days. Hepatic integrity was assessed via histology, immunohistochemistry, oxidative-stress markers, serum biochemical assays, and non-targeted UPLC-MS/MS metabolomics of liver tissue. RESULTS: Both modalities achieved isoeffective tumor growth delay. However, FLASH-RT induced only transient body-weight reduction followed by rapid recovery, and was associated with reduced hepatic injury markers compared with CONV-RT. Histopathological analysis revealed that FLASH-RT preserved hepatic architecture and attenuated early pro-fibrotic signaling, as reflected by reduced α-SMA and Nestin expression compared with CONV-RT. FLASH-treated mice exhibited significantly lower serum ALT/ALP levels and reduced oxidative stress (lower MDA levels and higher GSH-PX levels). Furthermore, FLASH-RT attenuated immune-mediated inflammation, as evidenced by diminished infiltration of CD8 + T cells and F4/80 + macrophages. Metabolomic profiling demonstrated that FLASH-RT preserved hepatic metabolic homeostasis, preventing the profound lipid and choline metabolism disruptions observed following CONV-RT. CONCLUSIONS: FLASH-RT was associated with substantial hepatic sparing by preserving structural integrity, attenuating oxidative-inflammatory signaling, and maintaining metabolic stability. These findings suggest that FLASH-RT may help expand the therapeutic window by uncoupling antitumor efficacy from collateral hepatic toxicity.",
+      "authors": [
+        "Xingyu Lu",
+        "Dehuan Xie",
+        "Liang Cui",
+        "Hang Shang",
+        "Linghong Zhou"
+      ],
+      "journal": "Radiation oncology (London, England)",
+      "date": "2026-06-19",
+      "keywords": [
+        "Breast cancer",
+        "FLASH radiotherapy (FLASH-RT)",
+        "Metabolomics",
+        "Radiation-induced liver injury (RILI)",
+        "Ultra-high dose rate (UHDR)"
+      ],
+      "companies": [
+        "Beam"
+      ],
+      "title_cn": "FLASH radiotherapy preserves hepatic function and maintains metabolic homeostasis in a murine breast cancer model: an experimental preclinical study.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】研究针对：乳腺癌；研究层级：临床前研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：促进作用, 调控作用, 疾病模型建立, 安全性评估；关键突破：降低毒性；局限性：需进一步研究。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Radiation oncology (London, England)。\n【后续追踪要点】临床试验；新药研发；安全性监测。"
+    },
+    {
+      "pmid": "42321706",
+      "title": "Association between impacted third molars and external root resorption on adjacent second molars based on cone-beam computed tomography: a systematic review and meta-analysis.",
+      "abstract": "BACKGROUND: External root resorption (ERR) on second molars (M2s) is an undesirable type of pathological damage associated with adjacent impacted third molars (iM3s). Owing to its limited detectability on conventional radiographs, ERR may remain undiagnosed until irreversible damage has occurred. This systematic review aimed to quantitatively evaluate the association between iM3s and ERR on M2s via cone-beam computed tomography (CBCT). METHODS: Six databases, including PubMed, Scopus, Web of Science, the Cochrane Library, Embase and ProQuest, were searched for relevant articles published prior to June 2025. Only human studies using CBCT to investigate iM3-related ERR on M2s were included. Methodological quality was assessed via the Joanna Briggs Institute Critical Appraisal Checklist. Meta-analyses were performed using random-effects model with heterogeneity assessed via RevMan software. Meta-regression analysis and the evaluation of publication bias were conducted using Stata software. RESULTS: Twenty-six articles were included in this meta-analysis: Twenty-four had a low risk of bias. The quantitative synthesis demonstrated a 31% (95% confidence interval: 26% to 36%) prevalence of iM3-associated ERR on M2s. A higher prevalence of ERR was associated with mesioangular, horizontal or transverse inclination of iM3s and direct contact with the apical third of the M2 roots. CONCLUSIONS: Findings indicate that ERR on M2s is related to the contact between iM3s and the apical third of M2 roots. Mesioangular, horizontal, or transverse iM3 inclinations are significantly associated with higher ERR prevalence on adjacent M2s. This study identified key associated factors for ERR on M2s with iM3s, providing evidence-based suggestions for treatment plans of asymptomatic iM3s. REGISTRATION: PROSPERO: CRD42022332920.",
+      "authors": [
+        "Wenxuan Liu",
+        "Ailin Liang",
+        "Yanling Zhou",
+        "Chenxi Liao",
+        "Xiaoyan Zhou"
+      ],
+      "journal": "BMC oral health",
+      "date": "2026-06-19",
+      "keywords": [
+        "External root resorption",
+        "cone-beam computed tomography",
+        "impacted third molars",
+        "meta-analysis"
+      ],
+      "companies": [
+        "Beam"
+      ],
+      "title_cn": "Association between impacted third molars and external root resorption on adjacent second molars based on cone-beam computed tomography: a systematic review and meta-analysis.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】量化数据：31%, 95%, 26%；核心发现：相关性, 疾病模型建立, 有效性验证。\n【机制创新与产业价值】发表期刊：BMC oral health。\n【后续追踪要点】持续关注后续进展及临床转化。"
+    },
+    {
+      "pmid": "42321355",
+      "title": "Shielding assessment for multi-ion radiotherapy based on ion-specific dose-defined workloads.",
+      "abstract": "The expansion of heavy-ion radiotherapy toward multi-ion operation requires a reassessment of shielding design methods that have traditionally relied on particle-number-based workloads. In facilities employing multiple ion species, this approach becomes inconsistent because different ions require substantially different numbers of primary particles to deliver the same prescribed dose. In this study, neutron shielding characteristics for helium, carbon, oxygen, and neon ion beams were evaluated using dose-defined workloads that reflect actual clinical and operational practice. Shielding effectiveness was assessed per unit physical dose to represent quality assurance and commissioning activities, and per unit Relative Biological Effectiveness (RBE)-weighted dose to represent treatment-related workload, based on PHITS Monte Carlo simulations. Under physical-dose normalization, carbon consistently produced the largest neutron effective dose across all shielding configurations. Under RBE-weighted dose normalization, carbon generally remained the most conservative reference ion, although high-energy helium under metallic beam-loss target conditions approached the carbon reference in selected configurations. These findings demonstrate that shielding outcomes are strongly dependent on the dose quantity used to define workload and support the continued use of carbon as the primary reference ion for multi-ion shielding assessment, while indicating that high-energy helium may approach the carbon reference only under restricted treatment-related metallic-target conditions.",
+      "authors": [
+        "Ui-Seob Lee",
+        "Youngmoon Goh",
+        "Geum Mun Back",
+        "Chul Hee Min",
+        "Jinhong Jung"
+      ],
+      "journal": "Scientific reports",
+      "date": "2026-06-19",
+      "keywords": [],
+      "companies": [
+        "Beam",
+        "Scribe"
+      ],
+      "title_cn": "Shielding assessment for multi-ion radiotherapy based on ion-specific dose-defined workloads.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：有效性验证。\n【机制创新与产业价值】发表期刊：Scientific reports。\n【后续追踪要点】持续关注后续进展及临床转化。"
+    },
+    {
+      "pmid": "42321273",
+      "title": "Parametrising harmonic strengths in Raman driven spin noise spectra of neutral atoms.",
+      "abstract": "We study the appearance of harmonics in spin noise correlations as a result of strong optical drive using a pair of coherent Raman beams in hot Rubidium vapour. In addition to the fundamental spin noise mode, we detect multiple equi-spaced coherence signals, including first, second, third, and fourth harmonics with relative amplitudes ranging from [Formula: see text] to [Formula: see text]. We parametrise these higher harmonics with Raman and probe beam intensity, density of atoms, magnetic field strength and drive frequency. These observations allow us to precisely estimate the energy spacing between magnetic sub-levels in a multi-level atomic system under the influence of external magnetic fields. Our findings highlight this method as a versatile tool for optical probing and precision metrology of complex spin dynamics.",
+      "authors": [
+        "Sayari Majumder",
+        "Saptarishi Chaudhuri"
+      ],
+      "journal": "Scientific reports",
+      "date": "2026-06-19",
+      "keywords": [
+        "Multi-photon optical drive",
+        "Polarised light",
+        "Quantum sensing",
+        "Spin noise spectroscopy"
+      ],
+      "companies": [
+        "Beam"
+      ],
+      "title_cn": "Parametrising harmonic strengths in Raman driven spin noise spectra of neutral atoms.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：相关性, 表达水平变化, 结合/相互作用。\n【机制创新与产业价值】发表期刊：Scientific reports。\n【后续追踪要点】持续关注后续进展及临床转化。"
+    },
+    {
+      "pmid": "42264974",
+      "title": "Comparative wear behavior of lithium disilicate CAD/CAM ceramics under simulated mastication.",
+      "abstract": "OBJECTIVES: To compare the two-body wear behavior of several commercially available lithium disilicate ceramics and their effects on steatite antagonists using a chewing simulator. METHODS: Fifty rectangular specimens (12.0 ×6.0 ×1.5 mm3) were prepared from CAD/CAM lithium disilicate blocks (n = 10): Amber Mill (AM), Amber Mill Direct (AMD), CEREC Tessera (CT), GC Initial LiSi Block (LiSi), and IPS e.max CAD (EM). AM, CT, and EM specimens were crystallized according to the manufacturer's instructions. Lithium disilicate specimens were opposed by steatite antagonists and subjected to 1,200,000 chewing cycles under a 49 N load. Volumetric material loss of both lithium disilicate and steatite specimens was quantified through a 3D optical profilometer (VR-6200, Keyence) and the analysis software (VR-6000 Analyzer). The Vickers microhardness of lithium disilicate ceramics was measured before and after chewing simulation. The microstructures of ceramics were evaluated with an SEM. Data were analyzed using one-way ANOVA for material loss and mixed ANOVA for microhardness (α = 0.05). RESULTS: AM exhibited the lowest volumetric loss among the lithium disilicate ceramics, whereas CT and EM demonstrated the highest wear. Steatite antagonists opposing AM showed significantly higher volumetric loss compared with those opposing other materials. Before simulation, AMD and LiSi presented significantly higher microhardness values, while EM exhibited the lowest hardness. Following simulation, no significant differences in microhardness were observed among the materials. SIGNIFICANCE: Wear of lithium disilicate ceramics is primarily governed by microstructure. Material selection should consider both restorative materials and antagonist wear.",
+      "authors": [
+        "Putsadeeporn Thammajaruk",
+        "Michael V Swain",
+        "Massimiliano Guazzato",
+        "Chanya Chuenarrom",
+        "Chaimongkon Peampring"
+      ],
+      "journal": "Dental materials : official publication of the Academy of Dental Materials",
+      "date": "2026-06-09",
+      "keywords": [
+        "Chewing simulation",
+        "Lithium disilicate",
+        "Microstructure",
+        "Vickers hardness",
+        "Wear"
+      ],
+      "companies": [
+        "Tessera"
+      ],
+      "title_cn": "Comparative wear behavior of lithium disilicate CAD/CAM ceramics under simulated mastication.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：抑制作用, 结构解析。\n【机制创新与产业价值】发表期刊：Dental materials : official publication of the Academy of Dental Materials。\n【后续追踪要点】持续关注后续进展及临床转化。"
+    },
+    {
+      "pmid": "42294842",
+      "title": "Lonvoguran Ziclumeran - In Vivo CRISPR Gene Editing in Hereditary Angioedema.",
+      "abstract": "BACKGROUND: Hereditary angioedema is a rare and potentially life-threatening genetic condition characterized by recurrent and debilitating swelling attacks. Lonvoguran ziclumeran (lonvo-z) - an investigational, in vivo gene-editing treatment based on clustered regularly interspaced short palindromic repeats (CRISPR) - is being developed as a single-dose treatment for hereditary angioedema. METHODS: In a phase 3, double-blind trial, we randomly assigned, in a 2:1 ratio, patients who were 16 years of age or older and had hereditary angioedema with C1 inhibitor deficiency to receive a single intravenous infusion of lonvo-z (at a dose of 50 mg) or placebo. The primary end point was the number of investigator-confirmed hereditary angioedema attacks per month (the monthly attack rate) from week 5 through week 28 after infusion. RESULTS: A total of 80 patients underwent randomization; 52 were assigned to receive lonvo-z and 28 to receive placebo. As of February 10, 2026, the median duration of follow-up was 7.5 months (range, 4.9 to 12.8). The least-squares mean monthly attack rate from weeks 5 through 28 was 0.26 (95% confidence interval [CI], 0.15 to 0.45) in the lonvo-z group and 2.10 (95% CI, 1.55 to 2.86) in the placebo group (relative difference, -87%; 95% CI, -93 to -78; P<0.001). Adverse events that occurred during or after infusion of lonvo-z or placebo were reported in 92% and 86% of the patients in the lonvo-z and placebo groups, respectively, from day 1 through week 28. Among the adverse events that occurred during or after infusion and more often in the lonvo-z group than in the placebo group, the most common (occurring in >10% of the patients in the lonvo-z group) included infusion-related reaction, headache, fatigue, back pain, and upper respiratory tract infection. No serious or grade 3 or higher adverse events were reported in the lonvo-z group. CONCLUSIONS: Among patients with hereditary angioedema, a single intravenous infusion of lonvo-z resulted in a significantly lower rate of hereditary angioedema attacks than placebo. (Funded by Intellia Therapeutics; HAELO ClinicalTrials.gov number, NCT06634420.).",
+      "authors": [
+        "Danny M Cohn",
+        "Padmalal Gurugama",
+        "Hilary J Longhurst",
+        "Emel Aygören-Pürsün",
+        "Timothy J Craig"
+      ],
+      "journal": "The New England journal of medicine",
+      "date": "2026-06-13",
+      "keywords": [],
+      "companies": [
+        "Intellia"
+      ],
+      "title_cn": "Lonvoguran Ziclumeran - In Vivo CRISPR Gene Editing in Hereditary Angioedema.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】核心技术：CRISPR基因编辑；研究层级：III期临床试验。\n【核心实验关键数据】量化数据：95%, 95%, 87%；核心发现：鉴定/表征, 抑制作用, 安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The New England journal of medicine。\n【后续追踪要点】新药研发。"
+    },
+    {
+      "pmid": "42310715",
+      "title": "Exosome engineering and molecular tools for targeted therapy of brain-infecting pathogens: delivery systems, signaling pathways, and therapeutic applications.",
+      "abstract": "Brain infections, caused by various pathogens (such as viruses, bacteria, fungi, or parasites), have proven challenging to treat due to limited drug diffusion through the blood-brain barrier and the presence of intracellular reservoirs. As biologically derived nanocarriers, exosomes have emerged as viable candidates for crossing physiological barriers and effectively delivering target molecules into the central nervous system. This review aims to summarize what is currently known about exosome biogenesis, cargo sorting, and immunological function in relation to infectious disease. In addition, it provides information on how different pathogens have taken advantage of exosomal pathways to increase their virulence and modulate the immune response, while also suggesting options for the therapeutic engineering of exosomes. It critically evaluates technological advances made in exosome engineering, such as CRISPR/Cas9-based cargo loading, ligand-directed surface modification of exosomes, targeted delivery of nucleic acids, and creation of stimuli-responsive release systems for exosome cargo for their potential application as precision therapies against pathogens that infect the brain. Pharmacokinetic data and biodistribution studies, along with studies examining how route of administration, inflammatory status, and receptor mediated uptake affect CNS targeting efficacy reflect that exosome engineering offers a novel platform for creating precision therapeutics against pathogens that infect the brain.",
+      "authors": [
+        "Sarad Pawar Naik Bukke",
+        "Naik Bukke",
+        "Shatrudhan Prajapati",
+        "Chandrashekar Thalluri",
+        "Shikha Yadav"
+      ],
+      "journal": "Journal of nanobiotechnology",
+      "date": "2026-06-17",
+      "keywords": [
+        "Blood brain barrier transport",
+        "CNS infections",
+        "CRISPR therapeutics",
+        "Exosome engineering",
+        "Exosomes",
+        "Neuroinflammation",
+        "Pathogen-derived vesicles",
+        "Targeted delivery"
+      ],
+      "companies": [],
+      "title_cn": "Exosome engineering and molecular tools for targeted therapy of brain-infecting pathogens: delivery systems, signaling pathways, and therapeutic applications.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：基础研究。\n【核心实验关键数据】核心发现：首次发现/鉴定, 调控作用, 有效性验证。\n【机制创新与产业价值】发表期刊：Journal of nanobiotechnology。\n【后续追踪要点】新药研发。"
+    },
+    {
+      "pmid": "42274009",
+      "title": "Exa-cel in Children with Transfusion-Dependent β-Thalassemia or Sickle Cell Disease.",
+      "abstract": "BACKGROUND: Exagamglogene autotemcel (exa-cel) is a cell therapy in which autologous CD34+ hematopoietic cells are engineered through ex vivo clustered regularly interspaced short palindromic repeats-Cas9 editing of the erythroid-specific enhancer region of BCL11 to express fetal hemoglobin. In phase 3 studies involving participants 12 to 35 years of age with sickle cell disease or transfusion-dependent β-thalassemia, exa-cel eliminated vaso-occlusive crises and the need for red-cell transfusions. METHODS: In two ongoing, phase 3, open-label, single-group studies, we evaluated exa-cel in children 5 to 11 years of age with transfusion-dependent β-thalassemia or sickle cell disease. Before exa-cel infusion, participants underwent myeloablative conditioning with pharmacokinetically dose-adjusted busulfan. The primary end points were transfusion independence for at least 12 consecutive months in children with transfusion-dependent β-thalassemia and freedom from severe vaso-occlusive crises for at least 12 consecutive months in children with sickle cell disease. RESULTS: A total of 15 children with transfusion-dependent β-thalassemia and 11 with sickle cell disease received exa-cel; median follow-up was 16.0 months (range, 2.2 to 32.1) and 16.9 months (range, 7.6 to 33.1), respectively. Of 8 children with transfusion-dependent β-thalassemia who were followed to at least 16 months, 8 were transfusion independent; the status of the remaining 7 was not yet evaluable. Of 8 children with sickle cell disease who were followed to at least 16 months, 8 were free of vaso-occlusive crises; the status of the remaining 3 was not yet evaluable. All the children had at least one grade 3 or 4 adverse event; 2 children with transfusion-dependent β-thalassemia had severe veno-occlusive liver disease that was assessed as being related to busulfan conditioning, 1 of whom died. CONCLUSIONS: Exa-cel therapy resulted in transfusion independence or freedom from severe vaso-occlusive crises in participants with transfusion-dependent β-thalassemia or sickle cell disease, respectively, who were followed for at least 16 months. All the participants had grade 3 or 4 adverse events. (Funded by Vertex Pharmaceuticals and CRISPR Therapeutics; CLIMB THAL-141 ClinicalTrials.gov number, NCT05356195; CLIMB SCD-151 ClinicalTrials.gov number, NCT05329649.).",
+      "authors": [
+        "Haydar Frangoul",
+        "Josu de la Fuente",
+        "Yogi Chopra",
+        "Roland Meisel",
+        "Persis J Amrolia"
+      ],
+      "journal": "The New England journal of medicine",
+      "date": "2026-06-11",
+      "keywords": [],
+      "companies": [
+        "CRISPR Therapeutics"
+      ],
+      "title_cn": "Exa-cel in Children with Transfusion-Dependent β-Thalassemia or Sickle Cell Disease.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】研究针对：镰状细胞病；核心技术：碱基编辑(CBE/ABE)、Cas9核酸酶；研究层级：III期临床试验。\n【核心实验关键数据】核心发现：促进作用, 安全性评估, 表达水平变化。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The New England journal of medicine。\n【后续追踪要点】新药研发；基因/细胞治疗。"
+    },
+    {
+      "pmid": "42093418",
+      "title": "Functional peptide-assisted delivery of CRISPR/Cas9: recent progress on gene editing.",
+      "abstract": "The CRISPR/Cas9 system has transformed the field of genome engineering by enabling precise and programmable modification of genomic sequences. Despite its remarkable potential, efficient and safe delivery of CRISPR/Cas9 components remains a significant bottleneck, particularly in translational and therapeutic applications. In the past decade (2015-2025), peptide-based delivery systems have gained increasing attention as versatile non-viral alternatives due to their modular design, inherent biocompatibility and potential for tissue-specific targeting. This review provides a critical synthesis of recent advances in functional peptide-based delivery strategies for CRISPR/Cas9. We focus on key categories of peptides-cell-penetrating peptides, cell-targeting peptides, endosomal escape peptides, and nuclear localization signals-and their multifunctional or hybrid combinations. By identifying key design principles and failure modes, this review discusses how these platforms can be optimized to support the development of next-generation CRISPR therapeutics, ultimately moving closer to safe and effective genome editing in future clinical applications.",
+      "authors": [
+        "Hye Min Cho",
+        "Yeong Chae Ryu",
+        "Min Kyu Cho",
+        "Byeong Hee Hwang"
+      ],
+      "journal": "Biomaterials science",
+      "date": "2026-06-16",
+      "keywords": [],
+      "companies": [
+        "CRISPR Therapeutics"
+      ],
+      "title_cn": "Functional peptide-assisted delivery of CRISPR/Cas9: recent progress on gene editing.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：基础研究。\n【核心实验关键数据】核心发现：鉴定/表征, 有效性验证。\n【机制创新与产业价值】发表期刊：Biomaterials science。\n【后续追踪要点】新药研发。"
+    },
+    {
+      "pmid": "42321471",
+      "title": "Voltage dynamics of cortical dendrites in vivo.",
+      "abstract": "Voltage dynamics in dendrites, which result both from integrating synaptic inputs and back-propagating action potentials (bAPs) from the soma, contribute to plasticity. Mapping these dynamics in the dendritic arbors of live animals is crucial for understanding neuronal computation and plasticity rules. Here we combine targeted channelrhodopsin activation with dual-plane structured illumination voltage imaging for simultaneous monitoring of dendritic and somatic voltage response dynamics in cortical layer 2/3 pyramidal neurons in anesthetized and awake mice. We examined the integration of synaptic inputs and compared the dynamics of optogenetically evoked, spontaneous and sensory-evoked subthreshold and bAP dynamics. Our measurements revealed a broadly correlated membrane voltage throughout the dendritic arbor and only weak signatures of electrical compartmentalization within individual dendritic branches. However, we observed strong spiking-history-dependent modulation of bAP propagation into distal dendrites. We propose that this dendritic filtering of bAPs may have a critical role in the regulation of bursting and in activity-dependent plasticity.",
+      "authors": [
+        "J David Wong-Campos",
+        "Pojeong Park",
+        "Byung Hun Lee",
+        "Hunter C Davis",
+        "Yitong Qi"
+      ],
+      "journal": "Nature neuroscience",
+      "date": "2026-06-19",
+      "keywords": [],
+      "companies": [
+        "Arbor"
+      ],
+      "title_cn": "Voltage dynamics of cortical dendrites in vivo.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】研究层级：动物体内实验。\n【核心实验关键数据】核心发现：促进作用, 调控作用, 相关性, 有效性验证。\n【机制创新与产业价值】发表期刊：Nature neuroscience。\n【后续追踪要点】持续关注后续进展及临床转化。"
+    },
+    {
+      "pmid": "42314289",
+      "title": "Lycopene-mediated mitigation of cadmium-induced nephrotoxicity in broilers is associated with restoring mitochondrial homeostasis.",
+      "abstract": "Cadmium (Cd) is a ubiquitous environmental pollutant with high bioaccumulation potential, primarily targeting the kidney by inducing oxidative stress and mitochondrial dysfunction. This study aimed to investigate the protective effects and underlying molecular mechanisms of lycopene (LYC) against Cd-induced nephrotoxicity in broilers. In this study, Arbor Acres broilers were administered Cd-containing diets with or without LYC supplementation for 42 days and then assessed growth performance, serum biochemistry, and renal morphology. The results showed that LYC significantly reversed Cd-induced growth inhibition and renal histopathological damage. Further analysis revealed that the alleviating effect of LYC on Cd-driven renal impairment was linked to the regulation of the mitochondrial biogenesis, mitochondrial dynamics, and mitophagy. These results suggested that LYC mitigated Cd-induced nephrotoxicity in broilers were associated with the regulating of mitochondrial quality control-related factors and the restoration of mitochondrial homeostasis. Thereby, this study further demonstrates the mechanism by which LYC alleviates Cd-induced nephrotoxicity.",
+      "authors": [
+        "Haodong Wang",
+        "Zhi Lu",
+        "Gongyin Chen",
+        "Xuebing Wang",
+        "Xu Yang"
+      ],
+      "journal": "Poultry science",
+      "date": "2026-06-10",
+      "keywords": [
+        "Broiler",
+        "Cadmium",
+        "Kidney",
+        "Lycopene",
+        "Mitochondrial quality control"
+      ],
+      "companies": [
+        "Arbor"
+      ],
+      "title_cn": "Lycopene-mediated mitigation of cadmium-induced nephrotoxicity in broilers is associated with restoring mitochondrial homeostasis.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：抑制作用, 促进作用, 调控作用, 相关性；局限性：需进一步研究。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Poultry science。\n【后续追踪要点】安全性监测。"
+    },
+    {
+      "pmid": "42302623",
+      "title": "Dietary rosmarinic acid alleviates PM2.5-triggered pulmonary injury in broilers: insights into inflammatory signaling, pulmonary microbiota and metabolic modulation.",
+      "abstract": "Fine particulate matter (PM2.5) has become a severe environmental hazard in intensive poultry farming, which commonly triggers respiratory impairment and further deteriorates the growth performance and health status of broilers. Developing feasible dietary additives to relieve PM2.5-caused toxic damage is urgently required for the modern poultry industry. Rosmarinic acid (RA) is a naturally occurring polyphenolic compound with validated anti-inflammatory and antioxidative capacities; nevertheless, whether dietary RA can ameliorate pulmonary damage induced by PM2.5 pollution in broilers remains poorly understood. The present study aimed to explore the protective potential and molecular mechanisms of RA against PM2.5-mediated lung injury in broiler models. A total of 144 male Arbor Acres (AA) broilers at 21 days of age were randomly assigned to three groups: control group (CON), PM2.5 exposure group (PM), and PM2.5 exposure supplemented with 200 mg/kg RA group (RA). The experimental feeding period lasted for 21 days. The results showed that RA supplementation effectively mitigated pulmonary inflammatory lesions caused by PM2.5 exposure, which was accompanied by improved lung histological morphology and decreased secretion of inflammatory cytokines (IL-6, IL-10, TNF-α, and IFN-γ). Molecular detection confirmed that RA intervention effectively inhibited the overactivation of the TLR4/MyD88/NF-κB inflammatory cascade. Moreover, dietary RA reshaped the pulmonary microbial community structure by elevating bacterial richness and evenness. The relative abundances of beneficial bacterial genera (Turicibacter, Hydrogenophilus, and Actinoplanes) were enriched, whereas taxa including Ammoniibacillus, Thermobacillus, and Hyphomicrobium were depleted. Untargeted metabolomic analysis screened a total of 66 differential metabolites, which were mainly annotated to tryptophan metabolism, tricarboxylic acid (TCA) cycle, arginine biosynthesis, and glycerophospholipid metabolism pathways. Collectively, these results demonstrate that 200 mg/kg dietary RA protects broilers from PM2.5-triggered pulmonary injury via inhibiting the TLR4/MyD88/NF-κB inflammatory pathway, optimizing lung microbial composition, and regulating metabolic patterns. This research offers empirical evidence to support the application of RA as a promising feed additive for maintaining respiratory health of broilers exposed to PM2.5 contamination.",
+      "authors": [
+        "Ying Zhou",
+        "Bin Xu",
+        "Dong Wang",
+        "Shaoyu Li",
+        "Wen Deng"
+      ],
+      "journal": "Poultry science",
+      "date": "2026-06-10",
+      "keywords": [
+        "Lung microbiota",
+        "Metabolomics",
+        "PM(2.5) exposure",
+        "Rosmarinic acid",
+        "TLR4/NF-κB pathway"
+      ],
+      "companies": [
+        "Arbor"
+      ],
+      "title_cn": "Dietary rosmarinic acid alleviates PM2.5-triggered pulmonary injury in broilers: insights into inflammatory signaling, pulmonary microbiota and metabolic modulation.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：抑制作用, 促进作用, 调控作用, 疾病模型建立；局限性：需进一步研究。\n【机制创新与产业价值】发表期刊：Poultry science。\n【后续追踪要点】持续关注后续进展及临床转化。"
+    },
+    {
+      "pmid": "42287724",
+      "title": "Isolation and characterization of secondary metabolites from Nyctanthes arbor-tristis L.",
+      "abstract": "Nyctanthes arbor-tristis L. has been used in Ayurvedic medicine to manage inflammatory diseases. It primarily contains iridoid glycosides and phenylethanoid glycosides. The objective of present studies was to identify anti-inflammatory constituent/s from N. arbor-tristis. The studies resulted in isolation of four compounds (1-4) including, an undescribed compound, a phenylethanoid glycoside named nyctanthesin B (1) and three known iridoid glycosides (2-4). The structure of the new compound (1) was elucidated as 3, 4-dihydroxy-β-phenylethyl-3'-O-benzoyl-β-D-glucopyranoside by analysing 1D, 2D NMR and HREI-MS. Compound 1 revealed potent anti-inflammatory activity by inhibiting ROS (reactive oxygen species) in both whole blood (WB) phagocytes (IC50 = 8.5 ± 0.6 µg/mL) and isolated human polymorphonuclear leukocytes (PMNLs) (IC50 = 2.2 ± 0.06 µg/mL). Ibuprofen was used as standard.",
+      "authors": [
+        "Talea Sana",
+        "Bina S Siddiqui",
+        "Sabira Begum",
+        "Almas Jabeen"
+      ],
+      "journal": "Natural product research",
+      "date": "2026-06-13",
+      "keywords": [
+        "Nyctanthes arbor-tristis L",
+        "iridoid glycosides",
+        "nyctanthesin B",
+        "phenylethanoid glycoside",
+        "polymorphonuclear leukocytes",
+        "reactive oxygen species (ROS)"
+      ],
+      "companies": [
+        "Arbor",
+        "Scribe"
+      ],
+      "title_cn": "Isolation and characterization of secondary metabolites from Nyctanthes arbor-tristis L.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：鉴定/表征, 抑制作用, 结构解析。\n【机制创新与产业价值】发表期刊：Natural product research。\n【后续追踪要点】持续关注后续进展及临床转化。"
+    },
+    {
+      "pmid": "42285113",
+      "title": "Epcoritamab monotherapy or epcoritamab with lenalidomide as first-line therapy for patients with diffuse large B-cell lymphoma (EPCORE DLBCL-3): primary analysis of an open-label, multicentre, randomised, phase 2 trial.",
+      "abstract": "BACKGROUND: Anthracycline-free regimens are needed for older adults with newly diagnosed diffuse large B-cell lymphoma (DLBCL). We aim to evaluate the efficacy and safety of fixed-duration epcoritamab monotherapy versus epcoritamab with lenalidomide in this patient population. METHODS: This open-label, multicentre, randomised, phase 2 trial was conducted at 44 hospitals across 11 countries in Europe and Asia. Patients had newly diagnosed, histologically confirmed CD20-positive large B-cell lymphoma, were ineligible for anthracycline-based chemoimmunotherapy (age ≥80 or ≥75 years with clinically significant comorbidities), had Ann Arbor stage II-IV disease, and an Eastern Cooperative Oncology Group (ECOG) performance status of 0-2. In stage 1, patients were randomly assigned (1:1) to epcoritamab monotherapy or epcoritamab with lenalidomide using a validated interactive response technology system and stratified by the International Prognostic Index (<3 vs ≥3) and ECOG performance status (0-1 vs 2). Epcoritamab was administered subcutaneously using a two step-up dosing schedule (0·16 mg on cycle 1 day 1 and 0·8 mg on cycle 1 day 8), followed by full 48 mg doses once per week in 28-day cycles during cycles 1-3 and once every 4 weeks during cycles 4-12 for up to 12 cycles. Lenalidomide (10 or 20 mg) was given orally once a day on days 1-21 of 28-day cycles for up to 12 cycles. Based on stage 1, one of the treatment regimens was selected for expansion in stage 2. The primary endpoint was investigator-assessed complete response rate (as of the data cutoff on Dec 5, 2025; Lugano criteria) in the full analysis set (all randomly assigned patients in stage 1 and in all treated patients in stage 2). Safety was analysed in patients who received ≥1 dose of trial treatment. This study is registered with ClinicalTrials.gov, NCT05660967 (active, not recruiting). FINDINGS: Between March 8, 2023, and May 14, 2025, 111 patients were assessed for eligibility (88 in stage 1 and 23 in stage 2) and 108 were treated. Median age was 83·0 years (IQR 80·0-86·0). 51 (47%) of 108 were male, 57 (53%) were female, and 87 (81%) were White. In stage 1, 44 patients each were randomly assigned to epcoritamab monotherapy or epcoritamab with lenalidomide and two did not receive treatment. At data cutoff, the complete response rate in stage 1 was 63·6% (95% CI 47·8-77·6; in 28 of 44 patients) in the epcoritamab monotherapy group and 45·5% (30·4-61·2; in 20 of 44) in the epcoritamab with lenalidomide group. The most common treatment-emergent adverse events (grade ≥3) were infections (eight [18%] of 44 patients) and fatigue (six [14%]) with epcoritamab monotherapy versus neutropenia (17 [40%] of 42) and infections (16 [38%]) with epcoritamab with lenalidomide; with serious adverse events in 28 (64%) versus 34 (81%). Treatment-emergent deaths occurred in six (14%) patients in the monotherapy group (cytomegalovirus infection reactivation, COVID-19 pneumonia, SARS-COV-2 infection, tumour lysis syndrome, neuroendocrine tumour of the lung, tumour haemorrhage) and six (14%) in the combined group (pneumonia, COVID-19 pneumonia, sepsis, general physical health deterioration, multiple organ dysfunction syndrome, acute cardiac failure). Based on differences in complete response rates and safety, epcoritamab monotherapy was selected for stage 2 and one patient did not receive treatment. In the epcoritamab monotherapy group, the complete response rate was 45·5% (24·4-67·8; in ten of 22) in stage 2 and 57·6% (44·8-69·7; in 38 of 66) across stages 1 and 2. The most common treatment-emergent adverse events (grade ≥3) among all patients who received epcoritamab monotherapy were infections (16 [24%]), neutropenia (eight [12%]), and hypertension (seven [11%]); with serious adverse events in 46 (70%). Treatment-emergent deaths occurred in two (3%) patients in stage 2 (multiple organ dysfunction syndrome and acute respiratory failure). INTERPRETATION: Fixed-duration epcoritamab monotherapy showed promising complete response rates and a manageable safety profile in older adults with newly diagnosed DLBCL and comorbidities, with slight differences between stages 1 and 2. Continued investigation of epcoritamab as a first-line chemotherapy-free treatment option is warranted. FUNDING: Genmab and AbbVie.",
+      "authors": [
+        "Umberto Vitolo",
+        "Juan Miguel Bergua Burgues",
+        "Johannes Duell",
+        "Michal Kwiatek",
+        "David Belada"
+      ],
+      "journal": "The Lancet. Haematology",
+      "date": "2026-06-12",
+      "keywords": [],
+      "companies": [
+        "Arbor"
+      ],
+      "title_cn": "Epcoritamab monotherapy or epcoritamab with lenalidomide as first-line therapy for patients with diffuse large B-cell lymphoma (EPCORE DLBCL-3): primary analysis of an open-label, multicentre, randomised, phase 2 trial.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】研究针对：淋巴瘤、COVID-19；核心技术：碱基编辑(CBE/ABE)；研究层级：II期临床试验。\n【核心实验关键数据】量化数据：47%, 53%, 81%；核心发现：促进作用, 安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The Lancet. Haematology。\n【后续追踪要点】安全性监测。"
+    },
+    {
+      "pmid": "42320966",
+      "title": "Local performance and fairness testing of an AI Scribe in a paediatric developmental assessment clinic in South Australia: a silent trial protocol.",
+      "abstract": "INTRODUCTION: Any tool that can reduce the administrative burden on healthcare providers while preserving safe, accountable and high-quality medical documentation is of immense value both to healthcare institutions and consumers. The key question we need to answer is whether a prospective tool can reduce these burdens while maintaining (and, ideally elevating) quality documentation standards. The goal of this study is to describe the local performance of a large language model-based documentation assistive tool to draft safe, high-quality documentation in the Child Development Unit at the Women's and Children's Hospital. By generating local evidence of performance, we can assess the suitability of the artificial intelligence (AI) Scribe and inform a larger interventional study protocol and establish evidence-based governance. METHODS AND ANALYSIS: Using an algorithmic audit framework developed specific to our context, we will compare clinician-written clinical notes to AI-generated notes produced in parallel to the standard of care (ie, a 'silent' or translational trial paradigm). We will compare the time required to review clinical documentation per the standard of care compared with the AI-supported workflow with consideration to the accuracy of the final documentation. Finally, we will qualitatively describe AI-generated notes and compare them to the current standard to identify specific areas where clinical guidelines (eg, performance information, risk mitigation) would support appropriate clinical use. ETHICS AND DISSEMINATION: Ethics approval has been obtained by the Women's and Children's Health Network Human Research Ethics Committee (HREC) (HRE00067) and the South Australian Aboriginal HREC (#04-25-1185). This protocol offers an accessible example for health institutions looking to apply an evidence-based approach to AI Scribe assessment that prioritises clinical documentation standards. We will publish our study results in an academic journal and include a publicly accessible summary for the general public on the Women's and Children's website. TRIAL REGISTRATION NUMBER: 10.17605/OSF.IO/P6TM5.",
+      "authors": [
+        "Melissa D McCradden",
+        "Sheng Tng",
+        "Deepa Jeyaseelan",
+        "Cathy Leane",
+        "Marnie Campbell"
+      ],
+      "journal": "BMJ open",
+      "date": "2026-06-19",
+      "keywords": [
+        "Clinical audit",
+        "Developmental neurology & neurodisability",
+        "Health Equity",
+        "Health informatics",
+        "Protocols & guidelines"
+      ],
+      "companies": [
+        "Scribe"
+      ],
+      "title_cn": "Local performance and fairness testing of an AI Scribe in a paediatric developmental assessment clinic in South Australia: a silent trial protocol.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：鉴定/表征, 疾病模型建立。\n【机制创新与产业价值】发表期刊：BMJ open。\n【后续追踪要点】持续关注后续进展及临床转化。"
+    },
+    {
+      "pmid": "42295898",
+      "title": "Frequency-domain enhanced spatial multi-position moiré fringe alignment method.",
+      "abstract": "Most existing lithography alignment methods adopt multi-wavelength light sources and off-axis illumination technologies. In practical lithography alignment scenarios, alignment marks are generally located in the wafer scribe lane, and their positions vary with the chip layout. Nevertheless, conventional off-axis illumination schemes are incapable of fixed-point illumination for alignment marks and coordinated regulation of light source wavelength and illumination incident angle. To address the above limitations, this paper proposes a frequency-domain enhanced spatial multi-position moiré fringe alignment method. The proposed method enables the modulation of illumination wavelength and incident angle at any position within the field of view of 7430 × 8830 μm, with an operating wavelength ranging from 532 nm to 635 nm. The measurement repeatability 3σ  value is less than 1 nm at arbitrary detection positions.",
+      "authors": [
+        "YuHao Jin",
+        "YuLiang Long",
+        "Wei Liu",
+        "WenTao Luo",
+        "Yan Tang"
+      ],
+      "journal": "Optics letters",
+      "date": "",
+      "keywords": [],
+      "companies": [
+        "Scribe"
+      ],
+      "title_cn": "Frequency-domain enhanced spatial multi-position moiré fringe alignment method.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 调控作用；局限性：存在实验局限性。\n【机制创新与产业价值】发表期刊：Optics letters。\n【后续追踪要点】持续关注后续进展及临床转化。"
+    },
+    {
+      "pmid": "42290933",
+      "title": "Patient perspectives on clinicians' use of ambient AI scribes.",
+      "abstract": "OBJECTIVE: This study assessed over 2000 patient perspectives on the use of ambient AI scribes in outpatient visits. MATERIALS AND METHODS: This prospective quality improvement study was conducted at Stanford Health Care between May and July 2025. Outcome measures included patient perceived helpfulness of ambient AI scribes and patient interest in future use. RESULTS: Among 2202 survey respondents, 70.1% patients found the ambient AI scribe helpful and 73.6% preferred future use of ambient AI scribes. Small but statistically significant differences were observed across gender, age, and race. DISCUSSION: In an evaluation of patient perceptions of an ambient AI scribe integrated into clinical practice, the majority of patients who had experienced the technology found it acceptable, and most found the tool helpful and desired use with future visits. CONCLUSION: These results suggest that ambient AI scribes may be acceptable to many patients in clinical practice. Further research is needed to inform patient-centered design and workflow improvements.",
+      "authors": [
+        "Shreya J Shah",
+        "Kirsten Naumann Murtagh",
+        "Danton Char",
+        "Yejin Jeong",
+        "Trevor Crowell"
+      ],
+      "journal": "JAMIA open",
+      "date": "2026-06-12",
+      "keywords": [
+        "Artificial intelligence",
+        "ambient intelligence",
+        "ambient scribes",
+        "documentation",
+        "electronic health records",
+        "generative artificial intelligence",
+        "informatics",
+        "large language models"
+      ],
+      "companies": [
+        "Scribe"
+      ],
+      "title_cn": "Patient perspectives on clinicians' use of ambient AI scribes.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】量化数据：70.1%, 73.6%；核心发现：性别差异；局限性：需进一步研究。\n【机制创新与产业价值】发表期刊：JAMIA open。\n【后续追踪要点】持续关注后续进展及临床转化。"
+    },
+    {
+      "pmid": "42285173",
+      "title": "From Burden to Balance: Trends in Documentation Workload with Ambient AI Scribe Adoption.",
+      "abstract": "BACKGROUND: Physician burnout, often driven by documentation burden in electronic health records (EHRs), remains a major challenge in clinical care. Ambient artificial intelligence (AI) scribes generate draft notes from clinical encounters, offering a scalable approach to reduce administrative workload, yet population-level evaluations remain limited. OBJECTIVES: To assess changes over time in clinician perceptions of workload, well-being, and care delivery following implementation of ambient AI scribes. METHODS: We conducted a prospective repeated cross-sectional survey study of physicians and advanced practice providers at four time points: baseline and approximately 1, 3, and 6 months post-implementation. Outcomes included cognitive workload (NASA Task Load Index), professional fulfillment and burnout (Professional Fulfillment Index and Mini-Z), and perceptions of documentation burden, communication, and clinical capacity. Responses were grouped into clinically meaningful categories, and chi-square tests compared distributions across time. Secondary analyses compared baseline characteristics of respondents with linkable data across timepoints to the full cohort and evaluated subgroup differences for specific items. RESULTS: 1,600 clinicians responded at baseline, with 172, 117, and 101 respondents at 1-, 3-, and 6-month follow-up, respectively. Over 95% of follow-up respondents reported generating ≥5 ambient AI-supported notes, with use increasing significantly over time (p < 0.05). Clinicians reported statistically significant reductions in mental demand, time pressure, and documentation effort at post-implementation intervals (p < 0.05). Time spent on documentation outside clinic declined, with more clinicians reporting <2 hours/day (p < 0.05). Burnout increased across follow-up timepoints (p < 0.05). Confidence in patient comprehension and willingness to increase patient volume improved. Subgroup analyses mirrored overall trends. CONCLUSIONS: Ambient AI scribes were associated with sustained reductions in cognitive workload and perceived documentation burden. Despite these improvements, burnout increased over time, likely reflecting multifactorial influences and limitations of unpaired survey data. These findings support continued implementation and further longitudinal evaluation of clinician well-being.",
+      "authors": [
+        "Thomas Wojda",
+        "Jennifer Berliner",
+        "Gary S Fischer",
+        "Michael Curren",
+        "Jonathan Arnold"
+      ],
+      "journal": "Applied clinical informatics",
+      "date": "2026-06-12",
+      "keywords": [],
+      "companies": [
+        "Scribe"
+      ],
+      "title_cn": "From Burden to Balance: Trends in Documentation Workload with Ambient AI Scribe Adoption.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】量化数据：95%；表型：认知/学习记忆障碍；核心发现：相关性, 有效性验证, 表达水平变化；局限性：存在实验局限性。\n【机制创新与产业价值】发表期刊：Applied clinical informatics。\n【后续追踪要点】持续关注后续进展及临床转化。"
+    },
+    {
+      "pmid": "42283666",
+      "title": "Medical Scribe and Ambient Artificial Intelligence Impact on Emergency Physician Documentation Burden and Clinical Productivity.",
+      "abstract": "STUDY OBJECTIVE: Emergency physicians experience substantial documentation burden, contributing to physician burnout. Human scribes reduce documentation workload but are expensive and pose staffing challenges. Ambient artificial intelligence (AI) scribes offer a potential alternative by automating note generation from clinician-patient conversations using AI. We compared ambient AI and human scribes against encounters with no scribe on emergency physicians' documentation time and clinical productivity. METHODS: This retrospective cross-sectional observational study evaluated emergency department encounters from January 2025 to September 2025 at 4 hospitals within a large integrated health care system. Encounters were categorized as ambient AI scribe, human scribe, or no scribe. Patient demographics, documentation time, work relative value units (wRVUs), and shift data were extracted. Attending documentation time was modeled using median quantile regression with standard errors clustered at the physician level and controlling for encounter-level variables. Clinical productivity measured as total wRVUs per shift hour was modeled using generalized estimating equations adjusting for physician and shift-level variables. RESULTS: Among 198,178 emergency department encounters, 8,489 (4.3%) used ambient AI scribes, 15,947 (8.0%) used human scribes, and 173,742 (87.7%) had no scribe. Median patient age was 49 years (interquartile range 30 to 68 years), and 53.1% were female. Compared with encounters with no scribe, ambient AI scribes were associated with a 1.6-minute reduction in adjusted median attending documentation time per note (95% confidence interval 0.3 to 2.9), whereas human scribes were associated with a 3.3-minute reduction (95% confidence interval 2.3 to 4.3). Total wRVUs per shift hour did not differ among groups. CONCLUSION: Ambient AI and human scribes were associated with reduced physician documentation time. Clinical productivity did not differ between study groups.",
+      "authors": [
+        "Sayon Dutta",
+        "Jacqueline Guan-Ting You",
+        "Lisette Dunham",
+        "Rebecca Cash",
+        "Melissa Meeker"
+      ],
+      "journal": "Annals of emergency medicine",
+      "date": "2026-06-11",
+      "keywords": [
+        "Ambient artificial intelligence",
+        "Clinical documentation",
+        "Clinical productivity",
+        "Medical scribes",
+        "Physician burnout"
+      ],
+      "companies": [
+        "Scribe"
+      ],
+      "title_cn": "Medical Scribe and Ambient Artificial Intelligence Impact on Emergency Physician Documentation Burden and Clinical Productivity.",
+      "abstract_cn": "",
+      "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】量化数据：4.3%, 8.0%, 87.7%；核心发现：疾病模型建立, 表达水平变化。\n【机制创新与产业价值】发表期刊：Annals of emergency medicine。\n【后续追踪要点】持续关注后续进展及临床转化。"
+    }
+  ],
+  "timestamp": "2026-06-21T11:50:19.686557"
 }
