@@ -1,0 +1,79 @@
+========================================
+[2026-06-22 07:00:00] 开始自动更新
+========================================
+[07:00:00] 抓取PubMed论文...
+/Users/nnn_nice/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[07:00:00] 开始抓取PubMed数据...
+
+[gene_editing] 搜索中...
+  找到 30 篇
+  找到 30 篇
+  找到 8 篇
+
+[cell_therapy] 搜索中...
+  找到 30 篇
+  找到 30 篇
+  找到 30 篇
+
+[adc] 搜索中...
+  找到 30 篇
+  找到 16 篇
+
+[glp1] 搜索中...
+  找到 30 篇
+  找到 30 篇
+
+[io] 搜索中...
+  找到 30 篇
+  找到 10 篇
+
+[重点公司] 搜索中...
+  找到 20 篇公司相关
+
+数据已保存到: /Users/nnn_nice/scripts/biotech-monitor/scripts/../data/daily/2026-06-22.json
+
+完成!
+[07:00:53] PubMed抓取完成, 退出码: 0
+[07:00:53] 抓取BD新闻...
+/Users/nnn_nice/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[07:00:54] 开始抓取新闻...
+  [endpoints] 抓取RSS...
+    获取 24 条
+  [biospace] 抓取RSS...
+    错误: 404 Client Error: Not Found for url: https://www.biospace.com/rss/news/
+  [statnews] 抓取RSS...
+    获取 20 条
+
+总共获取 44 条原始新闻
+过滤后 22 条相关
+
+数据已保存: /Users/nnn_nice/scripts/biotech-monitor/scripts/../data/daily/news_2026-06-22.json
+
+统计:
+  BD交易: 4
+  临床进展: 0
+  监管动态: 0
+
+完成!
+[07:01:02] BD新闻抓取完成, 退出码: 0
+[07:01:02] 合并数据...
+[2026-06-22 07:01:02] 合并数据...
+数据已保存到: /Users/nnn_nice/scripts/biotech-monitor/scripts/../data/daily
+
+数据统计:
+  今日重点 - 交易: 5
+  今日重点 - 临床: 1
+  文献 - gene_editing: 68
+  文献 - cell_therapy: 83
+  文献 - adc: 49
+  文献 - glp1: 56
+  文献 - io: 74
+  公司: 15 国际 + 9 国内
+  财报: 0
+
+完成!
+[07:01:02] 数据合并完成, 退出码: 0
+[07:01:02] 预生成 AI 分析...
+/Users/nnn_nice/scripts/biotech-monitor/auto_update.sh: line 48: timeout: command not found
