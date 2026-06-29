@@ -329,6 +329,54 @@ function renderPapersBySection(data) {
     renderPaperSection('ADCPapers', data.papers?.adc || []);
     renderPaperSection('GLP1Papers', data.papers?.glp1 || []);
     renderPaperSection('IOPapers', data.papers?.io || []);
+    // 递送系统专题（包含 LNP、AAV、纳米、外泌体等）
+    renderDeliverySection('deliveryPapers', data.papers?.delivery_systems || []);
+}
+
+function renderDeliverySection(containerId, items) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    if (items.length === 0) {
+        container.innerHTML = '<div class="empty-card">暂无递送系统相关文献</div>';
+        return;
+    }
+
+    // 按递送类型分组
+    const typeLabels = {
+        'lnp': '🧪 LNP',
+        'aav': '🦠 AAV',
+        'exosome': '📦 外泌体',
+        'vlp': '🔬 VLP',
+        'nanoparticle': '⚛️ 纳米',
+        'lentivirus': '🦠 慢病毒',
+        'adenovirus': '🦠 腺病毒',
+        'electroporation': '⚡ 电穿孔',
+        'other': '💊 其他'
+    };
+
+    container.innerHTML = items.slice(0, 15).map(p => {
+        const types = p.delivery_types || ['other'];
+        const typeTag = types.map(t => typeLabels[t] || t).join(' ');
+        const analysisBadge = p.analysis_available
+            ? '<span style="background:#16a34a;color:white;padding:1px 6px;border-radius:3px;font-size:0.65rem;margin-left:0.5rem;">✓ AI</span>'
+            : '';
+
+        return `
+            <div class="paper-card" onclick='openPaperDetail(${JSON.stringify(p).replace(/'/g, "\\'")})'>
+                <div class="paper-header">
+                    <h4>${p.title || '无标题'}</h4>
+                    ${analysisBadge}
+                </div>
+                <div class="paper-meta">
+                    <span class="delivery-tags">${typeTag}</span>
+                    <span class="journal">${p.journal || ''}</span>
+                    <span class="date">${formatDate(p.date)}</span>
+                </div>
+                <p class="preview">${(p.abstract || '').substring(0, 150)}...</p>
+            </div>
+        `;
+    }).join('');
 }
 
 function renderPaperSection(containerId, items) {

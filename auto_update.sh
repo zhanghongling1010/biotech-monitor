@@ -33,6 +33,11 @@ python3 scripts/daily_update.py >> "$LOG_FILE" 2>&1
 MERGE_EXIT=$?
 echo "[$(date '+%H:%M:%S')] 数据合并完成, 退出码: $MERGE_EXIT" >> "$LOG_FILE"
 
+# 3.3 递送系统专题扫描
+echo "[$(date '+%H:%M:%S')] 递送系统专题扫描..." >> "$LOG_FILE"
+python3 scripts/delivery_scanner.py >> "$LOG_FILE" 2>&1
+echo "[$(date '+%H:%M:%S')] 递送扫描完成" >> "$LOG_FILE"
+
 # 3.5 预生成 AI 分析（让所有人都能看 AI 解读）
 if [ $MERGE_EXIT -eq 0 ]; then
     echo "[$(date '+%H:%M:%S')] 预生成 AI 分析..." >> "$LOG_FILE"
