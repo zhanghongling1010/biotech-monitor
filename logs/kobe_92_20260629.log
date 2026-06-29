@@ -1,0 +1,49 @@
+/Users/nnn_nice/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[10:00:01] 92科比盘中扫描开始（稳定化版）
+[10:00:04]   [网络] 股票列表: 300 只
+[10:00:09] 大盘RSI: 58.5
+[10:01:21]   重试 1/2: HTTPSConnectionPool(host='stock.finance.sina.com.cn', port=443): Max retries exceeded with url: /stock/api/jsonp.php/var%20KKE_ShareAmount_sz000166=/StockService.getAmountBySymbol?_=20&symbol=sz000166 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+[10:05:59]   扫描进度: 50/300...
+[10:08:03]   重试 1/2: 'date'
+[10:08:08]   重试 1/2: 'date'
+[10:08:13]   重试 1/2: 'date'
+[10:08:18]   重试 1/2: 'date'
+[10:08:22]   重试 1/2: 'date'
+[10:08:27]   重试 1/2: 'date'
+[10:08:32]   重试 1/2: 'date'
+[10:08:37]   重试 1/2: 'date'
+[10:08:41]   重试 1/2: 'date'
+[10:08:46]   重试 1/2: 'date'
+[10:08:51]   重试 1/2: 'date'
+[10:08:56]   重试 1/2: 'date'
+[10:09:01]   重试 1/2: 'date'
+[10:09:06]   重试 1/2: 'date'
+[10:09:10]   重试 1/2: 'date'
+[10:09:15]   重试 1/2: 'date'
+[10:09:20]   重试 1/2: 'date'
+[10:09:25]   重试 1/2: 'date'
+[10:09:30]   重试 1/2: 'date'
+[10:09:35]   重试 1/2: 'date'
+[10:09:40]   重试 1/2: 'date'
+[10:09:45]   重试 1/2: 'date'
+[10:09:49]   重试 1/2: 'date'
+[10:09:54]   重试 1/2: 'date'
+[10:09:58]   扫描进度: 100/300...
+[10:09:59]   重试 1/2: 'date'
+[10:10:04]   重试 1/2: 'date'
+[10:10:09]   重试 1/2: 'date'
+[10:10:13]   重试 1/2: 'date'
+[10:10:18]   重试 1/2: 'date'
+[10:10:23]   重试 1/2: 'date'
+[10:10:28]   重试 1/2: 'date'
+[10:10:32]   重试 1/2: 'date'
+[10:10:37]   重试 1/2: 'date'
+[10:10:42]   重试 1/2: 'date'
+[10:10:47]   重试 1/2: 'date'
+[10:13:54]   扫描进度: 150/300...
+[10:14:59]   重试 1/2: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2633)
+[10:18:03]   扫描进度: 200/300...
+[10:21:55]   扫描进度: 250/300...
+[10:26:04] 找到 0 个信号
+[10:26:04] 无信号，不推送

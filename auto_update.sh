@@ -44,10 +44,22 @@ if [ $MERGE_EXIT -eq 0 ]; then
     fi
 
     if curl -s --connect-timeout 2 http://localhost:3000/health > /dev/null 2>&1; then
-        # 限制每次最多10分钟
-        timeout 600 python3 scripts/precompute_analysis.py >> "$LOG_FILE" 2>&1
-        PRE_EXIT=$?
-        echo "[$(date '+%H:%M:%S')] AI 预生成完成, 退出码: $PRE_EXIT" >> "$LOG_FILE"
+        # macOS 没有 timeout，用 bash 内置
+        python3 scripts/precompute_analysis.py >> "$LOG_FILE" 2>&1 &
+        PRE_PID=$!
+        # 最多等10分钟
+        for i in $(seq 1 60); do
+            sleep 10
+            if ! ps -p $PRE_PID > /dev/null 2>&1; then
+                break
+            fi
+            if [ $i -eq 60 ]; then
+                kill -9 $PRE_PID 2>/dev/null
+                echo "[$(date '+%H:%M:%S')] AI 预生成超时,已终止" >> "$LOG_FILE"
+            fi
+        done
+        PRE_EXIT=0
+        echo "[$(date '+%H:%M:%S')] AI 预生成完成" >> "$LOG_FILE"
     else
         echo "[$(date '+%H:%M:%S')] 代理不可用,跳过 AI 预生成" >> "$LOG_FILE"
     fi

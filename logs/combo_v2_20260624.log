@@ -1,0 +1,29 @@
+/Users/nnn_nice/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+
+开始结合版V2扫描... 2026-06-24 18:00:02
+============================================================
+主升浪V3 × 趋势波段 结合版扫描 V2
+============================================================
+逻辑：强势板块 + 趋势个股 双重过滤
+RSI区间: 35-75 | 缩量<=55%
+止损: -7% | 止盈1: +10% | 止盈2: +20%
+============================================================
+
+获取板块列表...
+强势板块: 0 个
+获取股票列表失败: HTTPSConnectionPool(host='www.szse.cn', port=443): Max retries exceeded with url: /api/report/ShowReport?SHOWTYPE=xlsx&CATALOGID=1110&TABKEY=tab1&random=0.6935816432433362 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+全市场股票: 0 只
+
+开始扫描个股...
+
+🔔【主升浪V3 × 趋势波段】结合版V2
+📅 日期：2026-06-24
+━━━━━━━━━━━━━━━━━━
+今日无符合条件的股票
+建议：等待缩量回调入场机会
+━━━━━━━━━━━━━━━━━━
+⚠️ 仅供参考，不构成投资建议
+扫描时间：2026-06-24 18:00:27
+
+✅ 飞书推送成功
