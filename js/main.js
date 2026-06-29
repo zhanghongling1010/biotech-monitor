@@ -511,39 +511,44 @@ ${relatedContent ? '【公司动态汇总】\n' + relatedContent : '【暂无动
         cnContent += `<div id="aiAnalysisLoading" style="margin-top:1.5rem; padding:1rem; background:#f8fafc; border-radius:12px; border-left:4px solid #3b82f6;">
             <div style="display:flex; align-items:center; gap:0.5rem;">
                 <span style="background:#3b82f6;color:white;padding:2px 8px;border-radius:4px;font-size:0.75rem;">AI 深度解读</span>
-                <span id="aiAnalysisStatus" style="color:#64748b;font-size:0.75rem;">正在生成...</span>
+                <span id="aiAnalysisStatus" style="color:#64748b;font-size:0.75rem;">检查缓存...</span>
             </div>
             <div style="margin-top:1rem;">
                 <div style="display:flex;align-items:center;gap:0.5rem;color:#64748b;font-size:0.85rem;">
                     <div style="width:16px;height:16px;border:2px solid #3b82f6;border-top-color:transparent;border-radius:50%;animation:spin 1s linear infinite;"></div>
-                    首次生成需3-5秒，之后即时显示
+                    加载中...
                 </div>
             </div>
         </div>`;
 
+        // 先尝试刷新服务器缓存
         setTimeout(async () => {
-            const result = await generateDetailedAnalysis(cacheKey, analysisPrompt);
-            if (result && result.analysis) {
+            await loadServerCache();
+            const retryCached = getCachedAnalysis(cacheKey);
+            if (retryCached && retryCached.analysis && retryCached.analysis.trim().length > 0) {
                 const analysisHtml = `<div style="margin-top:1.5rem; padding:1rem; background:linear-gradient(135deg,#f0fdf4 0%,#dcfce7 100%); border-radius:12px; border-left:4px solid #16a34a;">
                     <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.75rem;">
                         <span style="background:#16a34a;color:white;padding:2px 8px;border-radius:4px;font-size:0.75rem;">AI 深度解读</span>
-                        <span style="color:#64748b;font-size:0.75rem;">已生成</span>
+                        <span style="color:#64748b;font-size:0.75rem;">已缓存</span>
                     </div>
-                    <div style="white-space:pre-wrap; line-height:1.7; font-size:0.9rem;">${result.analysis.replace(/\n/g, '<br>').replace(/【([^】]+)】/g, '<strong style="color:#16a34a;">[$1]</strong> ')}</div>
+                    <div style="white-space:pre-wrap; line-height:1.7; font-size:0.9rem;">${retryCached.analysis.replace(/\n/g, '<br>').replace(/【([^】]+)】/g, '<strong style="color:#16a34a;">[$1]</strong> ')}</div>
                 </div>`;
-
                 const loadingEl = document.getElementById('aiAnalysisLoading');
-                if (loadingEl) {
-                    loadingEl.outerHTML = analysisHtml;
-                }
+                if (loadingEl) loadingEl.outerHTML = analysisHtml;
             } else {
-                const statusEl = document.getElementById('aiAnalysisStatus');
-                if (statusEl) {
-                    statusEl.textContent = '生成失败';
-                    statusEl.style.color = '#dc2626';
+                // 服务器也没有 - 显示友好提示（不在 GitHub Pages 上调用本地 API）
+                const loadingEl2 = document.getElementById('aiAnalysisLoading');
+                if (loadingEl2) {
+                    loadingEl2.outerHTML = `<div style="margin-top:1.5rem; padding:1rem; background:#fef9c3; border-radius:12px; border-left:4px solid #eab308;">
+                        <div style="display:flex; align-items:center; gap:0.5rem;">
+                            <span style="background:#eab308;color:white;padding:2px 8px;border-radius:4px;font-size:0.75rem;">AI 解读</span>
+                            <span style="color:#64748b;font-size:0.85rem;">暂未预生成，每日 7:00 自动更新</span>
+                        </div>
+                    </div>`;
                 }
             }
-        }, 100);
+        }, 300);
+        return;
     }
 
     document.getElementById('modalCnContent').innerHTML = cnContent;
