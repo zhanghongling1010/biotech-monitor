@@ -119,6 +119,25 @@ def merge_data():
     for category, papers in pubmed_data.get('papers', {}).items():
         sorted_papers[category] = sort_by_date_desc(papers)
 
+    # 合并递送系统专题数据（如果存在）
+    delivery_file = os.path.join(data_dir, f'delivery_papers_{datetime.now().strftime("%Y%m%d")}.json')
+    if os.path.exists(delivery_file):
+        try:
+            with open(delivery_file, 'r', encoding='utf-8') as f:
+                delivery_data = json.load(f)
+            delivery_papers = delivery_data.get('papers', [])
+            # 为前端统一字段
+            for p in delivery_papers:
+                p['type'] = 'paper'
+                p['companies'] = []
+                p['title_cn'] = p.get('title', '')
+                p['abstract_cn'] = ''
+                p['summary_cn'] = ''
+            sorted_papers['delivery_systems'] = sort_by_date_desc(delivery_papers)
+            print(f"  已合并递送系统专题: {len(delivery_papers)} 篇")
+        except Exception as e:
+            print(f"  合并递送数据失败: {e}")
+
     # 构建今日重点
     critical = {
         'deals': (company_deals + bd_deals)[:10],

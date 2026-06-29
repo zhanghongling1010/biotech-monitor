@@ -129,7 +129,9 @@ def main():
 
     # 论文 - 每个分类只取前3篇（限制数量避免超时）
     for category, papers in data.get('papers', {}).items():
-        for paper in papers[:3]:
+        # 递送系统分类增加到前5篇（专题更重要）
+        limit = 5 if category == 'delivery_systems' else 3
+        for paper in papers[:limit]:
             pmid = paper.get('pmid') or paper.get('title', '')[:50]
             key = f"paper_{pmid}"
             if key not in cache or not cache[key].get('analysis'):

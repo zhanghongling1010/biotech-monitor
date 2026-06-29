@@ -1,6 +1,6 @@
 {
   "date": "2026-06-29",
-  "timestamp": "2026-06-29T23:18:04.521508",
+  "timestamp": "2026-06-29T23:32:42.761401",
   "count": 103,
   "type_distribution": {
     "nanoparticle": 43,
@@ -63,8 +63,8 @@
       "date": "2026 Jun 28",
       "abstract": "Cancer remains a leading cause of death worldwide, with lineage plasticity emerging as a hallmark that drives therapy resistance and tumor progression by enabling cancer cells to alter identity and evade targeted therapies. Although genomic and transcriptomic aberrations correlate with lineage plasticity, the absence of scalable cross-cancer markers to rapidly identify plastic subtypes has limited predictive utility. Homeobox (HOX) genes encode transcription factors that define tissue identity through distinct expression patterns, or HOX codes, within specific lineages. By analyzing multi-omics data encompassing 39 HOX genes across more than 80,000 RNA-seq samples across 23 cancer types spanning 114 cancer subtypes, we found that HOX code expression robustly stratifies lineage-constrained and lineage-plastic states at a cross-cancer level. This framework revealed previously unrecognized lineage-plastic subtypes in prostate cancer, lung cancer, and acute myeloid leukemia (AML), each displaying distinct HOX code divergence compared to non-plastic counterparts. Differential expression analysis across these representative malignancies identified RUNX1T1 as a consistent regulator associated with HOX-defined plastic states. We validated RUNX1T1 upregulation in bulk and single-cell RNA-seq from extensive preclinical and clinical cohorts and demonstrated that RUNX1T1 is functionally required for lineage-plastic programs in prostate cancer models. AI-based structural modeling and co-immunoprecipitation established the NCOR/HDAC3 complex as a critical binding partner of RUNX1T1. CUT&amp;RUN profiling revealed that RUNX1T1 remodels chromatin by globally reducing active enhancer marks, thereby repressing lineage-defining differentiation programs and reshaping HOX positional identity. Selective pharmacologic inhibition of HDAC3 or targeted gene silencing via lipid nanoparticles suppressed the growth of lineage-plastic cancer cells, uncovering a therapeutically actionable vulnerability. Together, these findings establish RUNX1T1 as a cross-lineage regulator of HOX code-defined plasticity and identify the RUNX1T1-HDAC axis as a targetable mechanism underlying cancer lineage plasticity.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -170,8 +170,8 @@
       "date": "2026 Jun 26",
       "abstract": "mRNA-lipid nanoparticle (LNP) and adenoviral delivery of vaccines have proven effective during the COVID-19 pandemic. Herein, we explored whether antigen-presenting cell (APC)-targeting of antigens could further enhance immunogenicity of these delivery formats. Experiments were performed in mouse models for malaria (Plasmodium falciparum reticulocytes-binding protein homolog 5, PfRH5, antigen) and influenza (hemagglutinin, HA, antigen). We used genetic constructs encoding bivalent fusion proteins that target antigens to MHC class II (MHCII) molecules on professional APCs. We demonstrate that MHCII-targeted fusion proteins bound to professional APCs and that such APC-targeting increased antibody and T cell responses as well as protection against influenza virus. The results suggest that the injected mRNA-LNP and adenoviral vectors resulted in secretion of fusion proteins that targeted APCs. Employing the APC-targeting principle could enhance efficiency of adenoviral and mRNA-LNP vaccines against a variety of diseases.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -189,8 +189,8 @@
       "date": "2026 Jun 26",
       "abstract": "Polyethylene glycol (PEG) is widely used to improve the stability, solubility, and circulation half-life of nanoparticles, proteins, and small-molecule drugs. However, anti-PEG antibodies are increasingly recognized as a clinically relevant variable that can reshape the in vivo fate of PEGylated therapeutics, contributing to accelerated blood clearance, altered biodistribution, loss of efficacy, and, in a subset of individuals, hypersensitivity. This review integrates molecular, formulation, and host determinants of PEG immunogenicity using evidence from preclinical models and human studies. We summarize the prevalence and sources of pre-existing anti-PEG antibodies, including environmental exposure and host genetic associations, and discuss how antibody binding remodels the biomolecular corona, engages Fc- and complement-mediated pathways, and promotes phagocytic uptake that undermines PEG-mediated \"stealth\". We then evaluate mitigation strategies spanning polymer and lipid design, emerging PEG alternatives, and patient-centered approaches such as baseline antibody profiling and pre-treatment with free PEG in animal models. Finally, we highlight an emerging paradigm that exploits anti-PEG binding for benefit: bispecific anti-PEG antibodies and sequential pre-targeting strategies that convert PEG into a modular handle for active targeting across polymer nanoparticles, liposomes, and mRNA-lipid nanoparticles. Together, this review frames anti-PEG immunity as a central design variable in nanomedicine, linking PEG-mediated stealth, circulation time, targeting efficiency, biomolecular corona formation, and immune recognition. We propose guiding principles for deciding when PEG should be retained and optimized, replaced with alternative stealth materials, managed through patient-level screening or pre-treatment, or deliberately exploited as a modular handle for targeted delivery.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -208,8 +208,8 @@
       "date": "2026 Jun 26",
       "abstract": "mRNA vaccines delivered by lipid nanoparticles (LNPs) have enabled clinical success in combating the COVID-19 pandemic, demonstrating LNPs as a promising nanocarrier for mRNA delivery. Despite this advance, use of PEGylated lipid (PEG-lipid) in LNPs has raised concerns about PEG-associated immunogenicity upon repeated dosing. Recent studies reported hydrophilic polymer lipids as replacement of PEG-lipid, which demonstrated the potential to reduce PEG-associated immune recognition. Most of these PEG-lipid alternatives are based on polymers with non-degradable polymer backbone. In this study, we synthesized a series of oligo(ethylene glycol)-functionalized polycarbonate lipids (OPL-1 to OPL-8) based on a polycarbonate backbone with reported biodegradability and biocompatibility to replace PEG-lipid such as ALC-0159 used in Comirnaty mRNA vaccine for attenuating PEG immunogenicity. Unlike ALC-0159 with 50 EG units existing in a linear form, oligo(ethylene glycol) (OEG) in OPLs is in a brush-like conformation. OEG length played a key role in formulating LNPs with desirable physicochemical properties. OPL-7 and OPL-8 with EG9 produced LNPs with nanosize, narrow size distribution, near-neutral surface charge and high encapsulation efficiency, comparable to ALC-0159 LNPs. OPL LNPs mediated significantly higher mRNA transfection efficiency in HEK293T and two model antigen-presenting cells (APCs) than ALC-0159 LNPs, which was associated with enhanced cellular uptake as evidenced by flow cytometry analysis. Inhibitor studies suggested that clathrin-mediated endocytosis was a major pathway for cellular uptake of LNPs, with caveolae-dependent endocytosis also contributing. A confocal microscopic study indicated comparable endosomal escape of OPL and ALC-0159 LNPs. In vivo and ex vivo bioimaging at 6&#x202f;h post-administration demonstrated that OPL-7 and OPL-8 LNPs exhibited significantly reduced hepatic mRNA transfection and relatively higher lymph node mRNA transfection, resulting in significantly greater lymph node-to-liver mRNA transfection ratios. In a mouse vaccination study, OPL-7 and OPL-8 LNPs loaded with mRNA encoded for the spike glycoprotein of SARS-CoV-2 Delta variant elicited robust humoral immune responses without causing significant toxicity. Repeated dosing of OPL-7 or OPL-8 LNPs induced significantly lower anti-PEG IgM response than ALC-0159 LNPs. Moreover, OPL-7 or OPL-8 avoided recognition by pre-existing anti-PEG antibodies. Collectively, these findings identify OPL-7 and OPL-8 as promising PEG-lipid alternatives for mRNA delivery that maintain delivery performance while attenuating anti-PEG antibody responses.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -227,8 +227,8 @@
       "date": "2026 Jun 26",
       "abstract": "Messenger RNA (mRNA) delivery critically depends on the molecular architecture of ionizable lipids within lipid nanoparticles (LNPs). We report a modular platform of sterol-containing ionizable lipids designed to probe how sterol motifs and branched dialkyl tails govern in vivo performance. Each lipid incorporates a sterol-derived (e.g., cholesterol) tail and a dialkyl tail with tunable branching and spatial arrangement, enabling systematic control over packing behavior, protonation characteristics, and nanoparticle assembly. The resulting LNPs exhibited favorable apparent pKa values (6.2-6.8), encapsulation efficiencies higher than 90%, and strong transfection potency. Our lead LNP (L1-aCho-e3 LNP) exhibited higher transfection efficiency than the benchmark SM-102 LNP. Incorporation of cationic (DOTAP) or anionic (DOPA) lipids as fifth components further demonstrated reorienting biodistribution from liver to lung or spleen. Finally, mRNAH1N1@L1-aCho-e3 LNPs elicited robust antibody responses and full protection against lethal H1N1 challenge. These results reveal how rational sterol tail design can be applied to create ionizable lipids with tunable structural functional properties for next-generation mRNA therapeutics.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -315,8 +315,8 @@
       "date": "2026 Jun 25",
       "abstract": "Messenger RNA (mRNA) vaccines represent a paradigm shift in rapid vaccine development and pandemic preparedness, enabling unprecedented speed in antigen design and scalable, cell-free manufacturing. Despite proven clinical efficacy, widespread mRNA vaccine deployment remains critically constrained by fundamental molecular instability requiring ultra-cold chain storage. The chemical lability of the RNA phosphodiester backbone, 2'-hydroxyl-mediated transesterification, oxidative nucleobase damage, and lipid nanoparticle (LNP) structural vulnerabilities collectively limit long-term stability and the feasibility of global distribution. This review provides a mechanistic analysis of RNA hydrolysis, oxidative degradation, lipid peroxidation, PEG-lipid desorption, and freeze-thaw-induced nanoparticle aggregation, linking molecular instability to translational challenges in storage and supply chain logistics. We critically evaluate engineering strategies to enhance stability, including optimized LNP architectures, lyophilization with vitrifying excipients, antioxidant incorporation, lipid-polymer hybrid nanocarriers, hydrogel-based depots, self-amplifying mRNA (saRNA), and circular RNA (circRNA) constructs. Stability modeling, cold-chain risk analysis, and regulatory Chemistry, Manufacturing, and Controls (CMC) considerations are discussed to contextualize formulation robustness within real-world distribution systems. Advancing mRNA vaccines beyond ultra-cold dependence will require coordinated innovation in RNA engineering, delivery system optimization, and scalable manufacturing to enable thermostable, resilient, and globally deployable vaccine technologies.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -333,8 +333,8 @@
       "date": "2026 Jun 25",
       "abstract": "The 2024 Nobel Prize in Physiology or Medicine has been awarded to Victor Ambros and Gary Ruvkun for their discovery of the central role of microRNA (miRNA) in gene regulation. Based on the Derwent Innovation patent database and combined with the Derwent Data Analyzer tool, this study conducted a multidimensional analysis of 57232 patent entries in the field of miRNA, revealing the global technological innovation pattern and dynamic evolution trend in this field. Analysis shows that miRNA technology has entered a rapid growth stage since 2002, and reached the peak of patent applications in 2022, and its research hotspots are concentrated in the fields of tumor therapy, gene therapy, molecular diagnosis and nucleic acid drug development. In the global patent distribution, China and the United States occupy the dominant position, and universities, scientific research institutions and enterprises constitute the main force of technological innovation. Network analysis of patentees and inventors reveals the importance of collaborative innovation and interdisciplinary collaboration in driving technological development. In addition, the analysis of patent keywords and classification code shows that miRNA technology has significant potential in the research and development of cancer-related biomarkers and the mining of therapeutic targets, while delivery technology and nucleic acid modification have become the key directions to break the technical bottleneck. In the future, miRNA technology will be more widely used in precision medicine, nucleic acid drug delivery and gene therapy. Delivery technologies such as lipid nanoparticles and extracellular vesicles, as well as AI-driven target mining, will significantly accelerate the clinical application of miRNA drugs. From the perspective of patents, this study provides important theoretical basis and data support for basic research and industrial development in the field of miRNA.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -352,8 +352,8 @@
       "date": "2026 Jun 25",
       "abstract": "Tumor vascular disruption represents an attractive yet underexplored therapeutic strategy in cancer nanomedicine. We previously developed a lipid nanoparticle (LNP)-based vascular disrupting strategy combining cyclic RGD peptide-modified LNPs delivering siRNA against Fas ligand (cRGD-LNP/siFasL) to tumor endothelial cells with STING agonist-loaded LNPs (STING-LNPs), which cooperatively induce tumor vascular collapse through type I interferon-dependent mechanisms. However, the determinants of therapeutic responsiveness remain poorly defined. Here, we elucidated tumor microenvironmental factors governing heterogeneous therapeutic responses across syngeneic tumor models. While the combination therapy elicited robust vascular disruption and antitumor efficacy in CT26 and Renca tumors in BALB/c mice, its efficacy was markedly attenuated in B16-F10 and LLC tumors in C57BL/6 mice, independent of host genetic background. In refractory LLC tumors, the gene silencing efficiency in tumor endothelial cells was substantially lower (&#x223c;40% vs. &#x223c;79% in responsive tumors), resulting in limited vascular disruption. Transcriptomic profiling suggested that the enhanced extracellular matrix remodeling and augmented innate immune activation within the tumor microenvironment may increase the susceptibility of tumor vasculature to the combination therapy. Flow cytometric analyses demonstrated significantly higher expression of IFNAR1, mediating type I interferon signaling, in responsive tumors. Collectively, this study suggests the tumor-intrinsic immune and stromal features that dictate responsiveness to LNP-mediated vascular disrupting therapy and provides a mechanistic framework for optimizing next-generation vascular-targeted nanomedicines.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -515,8 +515,8 @@
       "date": "2026 Jun 24",
       "abstract": "Human norovirus is the leading cause of viral gastroenteritis, yet effective vaccines and therapeutics remain elusive. Using murine norovirus as a model, we found that mucosal immunoglobulin A (IgA) is both necessary and sufficient for protection against infection, whereas CD8+ T cells are dispensable. Robust intestinal IgA production requires at least 4 weeks of enteric infection, consistent with kinetics of human norovirus RNA clearance. Systemic vaccination elicits high titers of neutralizing serum IgG but fails to prevent enteric norovirus infection, phenocopying a recent human norovirus vaccine failure. In contrast, prophylactic delivery of dimeric anti-norovirus IgA via mRNA lipid nanoparticles confers sterilizing immunity. Together, these findings define a critical role for mucosal IgA in norovirus protection and identify IgA-based treatments as a therapeutic approach for human norovirus.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -534,8 +534,8 @@
       "date": "2026 Jun 24",
       "abstract": "Lipid nanoparticles (LNPs) are the cornerstone of RNA-based vaccine delivery, yet their internal structure, particularly in the presence of large, single-stranded messenger RNA (mRNA), remains poorly understood. Here, we apply relayed dynamic nuclear polarization (DNP)-enhanced solid-state NMR to directly detect encapsulated mRNA and map the spatial distribution of lipid and nucleic acid components within intact LNPs formulated with clinically relevant excipients. By refining cryoprotectant removal and polarizing matrix composition, we report the solid-state NMR observation of the mRNA cargo within functional LNPs, with clear C1'-H1' correlation confirming resonance assignment. Quantitative analysis of polarization enhancements and build-up kinetics reveals a concentric architecture: PEG-lipids reside at the surface, helper lipids (DOPE, cholesterol) in intermediate layers, and mRNA within the core. These experimental trends are reinforced by numerical simulations that model the polarization transport by spin diffusion across a library of eight structural models. A multi-layered core-shell configuration, placing mRNA at the center surrounded by stratified lipid shells, best fits the full set of NMR observables. Together, these results confirm relayed-DNP MAS NMR as a powerful method for probing nanometer-scale spatial organization in LNPs and provide a quantitative structural framework to guide the rational design of RNA delivery systems.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -553,10 +553,10 @@
       "date": "2026 Jun 24",
       "abstract": "Neurodegenerative diseases (NDDs) are multifactorial disorders with increasing evidence implicating viral infections in their pathogenesis. However, current reviews often catalog virus-disease associations without integrating this evidence into a unified conceptual model that also accounts for the therapeutic potential of viral platforms. This review investigates recent literature to propose a \"dual-role\" model for viruses in NDDs. We analyze how diverse viruses (e.g., HSV-1, HIV, EBV, and SARS-CoV-2) converge on shared pathogenic pathways, including protein misfolding, chronic neuroinflammation, and mitochondrial dysfunction, across different NDDs. Paradoxically, engineered viral vectors derived from neurotropic viruses are being investigated as tools for targeted gene therapy. To address these therapeutic applications of viruses, this review also provides an in-depth report of the various viral vector technologies developed. The approaches involved in designing rationally engineered viral vectors based on various adeno-associated virus serotypes through rational design, directed evolution and machine learning strategies, as well as the lentiviral and herpes simplex virus-based platform are described. Different strategies that have been used to incorporate large and/or small payloads such as gene replacement, RNA interference, microRNA cassettes, CRISPR-based gene editing (base editing, prime editing, CRISPRa and CRISPRi) and the double AAV systems to deliver larger transgene cassette have also been reviewed. This review further includes various routes of administration including intrathecal, intracerebroventricular and convection-enhanced delivery with the use of Focused Ultrasound. The constraints imposed by the Blood-Brain Barrier are discussed, especially the approach using receptor-mediated transcytosis for crossing. The review also critically evaluates obstacles toward clinical translation of viral vectors due to various factors including immunogenicity, the presence of pre-existing neutralising antibodies and dose-dependent toxicity, illustrated by the fatal outcome of ASPIRO and DMD trials. Finally, this review concludes with other promising non-viral approaches such as lipid nanoparticle and extracellular vesicles. Future research needs include long-term studies to investigate causality and extensive safety optimization of viral vectors.",
       "delivery_types": [
-        "lnp",
         "lentivirus",
-        "nanoparticle",
-        "aav"
+        "aav",
+        "lnp",
+        "nanoparticle"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -890,8 +890,8 @@
       "date": "2026 Jun 22",
       "abstract": "Targeting aberrant cell-surface glycosylation offers a powerful yet underexplored strategy for achieving cell-selective gene delivery. Here, we engineer boronic acid-integrated tocopherol lipids bearing distinct glycan-recognizing headgroups, phenylboronic acid in TNB and pyridinylboronic acid in TNBPY and incorporate them as functional dopants into a previously reported tocopherol-based cationic gemini lipid formulation (DOPE-TH8S). Doping with these boronic-acid lipids produced stable co-liposomal nanoparticles (DOPE&#x2009;:&#x2009;TH8S&#x2009;:&#x2009;TNB = 2&#x2009;:&#x2009;1&#x2009;:&#x2009;1 and DOPE&#x2009;:&#x2009;TH8S&#x2009;:&#x2009;TNBPY = 2&#x2009;:&#x2009;1&#x2009;:&#x2009;1) capable of strong pDNA complexation, as verified by zeta potential measurements, ethidium bromide intercalation-reintercalation assays, and agarose gel electrophoresis. The optimized formulations showed exceptional EGFP transfection in 4T1 and MCF-7 cancer cells at an ultralow N/P ratio of 2, significantly outperforming the commercial reagent Lipofectamine 2000. Notably, the phenylboronic acid-based TNB formulation exhibited markedly higher transfection efficiency than the pyridinylboronic acid-based TNBPY system, highlighting the critical influence of headgroup electronics and binding-release affinity on glycan-mediated internalization. Blocking experiments with pre-saturated boronic acid moieties in the lipid nanoparticles greatly reduced transfection efficiency in MCF-7 cells, confirming the sialic acid-targeted uptake pathway. Furthermore, both formulations showed negligible transfection in non-cancerous McCoy and MCF-10A cells while retaining high activity in cancer cells, demonstrating intrinsic glycan-selective targeting. Overall, this study establishes phenyl- and pyridinylboronic acid-functionalized tocopherol lipids as a new class of programmable glycan-targeting nanocarriers. By exploiting reversible boronate-sialic acid interactions, these precision-engineered co-liposomal systems achieve potent, cancer-selective gene transfer with significant implications for next-generation targeted gene therapeutics.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "nanoparticle"
     },
@@ -981,8 +981,8 @@
       "date": "2026 Jun 21",
       "abstract": "Background/Objectives: Lipid nanoparticles (LNPs) have emerged as crucial vehicles for messenger RNA (mRNA) applications in antitumor therapy. Combining LNPs with stimulator of interferon genes (STING) activation holds promise for treating \"cold\" tumors such as pancreatic cancer. However, two major challenges remain: inefficient mRNA escape from endosomes and STING pathway suppression in immunosuppressive tumor microenvironments. Methods: To improve endosomal escape, we developed a novel pH-responsive PEGylated lipid (Ben-mPEG2000) for mRNA-LNP preparation while using commercial Man-mPEG2000 for dendritic cell (DC)-targeted delivery of LNPs; to alleviate suppression of the STING pathway in the tumor microenvironment and activate immune responses, STING-R283S mRNA was encapsulated into LNPs, ultimately resulting in DC-targeted/pH-responsive LNPs loaded with STING-R283S mRNA for pancreatic cancer immunotherapy research. Results: After pH-responsive cleavage, Ben-mPEG2000 not only enhanced the positive charge of LNPs through the exposed protonated amino groups but also eliminated the PEG-induced steric hindrance effect. The combination of these two effects promoted membrane fusion between LNPs and the endosome, thereby enhancing mRNA translation. As a payload, STING-R283S could further amplify STING signaling in DCs without cytotoxicity to counteract immunosuppression in pancreatic cancer. Conclusions: This engineered LNP platform enhanced mRNA expression and STING activation in DCs, improving immunotherapy outcomes in pancreatic cancer.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -1000,8 +1000,8 @@
       "date": "2026 Jun 21",
       "abstract": "Sarcomas are rare, highly heterogeneous malignancies, with soft tissue sarcomas (STS) comprising nearly 80 histological subtypes. Localized STS is generally treated with surgery and radiotherapy, whereas metastatic disease relies largely on chemotherapy, which offers limited benefit. Although inflammation influences tumor development, treatment response, and prognosis, immune checkpoint inhibitors have shown minimal efficacy in sarcoma. The cyclic GMP-AMP synthase (cGAS)-stimulator of interferon genes (STING) pathway is linked to mutational burden, genomic instability, immune cell infiltration, and therapeutic response across multiple cancer types. However, its role in sarcoma remains unclear. In a newly established cohort of STS patients, we found that STING expression in primary tumors correlates with immune cell infiltration. Using a lipid nanoparticle (LNP)-mediated delivery of CRISPR activation mRNA components, we restored STING expression in STS cells, thereby reactivating cGAS-STING signaling. This promoted T&#x2011;cell recognition and tumor cell killing in both 2D and 3D patient-derived models and enhanced responses to anti-PD-1 treatment. Together, our results show that controlled epigenetic activation of STING in STS enhances immune infiltration and tumor cell killing. Targeting STING through CRISPR activation may therefore represent a promising therapeutic strategy for STS.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -1019,8 +1019,8 @@
       "date": "2026 Jun 21",
       "abstract": "Exosomes (Exos) are nanoscale extracellular vesicles that have gained attention as promising therapeutic agents due to their unique biological attributes, immunomodulatory roles, and potential for targeted drug delivery. This review systematically explores their biological origins, secretion mechanisms, and cellular uptake dynamics of Exos. We explore strategies to enhance Exos production, including genetic modifications and optimized culture conditions, and compare purification methods such as ultracentrifugation and size-exclusion techniques, noting their advantages and disadvantages. Additionally, we discuss the engineering of Exos for drug delivery applications through methods like electroporation and physicochemical modifications. Focusing on osteoarthritis (OA)-a widespread degenerative joint disorder lacking effective clinical treatments for halting its progression or promoting cartilage regeneration-we elaborate on the therapeutic mechanisms of Exos in this context, including regulation of inflammatory responses, enhancement of chondrocyte survival, promotion of matrix synthesis, and inhibition of pathological angiogenesis via bioactive molecules like microRNAs and proteins. To address the challenges of rapid clearance and insufficient targeting in vivo, we propose innovative delivery systems using polymer-based and natural biomaterials to improve Exos retention and stability within the joint cavity. This approach aims to optimize therapeutic outcomes and bridge fundamental biological research with clinical applications, advancing next-generation OA treatment strategies.",
       "delivery_types": [
-        "exosome",
-        "electroporation"
+        "electroporation",
+        "exosome"
       ],
       "query_category": "exosome"
     },
@@ -1129,8 +1129,8 @@
       "date": "2026 Jun 19",
       "abstract": "Genital herpes, caused by herpes simplex virus 2 (HSV-2), remains a prevalent sexually transmitted infection with no available vaccine. Effective local immunity, mediated in part by tissue-resident memory T cells (TRM cells) and luminal antibodies, provides immediate viral control. Here, we developed bioactive enhanced adjuvant chemokine oligonucleotide nanoparticles (BEACONs) formed via electrostatic interactions between CpG oligodeoxynucleotides (CpG ODNs) and the chemokine CXCL9. This adjuvant enhances antigen-presenting cell engagement and innate immune signaling, promotes CD8 T cell recruitment, and reduces local neutrophilic inflammation relative to CpG ODNs. After intramuscular priming with HSV-2 glycoprotein-encoding messenger RNA-lipid nanoparticles, vaginal boosting with cognate recombinant glycoprotein and BEACONs improved protection against HSV-2 by increasing local CD8 TRM cell populations and mucosal antibody responses. Vaccine-mediated protection required local delivery of both antigen and adjuvant and was reduced by CD8 T cell or B cell depletion. These findings support engineered mucosal adjuvants for vaccines targeting genital herpes and other sexually transmitted infections.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -1163,8 +1163,8 @@
       "date": "2026 Jun 19",
       "abstract": "Gene delivery for neurodegenerative cerebral disorders faces formidable structural and practical challenges. The blood-brain, blood- cerebrospinal fluid (CSF), and arachnoid barriers tightly regulate molecular traffic, restrict paracellular diffusion, and actively clear xenobiotics, limiting brain penetration and retention of large molecules and nucleic acid therapeutics. Additional barriers include heterogeneous and diffuse pathology, the need for precise anatomical targeting, vector dose-limiting toxicities, pre-existing and therapy-induced immunity to viral capsids, and procedural risks of neurosurgical or intrathecal administration. These constraints have slowed translation, reflected by the small number of approved central nervous system (CNS)-directed gene therapies. Against this backdrop, a diverse therapeutic landscape has emerged. In vivo strategies are dominated by adeno-associated virus (AAV)-9 and AAV2 vectors delivered intravenously, intrathecally (including intracisternal and intracerebroventricular routes), or via image-guided intraparenchymal and intraputaminal infusions, alongside intrathecal antisense oligonucleotides and RNA interference therapeutics. Concurrently, emerging approaches, including engineered AAV capsids, receptor- and transporter-mediated transcytosis, nanoparticle platforms, and focused ultrasound with microbubbles, have demonstrated compelling yet preclinical proof-of-concept. Future progress will likely depend on convergent advances in machine learning-guided capsid, more controllable blood-brain barrier modulation, rational route selection tailored to disease topology, and optimized ex vivo and cell-mediated delivery strategies. These innovations could enable a more predictable therapeutic paradigm for cerebral neurodegeneration.",
       "delivery_types": [
-        "nanoparticle",
-        "aav"
+        "aav",
+        "nanoparticle"
       ],
       "query_category": "aav"
     },
@@ -1198,8 +1198,8 @@
       "date": "2026 Jun 18",
       "abstract": "The efficacy of immune checkpoint blockade (ICB) is often constrained by insufficient tumor antigenicity and consequent weak immune activation. Among immunogenic cell death (ICD) modalities, gasdermin-mediated pyroptosis presents a promising strategy to counteract this limitation and potentiate ICB. However, it remains challenging to engineer nanoplatforms that reliably induce pyroptosis via coordinated activation of multiple pathways. Here, we report a sialic acid-functionalized lipid nanoparticle (LNP) that co-delivers GSDME mRNA and a self-assembling small molecule (1541B) as a potent pyroptosis amplifier. Delivered GSDME mRNA bypasses epigenetic silencing and replenishes the pyroptotic substrate, while 1541B self-assembles intracellularly into nanofibers that directly activate caspase-3, cleaving GSDME to initiate non-canonical pyroptosis. Moreover, these nanofibers disrupt mitochondrial function, leading to caspase-1-mediated GSDMD cleavage, thereby amplifying pyroptotic cell death via the canonical pathway. This dual-pathway engagement enhances the release of pro-inflammatory cytokines and remodels the tumor immune microenvironment. As a result, this nano-pyroptosis inducer overcomes resistance to anti-PD-1 therapy, triggering potent systemic anti-tumor immunity and significantly inhibiting tumor growth. Overall, our findings establish a novel therapeutic paradigm for reversing ICB resistance via orchestrated pyroptosis amplification.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -1217,8 +1217,8 @@
       "date": "2026 Jun 18",
       "abstract": "Poor perfusion and abnormal vasculature constrain direct drug delivery to solid tumors. Hence, targeting neighboring tumor endothelial cells via the upregulated marker integrin &#x3b1;V&#x3b2;3 is a promising strategy. Orthosteric arginine-glycine-aspartate (RGD) ligands of &#x3b1;V&#x3b2;3 achieve high affinities but suffer from cross-reactivity. Alternatively, selective targeting of &#x3b1;V&#x3b2;3 could potentially be achieved via low-affinity ligands, displayed multivalently on nanoparticles to leverage avidity. To avoid orthosteric site competition, we performed a fragment screening under RGD saturation. Structure-activity relationship (SAR) analysis of the initial hit revealed its binding motif, a 4-methylpyrimidine-2-amine core and a conjugation-tolerant position for linker attachment. Multivalent display of the lead compound on liposomes and lipid nanoparticles (LNPs) led to time-, dose-, and valency-dependent uptake in &#x3b1;V&#x3b2;3-expressing model cells and in primary human umbilical vein endothelial cells (pHUVECs). In contrast to RGD-decorated NPs, fragment-targeted NPs show superselective behavior (&#x3b1;&#x3ba;&#x2248;3), that is, a sharp valency-dependent threshold, enabling selective targeting of cells overexpressing &#x3b1;V&#x3b2;3. Crucially, mRNA delivered by targeted LNPs translated into functional protein expression six-fold over control. To our knowledge, these findings present the first non-orthosteric, exogenous small-molecule ligands for &#x3b1;V&#x3b2;3 and outline their application as a multivalent, superselective delivery platform.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -1236,8 +1236,8 @@
       "date": "2026 Jun 18",
       "abstract": "Background/Objectives: Immune checkpoints are critical regulatory pathways that maintain peripheral tolerance and prevent autoimmunity. Among these, the programmed death-1/programmed death-ligand 1 (PD-1/PD-L1) axis serves as a major inhibitory pathway that terminates T cell responses. While protein-based checkpoint blockade (ICB) targeting this axis has revolutionized clinical cancer therapy, its clinical efficacy is frequently limited by low response rates, immune-related adverse events (irAEs), and the emergence of adaptive resistance. To break through these bottlenecks, genetic interruption has emerged as a high-precision alternative to modulate the PD-1/PD-L1 pathway at the nucleotide level. Methods: A comprehensive systematic review of literature was performed across major databases (PubMed, Web of Science), with a focus on high quality studies published up to 2026. Results: Direct genomic disruption via CRISPR/Cas9 and post-transcriptional silencing through RNA interference can effectively neutralize inhibitory signaling at its source. Recent advances demonstrate that targeting upstream regulatory nodes-including metabolic checkpoints (e.g., lactate metabolism) and biophysical mechanisms (e.g., liquid-liquid phase separation)-provides superior transcriptional control over PD-L1. Furthermore, engineering CAR-T cells with multiplex gene editing (e.g., TCR/B2M/PD-1 knockout) or localized scFv secretion significantly enhances antitumor potency while reducing systemic toxicity. Innovations in organ-targeted lipid nanoparticles and stimuli-responsive biomimetic carriers further address the delivery barriers in solid tumors. Conclusions: Gene therapy provides a high-precision platform for PD-1/PD-L1 modulation, offering a viable strategy to overcome adaptive resistance. Future clinical application depends on the refinement of safer editing tools, such as base editing, and the standardization of intelligent delivery systems to ensure controllable and scalable cancer immunotherapy.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -1255,8 +1255,8 @@
       "date": "2026 Jun 18",
       "abstract": "Despite advances in multimodal therapies, outcomes for pediatric patients with relapsed or refractory cancers remain poor. Chimeric antigen receptor (CAR) T cell therapy has demonstrated limited efficacy in solid tumors due to the immunosuppressive tumor microenvironment (TME), which promotes T cell exhaustion and restricts CAR T cell expansion. This study evaluated a combinatorial approach to enhance CAR T function by reprogramming the TME to overexpress target antigens (TAs) and co-stimulatory molecules (CSMs) through a lipid nanoparticle-based CAR-T vaccination (CART-Vac). As proof of concept, rhabdomyosarcoma cells (Rh30) engineered to overexpress TAs and CSMs (Rh30-TACS) were examined. EPHB4-directed CAR T cells demonstrated enhanced cytotoxicity, proliferation, and cytokine secretion in vitro, and superior tumor control with increased T cell infiltration in Rh30-TACS tumors in vivo compared with Rh30 tumors. To induce TA and CSM expression in the TME, CART-Vac was designed to deliver mRNAs encoding truncated EPHB4, CD80, and CD137L. CART-Vac effectively mediated transient expression, significantly enhancing CAR T expansion and antitumor activity in both models. These findings suggest that CART-Vac can modulate the TME, offering a promising strategy to improve the therapeutic efficacy of CAR T cells in solid tumors.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -1363,8 +1363,8 @@
       "date": "2026 Jun 18",
       "abstract": "Lentiviral vectors (LVs) are emerging as versatile tools for the efficient and stable delivery of therapeutic genes. Although VSV-G-pseudotyped LVs remain the standard for ex vivo genetic engineering, their broad tropism and serum sensitivity limit their applicability for in vivo cancer therapy, where precise targeting is essential for efficacy and safety. This review synthesizes two decades of advances in LV pseudotyping, comparing natural viral envelopes, engineered targeting strategies, and multicomponent glycoprotein systems that reshape vector tropism. We discussed donor-derived envelopes such as measles virus, baboon endogenous retrovirus, Nipah virus, and Sindbis virus, highlighting their value for transducing hematopoietic, immune, and tumor cells. We also examined next-generation retargeting innovations, including engineered receptor-binding domains, display of cytokines or antibody fragments, and VSV-G mutants that ablate natural receptor interactions, to enhance specificity for T cells, B cells, hematopoietic stem cells, and tumor-associated antigens. Finally, we review the recent emergence of engineered virus-like particles (VLPs) as precision tools for in vivo delivery of CRISPR-Cas9, base-editing, and prime-editing complexes. Collectively, these advances position receptor-targeted lentiviral and VLP systems as promising platforms for the next generation of precision oncology, enabling selective in vivo CAR T/NK cell generation, targeted tumor modification, and cell-restricted gene editing.",
       "delivery_types": [
-        "lentivirus",
-        "vlp"
+        "vlp",
+        "lentivirus"
       ],
       "query_category": "vlp"
     },
@@ -1400,8 +1400,8 @@
       "date": "2026 Jun 17",
       "abstract": "This study presents the development and characterization of a targeted lipid nanoparticle (LNP) formulation for mRNA-based gene delivery based on the elimination of cholesterol and the subsequent introduction of targeting moieties. Because the high cholesterol content of conventional LNPs and its interaction with apolipoprotein E (ApoE) result in predominant hepatic accumulation in vivo, the introduction of targeting moieties to achieve extrahepatic delivery remains challenging. Thus, an ethanol and cholesterol-free formulation strategy, called \"blue\" lipid nanoparticle (BLNP), was applied to (i) investigate the impact of cholesterol on expression profiles and (ii) to enable the incorporation of targeting ligands. In vivo expression distribution analyses revealed no sign of toxicity for both formulations and an altered expression profile of BLNPs compared to classical cholesterol-containing LNPs with predominant expression in the liver. The lipid 1,2-dioctadecanoyl-sn-glycero-3-phosphoethanolamine (DSPE) was further conjugated to the hepatocyte-targeting dye DY635 and, following purification and characterization, incorporated into BLNPs at concentrations up to 1.1%. Uptake and transfection studies demonstrated successful nanoparticle uptake after 30&#xa0;min and gene expression in various cell lines, with almost doubled mRNA expression in human HuH7 hepatocytes at optimized conditions. Incorporation of DSPE-DY635 enabled fluorescent tracking by flow cytometry and confocal laser scanning microscopy (CLSM). Cellular uptake studies revealed efficient and traceable uptake into HuH7 cells within 60&#xa0;min. Overall, the successful integration of a targeting lipid into a cholesterol-free LNP platform provides a flexible strategy for the modular introduction of alternative targeting ligands and the development of controlled, tissue-specific mRNA delivery systems.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -1419,8 +1419,8 @@
       "date": "2026 Jun 17",
       "abstract": "Heat shock protein 47 (HSP47) regulates collagen synthesis and fibrosis, which makes it a promising target for controlling pulmonary fibrosis. However, challenges such as cell-selective and efficient drug delivery continue to impede the verification and translation of HSP47-targeted therapies. The CRISPR/Cas9 system can effectively inhibit the overexpression of HSP47 within fibrotic lesions while significantly reducing off-target effects. This study develops a class of lipid nanoparticles (LNPs) capable of codelivering Cas9 mRNA and sgHSP47 to fibroblasts. By incorporation of an additional cationic effector molecule, 1,2-dioleoyl-3-trimethylammonium-propane (DOTAP), these LNPs achieve differential delivery across various cell lines and markedly enhance uptake efficiency in fibroblasts. This system mediates effective HSP47 knockdown in L929 cells and the lungs of C57BL/6 mice, leading to reduced collagen deposition and fibroblast activation in bleomycin-induced idiopathic pulmonary fibrosis (IPF) mice. This LNP platform holds substantial potential for gene editing-based IPF therapy and provides valuable insights for the efficient and selective delivery of CRISPR/Cas9 systems.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -1526,8 +1526,8 @@
       "date": "2026 Jun 16",
       "abstract": "mRNA lipid nanoparticle (mRNA-LNP) technology has emerged as a cornerstone in vaccine development due to its high delivery efficiency, molecular stability, and favorable safety profile. However, rapid and reliable potency assessment remains challenging because of limited mechanistic understanding of delivery processes and sparse experimental data. To address these gaps, we introduce a mechanism-informed, multi-scale kinetic modularized modeling framework that quantitatively captures the coupled dynamics of mRNA delivery across nanoparticle, cellular, and macroscopic scales. The model incorporates variability in LNP-cell interactions and integrates key determinants, such as dosage, LNP and cell size distributions, cell proliferation, and membrane properties-factors that critically shape delivery efficiency and response heterogeneity. Its cell-based architecture and modular design enable adaptability to diverse delivery systems and physiological contexts. By leveraging advanced multi-omics assays, including single-molecule fluorescent in situ hybridization (smFISH) for single-cell resolution of mRNA and protein expression, our framework provides mechanistically grounded modeling and robust prediction of therapeutic potency, offering a powerful platform for optimizing mRNA-based interventions.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -1542,9 +1542,9 @@
       "date": "2026 Jun 16",
       "abstract": "Viral vectors have transformed gene therapy by enabling efficient and targeted delivery of therapeutics. However, the efficacy and safety of viral vector-based therapies are frequently constrained by host innate immune responses. Sensing of viral capsids, vector genomes, and transgene-derived nucleic acids activates inflammatory and type I interferon signaling, leading to transgene silencing, vector clearance, and immune-mediated loss of transduced cells, particularly at the high vector doses required for clinical efficacy. In contrast, natural viruses have evolved sophisticated mechanisms to evade or modulate these innate immune pathways, enabling sustained gene expression and persistence. This review examines the molecular basis of innate immune sensing of commonly used viral vectors and highlights viral immune evasion strategies as an underexplored resource for therapeutic design. We discuss how repurposing viral immunomodulatory elements-through vector-intrinsic engineering and transient co-delivery-can desensitize innate signaling pathways, thereby enhancing gene transfer while preserving host immune surveillance. Extending these principles beyond viral vectors, we consider their relevance to non-viral platforms, including lipid nanoparticles, polymeric carriers, and exosomes. By reframing viral immune evasion as a therapeutic opportunity rather than a liability, we outline new directions for safer and more effective gene delivery systems.",
       "delivery_types": [
-        "lnp",
+        "exosome",
         "nanoparticle",
-        "exosome"
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -1562,8 +1562,8 @@
       "date": "2026 Jun 16",
       "abstract": "Base editors have emerged as powerful tools for precise genome editing, offering significant therapeutic potential. A critical challenge lies in optimizing the delivery and dosage of single-guide RNA to maximize on-target editing efficiency while minimizing off-target and bystander effects. This study investigates the impact of guide RNA dosage on in vivo editing efficiency and tissue specificity using a reporter mouse model with a luciferase transgene correctable by adenine base editing. Mice were treated with lipid nanoparticles co-encapsulating a fixed dose of ABE8e RNA and varying doses of guide RNA. Editing outcomes were assessed through whole-body imaging, ex vivo tissue analysis, and sequencing. Increasing the guide RNA dose to 4 mg/kg enhanced editing efficiency up to 3.3-fold in multiple tissues compared to the standard 1 mg/kg dose, with the liver exhibiting the highest on-target editing rates at 63%. Bystander editing increased significantly with higher guide RNA doses, particularly in highly edited tissues like the liver, where bystander edits showed a dose-dependent increase. These findings demonstrate the importance of careful guide RNA dose optimization to balance editing efficiency and tissue specificity with bystander effects in the therapeutic applications of ABE8e.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -1581,8 +1581,8 @@
       "date": "2026 Jun 16",
       "abstract": "Immune-cold tumours such as prostate cancer often resist immune checkpoint therapies (ICT) due to impaired antigen presentation via major histocompatibility complex class I (MHC-I). While MHC-I downregulation is a common immune evasion mechanism, no approved therapies selectively restore MHC-I expression in tumours. We developed a programmable RNA engineering platform, termed the 3'UTR CRISPR/dCas13 Engineering System (3'UTRCES), to precisely manipulate mRNA alternative polyadenylation (APA) in vivo. We identified tumour-specific 3'UTR shortening of the E3 ligase adaptor SPSB1 as a driver of MHC-I degradation via SPSB1-mediated ubiquitination, without affecting PD-L1. Lipid nanoparticle (LNP)-delivered 3'UTRCES reversed SPSB1 3'UTR shortening, restored MHC-I expression and sensitized tumours to ICT in syngeneic mice. These effects were elicited by MHC-I-dependent increases in CD8 T cell infiltration and antitumour cytotoxic activity. Our findings reveal APA-driven MHC-I suppression as a previously unrecognized mechanism of immune escape and establish LNP-3'UTRCES as a versatile platform for post-transcriptional RNA engineering in cancer.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -1690,11 +1690,11 @@
       "date": "2026 Jun 15",
       "abstract": "Genome editing has progressed from a laboratory capability for targeted DNA manipulation to a clinically relevant strategy for correcting, silencing, or regulating genes implicated in human disease. In this Review, we synthesize the mechanisms, capabilities, and constraints of the principal programmable platforms-zinc-finger nucleases (ZFNs), transcription activator-like effector nucleases (TALENs), and CRISPR-Cas systems-and highlight how base editors, prime editors, and epigenetic editors expand the range of achievable outcomes beyond double-strand break-dependent repair to precise nucleotide substitutions, small insertions/deletions, and transcriptional modulation. We compare genome-editing cargo formats, including plasmid DNA, viral-vector DNA, mRNA, guide RNA, and ribonucleoprotein complexes, together with the delivery modalities used to transport them, including AAV, adenoviral and herpesviral vectors, lipid nanoparticles (LNPs), electroporation, and virus-like particles. We then consolidate key biomedical applications enabled by these technologies, spanning endogenous gene tagging, high-throughput functional variant screening, molecular recording, and the generation of genetically faithful disease models. Across oncology, respiratory, hematologic, cardiovascular, metabolic, neurodegenerative, viral, ocular, and immune disorders, genome editing is advancing both ex vivo and in vivo interventions, including engineered cellular immunotherapies, hematopoietic stem and progenitor cell editing for hemoglobinopathies, and emerging liver-directed programs for lipid and coagulation targets. Finally, we discuss priorities for broad clinical implementation: improving editing fidelity and PAM flexibility, increasing performance in non-dividing cells, enabling tissue-selective delivery to difficult organs (for example, lung and central nervous system), and addressing manufacturing scalability, long-term monitoring, and equitable global access.",
       "delivery_types": [
+        "aav",
         "vlp",
         "nanoparticle",
-        "electroporation",
-        "aav",
-        "lnp"
+        "lnp",
+        "electroporation"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -1709,8 +1709,8 @@
       "date": "2026 Jun 15",
       "abstract": "Efficient and safe delivery systems remain a major barrier to the clinical translation of CRISPR/Cas9 gene-editing technologies; among these, formulation optimization of lipid nanoparticles (LNPs) is a key approach to improve delivery performance. Here, we constructed an orthogonal formulation library of LNPs using the ionizable lipids 4A2C2C6-A8 and 4A2C2C8-A8 at varied molar ratios and screened for optimal compositions. We identified formulations that combined high editing efficiency with low cytotoxicity; in HeLa-Luc cells, the optimized formulation achieved &gt;80% knockout of the luciferase reporter. Further physicochemical and functional investigations showed that LNPs with relatively high zeta potential, mean diameters near 200&#x2009;nm, and appropriate internal hydrophobicity-when paired with superior cellular uptake and endosomal escape capabilities-synergistically enhanced delivery efficiency. Using the compositionally optimized LNP to codeliver Cas9 mRNA and an sgRNA targeting HSP47 (whose overexpression has been implicated in fibrosis), we achieved efficient protein-level knockdown of HSP47 in L929 cells. These results provide important guidance for formulation optimization of CRISPR/Cas9 LNPs and support their potential application in antifibrotic therapies.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -1728,8 +1728,8 @@
       "date": "2026 Jun 15",
       "abstract": "Frontotemporal dementia (FTD) is an early onset dementia characterized by neuropathology and changes to patient behaviour. Haploinsufficiency of the gene progranulin (GRN) is a major cause of FTD, for which there are no effective therapies. Corrective gene therapies that restore GRN expression are of clinical interest, but current in vivo systems have limitations. We developed a novel strain of mice expressing a human GRN transgene bearing a four base pair deletion in exon 5 (GRNc.388_391delCAGT) that causes FTD. Characterization of mice expressing the mutant transgene (GRNmEx5) indicates that GRNmEx5 is expressed at low levels and retains partial function. The GRNmEx5 protein partially rescues progranulin nullizygous-associated neuropathology and transcriptomic dysfunction. Following characterization, we sought to determine if mice expressing GRNmEx5 in the absence of mouse progranulin (Grn-/-; GRNmEx5 mice) could enable pre-clinical gene therapy development. Using CRISPR/Cas9 with lipid nanoparticle delivery, we achieved 8.5% correction of GRNc.388_391delCAGT in target cells in Grn-/-; GRNmEx5 mice, demonstrating both effective in vivo homology-directed repair and the utility of Grn-/-; GRNmEx5 mice for developing novel progranulin-associated FTD therapies. The Grn-/-; GRNmEx5 model provides insight into progranulin biology, increases our understanding of a pathogenic variant that causes FTD, and facilitates the development of GRN gene therapies.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -1818,8 +1818,8 @@
       "date": "2026",
       "abstract": "The rapid emergence of new pathogens evolving viral variants. Underscores the need for agile vaccine platforms capable of outpacing infectious threats. Building on the success of mRNA vaccine technology during the COVID-19 pandemic. We integrated computational precision tool to help the young Scientifics map the vaccine design. It is not a validated lab protocol nor does it report experimental results. Instead, it offers a stepwise conceptual roadmap to guide future wet-lab research. We also outline in silico workflow encompassing antigen selection, consensus sequence generation. The first step in the workflow is to check the conserved antigenic domains and epitopes. Bioinformatic analysis supported antigen identifying and its targets using appropriate tools, followed by consensus sequence creation through multiple sequence alignment using specific platforms. mRNA constructs were optimized via codon adaptation, GC content balancing, and secondary structure analysis. Delivery strategies also were briefly assessed between the FDA approved systems. Lipid nanoparticle formulation, were incorporated into the design to theoretically enhance stability and cellular uptake. Robust protein expression both in vitro and in vivo assessments further suggested the immunogenic potential along with providing a computational basis for future preclinical evaluation. This study review provides a step-by-step protocol that clarifies and simplifies the design process for linear mRNA constructs. The framework translates complex design considerations into actionable, sequential guidelines, enabling researchers to rationally design vaccine candidates in silico. Certainly, we support accelerated design efforts against current threats, while also serving as a preparedness blueprint for future pandemics.",
       "delivery_types": [
-        "lnp",
-        "nanoparticle"
+        "nanoparticle",
+        "lnp"
       ],
       "query_category": "lipid nanoparticle"
     },

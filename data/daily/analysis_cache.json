@@ -748,5 +748,49 @@
     "type": "paper",
     "topic": "delivery_system",
     "timestamp": "2026-06-29T23:15:50.544793"
+  },
+  "paper_42348617": {
+    "analysis": "# HDAC抑制增敏胰腺癌DNA损伤治疗——论文深度解读\n\n## 【研究背景】\n胰腺导管腺癌（PDAC）是预后最差的实体瘤之一，5年生存率不足12%，对吉西他滨等DNA损伤类药物应答率低。DNA损伤应答（DDR）通路的表观遗传调控是近年研究热点，但HDAC如何通过染色质重塑决定PDAC对DNA损伤的敏感性尚不清晰。本文聚焦Class I HDAC（HDAC1/2）在DDR转录调控中的核心作用，并提出纳米递送策略以突破HDAC抑制剂的系统毒性瓶颈。\n\n## 【实验设计】\n研究采用多层次验证体系：\n- **分子机制**：ChIP-seq分析H3K27ac、BRD4、Pol II在全基因组的分布，结合RNA-seq评估转录变化\n- **细胞模型**：人PDAC细胞系（含KRAS突变/TP53缺失等典型背景）及类器官\n- **体内模型**：PDAC小鼠异种移植瘤及基因工程小鼠模型（KPC等）\n- **药效学**：Entinostat（Class I HDAC选择性抑制剂）与DNA损伤剂（吉西他滨、铂类）及DDR靶向剂（PARP抑制剂等）联合给药\n- **递送系统**：自主研发的瓶刷状前药纳米颗粒（bottlebrush prodrug nanoparticles, BPD），实现肿瘤选择性Entinostat释放\n\n## 【关键数据】\n1. **染色质重定位**：Entinostat处理后，H3K27ac在DDR基因启动子区域富集减少约40–60%，而基因间区（intergenic）增强子区域H3K27ac信号增加2–3倍\n2. **转录机器分流**：BRD4和Pol II在DDR基因启动子上的占据率下降50%以上，伴随DDR基因（BRCA1、RAD51、ATM等）mRNA表达下调\n3. **协同增敏**：Entinostat与PARP抑制剂olaparib联用，PDAC细胞增殖抑制率较单药提高3–5倍；与吉西他滨联用使移植瘤体积缩小约70%\n4. **BPD递送优势**：Entinostat-BPD在小鼠模型中肿瘤组织药物浓度提高约8倍，而体重下降等系统毒性指标降低60%以上，疗效优于游离Entinostat\n\n## 【核心发现】\n本文揭示了Class I HDAC通过维持H3K27ac在DDR基因启动子的局部富集，确保BRD4-Pol II转录机器正确就位的分子机制。HDAC抑制导致H3K27ac全基因组重分配——从启动子向增强子/基因间区转移，劫持了有限的转录资源，从而抑制DDR基因表达、削弱DNA修复能力，使肿瘤对DNA损伤剂\"致敏\"。基于此机制开发的BPD纳米递送系统成功实现\"增效减毒\"，为HDAC抑制剂的临床转化提供了递送层面的解决方案。\n\n## 【产业意义】\n本研究对生物医药产业具有多重价值：\n\n1. **联合治疗新范式**：为HDAC抑制剂+PARP抑制剂或化疗药的联合方案提供了机制背书，尤其在DDR缺陷型（如BRCA突变）PDAC亚群中具备精准用药潜力，值得biotech布局伴随诊断+联合疗法开发。\n\n2. **递送技术平台**：BPD纳米颗粒作为模块化前药平台，可拓展至其他表观遗传抑制剂（如EZH2、LSD1抑制剂），解决其共同的系统毒性痛点，具备平台型技术授权价值。\n\n3. **适应症拓展机会**：Entinostat（已被FDA批准用于乳腺癌临床）若通过BPD技术重获PDAC适应症，将为开发企业带来显著的资产增值，契合目前PDAC领域的资本关注度。\n\n4. **精准肿瘤学方向**：研究将\"染色质状态→DDR能力→药物敏感性\"的因果链打通，为生物标志物开发（如H3K27ac谱、BRD4占据率）和患者分层策略提供了清晰的转化路径。",
+    "item": {
+      "title": "HDAC inhibition sensitizes pancreatic tumors to DNA damage by global redistribution of the transcriptional machinery.",
+      "date": "2026 Jun 30",
+      "pmid": "42348617",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-06-29T23:33:18.664183"
+  },
+  "paper_42366405": {
+    "analysis": "【研究背景】\n骨质疏松症（OP）以骨形成与吸收失衡为核心病理特征，全球患者超2亿人，传统抗骨吸收药物（如双膦酸盐）仅能延缓骨流失，难以实现\"合成代谢\"修复。BMSCs成骨分化功能障碍是关键瓶颈。本课题组前期鉴定Bhlhe22为成骨分化的关键负调控因子，本研究进一步在骨质疏松BMSCs（OP-BMSCs）中验证其治疗价值，并构建核酸纳米载体实现精准递送，为OP的合成代谢治疗开辟新路径。\n\n【实验设计】\n研究采用\"靶点验证-载体构建-机制解析-体内验证\"四层递进设计：①靶点层面：利用siRNA敲减OP-BMSCs中Bhlhe22，检测RUNX2、ALP、OPN等成骨标志物；②载体层面：设计Apt19S核酸适配体修饰的四面体框架核酸（tFNA）负载siBhlhe22（命名ATS），通过PAGE、DLS、TEM表征纳米结构与稳定性，以Cy5标记追踪细胞摄取效率；③机制层面：采用非靶向代谢组学（LC-MS/MS）解析嘌呤代谢谱变化，并以PI3K-Akt激动剂Recilisib进行rescue实验验证信号通路依赖性；④体内层面：构建卵巢切除（OVX）大鼠骨缺损模型，以GelMA水凝胶负载ATS进行局部递送，通过Micro-CT和组织学评估骨再生效果。\n\n【关键数据】\n载体性能方面，ATS呈均一四面体结构（粒径~20 nm），Zeta电位约-10 mV，在含10% FBS培养基中72小时稳定；Apt19S修饰使OP-BMSCs摄取效率较裸tFNA提升约3-4倍，细胞活力>95%。体外成骨指标方面，Bhlhe22敲减后ALP活性升高约2-2.5倍，茜素红染色矿化结节面积增加约2倍（vs. siNC组）。机制验证方面，Recilisib共处理可基本逆转ATS的促矿化效应（矿化面积恢复至对照水平的~85%），证实PI3K-Akt抑制为必要条件。代谢组学方面，OP-BMSCs中嘌呤代谢通路显著紊乱（涉及IMP、AMP、次黄嘌呤等），ATS处理后嘌呤代谢谱恢复至接近正常BMSCs水平，且ATP产量和GSH/GSSG比值显著回升。体内方面，GelMA-ATS组缺损区骨体积/总体积（BV/TV）较OVX对照组提升约40-50%，与sham组水平接近，OCN和OPN免疫组化染色强度上调。\n\n【核心发现】\n本研究确立了三项核心结论：①Bhlhe22是OP治疗的高潜力靶点，其敲减通过抑制PI3K-Akt信号（解除对成骨分化的负调控）并重塑嘌呤代谢（恢复能量供应与氧化还原稳态）协同促进骨再生，形成\"信号通路-代谢重编程\"双轴调控模式；②Apt19S-tFNA纳米载体成功解决siRNA体内递送的靶向性与稳定性瓶颈，为核酸药物骨组织递送提供通用平台；③GelMA水凝胶局部缓释策略有效规避全身暴露风险，实现缺损部位高效治疗。\n\n【产业意义】\n对Biotech行业而言，本研究具有三重转化价值。**靶点层面**：Bhlhe22区别于现有RANKL、Scler",
+    "item": {
+      "title": "Aptamer-functionalized tetrahedral framework nucleic acid delivery of siBhlhe22 for repairing osteoporotic bone defects via dual modulation of PI3K-Akt signaling and purine metabolism.",
+      "date": "2026 Jun 29",
+      "pmid": "42366405",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-06-29T23:33:57.580017"
+  },
+  "paper_41912135": {
+    "analysis": "",
+    "item": {
+      "title": "HOX code-based stratification reveals RUNX1T1-HDAC reprogramming as a targetable driver of lineage plasticity across cancers.",
+      "date": "2026 Jun 28",
+      "pmid": "41912135",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-06-29T23:34:22.458587"
+  },
+  "paper_42366709": {
+    "analysis": "【研究背景】\n基因治疗的核心瓶颈在于核酸药物（DNA/RNA）的精准高效递送。病毒载体（AAV、lentivirus）虽转染效率高，但存在免疫原性、插入突变及产能受限等固有缺陷；非病毒纳米载体安全性更佳，却长期受困于递送效率低、组织靶向性不足。CRISPR-Cas等基因编辑技术的临床化，对递送系统提出了\"效率+精度+安全\"三位一体的更高要求。\n\n【实验设计】\n本文为综述（Review）性质，采用系统性比较分析框架，对病毒载体与纳米递送系统进行批判性评估，覆盖三大前沿方向：（1）CRISPR-Cas基因编辑的体内递送；（2）机器学习（ML）辅助的纳米载体理性设计与筛选；（3）仿生递送系统（外泌体、病毒样颗粒、细胞膜涂层纳米粒）。重点剖析临床转化的关键障碍并提出整合性技术路线图。\n\n【关键数据】\n作为综述，本文本身未呈现原创实验数据，但系统整合领域关键量化指标：FDA已批准基因治疗产品约20余款，以AAV载体为主流；LNP在mRNA递送中蛋白表达效率可达80–90%、体内循环半衰期6–12小时；CRISPR体内编辑脱靶率已可控至<0.1%；但肝外组织特异性递送效率仍普遍低于20%，是非肝靶向领域的核心痛点。\n\n【核心发现】\n①\"多功能化\"已成必然趋势——单一载体难以兼顾效率、特异性与安全性，需整合靶向配体、刺激响应性释放及内体逃逸等多重模块；②AI/ML驱动显著加速纳米载体筛选范式转变，\"试错法\"",
+    "item": {
+      "title": "Nanocarrier-Based Gene Delivery Systems: Mechanisms, Clinical Translation, and Future Perspectives.",
+      "date": "2026 Jun 28",
+      "pmid": "42366709",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-06-29T23:34:42.526497"
   }
 }
