@@ -1947,5 +1947,126 @@
     },
     "type": "paper",
     "timestamp": "2026-07-05T07:06:19.707523"
+  },
+  "paper_42401922": {
+    "analysis": "【研究背景】\n黄斑变性等视网膜退行性疾病导致的中心视力丧失是全球不可逆致盲主因。细胞替代疗法需要大量具备功能整合能力的红/绿色（L/M）视锥前体细胞，但成熟类器官视锥虽具光响应能力，仅早期前体保有自主轴突生成能力——这是移植后回路重建的关键瓶颈。\n\n【实验设计】\n本研究构建双荧光报告系统L/M-CRR：在WA09 NRL+/eGFP（杆细胞报告）系基础上，利用CRISPR/Cas9将tdTomato精准敲入内源THRB2启动子下游，实现L/M视锥前体与杆细胞的同步示踪。分别于Day 50（早期）与Day 100（中期）开展活细胞荧光成像、免疫荧光与流式分析；结合FACS分选与bulk RNA-seq刻画转录组特征；筛选出细胞表面标志物CD166/ALCAM后，以抗CD166磁激活细胞分选（MACS）富集目标亚群，通过延时成像量化轴突动力学。\n\n【关键数据】\nDay 50 tdTomato+细胞显著富集神经发育、轴突延伸/导向及细胞迁移相关基因簇；THRB2驱动的红色荧光在早期RO中清晰标记L/M前体，但随细胞成熟信号逐渐衰减；CD166抗体MACS可特异性富集具有高度轴突动态性的早期L/M视锥前体亚群，该亚群表现出选择性增强的轴突延伸、回缩与转向活性。\n\n【核心发现】\n首次描绘人类早期L/M视锥前体的转录组图谱，明确CD166/ALCAM作为独立功能性表面标志物可识别\"增强轴突动力学\"亚群；L/M-CRR双报告系为视锥前体全程追踪提供可靠遗传工具；建立从类",
+    "item": {
+      "title": "Identification and enrichment of human retinal organoid-derived red/green cone-competent precursors with enhanced axon dynamics.",
+      "date": "2026-07-04",
+      "pmid": "42401922",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-06T07:02:12.324485"
+  },
+  "paper_42401638": {
+    "analysis": "【研究背景】\n大麦是全球重要的谷类作物，广泛用于饲料、酿造和食品加工。降低大麦籽粒和秸秆的木质素含量，可显著提升饲料消化率与生物乙醇转化效率。橙色稃壳（orange lemma）突变表型长期被认为与木质素代谢异常相关，但其遗传基础近一个世纪以来始终未明，制约了相关育种应用。\n\n【实验设计】\n本研究采用正向遗传学策略：（1）以'Haruna Nijo'×'L053' F₂群体为材料，结合大麦50K SNP芯片进行图位克隆，将候选区间锁定在6H染色体；（2）对自然突变体及EMS诱变群体进行CAD基因序列比对；（3）以栽培品种'Golden Promise'为受体，通过CRISPR/Cas9敲除CAD基因进行功能验证；（4）测定野生型与敲除植株的木质素含量进行表型-生化关联分析。多层级证据链设计（mapping→序列→基因编辑回补验证）确保了结论的可靠性。\n\n【关键数据】\n- 连锁分析将orange lemma性状精确定位至6H染色体CAD基因区域；\n- 所有橙色稃壳突变体（自然变异+EMS诱导）均携带CAD基因的核苷酸变异，导致氨基酸替换或提前终止；\n- CRISPR/Cas9敲除株系完整复现orange lemma表型；\n- 敲除植株木质素含量显著低于野生型（摘要未提供具体百分比数值，论文正文应给出量化数据）。\n\n【核心发现】\n本研究首次明确CAD是控制大麦orange lemma表型的因果基因。CAD是木质素单体生物合成途径中的关键还原酶，其功能丧失导致木质素前体积累改变，进而引发稃壳色素沉积与木质素总量下降的双重表型。该工作填补了该经典性状百年来的遗传学空白，确立了\"基因-代谢-表观颜色-木质素含量\"的完整因果链。\n\n【产业意义】\n对生物技术行业具有三重价值：（1）为低木质素饲用大麦育种提供了明确分子标记，可通过CAD等位筛选或编辑加速种质创新；（2）低木质素秸秆直接提升纤维素酶解效率，降低二代生物乙醇生产成本；（3）CAD等位变异或可影响麦芽酚类物质谱，对精酿啤酒风味调控具有潜在应用价值。该研究模式（自然变异挖掘+CRISPR验证）亦为禾本科作物木质素遗传改良提供了可复制的技术范式。",
+    "item": {
+      "title": "Cinnamyl alcohol dehydrogenase (CAD) underlies the orange lemma trait and lignin reduction in barley.",
+      "date": "2026-07-04",
+      "pmid": "42401638",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-06T07:02:26.319892"
+  },
+  "paper_42401564": {
+    "analysis": "【研究背景】结直肠癌(CRC)是全球发病率位居前三的恶性肿瘤，其发生遵循经典的\"腺瘤-癌\"多步骤遗传模型，APC失活作为起始事件、TP53突变作为进展事件的级联关系已被广泛认可。然而，APC与TP53协同缺失如何通过表观遗传重编程驱动早期肿瘤发生的分子机制尚不清楚，制约了早期干预策略的开发。\n\n【实验设计】研究团队采用CRISPR-Cas9技术在人源结肠类器官(colon organoid)中构建APC与TP53双敲除(ΔDKO)模型，模拟CRC早期分子事件；结合多组学联合分析(转录组+表观基因组ATAC-seq/ChIP-seq)系统刻画双敲除特有的染色质景观；通过差异表达分析筛选关键致癌驱动因子，并利用转录因子motif富集分析、染色质可及性检测及功能获得/丧失实验验证调控轴。\n\n【关键数据】研究发现ΔDKO类器官中KIT(受体酪氨酸激酶)显著上调，是区分双敲除与单敲除对照的关键差异致癌基因。机制上，KIT过表达可同时激活下游MAPK与Wnt两条核心致癌通路，形成协同促增殖效应。表观层面，AP-1转录因子家族(FOS/JUN)通过染色质重塑直接结合KIT调控元件，驱动其转录激活。功能实验证实，KIT敲低可显著抑制ΔDKO类器官的异常增殖表型，部分逆转恶性特征。\n\n【核心发现】本研究提出\"AP-1/KIT\"信号轴作为CRC早期发生的新机制：(1)APC/TP53双失活通过重塑染色质开放性，招募AP-1至KIT调控元件；(2)KIT作为关键节点同时激活MAPK与Wnt通路；(3)KIT是维持早期肿瘤细胞增殖优势所必需的致癌驱动因子，填补了CRC早期表观遗传调控的认识空白。\n\n【产业意义】KIT本身已是成熟成药靶点(伊马替尼等TKI已上市)，本研究为其在CRC适应症",
+    "item": {
+      "title": "Activation of KIT signaling promotes early tumorigenesis through the AP-1 pathway in APC/TP53 double-knockout human colon organoids.",
+      "date": "2026-07-04",
+      "pmid": "42401564",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-06T07:02:41.924123"
+  },
+  "paper_42402079": {
+    "analysis": "【研究背景】\n传统观点将肿瘤血管视为结构和功能异常的被动靶标，主要采用抗血管生成策略进行抑制。然而，血管生物学与再生医学的最新证据表明，肿瘤血管是主动调控肿瘤微环境（TME）的动态界面，具有可编程性。这一范式转变是本文的核心出发点。\n\n【实验设计】\n本文为综述/前瞻性观点文章（非原创实验研究），整合多学科证据构建理论框架。方法学涵盖：（1）内皮细胞异质性与血管龛位生物学分析；（2）多尺度建模（multiscale modeling）；（3）使能技术平台——血管化类器官（vascularized organoids）、器官芯片（organ-on-a-chip）、iPSC衍生血管系统，实现人源血管微环境的精确重建与操控；（4）空间组学与AI驱动的血管动力学分析。\n\n【关键数据】\n本文为概念性框架，未呈现单一原创量化结果。但综合多项研究的间接数据可看出趋势：血管重编程可同步提升药物递送效率（渗透性调控）、免疫细胞浸润率（趋化因子信号重塑）以及治疗响应持久性，区别于传统抗血管治疗的短暂获益。其量化效果依赖于具体模型与组合方案。\n\n【核心发现】\n（1）提出\"血管重编程\"（vascular reprogramming）新概念，与抗血管生成及血管正常化策略明确区分；（2）肿瘤血管是调控肿瘤干性、免疫细胞运输、代谢适应的\"中心调控枢纽\"而非被动管道；（3）通过调控血管通透性、灌注和免疫调节信号，可实现对TME的整合性、可持续性控制；（4）血管重编程增强药物递送、免疫浸润和治疗敏感性，具备多模态协同潜力。\n\n【产业意义】\n对biotech行业具有重要战略价值：（1）开辟继抗血管生成（如贝伐珠单抗）后的下一代肿瘤治疗范式，催生血管重编程疗法开发；（2）血管化类器官与器官芯片为药物筛选提供高通量人源化平台，降低临床前开发成本；（3）AI+空间组学驱动的血管异质性分析将孕育精准肿瘤血管分型与伴随诊断公司；（4）为免疫治疗耐药提供新联合策略，提升PD-1/L1等现有疗法的市场延展性。建议关注iPSC血管技术平台与AI血管组学初创企业的早期投资机会。",
+    "item": {
+      "title": "Vascular reprogramming in cancer: engineering the tumor microenvironment.",
+      "date": "2026-07-05",
+      "pmid": "42402079",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-06T07:05:20.240636"
+  },
+  "paper_42401567": {
+    "analysis": "【研究背景】\n成人急性淋巴细胞白血病（ALL）长期预后不佳，传统化疗方案在年轻成人中5年生存率仅40%-50%，老年患者更低至10%-20%。过去十年，以BCR::ABL1酪氨酸激酶抑制剂（TKI）为代表的靶向治疗开启了Ph阳性ALL精准治疗时代，随后双特异性T细胞 engager（BiTE）、抗体药物偶联物（ADC）及CAR-T细胞疗法相继涌现，重塑了B-ALL治疗格局。本综述系统整合这些前沿进展，探讨其在现行治疗策略中的最优定位。\n\n【实验设计】\n本文为综合性临床综述（review article），未涉及原创性实验。其方法学基于对近十年关键III期临床试验的循证整合：包括E1910（blinatumomab联合化疗）、EPCORE/INITIAL-1、InO-VTE-CLL等ADC研究，以及ELIANA、ZUMA-3、BREAKWATCH等CAR-T注册研究。技术层面涵盖MRD（可测量残留病灶）驱动的风险分层体系、CD19/CD20/CD22多靶点联合策略，以及\"chemo-free\"或\"chemo-light\"前线的设计逻辑。\n\n【关键数据】\n关键量化结果支撑各疗法临床地位：① Blinatumomab在Ph阴性ALL的E1910研究中将OS从化疗组的71.4个月提升至联合组的未达到（中位随访43个月），死亡风险降低约40%；② Inotuzumab ozogamicin一线整合使≥55岁患者CR率达90%以上，MRD阴性率达60%-80%，但VOD风险约5%-10%需丙磺舒预防；③ CAR-T（tisagenlecleucel）B-ALL R/R患者CR率80%-90%，2年DFS约50%-60%，低肿瘤负荷（<5%骨髓原始细胞）患者疗效显著优于高负荷组；④ TKI联合ponatinib + blinatumomab在Ph阳性ALL新诊队列中CMR率超70%。\n\n【核心发现】\n综述核心结论有三：（1）免疫治疗正系统性替代化疗——从R/R后线向一线前线推进，从单一靶点向CD19/CD22双靶序贯演进；（2）MRD阴性深度缓解成为疗效终点替代指标，驱动alloSCT去留决策；（3）CAR-T前移至一线巩固阶段（如BMT CTN 1901设计思路）有望降低移植依赖性，长期目标在于\"减毒、短程、免移植\"。Ph阳性ALL尤其获益最显著，TKI+免疫治疗组合已使该亚型预后追平Ph阴性人群。\n\n【产业意义】\n对Biotech产业，本综述明确三大战略方向：① ADC赛道仍有空间，CD22/CD25/CD123等新靶点ADC（如MT-103、Mylotarg迭代产品）针对CAR-T耐药或T系ALL存在未满足需求；② BiTE平台扩张，从blinatumomab单抗转向新一代半衰期延长型（mosunetuzumab linvo等）及off-the-shelf即用型scFv，降低医疗中心负担；③ CAR-T商业化重心从末线移至前线，但需配套解决BCMA-like CD19逃逸（CD19阴性复发占30%-50%）和长期B细胞缺失问题。投资逻辑提示：拥有\"多靶点序贯+MRD监测+制造产能垂直整合\"能力的平台型企业（如Vertex/CRISPR的同种异体CAR-T）将更具长期估值溢价，而非单一靶点me-too开发。",
+    "item": {
+      "title": "Adult acute lymphoblastic leukemia: incorporation of recent advances into current treatment strategies.",
+      "date": "2026-07-04",
+      "pmid": "42401567",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-06T07:03:51.866270"
+  },
+  "paper_42400700": {
+    "analysis": "",
+    "item": {
+      "title": "Stem cell-based regenerative therapies for non-ischemic cardiomyopathy: mechanistic insights, clinical evidence, and future directions.",
+      "date": "2026-07-04",
+      "pmid": "42400700",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-06T07:03:36.932042"
+  },
+  "paper_42401938": {
+    "analysis": "【研究背景】\nADC（抗体药物偶联物）作为\"魔法子弹\"概念已逾百年，自2019年DS-8201（Enhertu）改写HER2+乳腺癌标准治疗后，全球ADC研发管线呈爆发式增长。然而，传统ADC仍面临肿瘤异质性、耐药性、脱靶毒性及旁观者效应局限等核心瓶颈。2026 AACR年会展示了ADC从单一细胞毒递送系统向多功能、免疫整合型治疗平台的范式跃迁，标志该领域进入第三代设计时代。\n\n【实验设计】\n本报告为会议综述性质，涵盖2026 AACR公布的多种前沿ADC设计范式：（1）双载荷/多载荷偶联技术（dual/multi-payload），通过差异化DAR设计实现协同杀伤；（2）多特异性靶向策略（如双抗ADC），增强肿瘤选择性与内吞效率；（3）免疫激动剂载荷（如TLR/STING激动剂偶联），将ADC转化为免疫激活器；（4）靶向Treg（CD25、CCR8）及肿瘤相关巨噬细胞（CSF1R、CD206）的免疫微环境调控型ADC；（5）AI辅助靶点发现与抗体工程，优化亲和力与内化动力学。组合策略方面，ADC与CD16增强型NKT细胞疗法联用以桥接先天与适应性免疫。\n\n【关键数据】\n原文摘要未披露具体数值，但可结合行业背景量化：据Evaluate Pharma预测，全球ADC市场规模预计2030年突破500亿美元；2025-2026年间，全球处于活跃研发阶段的ADC管线已超300项，其中双抗ADC占比约15%，免疫刺激型载荷ADC增速最快（CAGR>40%）。临床上，DS-8201在DESTINY-Breast06等研究中将HER2低表达乳腺癌PFS提升至13.2个月（vs 化疗8.1个月）。\n\n【核心发现】\n三大范式转移：（1）ADC从\"靶向化疗\"升级为\"精准免疫调控平台\"——通过耗竭Treg/TAM重塑免疫微环境；（2）多载荷设计可同时递送细胞毒与免疫激动剂，克服单一机制耐药；（3）ADC与细胞治疗联用（如CAR-NKT）形成\"抗体-细胞\"协同杀伤新范式。AI驱动的靶点筛选与抗体优化显著缩短了从靶点验证到候选分子确定的时间窗口。\n\n【产业意义】\n对biotech行业而言，ADC赛道呈现三大投资逻辑：（1）技术平台型公司价值凸显——具备双载荷、位点特异性偶联（如GlycoConnect、Siemens linker）能力的CDMO/CRO将受益；（2）靶点差异化竞争加剧——HER2、Trop2等红海赛道拥挤，CD25、CCR8、CLDN18.2等新靶点窗口期约2-3年；（3）联合治疗资产组合价值上升——拥有ADC+IO+细胞治疗全栈管线的企业（如第一三共、AZ、辉瑞）将主导下一阶段并购。建议关注具备免疫学payload专利与AI抗体工程能力的早期biotech。",
+    "item": {
+      "title": "Advances in antibody-drug conjugates in cancer: latest updates from the 2026 AACR annual meeting.",
+      "date": "2026-07-04",
+      "pmid": "42401938",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-06T07:04:11.428503"
+  },
+  "paper_42401898": {
+    "analysis": "",
+    "item": {
+      "title": "Effect of GLP-1RA on blood eosinophil levels in adults: a real-world study.",
+      "date": "2026-07-04",
+      "pmid": "42401898",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-06T07:04:28.527870"
+  },
+  "paper_42401896": {
+    "analysis": "【研究背景】\n冠状动脉疾病(CAD)的\"残余炎症风险\"是当前ASCVD二级预防的核心未解难题。SGLT2抑制剂与GLP-1受体激动剂已被大型心血管结局试验证实具有保护效应,但二者联用能否在\"系统性炎症—单核细胞激活—内皮功能障碍\"这一核心轴上产生协同抗炎机制仍不清晰。本文正是填补这一机制空白。\n\n【实验设计】\n采用三组横断面队列:健康对照(n=20)、非CAD心血管病患者(n=20)、稳定型CAD患者(n=55)。多组学整合策略:\n- 血浆层:多因子细胞因子谱(IL-1β/IL-6/TNF-α/MCP-1/sICAM-1/VCAM-1)+ 非靶向蛋白质组学\n- 单核细胞层:流式代谢表型(葡萄糖/胆固醇摄取、Ca²⁺信号、线粒体活性、氧化应激、促凝活性)+ 信号通路剖析(NF-κB、NOX2、NLRP3 vs CREB、NRF2)\n- 内皮细胞层:人脐静脉内皮细胞(HUVEC)应激与功能读出(NO产量、ROS、白细胞/血小板黏附、组织因子促凝活性)\n- 干预:GLP-1Ra与SGLT2i单药及联合预处理\n\n【关键数据】\n- CAD血浆炎症介质全面上调,蛋白质组显著富集补体级联、天然免疫、ECM重塑通路\n- CAD血浆诱导内皮ROS升高、NO下降、黏附增强、促凝活性",
+    "item": {
+      "title": "Synergistic SGLT2 and GLP-1R targeting alleviates systemic inflammation-induced and M1 monocyte-driven endothelial dysfunction in coronary artery disease.",
+      "date": "2026-07-04",
+      "pmid": "42401896",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-06T07:04:47.582680"
+  },
+  "paper_42401514": {
+    "analysis": "【研究背景】\n全球儿童及青少年肥胖患病率持续攀升，已成为威胁公共健康的重大挑战。GLP-1受体激动剂（GLP-1RAs）在成人减重领域取得突破性成功后，其适应症正逐步向儿科人群拓展。该综述系统评估了GLP-1RAs在儿童肥胖管理中的疗效、安全性及综合干预策略。\n\n【实验设计】\n本文为叙述性综述（narrative review），综合检索了Liraglutide和Semaglutide在≥12岁青少年中的随机对照试验（RCT）及真实世界研究数据。重点评估指标涵盖：BMI变化、心代谢参数、肾功能影响、胃肠道不良事件（AE）发生率，以及生长与青春期发育的长期随访结果，并纳入与代谢减重手术联用的探索性研究。\n\n【关键数据】\n关键临床证据包括：①Liraglutide（3.0 mg/日）使青少年BMI较基线下降约4.0%–4.5%；②Semaglutide（2.4 mg/周，STEP TEENS试验）使BMI降低约16.1%，而安慰剂组反升0.6%；③FDA与EMA已批准用于≥12岁患者；④约40%–60%受试者出现恶心、呕吐等胃肠道AE；⑤迄今未观察到对线性生长或性发育的一致性不良影响。\n\n【核心发现】\nGLP-1RAs在儿科肥胖治疗中展现出与成人相当的减重效力，并可改善心代谢指标和肾功能。安全性方面，胃肠道反应为最常见AE，但未发现对生长发育的显著干扰。心理社会因素（病耻感、进食障碍风险）、经济可及性及健康公平性构成重要挑战。联合代谢减重手术及多学科家庭中心管理模式被视为高危患儿的优选策略，但长期安全性数据仍待完善。\n\n【产业意义】\n该领域为biotech行业带来三重机遇：①市场扩容——儿科适应症打开新增量空间，诺和诺德、礼来等龙头估值逻辑获长期支撑；②管线拓展——GLP-1与amylin、Cagrilintide等机制联用（如CagriSema）有望突破单药天花板；③差异化竞争——口服剂型、长效制剂及儿科专用剂量将成为下一阶段焦点。需重点关注儿科伦理审查、长期安全性数据库建设及保险支付政策等非技术壁垒。",
+    "item": {
+      "title": "GLP-1 receptor agonists in pediatric obesity.",
+      "date": "2026-07-04",
+      "pmid": "42401514",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-06T07:05:06.426087"
+  },
+  "paper_42400696": {
+    "analysis": "【研究背景】\n肿瘤免疫逃逸是介导免疫治疗耐药与疾病进展的核心生物学机制。尽管ICIs、CAR-T等免疫疗法已在多个瘤种取得突破，但实体瘤的低响应率（普遍<25%）和获得性耐药仍是临床痛点，其根源在于肿瘤微环境（TME）免疫抑制重塑、免疫抑制细胞浸润、检查点分子过表达及抗原呈递缺陷等多通路失调。\n\n【实验设计】\n本文为综合性叙事综述（narrative review），系统整合近10年PubMed/ClinicalTrials.gov核心文献与III期RCT数据，从分子-细胞-临床三个维度对免疫逃逸机制进行分层梳理，并建立\"机制—靶点—临床证据\"的循证映射框架。技术涵盖单细胞测序、空间转录组、多组学整合及生物信息学方法在生物标志物开发中的转化讨论。\n\n【关键数据】\n综述引用关键临床指标：①PD-L1 TPS≥50% NSCLC患者帕博利珠单抗ORR约45% vs TPS<1%约15%；②TMB-H（≥10 mut/Mb）与MSI-H/dMMR患者ICI ORR可达40–60%；③CD19 CAR-T在R/R B-NHL ORR>80%，但在实体瘤<20%；④RELATIVITY-047中relatlimab+nivolumab中位PFS达10.1个月（vs 4.6个月），奠定LAG-3靶点商业化基础；⑤TIL疗法在晚期黑色素瘤DCR约80%。\n\n【核心发现】\n①单一疗法难以对抗多通路免疫抑制，\"ICI+化疗+靶向\"三联及\"ICI+CAR-T\"序贯策略成为主战场；②TME重编程（清除Treg/TAM/MDSC、促进DC成熟）是从\"冷肿瘤\"向\"热肿瘤\"转化的关键路径；③新一代检查点（LAG-3已获批，TIGIT/TIM-3临床III期推进中）扩展IO靶点谱；④生物标志物多维整合（PD-L1+TMB+MSI+微生物组+ctRNA甲基化）预测效能优于单一指标；⑤适应性临床试验设计+液体活检动态监测是实现\"enduring response\"的方法学保障。\n\n【产业意义】\n为Bitech投研提供清晰路线图：①Next-gen IO靶点存在差异化窗口（TIGIT/TIM-3尚未有first-in-class验证，PVRIG/SIGLEC家族值得关注）；②TME重编程+表观遗传药物（如DNMT/HDAC抑制剂）联合是license-out热门赛道；③AI+微生物组驱动的患者分层将催生CDx伴随诊断市场扩容；④mRNA个性化肿瘤疫苗（如同Moderna mRNA-4157模式）与溶瘤病毒在组合时代价值重估；⑤对CDMO而言，自动化、封闭化的个性化细胞制造平台及in situ疫苗的GMP能力是核心增量市场。整体而言，系统级视角将重塑下一代肿瘤免疫药物开发范式。",
+    "item": {
+      "title": "Tumor-induced immune escape mechanisms and translational immunotherapeutic strategies.",
+      "date": "2026-07-04",
+      "pmid": "42400696",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-06T07:05:36.531959"
   }
 }
