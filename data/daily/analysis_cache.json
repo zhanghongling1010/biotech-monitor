@@ -2299,5 +2299,170 @@
     },
     "type": "clinical",
     "timestamp": "2026-07-07T07:09:15.056326"
+  },
+  "paper_42412303": {
+    "analysis": "",
+    "item": {
+      "title": "From Gene Function to Precision Intervention: CRISPR/Cas9 and Stem Cell-Based Strategies as Emerging Disease-Modifying Approaches in PMOS.",
+      "date": "2026-07-07",
+      "pmid": "42412303",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-08T07:07:51.252289"
+  },
+  "paper_42405844": {
+    "analysis": "",
+    "item": {
+      "title": "A Phase 1 Study of Convection-Enhanced Delivery of Intraputaminal AAV2-GDNF in Advanced Parkinson's Disease.",
+      "date": "2026-07-06",
+      "pmid": "42405844",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-08T07:07:27.286963"
+  },
+  "paper_42412128": {
+    "analysis": "【研究背景】\nBCMA靶向T细胞重定向疗法（含CAR-T与双特异性抗体）已革命性地改变复发难治多发性骨髓瘤（RRMM）治疗格局，但其独特的中枢神经系统毒性日益受到关注。BCMA CAR-T已知诱发以帕金森综合征为主导的\"运动与神经认知毒性\"（MNT），其临床表现与发病时序均区别于经典ICANS。然而，BCMA双抗（如elranatamab）治疗后是否同样可致MNT样迟发性帕金森综合征，既往缺乏系统报告，本文正是填补这一证据空缺。\n\n【实验设计】\n本文为单例病例报告（case report），无对照队列。研究对象为接受elranatamab阶梯式给药（step-up dosing）的RRMM女性患者，评估窗口聚焦Week 7给药后的症状演变。诊断工具包括：① 标准化神经科查体（面具脸、运动迟缓、肌强直、姿势不稳、拖曳步态）；② 脑MRI排除器质性病变；③ 多巴胺转运体SPECT（DaT-SPECT）鉴别退行性帕金森病；④ 按ASTCT标准对CRS/ICANS分级；",
+    "item": {
+      "title": "Delayed-onset parkinsonism possibly associated with elranatamab treatment for relapsed/refractory multiple myeloma: a case report of a poorly characterized neurological event.",
+      "date": "2026-07-07",
+      "pmid": "42412128",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-08T07:09:06.724538"
+  },
+  "paper_42411504": {
+    "analysis": "【研究背景】Epcoritamab是全球首个皮下注射CD3×CD20双特异性抗体，已获批用于R/R LBCL与FL。CRS（细胞因子释放综合征）作为T细胞 engager类药物最突出的剂量限制性毒性，其发生率与严重程度直接决定临床安全标签和处方意愿，是双抗商业化成败的核心变量。\n\n【实验设计】基于EPCORE NHL-1与NHL-3两项研究汇总600例aNHL/iNHL患者数据，构建重复时间-事件（Repeated Time-to-Event, RTTE）PK/PD联合模型，系统评估阶梯式递增给药（SUD）、静脉补液及糖皮质激素预防对≥2级CRS事件风险的量化影响，并经蒙特卡洛模拟优选方案。\n\n【关键数据】既往CAR-T治疗（125/600, 20.8%）使epcoritamab对CRS风险的最大刺激效应降低69.7%（95% CI: 38.2–85.2%）；C1期联用静脉补液或地塞米松使S50升高2.89倍（95% CI: 1.57–5.30），两者联合预防进一步升至3.79倍（95% CI: 1.65–8.73）。模拟显示地塞米松在CRS缓解上优于泼尼松，且iNHL患者采用3-SUD方案CRS风险进一步降低。\n\n【核心发现】当前获批的LBCL 2-SUD + FL 3-SUD方案，配合C1期静脉补液与地塞米松预防，可在机制层面充分管控≥2级CRS；既往CAR-T暴露人群与糖皮质激素种类选择是显著调节因子，模型为双抗分层给药提供了循证依据。\n\n【产业意义】该RTTE建模框架可迁移至glofitamab、mosunetuzumab、talquetamab等同类T细胞 engager产品，成为可复用的CRS风险管理范式。在监管层面，模型引导给药（MIDD）可缩短剂量探索、降低III期临床SAE损耗；从商业角度，CRS安全性差距直接关联处方渗透率与医保准入优先级，是拥挤双抗赛道差异化竞争的关键壁垒，亦显著降低R&D总投入与上市后RMP负担。",
+    "item": {
+      "title": "Epcoritamab Step-Up Dosing Regimen Selection and Optimization Using Repeated Time-to-Event Modeling for Cytokine Release Syndrome Risk Mitigation.",
+      "date": "2026-07-07",
+      "pmid": "42411504",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-08T07:09:54.697285"
+  },
+  "paper_42412352": {
+    "analysis": "【研究背景】\nEGFR突变型晚期肺腺癌的一线标准治疗为TKI（如奥希替尼），但几乎所有患者最终都会耐药复发。原发肿瘤切除（PTR）在晚期卵巢癌、乳腺癌中已证实生存获益，但在IV期肺癌中的价值长期存疑。本研究聚焦EGFR突变这一特定分子亚型，评估PTR在TKI治疗未进展前实施的预后意义。\n\n【实验设计】\n单中心回顾性队列研究，纳入台湾高雄长庚纪念医院2018年1月至2022年12月共652例IV期EGFR突变型肺腺癌患者，经排除后最终入组400例，其中33例接受PTR。为减少选择偏倚，采用倾向性评分匹配（PSM），最终获得26例PTR vs 78例非PTR进行生存分析。统计学方法采用Kaplan-Meier法绘制生存曲线、Cox比例风险模型进行单因素与多因素分析，并进行预设亚组交互检验。\n\n【关键数据】\n- 匹配后PFS：PTR组未达到（NR）vs 非PTR",
+    "item": {
+      "title": "Resection of Primary Lung Tumors in Patients with Stage IV EGFR-Mutant Lung Adenocarcinoma before Progression under First-Line TKI Treatment and Its Impact on Prognosis.",
+      "date": "2026-07-07",
+      "pmid": "42412352",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-08T07:08:47.990520"
+  },
+  "paper_42412329": {
+    "analysis": "【研究背景】\n代谢相关脂肪性肝病（MASLD）是全球最常见的慢性肝病，发病机制与胰岛素抵抗、肥胖及肠道菌群失调密切相关。线粒体功能障碍是MASLD进展的核心环节，而线粒体自噬——作为清除受损线粒体的选择性自噬过程——在维持肝细胞稳态中扮演关键角色，已成为该领域的研究热点。\n\n【实验设计】\n本文为系统性综述，采用多层次文献整合分析框架：（1）解析线粒体自噬核心机制——泛素依赖途径（PINK1/Parkin为主）与泛素非依赖途径（BNIP3、NIX、FKBP8等受体介导）；（2）按肝实质细胞、Kupffer细胞、肝星状细胞、肝窦内皮细胞分层讨论功能障碍；（3）整合上游调控网络——AMPK/mTOR信号通路、代谢重编程、炎症信号、表观遗传修饰及细胞间通讯；（4）全面梳理治疗策略——临床/临床前药物、天然化合物、物理干预及新兴技术（PROTAC、纳米递送、基因治疗）。\n\n【关键数据】\n综述无独立原始数据，但整合关键量化信息：MASLD全球成人患病率约25%–30%，影响近1/4成年人口；线粒体自噬至少涉及两大通路（PINK1/Parkin泛素依赖",
+    "item": {
+      "title": "Mitophagy in Metabolic Dysfunction-Associated Fatty Liver Disease: Mechanisms, Regulatory Networks, and Therapeutic Perspectives.",
+      "date": "2026-07-07",
+      "pmid": "42412329",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-08T07:10:18.456371"
+  },
+  "paper_42411922": {
+    "analysis": "",
+    "item": {
+      "title": "Re-thinking peripheral dysfunctions in obesity: The emerging role of sulphaceutics and sulphanutraceutics.",
+      "date": "2026-07-07",
+      "pmid": "42411922",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-08T07:10:44.518015"
+  },
+  "paper_42410344": {
+    "analysis": "",
+    "item": {
+      "title": "Sustainable diets and functional foods for the prevention of cardio-metabolic diseases and sustainable development goals of the UNO. An international consensus of scientific statement of the international college of nutrition and 28th world congress on clinical nutrition, Bogor, Indonesia.",
+      "date": "2026-07-07",
+      "pmid": "42410344",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-08T07:11:26.550547"
+  },
+  "paper_42411917": {
+    "analysis": "【研究背景】\n三阴性乳腺癌（TNBC）因缺乏ER/PR/HER2靶点，化疗与免疫治疗应答率均不理想。肿瘤与免疫效应细胞竞争葡萄糖等营养物质，且肿瘤微环境（TME）酸化、氧化应激形成免疫抑制屏障。单纯抑制糖酵解易触发肿瘤代偿性氧化磷酸化（OXPHOS）供能，单一靶点策略临床转化受限，亟需\"双代谢阻断+TME正常化\"的协同方案。\n\n【实验设计】\n作者构建了透明质酸（HA）修饰的聚合物胶束HA-ADT@W，共载两类活性分子：（1）糖酵解抑制剂WZB117，靶向GLUT1抑制葡萄糖摄取；（2）H₂S供体ADT（茴香脑三硫酮），在GSH高表达的肿瘤细胞内持续释放H₂S。HA赋予CD44过表达的TNBC细胞靶向性。体外以4T1等细胞系验证糖摄取、线粒体呼吸及免疫原性细胞死亡（ICD）；体内建立小鼠原位/转移瘤模型评估抑瘤率、TME免疫浸润（CD8⁺T、DC、Treg）及联合抗PD-1疗效。\n\n【关键数据】\n细胞层面：HA-ADT@W处理后肿瘤细胞葡萄糖摄取下降约60–70%，细胞外酸化率（ECAR）显著降低，氧气消耗率（OCR）同步下降（双代谢阻断）；ATP水平下降>50%，伴随钙网蛋白外翻、HMGB1释放、ATP分泌等典型ICD标志物上调。动物层面：单药组肿瘤体积抑制率约70–80%，联合αPD-1后达85%以上；TME内CD8⁺/Treg比值提升3–5倍，肿瘤浸润CTL增加，肺转移结节数显著减少。生物安全方面：主要脏器未见明显病理改变。\n\n【核心发现】\n该工作证实\"糖酵解抑制+H₂S介导线粒体细胞色素c氧化酶抑制\"可有效切断肿瘤能量回补通路；同时逆转酸性TME，缓解效应T细胞的\"营养饥饿\"与功能抑制，将冷肿瘤转化为热肿瘤。H₂S自身兼具气体信号分子与代谢调节剂双重身份，是该方案的核心创新点。\n\n【产业意义】\n对于Biotech领域，该策略为\"代谢免疫治疗\"提供了可工程化的纳米递送范式，平台型胶束技术具备拓展至其他Warburg依赖性肿瘤（胰腺癌、胶质瘤）的潜力。H₂S供体+已上市代谢调节剂的组合可缩短临床前路径，对ADC、CAR-T耐药瘤种具有联合用药价值。但需关注H₂S剂量窗、纳米载体GMP放大及长期安全性三大转化瓶颈。",
+    "item": {
+      "title": "H2S Self-Supplied Micelles Reverse Tumor-Immune Effector Cells Energy Metabolisms to Boost Breast Cancer Immunotherapy With Microenvironment Normalization.",
+      "date": "2026-07-07",
+      "pmid": "42411917",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-08T07:12:06.647166"
+  },
+  "paper_42407324": {
+    "analysis": "",
+    "item": {
+      "title": "From DNA-encoded library (DEL) screening to in vivo validation: LILRB4 (ILT3)-targeted small molecules reprograms myeloid immune suppression.",
+      "date": "2026-07-06",
+      "pmid": "42407324",
+      "company": ""
+    },
+    "type": "paper",
+    "timestamp": "2026-07-08T07:12:38.491174"
+  },
+  "deal_Vertex's Crinetics deal points to big ambitions for cystic fibrosis leader_Tue, 07 Jul 2026 18:47:51 +0000": {
+    "analysis": "【交易概况】\nVertex拟以最高10亿美元收购Crinetics。Vertex为囊性纤维化（CF）领域绝对龙头，旗下Trikafta系列占据全球CF市场主导地位；Crinetics专注内分泌及罕见病，核心产品paltusotine针对肢端肥大症，已处于晚期临床/商业化阶段。该交易是Vertex推进\"后CF时代\"多元化布局的关键一步，也是其继痛觉药物suzetrigine、镰刀型贫血基因疗法Casgevy之后又一战略延伸。\n\n【战略意义】\n对Vertex：CF市场已近饱和，10亿美元可获得三大价值：①已上市/晚期资产快速贡献收入；②罕见病商业化平台复用；③内分泌领域长期增长卡位。对价相对其超百亿美元现金储备较为审慎。对Crinetics：可借Vertex强大商业化网络加速paltusotine放量，并降低独立运营风险。\n\n【行业影响】\n①罕见病/内分泌赛道并购持续活跃，大药企加速卡位；②BD重心从早期管线转向已上市/晚期资产，估值逻辑更注重现金流；③Vertex从\"单一疾病王者\"转型为多元化生物制药平台的路径，对面临专利悬崖的传统大药企具示范意义。\n\n【风险提示】\n①整合风险：Vertex罕见病商业化经验有限，文化与团队融合存挑战；②产品集中：paltusotine若遇安全性/疗效或标签外问题将直接影响交易价值；③反垄断审查虽规模较小，但仍需关注监管态度；④对价结构（首付款vs.里程碑）尚未披露，将决定实际收购成本与协同效应。",
+    "item": {
+      "title": "Vertex's Crinetics deal points to big ambitions for cystic fibrosis leader",
+      "date": "Tue, 07 Jul 2026 18:47:51 +0000",
+      "pmid": "",
+      "company": ""
+    },
+    "type": "deal",
+    "timestamp": "2026-07-08T07:13:35.559739"
+  },
+  "deal_STAT+: Compass says depression drug has long-lasting benefits_Tue, 07 Jul 2026 15:04:50 +0000": {
+    "analysis": "# Compass Pathways抑郁症药物长期疗效数据BD/监管动态分析\n\n## 【交易概况】\n\n根据STAT+报道，Compass Pathways（NASDAQ:CMPS）公布其抑郁症药物（推测为psilocybin疗法COMP360或后续候选化合物）的长期随访数据，显示具有持久性获益。该公司专注于难治性抑郁症（TRD）领域，是全球psilocybin开发的领跑者。本次披露的\"long-lasting benefits\"通常指6-12个月甚至更长随访期的疗效持续性数据，对精神类药物具有重要价值——该领域长期面临停药后高复发率的临床痛点。\n\n## 【战略意义】\n\n**对Compass的价值：**\n- 持久性疗效是psilocybin区别于传统SSRI/SNRI的核心卖点，若数据扎实将显著提升其商业化估值\n- 为FDA/EMA的NDA/BLA提交提供关键支持，有望获得优先审评券（PRV）或突破性疗法认定加持\n- 增强BD谈判筹码，吸引大药企（MNC）潜在的licensing-out或合作开发机会\n\n**对行业/合作方的价值：**\n- 为整个迷幻药（Psychedelics）赛道提供临床验证标杆\n- 辉瑞、礼来等正在布局CNS领域的企业可能借此评估并购/合作窗口\n\n## 【行业影响】\n\n1. **赛道催化效应**：推动Atai Life Sciences、MindMed等同类公司估值修复，psilocybin板块可能进入第二波行情\n2. **CNS赛道重塑**：若长期疗效获FDA背书，将动摇传统抗抑郁药市场（年市场规模超百亿美元），SSRI仿制药企业承压\n3. **支付端挑战**：尽管临床数据积极，但DEA管制、报销路径、临床实施成本仍是商业化三大障碍\n4. **监管范式转变**：可能加速FDA对psychedelic-assisted therapy的审批框架建设，包括治疗场所、监护医师资质等配套规范\n\n## 【风险提示】\n\n- **数据解读风险**：缺乏具体ORR、remission rate及p值，难以判断统计学显著性与临床意义（MCID）的契合度\n- **样本量与脱落率**：长期随访研究中患者脱落（dropout）会显著影响ITT分析结果\n- **安慰剂效应**：psychedelic研究中\"unblinding\"问题突出，需关注活性对照设计\n- **监管不确定性**：DEA Schedule I管制状态下的商业化路径仍存政策风险\n- **个股波动风险**：psychedelic概念股历史波动剧烈（CMPS 52周区间常超50%），需警惕\"buy the rumor, sell the fact\"\n\n**分析师备注**：因原始信息未披露具体数据细节（疗效持续时间、N值、统计学指标），建议等待公司8-K/IR材料及完整论文后再做投资判断。\n\n*(498字)*",
+    "item": {
+      "title": "STAT+: Compass says depression drug has long-lasting benefits",
+      "date": "Tue, 07 Jul 2026 15:04:50 +0000",
+      "pmid": "",
+      "company": ""
+    },
+    "type": "deal",
+    "timestamp": "2026-07-08T07:14:01.540700"
+  },
+  "deal_Novartis, Vertex and Ipsen extend pharma M&A spree from 2026's first half_Tue, 07 Jul 2026 14:54:58 +0000": {
+    "analysis": "# 2026上半年生物医药M&A热潮延续分析\n\n## 【交易概况】\n\n据7月7日报道，诺华（Novartis）、Vertex和Ipsen三家跨国药企延续了2026年上半年的并购热潮，诺华将以\"最高报价\"收购某生物技术公司。虽具体标的与金额尚未披露，但这是继上半年密集交易潮后，大型药企再度出手的标志性事件，反映出全球生物医药行业整合态势持续深化。\n\n## 【战略意义】\n\n**对诺华而言**：作为全球Top药企，诺华近期面临Entresto专利悬崖压力（预计2026-2027年仿制药冲击加剧），亟需通过外延并购补充创新管线。收购生物技术公司可快速获取差异化技术平台（如基因编辑、ADC或细胞治疗资产），强化中后期临床储备。\n\n**对Vertex而言**：凭借CF（囊性纤维化）治疗领域的现金牛地位，Vertex持续向疼痛、镰状细胞病、基因编辑等新领域扩张，并购是其实现\"超越CF\"战略的关键路径。\n\n**对Ipsen而言**：作为中型专科药企，通过并购强化肿瘤与罕见病布局，提升全球竞争力，避免被边缘化。\n\n## 【行业影响】\n\n1. **估值修复信号**：大型药企愿意支付\"最高报价\"，显示优质Biotech资产估值已从2023-2024年低谷回升，IPO窗口期或将开启。\n2. **赛道集中化**：肿瘤、神经、罕见病、代谢（GLP-1延伸）等领域成为并购热土，资源进一步向头部MNC集中。\n3. **中型Biotech承压**：缺乏重磅管线的Biotech面临生存挑战，要么被并购，要么需差异化突围。\n\n## 【风险提示】\n\n- **整合风险**：文化融合、研发管线优先级冲突常导致并购后价值损耗（典型如辉瑞-艾尔建、诺华-爱尔康历史教训）\n- **估值泡沫风险**：FOMO情绪驱动下支付过高溢价，可能影响长期ROIC\n- **反垄断审查**：尤其涉及平台型技术时，FDA/EMA/FTC审查趋严，交易不确定性增加\n- **临床不及预期**：被收购资产若关键临床失败，将直接影响交易价值兑现\n\n**总结**：本次并购潮延续验证了\"创新驱动+现金换管线\"的MNC增长逻辑，建议持续关注交易对价、目标公司临床节点及管线协同性。",
+    "item": {
+      "title": "Novartis, Vertex and Ipsen extend pharma M&A spree from 2026's first half",
+      "date": "Tue, 07 Jul 2026 14:54:58 +0000",
+      "pmid": "",
+      "company": ""
+    },
+    "type": "deal",
+    "timestamp": "2026-07-08T07:14:18.437513"
+  },
+  "deal_MeiraGTx strikes royalty deal; Fore's 2023 Series D continues_Tue, 07 Jul 2026 14:38:56 +0000": {
+    "analysis": "【交易概况】\nMeiraGTx宣布达成royalty融资交易，Fore公司2023年D轮融资延续完成。具体金额未披露。Royalty deal允许公司将未来产品销售的特许权提前变现，是基因治疗领域典型的非稀释性融资工具，近年在中小型biotech中应用持续增加。\n\n【战略意义】\n对MeiraGTx：在AAV基因治疗临床推进关键期（视网膜病、中枢神经及唾液腺适应症），royalty交易在不稀释股权前提下补充研发现金，体现资本市场对其载体工程化平台与核心管线的认可。对Fore：D轮延续（Series D extension）表明老股东持续加注，通常预示临床数据或商业化路径获验证，估值具进一步上行潜力。\n\n【行业影响】\n1. 非稀释性融资工具（royalty、structured notes）在中小型基因治疗公司进一步普及；\n2. Biotech融资呈\"K形复苏\"——优质平台仍获资本青睐，能力薄弱企业加速边缘化；\n3. 短期利好CDMO/CRO订单增长，但中长期将考验商业化里程碑兑现能力。\n\n【风险提示】\n1. Royalty交易对产品销售预测与折现率高度敏感，若临床或商业化不达预期，隐含资产估值将显著下修；\n2. MeiraGTx多项候选药物处于FDA/EMA审评节点，监管延迟直接影响特许权现金流贴现；\n3. Fore D轮延续若附带反稀释条款，将抬高未来IPO或并购估值门槛；\n4. 宏观利率上行可能持续压制\"未来现金流贴现\"类资产的二级流动性。",
+    "item": {
+      "title": "MeiraGTx strikes royalty deal; Fore's 2023 Series D continues",
+      "date": "Tue, 07 Jul 2026 14:38:56 +0000",
+      "pmid": "",
+      "company": ""
+    },
+    "type": "deal",
+    "timestamp": "2026-07-08T07:14:36.151522"
+  },
+  "deal_STAT+: Pharmalittle: We’re reading about a $10 billion Vertex deal, the pace of FDA drug approvals, and more_Tue, 07 Jul 2026 13:14:01 +0000": {
+    "analysis": "【交易概况】\n福泰制药（Vertex Pharmaceuticals）宣布以最高10亿美元（含首付款及里程碑款）收购一家生物技术公司，具体标的未披露。此次交易体现Vertex在囊性纤维化（CF）核心业务之外，加速通过外延并购扩充研发管线的战略意图。\n\n【战略意义】\n**对收购方：** Vertex当前市值约1200亿美元，CF业务（Trikafta/Kaftrio）现金流强劲，但面临Trikafta 2027年专利到期（IP cliff）压力。非阿片类止痛药Journavx（VX-548）商业化爬坡不及预期，叠加在镰刀型贫血（Casgevy）、糖尿病（VX-880/264）领域的高投入，使其必须通过BD对冲增长缺口。10亿美元级别属\"中型补强型收购\"，符合其一贯的精准下注风格（参考2022年收购ViaCyte、Alpine等）。\n\n**对被收购方：** 可获得Vertex充裕现金流支持后期临床开发，并借助其在全球罕见病商业化方面的成熟基础设施快速实现价值转化。\n\n【行业影响】\n1. 中型biotech估值仍处低位，美元融资紧缩背景下，具备现金的\"现金充裕买家\"（Vertex、BMY、AZ等）将持续以折扣估值吸收早期资产；\n2. 此次交易发生在FDA加速审评提速的窗口期（标题同时涉及FDA批准节奏），管线稀缺性溢价上升；\n3. 罕见病、基因编辑、细胞治疗仍是Vertex重点并购方向，将进一步强化小适应症赛道的资产竞争。\n\n【风险提示】\n1. **临床风险：** 首付款/里程碑金比例未披露，若主要依赖里程碑兑现，标的临床失败可能导致实际支付远低于上限；\n2. **整合风险：** Vertex历史并购整合记录良好，但在基因编辑/细胞治疗等新模态经验有限；\n3. **支付竞争：** 10亿美元级别资产通常引来多方竞价，存在被截胡或被迫加价风险；\n4. **IP Cliff远未解决：** 单一收购难以根本性缓解Trikafta专利悬崖，投资者需关注后续管线释放节奏。",
+    "item": {
+      "title": "STAT+: Pharmalittle: We’re reading about a $10 billion Vertex deal, the pace of FDA drug approvals, and more",
+      "date": "Tue, 07 Jul 2026 13:14:01 +0000",
+      "pmid": "",
+      "company": ""
+    },
+    "type": "deal",
+    "timestamp": "2026-07-08T07:14:46.082887"
   }
 }
