@@ -1,8 +1,11 @@
 // ===== Configuration =====
 const CONFIG = {
+    // GitHub Pages CDN 有 1-5 分钟缓存延迟
+    // 同时加载 GitHub Pages 和 raw.githubusercontent.com（无缓存），对比后用最新的
     dataUrl: 'data/daily/latest.json',
+    rawDataUrl: 'https://raw.githubusercontent.com/zhanghongling1010/biotech-monitor/main/data/daily/latest.json',
+    rawAnalysisUrl: 'https://raw.githubusercontent.com/zhanghongling1010/biotech-monitor/main/data/daily/analysis_cache.json',
     updateInterval: 300000,
-    // Use local proxy server: python3 proxy.py
     proxyUrl: 'http://localhost:3000'
 };
 
@@ -14,11 +17,27 @@ let serverCache = null; // 服务器端预生成的缓存
 // 加载服务器端预生成的缓存
 async function loadServerCache() {
     if (serverCache) return serverCache;
+    // 优先从 raw.githubusercontent.com 加载（绕过 GitHub Pages CDN 缓存）
     try {
-        const response = await fetch('data/daily/analysis_cache.json');
+        const response = await fetch(CONFIG.rawAnalysisUrl + '?t=' + Date.now(), {
+            cache: 'no-store'
+        });
         if (response.ok) {
             serverCache = await response.json();
-            console.log(`Loaded ${Object.keys(serverCache).length} pre-computed analyses`);
+            console.log(`Loaded ${Object.keys(serverCache).length} pre-computed analyses (raw)`);
+            return serverCache;
+        }
+    } catch (e) {
+        console.log('Raw cache fetch failed, trying GitHub Pages:', e.message);
+    }
+    // 回退到 GitHub Pages
+    try {
+        const response = await fetch('data/daily/analysis_cache.json?t=' + Date.now(), {
+            cache: 'no-store'
+        });
+        if (response.ok) {
+            serverCache = await response.json();
+            console.log(`Loaded ${Object.keys(serverCache).length} pre-computed analyses (pages)`);
         }
     } catch (e) {
         console.log('No server cache available');
@@ -190,10 +209,41 @@ function initCompanyTabs() {
 
 // ===== Data Loading =====
 async function loadData() {
+    // 优先从 raw.githubusercontent.com 加载（无 CDN 缓存，立即同步最新数据）
+    // GitHub Pages CDN 会有 1-5 分钟延迟
+    let data = null;
+    let source = 'unknown';
+
     try {
-        const response = await fetch(CONFIG.dataUrl);
-        if (!response.ok) throw new Error('Network response was not ok');
-        allData = await response.json();
+        const response = await fetch(CONFIG.rawDataUrl + '?t=' + Date.now(), {
+            cache: 'no-store'
+        });
+        if (response.ok) {
+            data = await response.json();
+            source = 'raw.githubusercontent.com';
+        }
+    } catch (e) {
+        console.log('Raw fetch failed, fallback to GitHub Pages:', e.message);
+    }
+
+    // 如果 raw 失败，回退到 GitHub Pages
+    if (!data) {
+        try {
+            const response = await fetch(CONFIG.dataUrl + '?t=' + Date.now(), {
+                cache: 'no-store'
+            });
+            if (response.ok) {
+                data = await response.json();
+                source = 'GitHub Pages';
+            }
+        } catch (e) {
+            console.error('Both sources failed:', e.message);
+        }
+    }
+
+    if (data) {
+        allData = data;
+        console.log(`Data loaded from: ${source}`);
 
         // 加载预生成的 AI 分析缓存
         await loadServerCache();
@@ -204,8 +254,8 @@ async function loadData() {
         renderPapersBySection(allData);
         renderCompanies();
         renderEarnings();
-    } catch (error) {
-        console.error('Failed to load data:', error);
+    } else {
+        console.error('Failed to load data from any source');
         loadSampleData();
     }
 }
