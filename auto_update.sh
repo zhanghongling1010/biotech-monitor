@@ -80,7 +80,9 @@ if [ $PUBMED_EXIT -eq 0 ] || [ $BD_EXIT -eq 0 ]; then
     if git push origin main >> "$LOG_FILE" 2>&1; then
         echo "[$(date '+%H:%M:%S')] 推送成功!" >> "$LOG_FILE"
     else
-        echo "[$(date '+%H:%M:%S')] 推送失败,将稍后重试" >> "$LOG_FILE"
+        echo "[$(date '+%H:%M:%S')] 推送失败,调用自愈脚本..." >> "$LOG_FILE"
+        # 调用自愈推送脚本（重试3次 + 飞书告警）
+        /bin/bash "$SCRIPT_DIR/auto_git_push.sh" >> "$LOG_FILE" 2>&1
     fi
 else
     echo "[$(date '+%H:%M:%S')] 抓取失败,跳过推送" >> "$LOG_FILE"
