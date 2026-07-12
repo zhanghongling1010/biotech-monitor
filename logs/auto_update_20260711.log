@@ -1,0 +1,274 @@
+========================================
+[2026-07-11 07:00:00] 开始自动更新
+========================================
+[07:00:00] 抓取PubMed论文...
+/Users/nnn_nice/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[07:00:01] 开始抓取PubMed数据...
+
+[gene_editing] 搜索中...
+  找到 30 篇
+  找到 30 篇
+  找到 2 篇
+
+[cell_therapy] 搜索中...
+  找到 30 篇
+  找到 30 篇
+  找到 30 篇
+
+[adc] 搜索中...
+  找到 30 篇
+  找到 13 篇
+
+[glp1] 搜索中...
+  找到 30 篇
+  找到 30 篇
+
+[io] 搜索中...
+  找到 30 篇
+  找到 8 篇
+
+[重点公司] 搜索中...
+  找到 18 篇公司相关
+
+数据已保存到: /Users/nnn_nice/scripts/biotech-monitor/scripts/../data/daily/2026-07-11.json
+
+完成!
+[07:00:54] PubMed抓取完成, 退出码: 0
+[07:00:54] 抓取BD新闻...
+/Users/nnn_nice/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[07:00:54] 开始抓取新闻...
+  [endpoints] 抓取RSS...
+    获取 24 条
+  [biospace] 抓取RSS...
+    错误: 404 Client Error: Not Found for url: https://www.biospace.com/rss/news/
+  [statnews] 抓取RSS...
+    获取 20 条
+
+总共获取 44 条原始新闻
+过滤后 22 条相关
+
+数据已保存: /Users/nnn_nice/scripts/biotech-monitor/scripts/../data/daily/news_2026-07-11.json
+
+统计:
+  BD交易: 3
+  临床进展: 2
+  监管动态: 0
+
+完成!
+[07:01:02] BD新闻抓取完成, 退出码: 0
+[07:01:02] 合并数据...
+[2026-07-11 07:01:02] 合并数据...
+数据已保存到: /Users/nnn_nice/scripts/biotech-monitor/scripts/../data/daily
+
+数据统计:
+  今日重点 - 交易: 4
+  今日重点 - 临床: 3
+  文献 - gene_editing: 64
+  文献 - cell_therapy: 84
+  文献 - adc: 44
+  文献 - glp1: 56
+  文献 - io: 61
+  公司: 15 国际 + 9 国内
+  财报: 0
+
+完成!
+[07:01:02] 数据合并完成, 退出码: 0
+[07:01:02] 递送系统专题扫描...
+/Users/nnn_nice/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+============================================================
+LNP / 体内递送系统专门扫描
+============================================================
+时间: 2026-07-11 07:01
+
+[lipid nanoparticle] 搜索: lipid nanoparticle mRNA delivery...
+  找到 PMID: 15
+
+[lipid nanoparticle] 搜索: lipid nanoparticle gene therapy...
+  找到 PMID: 15
+
+[lipid nanoparticle] 搜索: LNP in vivo CRISPR...
+  找到 PMID: 4
+
+[aav] 搜索: AAV gene therapy clinical...
+  找到 PMID: 15
+
+[aav] 搜索: adeno-associated virus vector 2026...
+  找到 PMID: 15
+
+[aav] 搜索: AAV manufacturing production...
+  找到 PMID: 4
+
+[exosome] 搜索: exosome drug delivery...
+  找到 PMID: 15
+
+[vlp] 搜索: virus-like particle VLP therapeutic...
+  找到 PMID: 0
+
+[nanoparticle] 搜索: nanoparticle targeted delivery gene...
+  找到 PMID: 15
+
+[electroporation] 搜索: electroporation in vivo CRISPR...
+  找到 PMID: 0
+
+[in_vivo] 搜索: gene therapy in vivo delivery 2026...
+  找到 PMID: 15
+
+[crispr_delivery] 搜索: CRISPR delivery therapeutic...
+  找到 PMID: 15
+
+============================================================
+📊 递送类型分布
+============================================================
+  NANOPARTICLE: 45 篇
+  OTHER: 32 篇
+  LNP: 30 篇
+  AAV: 27 篇
+  EXOSOME: 17 篇
+  ELECTROPORATION: 2 篇
+  VLP: 1 篇
+  LENTIVIRUS: 1 篇
+
+============================================================
+📚 找到 114 篇相关文章（展示前15）
+============================================================
+
+1. PMID:42379534 [lnp,nanoparticle]
+   Lipid nanoparticles for Cas9 ribonucleoprotein delivery: design and evaluation o
+   European journal of pharmaceutical sciences : official journal of the European Federation for Pharmaceutical Sciences | 2026 Jun 30
+
+2. PMID:42380600 [aav]
+   Improving the precision of AAV lung gene therapy for SP-B deficiency using compu
+   Gene therapy | 2026 Jun 30
+
+3. PMID:42377628 [aav]
+   Advances in neural organoids: structural organization, disease modeling, and app
+   Molecular biology reports | 2026 Jun 30
+
+4. PMID:42395946 [exosome,nanoparticle]
+   Quercetin Delivered by Mesenchymal Stem Cell-Derived Exosomes Improves Liver Fib
+   ACS omega | 2026 Jun 30
+
+5. PMID:42398422 [nanoparticle]
+   Engineering miRNA-223 nanocomplexes via bioorthogonal self-assembly for precisio
+   Biomaterials | 2026 Jun 30
+
+6. PMID:42379944 [other]
+   Precision gene editing: From proof-of-concept to curative therapies.
+   Trends in molecular medicine | 2026 Jun 30
+
+7. PMID:42371804 [aav]
+   One-stage Assay Factor VIII Activity Reflects AAV-Derived Factor VIII-Enhanced T
+   Blood | 2026 Jun 29
+
+8. PMID:42391835 [other]
+   Epigenetic regulation of non-apoptotic regulated cell death.
+   European journal of cell biology | 2026 Jun 29
+
+9. PMID:42374407 [other]
+   Engineered iMSCs delivering wild-type IL-2 achieve dose-sparing tumor control vi
+   BMC medicine | 2026 Jun 29
+
+10. PMID:41912135 [lnp,nanoparticle]
+   HOX code-based stratification reveals RUNX1T1-HDAC reprogramming as a targetable
+   Cancer letters | 2026 Jun 28
+
+11. PMID:42366709 [other]
+   Nanocarrier-Based Gene Delivery Systems: Mechanisms, Clinical Translation, and F
+   Biotechnology and bioengineering | 2026 Jun 28
+
+12. PMID:42373735 [aav]
+   Recent advancements in improving cross-species applicability of bioengineered AA
+   Gene therapy | 2026 Jun 27
+
+13. PMID:42395349 [aav]
+   Expression-linked promoter selection (ELiPS) engineers short, strong ubiquitous 
+   bioRxiv : the preprint server for biology | 2026 Jun 26
+
+14. PMID:42305144 [nanoparticle,lnp,aav]
+   Regenerative and molecular therapies for myocardial repair (Review).
+   Medicine international | 2026 Jul-Aug
+
+15. PMID:41791686 [lnp,exosome,nanoparticle]
+   RNA therapeutics 2.0: Expanding the landscape from mRNA vaccines to splicing mod
+   Biotechnology advances | 2026 Jul-Aug
+
+已保存: /Users/nnn_nice/scripts/biotech-monitor/data/daily/delivery_papers_20260711.json
+[07:01:53] 递送扫描完成
+[07:01:53] 预生成 AI 分析...
+/Users/nnn_nice/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+需要分析的项目: 20
+已有缓存: 240
+[1/20] paper_42430865...
+  ✓ 成功 (843 字)
+[2/20] paper_42430838...
+  ✓ 成功 (742 字)
+[3/20] paper_42430543...
+  ✓ 成功 (365 字)
+[4/20] paper_42428992...
+  ✓ 成功 (0 字)
+[5/20] paper_42425951...
+  ✓ 成功 (585 字)
+[6/20] paper_42425905...
+  ✓ 成功 (513 字)
+[7/20] paper_42428992...
+  ✓ 成功 (637 字)
+[8/20] paper_42429187...
+  ✓ 成功 (226 字)
+[9/20] paper_42430103...
+  ✓ 成功 (0 字)
+[10/20] paper_42430142...
+  ✓ 成功 (906 字)
+  [已保存进度]
+[11/20] paper_42429894...
+  ✓ 成功 (1148 字)
+[12/20] paper_42429274...
+  ✓ 成功 (801 字)
+[13/20] paper_42429317...
+  ✓ 成功 (1004 字)
+[14/20] paper_42429187...
+  ✓ 成功 (0 字)
+[15/20] paper_42425951...
+  ✓ 成功 (0 字)
+[16/20] deal_STAT+: ARPA-H launches $160 million effort to develop c...
+  ✓ 成功 (825 字)
+[17/20] deal_Eli Lilly dominates first-half biotech acquisitions, wi...
+  ✓ 成功 (808 字)
+[18/20] deal_GSK walks away from Alector pact as immuno-neurology be...
+  ✓ 成功 (1322 字)
+[19/20] clinical_Roche ends work on tominersen after decade of trial...
+  ✓ 成功 (100 字)
+[20/20] clinical_Hansoh meets Phase 3 SCLC goal; FDA approves Sanofi...
+  ✓ 成功 (6 字)
+  [已保存进度]
+
+完成: 成功 20, 失败 0
+缓存总数: 257
+已保存到: /Users/nnn_nice/scripts/biotech-monitor/scripts/../data/daily/analysis_cache.json
+[07:07:28] AI 预生成完成
+[07:07:28] 提交到Git...
+[main 50462c3] Auto update: 2026-07-11 07:07
+ Committer: nnn_nice <nnn_nice@nnn-nicedeMacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 19517 insertions(+), 19 deletions(-)
+ create mode 100644 data/daily/2026-07-11.json
+ create mode 100644 data/daily/delivery_papers_20260711.json
+ create mode 100644 data/daily/news_2026-07-11.json
+[07:07:29] 推送到GitHub...
+fatal: could not read Username for 'https://github.com': Device not configured
+[07:07:30] 推送失败,将稍后重试
+[07:07:30] 自动更新完成
+

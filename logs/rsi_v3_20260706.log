@@ -1,0 +1,46 @@
+/Users/nnn_nice/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+开始主升浪V3·收盘复盘版扫描...
+排除科创板(688)和创业板(300)
+大盘状态: 观察中
+  沪深300获取失败(1/3): HTTPSConnectionPool(host='oss-ch.csindex.com.cn', port=443): Max retries exceeded with url: /static/html/csindex/public/uploads/file/autofile/cons/000300cons.xls (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+  沪深300获取失败(2/3): HTTPSConnectionPool(host='oss-ch.csindex.com.cn', port=443): Max retries exceeded with url: /static/html/csindex/public/uploads/file/autofile/cons/000300cons.xls (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+  沪深300获取失败(3/3): HTTPSConnectionPool(host='oss-ch.csindex.com.cn', port=443): Max retries exceeded with url: /static/html/csindex/public/uploads/file/autofile/cons/000300cons.xls (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+  全市场获取失败(1/3): HTTPSConnectionPool(host='query.sse.com.cn', port=443): Max retries exceeded with url: /sseQuery/commonQuery.do?STOCK_TYPE=1&REG_PROVINCE=&CSRC_CODE=&STOCK_CODE=&sqlId=COMMON_SSE_CP_GPJCTPZ_GPLB_GP_L&COMPANY_STATUS=2%2C4%2C5%2C7%2C8&type=inParams&isPagination=true&pageHelp.cacheSize=1&pageHelp.beginPage=1&pageHelp.pageSize=10000&pageHelp.pageNo=1&pageHelp.endPage=1 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+  全市场获取失败(2/3): HTTPSConnectionPool(host='query.sse.com.cn', port=443): Max retries exceeded with url: /sseQuery/commonQuery.do?STOCK_TYPE=1&REG_PROVINCE=&CSRC_CODE=&STOCK_CODE=&sqlId=COMMON_SSE_CP_GPJCTPZ_GPLB_GP_L&COMPANY_STATUS=2%2C4%2C5%2C7%2C8&type=inParams&isPagination=true&pageHelp.cacheSize=1&pageHelp.beginPage=1&pageHelp.pageSize=10000&pageHelp.pageNo=1&pageHelp.endPage=1 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+  全市场获取失败(3/3): HTTPSConnectionPool(host='query.sse.com.cn', port=443): Max retries exceeded with url: /sseQuery/commonQuery.do?STOCK_TYPE=1&REG_PROVINCE=&CSRC_CODE=&STOCK_CODE=&sqlId=COMMON_SSE_CP_GPJCTPZ_GPLB_GP_L&COMPANY_STATUS=2%2C4%2C5%2C7%2C8&type=inParams&isPagination=true&pageHelp.cacheSize=1&pageHelp.beginPage=1&pageHelp.pageSize=10000&pageHelp.pageNo=1&pageHelp.endPage=1 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+使用备用股票列表
+共 44 只股票（排除科创板和创业板）
+  扫描第 1/1 批 (0-44)... 找到 0 只
+
+找到 0 只符合条件的股票
+🔔【主升浪V3·收盘复盘版】2026-07-06
+━━━━━━━━━━━━━━━━━━
+【市场概览】
+大盘状态：观察中
+
+【主要指数】
+
+【强势板块】
+  （数据获取失败）
+
+━━━━━━━━━━━━━━━━━━
+【选股扫描】V10优化版
+范围：沪市主板+深市主板（排除科创板、创业板）
+策略：主升浪V3·评分V10 | 止损：-8% | 止盈：+23%/+38%
+核心模式：低波动蓄势(VC<0.6) + 近20日高点(<0.5%) + 温和放量
+━━━━━━━━━━━━━━━━━━
+今日无符合条件的股票
+
+⚠️ 仅供参考，不构成投资建议
+💧=低波动蓄势(VC≤0.6) 🔥=近20日高点(距≤0.5%)
+扫描时间：2026-07-06 20:05:20
+
+❌ 推送失败: Config warnings:\n- plugins.entries.minimax-portal-auth: plugin not found: minimax-portal-auth (stale config entry ignored; remove it from plugins config)
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-aicodewith-auth (/Users/nnn_nice/.openclaw/extensions/openclaw-aicodewith-auth/index.ts). Set plugins.allow to explicit trusted ids.
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-aicodewith-auth (/Users/nnn_nice/.openclaw/extensions/openclaw-aicodewith-auth/index.ts). Set plugins.allow to explicit trusted ids.
+[sessions/store] session maintenance would evict active session; skipping enforcement
+[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: openclaw-aicodewith-auth (/Users/nnn_nice/.openclaw/extensions/openclaw-aicodewith-auth/index.ts). Set plugins.allow to explicit trusted ids.
+[plugins] openclaw-aicodewith-auth: loaded without install/load-path provenance; treat as untracked local code and pin trust via plugins.allow or install records (/Users/nnn_nice/.openclaw/extensions/openclaw-aicodewith-auth/index.ts)
+TypeError: Cannot destructure property 'tenant_access_token' of '(intermediate value)' as it is undefined.
+

@@ -1,0 +1,53 @@
+/Users/nnn_nice/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[10:00:01] 92科比盘中扫描开始（稳定化版）
+[10:00:04]   [网络] 股票列表: 300 只
+[10:00:06] 大盘RSI: 63.5
+[10:01:31]   重试 1/2: HTTPSConnectionPool(host='stock.finance.sina.com.cn', port=443): Max retries exceeded with url: /stock/api/jsonp.php/var%20KKE_ShareAmount_sz000651=/StockService.getAmountBySymbol?_=20&symbol=sz000651 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+[10:01:48]   重试 1/2: HTTPSConnectionPool(host='finance.sina.com.cn', port=443): Max retries exceeded with url: /realstock/company/sz000725/hisdata_klc2/klc_kl.js (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+[10:04:12]   扫描进度: 50/300...
+[10:06:16]   重试 1/2: 'date'
+[10:06:21]   重试 1/2: 'date'
+[10:06:25]   重试 1/2: 'date'
+[10:06:31]   重试 1/2: 'date'
+[10:06:35]   重试 1/2: 'date'
+[10:06:40]   重试 1/2: 'date'
+[10:06:45]   重试 1/2: 'date'
+[10:06:51]   重试 1/2: 'date'
+[10:06:55]   重试 1/2: 'date'
+[10:07:00]   重试 1/2: 'date'
+[10:07:05]   重试 1/2: 'date'
+[10:07:10]   重试 1/2: 'date'
+[10:07:15]   重试 1/2: 'date'
+[10:07:20]   重试 1/2: 'date'
+[10:07:25]   重试 1/2: 'date'
+[10:07:30]   重试 1/2: 'date'
+[10:07:35]   重试 1/2: 'date'
+[10:07:40]   重试 1/2: 'date'
+[10:07:45]   重试 1/2: 'date'
+[10:07:50]   重试 1/2: 'date'
+[10:07:54]   重试 1/2: 'date'
+[10:07:59]   重试 1/2: 'date'
+[10:08:04]   重试 1/2: 'date'
+[10:08:08]   重试 1/2: 'date'
+[10:08:12]   扫描进度: 100/300...
+[10:08:13]   重试 1/2: 'date'
+[10:08:19]   重试 1/2: 'date'
+[10:08:23]   重试 1/2: 'date'
+[10:08:28]   重试 1/2: 'date'
+[10:08:33]   重试 1/2: 'date'
+[10:08:38]   重试 1/2: 'date'
+[10:08:42]   重试 1/2: 'date'
+[10:08:48]   重试 1/2: 'date'
+[10:08:52]   重试 1/2: 'date'
+[10:08:58]   重试 1/2: 'date'
+[10:09:03]   重试 1/2: 'date'
+[10:12:52]   扫描进度: 150/300...
+[10:14:17]   重试 1/2: HTTPSConnectionPool(host='stock.finance.sina.com.cn', port=443): Max retries exceeded with url: /stock/api/jsonp.php/var%20KKE_ShareAmount_sh600547=/StockService.getAmountBySymbol?_=20&symbol=sh600547 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+[10:15:26]   重试 1/2: HTTPSConnectionPool(host='stock.finance.sina.com.cn', port=443): Max retries exceeded with url: /stock/api/jsonp.php/var%20KKE_ShareAmount_sh600803=/StockService.getAmountBySymbol?_=20&symbol=sh600803 (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2633)')))
+[10:17:16]   扫描进度: 200/300...
+[10:17:55]   重试 1/2: HTTPSConnectionPool(host='stock.finance.sina.com.cn', port=443): Max retries exceeded with url: /stock/api/jsonp.php/var%20KKE_ShareAmount_sh601127=/StockService.getAmountBySymbol?_=20&symbol=sh601127 (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2633)')))
+[10:20:15]   重试 1/2: [SSL: BLOCK_CIPHER_PAD_IS_WRONG] block cipher pad is wrong (_ssl.c:2633)
+[10:21:22]   扫描进度: 250/300...
+[10:25:18] 找到 2 个信号
+[10:25:31] 飞书推送: ✅

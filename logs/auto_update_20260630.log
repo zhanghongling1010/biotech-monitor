@@ -1,0 +1,279 @@
+========================================
+[2026-06-30 07:00:00] 开始自动更新
+========================================
+[07:00:00] 抓取PubMed论文...
+/Users/nnn_nice/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[07:00:00] 开始抓取PubMed数据...
+
+[gene_editing] 搜索中...
+  找到 30 篇
+  找到 30 篇
+  找到 8 篇
+
+[cell_therapy] 搜索中...
+  找到 30 篇
+  找到 30 篇
+  找到 30 篇
+
+[adc] 搜索中...
+  找到 30 篇
+  找到 12 篇
+
+[glp1] 搜索中...
+  找到 30 篇
+  找到 30 篇
+
+[io] 搜索中...
+  找到 30 篇
+  找到 11 篇
+
+[重点公司] 搜索中...
+  找到 21 篇公司相关
+
+数据已保存到: /Users/nnn_nice/scripts/biotech-monitor/scripts/../data/daily/2026-06-30.json
+
+完成!
+[07:00:50] PubMed抓取完成, 退出码: 0
+[07:00:50] 抓取BD新闻...
+/Users/nnn_nice/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[07:00:51] 开始抓取新闻...
+  [endpoints] 抓取RSS...
+    获取 24 条
+  [biospace] 抓取RSS...
+    错误: 404 Client Error: Not Found for url: https://www.biospace.com/rss/news/
+  [statnews] 抓取RSS...
+    获取 20 条
+
+总共获取 44 条原始新闻
+过滤后 19 条相关
+
+数据已保存: /Users/nnn_nice/scripts/biotech-monitor/scripts/../data/daily/news_2026-06-30.json
+
+统计:
+  BD交易: 8
+  临床进展: 1
+  监管动态: 1
+
+完成!
+[07:00:58] BD新闻抓取完成, 退出码: 0
+[07:00:58] 合并数据...
+[2026-06-30 07:00:59] 合并数据...
+数据已保存到: /Users/nnn_nice/scripts/biotech-monitor/scripts/../data/daily
+
+数据统计:
+  今日重点 - 交易: 9
+  今日重点 - 临床: 2
+  文献 - gene_editing: 70
+  文献 - cell_therapy: 91
+  文献 - adc: 44
+  文献 - glp1: 55
+  文献 - io: 65
+  公司: 15 国际 + 9 国内
+  财报: 0
+
+完成!
+[07:00:59] 数据合并完成, 退出码: 0
+[07:00:59] 递送系统专题扫描...
+/Users/nnn_nice/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+============================================================
+LNP / 体内递送系统专门扫描
+============================================================
+时间: 2026-06-30 07:00
+
+[lipid nanoparticle] 搜索: lipid nanoparticle mRNA delivery...
+  找到 PMID: 15
+
+[lipid nanoparticle] 搜索: lipid nanoparticle gene therapy...
+  找到 PMID: 12
+
+[lipid nanoparticle] 搜索: LNP in vivo CRISPR...
+  找到 PMID: 1
+
+[aav] 搜索: AAV gene therapy clinical...
+  找到 PMID: 15
+
+[aav] 搜索: adeno-associated virus vector 2026...
+  找到 PMID: 15
+
+[aav] 搜索: AAV manufacturing production...
+  找到 PMID: 3
+
+[exosome] 搜索: exosome drug delivery...
+  找到 PMID: 15
+
+[vlp] 搜索: virus-like particle VLP therapeutic...
+  找到 PMID: 5
+
+[nanoparticle] 搜索: nanoparticle targeted delivery gene...
+  找到 PMID: 15
+
+[electroporation] 搜索: electroporation in vivo CRISPR...
+  找到 PMID: 1
+
+[in_vivo] 搜索: gene therapy in vivo delivery 2026...
+  找到 PMID: 15
+
+[crispr_delivery] 搜索: CRISPR delivery therapeutic...
+  找到 PMID: 15
+
+============================================================
+📊 递送类型分布
+============================================================
+  NANOPARTICLE: 45 篇
+  OTHER: 28 篇
+  LNP: 28 篇
+  AAV: 22 篇
+  EXOSOME: 17 篇
+  VLP: 6 篇
+  LENTIVIRUS: 3 篇
+  ELECTROPORATION: 2 篇
+
+============================================================
+📚 找到 106 篇相关文章（展示前15）
+============================================================
+
+1. PMID:42348617 [nanoparticle]
+   HDAC inhibition sensitizes pancreatic tumors to DNA damage by global redistribut
+   Proceedings of the National Academy of Sciences of the United States of America | 2026 Jun 30
+
+2. PMID:42371804 [aav]
+   One-stage Assay Factor VIII Activity Reflects AAV-Derived Factor VIII-Enhanced T
+   Blood | 2026 Jun 29
+
+3. PMID:42370412 [other]
+   TNFR2 overexpression ameliorates allergic airway inflammation and restores immun
+   The Journal of asthma : official journal of the Association for the Care of Asthma | 2026 Jun 29
+
+4. PMID:42371791 [other]
+   Biodegradable Acoustic Targeting for Ultrasound-Supported Gene Therapy (BATUS) i
+   Advanced science (Weinheim, Baden-Wurttemberg, Germany) | 2026 Jun 29
+
+5. PMID:42371300 [other]
+   Decoy oligonucleotide technology in cancer therapy: molecular mechanisms, challe
+   Medical oncology (Northwood, London, England) | 2026 Jun 29
+
+6. PMID:42366405 [other]
+   Aptamer-functionalized tetrahedral framework nucleic acid delivery of siBhlhe22 
+   Journal of nanobiotechnology | 2026 Jun 29
+
+7. PMID:41912135 [lnp,nanoparticle]
+   HOX code-based stratification reveals RUNX1T1-HDAC reprogramming as a targetable
+   Cancer letters | 2026 Jun 28
+
+8. PMID:42366709 [other]
+   Nanocarrier-Based Gene Delivery Systems: Mechanisms, Clinical Translation, and F
+   Biotechnology and bioengineering | 2026 Jun 28
+
+9. PMID:42365126 [other]
+   Advances and clinical potential of epigenome editing.
+   Cellular and molecular life sciences : CMLS | 2026 Jun 27
+
+10. PMID:42364790 [other]
+   Reprogramming chronic wounds: the emerging role of microbiome-targeted therapies
+   International journal of pharmaceutics | 2026 Jun 27
+
+11. PMID:42364748 [other]
+   Targeting delivery systems with aptamer-conjugated hyaluronic acid for personali
+   International journal of biological macromolecules | 2026 Jun 27
+
+12. PMID:42363602 [other]
+   HSP90α-USP7-DNMT1 Axis Drives Hepatocellular Carcinoma Recurrence After Microwav
+   Molecular therapy : the journal of the American Society of Gene Therapy | 2026 Jun 27
+
+13. PMID:42363600 [lnp,nanoparticle]
+   Targeting vaccine fusion proteins to APCs increases immunogenicity of adenoviral
+   Molecular therapy : the journal of the American Society of Gene Therapy | 2026 Jun 26
+
+14. PMID:42362057 [lnp,nanoparticle]
+   Anti-PEG antibodies in nanomedicine: Mechanisms, risks, and opportunities.
+   Advanced drug delivery reviews | 2026 Jun 26
+
+15. PMID:42361911 [lnp,nanoparticle]
+   Oligo(ethylene glycol)-functionalized polycarbonate lipid nanoparticles for mRNA
+   Journal of controlled release : official journal of the Controlled Release Society | 2026 Jun 26
+
+已保存: /Users/nnn_nice/scripts/biotech-monitor/data/daily/delivery_papers_20260630.json
+[07:01:54] 递送扫描完成
+[07:01:54] 预生成 AI 分析...
+/Users/nnn_nice/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+需要分析的项目: 22
+已有缓存: 72
+[1/22] paper_42371991...
+  ✓ 成功 (1338 字)
+[2/22] paper_42371796...
+  ✓ 成功 (1317 字)
+[3/22] paper_42371756...
+  ✓ 成功 (1128 字)
+[4/22] paper_42371392...
+  ✓ 成功 (1249 字)
+[5/22] paper_42366973...
+  ✓ 成功 (0 字)
+[6/22] paper_42371897...
+  ✓ 成功 (680 字)
+[7/22] paper_42371826...
+  Attempt 1 failed: HTTP 500
+  ✓ 成功 (1258 字)
+[8/22] paper_42371780...
+  ✓ 成功 (205 字)
+[9/22] paper_42372355...
+  ✓ 成功 (702 字)
+[10/22] paper_42372344...
+  ✓ 成功 (1093 字)
+  [已保存进度]
+[11/22] paper_42371360...
+  ✓ 成功 (1748 字)
+[12/22] paper_42371299...
+  ✓ 成功 (345 字)
+[13/22] paper_42371791...
+  ✓ 成功 (1511 字)
+[14/22] paper_42371779...
+  ✓ 成功 (1514 字)
+[15/22] deal_STAT+: AstraZeneca to pay $34 million to settle kickbac...
+  ✓ 成功 (870 字)
+[16/22] deal_John Reed on J&J’s R&D model, oncology deals and pipeli...
+  ✓ 成功 (1277 字)
+[17/22] deal_STAT+: Unredacted comments from California hospital law...
+  ✓ 成功 (672 字)
+[18/22] deal_Biotech SPAC deal gets it to Nasdaq; AstraZeneca Phase ...
+  ✓ 成功 (980 字)
+[19/22] deal_STAT+: Talawar bets bispecific approach can shake up ec...
+  ✓ 成功 (828 字)
+[20/22] deal_Ipsen to buy blood cancer company Kartos Therapeutics f...
+  ✓ 成功 (0 字)
+  [已保存进度]
+[21/22] clinical_Biotech SPAC deal gets it to Nasdaq; AstraZeneca Ph...
+  ✓ 成功 (1005 字)
+[22/22] approval_FDA approves Viridian's eye drug, stoking competiti...
+  ✓ 成功 (1052 字)
+
+完成: 成功 22, 失败 0
+缓存总数: 94
+已保存到: /Users/nnn_nice/scripts/biotech-monitor/scripts/../data/daily/analysis_cache.json
+[07:09:10] AI 预生成完成
+[07:09:10] 提交到Git...
+[main 1497331] Auto update: 2026-06-30 07:09
+ Committer: nnn_nice <nnn_nice@nnn-nicedeMacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 15537 insertions(+), 7101 deletions(-)
+ create mode 100644 data/daily/2026-06-30.json
+ create mode 100644 data/daily/delivery_papers_20260630.json
+ create mode 100644 data/daily/news_2026-06-30.json
+[07:09:11] 推送到GitHub...
+fatal: could not read Username for 'https://github.com': Device not configured
+[07:09:12] 推送失败,将稍后重试
+[07:09:12] 自动更新完成
+
