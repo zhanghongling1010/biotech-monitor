@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-18T07:02:10.727930",
+  "timestamp": "2026-07-18T07:15:00.702833",
   "critical": {
     "deals": [
       {
@@ -52,7 +52,38 @@
         "priority": "normal"
       }
     ],
-    "research": []
+    "research": [
+      {
+        "title": "Harnessing Chlorella vulgaris-derived extracellular vesicles for potentiated cancer immunotherapy.",
+        "journal": "Biomaterials",
+        "date": "2026 Jul 9",
+        "authors": [
+          "Meng F",
+          "Zhang C",
+          "Ma Y"
+        ]
+      },
+      {
+        "title": "Redox-responsive LNPs for therapeutics delivery.",
+        "journal": "Advanced drug delivery reviews",
+        "date": "2026 Jul 9",
+        "authors": [
+          "Zhou Y",
+          "Lu N",
+          "Hasan MW"
+        ]
+      },
+      {
+        "title": "Epigenetic editing approaches maturity: AI-driven precision design, delivery innovation, and the road to clinical translation.",
+        "journal": "Clinical epigenetics",
+        "date": "2026 Jul 9",
+        "authors": [
+          "Chang S",
+          "Lu D",
+          "Jin Y"
+        ]
+      }
+    ]
   },
   "papers": {
     "gene_editing": [],
