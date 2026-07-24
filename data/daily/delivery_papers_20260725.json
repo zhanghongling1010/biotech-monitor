@@ -1,9 +1,9 @@
 {
   "date": "2026-07-25",
-  "timestamp": "2026-07-25T00:02:02.734512",
-  "count": 94,
+  "timestamp": "2026-07-25T07:01:47.375292",
+  "count": 95,
   "type_distribution": {
-    "aav": 25,
+    "aav": 26,
     "other": 17,
     "lnp": 28,
     "nanoparticle": 44,
@@ -669,8 +669,8 @@
       "date": "2026 Jul 18",
       "abstract": "Climate change intensifies abiotic stresses including salinity, drought, and extreme temperatures alongside biotic threats such as pathogens and insect pests, collectively undermining global crop productivity and food security. Salinity and drought alone affect 20-50% of irrigated soils, with projections indicating that nearly half of global farmland could become saline by mid-century. Conventional breeding and earlier genome editing tools zinc finger nucleases (ZFNs), and transcription activator-like effector nucleases (ZFNs, TALENs) are constrained by genetic diversity limitations, technical complexity, and slow trait deployment. The CRISPR-Cas9 system has emerged as a transformative platform offering superior precision, efficiency, scalability, and affordability for crop improvement. This review systematically examines how CRISPR-Cas9 enables targeted engineering of stress tolerance in major crops (rice, wheat, maize, tomato, barley) through gene knockout and knock-in strategies. Key applications include editing transcription factors (ART1, DRO1, OsDST) for drought and salinity tolerance, modifying transporter genes (OsHMA2, OsNramp5) for heavy metal detoxification, and disrupting susceptibility genes (MLO, OsERF922, CsLOB1) for broad-spectrum disease and pest resistance. Beyond direct editing, we highlight emerging synergies with functional genomics, multi-omics integration, and high-throughput phenotyping to accelerate target discovery and validation. A central focus is placed on nanobiotechnology-enabled CRISPR delivery systems, including lipid nanoparticles (LNPs), exosomes, and engineered nanocarriers that overcome the plant cell wall barrier a major bottleneck in plant genetic transformation. These platforms enable efficient, genotype-independent delivery of ribonucleoprotein (RNP) complexes, facilitating DNA-free editing for sustainable crop protection. By integrating CRISPR-based precision with advances in nanodelivery and molecular breeding, this review outlines a road-map for developing climate-resilient, high-yielding, and nutritionally enhanced crops to safeguard global agricultural sustainability.",
       "delivery_types": [
-        "exosome",
         "lnp",
+        "exosome",
         "nanoparticle"
       ],
       "query_category": "nanoparticle"
@@ -762,11 +762,29 @@
       "date": "2026 Jul 17",
       "abstract": "The future of pediatric gene therapy is being fundamentally reshaped by the convergence of CRISPR-Cas9 genome editing, artificial intelligence (AI), and personalized medicine, providing unprecedented opportunities for the treatment of rare and previously intractable genetic disorders in children. CRISPR-Cas9 enables precise and potentially curative correction of pathogenic mutations underlying conditions, such as sickle cell disease, cystic fibrosis, and Duchenne muscular dystrophy, with particularly notable progress in hematological disorders. AI-driven tools, like DeepCRISPR and CRISPR-GPT are emerging as valuable assets for streamlining experimental design, prioritizing candidate edits, and accelerating preclinical-to-clinical translation. In parallel, advances in delivery systems, including adeno-associated viral (AAV) vectors and non-viral platforms such as lipid nanoparticles (LNPs), are expanding the feasibility of both ex vivo and in vivo pediatric applications. The synergistic integration of CRISPR-Cas9, AI, and personalized medicine enables more precise, patient-specific therapeutic strategies that better account for the developmental, physiological, and genetic heterogeneity of pediatric populations. Addressing these challenges will require interdisciplinary collaboration across genome engineering, AI science, clinical pediatrics, bioethics, and regulatory policy. The establishment of standardized regulatory frameworks, accompanied by robust and transparent AI integration, will be essential to ensure safe, equitable, and scalable translation. IMPACT: The future of pediatric gene therapy is being reshaped by the integration of CRISPR-Cas9, AI, and personalized medicine. We review recent clinical trials, including ex vivo CRISPR-Cas9 applications for hemoglobinopathies. This article emphasizes interdisciplinary collaboration to overcome these barriers. Pediatric gene therapy holds transformative potential to provide curative solutions for children.",
       "delivery_types": [
-        "aav",
         "lnp",
+        "aav",
         "nanoparticle"
       ],
       "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42496571",
+      "title": "AAV Vector Toolkit for the Delivery and Expression of the Artificial microRNA in the Murine Heart.",
+      "authors": [
+        "Galkin II",
+        "Skopenkova VV",
+        "Shubina MY",
+        "Polikarpova AV",
+        "Vassilieva SG"
+      ],
+      "journal": "Biotech (Basel (Switzerland))",
+      "date": "2026 Jul 17",
+      "abstract": "Adeno-associated virus (AAV) vector-mediated gene transfer is an emerging treatment strategy for severe cardiac disorders with genetic etiology. We refined the AAV toolkit to achieve efficient and selective expression of the therapeutic transgene in mouse hearts.",
+      "delivery_types": [
+        "aav"
+      ],
+      "query_category": "aav"
     },
     {
       "pmid": "42470099",
@@ -800,8 +818,8 @@
       "date": "2026 Jul 17",
       "abstract": "Alzheimer's disease (AD) is a multifactorial neurodegenerative illness characterized by progressive cognitive impairment, synaptic compromise, and relentless neuroinflammation. Increasing evidence suggests that neuroinflammatory cascades orchestrated by microglial activation, astrocytic malfunction, cytokine hyperproduction, and inflammasome signalling are at the core of AD pathogenesis. Conventional anti-amyloid and cholinergic treatments are only symptomatic and neglect the inherent neuroimmune dysregulation. Nanomedicine is a revolutionary frontier in inflammopharmacology, which enables the accurate modulation of neuroinflammatory circuits and enhanced brain delivery of medicines. Nanocarriers designed by engineering, including liposomes, polymeric nanoparticles, dendrimers, and exosomes, allow for targeted delivery across the BBB, increase drug bioavailability, and provide controlled release. The nano-systems are capable of inhibiting pro-inflammatory signalling, such as NF-&#x3ba;B and MAPK pathways, reducing oxidative stress, and enhancing microglial M2 polarization and thus restoring neuronal homeostasis. Recent developments in surface-functionalized and stimuli-responsive nanoplatforms further enable active targeting through receptor-mediated pathways and theranostic imaging in real-time. Comparative studies show that interventions based on nanocarrier-based therapies enhance therapeutic efficacy and safety profiles in preclinical AD models. Future directions include integrating AI-driven nano-design, gene and siRNA delivery, and precision neuropharmacology to enable personalized anti-inflammatory therapies. Substantial progress, translational challenges remain regarding long-term biocompatibility, large-scale production, and clinical validation. Nanomedicine against neuroinflammatory pathways represents a new paradigm for Alzheimer's treatment, linking molecular pharmacology and sophisticated nanotechnology to next-generation neuroinflammatory medicine.",
       "delivery_types": [
-        "exosome",
-        "nanoparticle"
+        "nanoparticle",
+        "exosome"
       ],
       "query_category": "exosome"
     },
@@ -819,8 +837,8 @@
       "date": "2026 Jul 17",
       "abstract": "Alcohol-related liver disease remains a major and growing global health concern, with limited diagnostic and therapeutic options, particularly in advanced stages. Conventional diagnostic methods, including serum biomarkers, imaging and biopsy, often lack the sensitivity, specificity or practicality required for early detection and monitoring. Nanotheranostic platforms offer both targeted drug delivery and real-time assessment of disease activity. Organic, inorganic, polymeric and hybrid nanoparticles are being developed to improve the bioavailability and hepatic targeting of antioxidant, antifibrotic and RNA-based therapies. The use of novel nanodiagnostic probes and exosome-based assays enables the detection of early molecular alterations. However, delivery barriers and potential hepatotoxicity remain key translational challenges.",
       "delivery_types": [
-        "exosome",
-        "nanoparticle"
+        "nanoparticle",
+        "exosome"
       ],
       "query_category": "exosome"
     },
@@ -1252,8 +1270,8 @@
       "date": "2026 Jul 14",
       "abstract": "Exosomes represent a promising class of naturally produced nanoparticles that exist at the nanoscale and carry a negative surface charge under physiological conditions. These tiny membranebound vesicles are released by cells throughout the body and function as biological messengers, transporting various molecular cargos between cells and facilitating critical cell-to-cell communication pathways. Existing therapies for neurodegenerative disorders face two critical barriers: they cannot precisely target the affected brain areas, and the blood-brain barrier blocks most potential treatments from entering the brain. Exosomes offer a promising solution to these challenges. Unlike most synthetic drug delivery systems that struggle to penetrate the brain's protective barrier, these naturally derived nanocarriers exhibit an inherent capacity to traverse the blood-brain barrier. This unique property, combined with their capacity for efficient intracellular delivery of therapeutic payloads, positions exosomes as an exciting platform for transporting pharmaceutical agents to the affected neural tissues. Through strategic engineering and modification, these vesicles can be transformed into highly precise delivery vehicles capable of targeting specific organs, tissues, or even individual cell types. This review explores the therapeutic potential and drug delivery applications of exosomes in the management of major neurodegenerative disorders. This review provides an in-depth examination of exosome biogenesis, current isolation methodologies, and surface engineering strategies, while critically evaluating the strengths and limitations of each approach. In addition, this review summarizes the current preclinical models and provides an overview of ongoing clinical trials investigating exosome-based therapies for neurological disorders.",
       "delivery_types": [
-        "exosome",
-        "nanoparticle"
+        "nanoparticle",
+        "exosome"
       ],
       "query_category": "exosome"
     },
@@ -1364,8 +1382,8 @@
       "date": "2026 Jul 13",
       "abstract": "Hepatocellular carcinoma (HCC) is a major health concern that comprises more than 80% of all liver cancer cases. The process of HCC tumorigenesis is complex with a multitude of factors contributing to its initiation and progression. Multiple signaling pathways are involved in HCC tumorigenesis, including PI3K/AKT, MEK/ERK, SDF-1/CXCR4, Wnt/&#x3b2;-catenin, Hippo, NF-&#x3ba;B, HIF-1&#x3b1;, and mitochondrial intrinsic apoptosis. This goes alongside the contributions of non-coding RNAs, as well as the dysregulation of anti-tumor immunity. The successful modulation of these signaling pathways holds a significant promise in providing effective treatments for HCC. Nanoparticles provide a potential platform for modulating these signaling pathways by regulating or inhibiting these pathways by including chemotherapeutic or genetic materials. Several examples include core-shell lipidic nanoparticles, lipidic nanocapsules, in addition to polymeric or metallic nanoparticles. The significance of nanoparticles lies in their ability to selectively deliver small molecules, genetic material, and antibodies to the intended site of action with adequate protection and enhanced efficiency. In addition to nanoparticles, multiple advanced approaches exist, including micro/nanobubbles, exosomes, and mesenchymal stem cells. This review aims to unveil the significant potential of nanoparticles to modulate multiple critical molecular pathways in HCC tumorigenesis by delivering diverse types of active ingredients. This review also provides a brief overview of emerging advanced drug delivery systems beyond nanoparticles, highlighting their promise in modulating HCC signaling pathways.",
       "delivery_types": [
-        "exosome",
-        "nanoparticle"
+        "nanoparticle",
+        "exosome"
       ],
       "query_category": "exosome"
     },
@@ -1416,8 +1434,8 @@
       "date": "2026 Jul 11",
       "abstract": "Sandhoff disease (SD) is a fatal lysosomal storage disorder caused by &#x3b2;-N-acetylhexosaminidase deficiency, resulting in GM2 ganglioside accumulation, severe neurodegeneration, and chronic neuroinflammation. While enzyme-restoring therapies, such as AAV gene transfer, effectively target the primary enzymatic deficit, neuroinflammation persists and contributes to disease progression, motivating the development of anti-inflammatory adjuncts alongside disease-modifying interventions. Extracellular vesicles released by mesenchymal stromal cells (MSC-EVs) are acellular lipid nanoparticles that contain immunomodulatory molecules and can cross physical barriers, without immunogenicity issues. These features make MSC-EVs promising candidates for anti-inflammatory therapeutics targeting neuropathology. The anti-inflammatory potency of MSC-EVs is increased by priming parent MSCs with pro-inflammatory cytokines, resulting in IFEVs, as referred to in this study. Here, we evaluated the in vitro anti-inflammatory effects of IFEVs in a feline model of SD. IFEVs reduced SD neuroinflammation, lowering IL-6, TNF-&#x3b1;, and IL-1&#x3b2; protein levels in SD neuronal-mixed glia, with concordant transcriptional downregulation of NF-&#x3ba;B/p65 and NLRP3 components and upregulation of arginase 1 mRNA after 48&#xa0;h of treatment. In SD peripheral blood mononuclear cells, IFEVs significantly increased the proportion of regulatory T cells and the Treg/T-effector cell ratio without inducing cytotoxicity. Together, these findings demonstrate that IFEVs reduced neuroinflammation and altered blood-circulating T-cell populations in an in vitro SD model, supporting their further preclinical development as a complementary immunomodulatory therapy for SD.",
       "delivery_types": [
-        "aav",
         "lnp",
+        "aav",
         "nanoparticle"
       ],
       "query_category": "lipid nanoparticle"
@@ -1490,10 +1508,10 @@
       "date": "2026 Jul 10",
       "abstract": "Virus-like particles (VLPs) are promising for delivering genome editors, yet the in vivo in vivo efficacy of VLP-mediated cytosine base editing remains limited. Here we identified insufficient inhibition of uracil DNA glycosylases as the underlying mechanism of low cytosine base editor (CBE) editing efficiencies in vivo. We engineered a previously reported CBE, transformer base editor (tBE), and developed a VLP delivery system to enhance the recruitment of uracil DNA glycosylase inhibitor proteins. tBE-VLPs achieved robust C-to-T editing in mouse liver and retina. A single injection achieved, on average, 46.0% editing at mPcsk9 and 64.2% at mHpd in the liver, as well as 24.2% at mVegfa in the retinal pigment epithelium, resulting in marked therapeutic benefits in mouse disease models. tBE-VLP4 induced no detectable off-target edits in vitro or in vivo and demonstrated superior specificity compared to AAV or lipid nanoparticle mRNA delivery. Our work establishes tBE-VLP4 as a precise, efficient system for in vivo cytosine base editing.",
       "delivery_types": [
-        "aav",
+        "vlp",
         "lnp",
-        "nanoparticle",
-        "vlp"
+        "aav",
+        "nanoparticle"
       ],
       "query_category": "lipid nanoparticle"
     },
@@ -1584,8 +1602,8 @@
       "date": "2026 Jul",
       "abstract": "Therapeutic genome editing has advanced rapidly with the development of diverse programmable nucleases, from zinc-finger nucleases and transcription activator-like effector nucleases to clustered regularly interspaced short palindromic repeats (CRISPR)-based systems such as base and prime editors. Despite these breakthroughs, clinical translation remains constrained by the challenge of achieving safe, efficient, and tissue-specific delivery. Viral vectors, particularly adeno-associated viruses, have enabled durable editing in selected organs but are limited by their restricted cargo capacity, immunogenicity, and complex manufacturing. Nonviral platforms, most notably ionizable lipid nanoparticles, have demonstrated remarkable efficacy for hepatic targets, with clinical trials reporting up to 93% protein knockdown after a single dose. An expanding set of emerging modalities, including virus-mimicking nanosystems, cell-derived extracellular vesicles, cell-penetrating peptides, and intelligent-responsive multifunctional scaffolds, further enriches the delivery toolbox by supporting transient expression and programmable targeting across diverse editors and tissues. Parallel advances in high-throughput barcoded screening and machine learning are accelerating vector optimization, while rational chemical modification of payloads improves in vivo stability and specificity. This review provides a comprehensive overview of current and emerging delivery systems for genome editing, highlighting key innovations, unresolved challenges, and interdisciplinary strategies poised to unlock broader therapeutic potential.",
       "delivery_types": [
-        "aav",
         "lnp",
+        "aav",
         "nanoparticle"
       ],
       "query_category": "crispr_delivery"
@@ -1604,8 +1622,8 @@
       "date": "2026 Dec",
       "abstract": "The low oral bioavailability of bioactive components from the Astragali Radix-Curcumae Rhizoma herb pair severely restricts its clinical application in antitumour therapy. To address this issue, we developed a natural drug delivery system using exosome-like nanoparticles (ACELNs) isolated from the co-decoction of Astragali Radix and Curcumae Rhizoma, which can effectively encapsulate and preserve the bioactive components from the herbal pair. Systematic characterization confirmed that ACELNs maintained excellent structural integrity, flat spheroid morphology, and favorable gastrointestinal stability with desirable colloidal properties. Cellular and rat pharmacokinetic studies demonstrated that ACELNs significantly improved the oral bioavailability of the loaded active components. In Lewis lung cancer ectopic mouse model, the combination of ACELNs and 5-fluorouracil (5-FU) exhibited superior antitumour efficacy and excellent biocompatibility. This natural nanocarrier strategy provides a promising approach to overcome the bioavailability barrier of traditional Chinese medicine components and achieve synergistic therapeutic effects.",
       "delivery_types": [
-        "exosome",
-        "nanoparticle"
+        "nanoparticle",
+        "exosome"
       ],
       "query_category": "exosome"
     },
