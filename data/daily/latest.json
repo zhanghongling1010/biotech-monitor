@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-26T20:22:02.686992",
+  "timestamp": "2026-07-26T20:30:48.550393",
   "critical": {
     "deals": [
       {
@@ -349,12 +349,6 @@
         ]
       },
       {
-        "title": "Personalized gene therapy relieves severe epilepsy in two boys.",
-        "journal": "Nature",
-        "date": "2026-07-24",
-        "authors": []
-      },
-      {
         "title": "Dissecting divergent outcomes in stem cell-derived dopamine cell therapy trials for Parkinson's disease.",
         "journal": "Cell stem cell",
         "date": "2026-07-24",
@@ -473,6 +467,16 @@
         ]
       },
       {
+        "title": "RNA-triggered cell killing with CRISPR-Cas12a2.",
+        "journal": "Nature",
+        "date": "2026-05-06",
+        "authors": [
+          "Paul Scholz",
+          "Jared Thompson",
+          "Kadin T Crosby"
+        ]
+      },
+      {
         "title": "Targeted mRNA Delivery Using Bispecific Antibody-Lipid Nanoparticle Complexes.",
         "journal": "Molecular pharmaceutics",
         "date": "2026 Jul 19",
@@ -506,6 +510,30 @@
   },
   "papers": {
     "gene_editing": [
+      {
+        "pmid": "42092133",
+        "title": "RNA-triggered cell killing with CRISPR-Cas12a2.",
+        "abstract": "Selectively eradicating target cells on the basis of their genetic or transcriptional identity remains important in basic research, medicine, biotechnology and agriculture1-3. For applications involving bacteria, CRISPR nucleases offer promising options due to their ability to enact RNA-guided counterselection4-7; however, using these same nucleases for counterselection in eukaryotes has proven much more restrictive8-14. Here we show that Cas12a2, a recently discovered type V CRISPR nuclease, exhibits RNA-triggered DNA shredding15,16, and enables programmable and sequence-specific elimination of yeast and human cells expressing a target transcript. Triggering Cas12a2 elicits rampant double-stranded DNA breaks in trans, leading to cell death. Cell killing can be activated by a wide range of target transcripts, with no observed off-target activation. Leveraging this approach, we selectively eliminate cells that harbour human papillomavirus, cells that failed to undergo gene editing, or cells that encode a prevalent oncogenic point mutation in KRAS. These findings expand the CRISPR toolbox to allow the selective elimination of eukaryotic cells on the basis of their transcriptional profile.",
+        "authors": [
+          "Paul Scholz",
+          "Jared Thompson",
+          "Kadin T Crosby",
+          "Torsten Fauth",
+          "Nathan M Krah"
+        ],
+        "journal": "Nature",
+        "date": "2026-05-06",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "RNA-triggered cell killing with CRISPR-Cas12a2.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】表型：细胞凋亡/细胞毒性；核心发现：首次发现/鉴定, 促进作用, 表达水平变化；局限性：存在技术局限。\n【机制创新与产业价值】发表期刊：Nature。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "Bizarre CRISPR enzyme kills cancer cells by shredding their DNA.",
+        "composite_score": 9.42,
+        "relevance_score": 9.0,
+        "impact_factor": 48.5,
+        "top_tier": true
+      },
       {
         "pmid": "42496997",
         "title": "FDA Approves Gene Therapy for Younger Children With Sickle Cell Disease.",
@@ -587,6 +615,30 @@
         "composite_score": 7.25,
         "relevance_score": 5.0,
         "impact_factor": 96.2,
+        "top_tier": true
+      },
+      {
+        "pmid": "42259916",
+        "title": "Targeting cancer-specific mutations with RNA-triggered chromatin shredding.",
+        "abstract": "Genetic mutations that drive cancer often occur in tumour-suppressor proteins such as the p53 transcription factor, which is altered in 40-50% of cases1,2. However, current therapies often fail to target these mutations because the mutant proteins typically lack defined drug-binding pockets and restoring their endogenous function has proven challenging. Here we program Cas12a2, an RNA-guided CRISPR nuclease with trans-nucleolytic cleavage activity3,4, to kill cancer cells selectively by targeting cancer-specific transcripts. This approach limited cell growth by inducing trans shredding of chromatin and triggering DNA-damage responses and cell death. In contrast to existing methods, RNA-guided Cas12a2 senses cellular RNA signatures, enabling precise targeting of undruggable mutations. Transcript-activated chromatin shredding provides an innovative approach to precision disease treatments for undruggable targets.",
+        "authors": [
+          "Jingkun Zeng",
+          "Zhiyuan Cheng",
+          "Huadong Chen",
+          "Zhaojun Wang",
+          "Jared Thompson"
+        ],
+        "journal": "Nature",
+        "date": "2026-06-08",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Targeting cancer-specific mutations with RNA-triggered chromatin shredding.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】量化数据：50%；表型：肿瘤发生, 细胞凋亡/细胞毒性, 细胞增殖；核心发现：抑制作用, 促进作用, 有效性验证, 结合/相互作用；关键突破：新靶点。\n【机制创新与产业价值】发表期刊：Nature。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "Bizarre CRISPR enzyme kills cancer cells by shredding their DNA.",
+        "composite_score": 5.57,
+        "relevance_score": 2.0,
+        "impact_factor": 48.5,
         "top_tier": true
       },
       {
@@ -703,6 +755,27 @@
         "composite_score": 7.57,
         "relevance_score": 6.0,
         "impact_factor": 40.8,
+        "top_tier": false
+      },
+      {
+        "pmid": "42462700",
+        "title": "Programmable cell killer: CRISPR-Cas12a2 eliminates cells via RNA identity.",
+        "abstract": "In a recent issue of Nature, Scholz et al.1 apply the RNA-triggered DNA shredding activity of CRISPR-Cas12a2 in eukaryotic cells to enable programmable elimination of yeast and human cells expressing target transcripts with single-nucleotide resolution specificity and non-detectable off-target activity.",
+        "authors": [
+          "Yuanli Gao",
+          "Baojun Wang"
+        ],
+        "journal": "Molecular cell",
+        "date": "",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Programmable cell killer: CRISPR-Cas12a2 eliminates cells via RNA identity.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：表达水平变化, 结构解析。\n【机制创新与产业价值】发表期刊：Molecular cell。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "Bizarre CRISPR enzyme kills cancer cells by shredding their DNA.",
+        "composite_score": 7.54,
+        "relevance_score": 8.0,
+        "impact_factor": 14.5,
         "top_tier": false
       },
       {
@@ -2055,6 +2128,58 @@
         "title_cn": "Sleep Duration and Epilepsy Risk: Mendelian Randomization and Functional Validation of CACNA1A rs2228130-Related Inhibitory Synaptic Dysfunction.",
         "abstract_cn": "",
         "summary_cn": "【研究基础与实验设计】模型：小鼠模型、诱导多能干细胞(iPSC)；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】表型：癫痫发作, 睡眠/昼夜节律异常；核心发现：鉴定/表征, 抑制作用, 调控作用, 相关性；局限性：需进一步研究。\n【机制创新与产业价值】信号通路：昼夜节律通路；发表期刊：Neuromolecular medicine。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "composite_score": 2.45,
+        "relevance_score": 2.0,
+        "impact_factor": null,
+        "top_tier": false
+      },
+      {
+        "pmid": "42146678",
+        "title": "Selective Elimination of TP53 Mutant Cells by Transcript-Activated Chromatin Shredding.",
+        "abstract": "Genetic mutations that drive cancer often occur in tumor suppressor proteins, including the p53 transcription factor which is altered in ~40-50% of cases1,2. However, current therapies fail to target most such mutations because the mutant proteins typically lack defined drug-binding pockets, and restoring the endogenous function has proven challenging. Here, we programmed CRISPR-Cas12a2, an RNA-guided nuclease with trans-nucleolytic cleavage activities3,4, to selectively kill cancer cells by targeting cancer-specific transcripts. This approach eliminates cells by inducing trans chromatin cleavage, triggering DNA damage and cell death. Unlike existing methods, RNA-guided Cas12a2 senses cellular RNA signatures to shred chromatin, enabling precise targeting of undruggable mutations. Transcript-activated chromatin shredding provides an innovative paradigm to develop precision disease treatments for undruggable targets.",
+        "authors": [
+          "Jingkun Zeng",
+          "Zhiyuan Cheng",
+          "Huadong Chen",
+          "Jared Thompson",
+          "Kadin T Crosby"
+        ],
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026-05-09",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Selective Elimination of TP53 Mutant Cells by Transcript-Activated Chromatin Shredding.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】量化数据：50%；表型：肿瘤发生, 细胞凋亡/细胞毒性；核心发现：抑制作用, 促进作用, 有效性验证, 结合/相互作用；关键突破：新靶点。\n【机制创新与产业价值】发表期刊：bioRxiv : the preprint server for biology。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "Bizarre CRISPR enzyme kills cancer cells by shredding their DNA.",
+        "composite_score": 2.45,
+        "relevance_score": 2.0,
+        "impact_factor": null,
+        "top_tier": false
+      },
+      {
+        "pmid": "40195546",
+        "title": "Genetic engineering for SIT application: a fruit fly-focused review.",
+        "abstract": "Sterile insect technique (SIT) has become a key component of efficient pest control. Fruit fly pests from the Drosophilidae and Tephritidae families pose a substantial and overwhelmingly increasing threat to the agricultural industry, aggravated by climate change and globalization among other contributors. In this review, we discuss the advances in genetic engineering aimed to improve the SIT-mediated fruit fly pest control. This includes SIT enhancement strategies such as novel genetic sexing strain and female lethality approaches. Self-pervasive X-shredding and X-poisoning sex distorters, alongside gene drive varieties are also reviewed. The self-limiting precision-guided SIT, which aims to tackle female removal and male fertility via CRISPR/Cas9, is additionally introduced. By using examples of existing genetic tools in the fruit fly pests of interest, as well as model species, we illustrate that the population control intensity may be modulated depending on strategy selection.",
+        "authors": [
+          "Serafima Davydova",
+          "Danheng Yu",
+          "Angela Meccariello"
+        ],
+        "journal": "Insect science",
+        "date": "2025-04-07",
+        "keywords": [
+          "CRISPR/Cas9",
+          "Drosophilidae",
+          "Tephritidae",
+          "agricultural pest",
+          "population control"
+        ],
+        "companies": [],
+        "title_cn": "Genetic engineering for SIT application: a fruit fly-focused review.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：基础研究。\n【核心实验关键数据】核心发现：首次发现/鉴定, 促进作用, 调控作用, 疾病模型建立。\n【机制创新与产业价值】发表期刊：Insect science。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "Bizarre CRISPR enzyme kills cancer cells by shredding their DNA.",
         "composite_score": 2.45,
         "relevance_score": 2.0,
         "impact_factor": null,
@@ -5492,6 +5617,36 @@
         "top_tier": false
       },
       {
+        "pmid": "41711341",
+        "title": "GLP-1 receptor agonists: Bridging diabetes, obesity, and periodontitis-A scoping review of emerging evidence.",
+        "abstract": "BACKGROUND: Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) are analogs of the endogenous incretin hormone GLP-1 and are increasingly used in the treatment of diabetes and obesity. Beyond glycemic control and weight loss, they have demonstrated anti-inflammatory, antioxidative, and immunomodulatory properties. Given the inflammatory nature of periodontitis and its bidirectional relationship with diabetes mellitus, interest is growing in exploring the potential therapeutic benefits of GLP-1 RAs in periodontal diseases. This scoping review aims to search the existing literature on the effects of GLP-1 RAs on periodontitis, focusing on underlying mechanisms and emerging clinical implications. METHODS: Following PRISMA guidelines for scoping reviews, a comprehensive search was conducted in Medline/PubMed and Embase to identify preclinical and clinical studies in English evaluating the effects of GLP-1 RAs on periodontal tissues. Data were synthesized thematically to highlight key findings and gaps. RESULTS: Evidence from mechanistic and preclinical studies supports a biologically plausible link between GLP-1 RAs and pathways central to periodontal inflammation and host response. Human studies remain limited and observational but consistently report associations between periodontitis and altered incretin hormone profiles, including reduced endogenous GLP-1 levels and increases following periodontal treatment. CONCLUSION: This scoping review identifies growing mechanistic and preclinical evidence suggesting potential interactions between GLP-1 RAs and periodontal inflammatory pathways. Although current human evidence is indirect and insufficient to establish therapeutic benefit, these early signals highlight an important opportunity for future research. Well-designed clinical trials with periodontal endpoints are needed to clarify whether GLP-1 RAs may provide adjunctive value in periodontal care. PLAIN LANGUAGE SUMMARY: GLP-1 receptor agonists are medications commonly used to manage diabetes and obesity. In addition to their metabolic effects, laboratory and animal studies suggest that these drugs may influence biological processes also involved in gum disease, such as inflammation, immune response, and bone metabolism. This scoping review examined all available scientific studies on the relationship between GLP-1 receptor agonists and periodontal disease. Most of the existing evidence comes from mechanistic and preclinical research showing that these medications can reduce inflammation and support tissue repair in experimental models. Human studies are still very limited and have focused mainly on metabolic markers rather than on direct measures of gum health. So far, no clinical trial has tested whether GLP-1 medications can improve periodontal outcomes. Although no conclusions can be made for clinical dental practice today, the findings highlight an emerging and promising area of research. Well-designed clinical studies are needed to determine whether GLP-1 receptor agonists could eventually play a role in periodontal treatment.",
+        "authors": [
+          "Angeliki Polymeri",
+          "Magda Feres",
+          "William V Giannobile",
+          "Bruno G Loos"
+        ],
+        "journal": "Journal of periodontology",
+        "date": "2026-02-19",
+        "keywords": [
+          "GLP‐1 receptor agonists",
+          "diabetes mellitus type 2",
+          "glycemic control",
+          "inflammation",
+          "obesity",
+          "periodontitis"
+        ],
+        "companies": [],
+        "title_cn": "GLP-1 receptor agonists: Bridging diabetes, obesity, and periodontitis-A scoping review of emerging evidence.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：临床前研究。\n【核心实验关键数据】核心发现：鉴定/表征, 调控作用, 相关性, 疾病模型建立。\n【机制创新与产业价值】发表期刊：Journal of periodontology。\n【后续追踪要点】临床试验；新药研发。",
+        "backfilled_from_news": "GLP-1 Medications May Improve Health in People With PAD and Diabetes.",
+        "composite_score": 8.23,
+        "relevance_score": 12.5,
+        "impact_factor": null,
+        "top_tier": false
+      },
+      {
         "pmid": "42497473",
         "title": "Effects of glucagon-like peptide-1 receptor agonists on metabolic outcomes in antipsychotic-treated patients with schizophrenia: A systematic review and meta-analysis.",
         "abstract": "BACKGROUND: Individuals with schizophrenia have markedly increased cardiometabolic morbidity, largely attributable to antipsychotic-induced weight gain, insulin resistance, and dyslipidemia, particularly with clozapine- and olanzapine-based regimens. This systematic review and meta-analysis evaluated the efficacy and safety of glucagon-like peptide-1 receptor agonists (GLP-1RAs) in antipsychotic-treated patients with schizophrenia. METHODS: PubMed, Embase, and the Cochrane Central Register of Controlled Trials were searched from inception to September 16, 2025 for randomized clinical trials comparing GLP-1RAs with placebo or standard care. The review followed Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines and was prospectively registered in PROSPERO (CRD420251177261). Random-effects models were used to pool mean differences (MDs) and risk ratios (RRs). RESULTS: Eight randomized clinical trials including 523 participants were analyzed. GLP-1RAs significantly reduced body weight (MD -6.47; 95% CI, -9.61 to -3.32), body mass index (MD -2.83; 95% CI, -3.81 to -1.86), waist circumference (MD -5.35; 95% CI, -6.60 to -4.09), and glycated hemoglobin levels (MD -0.32; 95% CI, -0.39 to -0.26) compared with placebo or standard care. Exploratory subgroup analyses suggested marked differences across individual agents: exenatide showed a smaller and non-significant reduction in body weight, liraglutide showed a significant moderate reduction, and semaglutide showed the largest reduction. No significant effects were observed for fasting insulin, lipid parameters, or blood pressure. Gastrointestinal adverse events were more frequent with GLP-1RAs. CONCLUSIONS: In this systematic review and meta-analysis, GLP-1RAs were associated with clinically meaningful improvements in anthropometric and glycemic outcomes in antipsychotic-treated patients with schizophrenia, with acceptable tolerability primarily characterized by gastrointestinal adverse events.",
@@ -5509,6 +5664,37 @@
         "title_cn": "Effects of glucagon-like peptide-1 receptor agonists on metabolic outcomes in antipsychotic-treated patients with schizophrenia: A systematic review and meta-analysis.",
         "abstract_cn": "",
         "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】量化数据：95%, 95%, 95%；核心发现：鉴定/表征, 促进作用, 疾病模型建立, 安全性评估。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Schizophrenia research。\n【后续追踪要点】临床试验；安全性监测。",
+        "composite_score": 7.95,
+        "relevance_score": 12.0,
+        "impact_factor": null,
+        "top_tier": false
+      },
+      {
+        "pmid": "42154164",
+        "title": "Maternal obesity and the metabolic syndrome in reproductive health: assessing incretin-based interventions.",
+        "abstract": "The global epidemic of overweight and obesity threatens gynecological and reproductive health, necessitating effective therapeutic strategies to improve maternal and fetal long-term health outcomes. This review provides an overview of weight loss interventions and discusses their use in the context of gestation, such as surgical interventions and anti-obesity medications. As the interest in incretin-based therapies has risen substantially, we discuss how incretin-based therapies, including glucagon-like peptide-1 (GLP-1) receptor agonists and GLP-1 receptor agonists and glucose-dependent insulinotropic polypeptide (GIP) dual agonists, might improve reproductive function and could interact with the physiological metabolic changes ensuring a healthy pregnancy. These metabolic adaptations during pregnancy arise from the integration of insulin signaling, lipid metabolism, placental endocrine function, mitochondrial remodeling and inflammatory regulation. Furthermore, we consider not only short-term consequences of maternal overweight and obesity but also focus on fetal long-term health trajectories following pregnancy-related metabolic disorders, as maternal obesity and gestational weight gain are considered risk factors for childhood obesity and overweight.",
+        "authors": [
+          "Luisa Wallentowitz",
+          "Mariana G Garcia",
+          "Catalina Atorrasagasti",
+          "Charlotte Harms",
+          "Evelyn A Huhn"
+        ],
+        "journal": "Reviews in endocrine & metabolic disorders",
+        "date": "2026-05-19",
+        "keywords": [
+          "GLP-1 receptor agonists",
+          "Incretin-based therapies",
+          "Maternal obesity",
+          "Metabolic syndrome",
+          "Pregnancy outcomes",
+          "Reproductive health"
+        ],
+        "companies": [],
+        "title_cn": "Maternal obesity and the metabolic syndrome in reproductive health: assessing incretin-based interventions.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】核心发现：调控作用, 疾病模型建立, 有效性验证。\n【机制创新与产业价值】发表期刊：Reviews in endocrine & metabolic disorders。\n【后续追踪要点】新药研发；长期疗效评估。",
+        "backfilled_from_news": "GLP-1 Medications May Improve Health in People With PAD and Diabetes.",
         "composite_score": 7.95,
         "relevance_score": 12.0,
         "impact_factor": null,
@@ -5740,6 +5926,34 @@
         "top_tier": false
       },
       {
+        "pmid": "40906565",
+        "title": "Glucagon-like Peptide-1 Receptor Agonists and Reproductive Health: Current Evidence and Clinical Implications.",
+        "abstract": "Glucagon-like peptide-1 receptor agonists (GLP-1RAs) have experienced rapid growth in recent years as treatments for type 2 diabetes mellitus and obesity. These medications offer promising benefits, including weight loss and improved glycemic control; however, their implications for reproductive health warrant attention. While tirzepatide has been shown to impact absorption of oral contraceptives due to delayed gastric emptying, other GLP-1RAs do not appear to have clinically significant interactions with oral contraception. Fertility outcomes may improve with GLP-1RAs and dual GLP-1/GIP agonists due to weight loss and related metabolic benefits. Despite their widespread use, data on GLP-1RAs in pregnancy and lactation remain limited, leaving significant gaps in guidance for clinicians. This review synthesizes current literature on GLP-1RAs to highlight reproductive health considerations, including their potential impacts on contraception, fertility, pregnancy, and lactation. Greater awareness and understanding of these factors can support informed decision-making and optimize care for individuals using GLP-1RAs.",
+        "authors": [
+          "Jordyn Kettner",
+          "Elizabeth Donnelly",
+          "Marina L Maes"
+        ],
+        "journal": "Journal of pharmacy practice",
+        "date": "2025-09-04",
+        "keywords": [
+          "contraception",
+          "fertility",
+          "glucagon-like peptide-1 receptor agonist",
+          "pregnancy lactation",
+          "reproductive health"
+        ],
+        "companies": [],
+        "title_cn": "Glucagon-like Peptide-1 Receptor Agonists and Reproductive Health: Current Evidence and Clinical Implications.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】核心发现：有效性验证, 结合/相互作用。\n【机制创新与产业价值】发表期刊：Journal of pharmacy practice。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "GLP-1 Medications May Improve Health in People With PAD and Diabetes.",
+        "composite_score": 6.3,
+        "relevance_score": 9.0,
+        "impact_factor": null,
+        "top_tier": false
+      },
+      {
         "pmid": "42495930",
         "title": "Comparison of lifestyle, surgery, and semaglutide for weight management in endometrial cancer: a prospective observational study.",
         "abstract": "BACKGROUND: To compare sleeve gastrectomy, semaglutide therapy, and the Diet, Exercise, Accompany and Refresh (DEAR) weight management programme for weight control, metabolic improvement, and oncological outcomes in patients with endometrial cancer receiving fertility-sparing treatment. METHODS: In this prospective observational study, 53 patients received sleeve gastrectomy (n = 10), semaglutide therapy (n = 23), or the DEAR programme (n = 20) after multidisciplinary assessment and shared decision-making. Anthropometric and metabolic measures and tumour response were assessed over two years. RESULTS: At 1 year, all groups lost weight; the sleeve gastrectomy group had the largest body mass index reduction compared with the semaglutide group (difference = 4.04 kg/m2, p < 0.05) and the DEAR group (difference = 2.12 kg/m2, p < 0.05). By 2 years, weight regain was less frequent in the DEAR group (14.3%) than in the semaglutide (55.6%) and sleeve gastrectomy (66.7%) groups (p = 0.037). The DEAR group showed more stable metabolic improvements and the highest complete tumour remission rate (85.0%), followed by the semaglutide group (73.9%) and the sleeve gastrectomy group (60.0%). CONCLUSION: Sleeve gastrectomy produced rapid short-term weight loss, whereas the DEAR programme showed better medium-term weight maintenance, metabolic stability, and tumour response. Integrated lifestyle support may be a useful medium-term strategy for patients seeking fertility preservation.",
@@ -5962,6 +6176,33 @@
         "composite_score": 5.77,
         "relevance_score": 3.0,
         "impact_factor": 35.5,
+        "top_tier": false
+      },
+      {
+        "pmid": "41091899",
+        "title": "GLP-1 Receptor Agonists as a Novel Solution for Antipsychotic-Induced Weight Gain in Severe and Persistent Mental Illness.",
+        "abstract": "Patients with severe and persistent mental illness (SPMI) experience significant metabolic side effects from antipsychotic medications, including antipsychotic-induced weight gain (AIWG). This contributes to a high prevalence of obesity, insulin resistance, and type 2 diabetes in this population, ultimately reducing life expectancy. Traditional weight management strategies, such as behavioural interventions, are often less feasible in this group. Glucagon-like peptide-1 receptor agonists (GLP-1RAs), initially developed for type 2 diabetes, have shown promise in addressing AIWG by reducing weight, improving metabolic parameters, and offering potential neuroprotective and psychiatric benefits. Evidence supports the efficacy of GLP-1RAs in managing AIWG, with studies demonstrating substantial reductions in weight and body mass index without exacerbating psychiatric symptoms. However, access to these medications remains limited due to high costs and restrictive healthcare policies. Expanding access to GLP-1RAs could bridge a critical gap in care for patients with SPMI, improving both physical and mental health outcomes. Future research should focus on evaluating long-term efficacy and cost-effectiveness, particularly in the Canadian healthcare context, to inform policy changes and optimize treatment strategies.Plain Language Summary TitleCan diabetes medications help treat weight gain caused by antipsychotics?",
+        "authors": [
+          "Samantha Jacobson",
+          "Noah Margolese",
+          "Howard C Margolese"
+        ],
+        "journal": "Canadian journal of psychiatry. Revue canadienne de psychiatrie",
+        "date": "2025-10-15",
+        "keywords": [
+          "adherence",
+          "antipsychotics",
+          "healthcare policy",
+          "schizophrenia"
+        ],
+        "companies": [],
+        "title_cn": "GLP-1 Receptor Agonists as a Novel Solution for Antipsychotic-Induced Weight Gain in Severe and Persistent Mental Illness.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】核心发现：首次发现/鉴定, 促进作用, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Canadian journal of psychiatry. Revue canadienne de psychiatrie。\n【后续追踪要点】长期疗效评估。",
+        "backfilled_from_news": "GLP-1 Medications May Improve Health in People With PAD and Diabetes.",
+        "composite_score": 5.47,
+        "relevance_score": 7.5,
+        "impact_factor": null,
         "top_tier": false
       },
       {
@@ -6299,6 +6540,37 @@
         "title_cn": "Multi-target-directed drugs: new additions in 2025 and post-marketing safety surveillance of drugs marketed in 2022-2024.",
         "abstract_cn": "",
         "summary_cn": "【研究基础与实验设计】研究针对：膀胱癌/尿路上皮癌、乳腺癌；核心技术：抗体偶联药物(ADC)；研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：抑制作用, 安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Pharmacological reports : PR。\n【后续追踪要点】安全性监测。",
+        "composite_score": 4.38,
+        "relevance_score": 5.5,
+        "impact_factor": null,
+        "top_tier": false
+      },
+      {
+        "pmid": "41481850",
+        "title": "Systemic medications and their impact on age-related macular degeneration development and progression: a review of current evidence.",
+        "abstract": "PURPOSE OF REVIEW: This review examines commonly prescribed systemic medications and their possible associations with age-related macular degeneration (AMD) development and progression. With the limitations and risks of current intravitreal therapies, there is growing interest in oral pharmacotherapy for AMD management. The following review synthesizes observational studies, meta-analyses, and ongoing clinical trials to evaluate the potential effects of commonly used systemic medications on AMD. RECENT FINDINGS: Metformin demonstrates conflicting evidence, with several meta-analyses and large cohort study showing reduced AMD odds, while a recent randomized phase II trial found no effect on geographic atrophy progression. For statins, emerging evidence suggests that treatment duration exceeding 2 years and medium-intensity to high-intensity dosing may confer protection against AMD development. Aspirin demonstrates discordant results between different study designs: two large randomized controlled trials showed no benefit for AMD, while a 10-year observational study suggested protective effects.Fenofibrates show promise in preclinical models but require additional clinical investigation. Danicopan also shows modest effects in complement-related disorders and is currently undergoing a phase 2 trial to evaluate efficacy in patients with geographic atrophy. Finally, dopamine agonists appear to improve visual acuity and reduce subretinal fluid and central retinal thickness in newly diagnosed exudative AMD, as shown in an open-label pilot study, but require further investigation. SUMMARY: Multiple systemic medications have highlighted mixed or stage-dependent benefits on AMD development and progression. Some agents such as metformin and aspirin have shown conflicting findings, having been evaluated in randomized trials and large observational studies. Other medications including GLP-1 agonists, dopamine agonists, statins, fenofibrates, and danicopan show early promise in more limited studies, but require further clinical validation.",
+        "authors": [
+          "Melissa Yuan",
+          "Amer Alsoudi",
+          "Ahmed Alshaikhsalama",
+          "Ehsan Rahimy"
+        ],
+        "journal": "Current opinion in ophthalmology",
+        "date": "2025-11-27",
+        "keywords": [
+          "age-related macular degeneration",
+          "dopamine agonists",
+          "metformin",
+          "statins",
+          "systemic pharmacotherapy"
+        ],
+        "companies": [
+          "Scribe"
+        ],
+        "title_cn": "Systemic medications and their impact on age-related macular degeneration development and progression: a review of current evidence.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】核心技术：碱基编辑(CBE/ABE)；研究层级：II期临床试验。\n【核心实验关键数据】核心发现：相关性, 疾病模型建立, 有效性验证；局限性：存在实验局限性。\n【机制创新与产业价值】信号通路：多巴胺通路；临床痛点：转移/复发；发表期刊：Current opinion in ophthalmology。\n【后续追踪要点】功能验证；临床试验。",
+        "backfilled_from_news": "GLP-1 Medications May Improve Health in People With PAD and Diabetes.",
         "composite_score": 4.38,
         "relevance_score": 5.5,
         "impact_factor": null,

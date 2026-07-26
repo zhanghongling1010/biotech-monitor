@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-26T20:22:02.686992",
+  "timestamp": "2026-07-26T20:30:48.550393",
   "critical": {
     "deals": [
       {
@@ -349,12 +349,6 @@
         ]
       },
       {
-        "title": "Personalized gene therapy relieves severe epilepsy in two boys.",
-        "journal": "Nature",
-        "date": "2026-07-24",
-        "authors": []
-      },
-      {
         "title": "Dissecting divergent outcomes in stem cell-derived dopamine cell therapy trials for Parkinson's disease.",
         "journal": "Cell stem cell",
         "date": "2026-07-24",
@@ -473,6 +467,16 @@
         ]
       },
       {
+        "title": "RNA-triggered cell killing with CRISPR-Cas12a2.",
+        "journal": "Nature",
+        "date": "2026-05-06",
+        "authors": [
+          "Paul Scholz",
+          "Jared Thompson",
+          "Kadin T Crosby"
+        ]
+      },
+      {
         "title": "Targeted mRNA Delivery Using Bispecific Antibody-Lipid Nanoparticle Complexes.",
         "journal": "Molecular pharmaceutics",
         "date": "2026 Jul 19",
@@ -506,6 +510,30 @@
   },
   "papers": {
     "gene_editing": [
+      {
+        "pmid": "42092133",
+        "title": "RNA-triggered cell killing with CRISPR-Cas12a2.",
+        "abstract": "Selectively eradicating target cells on the basis of their genetic or transcriptional identity remains important in basic research, medicine, biotechnology and agriculture1-3. For applications involving bacteria, CRISPR nucleases offer promising options due to their ability to enact RNA-guided counterselection4-7; however, using these same nucleases for counterselection in eukaryotes has proven much more restrictive8-14. Here we show that Cas12a2, a recently discovered type V CRISPR nuclease, exhibits RNA-triggered DNA shredding15,16, and enables programmable and sequence-specific elimination of yeast and human cells expressing a target transcript. Triggering Cas12a2 elicits rampant double-stranded DNA breaks in trans, leading to cell death. Cell killing can be activated by a wide range of target transcripts, with no observed off-target activation. Leveraging this approach, we selectively eliminate cells that harbour human papillomavirus, cells that failed to undergo gene editing, or cells that encode a prevalent oncogenic point mutation in KRAS. These findings expand the CRISPR toolbox to allow the selective elimination of eukaryotic cells on the basis of their transcriptional profile.",
+        "authors": [
+          "Paul Scholz",
+          "Jared Thompson",
+          "Kadin T Crosby",
+          "Torsten Fauth",
+          "Nathan M Krah"
+        ],
+        "journal": "Nature",
+        "date": "2026-05-06",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "RNA-triggered cell killing with CRISPR-Cas12a2.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】表型：细胞凋亡/细胞毒性；核心发现：首次发现/鉴定, 促进作用, 表达水平变化；局限性：存在技术局限。\n【机制创新与产业价值】发表期刊：Nature。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "Bizarre CRISPR enzyme kills cancer cells by shredding their DNA.",
+        "composite_score": 9.42,
+        "relevance_score": 9.0,
+        "impact_factor": 48.5,
+        "top_tier": true
+      },
       {
         "pmid": "42496997",
         "title": "FDA Approves Gene Therapy for Younger Children With Sickle Cell Disease.",
@@ -587,6 +615,30 @@
         "composite_score": 7.25,
         "relevance_score": 5.0,
         "impact_factor": 96.2,
+        "top_tier": true
+      },
+      {
+        "pmid": "42259916",
+        "title": "Targeting cancer-specific mutations with RNA-triggered chromatin shredding.",
+        "abstract": "Genetic mutations that drive cancer often occur in tumour-suppressor proteins such as the p53 transcription factor, which is altered in 40-50% of cases1,2. However, current therapies often fail to target these mutations because the mutant proteins typically lack defined drug-binding pockets and restoring their endogenous function has proven challenging. Here we program Cas12a2, an RNA-guided CRISPR nuclease with trans-nucleolytic cleavage activity3,4, to kill cancer cells selectively by targeting cancer-specific transcripts. This approach limited cell growth by inducing trans shredding of chromatin and triggering DNA-damage responses and cell death. In contrast to existing methods, RNA-guided Cas12a2 senses cellular RNA signatures, enabling precise targeting of undruggable mutations. Transcript-activated chromatin shredding provides an innovative approach to precision disease treatments for undruggable targets.",
+        "authors": [
+          "Jingkun Zeng",
+          "Zhiyuan Cheng",
+          "Huadong Chen",
+          "Zhaojun Wang",
+          "Jared Thompson"
+        ],
+        "journal": "Nature",
+        "date": "2026-06-08",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Targeting cancer-specific mutations with RNA-triggered chromatin shredding.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】量化数据：50%；表型：肿瘤发生, 细胞凋亡/细胞毒性, 细胞增殖；核心发现：抑制作用, 促进作用, 有效性验证, 结合/相互作用；关键突破：新靶点。\n【机制创新与产业价值】发表期刊：Nature。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "Bizarre CRISPR enzyme kills cancer cells by shredding their DNA.",
+        "composite_score": 5.57,
+        "relevance_score": 2.0,
+        "impact_factor": 48.5,
         "top_tier": true
       },
       {
@@ -703,6 +755,27 @@
         "composite_score": 7.57,
         "relevance_score": 6.0,
         "impact_factor": 40.8,
+        "top_tier": false
+      },
+      {
+        "pmid": "42462700",
+        "title": "Programmable cell killer: CRISPR-Cas12a2 eliminates cells via RNA identity.",
+        "abstract": "In a recent issue of Nature, Scholz et al.1 apply the RNA-triggered DNA shredding activity of CRISPR-Cas12a2 in eukaryotic cells to enable programmable elimination of yeast and human cells expressing target transcripts with single-nucleotide resolution specificity and non-detectable off-target activity.",
+        "authors": [
+          "Yuanli Gao",
+          "Baojun Wang"
+        ],
+        "journal": "Molecular cell",
+        "date": "",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Programmable cell killer: CRISPR-Cas12a2 eliminates cells via RNA identity.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：表达水平变化, 结构解析。\n【机制创新与产业价值】发表期刊：Molecular cell。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "Bizarre CRISPR enzyme kills cancer cells by shredding their DNA.",
+        "composite_score": 7.54,
+        "relevance_score": 8.0,
+        "impact_factor": 14.5,
         "top_tier": false
       },
       {
@@ -892,75 +965,6 @@
         "composite_score": 6.27,
         "relevance_score": 6.0,
         "impact_factor": 12.4,
-        "top_tier": false
-      },
-      {
-        "pmid": "42497250",
-        "title": "Energy-assisted CRISPR cleavage and probiotic vesicle signaling platform: Microbiome reprogramming for homeostasis.",
-        "abstract": "Pathogenic infections drive microbial dysbiosis and persistent inflammation, posing therapeutic challenges due to difficulties in precise pathogen eradication and microbiome restoration. Although CRISPR-based therapeutics enable pathogen-specific antibacterial targeting, their effectiveness in treating pathogenic infections is constrained by difficulties in navigating complex microbial ecosystems, penetrating pathogenic barriers, sustaining energy-intensive intracellular cleavage, and, critically, restoring microbial balance after pathogen clearance. Here, we engineer a probiotic vesicle-synergized CRISPR platform by encapsulating gtfB-targeting CRISPR plasmids within hybrid extracellular vesicles from probiotics and pathogenic Streptococcus mutans. The pathogen-derived vesicle component enables targeted uptake by S. mutans, facilitating intracellular cleavage of the virulence gene gtfB. Vesicle-carried endogenous adenosine triphosphate (ATP) boosts CRISPR activity, amplifying targeted DNA cleavage for potent and selective pathogen elimination. Probiotic-derived vesicle components further remodel quorum-sensing networks and immunity, restoring microbial homeostasis. This probiotic vesicle-based strategy integrates ATP-enhanced CRISPR cleavage with microbiome and immune modulation, offering a next-generation therapeutic paradigm for microbiome-associated diseases.",
-        "authors": [
-          "Zilin Zhou",
-          "Yingming Yang",
-          "Fangjie Zhou",
-          "Kunneng Liang",
-          "Tao Gong"
-        ],
-        "journal": "Science advances",
-        "date": "2026-07-24",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Energy-assisted CRISPR cleavage and probiotic vesicle signaling platform: Microbiome reprogramming for homeostasis.",
-        "abstract_cn": "Pathogenic infections drive microbial dysbiosis persistent inflammation, posing therapeutic challenges difficulties precise pathogen eradication microbiome restoration. Although CRISPR基因编辑-based therapeutics enable pathogen-specific antibacterial targeting, their effectiveness treating pathogenic infections constrained difficulties navigating complex microbial ecosystems, penetrating pathogenic barriers, sustaining energy-intensive intracellular cleavage, , critically, restoring microbial balance after pathogen clearance. Here, engineer probiotic vesicle-synergized CRISPR基因编辑 platform encapsulating gtfB-targeting CRISPR基因编辑 plasmids within hybrid extracellular vesicles from probiotics pathogenic Streptococcus mutans. The pathogen-derived vesicle component enables targeted uptake . mutans, facilitating intracellular cleavage virulence gene gtfB. Vesicle-carried endogenous adenosine triphosphate boosts CRISPR基因编辑 activity, amplifying targeted cleavage potent selective pathogen elimination. Probiotic-derived vesicle components further remodel quorum-sensing networks immunity, restoring microbial homeostasis. This probiotic vesicle-based strategy integrates -enhanced CRISPR基因编辑 cleavage with microbiome immune modulation, offering next-generation therapeutic paradigm microbiome-associated diseases.",
-        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 调控作用, 疾病模型建立, 有效性验证。\n【机制创新与产业价值】发表期刊：Science advances。\n【后续追踪要点】新药研发。",
-        "composite_score": 6.21,
-        "relevance_score": 6.0,
-        "impact_factor": 11.7,
-        "top_tier": false
-      },
-      {
-        "pmid": "42497253",
-        "title": "Single-cell and high-resolution spatial profiling of podocytopathies reveals core mechanisms of podocyte injury.",
-        "abstract": "Podocytes (PODs) play a critical role in maintaining glomerular filtration function, and their injury is a key driver of progressive podocytopathies (PCPs). Despite their clinical importance, the molecular and spatial mechanisms underlying POD injury remain poorly understood. We generated a single-nucleus RNA sequencing (snRNA-seq) and high-resolution spatial transcriptomic (ST) dataset from kidney tissues of patients with five major PCP subtypes. Our analysis revealed distinct molecular signatures among PCP subtypes, injury-related cytoskeletal alterations, and POD-centered microenvironmental features associated with clinical outcomes. Through integrative analysis, we found PDE4DIP as a previously unrecognized regulator of the POD cytoskeleton. Functional experiments through in vitro and in vivo gene editing demonstrated that PDE4DIP maintains cytoskeletal integrity by scaffolding with AKAP9 and activating RAS-ERK and AKT signaling. Its expression correlated with renal function and prognosis. This study provides the comprehensive snRNA-seq and high-resolution ST atlas of PCPs, offering a valuable resource for understanding POD injury and identifying potential therapeutic targets.",
-        "authors": [
-          "Jianbo Qing",
-          "Yiting Zhao",
-          "Xiao Wang",
-          "Linnan Bai",
-          "Xinni Wang"
-        ],
-        "journal": "Science advances",
-        "date": "2026-07-24",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Single-cell and high-resolution spatial profiling of podocytopathies reveals core mechanisms of podocyte injury.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：RNA-seq转录组测序；研究层级：动物体内实验。\n【核心实验关键数据】核心发现：鉴定/表征, 促进作用, 调控作用, 相关性。\n【机制创新与产业价值】发表期刊：Science advances。\n【后续追踪要点】新药研发。",
-        "composite_score": 6.21,
-        "relevance_score": 6.0,
-        "impact_factor": 11.7,
-        "top_tier": false
-      },
-      {
-        "pmid": "42492790",
-        "title": "Integrated Multi-omics Analysis Uncovers Molecular Dysregulation in Glycosylceramide Synthase-Deficient Human Induced Pluripotent Stem Cells.",
-        "abstract": "Glycosphingolipids (GSLs) are membrane lipids characterized by highly diverse glycosylation patterns. They are involved in numerous cellular processes and can be linked to diseases. With the aim to investigate their role in early mammalian developmental processes in vitro, we knocked out the UDP-glucose ceramide glucosyltransferase gene (UGCG) encoding the enzyme glucosylceramide synthase (UGCG) in human induced pluripotent stem cells (hiPSCs) by CRISPR/Cas9. The functional impairment of UGCG was confirmed by glycomic profiling. UGCG knock out (KO) hiPSCs displayed normal morphology, growth behaviour, and expression of stem cell markers compared to wildtype (WT) hiPSCs. Furthermore, the KO cells maintained pluripotency, as evidenced by their capacity for in vitro differentiation into all three embryonic germ layers and their ability to form teratomas in vivo. Quantitative proteomic analysis of explanted teratoma derived from WT and UGCG KO hiPSCs revealed differential expression of numerous proteins, with notable enrichment of pathways associated with signal transduction or protein localization and transport. Phosphorylation profiling of key kinases and their targets uncovered reduced activation of STAT family transcription factors in UGCG KO hiPSCs. Complementary transcriptomic profiling combined with Ingenuity Pathway Analysis (IPA) of differentially expressed genes between WT and UGCG KO hiPSCs, as well as their ectodermal derivatives, revealed a predicted positive enrichment of proteins associated with signaling pathways in UGCG KO hiPSCs. Global lipidomic profiling showed a significant increase in sphingomyelin levels in UGCG KO hiPSCs and their ectodermally differentiated derivatives, whereas total ceramide content remained comparable between UGCG KO and WT cells. In summary, despite the absence of overt phenotypic changes, our findings demonstrate that glycosphingolipid deficiency induces multiple molecular perturbations in hiPSCs.",
-        "authors": [
-          "Julia Beimdiek",
-          "Karsten Cirksena",
-          "Charlotte Rossdam",
-          "Smilla Brand-Merseburger",
-          "Astrid Oberbeck"
-        ],
-        "journal": "Molecular & cellular proteomics : MCP",
-        "date": "2026-07-23",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Integrated Multi-omics Analysis Uncovers Molecular Dysregulation in Glycosylceramide Synthase-Deficient Human Induced Pluripotent Stem Cells.",
-        "abstract_cn": "Glycosphingolipids membrane lipids characterized highly diverse glycosylation patterns. They involved numerous cellular processes linked diseases. With investigate their role early mammalian developmental processes 体外, knocked -glucose ceramide glucosyltransferase gene encoding enzyme glucosylceramide synthase human induced pluripotent stem cells CRISPR基因编辑/Cas9. The functional impairment confirmed glycomic profiling. knock h诱导多能干细胞s displayed normal morphology, growth behaviour, expression stem cell markers compared wildtype h诱导多能干细胞s. Furthermore, cells maintained pluripotency, evidenced their capacity 体外 differentiation into three embryonic germ layers their ability form teratomas 体内. Quantitative proteomic analysis explanted teratoma derived from h诱导多能干细胞s revealed differential expression numerous proteins, with notable enrichment pathways associated with signal transduction protein localization transport. Phosphorylation profiling kinases their targets uncovered reduced activation family transcription factors h诱导多能干细胞s. Complementary transcriptomic profiling combined with Ingenuity Pathway Analysis differentially expressed genes between h诱导多能干细胞s, well their ectodermal derivatives, revealed predicted positive enrichment proteins associated with signaling pathways h诱导多能干细胞s. Global lipidomic profiling showed significant increase sphingomyelin levels h诱导多能干细胞s their ectodermally differentiated derivatives, whereas total ceramide content remained comparable between cells. In summary, despite absence overt phenotypic changes, findings demonstrate that glycosphingolipid deficiency induces multiple molecular perturbations h诱导多能干细胞s.",
-        "summary_cn": "【研究基础与实验设计】模型：诱导多能干细胞(iPSC)；核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：动物体内实验。\n【核心实验关键数据】核心发现：鉴定/表征, 促进作用, 调控作用, 相关性；局限性：需进一步研究。\n【机制创新与产业价值】发表期刊：Molecular & cellular proteomics : MCP。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 6.16,
-        "relevance_score": 5.5,
-        "impact_factor": 14.5,
         "top_tier": false
       }
     ],
@@ -1680,6 +1684,36 @@
         "top_tier": false
       },
       {
+        "pmid": "41711341",
+        "title": "GLP-1 receptor agonists: Bridging diabetes, obesity, and periodontitis-A scoping review of emerging evidence.",
+        "abstract": "BACKGROUND: Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) are analogs of the endogenous incretin hormone GLP-1 and are increasingly used in the treatment of diabetes and obesity. Beyond glycemic control and weight loss, they have demonstrated anti-inflammatory, antioxidative, and immunomodulatory properties. Given the inflammatory nature of periodontitis and its bidirectional relationship with diabetes mellitus, interest is growing in exploring the potential therapeutic benefits of GLP-1 RAs in periodontal diseases. This scoping review aims to search the existing literature on the effects of GLP-1 RAs on periodontitis, focusing on underlying mechanisms and emerging clinical implications. METHODS: Following PRISMA guidelines for scoping reviews, a comprehensive search was conducted in Medline/PubMed and Embase to identify preclinical and clinical studies in English evaluating the effects of GLP-1 RAs on periodontal tissues. Data were synthesized thematically to highlight key findings and gaps. RESULTS: Evidence from mechanistic and preclinical studies supports a biologically plausible link between GLP-1 RAs and pathways central to periodontal inflammation and host response. Human studies remain limited and observational but consistently report associations between periodontitis and altered incretin hormone profiles, including reduced endogenous GLP-1 levels and increases following periodontal treatment. CONCLUSION: This scoping review identifies growing mechanistic and preclinical evidence suggesting potential interactions between GLP-1 RAs and periodontal inflammatory pathways. Although current human evidence is indirect and insufficient to establish therapeutic benefit, these early signals highlight an important opportunity for future research. Well-designed clinical trials with periodontal endpoints are needed to clarify whether GLP-1 RAs may provide adjunctive value in periodontal care. PLAIN LANGUAGE SUMMARY: GLP-1 receptor agonists are medications commonly used to manage diabetes and obesity. In addition to their metabolic effects, laboratory and animal studies suggest that these drugs may influence biological processes also involved in gum disease, such as inflammation, immune response, and bone metabolism. This scoping review examined all available scientific studies on the relationship between GLP-1 receptor agonists and periodontal disease. Most of the existing evidence comes from mechanistic and preclinical research showing that these medications can reduce inflammation and support tissue repair in experimental models. Human studies are still very limited and have focused mainly on metabolic markers rather than on direct measures of gum health. So far, no clinical trial has tested whether GLP-1 medications can improve periodontal outcomes. Although no conclusions can be made for clinical dental practice today, the findings highlight an emerging and promising area of research. Well-designed clinical studies are needed to determine whether GLP-1 receptor agonists could eventually play a role in periodontal treatment.",
+        "authors": [
+          "Angeliki Polymeri",
+          "Magda Feres",
+          "William V Giannobile",
+          "Bruno G Loos"
+        ],
+        "journal": "Journal of periodontology",
+        "date": "2026-02-19",
+        "keywords": [
+          "GLP‐1 receptor agonists",
+          "diabetes mellitus type 2",
+          "glycemic control",
+          "inflammation",
+          "obesity",
+          "periodontitis"
+        ],
+        "companies": [],
+        "title_cn": "GLP-1 receptor agonists: Bridging diabetes, obesity, and periodontitis-A scoping review of emerging evidence.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：临床前研究。\n【核心实验关键数据】核心发现：鉴定/表征, 调控作用, 相关性, 疾病模型建立。\n【机制创新与产业价值】发表期刊：Journal of periodontology。\n【后续追踪要点】临床试验；新药研发。",
+        "backfilled_from_news": "GLP-1 Medications May Improve Health in People With PAD and Diabetes.",
+        "composite_score": 8.23,
+        "relevance_score": 12.5,
+        "impact_factor": null,
+        "top_tier": false
+      },
+      {
         "pmid": "42497473",
         "title": "Effects of glucagon-like peptide-1 receptor agonists on metabolic outcomes in antipsychotic-treated patients with schizophrenia: A systematic review and meta-analysis.",
         "abstract": "BACKGROUND: Individuals with schizophrenia have markedly increased cardiometabolic morbidity, largely attributable to antipsychotic-induced weight gain, insulin resistance, and dyslipidemia, particularly with clozapine- and olanzapine-based regimens. This systematic review and meta-analysis evaluated the efficacy and safety of glucagon-like peptide-1 receptor agonists (GLP-1RAs) in antipsychotic-treated patients with schizophrenia. METHODS: PubMed, Embase, and the Cochrane Central Register of Controlled Trials were searched from inception to September 16, 2025 for randomized clinical trials comparing GLP-1RAs with placebo or standard care. The review followed Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines and was prospectively registered in PROSPERO (CRD420251177261). Random-effects models were used to pool mean differences (MDs) and risk ratios (RRs). RESULTS: Eight randomized clinical trials including 523 participants were analyzed. GLP-1RAs significantly reduced body weight (MD -6.47; 95% CI, -9.61 to -3.32), body mass index (MD -2.83; 95% CI, -3.81 to -1.86), waist circumference (MD -5.35; 95% CI, -6.60 to -4.09), and glycated hemoglobin levels (MD -0.32; 95% CI, -0.39 to -0.26) compared with placebo or standard care. Exploratory subgroup analyses suggested marked differences across individual agents: exenatide showed a smaller and non-significant reduction in body weight, liraglutide showed a significant moderate reduction, and semaglutide showed the largest reduction. No significant effects were observed for fasting insulin, lipid parameters, or blood pressure. Gastrointestinal adverse events were more frequent with GLP-1RAs. CONCLUSIONS: In this systematic review and meta-analysis, GLP-1RAs were associated with clinically meaningful improvements in anthropometric and glycemic outcomes in antipsychotic-treated patients with schizophrenia, with acceptable tolerability primarily characterized by gastrointestinal adverse events.",
@@ -1703,55 +1737,33 @@
         "top_tier": false
       },
       {
-        "pmid": "42486607",
-        "title": "Risk of hair loss associated with glucagon-like peptide-1 receptor agonists in adults with type 2 diabetes: target trial emulation.",
-        "abstract": "OBJECTIVE: To examine the association between glucagon-like peptide-1 (GLP-1) receptor agonists and the risk of incident alopecia (hair loss) in adults with type 2 diabetes, compared with sodium-glucose cotransporter-2 (SGLT-2) inhibitors and dipeptidyl peptidase-4 (DPP-4) inhibitors. DESIGN: Target trial emulation. SETTING: Electronic health records from Penn Medicine. PARTICIPANTS: Adults (>18 years) with type 2 diabetes. EXPOSURES: New initiation of GLP-1 receptor agonists, SGLT-2 inhibitors, or DPP-4 inhibitors between January 2019 and September 2024. MAIN OUTCOME MEASURES: Outcomes of interest included incident alopecia and its subtypes, identified by using diagnostic codes. Stabilised inverse probability of treatment weighting was applied to balance baseline covariates between treatment groups, and Cox proportional hazards models were used to estimate hazard ratios with 95% confidence intervals. Multiple sensitivity (including negative control outcome calibration) and subgroup analyses were done to assess robustness. RESULTS: This study included 12 004 GLP-1 receptor agonist initiators and 15 221 SGLT-2 inhibitor initiators in the GLP-1 receptor agonist versus SGLT-2 inhibitor comparison and 11 964 GLP-1 receptor agonist initiators and 11 238 DPP-4 inhibitor initiators in the GLP-1 receptor agonist versus DPP-4 inhibitor comparison. After stabilised inverse probability of treatment weighting adjustment, use of GLP-1 receptor agonists was associated with a higher risk of alopecia than use of SGLT-2 inhibitors (hazard ratio 1.37, 95% confidence interval 1.08 to 1.73) or DPP-4 inhibitors (1.68, 1.28 to 2.20). The associations were consistent across sensitivity and subgroup analyses, with attenuation after negative control outcome calibration. Subtype analyses indicated that the association was specific to non-scarring alopecia, with hazard ratios of 1.53 (1.18 to 1.97) and 1.72 (1.28 to 2.31) compared with SGLT-2 inhibitors and DPP-4 inhibitors, respectively. CONCLUSIONS: Use of GLP-1 receptor agonists was associated with an increased risk of non-scarring alopecia in adults with type 2 diabetes. Although the absolute risk is low, awareness of this potential effect may help to inform treatment decisions.",
+        "pmid": "42154164",
+        "title": "Maternal obesity and the metabolic syndrome in reproductive health: assessing incretin-based interventions.",
+        "abstract": "The global epidemic of overweight and obesity threatens gynecological and reproductive health, necessitating effective therapeutic strategies to improve maternal and fetal long-term health outcomes. This review provides an overview of weight loss interventions and discusses their use in the context of gestation, such as surgical interventions and anti-obesity medications. As the interest in incretin-based therapies has risen substantially, we discuss how incretin-based therapies, including glucagon-like peptide-1 (GLP-1) receptor agonists and GLP-1 receptor agonists and glucose-dependent insulinotropic polypeptide (GIP) dual agonists, might improve reproductive function and could interact with the physiological metabolic changes ensuring a healthy pregnancy. These metabolic adaptations during pregnancy arise from the integration of insulin signaling, lipid metabolism, placental endocrine function, mitochondrial remodeling and inflammatory regulation. Furthermore, we consider not only short-term consequences of maternal overweight and obesity but also focus on fetal long-term health trajectories following pregnancy-related metabolic disorders, as maternal obesity and gestational weight gain are considered risk factors for childhood obesity and overweight.",
         "authors": [
-          "Huilin Tang",
-          "Bingyu Zhang",
-          "Yiwen Lu",
-          "Dazheng Zhang",
-          "Ruishan Liu"
+          "Luisa Wallentowitz",
+          "Mariana G Garcia",
+          "Catalina Atorrasagasti",
+          "Charlotte Harms",
+          "Evelyn A Huhn"
         ],
-        "journal": "BMJ (Clinical research ed.)",
-        "date": "2026-07-22",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Risk of hair loss associated with glucagon-like peptide-1 receptor agonists in adults with type 2 diabetes: target trial emulation.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：95%, 95%；核心发现：抑制作用, 相关性, 疾病模型建立, 有效性验证。\n【机制创新与产业价值】发表期刊：BMJ (Clinical research ed.)。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 7.8,
-        "relevance_score": 6.0,
-        "impact_factor": 93.6,
-        "top_tier": false
-      },
-      {
-        "pmid": "42484659",
-        "title": "GLP-1 receptor agonists in osteoarthritis and psoriatic disease: the missing link between obesity and inflammation?",
-        "abstract": "Excessive body weight stands out as a major, well-documented risk factor for rheumatic and musculoskeletal diseases (RMDs). Indeed, high body mass index (BMI) affects disease severity, treatment response, and long-term outcomes. Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) were first developed for type 2 diabetes and obesity, but there is growing evidence that they may also have anti-inflammatory and immunomodulatory properties [1-3]. This narrative review examines the available evidence on the role of GLP-1 RAs in two conditions that are strongly associated with metabolic and mechanical factors but sit on almost opposite ends of the inflammatory spectrum: osteoarthritis (OA), a predominantly mechanically driven disease, and psoriatic disease (PsD), an immune-mediated inflammatory disease. A comprehensive narrative review of the literature was conducted to evaluate preclinical and clinical evidence regarding the effects of GLP-1 signaling in both OA and PsD. Preclinical data suggest that GLP-1 signaling may protect cartilage, reduce inflammation, and alleviate pain in OA. Early clinical evidence is encouraging, showing reductions in both joint pain and body weight. In PsD, obesity and psoriatic inflammation share several common pathways, particularly through the IL-17/IL-23 axis, which provides a theoretical biological rationale for GLP-1 RAs use in this setting, although direct clinical evidence remains limited and largely derived from studies in obese patients. Dedicated randomized controlled trials are necessary to clarify the direct immunomodulatory mechanisms involved and to define the precise position of GLP-1 RAs in rheumatological practice.",
-        "authors": [
-          "Andreas Angelopoulos",
-          "George E Fragoulis",
-          "Charalampos Papagoras",
-          "Dimitrios Daoussis"
-        ],
-        "journal": "Rheumatology international",
-        "date": "2026-07-22",
+        "journal": "Reviews in endocrine & metabolic disorders",
+        "date": "2026-05-19",
         "keywords": [
-          "Arthritis",
-          "Glucagon-Like Peptide-1 Receptor Agonists",
-          "Glucagon-Like peptide",
-          "Obesity",
-          "Osteoarthritis",
-          "Psoriasis",
-          "Psoriatic"
+          "GLP-1 receptor agonists",
+          "Incretin-based therapies",
+          "Maternal obesity",
+          "Metabolic syndrome",
+          "Pregnancy outcomes",
+          "Reproductive health"
         ],
         "companies": [],
-        "title_cn": "GLP-1 receptor agonists in osteoarthritis and psoriatic disease: the missing link between obesity and inflammation?",
+        "title_cn": "Maternal obesity and the metabolic syndrome in reproductive health: assessing incretin-based interventions.",
         "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：临床前研究。\n【核心实验关键数据】核心发现：调控作用, 相关性, 有效性验证。\n【机制创新与产业价值】发表期刊：Rheumatology international。\n【后续追踪要点】长期疗效评估。",
-        "composite_score": 7.68,
-        "relevance_score": 11.5,
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】核心发现：调控作用, 疾病模型建立, 有效性验证。\n【机制创新与产业价值】发表期刊：Reviews in endocrine & metabolic disorders。\n【后续追踪要点】新药研发；长期疗效评估。",
+        "backfilled_from_news": "GLP-1 Medications May Improve Health in People With PAD and Diabetes.",
+        "composite_score": 7.95,
+        "relevance_score": 12.0,
         "impact_factor": null,
         "top_tier": false
       }
