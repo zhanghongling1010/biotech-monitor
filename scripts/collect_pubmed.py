@@ -1202,7 +1202,9 @@ def collect_all_data():
     for category, queries in SEARCH_TERMS.items():
         print(f"\n[{category}] 搜索中...")
         for query in queries:
-            pmids = search_pubmed(query, days_back=7, max_results=30)
+            # retmax=200: CRISPR 等热门领域每天新增~50篇,30 只会保留当天最新的,
+            # 1-2 天前的重要论文(如 Nature)会被静默丢弃
+            pmids = search_pubmed(query, days_back=7, max_results=200)
             if pmids:
                 articles = fetch_article_details(pmids)
                 for article in articles:
