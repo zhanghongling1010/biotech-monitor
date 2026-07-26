@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-26T20:30:48.550393",
+  "timestamp": "2026-07-26T20:58:05.617558",
   "critical": {
     "deals": [
       {
@@ -333,19 +333,13 @@
     ],
     "research": [
       {
-        "title": "FDA Approves Gene Therapy for Younger Children With Sickle Cell Disease.",
-        "journal": "JAMA",
+        "title": "CRISPR-Cas9-producing probiotic bacteria for editing NOX2/gp91phox and treating inflammatory bowel disease.",
+        "journal": "Cell reports. Medicine",
         "date": "2026-07-24",
         "authors": [
-          "Samantha Anderer"
-        ]
-      },
-      {
-        "title": "Bizarre CRISPR enzyme kills cancer cells by shredding their DNA.",
-        "journal": "Nature",
-        "date": "2026-07-24",
-        "authors": [
-          "Heidi Ledford"
+          "Chen Zhang",
+          "Tianyu Li",
+          "Huoye Hao"
         ]
       },
       {
@@ -366,14 +360,6 @@
           "Yuanyuan Zhao",
           "Hongyun Zhao",
           "Qiming Wang"
-        ]
-      },
-      {
-        "title": "GLP-1 Medications May Improve Health in People With PAD and Diabetes.",
-        "journal": "JAMA",
-        "date": "2026-07-24",
-        "authors": [
-          "Samantha Anderer"
         ]
       },
       {
@@ -457,13 +443,23 @@
         ]
       },
       {
-        "title": "Advancing CAR-NK cell therapy in solid tumors: Current landscape and future directions.",
-        "journal": "Cell reports. Medicine",
-        "date": "2026-06-25",
+        "title": "GLP-1 Agonists in Adolescent Obesity: A Narrative Review of Single, Dual, and Triple Agonists.",
+        "journal": "Diabetes, metabolic syndrome and obesity : targets and therapy",
+        "date": "2026-06-12",
         "authors": [
-          "Gohar Shahwar Manzar",
-          "Md Faqrul Hasan",
-          "Madison Moore"
+          "Mahroz Abid",
+          "Khizer Sohail Sheikh",
+          "Muhammad Shahbaz Ahmad"
+        ]
+      },
+      {
+        "title": "Targeting cancer-specific mutations with RNA-triggered chromatin shredding.",
+        "journal": "Nature",
+        "date": "2026-06-08",
+        "authors": [
+          "Jingkun Zeng",
+          "Zhiyuan Cheng",
+          "Huadong Chen"
         ]
       },
       {
@@ -505,6 +501,16 @@
           "Xiong X",
           "Chen X"
         ]
+      },
+      {
+        "title": "Ten-Year Outcomes after CAR T-Cell Therapy for B-Cell Lymphomas.",
+        "journal": "The New England journal of medicine",
+        "date": "",
+        "authors": [
+          "Marco Ruella",
+          "Luca Paruzzo",
+          "Emeline R Chong"
+        ]
       }
     ]
   },
@@ -535,89 +541,6 @@
         "top_tier": true
       },
       {
-        "pmid": "42496997",
-        "title": "FDA Approves Gene Therapy for Younger Children With Sickle Cell Disease.",
-        "abstract": "",
-        "authors": [
-          "Samantha Anderer"
-        ],
-        "journal": "JAMA",
-        "date": "2026-07-24",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "FDA Approves Gene Therapy for Younger Children With Sickle Cell Disease.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：镰状细胞病；核心技术：基因治疗/病毒载体；研究层级：基础研究。\n【核心实验关键数据】原文未披露详细量化数据。\n【机制创新与产业价值】发表期刊：JAMA。\n【后续追踪要点】基因/细胞治疗。",
-        "composite_score": 8.62,
-        "relevance_score": 7.5,
-        "impact_factor": 63.1,
-        "top_tier": true
-      },
-      {
-        "pmid": "42498810",
-        "title": "Bizarre CRISPR enzyme kills cancer cells by shredding their DNA.",
-        "abstract": "",
-        "authors": [
-          "Heidi Ledford"
-        ],
-        "journal": "Nature",
-        "date": "2026-07-24",
-        "keywords": [
-          "CRISPR-Cas9 genome editing",
-          "Cancer"
-        ],
-        "companies": [],
-        "title_cn": "Bizarre CRISPR enzyme kills cancer cells by shredding their DNA.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生。\n【机制创新与产业价值】发表期刊：Nature。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 7.77,
-        "relevance_score": 6.0,
-        "impact_factor": 48.5,
-        "top_tier": true
-      },
-      {
-        "pmid": "42498808",
-        "title": "Personalized gene therapy relieves severe epilepsy in two boys.",
-        "abstract": "",
-        "authors": [],
-        "journal": "Nature",
-        "date": "2026-07-24",
-        "keywords": [
-          "Medical research"
-        ],
-        "companies": [],
-        "title_cn": "Personalized gene therapy relieves severe epilepsy in two boys.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：基因治疗/病毒载体；研究层级：基础研究。\n【核心实验关键数据】表型：癫痫发作。\n【机制创新与产业价值】发表期刊：Nature。\n【后续追踪要点】基因/细胞治疗。",
-        "composite_score": 7.77,
-        "relevance_score": 6.0,
-        "impact_factor": 48.5,
-        "top_tier": true
-      },
-      {
-        "pmid": "42485644",
-        "title": "Cardiotoxic Effects and Microdystrophin Expression after Gene Therapy for DMD.",
-        "abstract": "",
-        "authors": [
-          "Benjamin J Samelson-Jones",
-          "Cristina Martos-Rus",
-          "Carolyn M Yrigollen",
-          "Luis Tecedor",
-          "Juliana C Small"
-        ],
-        "journal": "The New England journal of medicine",
-        "date": "2026-07-22",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Cardiotoxic Effects and Microdystrophin Expression after Gene Therapy for DMD.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：基因治疗/病毒载体；研究层级：基础研究。\n【核心实验关键数据】核心发现：表达水平变化。\n【机制创新与产业价值】发表期刊：The New England journal of medicine。\n【后续追踪要点】基因/细胞治疗。",
-        "composite_score": 7.25,
-        "relevance_score": 5.0,
-        "impact_factor": 96.2,
-        "top_tier": true
-      },
-      {
         "pmid": "42259916",
         "title": "Targeting cancer-specific mutations with RNA-triggered chromatin shredding.",
         "abstract": "Genetic mutations that drive cancer often occur in tumour-suppressor proteins such as the p53 transcription factor, which is altered in 40-50% of cases1,2. However, current therapies often fail to target these mutations because the mutant proteins typically lack defined drug-binding pockets and restoring their endogenous function has proven challenging. Here we program Cas12a2, an RNA-guided CRISPR nuclease with trans-nucleolytic cleavage activity3,4, to kill cancer cells selectively by targeting cancer-specific transcripts. This approach limited cell growth by inducing trans shredding of chromatin and triggering DNA-damage responses and cell death. In contrast to existing methods, RNA-guided Cas12a2 senses cellular RNA signatures, enabling precise targeting of undruggable mutations. Transcript-activated chromatin shredding provides an innovative approach to precision disease treatments for undruggable targets.",
@@ -640,27 +563,6 @@
         "relevance_score": 2.0,
         "impact_factor": 48.5,
         "top_tier": true
-      },
-      {
-        "pmid": "42492509",
-        "title": "Evaluating cases of possible insertional mutagenesis after AAV gene therapy.",
-        "abstract": "",
-        "authors": [
-          "Lindsey A George",
-          "Rebecca C Ahrens-Nicklas",
-          "Frederic D Bushman"
-        ],
-        "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
-        "date": "2026-07-23",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Evaluating cases of possible insertional mutagenesis after AAV gene therapy.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：基因治疗/病毒载体；研究层级：基础研究。\n【核心实验关键数据】原文未披露详细量化数据。\n【机制创新与产业价值】发表期刊：Molecular therapy : the journal of the American Society of Gene Therapy。\n【后续追踪要点】基因/细胞治疗。",
-        "composite_score": 8.47,
-        "relevance_score": 10.0,
-        "impact_factor": 12.4,
-        "top_tier": false
       },
       {
         "pmid": "42497864",
@@ -714,47 +616,6 @@
         "composite_score": 8.27,
         "relevance_score": 12.0,
         "impact_factor": 3.3,
-        "top_tier": false
-      },
-      {
-        "pmid": "42486082",
-        "title": "The dermis as a gene therapy target: AAVrh32.33 finds an unexpected home in skin.",
-        "abstract": "",
-        "authors": [
-          "Eline S Herman",
-          "Irina Filz von Reiterdank"
-        ],
-        "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
-        "date": "2026-07-22",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "The dermis as a gene therapy target: AAVrh32.33 finds an unexpected home in skin.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：基因治疗/病毒载体；研究层级：基础研究。\n【核心实验关键数据】原文未披露详细量化数据。\n【机制创新与产业价值】发表期刊：Molecular therapy : the journal of the American Society of Gene Therapy。\n【后续追踪要点】基因/细胞治疗。",
-        "composite_score": 7.92,
-        "relevance_score": 9.0,
-        "impact_factor": 12.4,
-        "top_tier": false
-      },
-      {
-        "pmid": "42486855",
-        "title": "Sound effects: paradigm gene therapy approach installs hearing in children and adolescents born deaf.",
-        "abstract": "",
-        "authors": [
-          "Juliane W Schott",
-          "Michael Morgan",
-          "Axel Schambach"
-        ],
-        "journal": "Signal transduction and targeted therapy",
-        "date": "2026-07-23",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Sound effects: paradigm gene therapy approach installs hearing in children and adolescents born deaf.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：基因治疗/病毒载体；研究层级：基础研究。\n【核心实验关键数据】原文未披露详细量化数据。\n【机制创新与产业价值】发表期刊：Signal transduction and targeted therapy。\n【后续追踪要点】基因/细胞治疗。",
-        "composite_score": 7.57,
-        "relevance_score": 6.0,
-        "impact_factor": 40.8,
         "top_tier": false
       },
       {
@@ -966,6 +827,185 @@
         "relevance_score": 6.0,
         "impact_factor": 12.4,
         "top_tier": false
+      },
+      {
+        "pmid": "42497250",
+        "title": "Energy-assisted CRISPR cleavage and probiotic vesicle signaling platform: Microbiome reprogramming for homeostasis.",
+        "abstract": "Pathogenic infections drive microbial dysbiosis and persistent inflammation, posing therapeutic challenges due to difficulties in precise pathogen eradication and microbiome restoration. Although CRISPR-based therapeutics enable pathogen-specific antibacterial targeting, their effectiveness in treating pathogenic infections is constrained by difficulties in navigating complex microbial ecosystems, penetrating pathogenic barriers, sustaining energy-intensive intracellular cleavage, and, critically, restoring microbial balance after pathogen clearance. Here, we engineer a probiotic vesicle-synergized CRISPR platform by encapsulating gtfB-targeting CRISPR plasmids within hybrid extracellular vesicles from probiotics and pathogenic Streptococcus mutans. The pathogen-derived vesicle component enables targeted uptake by S. mutans, facilitating intracellular cleavage of the virulence gene gtfB. Vesicle-carried endogenous adenosine triphosphate (ATP) boosts CRISPR activity, amplifying targeted DNA cleavage for potent and selective pathogen elimination. Probiotic-derived vesicle components further remodel quorum-sensing networks and immunity, restoring microbial homeostasis. This probiotic vesicle-based strategy integrates ATP-enhanced CRISPR cleavage with microbiome and immune modulation, offering a next-generation therapeutic paradigm for microbiome-associated diseases.",
+        "authors": [
+          "Zilin Zhou",
+          "Yingming Yang",
+          "Fangjie Zhou",
+          "Kunneng Liang",
+          "Tao Gong"
+        ],
+        "journal": "Science advances",
+        "date": "2026-07-24",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Energy-assisted CRISPR cleavage and probiotic vesicle signaling platform: Microbiome reprogramming for homeostasis.",
+        "abstract_cn": "Pathogenic infections drive microbial dysbiosis persistent inflammation, posing therapeutic challenges difficulties precise pathogen eradication microbiome restoration. Although CRISPR基因编辑-based therapeutics enable pathogen-specific antibacterial targeting, their effectiveness treating pathogenic infections constrained difficulties navigating complex microbial ecosystems, penetrating pathogenic barriers, sustaining energy-intensive intracellular cleavage, , critically, restoring microbial balance after pathogen clearance. Here, engineer probiotic vesicle-synergized CRISPR基因编辑 platform encapsulating gtfB-targeting CRISPR基因编辑 plasmids within hybrid extracellular vesicles from probiotics pathogenic Streptococcus mutans. The pathogen-derived vesicle component enables targeted uptake . mutans, facilitating intracellular cleavage virulence gene gtfB. Vesicle-carried endogenous adenosine triphosphate boosts CRISPR基因编辑 activity, amplifying targeted cleavage potent selective pathogen elimination. Probiotic-derived vesicle components further remodel quorum-sensing networks immunity, restoring microbial homeostasis. This probiotic vesicle-based strategy integrates -enhanced CRISPR基因编辑 cleavage with microbiome immune modulation, offering next-generation therapeutic paradigm microbiome-associated diseases.",
+        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 调控作用, 疾病模型建立, 有效性验证。\n【机制创新与产业价值】发表期刊：Science advances。\n【后续追踪要点】新药研发。",
+        "composite_score": 6.21,
+        "relevance_score": 6.0,
+        "impact_factor": 11.7,
+        "top_tier": false
+      },
+      {
+        "pmid": "42497253",
+        "title": "Single-cell and high-resolution spatial profiling of podocytopathies reveals core mechanisms of podocyte injury.",
+        "abstract": "Podocytes (PODs) play a critical role in maintaining glomerular filtration function, and their injury is a key driver of progressive podocytopathies (PCPs). Despite their clinical importance, the molecular and spatial mechanisms underlying POD injury remain poorly understood. We generated a single-nucleus RNA sequencing (snRNA-seq) and high-resolution spatial transcriptomic (ST) dataset from kidney tissues of patients with five major PCP subtypes. Our analysis revealed distinct molecular signatures among PCP subtypes, injury-related cytoskeletal alterations, and POD-centered microenvironmental features associated with clinical outcomes. Through integrative analysis, we found PDE4DIP as a previously unrecognized regulator of the POD cytoskeleton. Functional experiments through in vitro and in vivo gene editing demonstrated that PDE4DIP maintains cytoskeletal integrity by scaffolding with AKAP9 and activating RAS-ERK and AKT signaling. Its expression correlated with renal function and prognosis. This study provides the comprehensive snRNA-seq and high-resolution ST atlas of PCPs, offering a valuable resource for understanding POD injury and identifying potential therapeutic targets.",
+        "authors": [
+          "Jianbo Qing",
+          "Yiting Zhao",
+          "Xiao Wang",
+          "Linnan Bai",
+          "Xinni Wang"
+        ],
+        "journal": "Science advances",
+        "date": "2026-07-24",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Single-cell and high-resolution spatial profiling of podocytopathies reveals core mechanisms of podocyte injury.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】核心技术：RNA-seq转录组测序；研究层级：动物体内实验。\n【核心实验关键数据】核心发现：鉴定/表征, 促进作用, 调控作用, 相关性。\n【机制创新与产业价值】发表期刊：Science advances。\n【后续追踪要点】新药研发。",
+        "composite_score": 6.21,
+        "relevance_score": 6.0,
+        "impact_factor": 11.7,
+        "top_tier": false
+      },
+      {
+        "pmid": "42492790",
+        "title": "Integrated Multi-omics Analysis Uncovers Molecular Dysregulation in Glycosylceramide Synthase-Deficient Human Induced Pluripotent Stem Cells.",
+        "abstract": "Glycosphingolipids (GSLs) are membrane lipids characterized by highly diverse glycosylation patterns. They are involved in numerous cellular processes and can be linked to diseases. With the aim to investigate their role in early mammalian developmental processes in vitro, we knocked out the UDP-glucose ceramide glucosyltransferase gene (UGCG) encoding the enzyme glucosylceramide synthase (UGCG) in human induced pluripotent stem cells (hiPSCs) by CRISPR/Cas9. The functional impairment of UGCG was confirmed by glycomic profiling. UGCG knock out (KO) hiPSCs displayed normal morphology, growth behaviour, and expression of stem cell markers compared to wildtype (WT) hiPSCs. Furthermore, the KO cells maintained pluripotency, as evidenced by their capacity for in vitro differentiation into all three embryonic germ layers and their ability to form teratomas in vivo. Quantitative proteomic analysis of explanted teratoma derived from WT and UGCG KO hiPSCs revealed differential expression of numerous proteins, with notable enrichment of pathways associated with signal transduction or protein localization and transport. Phosphorylation profiling of key kinases and their targets uncovered reduced activation of STAT family transcription factors in UGCG KO hiPSCs. Complementary transcriptomic profiling combined with Ingenuity Pathway Analysis (IPA) of differentially expressed genes between WT and UGCG KO hiPSCs, as well as their ectodermal derivatives, revealed a predicted positive enrichment of proteins associated with signaling pathways in UGCG KO hiPSCs. Global lipidomic profiling showed a significant increase in sphingomyelin levels in UGCG KO hiPSCs and their ectodermally differentiated derivatives, whereas total ceramide content remained comparable between UGCG KO and WT cells. In summary, despite the absence of overt phenotypic changes, our findings demonstrate that glycosphingolipid deficiency induces multiple molecular perturbations in hiPSCs.",
+        "authors": [
+          "Julia Beimdiek",
+          "Karsten Cirksena",
+          "Charlotte Rossdam",
+          "Smilla Brand-Merseburger",
+          "Astrid Oberbeck"
+        ],
+        "journal": "Molecular & cellular proteomics : MCP",
+        "date": "2026-07-23",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Integrated Multi-omics Analysis Uncovers Molecular Dysregulation in Glycosylceramide Synthase-Deficient Human Induced Pluripotent Stem Cells.",
+        "abstract_cn": "Glycosphingolipids membrane lipids characterized highly diverse glycosylation patterns. They involved numerous cellular processes linked diseases. With investigate their role early mammalian developmental processes 体外, knocked -glucose ceramide glucosyltransferase gene encoding enzyme glucosylceramide synthase human induced pluripotent stem cells CRISPR基因编辑/Cas9. The functional impairment confirmed glycomic profiling. knock h诱导多能干细胞s displayed normal morphology, growth behaviour, expression stem cell markers compared wildtype h诱导多能干细胞s. Furthermore, cells maintained pluripotency, evidenced their capacity 体外 differentiation into three embryonic germ layers their ability form teratomas 体内. Quantitative proteomic analysis explanted teratoma derived from h诱导多能干细胞s revealed differential expression numerous proteins, with notable enrichment pathways associated with signal transduction protein localization transport. Phosphorylation profiling kinases their targets uncovered reduced activation family transcription factors h诱导多能干细胞s. Complementary transcriptomic profiling combined with Ingenuity Pathway Analysis differentially expressed genes between h诱导多能干细胞s, well their ectodermal derivatives, revealed predicted positive enrichment proteins associated with signaling pathways h诱导多能干细胞s. Global lipidomic profiling showed significant increase sphingomyelin levels h诱导多能干细胞s their ectodermally differentiated derivatives, whereas total ceramide content remained comparable between cells. In summary, despite absence overt phenotypic changes, findings demonstrate that glycosphingolipid deficiency induces multiple molecular perturbations h诱导多能干细胞s.",
+        "summary_cn": "【研究基础与实验设计】模型：诱导多能干细胞(iPSC)；核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：动物体内实验。\n【核心实验关键数据】核心发现：鉴定/表征, 促进作用, 调控作用, 相关性；局限性：需进一步研究。\n【机制创新与产业价值】发表期刊：Molecular & cellular proteomics : MCP。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "composite_score": 6.16,
+        "relevance_score": 5.5,
+        "impact_factor": 14.5,
+        "top_tier": false
+      },
+      {
+        "pmid": "42486091",
+        "title": "Base editing for precision therapeutics.",
+        "abstract": "Base editing (BE), the precise installation of single-nucleotide changes in DNA or RNA without inducing double-strand breaks, holds substantial therapeutic promise for correcting single-nucleotide variants, which constitute more than half of the known pathogenic genetic variants. Recent advances have improved base editor specificity, efficiency, and delivery, enabling clinically oriented procedures. Clinically, BE has shown early success or strong translational promise in sickle cell disease, β-thalassemia, leukemia (via CAR T and epitope engineering), hypercholesterolemia (PCSK9 and ANGPTL3), alpha-1-antitrypsin deficiency, and glycogen storage disease type Ia. Key remaining challenges include bystander editing within the activity window, residual off-target DNA and RNA editing, delivery constraints (payload size, tissue targeting, and redosing limits), immunogenicity, and the need for durable long-term safety evidence across relevant cell types and disease contexts. Continued technological refinements, careful preclinical validation, and rigorous clinical assessment will be essential to fully realize BE's transformative potential in precision medicine.",
+        "authors": [
+          "Moksada Regmi",
+          "Kuiying Ma",
+          "Changhao Bi",
+          "Xueli Zhang",
+          "Dongdong Zhao"
+        ],
+        "journal": "Cell genomics",
+        "date": "2026-07-22",
+        "keywords": [
+          "CRISPR-Cas systems",
+          "base editing",
+          "gene therapy delivery",
+          "genome engineering",
+          "precision therapeutics",
+          "single-nucleotide correction"
+        ],
+        "companies": [],
+        "title_cn": "Base editing for precision therapeutics.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：镰状细胞病；核心技术：碱基编辑(CBE/ABE)；研究层级：临床前研究。\n【核心实验关键数据】核心发现：安全性评估；局限性：需进一步研究。\n【机制创新与产业价值】发表期刊：Cell genomics。\n【后续追踪要点】新药研发；长期疗效评估；安全性监测。",
+        "composite_score": 5.85,
+        "relevance_score": 6.0,
+        "impact_factor": 8.3,
+        "top_tier": false
+      },
+      {
+        "pmid": "42483435",
+        "title": "A case of progressive multifocal leukoencephalopathy in an adult patient with ADA-SCID.",
+        "abstract": "This case report describes progressive multifocal leukoencephalopathy in a patient with ADA-SCID status after gene therapy. Persistent metabolic dysfunction likely contributed to JC virus reactivation, highlighting this rare complication of ADA-SCID and incomplete reconstitution seen with early protocols.",
+        "authors": [
+          "Hannah Shin",
+          "Lori Broderick",
+          "Jessica Azevedo",
+          "Caitlin Mulligan",
+          "Kari Hird"
+        ],
+        "journal": "Journal of human immunity",
+        "date": "2026-07-21",
+        "keywords": [],
+        "companies": [
+          "Scribe"
+        ],
+        "title_cn": "A case of progressive multifocal leukoencephalopathy in an adult patient with ADA-SCID.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】核心技术：基因治疗/病毒载体；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用。\n【机制创新与产业价值】发表期刊：Journal of human immunity。\n【后续追踪要点】基因/细胞治疗。",
+        "composite_score": 5.68,
+        "relevance_score": 3.5,
+        "impact_factor": 25.5,
+        "top_tier": false
+      },
+      {
+        "pmid": "42487092",
+        "title": "Age outweighs route for AAV-PHP.eB transgene distribution via inner ear delivery.",
+        "abstract": "Adeno-associated virus (AAV)-based gene therapy has demonstrated transformative potential in treating hereditary hearing loss (HHL). Investigating factors that influence AAV transduction in target and non-target organs is critical for improving therapeutic precision and safety. Given the postnatal maturation of the murine inner ear and compartmentalized structure of the cochlea, we evaluated whether developmental age or delivery routes affect AAV-PHP.eB tropism in cochlear hair cells (HCs) and adjacent brain regions. Following round window membrane (RWM), posterior semicircular canal (PSCC), or utricle delivery, neonatal mice showed robust OHC transduction (vs. minimal in juveniles), while IHC transduction remained consistently high across age groups. Across all three delivery routes, brain AAV transduction was significantly higher in neonates than in juveniles. Despite this, AAV genome copies were more highly enriched in the injected inner ear than in the brain at both ages. Dye-tracing experiments demonstrated distinct spatial distribution patterns following three inner ear delivery routes, with the cochlear aqueduct (CA) identified as the primary conduit for intracranial spread post-injection. These findings provide guidance for the design of studies in mouse models of deafness, particularly with respect to cochlear hair cell subtype targeting, therapeutic timing, and safety assessment of AAV-PHP.eB-based therapies for hearing loss.",
+        "authors": [
+          "Shuang Han",
+          "Yi Zhou",
+          "Honghai Tang",
+          "Shao Wei Hu",
+          "Guannan Geng"
+        ],
+        "journal": "Drug delivery and translational research",
+        "date": "2026-07-22",
+        "keywords": [
+          "AAV-PHP.eB distribution",
+          "Delivery route",
+          "Developmental age",
+          "HCs transduction"
+        ],
+        "companies": [],
+        "title_cn": "Age outweighs route for AAV-PHP.eB transgene distribution via inner ear delivery.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】模型：小鼠模型；核心技术：基因治疗/病毒载体；研究层级：基础研究。\n【核心实验关键数据】核心发现：疾病模型建立, 安全性评估, 结构解析。\n【机制创新与产业价值】发表期刊：Drug delivery and translational research。\n【后续追踪要点】新药研发；基因/细胞治疗；安全性监测。",
+        "composite_score": 5.48,
+        "relevance_score": 6.0,
+        "impact_factor": 5.7,
+        "top_tier": false
+      },
+      {
+        "pmid": "42499294",
+        "title": "Out of Reach: Understanding Resource Barriers to Gene Therapy for Pediatric Patients With Sickle Cell Disease.",
+        "abstract": "BACKGROUND: Sickle cell disease (SCD) is a highly morbid condition resulting in poor quality of life and early death. Gene therapy offers opportunity for cure, but its resource‑ and time‑intensive nature may limit access. PROCEDURE: We conducted a single-center, cross-sectional study to determine the proportion of families with a child with SCD who report the ability to access a hypothetical curative therapy and to identify family-reported resource barriers. A single-timepoint survey was administered to 100 families with children aged 2-17 years receiving sickle cell care at a quaternary care center. The survey queried parent-reported household characteristics and unmet basic needs in food, housing, utilities, or transportation (household material hardship [HMH]) and assessed parent-reported ability to access a hypothetical curative treatment based on a vignette. Multivariable logistic regression examined associations of HMH and disease severity with family-reported access. RESULTS: Of the evaluable 82 families, 60% experienced HMH over the prior 12 months despite robust social work involvement (78%) and participation in means-tested benefits (59%). Forty percent of parents reported an ability to obtain curative therapy with current resources. Upon adjustment for key covariates, HMH exposure was independently associated with 95% lower odds of family-reported ability to obtain curative therapy. CONCLUSIONS: Although gene therapy offers a potential cure for SCD, fewer than half of families reported ability to access it with current supports. HMH exposure affected nearly two-thirds of families and was independently associated with lower odds of access. As highly centralized, resource-intensive treatments expand, resource-targeted interventions are needed to ensure equitable access and receipt.",
+        "authors": [
+          "Colleen A Kelly",
+          "Morgan A Paul",
+          "McKenzie Griffin",
+          "Sunyu Kang",
+          "Rahela Aziz-Bose"
+        ],
+        "journal": "Pediatric blood & cancer",
+        "date": "2026-07-25",
+        "keywords": [
+          "gene therapy",
+          "household material hardship",
+          "sickle cell disease"
+        ],
+        "companies": [],
+        "title_cn": "Out of Reach: Understanding Resource Barriers to Gene Therapy for Pediatric Patients With Sickle Cell Disease.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：镰状细胞病；核心技术：基因治疗/病毒载体；研究层级：基础研究。\n【核心实验关键数据】量化数据：60%, 78%, 59%；核心发现：鉴定/表征, 相关性, 有效性验证。\n【机制创新与产业价值】发表期刊：Pediatric blood & cancer。\n【后续追踪要点】基因/细胞治疗。",
+        "composite_score": 5.47,
+        "relevance_score": 7.5,
+        "impact_factor": null,
+        "top_tier": false
       }
     ],
     "cell_therapy": [
@@ -990,6 +1030,30 @@
         "composite_score": 12.48,
         "relevance_score": 14.5,
         "impact_factor": 58.7,
+        "top_tier": true
+      },
+      {
+        "pmid": "42341302",
+        "title": "Ten-Year Outcomes after CAR T-Cell Therapy for B-Cell Lymphomas.",
+        "abstract": "BACKGROUND: Anti-CD19 chimeric antigen receptor (CAR) T-cell therapy is a standard treatment for relapsed or refractory B-cell non-Hodgkin lymphomas. Long-term results and curative potential remain uncertain. METHODS: We evaluated long-term outcomes in 38 patients with relapsed or refractory B-cell non-Hodgkin lymphomas (24 patients with large B-cell lymphoma and 14 with follicular lymphoma) who had been treated with CTL019 (now called tisagenlecleucel) - autologous T cells expressing CD19-directed, 4-1BB-costimulated chimeric receptors. Lymphoma-free survival was defined as the time from the tisagenlecleucel infusion to relapse or lymphoma-related death. The incidence of non-relapse-related death and second primary cancer was estimated with the Aalen-Johansen method. The data-cutoff date was October 1, 2025. RESULTS: At a median follow-up of 10.1 years (range, 7.9 to 11.5), no relapses had occurred beyond 5.4 years. The 10-year lymphoma-free survival was 32% (95% confidence interval [CI], 14 to 51) among patients with large B-cell lymphoma and 47% (95% CI, 20 to 71) among those with follicular lymphoma. In an analysis that included deaths from any cause, the 10-year progression-free survival was 17% (95% CI, 5 to 34) among patients with large B-cell lymphoma and 29% (95% CI, 9 to 52) among those with follicular lymphoma; the 10-year overall survival was 17% (95% CI, 5 to 34) and 50% (95% CI, 23 to 72), respectively. Persistent grade 2 or 3 neutropenia occurred in 2 patients (5%); no late anemia or thrombocytopenia was observed. A second primary cancer developed in 9 patients (10-year cumulative incidence, 21%). The 10-year non-relapse-related mortality was 18% (14% when deaths related to coronavirus disease 2019 were excluded). Higher CAR-transgene persistence appeared to be associated with long-term response. B-cell aplasia persisted in 44% of patients with a long-term response. CONCLUSIONS: Among patients with heavily pretreated B-cell non-Hodgkin lymphoma, a single infusion of tisagenlecleucel led to decade-long remissions (lymphoma-free survival) in approximately one third of the patients with large B-cell lymphomas and in nearly one half of those with follicular lymphoma. (Funded by the Richard Berman Family Innovations Center in CLL and Lymphomas and others; ClinicalTrials.gov number, NCT02030834.).",
+        "authors": [
+          "Marco Ruella",
+          "Luca Paruzzo",
+          "Emeline R Chong",
+          "Elise A Chong",
+          "Daniel J Landsburg"
+        ],
+        "journal": "The New England journal of medicine",
+        "date": "",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Ten-Year Outcomes after CAR T-Cell Therapy for B-Cell Lymphomas.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：淋巴瘤；研究层级：基础研究。\n【核心实验关键数据】量化数据：32%, 95%, 47%；表型：肿瘤发生；核心发现：有效性验证, 表达水平变化。\n【机制创新与产业价值】临床痛点：转移/复发；发表期刊：The New England journal of medicine。\n【后续追踪要点】基因/细胞治疗；长期疗效评估。",
+        "backfilled_from_news": "An early integrated prognostic system for predicting relapse and guiding interve",
+        "composite_score": 10.82,
+        "relevance_score": 11.5,
+        "impact_factor": 96.2,
         "top_tier": true
       },
       {
@@ -1019,6 +1083,75 @@
         "composite_score": 10.62,
         "relevance_score": 13.0,
         "impact_factor": 19.8,
+        "top_tier": true
+      },
+      {
+        "pmid": "42235014",
+        "title": "Kidney Transplantation in Two Highly Sensitized Candidates after CAR T-Cell Therapy.",
+        "abstract": "HLA sensitization poses a major challenge to kidney transplantation for patients with end-stage kidney disease, especially for highly sensitized candidates. Attempts at antibody elimination (desensitization) have had inconsistent efficacy and have often failed to produce sustained reductions in anti-HLA antibodies in patients with the highest level of sensitization (calculated panel-reactive antibody score, ≥99.9%). We now report the results for the safety run-in cohort of a multicenter phase 1 clinical study evaluating the safety and efficacy of combined CD19-targeted and B-cell maturation antigen (BCMA)-targeted chimeric antigen receptor (CAR) T cells in eliminating the cellular sources of preformed anti-HLA antibodies (ClinicalTrials.gov number, NCT06056102). Kidney transplantation was performed in two highly sensitized candidates after desensitization with the use of dual CAR T-cell therapy.",
+        "authors": [
+          "Vijay G Bhoj",
+          "Mary Kaminski",
+          "Huiwu Zhao",
+          "Kyle Jackson",
+          "Wei Wang"
+        ],
+        "journal": "The New England journal of medicine",
+        "date": "",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Kidney Transplantation in Two Highly Sensitized Candidates after CAR T-Cell Therapy.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究层级：I期临床试验。\n【核心实验关键数据】量化数据：99.9%；核心发现：安全性评估, 有效性验证, 表达水平变化；局限性：存在技术局限。\n【机制创新与产业价值】发表期刊：The New England journal of medicine。\n【后续追踪要点】临床试验；基因/细胞治疗；安全性监测。",
+        "backfilled_from_news": "An early integrated prognostic system for predicting relapse and guiding interve",
+        "composite_score": 10.55,
+        "relevance_score": 11.0,
+        "impact_factor": 96.2,
+        "top_tier": true
+      },
+      {
+        "pmid": "41851457",
+        "title": "Proteasome-guided haem signalling axis contributes to T cell exhaustion.",
+        "abstract": "The accumulation of depolarized mitochondria commits T cells to exhaustion1-3, yet the precise mechanism remains unclear. Here we find that exhausted CD8+ T cells increase proteasome activity owing to the accumulation of depolarized mitochondria, which drives the selective degradation of mitochondrial proteins and the release of regulatory haem through haemoprotein breakdown. In turn, increased regulatory haem disrupts BACH2-mediated transcriptional regulation, thereby exacerbating T cell exhaustion and compromising stemness-like properties. Inhibition of nuclear import of regulatory haem prevents BACH2 degradation and enhances the anti-tumour efficacy of antigen-specific T cells. We find that the therapeutic efficacy of human CD19+ chimeric antigen receptor (CAR)-T cells in patients with B cell acute lymphoblastic leukaemia negatively correlates with the proteasome gene signature in their CAR-T cells. Manufacturing CAR-T cells in the presence of bortezomib, an FDA-approved proteasome inhibitor, prevents T cell exhaustion and improves therapeutic efficacy. Our findings identify a proteasome-guided haem signalling axis, governed by mitochondrial integrity, as a regulator of CD8+ T cell exhaustion and propose innovative therapeutic strategies that exploit this pathway to optimize adoptive cellular immunotherapy.",
+        "authors": [
+          "Yingxi Xu",
+          "Yangtao Shangguan",
+          "Yu-Ming Chuang",
+          "Tzu-Hsuan Chang",
+          "Wenbing Liu"
+        ],
+        "journal": "Nature",
+        "date": "2026-03-18",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Proteasome-guided haem signalling axis contributes to T cell exhaustion.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】核心技术：CAR-T细胞治疗；研究层级：基础研究。\n【核心实验关键数据】核心发现：鉴定/表征, 抑制作用, 促进作用, 调控作用；关键突破：提高疗效；局限性：原文未披露详细信息。\n【机制创新与产业价值】发表期刊：Nature。\n【后续追踪要点】新药研发。",
+        "backfilled_from_news": "An early integrated prognostic system for predicting relapse and guiding interve",
+        "composite_score": 6.67,
+        "relevance_score": 4.0,
+        "impact_factor": 48.5,
+        "top_tier": true
+      },
+      {
+        "pmid": "42168367",
+        "title": "Resetting autoimmune disease with CAR cell therapies.",
+        "abstract": "Pathogenic B cell activation underlies many autoimmune diseases (AIDs), and their depletion is an attractive therapeutic approach. Chimeric antigen receptor (CAR)-expressing cells-initially developed and successfully used to treat certain cancers-are increasingly being developed to selectively deplete B cells and 'reset' the immune system in AIDs. In this Review, we survey this fast-developing field, providing insights on the current unmet needs in the treatment of AIDs and how CAR T cells could address these needs. In particular, we explore the concept of deep B cell depletion, discuss the currently available technologies and review the key targets (CD19 and B cell maturation antigen) relevant for the treatment of AIDs. We summarize current evidence on the efficacy, safety, risks and limitations of autologous and allogeneic CAR T cells in this setting. Finally, we discuss the future outlook-from a technological and clinical standpoint-for development of engineered CAR-expressing cell therapies for AIDs.",
+        "authors": [
+          "Georg Schett",
+          "Huji Xu"
+        ],
+        "journal": "Nature medicine",
+        "date": "2026-05-21",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Resetting autoimmune disease with CAR cell therapies.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：HIV/艾滋病；核心技术：CAR-T细胞治疗；研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：促进作用, 安全性评估, 有效性验证, 表达水平变化；局限性：存在实验局限性。\n【机制创新与产业价值】发表期刊：Nature medicine。\n【后续追踪要点】新药研发；安全性监测。",
+        "backfilled_from_news": "An early integrated prognostic system for predicting relapse and guiding interve",
+        "composite_score": 6.15,
+        "relevance_score": 3.0,
+        "impact_factor": 58.7,
         "top_tier": true
       },
       {
@@ -1079,6 +1212,30 @@
         "top_tier": false
       },
       {
+        "pmid": "41588112",
+        "title": "Roads and detours for CAR T cell therapy in autoimmune diseases.",
+        "abstract": "Chimeric antigen receptor (CAR) T cell therapy has been highly effective in eradicating malignant B cells in cancer, and this success has prompted an extension of the approach to areas beyond oncology. In pioneering studies, CAR T cells targeting the B cell marker CD19 demonstrated robust efficacy as treatment for the autoimmune disease systemic lupus erythematosus. Patients who received anti-CD19 CAR T cells experienced remission of most or all clinical manifestations and discontinued prior medications. These results have spurred intense interest in extending these observations to larger patient cohorts and other autoimmune conditions. More nuanced strategies for use of CARs in autoimmunity have also been developed. Here, we offer insight into the role of B cells in the pathophysiology of autoimmunity and present an overview of preclinical studies and clinical trials that use engineered cell therapy for autoimmune disorders. In discussing the prospects and challenges of this emerging field, a view emerges in which the promise of clinical efficacy invites careful consideration of potential pitfalls.",
+        "authors": [
+          "Jérôme Avouac",
+          "Adi Barzel",
+          "Delma Caiati",
+          "Randall S Davis",
+          "Stephen Gottschalk"
+        ],
+        "journal": "Nature reviews. Drug discovery",
+        "date": "2026-01-26",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Roads and detours for CAR T cell therapy in autoimmune diseases.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】核心技术：CAR-T细胞治疗；研究层级：临床前研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：有效性验证。\n【机制创新与产业价值】发表期刊：Nature reviews. Drug discovery。\n【后续追踪要点】临床试验；基因/细胞治疗。",
+        "backfilled_from_news": "An early integrated prognostic system for predicting relapse and guiding interve",
+        "composite_score": 10.55,
+        "relevance_score": 11.0,
+        "impact_factor": 122.7,
+        "top_tier": false
+      },
+      {
         "pmid": "42482158",
         "title": "Neuroprotective effect of mesenchymal stem cell-derived miR-143-3p on dopaminergic neurons via the TLR3/NF-κB/p53 signaling pathway.",
         "abstract": "BACKGROUND: Transplantation of midbrain dopaminergic neurons (mDANs) derived from human pluripotent stem cells (hPSCs) represents a promising therapeutic approach for Parkinson's disease (PD), with several clinical trials currently in progress. However, the poor survival of grafted mDANs, in part due to inflammation triggered by surgical injury, poses significant challenges to both therapeutic efficacy and safety. In recent years, mesenchymal stem cells (MSCs) and their derivatives have played an important role in the field of stem cell therapy due to their easy accessibility and immunomodulatory properties. However, their potential role as an adjunct in cell therapy remains unclear. Therefore, this study aims to investigate the protective effects of conditioned medium (CM) derived from MSCs and the mechanisms of action by which it attenuates surgery-induced neuroinflammation and enhances the survival of transplanted mDANs. METHODS: To mimic the neuroinflammatory response caused by the surgical aspect of cell transplantation, transplantation medium alone (i.e. without cells) was injected into the striatum of male NOD SCID mice. The anti-inflammatory effects of MSC-CM in vivo were evaluated by assessing the activation of microglia and expression levels of pro-inflammatory cytokines. Next, an in vitro cell death model was established using IFN-γ and TNF-α stimulation. The protective effects of MSC-CM against IFN-γ and TNF-α-induced inflammatory injury in mDANs were assessed using immunofluorescence staining and TUNEL assay. To identify the active components and underlying mechanisms for the protective effects of MSC-CM, inhibitory treatments, miRNA sequencing, dual-luciferase reporter assay, and subsequent validation by qPCR and Western blotting were performed. Finally, MSC-CM was administered intranasally into male NOD SCID mice following mDAN transplantation to evaluate its protective effects on the grafted mDANs in vivo. RESULTS: MSC-CM suppressed neuroinflammation and significantly protected mDANs from inflammation-induced cell death via inhibition of TLR3/NF-κB/p53 signaling pathway in this model system. This protective effect was largely reproduced by treatment with a specific component of the MSC-CM, miR-143-3p. Overexpression of miR-143-3p further enhanced the protective effects and mechanisms of action of MSC-CM. CONCLUSIONS: This study demonstrates that MSC-CM or its component miR-143-3p exert protective effects on mDANs against inflammatory injury, primarily by inhibiting the TLR3/NFκB/p53 signaling pathway.",
@@ -1105,143 +1262,6 @@
         "composite_score": 10.15,
         "relevance_score": 14.0,
         "impact_factor": 7.5,
-        "top_tier": false
-      },
-      {
-        "pmid": "42471452",
-        "title": "Preclinical efficacy of iPSC-derived MUC1-targeted CAR-NK cells against esophageal squamous cell carcinoma.",
-        "abstract": "BACKGROUND: MUC1 is frequently overexpressed in esophageal squamous cell carcinoma (ESCC), but MUC1-targeted CAR-NK cells remain unexplored in this malignancy. METHODS: MUC1 expression was assessed by IHC in 90 ESCC specimens, 47 paired adjacent normal tissues, and normal human organs. MUC1-targeted CAR-NK cells were generated from an iPSC platform. Antitumor activity was evaluated against patient-specific ESCC organoids (PSOs), primary ESCC cells, KYSE150 and KYSE140 cells using live/dead staining, CCK-8, and xCELLigence assays. In vivo efficacy was assessed in a KYSE140 xenograft model. RESULTS: MUC1 was expressed in 70% (63/90) of ESCC cases versus 14.9% (7/47) of adjacent normal tissues (P < 0.001), with negligible expression in normal organs. Among MUC1-positive ESCCs, 88.9% and 42.8% showed > 50% and > 80% tumor cell positivity, respectively. iPSC-derived MUC1 CAR-NK cells exhibited > 95% CAR expression across iPSC, progenitor, and mature stages. Compared with controls, MUC1 CAR-NK cells elicited potent, antigen-specific cytotoxicity against MUC1-expressing ESCC PSOs, primary cells, KYSE150, and KYSE140 in vitro and significantly suppressed KYSE140 xenograft growth in vivo. CONCLUSION: iPSC-derived MUC1-targeted CAR-NK cells exert robust and specific antitumor efficacy against human ESCC, supporting clinical translation of this off-the-shelf cell therapy.",
-        "authors": [
-          "Yuting Peng",
-          "Tian Guan",
-          "Yi Xiao",
-          "Shugeng Lin",
-          "Jijun Wu"
-        ],
-        "journal": "Cancer immunology, immunotherapy : CII",
-        "date": "2026-07-18",
-        "keywords": [
-          "ESCC patient-specific organoid",
-          "Esophageal squamous cell carcinoma",
-          "Patient-specific primary ESCC cells",
-          "iPSC-derived MUC1-targeted CAR-NK"
-        ],
-        "companies": [],
-        "title_cn": "Preclinical efficacy of iPSC-derived MUC1-targeted CAR-NK cells against esophageal squamous cell carcinoma.",
-        "abstract_cn": "BACKGROUND: MUC1 frequently overexpressed esophageal squamous cell carcinoma , MUC1-targeted - cells remain unexplored this malignancy. METHODS: MUC1 expression assessed 90 specimens, 47 paired adjacent normal tissues, normal human organs. MUC1-targeted - cells were generated from 诱导多能干细胞 platform. Antitumor activity evaluated against patient-specific 类器官s , primary cells, KYSE150 KYSE140 cells using live/dead staining, -8, xCELLigence assays. In vivo efficacy assessed KYSE140 异种移植 model. RESULTS: MUC1 expressed 70% cases versus 14.9% adjacent normal tissues , with negligible expression normal organs. Among MUC1-positive ESCCs, 88.9% 42.8% showed > 50% > 80% tumor cell positivity, respectively. 诱导多能干细胞-derived MUC1 - cells exhibited > 95% expression across 诱导多能干细胞, progenitor, mature stages. Compared with controls, MUC1 - cells elicited potent, antigen-specific cytotoxicity against MUC1-expressing PSOs, primary cells, KYSE150, KYSE140 体外 significantly suppressed KYSE140 异种移植 growth 体内. CONCLUSION: 诱导多能干细胞-derived MUC1-targeted - cells exert robust specific antitumor efficacy against human , supporting clinical translation this --shelf cell therapy.",
-        "summary_cn": "【研究基础与实验设计】模型：异种移植瘤模型、类器官模型；核心技术：CAR-NK细胞治疗；研究层级：临床前研究。\n【核心实验关键数据】量化数据：70%, 14.9%, 88.9%；表型：肿瘤发生, 细胞凋亡/细胞毒性；核心发现：抑制作用, 疾病模型建立, 安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Cancer immunology, immunotherapy : CII。\n【后续追踪要点】基因/细胞治疗；安全性监测。",
-        "composite_score": 10.15,
-        "relevance_score": 16.0,
-        "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42483783",
-        "title": "Efficacy and Safety of Mesenchymal Stem Cell Therapy for Alzheimer's Disease: A Systematic Review and Meta-Analysis.",
-        "abstract": "Alzheimer's disease (AD) is the leading cause of dementia, and effective disease-modifying therapies remain limited. Mesenchymal stem cells (MSCs) have shown therapeutic potential because of their neuroprotective and immunomodulatory properties, but clinical evidence remains inconclusive. We systematically evaluated the efficacy and safety of MSC therapy in AD. Following the PRISMA 2020 guidelines and a PROSPERO-registered protocol (CRD420261329891), we searched PubMed, the Cochrane Library, Embase, Web of Science, CNKI, and Wanfang from inception to March 1, 2026. Clinical studies of patients with primary AD treated with MSCs were included. Outcomes covered cognition, daily function, neuropsychiatric symptoms, biomarkers, imaging findings, and adverse events. Standardized mean differences (SMDs) with 95% confidence intervals (CIs) were pooled using R. Risk of bias was assessed with the RoB 2 tool, and evidence certainty was assessed with GRADE. Six studies involving 196 patients were included. Overall analyses showed no significant improvement in Alzheimer's Disease Assessment Scale-Cognitive Subscale (ADAS-Cog) or Mini-Mental State Examination (MMSE) at 12-16 weeks or 24-26 weeks after MSC treatment versus placebo, with substantial heterogeneity. Dose-stratified analyses suggested significant benefits of low-dose MSCs on ADAS-Cog (SMD = -1.33, 95% CI: -2.35 to -0.31) and MMSE (SMD = 2.59, 95% CI: 0.52-4.66). MSC therapy significantly improved Alzheimer's Disease Cooperative Study-Activities of Daily Living (ADCS-ADL; SMD = 3.27, 95% CI: 1.79-4.75), but not Neuropsychiatric Inventory (NPI) or Quality of Life in Alzheimer's Disease (QOL-AD) scale. Biomarker analyses showed no significant overall effects on Aβ42 or total tau, although subgroup analyses suggested possible increases in Aβ42 and reductions in total tau at certain doses. Imaging data from two studies indicated potential protective effects on hippocampal atrophy. MSC therapy was generally well-tolerated, although intracerebroventricular administration was associated with more transient adverse events. Evidence certainty was low to very low for most outcomes. MSC therapy for AD appears feasible and relatively safe, with potential cognitive and disease-modifying effects. However, current clinical evidence remains insufficient to confirm its efficacy.",
-        "authors": [
-          "Yonghao Wen",
-          "Shuhao Zhan",
-          "Yunlong Duan",
-          "Mingquan Pang",
-          "Jingxin Yan"
-        ],
-        "journal": "Stem cells and development",
-        "date": "2026-07-22",
-        "keywords": [
-          "Alzheimer’s disease",
-          "cognition",
-          "mesenchymal stem cells",
-          "meta-analysis",
-          "safety"
-        ],
-        "companies": [],
-        "title_cn": "Efficacy and Safety of Mesenchymal Stem Cell Therapy for Alzheimer's Disease: A Systematic Review and Meta-Analysis.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：阿尔茨海默病；核心技术：抗体偶联药物(ADC)；研究层级：基础研究。\n【核心实验关键数据】量化数据：95%, 95%, 95%；表型：认知/学习记忆障碍；核心发现：调控作用, 安全性评估, 有效性验证；关键突破：提高疗效；局限性：需进一步研究。\n【机制创新与产业价值】相关脑区：海马体；临床痛点：药物毒性/副作用；发表期刊：Stem cells and development。\n【后续追踪要点】伴随诊断；新药研发；基因/细胞治疗。",
-        "composite_score": 9.88,
-        "relevance_score": 15.5,
-        "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42498681",
-        "title": "BCMA-directed CAR-T cell therapy induces durable drug-free remission in refractory primary immune thrombocytopenia.",
-        "abstract": "This first clinical evaluation of BCMA CAR-T cell therapy in four patients with refractory primary ITP demonstrated manageable safety, rapid and sustained platelet recovery, and durable drug-free complete remission lasting up to 15 months, supporting further evaluation in larger studies.",
-        "authors": [
-          "Jinhui Shu",
-          "Min Xu",
-          "Peiru Li",
-          "Wei Xie",
-          "Lin Liu"
-        ],
-        "journal": "Blood",
-        "date": "2026-07-24",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "BCMA-directed CAR-T cell therapy induces durable drug-free remission in refractory primary immune thrombocytopenia.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：CAR-T细胞治疗；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 安全性评估。\n【机制创新与产业价值】发表期刊：Blood。\n【后续追踪要点】基因/细胞治疗；安全性监测。",
-        "composite_score": 9.86,
-        "relevance_score": 11.5,
-        "impact_factor": 21.0,
-        "top_tier": false
-      },
-      {
-        "pmid": "42477849",
-        "title": "Miro1-mediated mitochondrial transfer boosts stem cell therapy for muscle atrophy via restoring mitochondrial homeostasis.",
-        "abstract": "Mitochondrial dysfunction underlies the major defect in muscle atrophy (characterized by the loss of skeletal muscle mass and function). Mesenchymal stem cells (MSCs), which can mediate mitochondrial transfer (MT) via tunneling nanotubes (TNTs), have been shown to exert therapeutic effects, yet the underlying mechanism remains unclear. Mitochondrial Rho GTPase 1 (Miro1) is crucial for regulating mitochondrial homeostasis; in this study, we aimed to investigate the roles of Miro1 and Milton in MSC-based therapy for muscle atrophy. Dexamethasone (DEX)-induced C2C12 cells and chronically aged mice were used as in vitro cellular and in vivo muscle atrophy models, respectively. In vitro experiments demonstrated that overexpression of Milton alone failed to enhance MT in DEX-induced C2C12 cells. Although Milton could promote the formation of TNTs, it was unable to drive mitochondrial movement along microtubules in the absence of Miro1.In contrast, Miro1 knockdown (MSCmiro1Lo) significantly reduced MT in vivo, while Miro1 overexpression (MSCmiro1Hi) improved mitochondrial morphology, increased muscle fiber count and cross-sectional area, upregulated the expression of type I/III collagen, and downregulated the expression of Atrogin1 and MURF1. Additionally, Miro1 overexpression ameliorated functional outcomes such as grip strength, running distance, and physical activity, and elevated the levels of proteins related to mitochondrial fusion, mitophagy, and biogenesis in damaged muscle cells. These findings indicate that Miro1 is a critical driver of MT, and Miro1-enhanced MT confers substantial in vivo therapeutic benefits. This study provides robust evidence supporting Miro1 as a potential target for the treatment of muscle atrophy-related disorders.",
-        "authors": [
-          "Fangling Zhao",
-          "Jingxin Fu",
-          "Linli Gao",
-          "Mengting Zhou",
-          "Yuhui Xia"
-        ],
-        "journal": "Stem cell research & therapy",
-        "date": "2026-07-20",
-        "keywords": [
-          "Miro1",
-          "Mitochondrial homeostasis",
-          "Mitochondrial transfer",
-          "Muscle atrophy",
-          "Stem cells"
-        ],
-        "companies": [],
-        "title_cn": "Miro1-mediated mitochondrial transfer boosts stem cell therapy for muscle atrophy via restoring mitochondrial homeostasis.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究层级：动物体内实验。\n【核心实验关键数据】核心发现：鉴定/表征, 抑制作用, 促进作用, 调控作用；局限性：原文未披露详细信息; 存在技术局限。\n【机制创新与产业价值】发表期刊：Stem cell research & therapy。\n【后续追踪要点】新药研发；基因/细胞治疗；长期疗效评估。",
-        "composite_score": 9.32,
-        "relevance_score": 12.5,
-        "impact_factor": 7.5,
-        "top_tier": false
-      },
-      {
-        "pmid": "42486100",
-        "title": "Safety and efficacy of low-dose, cord blood-derived CD19 CAR-NK cells with 4-1BB co-stimulation in refractory systemic lupus erythematosus.",
-        "abstract": "BACKGROUND: B cell-targeting chimeric antigen receptor (CAR) T cell therapy has shown efficacy in autoimmune diseases but is limited by toxicity, complex manufacturing, and high cost. Umbilical cord blood (UCB)-derived CAR-natural killer (CAR-NK) cells offer an alternative \"off-the-shelf\" platform with a potentially superior safety profile. We developed a UCB-derived CD19-targeting CAR-NK product incorporating the 4-1BB costimulatory domain (CD19-BBz) and evaluated its safety and efficacy in refractory systemic lupus erythematosus (SLE). This study was registered at ClinicalTrials.gov (ClinicalTrials.gov: NCT06421701). METHODS: In this phase 1, open-label, dose-escalation study, five patients with refractory SLE received lymphodepletion chemotherapy followed by infusion of allogeneic CD19-BBz CAR-NK cells. Dosing followed a step-up regimen, with the highest total dose being 1.35 × 109 cells-2.2- to 3.3-fold lower than the highest doses previously reported for CAR-NK therapy in SLE. FINDINGS: Treatment was exceptionally well tolerated. No grade ≥2 cytokine release syndrome and no neurotoxicity or graft-versus-host disease occurred. All patients achieved profound B cell depletion, with nadir circulating B cell levels ranging from 0.16 to 1.44 cells/μL. All patients achieved an SLE Responder Index-4 response by month 1. The lupus low disease activity state was attained in all patients by month 9, and 80% (4/5) met the definition of remission in SLE by the last follow-up (median, 12 months). Reconstituted B cells displayed a sustained naive-dominant repertoire. CONCLUSIONS: Low-dose UCB-derived CD19-BBz CAR-NK cell therapy demonstrated an excellent safety profile and induced robust, durable clinical responses in refractory SLE. FUNDING: This study was supported by the Noncommunicable Chronic Diseases-National Science and Technology Major Project (2023ZD0501300).",
-        "authors": [
-          "Zhiru Zeng",
-          "Wen Lei",
-          "Wenhai Deng",
-          "Mo Chen",
-          "Weihong Xu"
-        ],
-        "journal": "Med (New York, N.Y.)",
-        "date": "2026-07-22",
-        "keywords": [
-          "CAR-NK",
-          "immune reset",
-          "systemic lupus erythematosus",
-          "translation to patients"
-        ],
-        "companies": [],
-        "title_cn": "Safety and efficacy of low-dose, cord blood-derived CD19 CAR-NK cells with 4-1BB co-stimulation in refractory systemic lupus erythematosus.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：碱基编辑(CBE/ABE)、CAR-NK细胞治疗；研究层级：I期临床试验。\n【核心实验关键数据】量化数据：80%, 3.3倍, 3.3倍；核心发现：促进作用, 安全性评估, 有效性验证, 表达水平变化。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Med (New York, N.Y.)。\n【后续追踪要点】基因/细胞治疗；长期疗效评估；安全性监测。",
-        "composite_score": 9.05,
-        "relevance_score": 14.0,
-        "impact_factor": null,
         "top_tier": false
       }
     ],
@@ -1460,25 +1480,6 @@
         "top_tier": false
       },
       {
-        "pmid": "42477498",
-        "title": "Does OptiTROP-Lung05 open a new frontier for first-line ADC-ICI combinations in NSCLC?",
-        "abstract": "",
-        "authors": [
-          "Myung-Ju Ahn"
-        ],
-        "journal": "Nature reviews. Clinical oncology",
-        "date": "2026-07-20",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Does OptiTROP-Lung05 open a new frontier for first-line ADC-ICI combinations in NSCLC?",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：非小细胞肺癌；核心技术：抗体偶联药物(ADC)；研究层级：基础研究。\n【核心实验关键数据】原文未披露详细量化数据。\n【机制创新与产业价值】发表期刊：Nature reviews. Clinical oncology。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 7.22,
-        "relevance_score": 5.0,
-        "impact_factor": 48.5,
-        "top_tier": false
-      },
-      {
         "pmid": "42488471",
         "title": "Preclinical evaluation of the ROR1-targeting antibody-drug conjugates zilovertamab vedotin and VLS-211 against B-cell ALL patient-derived xenografts.",
         "abstract": "Although survival rates for acute lymphoblastic leukemia (ALL) have improved dramatically over the past 60 years, outcomes vary across different molecular subtypes and risk categories, and a significant number of patients remain difficult to treat. ROR1 is a receptor tyrosine kinase expressed in B-cell ALL, particularly in patients with TCF3::PBX1 gene rearrangements. ROR1 has served as the target of several immune-based therapies including antibody-drug conjugates (ADCs), bispecific T-cell engagers, and CAR T-cell therapies. Here, we evaluated the ROR1-targeting ADCs zilovertamab vedotin (ZV, previously known as MK-2140 or VLS-101) and VLS-211 in vivo against a panel of ALL patient-derived xenografts with variable ROR1 expression. Both agents showed modest activity, which was dependent on ROR1 expression. Notably, we identified pediatric patients with TCF3::HLF gene fusions, which is a highly chemoresistant ALL subtype, as having some of the highest ROR1 expression in pediatric ALL and show that this subtype is susceptible to targeting ROR1 via ADC-based therapy. Given that ZV has a favorable toxicity profile in patients with hematological malignancies, it may have some utility in the treatment of very high-risk pediatric B-ALL, particularly cases with TCF3::HLF gene fusions.",
@@ -1500,27 +1501,61 @@
         "relevance_score": 10.0,
         "impact_factor": null,
         "top_tier": false
+      },
+      {
+        "pmid": "42478693",
+        "title": "Efficacy and Safety of BCMA-Targeted Therapies in Relapsed or Refractory AL Amyloidosis: A Descriptive Pooled Analysis.",
+        "abstract": "B-cell maturation antigen (BCMA)-targeted therapies have emerged as promising treatment options for patients with relapsed/refractory immunoglobulin light-chain (AL) amyloidosis. However, comprehensive data on their efficacy and safety remain limited. We conducted a systematic descriptive pooled analysis of published studies reporting outcomes of BCMA-directed therapies including chimeric antigen receptor T-cell (CAR-T) therapies, bispecific antibodies (BsAbs), and antibody-drug conjugate (ADC). The analysis included 256 patients. CAR-T therapy was administered to 89 patients (35%), BsAbs to 82 patients (32%), and ADCs to 85 patients (33%). The pooled overall response rate (ORR) was 83%, with CAR-T demonstrating 92% ORR, BsAbs 89%, and ADCs 68%. Deep hematologic responses (≥VGPR) were achieved in approximately 70% of CAR-T and BsAb recipients and 64% of ADC recipients. Minimal residual disease negativity was documented in 75% of evaluable CAR-T patients and in 86% evaluable BsAb patients with reported data. Organ responses were observed in 30% of evaluable patients, with cardiac responses in 41%. Cytokine release syndrome occurred in 74% of CAR-T and 49% of BsAb patients, predominantly grade 1-2. Grade ≥3 CRS was rare (9% CAR-T, 1% BsAb). Ocular toxicity was the predominant adverse event in ADC recipients (84% any grade, 29% grade ≥3). Grade ≥3 infections occurred in 13% of CAR-T, 20% of BsAb, and 6% of ADC patients. BCMA-targeted therapies result in high response rates with manageable safety profiles in heavily pretreated AL amyloidosis patients, supporting continued investigation and clinical application of these approaches.",
+        "authors": [
+          "Raghad Alqazaqi",
+          "Sean Taasan",
+          "William Schwartzman",
+          "Adeel M Khan",
+          "Aimaz Afrough"
+        ],
+        "journal": "Blood advances",
+        "date": "2026-07-20",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Efficacy and Safety of BCMA-Targeted Therapies in Relapsed or Refractory AL Amyloidosis: A Descriptive Pooled Analysis.",
+        "abstract_cn": "-cell maturation antigen -targeted therapies have emerged promising treatment options patients with relapsed/refractory immunoglobulin light-chain amyloidosis. However, comprehensive data their efficacy safety remain limited. We conducted systematic descriptive pooled analysis published studies reporting outcomes -directed therapies including chimeric antigen receptor -cell therapies, 双特异性抗体 antibodies , antibody-drug conjugate . The analysis included 256 patients. -T细胞治疗 therapy administered 89 patients , BsAbs 82 patients , 抗体偶联药物s 85 patients . The pooled overall response rate 83%, with -T细胞治疗 demonstrating 92% , BsAbs 89%, 抗体偶联药物s 68%. Deep hematologic responses were achieved approximately 70% -T细胞治疗 BsAb recipients 64% 抗体偶联药物 recipients. Minimal residual disease negativity documented 75% evaluable -T细胞治疗 patients 86% evaluable BsAb patients with reported data. Organ responses were observed 30% evaluable patients, with cardiac responses 41%. Cytokine release syndrome occurred 74% -T细胞治疗 49% BsAb patients, predominantly grade 1-2. Grade ≥3 rare . Ocular toxicity predominant adverse event 抗体偶联药物 recipients . Grade ≥3 infections occurred 13% -T细胞治疗, 20% BsAb, 6% 抗体偶联药物 patients. -targeted therapies result high response rates with manageable safety profiles heavily pretreated amyloidosis patients, supporting continued investigation clinical application these approaches.",
+        "summary_cn": "【研究基础与实验设计】核心技术：CAR-T细胞治疗、抗体偶联药物(ADC)；研究层级：基础研究。\n【核心实验关键数据】量化数据：35%, 32%, 33%；核心发现：安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Blood advances。\n【后续追踪要点】安全性监测。",
+        "composite_score": 6.56,
+        "relevance_score": 5.5,
+        "impact_factor": 21.0,
+        "top_tier": false
       }
     ],
     "glp1": [
       {
-        "pmid": "42496971",
-        "title": "GLP-1 Medications May Improve Health in People With PAD and Diabetes.",
-        "abstract": "",
+        "pmid": "42318576",
+        "title": "GLP-1 Agonists in Adolescent Obesity: A Narrative Review of Single, Dual, and Triple Agonists.",
+        "abstract": "Adolescent obesity is an escalating global health concern associated with increased risks of cardiovascular disease, type 2 diabetes mellitus, and long-term metabolic complications. Although lifestyle interventions remain first-line therapy, their limited long-term effectiveness has led to increasing interest in pharmacological approaches. This narrative review evaluates the mechanisms, clinical efficacy, and safety of glucagon-like peptie-1 (GLP-1) receptor agonists, as well as emerging dual and triple incretin-based therapies, in the management of adolescent obesity. A literature search was conducted using PubMed and Scopus, focusing on clinical trials, systematic reviews, and real-world studies published between 2010 and 2024. Evidence from pediatric and adolescent populations was prioritized, while adult data were included where adolescent-specific evidence remains unavailable and are interpreted cautiously. Among single-agent therapies, GLP-1 receptor agonists have demonstrated clinically meaningful weight reduction and metabolic benefits in adolescents. In the STEP TEENS trial, once-weekly semaglutide resulted in approximately 16% mean body weight reduction over 68 weeks, while liraglutide produced more modest reductions. Dual agonists such as tirzepatide and emerging triple agonists, including retatrutide, have shown superior weight-loss efficacy in adult populations; however, pediatric data for these agents remain limited or unavailable. Across all incretin-based therapies, gastrointestinal adverse effects are the most commonly reported side effects. In conclusion, GLP-1 receptor agonists represent an effective pharmacological option for adolescents with obesity, while dual and triple incretin agonists offer promising future therapeutic potential. Nevertheless, the clinical application of multi-receptor agonists in adolescents requires caution, as long-term safety, developmental outcomes, and real-world adherence data in pediatric populations are still lacking. Further well-designed pediatric trials are essential before broader adoption can be recommended.",
         "authors": [
-          "Samantha Anderer"
+          "Mahroz Abid",
+          "Khizer Sohail Sheikh",
+          "Muhammad Shahbaz Ahmad",
+          "Hongwei Jiang"
         ],
-        "journal": "JAMA",
-        "date": "2026-07-24",
-        "keywords": [],
+        "journal": "Diabetes, metabolic syndrome and obesity : targets and therapy",
+        "date": "2026-06-12",
+        "keywords": [
+          "GLP1",
+          "GLP1 dual agonist",
+          "GLP1 triple agonist",
+          "adolescents",
+          "diabetes",
+          "obesity"
+        ],
         "companies": [],
-        "title_cn": "GLP-1 Medications May Improve Health in People With PAD and Diabetes.",
+        "title_cn": "GLP-1 Agonists in Adolescent Obesity: A Narrative Review of Single, Dual, and Triple Agonists.",
         "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】原文未披露详细量化数据。\n【机制创新与产业价值】发表期刊：JAMA。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 7.8,
-        "relevance_score": 6.0,
-        "impact_factor": 63.1,
-        "top_tier": true
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：16%；核心发现：安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Diabetes, metabolic syndrome and obesity : targets and therapy。\n【后续追踪要点】临床试验；新药研发；长期疗效评估。",
+        "backfilled_from_news": "The Emerging GLP-1 Body Contouring Patient: Why Expectations Matter.",
+        "composite_score": 10.23,
+        "relevance_score": 14.5,
+        "impact_factor": 6.2,
+        "top_tier": false
       },
       {
         "pmid": "42487660",
@@ -1636,6 +1671,70 @@
         "top_tier": false
       },
       {
+        "pmid": "42317925",
+        "title": "Potential of Glucagon-Like Peptide-1 (GLP-1) Receptor Agonists in Mitigating Metabolic Side Effects Associated With Clozapine or Olanzapine Therapy: A Literature Review.",
+        "abstract": "Clozapine and Olanzapine can cause severe metabolic side effects, increasing cardiovascular risk. Glucagon-like peptide-1 (GLP-1) receptor agonists, primarily approved for use in patients with type 2 diabetes, may counter these effects by promoting weight loss, improving glucose metabolism, and enhancing cardiovascular health, offering a promising approach for managing antipsychotic-related metabolic complications. We conducted a literature review using the search terms \"clozapine OR olanzapine AND GLP-1 agonist,\" \"schizophrenia AND GLP-1 agonist,\" \"antipsychotic AND GLP-1 agonist,\" and \"psychosis AND GLP-1 agonist\" on PubMed and Google Scholar. This search initially yielded 172 articles. We focused on clinical trials or case reports investigating the use of GLP-1 agonists in conjunction with Olanzapine or Clozapine. Our final selection included two clinical trial studies, one case report, and a retrospective study. In a case report, a schizophrenic patient on Clozapine treated with liraglutide experienced a reduction in glycated hemoglobin (HbA1c ), from 10% to 6.5% over 14 months, along with a total weight loss of 7.7 kg (8.7% body weight reduction) after two years, and decreased insulin requirements. In a retrospective study reviewing 16 obese patients with schizophrenia treated with liraglutide, of whom 14 were on Clozapine, significant reductions in body weight, waist circumference, body mass index (BMI), and plasma glucose levels were observed over 16 weeks (P < 0.001). A randomized clinical trial with 103 patients, with diagnoses within the schizophrenia spectrum disorders, who have been treated with Olanzapine or Clozapine, and liraglutide, showed significant improvement in glucose tolerance when compared to placebo (P < 0.001), with 63.8% of liraglutide-treated patients achieving normal glucose tolerance versus 16.0% in the placebo group. Additional benefits included significant reductions in body weight, waist circumference, blood pressure, visceral fat, and low-density lipoprotein (LDL) cholesterol levels. In another outpatient study with 28 participants randomized to receive subcutaneous, extended-release exenatide in one arm, or standard of care in the other arm for 24 weeks, six participants in the exenatide group achieved more than 5% weight loss, compared to just one in the usual care group (P = 0.029). The exenatide group experienced significantly greater mean weight loss compared to the usual care group (P = 0.015). Additionally, the exenatide group showed a more substantial reduction in BMI (P = 0.019) and improved glycemic control, with significant reductions in fasting glucose (P = 0.036) and glycated hemoglobin (P = 0.004) compared to the usual care group. This review underscores the need for future studies that involve the use of GLP-1 agonists in conjunction with Clozapine or Olanzapine. Although results from preliminary studies are promising, there is a need for more randomized controlled clinical trials to validate these findings, assess long-term efficacy, and develop clinical guidelines.",
+        "authors": [
+          "Amir Meftah",
+          "Bolaji Yoade",
+          "Cade Cowart",
+          "Anthony Choi",
+          "Olufemi Popoola"
+        ],
+        "journal": "Cureus",
+        "date": "2026-05-18",
+        "keywords": [
+          "clozapine",
+          "dulaglutide",
+          "exenatide",
+          "glp-1 agonist",
+          "glucagon-like peptide-1 receptor agonists",
+          "liraglutide",
+          "metabolic side effects",
+          "olanzapine",
+          "schizoaffective disorder",
+          "schizophrenia"
+        ],
+        "companies": [],
+        "title_cn": "Potential of Glucagon-Like Peptide-1 (GLP-1) Receptor Agonists in Mitigating Metabolic Side Effects Associated With Clozapine or Olanzapine Therapy: A Literature Review.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：10%, 6.5%, 8.7%；核心发现：有效性验证, 表达水平变化；关键突破：提高疗效。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Cureus。\n【后续追踪要点】临床试验；长期疗效评估。",
+        "backfilled_from_news": "Clozapine and GLP-1 receptor agonists: an underrated gastrointestinal safety ris",
+        "composite_score": 8.5,
+        "relevance_score": 13.0,
+        "impact_factor": null,
+        "top_tier": false
+      },
+      {
+        "pmid": "42136855",
+        "title": "GLP-1/GIP dual agonist tirzepatide in obstructive sleep apnea syndrome: mechanisms, evidence, and clinical perspectives.",
+        "abstract": "Obstructive sleep apnea syndrome (OSAS) is closely associated with obesity and metabolic dysfunction. Tirzepatide, a dual GLP-1 and GIP receptor agonist, has demonstrated superior efficacy for weight reduction and improved metabolic health compared with single GLP-1 agonists. Emerging evidence indicates that tirzepatide may alleviate OSAS through its multifaceted effects on adiposity, inflammation, and neuromuscular regulation. This review synthesizes the pharmacological mechanisms, clinical findings, and safety data of tirzepatide in OSAS management. Preliminary studies show promising reductions in body weight, apnea-hypopnea index (AHI), and systemic inflammation, although long-term trials remain warranted. Further exploration into its integration with existing OSAS therapies could redefine the pharmacologic management of obesity-related OSAS.",
+        "authors": [
+          "Qiujie Fang",
+          "Yipeng Zhu",
+          "Mei Rao",
+          "Peijun Liu"
+        ],
+        "journal": "Frontiers in medicine",
+        "date": "2026-04-29",
+        "keywords": [
+          "GLP-1/GIP dual agonist",
+          "metabolic regulation",
+          "obesity",
+          "obstructive sleep apnea",
+          "tirzepatide"
+        ],
+        "companies": [],
+        "title_cn": "GLP-1/GIP dual agonist tirzepatide in obstructive sleep apnea syndrome: mechanisms, evidence, and clinical perspectives.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】表型：睡眠/昼夜节律异常；核心发现：调控作用, 安全性评估, 有效性验证。\n【机制创新与产业价值】发表期刊：Frontiers in medicine。\n【后续追踪要点】长期疗效评估；安全性监测。",
+        "backfilled_from_news": "The Emerging GLP-1 Body Contouring Patient: Why Expectations Matter.",
+        "composite_score": 8.5,
+        "relevance_score": 13.0,
+        "impact_factor": null,
+        "top_tier": false
+      },
+      {
         "pmid": "42498467",
         "title": "Availability, treatment costs and affordability of SGLT-2 inhibitors and GLP-1 RAs for diabetes in 10 countries: a cross-sectional study.",
         "abstract": "BACKGROUND: Diabetes complicated by cardiovascular diseases and chronic kidney diseases poses a growing global burden. Sodium-glucose co-transporter-2 (SGLT-2) inhibitors and glucagon-like peptide-1 receptor agonists (GLP-1 RAs) are increasingly recommended, yet their availability, treatment costs and affordability across countries of different income levels remain poorly understood. OBJECTIVES: To evaluate the regulatory availability, treatment costs and affordability of all marketed SGLT-2 inhibitors and GLP-1 RAs across 10 countries, including Nepal, Pakistan, Bangladesh, Sri Lanka, South Africa, Brazil, China, Türkiye, Italy and France. RESEARCH DESIGN AND METHODS: We examined 22 SGLT-2 inhibitors and GLP-1 RAs across 10 countries using publicly available sources. Regulatory availability was defined as marketing authorisation in a given country. Monthly treatment costs were estimated using minimum 28-day retail medicine prices based on recommended dosing regimens. Affordability was assessed as the proportion of the national minimum monthly wage required to purchase 1 month of treatment. Differences in regulatory availability across income groups were assessed using the Kruskal-Wallis test, with subgroup analyses by regulatory capacity. Associations between treatment costs and gross domestic product (GDP) per capita were examined using Spearman correlation. Given the small sample size, analyses were exploratory and hypothesis-generating. RESULTS: Regulatory availability ranged from 2 medicines in Nepal to 15 in China (9.1%-68.2%). No statistically significant differences in regulatory availability were observed across or within income groups. Regulatory availability of SGLT-2 inhibitors did not vary by regulatory capacity, whereas countries with higher regulatory capacity had greater regulatory approval coverage for GLP-1 RAs (p=0.045). Minimum monthly treatment costs ranged from US$3.68-50.30 for SGLT-2 inhibitors and US$22.95-220.80 for GLP-1 RAs. SGLT-2 inhibitor treatment costs increased with GDP per capita (ρ=0.939; p<0.001), while no statistically significant association was observed for GLP-1 RAs. SGLT-2 inhibitors were more affordable than GLP-1 RAs, requiring 0.7%-5.1% versus 1.6%-110.4% of monthly minimum wages. CONCLUSION: Substantial cross-country variation exists in the regulatory availability, treatment costs and affordability of SGLT-2 inhibitors and GLP-1 RAs. Higher regulatory capacity was associated with greater regulatory availability for GLP-1 RAs. Coordinated efforts to strengthen regulatory capacity and improve affordability may help improve the regulatory availability and affordability of these therapies across countries.",
@@ -1684,86 +1783,30 @@
         "top_tier": false
       },
       {
-        "pmid": "41711341",
-        "title": "GLP-1 receptor agonists: Bridging diabetes, obesity, and periodontitis-A scoping review of emerging evidence.",
-        "abstract": "BACKGROUND: Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) are analogs of the endogenous incretin hormone GLP-1 and are increasingly used in the treatment of diabetes and obesity. Beyond glycemic control and weight loss, they have demonstrated anti-inflammatory, antioxidative, and immunomodulatory properties. Given the inflammatory nature of periodontitis and its bidirectional relationship with diabetes mellitus, interest is growing in exploring the potential therapeutic benefits of GLP-1 RAs in periodontal diseases. This scoping review aims to search the existing literature on the effects of GLP-1 RAs on periodontitis, focusing on underlying mechanisms and emerging clinical implications. METHODS: Following PRISMA guidelines for scoping reviews, a comprehensive search was conducted in Medline/PubMed and Embase to identify preclinical and clinical studies in English evaluating the effects of GLP-1 RAs on periodontal tissues. Data were synthesized thematically to highlight key findings and gaps. RESULTS: Evidence from mechanistic and preclinical studies supports a biologically plausible link between GLP-1 RAs and pathways central to periodontal inflammation and host response. Human studies remain limited and observational but consistently report associations between periodontitis and altered incretin hormone profiles, including reduced endogenous GLP-1 levels and increases following periodontal treatment. CONCLUSION: This scoping review identifies growing mechanistic and preclinical evidence suggesting potential interactions between GLP-1 RAs and periodontal inflammatory pathways. Although current human evidence is indirect and insufficient to establish therapeutic benefit, these early signals highlight an important opportunity for future research. Well-designed clinical trials with periodontal endpoints are needed to clarify whether GLP-1 RAs may provide adjunctive value in periodontal care. PLAIN LANGUAGE SUMMARY: GLP-1 receptor agonists are medications commonly used to manage diabetes and obesity. In addition to their metabolic effects, laboratory and animal studies suggest that these drugs may influence biological processes also involved in gum disease, such as inflammation, immune response, and bone metabolism. This scoping review examined all available scientific studies on the relationship between GLP-1 receptor agonists and periodontal disease. Most of the existing evidence comes from mechanistic and preclinical research showing that these medications can reduce inflammation and support tissue repair in experimental models. Human studies are still very limited and have focused mainly on metabolic markers rather than on direct measures of gum health. So far, no clinical trial has tested whether GLP-1 medications can improve periodontal outcomes. Although no conclusions can be made for clinical dental practice today, the findings highlight an emerging and promising area of research. Well-designed clinical studies are needed to determine whether GLP-1 receptor agonists could eventually play a role in periodontal treatment.",
+        "pmid": "42388962",
+        "title": "Glucagonlike Peptide-1 (GLP-1) Receptor Agonists for Cardiometabolic Risk in Severe Mental Illness: A Narrative Review.",
+        "abstract": "People with severe mental illness face a substantially increased cardiometabolic risk and premature mortality, largely driven by antipsychotic-associated metabolic disturbances, including significant weight gain, insulin resistance, dyslipidemia, impaired glucose homeostasis, and increased rates of metabolic syndrome. Despite existing recommendations for monitoring and early intervention, managing this risk remains a significant clinical challenge. Glucagonlike peptide-1 receptor agonists have emerged as a potential adjunctive therapeutic strategy in this context. This narrative review evaluated the efficacy and safety of these agents in adults with severe mental illness receiving chronic antipsychotic treatment. A structured search was conducted in PubMed/MEDLINE and the Cochrane Library, complemented by relevant clinical guidelines and consensus documents. Randomized controlled trials, systematic reviews, and meta-analyses published between 2015 and 2025 in English or Portuguese were included, and the strength of evidence was assessed using the Strength of Recommendation Taxonomy. Nine studies were included, comprising six randomized controlled trials and three evidence synthesis studies. Liraglutide and semaglutide consistently demonstrated clinically meaningful reductions in body weight and improvements in glycemic control, without evidence of worsening psychiatric symptoms. In contrast, exenatide did not show additional weight loss compared with placebo, although some hemodynamic benefits were observed. The most common adverse events were mild to moderate gastrointestinal symptoms. Overall, the available evidence suggests a favorable balance between cardiometabolic benefits and psychiatric safety, particularly in patients treated with high metabolic risk antipsychotics such as clozapine and olanzapine. GLP-1 receptor agonists appear to be a promising adjunctive option for cardiometabolic risk reduction in this population. These findings support their consideration as a clinically relevant strategy, especially in patients at higher cardiometabolic risk. However, current evidence is limited by small sample sizes and short follow-up periods, and further long-term studies are needed to support broader clinical implementation.",
         "authors": [
-          "Angeliki Polymeri",
-          "Magda Feres",
-          "William V Giannobile",
-          "Bruno G Loos"
+          "Catarina Domingues",
+          "Maria Ferreira",
+          "Rosa Pinho"
         ],
-        "journal": "Journal of periodontology",
-        "date": "2026-02-19",
+        "journal": "Cureus",
+        "date": "2026-06-01",
         "keywords": [
-          "GLP‐1 receptor agonists",
-          "diabetes mellitus type 2",
-          "glycemic control",
-          "inflammation",
-          "obesity",
-          "periodontitis"
+          "cardiometabolic risk",
+          "“antipsychotic agents”",
+          "“bipolar disorder”",
+          "“glucagon-like peptide 1 receptor agonists”",
+          "“schizophrenia”"
         ],
         "companies": [],
-        "title_cn": "GLP-1 receptor agonists: Bridging diabetes, obesity, and periodontitis-A scoping review of emerging evidence.",
+        "title_cn": "Glucagonlike Peptide-1 (GLP-1) Receptor Agonists for Cardiometabolic Risk in Severe Mental Illness: A Narrative Review.",
         "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：临床前研究。\n【核心实验关键数据】核心发现：鉴定/表征, 调控作用, 相关性, 疾病模型建立。\n【机制创新与产业价值】发表期刊：Journal of periodontology。\n【后续追踪要点】临床试验；新药研发。",
-        "backfilled_from_news": "GLP-1 Medications May Improve Health in People With PAD and Diabetes.",
+        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：安全性评估, 有效性验证, 结构解析。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Cureus。\n【后续追踪要点】新药研发；长期疗效评估；安全性监测。",
+        "backfilled_from_news": "Clozapine and GLP-1 receptor agonists: an underrated gastrointestinal safety ris",
         "composite_score": 8.23,
         "relevance_score": 12.5,
-        "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42497473",
-        "title": "Effects of glucagon-like peptide-1 receptor agonists on metabolic outcomes in antipsychotic-treated patients with schizophrenia: A systematic review and meta-analysis.",
-        "abstract": "BACKGROUND: Individuals with schizophrenia have markedly increased cardiometabolic morbidity, largely attributable to antipsychotic-induced weight gain, insulin resistance, and dyslipidemia, particularly with clozapine- and olanzapine-based regimens. This systematic review and meta-analysis evaluated the efficacy and safety of glucagon-like peptide-1 receptor agonists (GLP-1RAs) in antipsychotic-treated patients with schizophrenia. METHODS: PubMed, Embase, and the Cochrane Central Register of Controlled Trials were searched from inception to September 16, 2025 for randomized clinical trials comparing GLP-1RAs with placebo or standard care. The review followed Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines and was prospectively registered in PROSPERO (CRD420251177261). Random-effects models were used to pool mean differences (MDs) and risk ratios (RRs). RESULTS: Eight randomized clinical trials including 523 participants were analyzed. GLP-1RAs significantly reduced body weight (MD -6.47; 95% CI, -9.61 to -3.32), body mass index (MD -2.83; 95% CI, -3.81 to -1.86), waist circumference (MD -5.35; 95% CI, -6.60 to -4.09), and glycated hemoglobin levels (MD -0.32; 95% CI, -0.39 to -0.26) compared with placebo or standard care. Exploratory subgroup analyses suggested marked differences across individual agents: exenatide showed a smaller and non-significant reduction in body weight, liraglutide showed a significant moderate reduction, and semaglutide showed the largest reduction. No significant effects were observed for fasting insulin, lipid parameters, or blood pressure. Gastrointestinal adverse events were more frequent with GLP-1RAs. CONCLUSIONS: In this systematic review and meta-analysis, GLP-1RAs were associated with clinically meaningful improvements in anthropometric and glycemic outcomes in antipsychotic-treated patients with schizophrenia, with acceptable tolerability primarily characterized by gastrointestinal adverse events.",
-        "authors": [
-          "Milene Vitória Sampaio Sobral",
-          "Rodrigo Bettanim Menechini",
-          "Jordana Belgamasco Cavalcanti Marçal",
-          "Anna Victoria de Vasconcelos",
-          "Letícia Hanna Moura da Silva Gattas Graciolli"
-        ],
-        "journal": "Schizophrenia research",
-        "date": "2026-07-24",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Effects of glucagon-like peptide-1 receptor agonists on metabolic outcomes in antipsychotic-treated patients with schizophrenia: A systematic review and meta-analysis.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】量化数据：95%, 95%, 95%；核心发现：鉴定/表征, 促进作用, 疾病模型建立, 安全性评估。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Schizophrenia research。\n【后续追踪要点】临床试验；安全性监测。",
-        "composite_score": 7.95,
-        "relevance_score": 12.0,
-        "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42154164",
-        "title": "Maternal obesity and the metabolic syndrome in reproductive health: assessing incretin-based interventions.",
-        "abstract": "The global epidemic of overweight and obesity threatens gynecological and reproductive health, necessitating effective therapeutic strategies to improve maternal and fetal long-term health outcomes. This review provides an overview of weight loss interventions and discusses their use in the context of gestation, such as surgical interventions and anti-obesity medications. As the interest in incretin-based therapies has risen substantially, we discuss how incretin-based therapies, including glucagon-like peptide-1 (GLP-1) receptor agonists and GLP-1 receptor agonists and glucose-dependent insulinotropic polypeptide (GIP) dual agonists, might improve reproductive function and could interact with the physiological metabolic changes ensuring a healthy pregnancy. These metabolic adaptations during pregnancy arise from the integration of insulin signaling, lipid metabolism, placental endocrine function, mitochondrial remodeling and inflammatory regulation. Furthermore, we consider not only short-term consequences of maternal overweight and obesity but also focus on fetal long-term health trajectories following pregnancy-related metabolic disorders, as maternal obesity and gestational weight gain are considered risk factors for childhood obesity and overweight.",
-        "authors": [
-          "Luisa Wallentowitz",
-          "Mariana G Garcia",
-          "Catalina Atorrasagasti",
-          "Charlotte Harms",
-          "Evelyn A Huhn"
-        ],
-        "journal": "Reviews in endocrine & metabolic disorders",
-        "date": "2026-05-19",
-        "keywords": [
-          "GLP-1 receptor agonists",
-          "Incretin-based therapies",
-          "Maternal obesity",
-          "Metabolic syndrome",
-          "Pregnancy outcomes",
-          "Reproductive health"
-        ],
-        "companies": [],
-        "title_cn": "Maternal obesity and the metabolic syndrome in reproductive health: assessing incretin-based interventions.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】核心发现：调控作用, 疾病模型建立, 有效性验证。\n【机制创新与产业价值】发表期刊：Reviews in endocrine & metabolic disorders。\n【后续追踪要点】新药研发；长期疗效评估。",
-        "backfilled_from_news": "GLP-1 Medications May Improve Health in People With PAD and Diabetes.",
-        "composite_score": 7.95,
-        "relevance_score": 12.0,
         "impact_factor": null,
         "top_tier": false
       }
