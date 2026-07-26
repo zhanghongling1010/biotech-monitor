@@ -381,6 +381,8 @@ function renderPapersBySection(data) {
     renderPaperSection('IOPapers', data.papers?.io || []);
     // 递送系统专题（包含 LNP、AAV、纳米、外泌体等）
     renderDeliverySection('deliveryPapers', data.papers?.delivery_systems || []);
+    // 行业新闻板块（期刊新闻 + 行业动态,论文板块只保留有摘要的研究论文）
+    renderPaperSection('newsPapers', data.news || []);
 }
 
 function renderDeliverySection(containerId, items) {

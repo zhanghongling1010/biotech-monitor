@@ -108,6 +108,23 @@ def generate_prompt(item, content_type):
 【数据解读】关键数据
 【竞争格局】同类对比
 【上市前景】获批可能性"""
+    elif content_type == 'news':
+        # 新闻解读:标题 + 关联原论文摘要(溯源回填提供)作为上下文
+        related_ctx = ''
+        for t, a in (item.get('_related') or [])[:2]:
+            related_ctx += f"\n论文标题: {t}\n论文摘要: {a[:600]}\n"
+        desc = item.get('summary_cn') or item.get('description_cn') or ''
+        desc_part = f"【新闻内容】\n{desc[:400]}\n" if desc else ''
+        related_part = f"【相关原研究论文】{related_ctx}" if related_ctx else ''
+        return f"""请为以下医药科研新闻提供中文解读（400字以内）：
+
+【新闻标题】{item.get('title', 'N/A')}
+【来源】{item.get('journal', 'N/A')} | {item.get('date', 'N/A')}
+{desc_part}{related_part}
+请输出（用【】标记各部分）：
+【新闻要点】2-3句概括核心信息
+【科学背景】基于相关原研究论文的深度解读(若无则基于行业知识分析该新闻涉及的科学与产业逻辑)
+【行业影响】对biotech领域的意义与后续关注点"""
     return None
 
 
@@ -170,6 +187,19 @@ def main():
             key = f"approval_{(approval.get('title') or '')}_{approval.get('date') or ''}"
             if key not in cache or not cache[key].get('analysis'):
                 items_to_analyze.append((key, approval, 'approval'))
+
+    # 新闻板块 - 用关联原论文摘要做上下文(解决新闻无摘要导致解读空洞的问题)
+    pmid_abs = {}
+    for papers in data.get('papers', {}).values():
+        for p in papers:
+            if p.get('pmid') and p.get('abstract'):
+                pmid_abs[str(p['pmid'])] = (p.get('title', ''), p['abstract'])
+    for news in data.get('news', [])[:12]:
+        pmid = news.get('pmid')
+        key = f"paper_{pmid}" if pmid else f"paper_{news.get('title', '')}_{news.get('date', '')}"
+        if key not in cache or not cache[key].get('analysis'):
+            news['_related'] = [pmid_abs[pm] for pm in (news.get('related_pmids') or []) if pm in pmid_abs][:2]
+            items_to_analyze.append((key, news, 'news'))
 
     print(f"需要分析的项目: {len(items_to_analyze)}")
     print(f"已有缓存: {len(cache)}")
