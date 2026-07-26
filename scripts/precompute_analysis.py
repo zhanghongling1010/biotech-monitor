@@ -7,6 +7,7 @@ Biotech Monitor - AI 解读预生成脚本
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 import threading
@@ -17,6 +18,7 @@ from datetime import datetime
 # 配置
 PROXY_URL = "http://localhost:3000/v1/chat/completions"
 MODEL = "MiniMax-M3"
+CLAUDE_BIN = "/Users/nnn_nice/.local/bin/claude"
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, '..', 'data', 'daily')
 OUTPUT_FILE = os.path.join(DATA_DIR, 'analysis_cache.json')
@@ -25,9 +27,26 @@ OUTPUT_FILE = os.path.join(DATA_DIR, 'analysis_cache.json')
 SYSTEM_PROMPT = '你是一位资深的生物医药行业分析师，专注于基因编辑、细胞治疗、抗体药物偶联物(ADC)、GLP-1和肿瘤免疫领域。你的分析风格专业、深入、量化，具备产业视角。'
 
 
-def call_ai(prompt, max_retries=3):
-    """调用 AI API，带重试。trust_env=False: localhost 调用绝不走系统代理
-    (macOS 系统代理切到 Clash(7897)后,requests 会把 localhost 也代理出去导致超时)"""
+def call_ai_claude(prompt, timeout=240):
+    """首选:Claude Code CLI 无头模式生成解读(质量远高于 MiniMax)。
+    认证来自 ~/.claude/settings.json,无需钥匙串,cron/裸环境可用。"""
+    try:
+        r = subprocess.run(
+            [CLAUDE_BIN, '-p', '--system-prompt', SYSTEM_PROMPT],
+            input=prompt, capture_output=True, text=True, timeout=timeout
+        )
+        if r.returncode == 0 and r.stdout.strip():
+            return r.stdout.strip()
+        print(f"  claude 调用失败: rc={r.returncode} {r.stderr[:150]}")
+    except Exception as e:
+        print(f"  claude 调用异常: {e}")
+    return None
+
+
+def call_ai_minimax(prompt, max_retries=2):
+    """备用:MiniMax(Claude 不可用时兜底)。trust_env=False: localhost 调用
+    绝不走系统代理(macOS 系统代理切到 Clash(7897)后,requests 会把
+    localhost 也代理出去导致超时)"""
     session = requests.Session()
     session.trust_env = False
     for attempt in range(max_retries):
@@ -49,12 +68,24 @@ def call_ai(prompt, max_retries=3):
                 data = response.json()
                 return data.get('choices', [{}])[0].get('message', {}).get('content', '')
             else:
-                print(f"  Attempt {attempt+1} failed: HTTP {response.status_code}")
+                print(f"  MiniMax attempt {attempt+1} failed: HTTP {response.status_code}")
                 time.sleep(2)
         except Exception as e:
-            print(f"  Attempt {attempt+1} error: {e}")
+            print(f"  MiniMax attempt {attempt+1} error: {e}")
             time.sleep(2)
     return None
+
+
+def call_ai(prompt, max_retries=2):
+    """Claude 优先,MiniMax 兜底"""
+    for attempt in range(max_retries):
+        result = call_ai_claude(prompt)
+        if result:
+            return result
+        if attempt < max_retries - 1:
+            time.sleep(2)
+    print("  Claude 不可用,回退 MiniMax")
+    return call_ai_minimax(prompt)
 
 
 def generate_prompt(item, content_type):
