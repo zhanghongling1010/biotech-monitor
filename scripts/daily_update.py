@@ -114,10 +114,11 @@ def merge_data():
     company_deals = sort_by_date_desc(company_deals)
     company_clinical = sort_by_date_desc(company_clinical)
 
-    # 对PubMed论文也按日期倒序排序
+    # 对PubMed论文按 相关度+影响因子 综合排序(顶刊保证置顶)
+    from paper_scoring import sort_papers_by_score
     sorted_papers = {}
     for category, papers in pubmed_data.get('papers', {}).items():
-        sorted_papers[category] = sort_by_date_desc(papers)
+        sorted_papers[category] = sort_papers_by_score(papers, category)
 
     # 合并递送系统专题数据（如果存在）
     delivery_file = os.path.join(data_dir, f'delivery_papers_{datetime.now().strftime("%Y%m%d")}.json')
@@ -133,7 +134,7 @@ def merge_data():
                 p['title_cn'] = p.get('title', '')
                 p['abstract_cn'] = ''
                 p['summary_cn'] = ''
-            sorted_papers['delivery_systems'] = sort_by_date_desc(delivery_papers)
+            sorted_papers['delivery_systems'] = sort_papers_by_score(delivery_papers, 'delivery_systems')
             print(f"  已合并递送系统专题: {len(delivery_papers)} 篇")
         except Exception as e:
             print(f"  合并递送数据失败: {e}")
