@@ -6,9 +6,12 @@ Biotech Monitor - AI 解读预生成脚本
 """
 import json
 import os
+import re
 import sys
 import time
+import threading
 import requests
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
 # 配置
@@ -23,10 +26,13 @@ SYSTEM_PROMPT = '你是一位资深的生物医药行业分析师，专注于基
 
 
 def call_ai(prompt, max_retries=3):
-    """调用 AI API，带重试"""
+    """调用 AI API，带重试。trust_env=False: localhost 调用绝不走系统代理
+    (macOS 系统代理切到 Clash(7897)后,requests 会把 localhost 也代理出去导致超时)"""
+    session = requests.Session()
+    session.trust_env = False
     for attempt in range(max_retries):
         try:
-            response = requests.post(
+            response = session.post(
                 PROXY_URL,
                 json={
                     "model": MODEL,
@@ -127,12 +133,19 @@ def main():
     # 收集需要分析的项目
     items_to_analyze = []
 
-    # 论文 - 每个分类只取前3篇（限制数量避免超时）
+    # 论文 - 每类前6篇 + 所有顶刊置顶论文(顶刊保证名单意味着必读,必须带解读)
     for category, papers in data.get('papers', {}).items():
-        # 递送系统分类增加到前5篇（专题更重要）
-        limit = 5 if category == 'delivery_systems' else 3
-        for paper in papers[:limit]:
+        # 递送系统分类增加到前8篇(专题更重要)
+        limit = 8 if category == 'delivery_systems' else 6
+        selected = list(papers[:limit])
+        # 顶刊论文无论排名都纳入(上限15篇/类防膨胀)
+        selected += [p for p in papers[limit:15] if p.get('top_tier')]
+        seen = set()
+        for paper in selected:
             pmid = paper.get('pmid') or paper.get('title', '')[:50]
+            if pmid in seen:
+                continue
+            seen.add(pmid)
             key = f"paper_{pmid}"
             if key not in cache or not cache[key].get('analysis'):
                 items_to_analyze.append((key, paper, 'paper'))
@@ -165,49 +178,67 @@ def main():
         print("所有项目已缓存，无需重新生成")
         return
 
-    # 生成分析
+    # 生成分析（3 路并发 + 全局时间预算，避免被外层超时强杀）
+    MAX_WORKERS = 3
+    deadline = time.time() + int(os.environ.get('PRE_MAX_MINUTES', '12')) * 60
+    save_lock = threading.Lock()
     success = 0
     failed = 0
-    for i, (key, item, content_type) in enumerate(items_to_analyze):
-        print(f"[{i+1}/{len(items_to_analyze)}] {key[:60]}...")
+    done = 0
+
+    def save_cache():
+        with save_lock:
+            with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+                json.dump(cache, f, ensure_ascii=False, indent=2)
+
+    def analyze(idx, key, item, content_type):
         prompt = generate_prompt(item, content_type)
         if not prompt:
-            continue
-
+            return idx, key, item, content_type, None
         analysis = call_ai(prompt)
         if analysis:
             # 移除 <think> 思考标签
-            import re
-            analysis = re.sub(r'<think>.*?</think>\s*', '', analysis, flags=re.DOTALL)
-            cache[key] = {
-                'analysis': analysis,
-                'item': {
-                    'title': item.get('title', ''),
-                    'date': item.get('date', ''),
-                    'pmid': item.get('pmid', ''),
-                    'company': item.get('company', ''),
-                },
-                'type': content_type,
-                'timestamp': datetime.now().isoformat()
-            }
-            success += 1
-            print(f"  ✓ 成功 ({len(analysis)} 字)")
-        else:
-            failed += 1
-            print(f"  ✗ 失败")
+            analysis = re.sub(r'<think>.*?</think>\s*', '', analysis, flags=re.DOTALL).strip()
+        return idx, key, item, content_type, analysis or None
 
-        # 每条间隔1秒，避免速率限制
-        time.sleep(1)
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+        futures = {}
+        for i, (key, item, content_type) in enumerate(items_to_analyze):
+            if time.time() > deadline:
+                print(f"  [时间预算用尽,停止派发新任务]")
+                break
+            futures[pool.submit(analyze, i, key, item, content_type)] = key
+            time.sleep(0.5)  # 错峰派发，避免瞬时速率限制
 
-        # 每10条保存一次
-        if (i + 1) % 10 == 0:
-            with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-                json.dump(cache, f, ensure_ascii=False, indent=2)
-            print(f"  [已保存进度]")
+        for fut in as_completed(futures):
+            idx, key, item, content_type, analysis = fut.result()
+            done += 1
+            print(f"[{done}/{len(futures)}] {key[:60]}...", flush=True)
+            if analysis:
+                cache[key] = {
+                    'analysis': analysis,
+                    'item': {
+                        'title': item.get('title', ''),
+                        'date': item.get('date', ''),
+                        'pmid': item.get('pmid', ''),
+                        'company': item.get('company', ''),
+                    },
+                    'type': content_type,
+                    'timestamp': datetime.now().isoformat()
+                }
+                success += 1
+                print(f"  ✓ 成功 ({len(analysis)} 字)", flush=True)
+            else:
+                failed += 1
+                print(f"  ✗ 失败", flush=True)
+
+            # 每5条保存一次，中断也不丢进度
+            if done % 5 == 0:
+                save_cache()
+                print(f"  [已保存进度]", flush=True)
 
     # 最终保存
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(cache, f, ensure_ascii=False, indent=2)
+    save_cache()
 
     print(f"\n完成: 成功 {success}, 失败 {failed}")
     print(f"缓存总数: {len(cache)}")
