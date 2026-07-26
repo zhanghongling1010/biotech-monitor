@@ -66,6 +66,16 @@ def merge_data():
     company_data = load_company_data(data_dir)
     bd_news_data = load_bd_news_data(data_dir)
 
+    # 新闻溯源回填:顶刊新闻提到的原论文(可能发表早于7天窗口)补进文献列表
+    try:
+        from research_backfill import backfill_from_news
+        from collect_pubmed import fetch_article_details
+        added = backfill_from_news(pubmed_data.get('papers', {}), fetch_article_details)
+        if added:
+            print(f"  新闻溯源: 补充了 {added} 篇原论文")
+    except Exception as e:
+        print(f"  新闻溯源失败(不影响主流程): {e}")
+
     # 从BD新闻提取交易和临床数据
     bd_deals = [item for item in bd_news_data.get('items', []) if 'deal' in item.get('categories', [])]
     bd_clinical = [item for item in bd_news_data.get('items', []) if 'clinical' in item.get('categories', [])]
