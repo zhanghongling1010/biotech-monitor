@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-29T07:01:09.710101",
+  "timestamp": "2026-07-29T07:16:12.671234",
   "critical": {
     "deals": [
       {
@@ -264,16 +264,6 @@
         ]
       },
       {
-        "title": "Dissecting divergent outcomes in stem cell-derived dopamine cell therapy trials for Parkinson's disease.",
-        "journal": "Cell stem cell",
-        "date": "2026-07-24",
-        "authors": [
-          "Chan Wook Park",
-          "Sanghyun Park",
-          "Seok Jong Chung"
-        ]
-      },
-      {
         "title": "Izalontamab Brengitecan (Iza-Bren), a First-in-Class EGFR-HER3 Bispecific Antibody-Drug Conjugate in Extensive-Stage Small Cell Lung Cancer: Results From a Phase Ib Study.",
         "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
         "date": "2026-07-24",
@@ -334,12 +324,6 @@
         ]
       },
       {
-        "title": "First CAR T-Cell Therapy Approved for Solid Tumors.",
-        "journal": "Cancer discovery",
-        "date": "2026-07-21",
-        "authors": []
-      },
-      {
         "title": "Maternal vitamin B12 deprivation exacerbates offspring obesity by reducing early-life colonization with Bifidobacterium pseudolongum.",
         "journal": "Cell metabolism",
         "date": "2026-07-21",
@@ -370,6 +354,56 @@
         ]
       },
       {
+        "title": "Distinct in vivo dynamics of donor-derived stem cell memory CAR T cells post-allogeneic HSCT relapse.",
+        "journal": "Cell",
+        "date": "2026-04-30",
+        "authors": [
+          "Luca Gattinoni",
+          "Gabriele Inchingolo",
+          "Dennis C Harrer"
+        ]
+      },
+      {
+        "title": "Engineering the blood: Lipid nanoparticle platforms for ex vivo immune and hematopoietic cell therapies.",
+        "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+        "date": "2026 Jul 27",
+        "authors": [
+          "Byeon Y",
+          "Peng N",
+          "Oh EB"
+        ]
+      },
+      {
+        "title": "Decoding the Functional Roles of Individual Components in mRNA Lipid Nanoparticles.",
+        "journal": "ACS nano",
+        "date": "2026 Jul 26",
+        "authors": [
+          "Su K",
+          "Wang Z",
+          "Shi L"
+        ]
+      },
+      {
+        "title": "Targeted mRNA Delivery Using Bispecific Antibody-Lipid Nanoparticle Complexes.",
+        "journal": "Molecular pharmaceutics",
+        "date": "2026 Jul 19",
+        "authors": [
+          "Hickey JC",
+          "Roach T",
+          "Cassaidy B"
+        ]
+      },
+      {
+        "title": "Ten-Year Outcomes after CAR T-Cell Therapy for B-Cell Lymphomas.",
+        "journal": "The New England journal of medicine",
+        "date": "",
+        "authors": [
+          "Marco Ruella",
+          "Luca Paruzzo",
+          "Emeline R Chong"
+        ]
+      },
+      {
         "title": "Bispecific Antibody Ivonescimab Added to Chemotherapy in EGFR-Variant Non-Small Cell Lung Cancer: The HARMONi-A Randomized Clinical Trial.",
         "journal": "JAMA",
         "date": "",
@@ -380,13 +414,12 @@
         ]
       },
       {
-        "title": "Glucagon-like peptide-1 receptor agonists reduce experimental atherosclerosis progression, inflammatory biomarkers and cardiovascular events, irrespective of hyperglycaemia and obesity.",
-        "journal": "European heart journal",
+        "title": "GLP-1 Receptor Agonists.",
+        "journal": "The New England journal of medicine",
         "date": "",
         "authors": [
-          "Mohamad B Kassab",
-          "Haitham Khraishah",
-          "Andrew Thrapp"
+          "Clifford J Rosen",
+          "Julie R Ingelfinger"
         ]
       }
     ]
@@ -830,6 +863,71 @@
         "top_tier": false
       },
       {
+        "pmid": "42027081",
+        "title": "Nucleic Acid Nanotechnology-Empowered CRISPR-Cas12a Systems for Biosensing and Bioimaging Applications.",
+        "abstract": "The development of highly sensitive and simple bioanalytical platforms is crucial for advancing disease diagnostics and biomedical research. In recent years, Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR) and CRISPR-associated (Cas) protein systems have emerged as the \"next-generation molecular technology\" that profoundly impacts the field of genome editing and molecular diagnosis. In particular, CRISPR-Cas12a, an important CRISPR-Cas family member, has gained prominence as a robust tool in biosensing and bioimaging due to its easy design and high target specificity. Notably, the integration of nucleic acid nanotechnology, including nucleic acid amplification strategies and engineered functional nucleic acids, with CRISPR-Cas12a systems significantly improves detection sensitivity and specificity, enabling the analysis of low-abundance analytes. This review introduces the fundamentals of CRISPR-Cas12a and key nucleic acid-based toolboxes. Next, we systematically summarize the advantages of nucleic acid nanotechnology-empowered CRISPR-Cas12a platforms in detail and highlight recent advances in their applications in biosensing and bioimaging. Finally, current challenges and future perspectives of such nucleic acids-assisted CRISPR-Cas12a systems for disease diagnostics are discussed.",
+        "authors": [
+          "Qian Hou",
+          "Jinghan Ren",
+          "Yuzhen Wu",
+          "Peiran Zhao",
+          "Shuzhen Yue"
+        ],
+        "journal": "Small methods",
+        "date": "2026-04-24",
+        "keywords": [
+          "CRISPR‐Cas12a",
+          "bioimaging",
+          "biosensing",
+          "molecular diagnostics",
+          "nucleic acid nanotechnology"
+        ],
+        "companies": [],
+        "title_cn": "Nucleic Acid Nanotechnology-Empowered CRISPR-Cas12a Systems for Biosensing and Bioimaging Applications.",
+        "abstract_cn": "The development highly sensitive simple bioanalytical platforms crucial advancing disease diagnostics biomedical research. In recent years, Clustered Regularly Interspaced Short Palindromic Repeats CRISPR基因编辑-associated protein systems have emerged \"next-generation molecular technology\" that profoundly impacts field genome editing molecular diagnosis. In particular, CRISPR基因编辑-Cas12a, important CRISPR基因编辑-Cas family member, gained prominence robust tool biosensing bioimaging easy design high target specificity. Notably, integration nucleic acid nanotechnology, including nucleic acid amplification strategies engineered functional nucleic acids, with CRISPR基因编辑-Cas12a systems significantly improves detection sensitivity specificity, enabling analysis -abundance analytes. This review introduces fundamentals CRISPR基因编辑-Cas12a nucleic acid-based toolboxes. Next, systematically summarize advantages nucleic acid nanotechnology-empowered CRISPR基因编辑-Cas12a platforms detail highlight recent advances their applications biosensing bioimaging. Finally, current challenges future perspectives such nucleic acids-assisted CRISPR基因编辑-Cas12a systems disease diagnostics discussed.",
+        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：表达水平变化。\n【机制创新与产业价值】发表期刊：Small methods。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "Robust CRISPR/Cas12a genome editing in Brassica vegetables.",
+        "composite_score": 7.97,
+        "relevance_score": 9.0,
+        "impact_factor": 13.0,
+        "top_tier": false
+      },
+      {
+        "pmid": "41796733",
+        "title": "CRISPR-Cas12a/Cas13a in cancer molecular diagnosis.",
+        "abstract": "Cancer remains a leading cause of global mortality, with early diagnosis being pivotal for improving treatment outcomes. Traditional tissue biopsy is limited by its invasiveness, inability to capture tumor heterogeneity, and failure to support dynamic monitoring. Liquid biopsy has emerged as a non-invasive alternative, enabling the analysis of circulating tumor biomarkers (e.g., ctDNA, miRNAs, exosomes) in bodily fluids. However, current liquid biopsy technologies (e.g., NGS, ddPCR) suffer from high costs, complex workflows, poor standardization, and insufficient sensitivity for low-abundance biomarkers. The CRISPR-Cas systems, particularly Cas12a and Cas13a, have revolutionized molecular diagnostics due to their programmable sequence recognition, robust signal amplification via trans-cleavage/collateral cleavage activity, and compatibility with point-of-care testing (POCT). Cas12a targets DNA molecules, enabling sensitive detection of gene mutations and DNA methylation, while Cas13a specifically recognizes RNA, facilitating direct analysis of miRNAs and viral RNAs. Additionally, these systems have been extended to non-nucleic acid biomarkers (e.g., proteins, exosomes) through signal conversion strategies. This review summarizes the latest advances in CRISPR-Cas12a/Cas13a-based biosensors for cancer molecular diagnosis, including the detection of gene mutations, epigenetic modifications, miRNAs, tumor-associated viruses, and non-nucleic acid biomarkers. We critically analyze current challenges (e.g., PAM dependence, matrix interference, multiplexing limitations, clinical validation gaps) and discuss future perspectives, such as engineering PAM-less Cas variants, integrating nanotechnology, microfluidics, and artificial intelligence/artificial intelligence (AI), and advancing clinical standardization. This review aims to provide a comprehensive reference for the development and clinical translation of CRISPR-based cancer diagnostic technologies.",
+        "authors": [
+          "Juncheng Lin",
+          "Yuyuan Wang",
+          "Biyun Zeng",
+          "Zhibing Chen",
+          "Xiaocong Lin"
+        ],
+        "journal": "Clinica chimica acta; international journal of clinical chemistry",
+        "date": "2026-03-06",
+        "keywords": [
+          "AI empowerment",
+          "CRISPR-Cas12a",
+          "CRISPR-Cas13a",
+          "Cancer diagnosis",
+          "Clinical translation",
+          "Epigenetic detection",
+          "Non-nucleic acid biomarkers",
+          "Nucleic acid detection",
+          "POCT",
+          "Tumor-associated viruses"
+        ],
+        "companies": [],
+        "title_cn": "CRISPR-Cas12a/Cas13a in cancer molecular diagnosis.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：有效性验证, 表达水平变化, 结合/相互作用；局限性：存在实验局限性。\n【机制创新与产业价值】发表期刊：Clinica chimica acta; international journal of clinical chemistry。\n【后续追踪要点】伴随诊断。",
+        "backfilled_from_news": "Robust CRISPR/Cas12a genome editing in Brassica vegetables.",
+        "composite_score": 7.95,
+        "relevance_score": 12.0,
+        "impact_factor": null,
+        "top_tier": false
+      },
+      {
         "pmid": "42200456",
         "title": "Successful gene therapy for transfusion-dependent α-thalassemia: a case report.",
         "abstract": "α-Thalassemia is a severe inherited hemoglobin (Hb) disorder with limited curative options for patients with transfusion dependency, lacking suitable donors. We report, to our knowledge, the first-in-human application of lentiviral vector-mediated α-globin gene therapy in a girl aged 14 years with transfusion-dependent HbH disease (--SEA/αCSα). Autologous CD34+ hematopoietic stem and progenitor cells were mobilized, collected, and genetically modified ex vivo using the lentiviral vector (Lenti-HBA) to restore α-globin expression, then reinfused after busulfan conditioning. The patient achieved engraftment within 3 weeks and started to be free of transfusions from the fourth week onward. In the last year of follow-up (months 12-24), the average Hb level remained at ∼90 g/L without transfusion support, with HbA accounting for >85% of total Hb. Vector copy numbers were stable, and no evidence of clonal dominance, insertional mutagenesis, or replication-competent lentivirus was detected. Adverse events (AEs) were limited to expected busulfan-related toxicities, including grade 2 menstrual irregularity and ovarian failure (serious AE). Despite cessation of chelation therapy, iron overload progressed minimally, and no cardiac iron deposition occurred. Immune recovery, growth, and development were preserved. This case demonstrates the feasibility, safety, and durable efficacy of lentiviral α-globin gene therapy as a potential curative treatment for transfusion-dependent α-thalassemia. This trial was registered at www.clinicaltrials.gov as NCT05851105.",
@@ -882,63 +980,39 @@
         "relevance_score": 9.0,
         "impact_factor": 11.7,
         "top_tier": false
-      },
-      {
-        "pmid": "42503868",
-        "title": "Systematic Benchmarking of CRISPR-Cas9 Off-Target Prediction Tools Reveals Limitations and Implications for Preclinical Assessment.",
-        "abstract": "Accurate identification of CRISPR-Cas9 off-target sites is essential for the safety assessment of genome-editing-based therapies. While numerous in silico prediction tools have been developed, their comparative performance and practical utility in preclinical workflows remain incompletely defined. We performed a systematic benchmarking of 14 in silico CRISPR-Cas9 off-target prediction tools, including both standard approaches and machine learning-based models. The analysis was based on a curated dataset derived from the CRISPRoffT database, comprising 3,827 deep-sequenced genomic sites across 26 guide RNA/Cas9 combinations in human cells. Sites with indel frequencies ≥0.1% were operationally defined as true off-targets. We evaluated tool performance using score distributions, correlation with indel frequencies, precision-recall characteristics, recall among top-ranked candidate sites, and the effect of combining tools. All tools assigned higher scores to true off-target sites compared with nontarget sites, although substantial overlap between classes was observed. Correlation between prediction scores and indel frequencies was weak to moderate, indicating limited ability to predict editing magnitude. Precision-recall performance was moderate across all tools, reflecting inherent trade-offs between sensitivity and specificity. Recall increased with the number of predicted sites considered, reaching approximately 77% among the top 500 and up to 83% among the top 1,250 sites, but leaving a substantial fraction of true off-targets undetected. Combining tools yielded only modest improvements. Current in silico tools enable prioritization of CRISPR-Cas9 off-target candidates but remain limited in their ability to comprehensively identify and quantitatively predict off-target activity. Our findings highlight the importance of considering both ranking performance and candidate site coverage and support the use of combined computational and experimental strategies for robust off-target assessment in preclinical gene editing workflows.",
-        "authors": [
-          "Masako M Kaufmann",
-          "Maren Hackenberg",
-          "William Jobson Pargeter",
-          "Rolf Backofen",
-          "Harald Binder"
-        ],
-        "journal": "Human gene therapy",
-        "date": "2026-07-26",
-        "keywords": [
-          "CRISPR-Cas9",
-          "benchmarking",
-          "genome editing safety",
-          "in silico prediction",
-          "off-target effects",
-          "off-target prediction tools",
-          "preclinical assessment"
-        ],
-        "companies": [],
-        "title_cn": "Systematic Benchmarking of CRISPR-Cas9 Off-Target Prediction Tools Reveals Limitations and Implications for Preclinical Assessment.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：临床前研究。\n【核心实验关键数据】量化数据：0.1%, 77%, 83%；表型：认知/学习记忆障碍；核心发现：鉴定/表征, 相关性, 疾病模型建立, 安全性评估；局限性：存在实验局限性。\n【机制创新与产业价值】发表期刊：Human gene therapy。\n【后续追踪要点】安全性监测。",
-        "composite_score": 7.85,
-        "relevance_score": 11.0,
-        "impact_factor": 3.8,
-        "top_tier": false
-      },
-      {
-        "pmid": "42488965",
-        "title": "The Diversifying Distribution Trends of Maturing CRISPR Technologies by Addgene.",
-        "abstract": "Since the advent of Cas9-based CRISPR technologies in 2012, there has been a remarkable growth in genome editing research, literature, applications, and translational impact. Much of this research has been fueled by the global dissemination of CRISPR plasmids through nonprofit distribution by Addgene, as both a repository and distributor of enabling biological material. Recently, key milestones have been reached, with over 20,000 plasmids deposited by over 1,000 labs, being distributed over 300,000 times globally. The driving trends reflect multidimensional diversification in terms of effectors (Cas9, Cas12 and beyond), editing modalities (base editing, prime editing, epigenetic modification, CRISPRi/a), and deployment across phylogenetic groups (mammalian, bacterial, plant, yeast, insects, and more). Noteworthy, guide RNA and HDR templates account for the bulk of deposits, while cloning backbones are the most requested, and lentiviral plasmids comprise the majority of expression material. The data reflect a continued diversification of the CRISPR-based toolbox, robust interest in genome editing applications across the tree of life, maturation in terms of adoption, and rising relative distribution beyond the USA and China, with Addgene continuing to play a critical role in access to equitable and disruptive technologies.",
-        "authors": [
-          "Alyssa Shepard",
-          "Elena Minones-Moyano",
-          "Christina Mork",
-          "Brook Pyhtila",
-          "Rodolphe Barrangou"
-        ],
-        "journal": "The CRISPR journal",
-        "date": "2026-07-23",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "The Diversifying Distribution Trends of Maturing CRISPR Technologies by Addgene.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：碱基编辑(CBE/ABE)、先导编辑；研究层级：基础研究。\n【核心实验关键数据】核心发现：表达水平变化。\n【机制创新与产业价值】发表期刊：The CRISPR journal。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 7.72,
-        "relevance_score": 11.0,
-        "impact_factor": 3.3,
-        "top_tier": false
       }
     ],
     "cell_therapy": [
+      {
+        "pmid": "42066750",
+        "title": "Distinct in vivo dynamics of donor-derived stem cell memory CAR T cells post-allogeneic HSCT relapse.",
+        "abstract": "Donor-derived CD19-CAR T cells offer a therapeutic option for B cell malignancies relapsing after allogeneic hematopoietic stem cell transplantation but are often constrained by poor engraftment, expansion, and persistence. In a first-in-human study (NCT01087294), we found that CAR-modified stem-cell memory T (TSCM) cells exhibited greater expansion and persistence than standard CAR T cells, enabling complete responses at low doses in the absence of lymphodepletion. CAR TSCM cells induced mild cytokine-release syndrome, dominated by IFN-γ. Both products differentiated into effectors; however, only CAR TSCM cells robustly reconstituted the stem-like compartment over time. CAR TSCM cells were sustained through clonal succession, whereas persisting standard CAR T cells resulted from maintenance or contraction of early-expanded clones. While poor expansion limited standard CAR T cell activity, resistance to CAR TSCM cells was driven primarily by tumor- and host-related factors. These findings establish CAR TSCM cells as a promising platform for next-generation CAR T cell therapies.",
+        "authors": [
+          "Luca Gattinoni",
+          "Gabriele Inchingolo",
+          "Dennis C Harrer",
+          "Alberto Susana",
+          "Simone Puccio"
+        ],
+        "journal": "Cell",
+        "date": "2026-04-30",
+        "keywords": [
+          "B cell malignancies",
+          "CAR T cells",
+          "Phase 1 study",
+          "donor-derived T cells",
+          "stem cell memory T cells"
+        ],
+        "companies": [],
+        "title_cn": "Distinct in vivo dynamics of donor-derived stem cell memory CAR T cells post-allogeneic HSCT relapse.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】核心技术：CAR-T细胞治疗；研究层级：动物体内实验。\n【核心实验关键数据】表型：认知/学习记忆障碍, 肿瘤发生；核心发现：促进作用, 有效性验证。\n【机制创新与产业价值】发表期刊：Cell。\n【后续追踪要点】新药研发。",
+        "backfilled_from_news": "An early integrated prognostic system for predicting relapse and guiding interve",
+        "composite_score": 12.64,
+        "relevance_score": 15.0,
+        "impact_factor": 45.5,
+        "top_tier": true
+      },
       {
         "pmid": "42481854",
         "title": "An iPSC-derived neural progenitor cell therapy for subacute spinal cord injury: a phase 1 trial with long-term follow-up.",
@@ -960,6 +1034,30 @@
         "composite_score": 11.93,
         "relevance_score": 13.5,
         "impact_factor": 58.7,
+        "top_tier": true
+      },
+      {
+        "pmid": "42341302",
+        "title": "Ten-Year Outcomes after CAR T-Cell Therapy for B-Cell Lymphomas.",
+        "abstract": "BACKGROUND: Anti-CD19 chimeric antigen receptor (CAR) T-cell therapy is a standard treatment for relapsed or refractory B-cell non-Hodgkin lymphomas. Long-term results and curative potential remain uncertain. METHODS: We evaluated long-term outcomes in 38 patients with relapsed or refractory B-cell non-Hodgkin lymphomas (24 patients with large B-cell lymphoma and 14 with follicular lymphoma) who had been treated with CTL019 (now called tisagenlecleucel) - autologous T cells expressing CD19-directed, 4-1BB-costimulated chimeric receptors. Lymphoma-free survival was defined as the time from the tisagenlecleucel infusion to relapse or lymphoma-related death. The incidence of non-relapse-related death and second primary cancer was estimated with the Aalen-Johansen method. The data-cutoff date was October 1, 2025. RESULTS: At a median follow-up of 10.1 years (range, 7.9 to 11.5), no relapses had occurred beyond 5.4 years. The 10-year lymphoma-free survival was 32% (95% confidence interval [CI], 14 to 51) among patients with large B-cell lymphoma and 47% (95% CI, 20 to 71) among those with follicular lymphoma. In an analysis that included deaths from any cause, the 10-year progression-free survival was 17% (95% CI, 5 to 34) among patients with large B-cell lymphoma and 29% (95% CI, 9 to 52) among those with follicular lymphoma; the 10-year overall survival was 17% (95% CI, 5 to 34) and 50% (95% CI, 23 to 72), respectively. Persistent grade 2 or 3 neutropenia occurred in 2 patients (5%); no late anemia or thrombocytopenia was observed. A second primary cancer developed in 9 patients (10-year cumulative incidence, 21%). The 10-year non-relapse-related mortality was 18% (14% when deaths related to coronavirus disease 2019 were excluded). Higher CAR-transgene persistence appeared to be associated with long-term response. B-cell aplasia persisted in 44% of patients with a long-term response. CONCLUSIONS: Among patients with heavily pretreated B-cell non-Hodgkin lymphoma, a single infusion of tisagenlecleucel led to decade-long remissions (lymphoma-free survival) in approximately one third of the patients with large B-cell lymphomas and in nearly one half of those with follicular lymphoma. (Funded by the Richard Berman Family Innovations Center in CLL and Lymphomas and others; ClinicalTrials.gov number, NCT02030834.).",
+        "authors": [
+          "Marco Ruella",
+          "Luca Paruzzo",
+          "Emeline R Chong",
+          "Elise A Chong",
+          "Daniel J Landsburg"
+        ],
+        "journal": "The New England journal of medicine",
+        "date": "",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Ten-Year Outcomes after CAR T-Cell Therapy for B-Cell Lymphomas.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：淋巴瘤；研究层级：基础研究。\n【核心实验关键数据】量化数据：32%, 95%, 47%；表型：肿瘤发生；核心发现：有效性验证, 表达水平变化。\n【机制创新与产业价值】临床痛点：转移/复发；发表期刊：The New England journal of medicine。\n【后续追踪要点】基因/细胞治疗；长期疗效评估。",
+        "backfilled_from_news": "An early integrated prognostic system for predicting relapse and guiding interve",
+        "composite_score": 10.82,
+        "relevance_score": 11.5,
+        "impact_factor": 96.2,
         "top_tier": true
       },
       {
@@ -1006,6 +1104,51 @@
         "composite_score": 9.14,
         "relevance_score": 9.5,
         "impact_factor": 29.7,
+        "top_tier": true
+      },
+      {
+        "pmid": "41851457",
+        "title": "Proteasome-guided haem signalling axis contributes to T cell exhaustion.",
+        "abstract": "The accumulation of depolarized mitochondria commits T cells to exhaustion1-3, yet the precise mechanism remains unclear. Here we find that exhausted CD8+ T cells increase proteasome activity owing to the accumulation of depolarized mitochondria, which drives the selective degradation of mitochondrial proteins and the release of regulatory haem through haemoprotein breakdown. In turn, increased regulatory haem disrupts BACH2-mediated transcriptional regulation, thereby exacerbating T cell exhaustion and compromising stemness-like properties. Inhibition of nuclear import of regulatory haem prevents BACH2 degradation and enhances the anti-tumour efficacy of antigen-specific T cells. We find that the therapeutic efficacy of human CD19+ chimeric antigen receptor (CAR)-T cells in patients with B cell acute lymphoblastic leukaemia negatively correlates with the proteasome gene signature in their CAR-T cells. Manufacturing CAR-T cells in the presence of bortezomib, an FDA-approved proteasome inhibitor, prevents T cell exhaustion and improves therapeutic efficacy. Our findings identify a proteasome-guided haem signalling axis, governed by mitochondrial integrity, as a regulator of CD8+ T cell exhaustion and propose innovative therapeutic strategies that exploit this pathway to optimize adoptive cellular immunotherapy.",
+        "authors": [
+          "Yingxi Xu",
+          "Yangtao Shangguan",
+          "Yu-Ming Chuang",
+          "Tzu-Hsuan Chang",
+          "Wenbing Liu"
+        ],
+        "journal": "Nature",
+        "date": "2026-03-18",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Proteasome-guided haem signalling axis contributes to T cell exhaustion.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】核心技术：CAR-T细胞治疗；研究层级：基础研究。\n【核心实验关键数据】核心发现：鉴定/表征, 抑制作用, 促进作用, 调控作用；关键突破：提高疗效；局限性：原文未披露详细信息。\n【机制创新与产业价值】发表期刊：Nature。\n【后续追踪要点】新药研发。",
+        "backfilled_from_news": "An early integrated prognostic system for predicting relapse and guiding interve",
+        "composite_score": 6.67,
+        "relevance_score": 4.0,
+        "impact_factor": 48.5,
+        "top_tier": true
+      },
+      {
+        "pmid": "42168367",
+        "title": "Resetting autoimmune disease with CAR cell therapies.",
+        "abstract": "Pathogenic B cell activation underlies many autoimmune diseases (AIDs), and their depletion is an attractive therapeutic approach. Chimeric antigen receptor (CAR)-expressing cells-initially developed and successfully used to treat certain cancers-are increasingly being developed to selectively deplete B cells and 'reset' the immune system in AIDs. In this Review, we survey this fast-developing field, providing insights on the current unmet needs in the treatment of AIDs and how CAR T cells could address these needs. In particular, we explore the concept of deep B cell depletion, discuss the currently available technologies and review the key targets (CD19 and B cell maturation antigen) relevant for the treatment of AIDs. We summarize current evidence on the efficacy, safety, risks and limitations of autologous and allogeneic CAR T cells in this setting. Finally, we discuss the future outlook-from a technological and clinical standpoint-for development of engineered CAR-expressing cell therapies for AIDs.",
+        "authors": [
+          "Georg Schett",
+          "Huji Xu"
+        ],
+        "journal": "Nature medicine",
+        "date": "2026-05-21",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Resetting autoimmune disease with CAR cell therapies.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：HIV/艾滋病；核心技术：CAR-T细胞治疗；研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：促进作用, 安全性评估, 有效性验证, 表达水平变化；局限性：存在实验局限性。\n【机制创新与产业价值】发表期刊：Nature medicine。\n【后续追踪要点】新药研发；安全性监测。",
+        "backfilled_from_news": "An early integrated prognostic system for predicting relapse and guiding interve",
+        "composite_score": 6.15,
+        "relevance_score": 3.0,
+        "impact_factor": 58.7,
         "top_tier": true
       },
       {
@@ -1060,142 +1203,27 @@
         "top_tier": false
       },
       {
-        "pmid": "42492514",
-        "title": "Allogeneic iPSC-derived γδT cells demonstrate antitumor efficacy against patient-derived tissues.",
-        "abstract": "Various immunotherapies have been developed to treat malignant tumors, and autologous CAR-T cell therapy is clinically used for certain malignancies. However, their efficacy against solid tumors is limited. γδT cells are recognized for their potent tumor cytotoxicity and MHC-unrestricted activity. We successfully induced γδT cells from iPS cells and demonstrated their cytotoxicity against colorectal cancer cell lines in vitro. However, cancer cell lines often lack critical tumor characteristics such as heterogeneity and drug sensitivity. In contrast, patient-derived cancer organoids retain many features of the patient's tumor tissues. This study evaluated the cytotoxicity of allogeneic iγδT cells against cell lines and organoids, in vitro and in vivo. iγδT cells showed 70%-90% cytotoxicity against cell lines and organoids in vitro. In vivo, local and intravenous administration of iγδT cells suppressed tumor growth by 70%-100%, highlighting their potential as a novel immunotherapy for colorectal cancer.",
+        "pmid": "41588112",
+        "title": "Roads and detours for CAR T cell therapy in autoimmune diseases.",
+        "abstract": "Chimeric antigen receptor (CAR) T cell therapy has been highly effective in eradicating malignant B cells in cancer, and this success has prompted an extension of the approach to areas beyond oncology. In pioneering studies, CAR T cells targeting the B cell marker CD19 demonstrated robust efficacy as treatment for the autoimmune disease systemic lupus erythematosus. Patients who received anti-CD19 CAR T cells experienced remission of most or all clinical manifestations and discontinued prior medications. These results have spurred intense interest in extending these observations to larger patient cohorts and other autoimmune conditions. More nuanced strategies for use of CARs in autoimmunity have also been developed. Here, we offer insight into the role of B cells in the pathophysiology of autoimmunity and present an overview of preclinical studies and clinical trials that use engineered cell therapy for autoimmune disorders. In discussing the prospects and challenges of this emerging field, a view emerges in which the promise of clinical efficacy invites careful consideration of potential pitfalls.",
         "authors": [
-          "Ryoko Futai",
-          "Michiyo Koyanagi-Aoi",
-          "Aito Nakahashi",
-          "Daiki Katsura",
-          "Manabu Horikawa"
+          "Jérôme Avouac",
+          "Adi Barzel",
+          "Delma Caiati",
+          "Randall S Davis",
+          "Stephen Gottschalk"
         ],
-        "journal": "Stem cell reports",
-        "date": "2026-07-23",
-        "keywords": [
-          "colorectal cancer",
-          "iPSCs",
-          "immune cell therapy",
-          "patient-derived organoids",
-          "γδT cells"
-        ],
-        "companies": [],
-        "title_cn": "Allogeneic iPSC-derived γδT cells demonstrate antitumor efficacy against patient-derived tissues.",
-        "abstract_cn": "Various immunotherapies have been developed treat malignant tumors, autologous -T细胞治疗 cell therapy clinically used certain malignancies. However, their efficacy against solid tumors limited. γδT cells recognized their potent tumor cytotoxicity -unrestricted activity. We successfully induced γδT cells from iPS cells demonstrated their cytotoxicity against colorectal cancer cell lines 体外. However, cancer cell lines often lack critical tumor characteristics such heterogeneity drug sensitivity. In contrast, 患者来源 cancer 类器官s retain many features patient' tumor tissues. This study evaluated cytotoxicity allogeneic iγδT cells against cell lines 类器官s, 体外 体内. iγδT cells showed 70%-90% cytotoxicity against cell lines 类器官s 体外. In vivo, local intravenous administration iγδT cells suppressed tumor growth 70%-100%, highlighting their potential novel immunotherapy colorectal cancer.",
-        "summary_cn": "【研究基础与实验设计】研究针对：结直肠癌；模型：类器官模型、诱导多能干细胞(iPSC)；核心技术：CAR-T细胞治疗；研究层级：动物体内实验。\n【核心实验关键数据】量化数据：70%, 90%, 70%；表型：肿瘤发生, 细胞凋亡/细胞毒性；核心发现：首次发现/鉴定, 抑制作用, 促进作用, 安全性评估。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Stem cell reports。\n【后续追踪要点】基因/细胞治疗；安全性监测。",
-        "composite_score": 10.46,
-        "relevance_score": 15.0,
-        "impact_factor": 5.9,
-        "top_tier": false
-      },
-      {
-        "pmid": "42485107",
-        "title": "Long-term follow-up of third generation anti-CD30 CAR T-cell therapy in relapsed/refractory CD30+ lymphomas: a single-arm, multicentre, phase 1-2 trial.",
-        "abstract": "PURPOSE: This report presents long-term outcomes of third-generation anti-CD30 CAR T-cell therapy in relapsed/refractory (r/r) CD30+ lymphoma patients. PATIENTS AND METHODS: In this single-arm, multicentre, phase 1/2 trial, patients received lymphodepletion regimen comprising fludarabine and cyclophosphamide, followed by infusion of anti-CD30 CAR-T cells. Primary endpoints included safety and overall response rate (ORR), while secondary endpoints were progression-free survival (PFS) and overall survival (OS). RESULTS: Forty-four patients were enrolled, including 33 cases of Hodgkin lymphoma. Of 44 patients, 23 achieved complete response (CR) to CAR-T, and 19 achieved PR, resulting in a CR rate of 52.3% and an ORR of 95.5%. The most frequent toxicities were hematologic AEs of grade 3 or higher (68.2% of neutropenia). Cytokine release syndrome occurred in 18 patients (40.9%), with two cases (4.5%) being ≥ grade 3. In the follow-up period, 24 patients underwent auto-HSCT after CAR-T within a median of 3 months. The best ORR was 95.5%, with 27 patients (61.4%) achieving CR. The best CR rate was higher in patients receiving CAR-T followed by auto-HSCT compared to those receiving CAR-T alone (75% vs. 45%). 3-year OS and PFS rates for all patients were 79.0% (95%CI, 66.1%-91.9%) and 74.2% (95%CI, 60.3% -88.1%). Patients receiving consolidated auto-HSCT following CAR-T exhibited significantly longer OS and PFS compared to those treated with CAR-T alone. CONCLUSION: Third-generation anti-CD30 CAR-T demonstrates high efficacy and a favorable safety profile in r/r CD30+ lymphoma patients. Addition of auto-HSCT following CAR T-cell therapy improves depth of remission and potentially enhances OS and PFS.",
-        "authors": [
-          "Xiangmin Wang",
-          "Qing Zhang",
-          "Dongmei Yan",
-          "Yawen Wei",
-          "Hongzhi Geng"
-        ],
-        "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
-        "date": "2026-07-22",
+        "journal": "Nature reviews. Drug discovery",
+        "date": "2026-01-26",
         "keywords": [],
         "companies": [],
-        "title_cn": "Long-term follow-up of third generation anti-CD30 CAR T-cell therapy in relapsed/refractory CD30+ lymphomas: a single-arm, multicentre, phase 1-2 trial.",
-        "abstract_cn": "PURPOSE: This report presents long-term outcomes third-generation anti-CD30 -cell therapy relapsed/refractory CD30+ lymphoma patients. PATIENTS METHODS: In this single-, multicentre, phase 1/2 trial, patients received lymphodepletion regimen comprising fludarabine cyclophosphamide, followed infusion anti-CD30 -T细胞治疗 cells. Primary endpoints included safety overall response rate , while secondary endpoints were progression-free survival overall survival . RESULTS: Forty-four patients were enrolled, including 33 cases Hodgkin lymphoma. Of 44 patients, 23 achieved complete response -T细胞治疗, 19 achieved , resulting rate 52.3% 95.5%. The most frequent toxicities were hematologic AEs grade 3 higher . Cytokine release syndrome occurred 18 patients , with cases being ≥ grade 3. In follow- period, 24 patients underwent auto- after -T细胞治疗 within median 3 months. The best 95.5%, with 27 patients achieving . The best rate higher patients receiving -T细胞治疗 followed auto- compared those receiving -T细胞治疗 alone . 3-year rates patients were 79.0% 74.2% . Patients receiving consolidated auto- following -T细胞治疗 exhibited significantly longer compared those treated with -T细胞治疗 alone. CONCLUSION: Third-generation anti-CD30 -T细胞治疗 demonstrates high efficacy favorable safety profile / CD30+ lymphoma patients. Addition auto- following -cell therapy improves depth remission potentially enhances .",
-        "summary_cn": "【研究基础与实验设计】研究针对：淋巴瘤；核心技术：CAR-T细胞治疗；研究层级：I期临床试验。\n【核心实验关键数据】量化数据：52.3%, 95.5%, 68.2%；核心发现：促进作用, 安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：转移/复发；发表期刊：Clinical cancer research : an official journal of the American Association for Cancer Research。\n【后续追踪要点】基因/细胞治疗；长期疗效评估；安全性监测。",
-        "composite_score": 9.94,
-        "relevance_score": 13.0,
-        "impact_factor": 10.4,
-        "top_tier": false
-      },
-      {
-        "pmid": "42483783",
-        "title": "Efficacy and Safety of Mesenchymal Stem Cell Therapy for Alzheimer's Disease: A Systematic Review and Meta-Analysis.",
-        "abstract": "Alzheimer's disease (AD) is the leading cause of dementia, and effective disease-modifying therapies remain limited. Mesenchymal stem cells (MSCs) have shown therapeutic potential because of their neuroprotective and immunomodulatory properties, but clinical evidence remains inconclusive. We systematically evaluated the efficacy and safety of MSC therapy in AD. Following the PRISMA 2020 guidelines and a PROSPERO-registered protocol (CRD420261329891), we searched PubMed, the Cochrane Library, Embase, Web of Science, CNKI, and Wanfang from inception to March 1, 2026. Clinical studies of patients with primary AD treated with MSCs were included. Outcomes covered cognition, daily function, neuropsychiatric symptoms, biomarkers, imaging findings, and adverse events. Standardized mean differences (SMDs) with 95% confidence intervals (CIs) were pooled using R. Risk of bias was assessed with the RoB 2 tool, and evidence certainty was assessed with GRADE. Six studies involving 196 patients were included. Overall analyses showed no significant improvement in Alzheimer's Disease Assessment Scale-Cognitive Subscale (ADAS-Cog) or Mini-Mental State Examination (MMSE) at 12-16 weeks or 24-26 weeks after MSC treatment versus placebo, with substantial heterogeneity. Dose-stratified analyses suggested significant benefits of low-dose MSCs on ADAS-Cog (SMD = -1.33, 95% CI: -2.35 to -0.31) and MMSE (SMD = 2.59, 95% CI: 0.52-4.66). MSC therapy significantly improved Alzheimer's Disease Cooperative Study-Activities of Daily Living (ADCS-ADL; SMD = 3.27, 95% CI: 1.79-4.75), but not Neuropsychiatric Inventory (NPI) or Quality of Life in Alzheimer's Disease (QOL-AD) scale. Biomarker analyses showed no significant overall effects on Aβ42 or total tau, although subgroup analyses suggested possible increases in Aβ42 and reductions in total tau at certain doses. Imaging data from two studies indicated potential protective effects on hippocampal atrophy. MSC therapy was generally well-tolerated, although intracerebroventricular administration was associated with more transient adverse events. Evidence certainty was low to very low for most outcomes. MSC therapy for AD appears feasible and relatively safe, with potential cognitive and disease-modifying effects. However, current clinical evidence remains insufficient to confirm its efficacy.",
-        "authors": [
-          "Yonghao Wen",
-          "Shuhao Zhan",
-          "Yunlong Duan",
-          "Mingquan Pang",
-          "Jingxin Yan"
-        ],
-        "journal": "Stem cells and development",
-        "date": "2026-07-22",
-        "keywords": [
-          "Alzheimer’s disease",
-          "cognition",
-          "mesenchymal stem cells",
-          "meta-analysis",
-          "safety"
-        ],
-        "companies": [],
-        "title_cn": "Efficacy and Safety of Mesenchymal Stem Cell Therapy for Alzheimer's Disease: A Systematic Review and Meta-Analysis.",
+        "title_cn": "Roads and detours for CAR T cell therapy in autoimmune diseases.",
         "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：阿尔茨海默病；核心技术：抗体偶联药物(ADC)；研究层级：基础研究。\n【核心实验关键数据】量化数据：95%, 95%, 95%；表型：认知/学习记忆障碍；核心发现：调控作用, 安全性评估, 有效性验证；关键突破：提高疗效；局限性：需进一步研究。\n【机制创新与产业价值】相关脑区：海马体；临床痛点：药物毒性/副作用；发表期刊：Stem cells and development。\n【后续追踪要点】伴随诊断；新药研发；基因/细胞治疗。",
-        "composite_score": 9.88,
-        "relevance_score": 15.5,
-        "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42482158",
-        "title": "Neuroprotective effect of mesenchymal stem cell-derived miR-143-3p on dopaminergic neurons via the TLR3/NF-κB/p53 signaling pathway.",
-        "abstract": "BACKGROUND: Transplantation of midbrain dopaminergic neurons (mDANs) derived from human pluripotent stem cells (hPSCs) represents a promising therapeutic approach for Parkinson's disease (PD), with several clinical trials currently in progress. However, the poor survival of grafted mDANs, in part due to inflammation triggered by surgical injury, poses significant challenges to both therapeutic efficacy and safety. In recent years, mesenchymal stem cells (MSCs) and their derivatives have played an important role in the field of stem cell therapy due to their easy accessibility and immunomodulatory properties. However, their potential role as an adjunct in cell therapy remains unclear. Therefore, this study aims to investigate the protective effects of conditioned medium (CM) derived from MSCs and the mechanisms of action by which it attenuates surgery-induced neuroinflammation and enhances the survival of transplanted mDANs. METHODS: To mimic the neuroinflammatory response caused by the surgical aspect of cell transplantation, transplantation medium alone (i.e. without cells) was injected into the striatum of male NOD SCID mice. The anti-inflammatory effects of MSC-CM in vivo were evaluated by assessing the activation of microglia and expression levels of pro-inflammatory cytokines. Next, an in vitro cell death model was established using IFN-γ and TNF-α stimulation. The protective effects of MSC-CM against IFN-γ and TNF-α-induced inflammatory injury in mDANs were assessed using immunofluorescence staining and TUNEL assay. To identify the active components and underlying mechanisms for the protective effects of MSC-CM, inhibitory treatments, miRNA sequencing, dual-luciferase reporter assay, and subsequent validation by qPCR and Western blotting were performed. Finally, MSC-CM was administered intranasally into male NOD SCID mice following mDAN transplantation to evaluate its protective effects on the grafted mDANs in vivo. RESULTS: MSC-CM suppressed neuroinflammation and significantly protected mDANs from inflammation-induced cell death via inhibition of TLR3/NF-κB/p53 signaling pathway in this model system. This protective effect was largely reproduced by treatment with a specific component of the MSC-CM, miR-143-3p. Overexpression of miR-143-3p further enhanced the protective effects and mechanisms of action of MSC-CM. CONCLUSIONS: This study demonstrates that MSC-CM or its component miR-143-3p exert protective effects on mDANs against inflammatory injury, primarily by inhibiting the TLR3/NFκB/p53 signaling pathway.",
-        "authors": [
-          "Jing Sun",
-          "Tian Wang",
-          "Chen Qiu",
-          "Tianwen Li",
-          "Peng Wang"
-        ],
-        "journal": "Stem cell research & therapy",
-        "date": "2026-07-21",
-        "keywords": [
-          "Dopaminergic neurons",
-          "Mesenchymal stem cells",
-          "Parkinson’s disease",
-          "TLR3/NF-κB/p53 pathway",
-          "miR-143-3p"
-        ],
-        "companies": [],
-        "title_cn": "Neuroprotective effect of mesenchymal stem cell-derived miR-143-3p on dopaminergic neurons via the TLR3/NF-κB/p53 signaling pathway.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：帕金森病、小胶质细胞；核心技术：RNA-seq转录组测序；研究层级：动物体内实验。\n【核心实验关键数据】表型：细胞凋亡/细胞毒性；核心发现：鉴定/表征, 抑制作用, 促进作用, 调控作用；关键突破：提高疗效；局限性：原文未披露详细信息; 需进一步研究。\n【机制创新与产业价值】信号通路：多巴胺通路；相关脑区：纹状体；发表期刊：Stem cell research & therapy。\n【后续追踪要点】临床试验；新药研发；基因/细胞治疗。",
-        "composite_score": 9.6,
-        "relevance_score": 13.0,
-        "impact_factor": 7.5,
-        "top_tier": false
-      },
-      {
-        "pmid": "42501071",
-        "title": "Standardized FDG-PET interpretation during CAR T-cell therapy in R/R DLBCL: a DESCAR-T study.",
-        "abstract": "PURPOSE: CAR T-cell therapy has changed the management of relapsed/refractory (R/R) Diffuse large B-cell lymphoma (DLBCL). Fluorodeoxyglucose Positron Emission Tomography Computed Tomography (PET/CT) plays a central role in lymphoma response assessment, but its prognostic use remains insufficiently standardized in this setting. METHODS: Patients from the French DESCAR-T registry treated in third line or beyond with commercial anti-CD19 CAR T-cells in real-life, and having centrally reviewed PET/CT before infusion, and at one month (M1) or three months (M3) post-infusion were included. For each visit, Total Metabolic Tumor Volume (TMTV) and SUVmax were measured. Deauville score (DS) and response according to 2014 Lugano classification were registered on follow-up PET/CT. Optimal TMTV cut-offs at baseline, M1 and M3 follow-up for progression-free survival (PFS) and overall survival (OS) and the prognostic impact of DS at M1 and M3 were determined. RESULTS: A total of 212 R/R DLBCL patients were analysed. Baseline median SUVmax was 16.4 and median TMTV 41.3 cm3. A baseline TMTV cut-off of 30 cm3 significantly stratified patients for PFS and OS, in both univariate and multivariate analysis, along with LDH. Complete metabolic response (DS 1-3) at M1 was significantly associated with better PFS M1 and OS M1 than DS4-5 (for PFS M1: median of 21.8 vs 1.8 vs months; p < 0.0001; for OS M1: median not reached versus median of 6.3 months; p < 0.0001). DS5 identified patients with the worst outcomes (for PFS M1: median of 0.1 month and for OS M1: median of 4.5 months). Similarly, at M3 DS1-3 was associated with a better outcome than DS4-5, and patients with DS5 had the worst outcome. In patients without complete metabolic response residual TMTV provided additional prognostic value. CONCLUSION: Baseline TMTV and metabolic response assessed by DS, together with residual TMTV on follow-up PET/CT, are strong prognostic biomarkers in R/R DLBCL patients treated with anti-CD19 CAR T-cells.",
-        "authors": [
-          "Yassine Al Tabaa",
-          "Clément Bailly",
-          "Xavier Palard-Novello",
-          "Anne-Ségolène Cottereau",
-          "Jérémie Tordo"
-        ],
-        "journal": "European journal of nuclear medicine and molecular imaging",
-        "date": "2026-07-25",
-        "keywords": [
-          "CAR T-cells",
-          "Diffuse large B-cell lymphoma",
-          "FDG PET",
-          "Metabolic tumour volume",
-          "Therapeutic evaluation"
-        ],
-        "companies": [],
-        "title_cn": "Standardized FDG-PET interpretation during CAR T-cell therapy in R/R DLBCL: a DESCAR-T study.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：淋巴瘤；研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：有效性验证。\n【机制创新与产业价值】临床痛点：转移/复发；发表期刊：European journal of nuclear medicine and molecular imaging。\n【后续追踪要点】伴随诊断；基因/细胞治疗。",
-        "composite_score": 9.33,
-        "relevance_score": 14.5,
-        "impact_factor": null,
+        "summary_cn": "【研究基础与实验设计】核心技术：CAR-T细胞治疗；研究层级：临床前研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：有效性验证。\n【机制创新与产业价值】发表期刊：Nature reviews. Drug discovery。\n【后续追踪要点】临床试验；基因/细胞治疗。",
+        "backfilled_from_news": "An early integrated prognostic system for predicting relapse and guiding interve",
+        "composite_score": 10.55,
+        "relevance_score": 11.0,
+        "impact_factor": 122.7,
         "top_tier": false
       }
     ],
@@ -1462,6 +1490,27 @@
     ],
     "glp1": [
       {
+        "pmid": "41931049",
+        "title": "GLP-1 Receptor Agonists.",
+        "abstract": "Glucagon-like peptide-1 (GLP-1) receptor agonists are incretin analogues that promote glucose-mediated insulin release and are used to treat type 2 diabetes mellitus and obesity. GLP-1 receptor agonists and GLP-1 and glucose-dependent insulinotropic peptide agonists have several mechanisms of action, including reduction of gastric emptying, inhibition of glucagon secretion, beneficial changes in the intestinal microbiome, and direct effects on hypothalamic nuclei to enhance satiety (which promotes weight loss). Beyond the impressive effects of GLP-1 receptor agonists on blood glucose levels and body weight, large-scale randomized, controlled trials have shown that GLP-1 receptor agonists reduce cardiovascular risk and slow progression to renal failure in persons at high risk and those with type 2 diabetes. Adverse side effects from GLP-1 receptor agonists are mostly gastrointestinal but may also include loss of muscle and bone mass. Questions remain about long-term adherence, weight regain after discontinuation of treatment, and the functional implications of the loss of muscle and bone mass. Recent and ongoing targeted studies suggest the possibility of additional uses for GLP-1 receptor agonists.",
+        "authors": [
+          "Clifford J Rosen",
+          "Julie R Ingelfinger"
+        ],
+        "journal": "The New England journal of medicine",
+        "date": "",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "GLP-1 Receptor Agonists.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】核心发现：抑制作用, 促进作用, 调控作用, 安全性评估；关键突破：提高疗效。\n【机制创新与产业价值】临床痛点：转移/复发, 药物毒性/副作用；发表期刊：The New England journal of medicine。\n【后续追踪要点】长期疗效评估。",
+        "backfilled_from_news": "Beyond drug discontinuation and prolonged fasting: gastric ultrasound as a third",
+        "composite_score": 8.9,
+        "relevance_score": 8.0,
+        "impact_factor": 96.2,
+        "top_tier": true
+      },
+      {
         "pmid": "42480543",
         "title": "Maternal vitamin B12 deprivation exacerbates offspring obesity by reducing early-life colonization with Bifidobacterium pseudolongum.",
         "abstract": "Vitamin B12 deficiency during pregnancy and lactation is common, yet its mechanistic impact on reproductive outcomes and offspring health remains poorly understood. Here, we show that maternal dietary vitamin B12 deprivation not only impairs maternal glucose metabolism and reproductive outcomes but also exacerbates high-fat-diet-induced obesity in offspring. These effects are mediated by gut microbiota and associated with a marked reduction of Bifidobacterium pseudolongum (B. pseudolongum) in both dams and their offspring. Maternal vitamin B12 deprivation limits early-life acquisition of B. pseudolongum in offspring during lactation, subsequently intensifying obesity and metabolic dysregulation. Early-life restoration of B. pseudolongum or its key metabolite, acetate, effectively ameliorates this aggravated obesity. Mechanistically, acetate acts through the Ffar2 receptor to upregulate Ehhadh expression. Together, these data establish that perinatal nutrition imprints long-term metabolic phenotypes in offspring via early-life acquisition of the gut microbiota, with a critical window during lactation.",
@@ -1657,92 +1706,63 @@
         "top_tier": false
       },
       {
-        "pmid": "42487660",
-        "title": "Hypersensitivity Reaction to Tirzepatide With Demonstrated Tolerance to Semaglutide: A Case Report.",
-        "abstract": "Hypersensitivity reactions to glucagon-like peptide-1 receptor agonists (GLP-1RAs) are uncommon but clinically significant given their expanding use for obesity and type 2 diabetes. Tirzepatide, a dual GLP-1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist, and reports of allergic reactions remain limited. We present this case to highlight the diagnostic utility of intradermal testing and supervised drug challenge in confirming drug-specific hypersensitivity and identifying a safe therapeutic alternative within the same drug class. We report a 25-year-old woman with class I obesity (BMI 32.25) who developed hypersensitivity reactions after dose escalation of tirzepatide initiated for weight management. She tolerated 3 months of sequential dose escalations from 2.5 mg through 7.5 mg without adverse reaction, losing approximately 20 lbs. during this period. Following her first 10 mg dose, she developed episodic lip angioedema and generalized urticaria over the subsequent 4 days, without respiratory or gastrointestinal symptoms. Symptoms persisted despite intramuscular diphenhydramine, a 5-day course of prednisone, and two emergency department visits with intravenous steroids, ultimately resolving only after tirzepatide discontinuation. Laboratory evaluation conducted approximately 8 months prior to the reaction, following a separate self-limited episode of lip swelling unrelated to tirzepatide, had demonstrated normal total IgE, normal C1 esterase inhibitor protein and function, and normal complement levels, effectively excluding hereditary and acquired angioedema. H. pylori urea breath testing obtained, and allergy evaluation (which excluded food and seasonal allergies) was negative. Percutaneous skin testing to tirzepatide was negative; however, intradermal testing at 1:10 dilution was positive (8 mm wheal, 8 mm flare), confirming drug hypersensitivity. Intradermal testing to semaglutide was negative. A supervised subcutaneous challenge with semaglutide 0.25 mg was well tolerated, and the patient was cleared to initiate semaglutide under endocrinology oversight. The patient has since continued semaglutide without recurrence. This case illustrates tirzepatide-specific hypersensitivity and highlights the diagnostic value of intradermal testing and supervised challenge in guiding safe continuation of therapy with alternative GLP-1RAs.",
+        "pmid": "42231627",
+        "title": "GLP-1 Receptors Are Enriched in the Lymphatic Endothelium and Their Pharmacological Activation With Semaglutide Improves the Pumping Capacity of Lymphatic Vessels.",
+        "abstract": "OBJECTIVES: Recent clinical studies have suggested that glucagon-like peptide-1 receptor (GLP-1R) agonists may be effective therapies to treat or reduce the risk of developing secondary lymphedema. In this study, we aimed to (1) determine if GLP-1Rs are present in the lymphatic vasculature and characterize their expression, and (2) assess the effects of GLP-1R agonism on the contractile function of collecting lymphatic vessels. METHODS: We assessed the expression of GLP-1Rs in and around the lymphatic vasculature by single-cell RNA sequencing and fluorescence confocal microscopy, and evaluated the direct effects of GLP-1R agonist, semaglutide, on modulating lymphatic contractility using pressure myography. RESULTS: Expression of Glp1r (encoding GLP-1Rs) was detected exclusively in lymphatic endothelial cells. Pharmacological activation of GLP-1Rs led to robust vasodilation and an increase in the pumping capacity of isolated collecting lymphatics from WT, diet-induced obese, and hypercholesterolemic ApoE KO mice. The GLP-1R-mediated response was in part facilitated by nitric oxide and its potential interaction with NaV channels; however, additional signaling remains to be elucidated. CONCLUSIONS: Our results revealed a direct, beneficial effect of GLP-1R agonism on lymphatic pumping capacity mediated by robust vasodilation, allowing lymphatics to accommodate and displace larger fluid volumes while maintaining strong and highly efficient contractions.",
         "authors": [
-          "Cameron Nejat",
-          "Robert Lin",
-          "Daniel Addo",
-          "Kristyl Cuenca-Sisko",
-          "Mary Lee-Wong"
+          "Mary E Schulz",
+          "Victoria L Akerstrom",
+          "Joseph H Dayan",
+          "Jorge A Castorena-Gonzalez"
         ],
-        "journal": "Clinical case reports",
-        "date": "2026-07-22",
+        "journal": "Microcirculation (New York, N.Y. : 1994)",
+        "date": "",
         "keywords": [
-          "glucagon‐like peptide‐1",
-          "glucose‐dependent insulinotropic polypeptide",
-          "obesity medication hypersensitivity",
-          "semaglutide",
-          "tirzepatide"
+          "GLP‐1R",
+          "lymphatic vessels",
+          "scRNAseq",
+          "secondary lymphedema",
+          "semaglutide"
         ],
         "companies": [],
-        "title_cn": "Hypersensitivity Reaction to Tirzepatide With Demonstrated Tolerance to Semaglutide: A Case Report.",
+        "title_cn": "GLP-1 Receptors Are Enriched in the Lymphatic Endothelium and Their Pharmacological Activation With Semaglutide Improves the Pumping Capacity of Lymphatic Vessels.",
         "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】核心发现：鉴定/表征, 抑制作用, 安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：转移/复发；发表期刊：Clinical case reports。\n【后续追踪要点】新药研发。",
-        "composite_score": 9.33,
-        "relevance_score": 14.5,
+        "summary_cn": "【研究基础与实验设计】核心技术：RNA-seq转录组测序、单细胞RNA/ATAC测序；研究层级：基础研究。\n【核心实验关键数据】核心发现：鉴定/表征, 促进作用, 调控作用, 有效性验证。\n【机制创新与产业价值】发表期刊：Microcirculation (New York, N.Y. : 1994)。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "Response to concerns with the statistical analysis in \"Effect of combined GLP-1 ",
+        "composite_score": 9.62,
+        "relevance_score": 10.0,
+        "impact_factor": 35.5,
+        "top_tier": false
+      },
+      {
+        "pmid": "42514335",
+        "title": "Beyond GLP-1 Agonists: Plant-Derived Bioactive Compounds as Adjunctive Strategies for Obesity Management.",
+        "abstract": "Background: Obesity has reached epidemic proportions, affecting over one billion adults worldwide. While incretin-based pharmacotherapies-GLP-1 receptor agonists (semaglutide) and dual GIP/GLP-1 agonists (tirzepatide)-have transformed obesity treatment, their use remains limited by high costs, adverse effects, restricted eligibility, and rapid weight regain following discontinuation. Plant-derived bioactive compounds represent a promising complementary approach to address these gaps. Objective: This narrative review synthesizes clinical trial evidence on plant-based interventions for obesity management and examines their potential role as adjunctive strategies before, during, and after incretin-based pharmacotherapy. Methods: A literature search was conducted in PubMed, Scopus, and Web of Science (2012-2026), prioritizing randomized controlled trials in adults with overweight or obesity reporting at least one obesity-related metabolic outcome. Sixty-one studies were selected and classified by efficacy tier based on the magnitude and breadth of observed clinical effects. Results: The strongest evidence supports polyphenol-rich dietary patterns, particularly the green-Mediterranean diet, producing significant reductions in body weight, visceral fat, and cardiometabolic risk markers. Specific extracts-including curcumin, bergamot polyphenols, and Lippia citriodora/Hibiscus sabdariffa combinations-demonstrated clinically meaningful metabolic improvements. Isolated high-dose resveratrol and several single-compound interventions showed limited benefit, largely attributable to poor bioavailability. The most effective compounds acted through multiple pathways, including AMPK activation, gut microbiota modulation, and appetite hormone regulation. Conclusions: Plant-derived bioactive compounds offer a safe, accessible adjunctive strategy for obesity management, particularly relevant for patients ineligible for or discontinuing pharmacotherapy. Future trials should directly evaluate plant-polyphenol combinations alongside GLP-1 receptor agonists.",
+        "authors": [
+          "Aurelian Vasile",
+          "Andrei Cristian Anghel",
+          "Teodor Ioan Trasca",
+          "Alina Ortan"
+        ],
+        "journal": "Nutrients",
+        "date": "2026-07-10",
+        "keywords": [
+          "GLP-1 receptor agonists",
+          "incretin therapy",
+          "narrative review",
+          "obesity",
+          "plant-derived bioactive compounds",
+          "polyphenols",
+          "weight management"
+        ],
+        "companies": [],
+        "title_cn": "Beyond GLP-1 Agonists: Plant-Derived Bioactive Compounds as Adjunctive Strategies for Obesity Management.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 调控作用, 安全性评估, 有效性验证。\n【机制创新与产业价值】信号通路：AMPK通路；发表期刊：Nutrients。\n【后续追踪要点】临床试验。",
+        "backfilled_from_news": "Beyond drug discontinuation and prolonged fasting: gastric ultrasound as a third",
+        "composite_score": 9.6,
+        "relevance_score": 15.0,
         "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42413499",
-        "title": "Preventative semaglutide and tirzepatide treatment does not alter disease progression in the 5xFAD mouse model of Alzheimer's disease.",
-        "abstract": "There is growing evidence that long-acting mimetics of the gut-derived incretin hormones GLP-1 and GIP act as disease-modifying therapies for Alzheimer's disease (AD). Here, we temporally characterize the efficacy of the approved incretin receptor agonists semaglutide, a GLP-1R agonist, and tirzepatide, a GLP-1R/GIPR co-agonist, in preventing AD progression. In 5xFAD mice treated for 2 or 4 months, both incretin therapies lower body weight and improve glucose tolerance, yet neither compound produces measurable effects on memory or learning tasks, amyloid-β plaque deposition, or glial cell activation. In a non-amyloidogenic model, 3 days of incretin pre-treatment does not alter microglial activation or the expression of inflammatory markers following lipopolysaccharide (LPS) administration in mice. Our findings indicate that chronic semaglutide or tirzepatide treatment, even when initiated before overt pathology and delivered for a prolonged period, does not slow neuropathological progression in 5xFAD or LPS-treated mice.",
-        "authors": [
-          "Anika Vear",
-          "Sofie Amalie Olsen",
-          "Emilie Cathrine Holst Lange",
-          "Marie Amalie Müller",
-          "Charlotte Svendsen"
-        ],
-        "journal": "Cell reports. Medicine",
-        "date": "2026-07-07",
-        "keywords": [
-          "5xFAD",
-          "Alzheimer's disease",
-          "GIP",
-          "GLP-1",
-          "LPS",
-          "incretin hormones",
-          "semaglutide",
-          "tirzepatide"
-        ],
-        "companies": [],
-        "title_cn": "Preventative semaglutide and tirzepatide treatment does not alter disease progression in the 5xFAD mouse model of Alzheimer's disease.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：阿尔茨海默病、小胶质细胞；模型：小鼠模型；研究层级：基础研究。\n【核心实验关键数据】表型：认知/学习记忆障碍；核心发现：鉴定/表征, 促进作用, 疾病模型建立, 有效性验证。\n【机制创新与产业价值】临床痛点：转移/复发；发表期刊：Cell reports. Medicine。\n【后续追踪要点】长期疗效评估。",
-        "composite_score": 8.96,
-        "relevance_score": 11.0,
-        "impact_factor": 11.7,
-        "top_tier": false
-      },
-      {
-        "pmid": "42481079",
-        "title": "Association between GLP-1 receptor agonists and alcohol-related hospitalisations among adults with alcohol use disorder: multi-target trial emulation study.",
-        "abstract": "OBJECTIVE: To evaluate the association between use of newer glucagon-like peptide-1 receptor agonists (GLP-1 RAs; semaglutide, tirzepatide) and alcohol-related hospitalisations among adults with alcohol use disorder (AUD) and type 2 diabetes (T2D) or obesity.Retrospective cohort study using target trial emulation. SETTING: Electronic health record data from a collective of US healthcare systems. PARTICIPANTS: Adults with AUD and T2D or obesity who started a newer GLP-1 RA (semaglutide or tirzepatide) or a relevant active comparator between 1 January 2018 and 31 December 2024. INTERVENTIONS: Initiation of a newer GLP-1 RA compared with an active comparator across four target trials: (1) anti-diabetic medication (ADM) trial, (2) anti-obesity medication (AOM) trial, (3) medications for alcohol use disorder with T2D (MAUD-T2D) trial, and (4) medications for alcohol use disorder with obesity (MAUD-obesity) trial. MAIN OUTCOME MEASURES: Time to first alcohol-related emergency department visits or hospitalisation within 1 year of treatment initiation. Non-alcohol-related hospitalisation was assessed as a negative control outcome. Propensity score based methods (weighting and matching) were used to control confounding and Cox proportional hazards models were used to estimate treatment effects. RESULTS: A total of 40 703 adults met study criteria, including 18 676 in the ADM trial, 9391 in the AOM trial, 8942 in the MAUD-T2D trial and 11 198 in the MAUD-obesity trial. Initiation of a newer GLP-1 RA was associated with a lower hazard of alcohol-related hospitalisation in the ADM trial (HR 0.74, 95% CI 0.62 to 0.89 vs sulfonylureas; HR 0.78, 95% CI 0.65 to 0.92 vs other ADMs), the AOM trial (HR 0.68, 95% CI 0.54 to 0.85 vs other AOMs), the MAUD-T2D trial (HR 0.37, 95% CI 0.29 to 0.46) and the MAUD-obesity trial (HR 0.35, 95% CI 0.26 to 0.47). CONCLUSIONS: Among adults with AUD and T2D or obesity, initiation of newer GLP-1 RAs was associated with a lower observed risk of alcohol-related hospitalisation.",
-        "authors": [
-          "Patricia J Rodriguez",
-          "Jay B Lusk",
-          "Hemalkumar B Mehta",
-          "Joseph F Levy",
-          "Andreas P Kalogeropoulos"
-        ],
-        "journal": "BMJ open",
-        "date": "2026-07-21",
-        "keywords": [
-          "Diabetes Mellitus, Type 2",
-          "Obesity",
-          "Research Design",
-          "Substance misuse"
-        ],
-        "companies": [],
-        "title_cn": "Association between GLP-1 receptor agonists and alcohol-related hospitalisations among adults with alcohol use disorder: multi-target trial emulation study.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：95%, 95%, 95%；核心发现：相关性, 疾病模型建立, 有效性验证。\n【机制创新与产业价值】发表期刊：BMJ open。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 8.9,
-        "relevance_score": 8.0,
-        "impact_factor": 93.6,
         "top_tier": false
       }
     ],
