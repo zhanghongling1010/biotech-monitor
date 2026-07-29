@@ -94,6 +94,22 @@ async function generateDetailedAnalysis(cacheKey, prompt) {
     }
     pendingRequests.add(ANALYSIS_CACHE_PREFIX + cacheKey);
 
+    // 快速探测本机代理可达性(3秒超时)。
+    // Safari 会拦截 https 页面对 http://localhost 的"混合内容"请求,
+    // 非本机访客更没有这个代理 —— 探测失败直接给友好提示,不再硬闯
+    const UNAVAILABLE_MSG = '⏳ 该条目的 AI 解读暂未预生成。\n\n实时生成仅在本机可用(Safari 会拦截页面到本机代理的请求,可换 Chrome 立即生成)。\n\n下次定时更新(每日 7:00)将自动为本条目补齐解读,届时刷新即可查看。';
+    try {
+        const ctrl = new AbortController();
+        const probeTimer = setTimeout(() => ctrl.abort(), 3000);
+        const health = await fetch(CONFIG.proxyUrl + '/health', { signal: ctrl.signal });
+        clearTimeout(probeTimer);
+        if (!health.ok) throw new Error('proxy unhealthy');
+    } catch (probeErr) {
+        console.log('Local AI proxy unavailable, showing fallback message:', probeErr.message);
+        pendingRequests.delete(ANALYSIS_CACHE_PREFIX + cacheKey);
+        return { analysis: UNAVAILABLE_MSG, ephemeral: true };
+    }
+
     try {
         console.log('Calling AI proxy:', CONFIG.proxyUrl + '/v1/chat/completions');
         const response = await fetch(CONFIG.proxyUrl + '/v1/chat/completions', {
@@ -139,10 +155,10 @@ async function generateDetailedAnalysis(cacheKey, prompt) {
 
     } catch (error) {
         console.error('AI Analysis error:', error);
-        // 显示错误到页面
+        // 显示友好错误到页面(Safari 混合内容拦截/代理未运行都会走到这里)
         const errEl = document.getElementById('aiAnalysisStatus');
         if (errEl) {
-            errEl.textContent = '错误: ' + (error.message || 'unknown');
+            errEl.textContent = '实时生成暂不可用(本机代理未运行或浏览器拦截)。明日定时更新后将自动补齐解读,或换 Chrome 重试。';
             errEl.style.color = '#dc2626';
             errEl.style.fontSize = '0.7rem';
         }
@@ -967,8 +983,8 @@ ${item.description || item.description_cn || '无详细信息'}
                     }
                 } else {
                     const statusEl = document.getElementById('aiAnalysisStatus');
-                    if (statusEl) {
-                        statusEl.textContent = '生成失败，请查看Console错误';
+                    if (statusEl && !statusEl.textContent.includes('暂不可用')) {
+                        statusEl.textContent = '实时生成暂不可用,明日定时更新后自动补齐解读。';
                         statusEl.style.color = '#dc2626';
                     }
                 }
