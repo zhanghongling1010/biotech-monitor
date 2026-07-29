@@ -49,16 +49,16 @@ if [ $MERGE_EXIT -eq 0 ]; then
     fi
 
     if curl -s --connect-timeout 2 http://localhost:3000/health > /dev/null 2>&1; then
-        # macOS 没有 timeout，用 bash 内置
-        python3 scripts/precompute_analysis.py >> "$LOG_FILE" 2>&1 &
+        # macOS 没有 timeout，用 bash 内置；-u 关闭输出缓冲便于排查
+        python3 -u scripts/precompute_analysis.py >> "$LOG_FILE" 2>&1 &
         PRE_PID=$!
-        # 最多等10分钟
-        for i in $(seq 1 60); do
+        # 最多等25分钟（脚本内部有20分钟时间预算,会自行收尾保存）
+        for i in $(seq 1 150); do
             sleep 10
             if ! ps -p $PRE_PID > /dev/null 2>&1; then
                 break
             fi
-            if [ $i -eq 60 ]; then
+            if [ $i -eq 150 ]; then
                 kill -9 $PRE_PID 2>/dev/null
                 echo "[$(date '+%H:%M:%S')] AI 预生成超时,已终止" >> "$LOG_FILE"
             fi

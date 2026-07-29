@@ -181,13 +181,12 @@ def main():
     # 收集需要分析的项目
     items_to_analyze = []
 
-    # 论文 - 每类前6篇 + 所有顶刊置顶论文(顶刊保证名单意味着必读,必须带解读)
+    # 论文 - 每类前10篇 + 所有顶刊置顶论文(减少实时生成转圈的概率)
     for category, papers in data.get('papers', {}).items():
-        # 递送系统分类增加到前8篇(专题更重要)
-        limit = 8 if category == 'delivery_systems' else 6
+        limit = 10
         selected = list(papers[:limit])
-        # 顶刊论文无论排名都纳入(上限15篇/类防膨胀)
-        selected += [p for p in papers[limit:15] if p.get('top_tier')]
+        # 顶刊论文无论排名都纳入(上限20篇/类防膨胀)
+        selected += [p for p in papers[limit:20] if p.get('top_tier')]
         seen = set()
         for paper in selected:
             pmid = paper.get('pmid') or paper.get('title', '')[:50]
@@ -241,7 +240,7 @@ def main():
 
     # 生成分析（3 路并发 + 全局时间预算，避免被外层超时强杀）
     MAX_WORKERS = 3
-    deadline = time.time() + int(os.environ.get('PRE_MAX_MINUTES', '12')) * 60
+    deadline = time.time() + int(os.environ.get('PRE_MAX_MINUTES', '20')) * 60
     save_lock = threading.Lock()
     success = 0
     failed = 0
