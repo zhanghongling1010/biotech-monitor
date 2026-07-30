@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-31T07:01:09.003067",
+  "timestamp": "2026-07-31T07:16:11.294931",
   "critical": {
     "deals": [
       {
@@ -244,16 +244,6 @@
     ],
     "research": [
       {
-        "title": "Oral GLP-1RA TERN-601 for Adults With Obesity/Overweight: Placebo-Controlled, Multiple-Ascending-Dose, Phase 1 and 2 Studies.",
-        "journal": "Obesity (Silver Spring, Md.)",
-        "date": "2026-07-30",
-        "authors": [
-          "W Timothy Garvey",
-          "Julio Rosenstock",
-          "Harold E Bays"
-        ]
-      },
-      {
         "title": "In vivo CRISPR base editing for treatment of Huntington's disease.",
         "journal": "Nature biomedical engineering",
         "date": "2026-07-29",
@@ -384,6 +374,36 @@
         ]
       },
       {
+        "title": "Engineering the blood: Lipid nanoparticle platforms for ex vivo immune and hematopoietic cell therapies.",
+        "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+        "date": "2026 Jul 27",
+        "authors": [
+          "Byeon Y",
+          "Peng N",
+          "Oh EB"
+        ]
+      },
+      {
+        "title": "Decoding the Functional Roles of Individual Components in mRNA Lipid Nanoparticles.",
+        "journal": "ACS nano",
+        "date": "2026 Jul 26",
+        "authors": [
+          "Su K",
+          "Wang Z",
+          "Shi L"
+        ]
+      },
+      {
+        "title": "Targeted mRNA Delivery Using Bispecific Antibody-Lipid Nanoparticle Complexes.",
+        "journal": "Molecular pharmaceutics",
+        "date": "2026 Jul 19",
+        "authors": [
+          "Hickey JC",
+          "Roach T",
+          "Cassaidy B"
+        ]
+      },
+      {
         "title": "Bispecific Antibody Ivonescimab Added to Chemotherapy in EGFR-Variant Non-Small Cell Lung Cancer: The HARMONi-A Randomized Clinical Trial.",
         "journal": "JAMA",
         "date": "",
@@ -391,6 +411,15 @@
           "Wenfeng Fang",
           "Yuanyuan Zhao",
           "Yongzhong Luo"
+        ]
+      },
+      {
+        "title": "GLP-1 Receptor Agonists.",
+        "journal": "The New England journal of medicine",
+        "date": "",
+        "authors": [
+          "Clifford J Rosen",
+          "Julie R Ingelfinger"
         ]
       }
     ]
@@ -891,57 +920,68 @@
         "top_tier": false
       },
       {
-        "pmid": "42200456",
-        "title": "Successful gene therapy for transfusion-dependent α-thalassemia: a case report.",
-        "abstract": "α-Thalassemia is a severe inherited hemoglobin (Hb) disorder with limited curative options for patients with transfusion dependency, lacking suitable donors. We report, to our knowledge, the first-in-human application of lentiviral vector-mediated α-globin gene therapy in a girl aged 14 years with transfusion-dependent HbH disease (--SEA/αCSα). Autologous CD34+ hematopoietic stem and progenitor cells were mobilized, collected, and genetically modified ex vivo using the lentiviral vector (Lenti-HBA) to restore α-globin expression, then reinfused after busulfan conditioning. The patient achieved engraftment within 3 weeks and started to be free of transfusions from the fourth week onward. In the last year of follow-up (months 12-24), the average Hb level remained at ∼90 g/L without transfusion support, with HbA accounting for >85% of total Hb. Vector copy numbers were stable, and no evidence of clonal dominance, insertional mutagenesis, or replication-competent lentivirus was detected. Adverse events (AEs) were limited to expected busulfan-related toxicities, including grade 2 menstrual irregularity and ovarian failure (serious AE). Despite cessation of chelation therapy, iron overload progressed minimally, and no cardiac iron deposition occurred. Immune recovery, growth, and development were preserved. This case demonstrates the feasibility, safety, and durable efficacy of lentiviral α-globin gene therapy as a potential curative treatment for transfusion-dependent α-thalassemia. This trial was registered at www.clinicaltrials.gov as NCT05851105.",
+        "pmid": "42027081",
+        "title": "Nucleic Acid Nanotechnology-Empowered CRISPR-Cas12a Systems for Biosensing and Bioimaging Applications.",
+        "abstract": "The development of highly sensitive and simple bioanalytical platforms is crucial for advancing disease diagnostics and biomedical research. In recent years, Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR) and CRISPR-associated (Cas) protein systems have emerged as the \"next-generation molecular technology\" that profoundly impacts the field of genome editing and molecular diagnosis. In particular, CRISPR-Cas12a, an important CRISPR-Cas family member, has gained prominence as a robust tool in biosensing and bioimaging due to its easy design and high target specificity. Notably, the integration of nucleic acid nanotechnology, including nucleic acid amplification strategies and engineered functional nucleic acids, with CRISPR-Cas12a systems significantly improves detection sensitivity and specificity, enabling the analysis of low-abundance analytes. This review introduces the fundamentals of CRISPR-Cas12a and key nucleic acid-based toolboxes. Next, we systematically summarize the advantages of nucleic acid nanotechnology-empowered CRISPR-Cas12a platforms in detail and highlight recent advances in their applications in biosensing and bioimaging. Finally, current challenges and future perspectives of such nucleic acids-assisted CRISPR-Cas12a systems for disease diagnostics are discussed.",
         "authors": [
-          "Xiaolin Yin",
-          "Linxia Qian",
-          "Guoyi Dong",
-          "Yue Chen",
-          "Yali Zhou"
+          "Qian Hou",
+          "Jinghan Ren",
+          "Yuzhen Wu",
+          "Peiran Zhao",
+          "Shuzhen Yue"
         ],
-        "journal": "Blood advances",
-        "date": "",
-        "keywords": [],
+        "journal": "Small methods",
+        "date": "2026-04-24",
+        "keywords": [
+          "CRISPR‐Cas12a",
+          "bioimaging",
+          "biosensing",
+          "molecular diagnostics",
+          "nucleic acid nanotechnology"
+        ],
         "companies": [],
-        "title_cn": "Successful gene therapy for transfusion-dependent α-thalassemia: a case report.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：基因治疗/病毒载体；研究层级：基础研究。\n【核心实验关键数据】量化数据：85%；核心发现：调控作用, 安全性评估, 有效性验证, 表达水平变化。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Blood advances。\n【后续追踪要点】基因/细胞治疗；安全性监测。",
-        "composite_score": 7.94,
-        "relevance_score": 8.0,
-        "impact_factor": 21.0,
+        "title_cn": "Nucleic Acid Nanotechnology-Empowered CRISPR-Cas12a Systems for Biosensing and Bioimaging Applications.",
+        "abstract_cn": "The development highly sensitive simple bioanalytical platforms crucial advancing disease diagnostics biomedical research. In recent years, Clustered Regularly Interspaced Short Palindromic Repeats CRISPR基因编辑-associated protein systems have emerged \"next-generation molecular technology\" that profoundly impacts field genome editing molecular diagnosis. In particular, CRISPR基因编辑-Cas12a, important CRISPR基因编辑-Cas family member, gained prominence robust tool biosensing bioimaging easy design high target specificity. Notably, integration nucleic acid nanotechnology, including nucleic acid amplification strategies engineered functional nucleic acids, with CRISPR基因编辑-Cas12a systems significantly improves detection sensitivity specificity, enabling analysis -abundance analytes. This review introduces fundamentals CRISPR基因编辑-Cas12a nucleic acid-based toolboxes. Next, systematically summarize advantages nucleic acid nanotechnology-empowered CRISPR基因编辑-Cas12a platforms detail highlight recent advances their applications biosensing bioimaging. Finally, current challenges future perspectives such nucleic acids-assisted CRISPR基因编辑-Cas12a systems disease diagnostics discussed.",
+        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：表达水平变化。\n【机制创新与产业价值】发表期刊：Small methods。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "Robust CRISPR/Cas12a genome editing in Brassica vegetables.",
+        "composite_score": 7.97,
+        "relevance_score": 9.0,
+        "impact_factor": 13.0,
         "top_tier": false
       },
       {
-        "pmid": "42497864",
-        "title": "CRISPR-Cas9-producing probiotic bacteria for editing NOX2/gp91phox and treating inflammatory bowel disease.",
-        "abstract": "The primary pathogenic mechanism of inflammatory bowel disease (IBD) involves elevated levels of reactive oxide species (ROS) in the gut, leading to oxidative stress and damage to the intestinal barrier function. We engineered a non-pathogenic bacterial strain, Escherichia coli Nissle 1917 (EcN), for oral CRISPR-Cas9 delivery to edit NOX2 (encoding the gp91phox subunit of NADPH oxidase 2), thereby alleviating IBD symptoms by reducing ROS. EcN expressing the Cas9/sgRNA ribonucleoprotein (RNP) was encapsulated in a hydrogel (composed of hyaluronic acid, chitosan, and MgCl2), which protected EcN-RNP from degradation and increased survival from 0.07% to 12%. EcN-RNP hydrogel reduced NOX2 expression by 47% and ROS by 88% in lipopolysaccharide-induced RAW264.7 cells. Moreover, oral delivery of EcN-RNP hydrogel mitigated inflammation in dextran sodium sulfate-induced colitis mouse models. Mechanistically, the hydrogel could activate the NRF2-HO1/GPX4 pathway by inhibiting NOX2 expression, enhancing oxidative defense, and promoting glutathione accumulation. Thus, the EcN-RNP hydrogel offers a promising therapeutic strategy for IBD.",
+        "pmid": "41796733",
+        "title": "CRISPR-Cas12a/Cas13a in cancer molecular diagnosis.",
+        "abstract": "Cancer remains a leading cause of global mortality, with early diagnosis being pivotal for improving treatment outcomes. Traditional tissue biopsy is limited by its invasiveness, inability to capture tumor heterogeneity, and failure to support dynamic monitoring. Liquid biopsy has emerged as a non-invasive alternative, enabling the analysis of circulating tumor biomarkers (e.g., ctDNA, miRNAs, exosomes) in bodily fluids. However, current liquid biopsy technologies (e.g., NGS, ddPCR) suffer from high costs, complex workflows, poor standardization, and insufficient sensitivity for low-abundance biomarkers. The CRISPR-Cas systems, particularly Cas12a and Cas13a, have revolutionized molecular diagnostics due to their programmable sequence recognition, robust signal amplification via trans-cleavage/collateral cleavage activity, and compatibility with point-of-care testing (POCT). Cas12a targets DNA molecules, enabling sensitive detection of gene mutations and DNA methylation, while Cas13a specifically recognizes RNA, facilitating direct analysis of miRNAs and viral RNAs. Additionally, these systems have been extended to non-nucleic acid biomarkers (e.g., proteins, exosomes) through signal conversion strategies. This review summarizes the latest advances in CRISPR-Cas12a/Cas13a-based biosensors for cancer molecular diagnosis, including the detection of gene mutations, epigenetic modifications, miRNAs, tumor-associated viruses, and non-nucleic acid biomarkers. We critically analyze current challenges (e.g., PAM dependence, matrix interference, multiplexing limitations, clinical validation gaps) and discuss future perspectives, such as engineering PAM-less Cas variants, integrating nanotechnology, microfluidics, and artificial intelligence/artificial intelligence (AI), and advancing clinical standardization. This review aims to provide a comprehensive reference for the development and clinical translation of CRISPR-based cancer diagnostic technologies.",
         "authors": [
-          "Chen Zhang",
-          "Tianyu Li",
-          "Huoye Hao",
-          "Gang Wang",
-          "Yuzhe Zhang"
+          "Juncheng Lin",
+          "Yuyuan Wang",
+          "Biyun Zeng",
+          "Zhibing Chen",
+          "Xiaocong Lin"
         ],
-        "journal": "Cell reports. Medicine",
-        "date": "2026-07-24",
+        "journal": "Clinica chimica acta; international journal of clinical chemistry",
+        "date": "2026-03-06",
         "keywords": [
-          "CRISPR-Cas9",
-          "NOX2",
-          "genome editing",
-          "hydrogel",
-          "inflammatory bowel disease",
-          "probiotic bacteria",
-          "reactive oxygen species"
+          "AI empowerment",
+          "CRISPR-Cas12a",
+          "CRISPR-Cas13a",
+          "Cancer diagnosis",
+          "Clinical translation",
+          "Epigenetic detection",
+          "Non-nucleic acid biomarkers",
+          "Nucleic acid detection",
+          "POCT",
+          "Tumor-associated viruses"
         ],
         "companies": [],
-        "title_cn": "CRISPR-Cas9-producing probiotic bacteria for editing NOX2/gp91phox and treating inflammatory bowel disease.",
+        "title_cn": "CRISPR-Cas12a/Cas13a in cancer molecular diagnosis.",
         "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】模型：小鼠模型；核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：基础研究。\n【核心实验关键数据】量化数据：0.07%, 12%, 47%；核心发现：抑制作用, 促进作用, 疾病模型建立, 表达水平变化。\n【机制创新与产业价值】发表期刊：Cell reports. Medicine。\n【后续追踪要点】新药研发。",
-        "composite_score": 7.86,
-        "relevance_score": 9.0,
-        "impact_factor": 11.7,
+        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：有效性验证, 表达水平变化, 结合/相互作用；局限性：存在实验局限性。\n【机制创新与产业价值】发表期刊：Clinica chimica acta; international journal of clinical chemistry。\n【后续追踪要点】伴随诊断。",
+        "backfilled_from_news": "Robust CRISPR/Cas12a genome editing in Brassica vegetables.",
+        "composite_score": 7.95,
+        "relevance_score": 12.0,
+        "impact_factor": null,
         "top_tier": false
       }
     ],
@@ -1506,6 +1546,27 @@
     ],
     "glp1": [
       {
+        "pmid": "41931049",
+        "title": "GLP-1 Receptor Agonists.",
+        "abstract": "Glucagon-like peptide-1 (GLP-1) receptor agonists are incretin analogues that promote glucose-mediated insulin release and are used to treat type 2 diabetes mellitus and obesity. GLP-1 receptor agonists and GLP-1 and glucose-dependent insulinotropic peptide agonists have several mechanisms of action, including reduction of gastric emptying, inhibition of glucagon secretion, beneficial changes in the intestinal microbiome, and direct effects on hypothalamic nuclei to enhance satiety (which promotes weight loss). Beyond the impressive effects of GLP-1 receptor agonists on blood glucose levels and body weight, large-scale randomized, controlled trials have shown that GLP-1 receptor agonists reduce cardiovascular risk and slow progression to renal failure in persons at high risk and those with type 2 diabetes. Adverse side effects from GLP-1 receptor agonists are mostly gastrointestinal but may also include loss of muscle and bone mass. Questions remain about long-term adherence, weight regain after discontinuation of treatment, and the functional implications of the loss of muscle and bone mass. Recent and ongoing targeted studies suggest the possibility of additional uses for GLP-1 receptor agonists.",
+        "authors": [
+          "Clifford J Rosen",
+          "Julie R Ingelfinger"
+        ],
+        "journal": "The New England journal of medicine",
+        "date": "",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "GLP-1 Receptor Agonists.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】核心发现：抑制作用, 促进作用, 调控作用, 安全性评估；关键突破：提高疗效。\n【机制创新与产业价值】临床痛点：转移/复发, 药物毒性/副作用；发表期刊：The New England journal of medicine。\n【后续追踪要点】长期疗效评估。",
+        "backfilled_from_news": "GLP-1 Receptor Agonists Versus SGLT2 Inhibitors in Hypertrophic Cardiomyopathy w",
+        "composite_score": 8.9,
+        "relevance_score": 8.0,
+        "impact_factor": 96.2,
+        "top_tier": true
+      },
+      {
         "pmid": "42521631",
         "title": "Low-Dose Tirzepatide for Obesity: Comparative Efficacy of 2.5 mg Versus 5 mg in Non-Diabetic Japanese Adults.",
         "abstract": "BACKGROUND: Obesity is a major global health issue. While tirzepatide demonstrates robust weight reduction in clinical trials, data comparing low maintenance doses (2.5 vs. 5 mg) in non-diabetic adults with obesity remain limited. This study evaluated the comparative efficacy and safety of 2.5 versus 5 mg tirzepatide combined with lifestyle intervention. METHODS: This multicentre, prospective, non-randomised cohort study enrolled non-diabetic Japanese adults (18-65 years) with BMI ≥ 30 kg/m2 or ≥ 27 kg/m2 with comorbidities. Patients initiated tirzepatide at 2.5 mg weekly; after 4 weeks, the dose was maintained at 2.5 mg or increased to 5 mg based on shared decision-making. All participants received standardised dietary and exercise counselling. The primary outcome was the proportion achieving BMI < 25 kg/m2 or > 15% body weight reduction at 6 months. RESULTS: Of 112 participants analysed (58 on 2.5 mg, 54 on 5 mg), baseline characteristics were well balanced (mean BMI 30.8 kg/m2). At 6 months, the primary outcome was achieved in 62.1% of the 2.5 mg group and 63.0% of the 5 mg group (HR 0.93, 95% CI 0.58-1.49; p = 0.772). Mean percent weight loss was -15.3% and -16.1%, respectively (p = 0.563), with similar reductions in BMI, skeletal muscle mass, and bone mass. Adherence to dietary therapy was excellent in both groups (96.4%), while exercise adherence was 37.5%. Adverse events were more frequent with 5 mg (50% vs. 35%), primarily gastrointestinal symptoms. CONCLUSION: In non-diabetic Japanese adults with obesity, 2.5 and 5 mg tirzepatide combined with lifestyle modification yielded similar weight loss at 6 months, with better tolerability at the lower dose. These findings support the potential utility of low-dose tirzepatide strategies in real-world practice.",
@@ -1593,6 +1654,35 @@
         "top_tier": false
       },
       {
+        "pmid": "42231627",
+        "title": "GLP-1 Receptors Are Enriched in the Lymphatic Endothelium and Their Pharmacological Activation With Semaglutide Improves the Pumping Capacity of Lymphatic Vessels.",
+        "abstract": "OBJECTIVES: Recent clinical studies have suggested that glucagon-like peptide-1 receptor (GLP-1R) agonists may be effective therapies to treat or reduce the risk of developing secondary lymphedema. In this study, we aimed to (1) determine if GLP-1Rs are present in the lymphatic vasculature and characterize their expression, and (2) assess the effects of GLP-1R agonism on the contractile function of collecting lymphatic vessels. METHODS: We assessed the expression of GLP-1Rs in and around the lymphatic vasculature by single-cell RNA sequencing and fluorescence confocal microscopy, and evaluated the direct effects of GLP-1R agonist, semaglutide, on modulating lymphatic contractility using pressure myography. RESULTS: Expression of Glp1r (encoding GLP-1Rs) was detected exclusively in lymphatic endothelial cells. Pharmacological activation of GLP-1Rs led to robust vasodilation and an increase in the pumping capacity of isolated collecting lymphatics from WT, diet-induced obese, and hypercholesterolemic ApoE KO mice. The GLP-1R-mediated response was in part facilitated by nitric oxide and its potential interaction with NaV channels; however, additional signaling remains to be elucidated. CONCLUSIONS: Our results revealed a direct, beneficial effect of GLP-1R agonism on lymphatic pumping capacity mediated by robust vasodilation, allowing lymphatics to accommodate and displace larger fluid volumes while maintaining strong and highly efficient contractions.",
+        "authors": [
+          "Mary E Schulz",
+          "Victoria L Akerstrom",
+          "Joseph H Dayan",
+          "Jorge A Castorena-Gonzalez"
+        ],
+        "journal": "Microcirculation (New York, N.Y. : 1994)",
+        "date": "",
+        "keywords": [
+          "GLP‐1R",
+          "lymphatic vessels",
+          "scRNAseq",
+          "secondary lymphedema",
+          "semaglutide"
+        ],
+        "companies": [],
+        "title_cn": "GLP-1 Receptors Are Enriched in the Lymphatic Endothelium and Their Pharmacological Activation With Semaglutide Improves the Pumping Capacity of Lymphatic Vessels.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】核心技术：RNA-seq转录组测序、单细胞RNA/ATAC测序；研究层级：基础研究。\n【核心实验关键数据】核心发现：鉴定/表征, 促进作用, 调控作用, 有效性验证。\n【机制创新与产业价值】发表期刊：Microcirculation (New York, N.Y. : 1994)。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "Response to concerns with the statistical analysis in \"Effect of combined GLP-1 ",
+        "composite_score": 9.62,
+        "relevance_score": 10.0,
+        "impact_factor": 35.5,
+        "top_tier": false
+      },
+      {
         "pmid": "42508693",
         "title": "GLP-1 receptor agonists in adolescent obesity: Incretin-based therapies during a sensitive developmental period.",
         "abstract": "Adolescent obesity is a chronic disease associated with early cardiometabolic dysfunction and long-term health risk. Behavioral interventions alone produce modest and unsustained weight loss, leading to increasing use of pharmacotherapy. Glucagon-like peptide-1 receptor agonists (GLP-1RAs) have emerged as highly effective treatments for obesity, producing clinically significant reductions in body weight and improvements in glycemic control. Short-term safety profiles are characterized primarily by transient gastrointestinal symptoms and low rates of serious adverse events or psychiatric symptoms. However, the developmental implications and long-term effects have yet to be evaluated. The purpose of this review is to summarize existing literature concerning the use of GLP-1RAs for adolescents with obesity and to discuss the implications of GLP-1RA use in the adolescent population. This review serves to both identify areas of potential concern and to highlight the need for continued research. Although GLP-1RAs demonstrate robust efficacy for the treatment of adolescent obesity, adolescence is a sensitive period of development and critical knowledge gaps remain regarding long-term effects of GLP-1RAs on growth, pubertal development, cognition, neural reward processing, and lifelong energy balance regulation. Longitudinal and mechanistic studies are needed to determine the long-term effects on development and to guide safe, developmentally informed clinical use.",
@@ -1644,6 +1734,67 @@
         "top_tier": false
       },
       {
+        "pmid": "42514335",
+        "title": "Beyond GLP-1 Agonists: Plant-Derived Bioactive Compounds as Adjunctive Strategies for Obesity Management.",
+        "abstract": "Background: Obesity has reached epidemic proportions, affecting over one billion adults worldwide. While incretin-based pharmacotherapies-GLP-1 receptor agonists (semaglutide) and dual GIP/GLP-1 agonists (tirzepatide)-have transformed obesity treatment, their use remains limited by high costs, adverse effects, restricted eligibility, and rapid weight regain following discontinuation. Plant-derived bioactive compounds represent a promising complementary approach to address these gaps. Objective: This narrative review synthesizes clinical trial evidence on plant-based interventions for obesity management and examines their potential role as adjunctive strategies before, during, and after incretin-based pharmacotherapy. Methods: A literature search was conducted in PubMed, Scopus, and Web of Science (2012-2026), prioritizing randomized controlled trials in adults with overweight or obesity reporting at least one obesity-related metabolic outcome. Sixty-one studies were selected and classified by efficacy tier based on the magnitude and breadth of observed clinical effects. Results: The strongest evidence supports polyphenol-rich dietary patterns, particularly the green-Mediterranean diet, producing significant reductions in body weight, visceral fat, and cardiometabolic risk markers. Specific extracts-including curcumin, bergamot polyphenols, and Lippia citriodora/Hibiscus sabdariffa combinations-demonstrated clinically meaningful metabolic improvements. Isolated high-dose resveratrol and several single-compound interventions showed limited benefit, largely attributable to poor bioavailability. The most effective compounds acted through multiple pathways, including AMPK activation, gut microbiota modulation, and appetite hormone regulation. Conclusions: Plant-derived bioactive compounds offer a safe, accessible adjunctive strategy for obesity management, particularly relevant for patients ineligible for or discontinuing pharmacotherapy. Future trials should directly evaluate plant-polyphenol combinations alongside GLP-1 receptor agonists.",
+        "authors": [
+          "Aurelian Vasile",
+          "Andrei Cristian Anghel",
+          "Teodor Ioan Trasca",
+          "Alina Ortan"
+        ],
+        "journal": "Nutrients",
+        "date": "2026-07-10",
+        "keywords": [
+          "GLP-1 receptor agonists",
+          "incretin therapy",
+          "narrative review",
+          "obesity",
+          "plant-derived bioactive compounds",
+          "polyphenols",
+          "weight management"
+        ],
+        "companies": [],
+        "title_cn": "Beyond GLP-1 Agonists: Plant-Derived Bioactive Compounds as Adjunctive Strategies for Obesity Management.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 调控作用, 安全性评估, 有效性验证。\n【机制创新与产业价值】信号通路：AMPK通路；发表期刊：Nutrients。\n【后续追踪要点】临床试验。",
+        "backfilled_from_news": "Beyond drug discontinuation and prolonged fasting: gastric ultrasound as a third",
+        "composite_score": 9.6,
+        "relevance_score": 15.0,
+        "impact_factor": null,
+        "top_tier": false
+      },
+      {
+        "pmid": "42068458",
+        "title": "Beyond weight loss: Integrating GLP-1 RA therapies into psychological and behavioral care for obesity and binge eating disorder.",
+        "abstract": "Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) represent a major advancement in obesity treatment, offering robust efficacy in weight loss and metabolic regulation. Beyond these effects, emerging evidence indicates that GLP-1 RAs also modulate appetite, reward sensitivity, and self-regulation, domains that intersect with behavioral and psychological functioning. This review adopts a biopsychosocial perspective to examine how GLP-1 RAs interact with eating behavior, mood, identity, and self-regulation, particularly in individuals with binge eating disorder (BED) or other psychiatric comorbidities. A clinical framework is proposed to integrate pharmacotherapy with lifestyle and psychological interventions. The temporary reduction in appetite and food reward may create a \"low-drive window\" in which behavioral strategies such as self-monitoring or stimulus control become more effective. However, high emotional eating, mood symptoms, or identity conflicts may moderate treatment response. Given the high prevalence of psychiatric comorbidities, structured screening using tools like the Patient Health Questionnaire-9 (PHQ-9) or Binge Eating Scale (BES) is recommended. A stepped-care approach from brief digital interventions to formal psychotherapy may help address varying support needs. Crucially, weight regain after discontinuation is common. The review discusses behavioral, psychological, and social mechanisms of relapse and highlights strategies for long-term stabilization. These include emotion regulation, body image work, and maintenance-focused behavioral interventions. GLP-1 RAs should therefore be seen not as standalone treatments but as facilitators of self-directed, sustainable change within integrated care models. Future research should define composite outcomes, explore digital tools for relapse prevention, and develop adaptive pathways tailored to individual psychological profiles.",
+        "authors": [
+          "Isa Mack",
+          "Stephanie Kullmann",
+          "Charlotte Le Morvan de Sequeira",
+          "Bea Klos",
+          "Stephan Zipfel"
+        ],
+        "journal": "Reviews in endocrine & metabolic disorders",
+        "date": "2026-05-02",
+        "keywords": [
+          "Behavior change",
+          "Binge eating disorder (BED)",
+          "GLP-1 receptor agonists",
+          "Obesity",
+          "Psychiatric comorbidities"
+        ],
+        "companies": [],
+        "title_cn": "Beyond weight loss: Integrating GLP-1 RA therapies into psychological and behavioral care for obesity and binge eating disorder.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】核心发现：调控作用, 疾病模型建立, 有效性验证, 结构解析。\n【机制创新与产业价值】发表期刊：Reviews in endocrine & metabolic disorders。\n【后续追踪要点】长期疗效评估。",
+        "backfilled_from_news": "Beyond drug discontinuation and prolonged fasting: gastric ultrasound as a third",
+        "composite_score": 9.33,
+        "relevance_score": 14.5,
+        "impact_factor": null,
+        "top_tier": false
+      },
+      {
         "pmid": "42517362",
         "title": "Weight loss interventions and sexual function in midlife women: the emerging role of glucagon-like peptide-1 receptor agonists.",
         "abstract": "IMPORTANCE AND OBJECTIVE: Sexual health is a multidimensional aspect of women's well-being. It is particularly vulnerable during midlife, when the physiological and psychosocial changes of the menopause transition intersect with the growing burden of obesity. Glucagon-like peptide-1 (GLP-1) receptor agonists have emerged as highly effective pharmacologic treatments for obesity, yet their effects on female sexual function remain largely uncharacterized. This review aims to discuss the interplay among obesity, midlife, obesity treatments, and female sexual health, with a focused synthesis of available evidence on GLP-1-based therapies and sexual outcomes in women. METHODS: This narrative review synthesizes preclinical studies, case reports, observational data, and clinical trials identified through PubMed searches from inception through March 2026, examining female sexual function in the context of obesity, the menopause transition, obesity treatments, and GLP-1 receptor agonist therapy. DISCUSSION AND CONCLUSION: Obesity impairs female sexual function through hormonal, vascular, and psychosocial mechanisms. Accordingly, lifestyle interventions and bariatric surgery have demonstrated meaningful improvements in sexual function. In contrast, GLP-1 receptor agonists, despite conferring substantial weight loss and favorable metabolic effects, may paradoxically suppress sexual desire and arousal through central neuroendocrine mechanisms, including the modulation of dopaminergic reward and serotonergic signaling. While emerging case reports and preclinical data support this concern, systematic clinical evidence remains limited, highlighting the need for prospective studies with longitudinal sexual function endpoints. In this context, clinicians should proactively assess sexual function before and during GLP-1 therapy using validated instruments and integrate sexual health into comprehensive obesity care for midlife women.",
@@ -1671,120 +1822,6 @@
         "composite_score": 8.78,
         "relevance_score": 13.5,
         "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42508090",
-        "title": "Nutritional intake changes during GLP-1 receptor agonist therapy: A systematic review and meta-analysis.",
-        "abstract": "BACKGROUND AND AIMS: Glucagon-like peptide-1 (GLP-1) receptor agonists, including the dual glucose-dependent insulinotropic polypeptide (GIP) and GLP-1 receptor agonist tirzepatide, produce substantial weight loss, yet their effect on objectively measured dietary intake has not been quantitatively synthesized. We assessed their impact on ad libitum lunch energy intake. METHODS: We searched six databases through March 31, 2026, for studies reporting quantitative dietary outcomes in adults receiving a GLP-1 or dual GIP/GLP-1 receptor agonist. Randomized or crossover placebo-controlled trials lasting at least four weeks that reported standardized ad libitum lunch intake were pooled using a DerSimonian-Laird random-effects model. Prespecified sensitivity analyses included restricted maximum likelihood (REML) and Paule-Mandel estimators, a 95% prediction interval, a subgroup analysis, a leave-one-out analysis, and an exploratory three-week phase 1 tirzepatide trial. RESULTS: Sixteen studies were included in the systematic review; four arms from three trials (209 participants) contributed to the primary meta-analysis. The pooled treatment difference in ad libitum lunch energy intake was -1132 kJ (95% confidence interval [CI] -1449 to -815), approximately -271 kcal, with no heterogeneity (I-squared = 0%; 95% prediction interval -1828 to -436 kJ). Adding the phase 1 trial (k = 5) increased the effect to -1421 kJ but introduced substantial heterogeneity (I-squared = 70%). The semaglutide-versus-tirzepatide difference was not significant (p = 0.154). CONCLUSIONS: GLP-1 receptor agonist therapy markedly reduces acute energy intake under standardized meal tests, but real-world habitual intake remains underreported. Structured nutritional counseling emphasizing adequate protein should complement pharmacotherapy.",
-        "authors": [
-          "Anh Tuan Quan",
-          "Hoang Linh Nguyen",
-          "Tran My Thanh Nguyen"
-        ],
-        "journal": "Diabetes & metabolic syndrome",
-        "date": "2026-07-25",
-        "keywords": [
-          "Energy intake",
-          "GLP-1 receptor agonists",
-          "Meta-analysis",
-          "Obesity",
-          "Tirzepatide"
-        ],
-        "companies": [],
-        "title_cn": "Nutritional intake changes during GLP-1 receptor agonist therapy: A systematic review and meta-analysis.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究层级：I期临床试验。\n【核心实验关键数据】量化数据：95%, 95%, 0%；核心发现：疾病模型建立, 有效性验证, 结构解析。\n【机制创新与产业价值】发表期刊：Diabetes & metabolic syndrome。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 8.58,
-        "relevance_score": 11.5,
-        "impact_factor": 6.2,
-        "top_tier": false
-      },
-      {
-        "pmid": "41711341",
-        "title": "GLP-1 receptor agonists: Bridging diabetes, obesity, and periodontitis-A scoping review of emerging evidence.",
-        "abstract": "BACKGROUND: Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) are analogs of the endogenous incretin hormone GLP-1 and are increasingly used in the treatment of diabetes and obesity. Beyond glycemic control and weight loss, they have demonstrated anti-inflammatory, antioxidative, and immunomodulatory properties. Given the inflammatory nature of periodontitis and its bidirectional relationship with diabetes mellitus, interest is growing in exploring the potential therapeutic benefits of GLP-1 RAs in periodontal diseases. This scoping review aims to search the existing literature on the effects of GLP-1 RAs on periodontitis, focusing on underlying mechanisms and emerging clinical implications. METHODS: Following PRISMA guidelines for scoping reviews, a comprehensive search was conducted in Medline/PubMed and Embase to identify preclinical and clinical studies in English evaluating the effects of GLP-1 RAs on periodontal tissues. Data were synthesized thematically to highlight key findings and gaps. RESULTS: Evidence from mechanistic and preclinical studies supports a biologically plausible link between GLP-1 RAs and pathways central to periodontal inflammation and host response. Human studies remain limited and observational but consistently report associations between periodontitis and altered incretin hormone profiles, including reduced endogenous GLP-1 levels and increases following periodontal treatment. CONCLUSION: This scoping review identifies growing mechanistic and preclinical evidence suggesting potential interactions between GLP-1 RAs and periodontal inflammatory pathways. Although current human evidence is indirect and insufficient to establish therapeutic benefit, these early signals highlight an important opportunity for future research. Well-designed clinical trials with periodontal endpoints are needed to clarify whether GLP-1 RAs may provide adjunctive value in periodontal care. PLAIN LANGUAGE SUMMARY: GLP-1 receptor agonists are medications commonly used to manage diabetes and obesity. In addition to their metabolic effects, laboratory and animal studies suggest that these drugs may influence biological processes also involved in gum disease, such as inflammation, immune response, and bone metabolism. This scoping review examined all available scientific studies on the relationship between GLP-1 receptor agonists and periodontal disease. Most of the existing evidence comes from mechanistic and preclinical research showing that these medications can reduce inflammation and support tissue repair in experimental models. Human studies are still very limited and have focused mainly on metabolic markers rather than on direct measures of gum health. So far, no clinical trial has tested whether GLP-1 medications can improve periodontal outcomes. Although no conclusions can be made for clinical dental practice today, the findings highlight an emerging and promising area of research. Well-designed clinical studies are needed to determine whether GLP-1 receptor agonists could eventually play a role in periodontal treatment.",
-        "authors": [
-          "Angeliki Polymeri",
-          "Magda Feres",
-          "William V Giannobile",
-          "Bruno G Loos"
-        ],
-        "journal": "Journal of periodontology",
-        "date": "2026-02-19",
-        "keywords": [
-          "GLP‐1 receptor agonists",
-          "diabetes mellitus type 2",
-          "glycemic control",
-          "inflammation",
-          "obesity",
-          "periodontitis"
-        ],
-        "companies": [],
-        "title_cn": "GLP-1 receptor agonists: Bridging diabetes, obesity, and periodontitis-A scoping review of emerging evidence.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：临床前研究。\n【核心实验关键数据】核心发现：鉴定/表征, 调控作用, 相关性, 疾病模型建立。\n【机制创新与产业价值】发表期刊：Journal of periodontology。\n【后续追踪要点】临床试验；新药研发。",
-        "backfilled_from_news": "GLP-1 Medications May Improve Health in People With PAD and Diabetes.",
-        "composite_score": 8.23,
-        "relevance_score": 12.5,
-        "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42503568",
-        "title": "Nonadherence to GLP-1 Receptor Agonists Among Individuals With Overweight or Obesity: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
-        "abstract": "BACKGROUND: Glucagon-like peptide 1 (GLP-1) agonists are widely used for obesity management in patients with or without diabetes. However, treatment persistence is often limited due to adverse drug reactions (ADRs). Understanding adherence patterns in randomized controlled trials (RCTs) is crucial for predicting real-world treatment acceptance. OBJECTIVE: To estimate the pooled nonadherence rates and reasons for nonadherence to GLP-1 agonists in overweight or patients with obesity participating in RCTs. METHODS: A systematic review and meta-analysis of RCTs was conducted to evaluate nonadherence to GLP-1 receptor agonists. A literature search was performed in PubMed, Embase, and Web of Science from inception to October 2, 2024. Studies were included if they evaluated GLP-1 receptor agonists for overweight or obesity management and reported adherence outcomes. RESULTS: The pooled RR for nonadherence to GLP-1 receptor agonists was 0.63 (95% CI: 0.48, 0.82, p = 0.01), indicating a 37% lower risk of nonadherence compared with the control group. However, ADR-induced nonadherence was significantly higher in the GLP-1 group (RR: 2.29 [95% CI: 1.47, 3.56, p = 0.04]), particularly due to gastrointestinal side effects. Nonadherence due to loss to follow-up was lower in the GLP-1 group (RR: 0.43 [95% CI: 0.27, 0.71, p = 0.18]). CONCLUSION: GLP-1 receptor agonists were associated with a lower overall nonadherence rate in RCTs compared with control treatments, suggesting higher persistence. However, ADR-related nonadherence was significantly higher, particularly due to gastrointestinal side effects. These findings highlight the need for strategies to improve treatment tolerability and adherence in real-world settings.",
-        "authors": [
-          "Efrata A Shegena",
-          "Mekdes Kiflu",
-          "Muktar Ahmed",
-          "Akshaya Srikanth Bhagavathula",
-          "Tadesse M Abegaz"
-        ],
-        "journal": "Obesity reviews : an official journal of the International Association for the Study of Obesity",
-        "date": "2026-07-26",
-        "keywords": [
-          "GLP‐1 receptor agonists",
-          "adverse drug reactions",
-          "meta‐analysis",
-          "nonadherence",
-          "obesity management",
-          "randomized controlled trials"
-        ],
-        "companies": [],
-        "title_cn": "Nonadherence to GLP-1 Receptor Agonists Among Individuals With Overweight or Obesity: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：95%, 37%, 95%；核心发现：促进作用, 安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Obesity reviews : an official journal of the International Association for the Study of Obesity。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 8.21,
-        "relevance_score": 11.5,
-        "impact_factor": 4.2,
-        "top_tier": false
-      },
-      {
-        "pmid": "42493207",
-        "title": "Semaglutide for prevention of type 2 diabetes in women with postpartum prediabetes after gestational diabetes: protocol for a Belgian multicentre double-blind randomised placebo-controlled trial.",
-        "abstract": "INTRODUCTION: Women with postpartum pre-diabetes following gestational diabetes mellitus (GDM) are at particularly high risk of developing type 2 diabetes mellitus (T2DM). While the implementation of effective lifestyle interventions in the early postpartum period is often difficult and has in general limited efficacy to prevent T2DM after GDM, effective preventive strategies, including medical therapies, are needed in this population. The 'semaglutide for the treatment of pre-diabetes in women with prior gestational diabetes (SERENA) study' aims to evaluate the efficacy, safety and cost-effectiveness of semaglutide in preventing progression to T2DM during the early postpartum period. METHODS AND ANALYSIS: SERENA is a Belgian multicentre, double-blind randomised controlled trial conducted in 13 hospitals. A total of 252 women with a recent history of GDM and postpartum pre-diabetes will be randomised in a 1:1 ratio to receive once-weekly subcutaneous injections of semaglutide 1 mg or placebo in addition to standardised lifestyle intervention. Randomisation is stratified by body mass index at early postpartum assessment (<25, 25-29.9 and ≥30 kg/m²). Participants will be treated for up to 160 weeks (3 years), with a total follow-up period of up to 184 weeks (3 years and 6 months). Study visits are scheduled every 6 months and include blood sampling, clinical examinations and completion of self-administered questionnaires. The primary outcome is the development of T2DM based on the American Diabetes Association criteria. Secondary outcomes include need for diabetes rescue therapy, regression to normoglycaemia, weight loss, insulin sensitivity, beta-cell function, cardiometabolic risk profile, patient-reported outcomes and cost-effectiveness. ETHICS AND DISSEMINATION: The study was approved by the Federal Agency for Medicines and Health Products and the relevant Ethics Committees (2022-502082-22-00) (S66967). Recruitment started in September 2023. Study results will be disseminated through peer-reviewed publications and presentations at scientific conferences. Individual participant data will be made available on reasonable request after study completion, database lock, unblinding and publication of the primary results, subject to applicable ethical, legal and data protection requirements. TRIAL REGISTRATION NUMBER: NCT05569772.",
-        "authors": [
-          "Yana Vanlaer",
-          "Nina Embo",
-          "Niels Bochanen",
-          "Nancy Van Wilder",
-          "Gertjan Vereecke"
-        ],
-        "journal": "BMJ open",
-        "date": "2026-07-23",
-        "keywords": [
-          "Diabetes in pregnancy",
-          "Life Change Events",
-          "Postpartum Period"
-        ],
-        "companies": [],
-        "title_cn": "Semaglutide for prevention of type 2 diabetes in women with postpartum prediabetes after gestational diabetes: protocol for a Belgian multicentre double-blind randomised placebo-controlled trial.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】核心发现：相关性, 安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：转移/复发, 现有治疗局限；发表期刊：BMJ open。\n【后续追踪要点】安全性监测。",
-        "composite_score": 8.07,
-        "relevance_score": 6.5,
-        "impact_factor": 93.6,
         "top_tier": false
       }
     ],
