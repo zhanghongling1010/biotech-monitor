@@ -1,6 +1,25 @@
 {
-  "timestamp": "2026-08-01T07:01:08.311723",
+  "timestamp": "2026-08-03T07:01:12.076685",
   "items": [
+    {
+      "title": "AstraZeneca, Bristol Myers are in talks about merger — report",
+      "link": "https://endpoints.news/astrazeneca-bristol-myers-are-in-talks-about-merger-report/",
+      "description": "AstraZeneca is in talks with Bristol Myers Squibb about a merger that would be one of the industry’s largest ever, according to a report Sunday by the Financial Times.\n\n A deal would combine the UK ...",
+      "pub_date": "Sun, 02 Aug 2026 20:27:37 +0000",
+      "source": "endpoints",
+      "categories": [
+        "deal"
+      ],
+      "companies": [
+        "BMY",
+        "AZN"
+      ],
+      "priority": "critical",
+      "date": "Sun, 02 Aug 2026 20:27:37 +0000",
+      "company_type": "Opdivo/IO",
+      "title_cn": "AstraZeneca, Bristol Myers are in talks about merger — report",
+      "description_cn": "【交易类型】收购/并购；【交易详情】百时美施贵宝将以最高收购某生物技术公司；【战略意义】收购方借此扩展其研发管线"
+    },
     {
       "title": "Novo Nordisk rocked by late-stage cardiovascular drug failure",
       "link": "https://endpoints.news/novo-nordisk-rocked-by-late-stage-cardiovascular-drug-failure/",
@@ -104,45 +123,11 @@
       "company_type": null,
       "title_cn": "AtaiBeckley attracted co-development and royalty offers before $2.8B Lilly deal",
       "description_cn": ""
-    },
-    {
-      "title": "Relation promises 'transformationally different success rates' in expanded AI pact with GSK",
-      "link": "https://endpoints.news/relation-promises-transformationally-different-success-rates-in-expanded-gsk-pact/",
-      "description": "GSK is set to pay Relation Therapeutics up to $110 million to expand their existing partnership to use AI modeling for drug discovery.\n\n Under the Thursday deal, Relation will build a ...",
-      "pub_date": "Thu, 30 Jul 2026 11:12:42 +0000",
-      "source": "endpoints",
-      "categories": [
-        "deal"
-      ],
-      "companies": [],
-      "priority": "normal",
-      "date": "Thu, 30 Jul 2026 11:12:42 +0000",
-      "company_type": null,
-      "title_cn": "Relation promises 'transformationally different success rates' in expanded AI pact with GSK",
-      "description_cn": "【交易类型】战略合作；【交易详情】葛兰素史克达成最高110.0百万美元美元战略合作；【战略意义】有助于加速创新药物开发"
-    },
-    {
-      "title": "Sanofi records €1B+ write-off, ends work on two immunology assets",
-      "link": "https://endpoints.news/sanofi-records-e1b-write-off-ends-work-on-two-immunology-assets/",
-      "description": "Sanofi booked over €1.03 billion in impairment charges in the second quarter, largely due to an eczema drug termination, and its pipeline review led to the wind-down of two other immunology drugs.\n\n The impairment loss ...",
-      "pub_date": "Thu, 30 Jul 2026 09:35:05 +0000",
-      "source": "endpoints",
-      "categories": [
-        "deal"
-      ],
-      "companies": [
-        "SNY"
-      ],
-      "priority": "critical",
-      "date": "Thu, 30 Jul 2026 09:35:05 +0000",
-      "company_type": "Pharma",
-      "title_cn": "Sanofi records €1B+ write-off, ends work on two immunology assets",
-      "description_cn": "【交易类型】监管批准"
     }
   ],
   "summary": {
-    "total": 8,
-    "deals": 4,
+    "total": 7,
+    "deals": 3,
     "clinical": 4,
     "regulatory": 1
   }
