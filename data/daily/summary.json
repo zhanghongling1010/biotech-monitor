@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-06T07:01:28.234265",
+  "timestamp": "2026-08-06T07:16:20.791412",
   "critical": {
     "deals": [
       {
@@ -392,26 +392,6 @@
         ]
       },
       {
-        "title": "Cagrilintide-semaglutide (CagriSema) versus semaglutide or cagrilintide in people with type 2 diabetes (REIMAGINE 2): a double-blind, randomised, controlled, phase 3 study.",
-        "journal": "The lancet. Diabetes & endocrinology",
-        "date": "2026-06-07",
-        "authors": [
-          "John B Buse",
-          "Harpreet S Bajaj",
-          "Stine-Mathilde Dalskov"
-        ]
-      },
-      {
-        "title": "Teclistamab in Multiple Myeloma with One to Three Previous Lines of Therapy.",
-        "journal": "The New England journal of medicine",
-        "date": "2026-05-29",
-        "authors": [
-          "Cyrille Touzeau",
-          "Roberto Mina",
-          "Hang Quach"
-        ]
-      },
-      {
         "title": "Beyond weight loss: multisystem benefits of obesity medications.",
         "journal": "The lancet. Diabetes & endocrinology",
         "date": "2026-05-28",
@@ -422,6 +402,16 @@
         ]
       },
       {
+        "title": "Endocytic evasion confers resistance to antibody-drug conjugates therapy in cancer.",
+        "journal": "Cancer cell",
+        "date": "2026-05-21",
+        "authors": [
+          "Yuzhao Wang",
+          "Zibin Chen",
+          "Weikai Wang"
+        ]
+      },
+      {
         "title": "RNA-triggered cell killing with CRISPR-Cas12a2.",
         "journal": "Nature",
         "date": "2026-05-06",
@@ -429,6 +419,46 @@
           "Paul Scholz",
           "Jared Thompson",
           "Kadin T Crosby"
+        ]
+      },
+      {
+        "title": "Efficacy and safety of co-administered cagrilintide and semaglutide versus semaglutide alone in adults with overweight or obesity with or without type 2 diabetes in Japan and Taiwan (REDEFINE 5): a multicentre, randomised, active-controlled, phase 3a trial.",
+        "journal": "The lancet. Diabetes & endocrinology",
+        "date": "2026-04-17",
+        "authors": [
+          "Toshimasa Yamauchi",
+          "Niels-Peter Becker",
+          "Christoffer Andersen Hagemann"
+        ]
+      },
+      {
+        "title": "Decoding the Functional Roles of Individual Components in mRNA Lipid Nanoparticles.",
+        "journal": "ACS nano",
+        "date": "2026 Jul 26",
+        "authors": [
+          "Su K",
+          "Wang Z",
+          "Shi L"
+        ]
+      },
+      {
+        "title": "Targeted mRNA Delivery Using Bispecific Antibody-Lipid Nanoparticle Complexes.",
+        "journal": "Molecular pharmaceutics",
+        "date": "2026 Aug 3",
+        "authors": [
+          "Hickey JC",
+          "Roach T",
+          "Cassaidy B"
+        ]
+      },
+      {
+        "title": "Pancreas-specific lipid nanoparticle-mediated interleukin-10 mRNA delivery ameliorates acute pancreatitis.",
+        "journal": "Journal of materials chemistry. B",
+        "date": "2026 Aug 3",
+        "authors": [
+          "Men Y",
+          "Cao Z",
+          "Popoola DO"
         ]
       },
       {
@@ -671,6 +701,33 @@
         "top_tier": false
       },
       {
+        "pmid": "42109120",
+        "title": "Gene Therapy for Cardiomyopathy: Tools, Targets, and Trials.",
+        "abstract": "Cardiomyopathy remains a leading cause of heart failure-related morbidity and mortality, driven by diverse genetic architectures that include monogenic variants, oligogenic interactions, and polygenic risk. Rapid advances in genomic medicine and vector engineering have positioned cardiac gene therapy as a transformative therapeutic approach. Adeno-associated virus-mediated gene replacement for hypertrophic, dilated, and arrhythmogenic cardiomyopathies has transitioned into early-phase clinical trials, with emerging data providing promising signals of myocardial transgene expression and improvements in circulating biomarkers such as NT-proBNP (N-terminal pro-B-type natriuretic peptide). Genome-editing platforms-including CRISPR-mediated base editing and prime editing-offer the potential for durable variant correction without introducing double-stranded breaks. Yet, major translational challenges remain, including strategies to bypass liver uptake to ensure high-efficiency transduction of cardiomyocytes, overcoming delivery constraints, including the cargo size of adeno-associated virus vectors, addressing toxicities, and establishing adequate immunosuppressive regimens. Novel strategies such as direct antegrade and retrograde coronary infusion, capsid engineering, split-intein dual-adeno-associated virus systems, miniaturization of CRISPR-related proteins, and nonviral nanoparticles are underway. As first-in-human cardiomyopathy gene therapy trials begin to define safety, dosing, and vector tropism in the failing human heart, the field is entering an inflection point where genomic diagnosis, molecular correction, and phenotype-guided delivery can converge into precision heart failure therapeutics. This review highlights current progress, emerging platforms, and scientific hurdles that must be overcome to realize a new era of potentially curative, mechanism-directed therapy for inherited and acquired cardiomyopathies.",
+        "authors": [
+          "Radhika Agarwal"
+        ],
+        "journal": "Circulation. Heart failure",
+        "date": "2026-05-11",
+        "keywords": [
+          "cardiomyopathies",
+          "clinical trials",
+          "gene editing",
+          "genetic therapy",
+          "genetic vectors",
+          "heart failure"
+        ],
+        "companies": [],
+        "title_cn": "Gene Therapy for Cardiomyopathy: Tools, Targets, and Trials.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】核心技术：碱基编辑(CBE/ABE)、先导编辑；研究层级：临床试验。\n【核心实验关键数据】核心发现：首次发现/鉴定, 抑制作用, 调控作用, 安全性评估；关键突破：克服耐药。\n【机制创新与产业价值】发表期刊：Circulation. Heart failure。\n【后续追踪要点】临床试验；伴随诊断；新药研发。",
+        "backfilled_from_news": "Correction to: Rapid on-site detection of crop RNA viruses using CRISPR/Cas13a.",
+        "composite_score": 9.62,
+        "relevance_score": 10.0,
+        "impact_factor": 35.5,
+        "top_tier": false
+      },
+      {
         "pmid": "42550765",
         "title": "Functional restoration of immune defects in STAT1 gain-of-function disease following stem cell gene editing.",
         "abstract": "Germline gain-of-function (GOF) mutations in the signal transducer and activator of transcription 1 (STAT1) gene cause a dominantly inherited inborn error of immunity (IEI) characterized by chronic mucocutaneous candidiasis, autoimmunity, severe opportunistic infections and an increased risk of malignancy. Allogeneic hematopoietic stem cell (HSC) transplantation (HSCT) is curative but is associated with increased risk of morbidity and mortality in STAT1 GOF patients compared to other IEI. To develop a curative, autologous alternative to HSCT, we evaluated gene editing strategies in STAT1 GOF model cell lines, primary T cells, and patient-derived HSCs. Universal and mutation-specific strategies using CRISPR/Cas-mediated homology-directed repair (HDR) were limited by low efficacy (<25%), poor viability, and a lack of allele-specificity. In contrast, adenine base editing corrected the recurrent and highly pathogenic p.T385M mutation with upwards of 90% efficiency in patient T cells and HSCs without significant unintended on- or off-target genomic aberrations. Gene editing functionally restored total STAT1 expression (p<0.0217), STAT1 phosphorylation (p<0.0056), interferon-stimulated gene expression (OAS1; p=0.0005) and improved IL-17 production (p<0.0001). Edited HSCs retained multilineage differentiation capacity and sustained engraftment with persistence of the corrected allele at 16 weeks in humanized immunodeficient mice. These data demonstrate efficient and precise correction of STAT1 GOF mutations by base editing, with maintenance of the correction through long-term engraftment in vivo. This represents the first application of gene editing to correct a dominant gain-of-function mutation causing immunodeficiency, with potential applicability to other genetic disorders associated with heterozygous and gain-of-function mutations.",
@@ -715,6 +772,36 @@
         "title_cn": "Precision modification of heart failure signaling by CRISPR-Cas9 base editing.",
         "abstract_cn": "",
         "summary_cn": "【研究基础与实验设计】核心技术：碱基编辑(CBE/ABE)、CRISPR-Cas9系统；研究层级：动物体内实验。\n【核心实验关键数据】核心发现：抑制作用, 促进作用, 调控作用, 疾病模型建立。\n【机制创新与产业价值】临床痛点：转移/复发；发表期刊：Journal of molecular and cellular cardiology。\n【后续追踪要点】新药研发；长期疗效评估；安全性监测。",
+        "composite_score": 9.33,
+        "relevance_score": 14.5,
+        "impact_factor": null,
+        "top_tier": false
+      },
+      {
+        "pmid": "42303162",
+        "title": "CRISPR Cas9 revolutionizing genetic engineering and therapeutic applications.",
+        "abstract": "Genetic engineering has been transformed by CRISPR-Cas9 technology, offering high precision and adaptability in biological research and therapeutic innovation. Originating from a bacterial defense system, CRISPR-Cas9 enables targeted DNA editing through guide RNA-directed Cas9 nuclease activity, allowing gene modification, mutation correction, and disease mechanism analysis. This has opened new avenues in personalized medicine and gene therapy, particularly for cancer and inherited disorders, alongside applications in agriculture. In oncology, CRISPR-Cas9 demonstrates strong potential in oncogene targeting, immune cell engineering, and CAR-T-based immunotherapy, supported by substantial preclinical success. Delivery efficiency is enhanced through systems such as exosomes, liposomes, and nanoparticles, improving stability and tumor targeting. However, clinical translation remains constrained by off-target effects, delivery limitations, and ethical concerns in human genome editing, particularly germline modification. CRISPR shows therapeutic promise for muscular dystrophy, sickle cell disease, and cystic fibrosis. Emerging platforms including base editing, prime editing, and dCas9-based epigenome editing enable precise genome and gene regulation without double-strand breaks, reducing toxicity and expanding therapeutic scope in cancer and genetic diseases. Regulatory frameworks remain heterogeneous, affecting translation. The United States leads in approvals and clinical progress, the European Union emphasizes safety and ethics, China shows rapid expansion in clinical trials, and India remains in early stages due to regulatory and infrastructure constraints. Public perception influences adoption, shaped by misinformation and limited awareness. Persistent gaps in long-term safety, clinical efficacy, and population diversity remain challenges. Overall, CRISPR-Cas9 represents a transformative but carefully regulated platform for advancing biotechnology and medicine.",
+        "authors": [
+          "Sivakumar Durairaj",
+          "Shankar Durairaj",
+          "Sundar Krishnan",
+          "Anand Raju"
+        ],
+        "journal": "Journal of biotechnology",
+        "date": "2026-06-16",
+        "keywords": [
+          "CRISPR-Cas9 Nuclease",
+          "Ethical Considerations",
+          "Genome Editing",
+          "Guide RNA",
+          "Targeted Editing",
+          "Therapeutic Applications"
+        ],
+        "companies": [],
+        "title_cn": "CRISPR Cas9 revolutionizing genetic engineering and therapeutic applications.",
+        "abstract_cn": "Genetic engineering been transformed CRISPR基因编辑-Cas9 technology, offering high precision adaptability biological research therapeutic innovation. Originating from bacterial defense system, CRISPR基因编辑-Cas9 enables targeted editing through guide -directed Cas9 nuclease activity, allowing gene modification, mutation correction, disease mechanism analysis. This opened avenues personalized medicine gene therapy, particularly cancer inherited disorders, alongside applications agriculture. In oncology, CRISPR基因编辑-Cas9 demonstrates strong potential oncogene targeting, immune cell engineering, -T细胞治疗-based immunotherapy, supported substantial preclinical success. Delivery efficiency enhanced through systems such exosomes, liposomes, nanoparticles, improving stability tumor targeting. However, clinical translation remains constrained -target effects, delivery limitations, ethical concerns human genome editing, particularly germline modification. CRISPR基因编辑 shows therapeutic promise muscular dystrophy, sickle cell disease, cystic fibrosis. Emerging platforms including base editing, prime editing, dCas9-based epigenome editing enable precise genome gene regulation without double-strand breaks, reducing toxicity expanding therapeutic scope cancer genetic diseases. Regulatory frameworks remain heterogeneous, affecting translation. The United States leads approvals clinical progress, European Union emphasizes safety ethics, China shows rapid expansion clinical trials, India remains early stages regulatory infrastructure constraints. Public perception influences adoption, shaped misinformation limited awareness. Persistent gaps long-term safety, clinical efficacy, population diversity remain challenges. Overall, CRISPR基因编辑-Cas9 represents transformative carefully regulated platform advancing biotechnology medicine.",
+        "summary_cn": "【研究基础与实验设计】研究针对：镰状细胞病；核心技术：碱基编辑(CBE/ABE)、先导编辑；研究层级：临床前研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：促进作用, 调控作用, 安全性评估, 有效性验证；关键突破：提高疗效；局限性：存在实验局限性。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Journal of biotechnology。\n【后续追踪要点】临床试验；新药研发；基因/细胞治疗。",
+        "backfilled_from_news": "Correction to: Rapid on-site detection of crop RNA viruses using CRISPR/Cas13a.",
         "composite_score": 9.33,
         "relevance_score": 14.5,
         "impact_factor": null,
@@ -898,65 +985,6 @@
         "composite_score": 7.95,
         "relevance_score": 12.0,
         "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42522380",
-        "title": "Recent advances of CRISPR-based gene editing technologies and delivery strategies.",
-        "abstract": "CRISPR technology is a powerful tool for gene editing, in which the efficient delivery of living target cells allows it to show great clinical potential. At present, the commonly used in vivo delivery strategies mainly include biological methods (AAV, VLP, SEND) and chemical methods (LNP), which subtly deliver gene editors to living target cells safely and efficiently from different ways. However, existing delivery systems have different extents of limitations in terms of editing efficiency, immunogenicity, half-life, etc., so developing optimized delivery systems is the key to fully realizing the potential of CRISPR-Cas system for intracellular gene editing. In order to fully understand the advantages of different delivery strategies to maximize the ability to help CRISPR systems choose delivery methods, we conducted a systematic review. In this paper, we introduce the types, principles and characteristics of gene editing systems in order to understand their requirements for delivery tools. We focus on describing the type, principle, load, immunogenicity, specificity, toxicity, etc. of the delivery system, so as to fully analyse its advantages and disadvantages for the selection of different editing environments. This review aims to provide new insights to facilitate appropriate delivery systems or improve the efficacy of existing systems.",
-        "authors": [
-          "Fanyu Xue",
-          "Zixuan Xin",
-          "Gaojie Wang",
-          "Jiayin Xing",
-          "Hengxin Han"
-        ],
-        "journal": "Artificial cells, nanomedicine, and biotechnology",
-        "date": "2026-07-29",
-        "keywords": [
-          "Adeno-associated viral vectors",
-          "CRISPR-Cas",
-          "LNP delivery systems",
-          "delivery system",
-          "extracellular contractile injection systems (eCISs)",
-          "polymers and polymer based nanoparticles"
-        ],
-        "companies": [],
-        "title_cn": "Recent advances of CRISPR-based gene editing technologies and delivery strategies.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究层级：动物体内实验。\n【核心实验关键数据】核心发现：安全性评估, 有效性验证；关键突破：提高疗效；局限性：存在实验局限性。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Artificial cells, nanomedicine, and biotechnology。\n【后续追踪要点】安全性监测。",
-        "composite_score": 7.77,
-        "relevance_score": 10.5,
-        "impact_factor": 4.7,
-        "top_tier": false
-      },
-      {
-        "pmid": "42552339",
-        "title": "Development of an investigational medicinal stem cell gene therapy product to attempt curing human immunodeficiency virus infection.",
-        "abstract": "For most people living with Human immunodeficiency virus (HIV), virus control and sufficient immune function can be achieved with polypharmacotherapy. A minority is intolerant to thereto, and drug-resistant mutants are emerging. Additionally, people living with HIV (PLWH) have significantly higher risk of cardiovascular morbidity and malignant diseases. HIV is in principle immunogenic. If T-cell depletion could be avoided immunological HIV eradication should be achievable. The \"Berlin patient\" in whom allogeneic stem cell transplantation from a CCR5Δ32/Δ32 donor induced long-term remission without antiviral therapy raised the hope that stem cell gene therapy with CCR5-deleted autologous stem cells could provide a cure, but the strategy did not live up to expectations. We propose to test an alternative strategy, namely expression of a designer recombinase which specifically excises HIV provirus from the genome under a Tat-inducible promoter so that expression is restricted to infected cells. A cGMP-compliant manufacturing protocol and quality control strategy for this investigational medicinal product was developed, validated, and a manufacturing authorization obtained. A First-in-Human-clinical trial, testing engraftment, repopulation of peripheral specific immunity, and ability to control HIV infection without antiviral medication is in preparation. Protocols can be adapted to other stem cell gene therapies by transferring alternative lentviral cargo.",
-        "authors": [
-          "Laura Weigand",
-          "Stefanie Herkt",
-          "Maike Voges",
-          "Niklas Beschorner",
-          "Juliane Friedrich"
-        ],
-        "journal": "Scientific reports",
-        "date": "2026-08-04",
-        "keywords": [
-          "Brec1",
-          "CliniMACS Prodigy",
-          "HIV",
-          "HSCE process",
-          "Stem cell gene therapy"
-        ],
-        "companies": [],
-        "title_cn": "Development of an investigational medicinal stem cell gene therapy product to attempt curing human immunodeficiency virus infection.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：HIV/艾滋病；核心技术：基因治疗/病毒载体；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 表达水平变化。\n【机制创新与产业价值】发表期刊：Scientific reports。\n【后续追踪要点】临床试验；基因/细胞治疗；长期疗效评估。",
-        "composite_score": 7.57,
-        "relevance_score": 10.5,
-        "impact_factor": 3.8,
         "top_tier": false
       }
     ],
@@ -1231,6 +1259,41 @@
         "top_tier": true
       },
       {
+        "pmid": "42167230",
+        "title": "Endocytic evasion confers resistance to antibody-drug conjugates therapy in cancer.",
+        "abstract": "Enfortumab vedotin (NECTIN4-ADC), a NECTIN4-targeting antibody-drug conjugate, has shown substantial efficacy in urothelial carcinoma, yet primary and acquired resistance remain major barriers to durable benefit. By integrating paired spatial transcriptomic profiling of tumors collected before and after NECTIN4-ADC plus anti-PD1 therapy with humanized mouse models, single-cell RNA sequencing, and resistant cell systems, we mapped tumor-state remodeling during ADC resistance and identified a resistant tumor-cell population with increased NECTIN4 expression but defective ADC uptake. Mechanistically, AKR1C1 binds NECTIN4 and impairs the AP2M1-dependent clathrin-mediated internalization of NECTIN4-ADC, while the AKR1C1-WWP2 axis promotes extracellular vesicle-mediated ADC export and clearance, thereby reducing intracellular payload accumulation. Pharmacologic inhibition of AKR1C1 restores ADC uptake, increases payload delivery, and enhances therapeutic sensitivity in preclinical models. Together, these findings define a clinically relevant target-high but uptake-defective resistance state and establish altered membrane trafficking as a therapeutic target for overcoming ADC therapy failure in cancer.",
+        "authors": [
+          "Yuzhao Wang",
+          "Zibin Chen",
+          "Weikai Wang",
+          "Lijuan Jiang",
+          "Xiaoyu Liang"
+        ],
+        "journal": "Cancer cell",
+        "date": "2026-05-21",
+        "keywords": [
+          "NECTIN4",
+          "antibody-drug conjugates",
+          "antibody-drug conjugates therapy resistance",
+          "drug internalization",
+          "endocytosis",
+          "enfortumab vedotin",
+          "extracellular vesicles",
+          "immunotherapy",
+          "therapeutic resistance",
+          "urothelial carcinoma"
+        ],
+        "companies": [],
+        "title_cn": "Endocytic evasion confers resistance to antibody-drug conjugates therapy in cancer.",
+        "abstract_cn": "Enfortumab vedotin , NECTIN4-targeting antibody-drug conjugate, shown substantial efficacy urothelial carcinoma, primary acquired resistance remain major barriers durable benefit. By integrating paired spatial transcriptomic profiling tumors collected before after NECTIN4-抗体偶联药物 plus anti-PD1 therapy with humanized 小鼠模型s, single-cell sequencing, resistant cell systems, mapped tumor-state remodeling during 抗体偶联药物 resistance identified resistant tumor-cell population with increased NECTIN4 expression defective 抗体偶联药物 uptake. Mechanistically, AKR1C1 binds NECTIN4 impairs AP2M1-dependent clathrin-mediated internalization NECTIN4-抗体偶联药物, while AKR1C1-WWP2 axis promotes extracellular vesicle-mediated 抗体偶联药物 export clearance, thereby reducing intracellular payload accumulation. Pharmacologic inhibition AKR1C1 restores 抗体偶联药物 uptake, increases payload delivery, enhances therapeutic sensitivity preclinical models. Together, these findings define clinically relevant target-high uptake-defective resistance state establish altered membrane trafficking therapeutic target overcoming 抗体偶联药物 therapy failure cancer.",
+        "summary_cn": "【研究基础与实验设计】研究针对：膀胱癌/尿路上皮癌；模型：小鼠模型；核心技术：抗体偶联药物(ADC)、RNA-seq转录组测序；研究层级：临床前研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：抑制作用, 促进作用, 调控作用, 疾病模型建立。\n【机制创新与产业价值】发表期刊：Cancer cell。\n【后续追踪要点】新药研发。",
+        "backfilled_from_news": "AKR1C1 Promotes ADC Resistance by Altering Uptake and Export.",
+        "composite_score": 7.77,
+        "relevance_score": 6.0,
+        "impact_factor": 48.8,
+        "top_tier": true
+      },
+      {
         "pmid": "42249527",
         "title": "\"Outstanding\" ADC Candidates Emerge for SCLC, Other Cancers.",
         "abstract": "The treatment arsenal for small cell lung cancer could soon include antibody-drug conjugates, with early data from three phase I studies indicating robust response rates to CD56-targeting DXC006, DLL-3-targeting BL-M14D1, and B7-H3-targeting SYS6043. The latter also appears active in other tumor types, including ovarian and breast cancers. As well, phase II findings on a fourth ADC candidate, HER2-targeting trastuzumab brengitecan, suggest its strong efficacy in platinum-resistant ovarian cancer.",
@@ -1437,37 +1500,6 @@
         "relevance_score": 11.0,
         "impact_factor": null,
         "top_tier": false
-      },
-      {
-        "pmid": "42544919",
-        "title": "Developing next-generation antibody-drug conjugates for breast cancer drug delivery: hurdles and advances in the clinic.",
-        "abstract": "INTRODUCTION: Breast cancer remains a leading cause of mortality among women worldwide, with diagnoses projected to reach 3.5 million annually by 2050. Therapeutic progress is hindered by marked molecular heterogeneity and distinct biological and clinical subtypes. Antibody - drug conjugates (ADCs) have emerged as a promising strategy for treatment‑resistant disease, combining targeted delivery with potent cytotoxic payloads. AREAS COVERED: This review synthesizes literature spanning 1990-2026 on advances in ADC design and their clinical and translational implementation in breast cancer. Primary research articles were then inputted into Research Rabbit to identify additional original research articles and maximize data retrieval. EXPERT OPINION: The success of ADCs is limited less by payload potency than by delivery biology. Efficacy depends on patient context, tumor site - specific factors, and bystander effects in antigen‑heterogeneous environments. However, current development often overlooks systemic antigen sinks, metastatic microenvironments, and evolving resistance. Future progress requires reframing antigen selection as a system‑level challenge, supported by delivery‑focused engineering and adaptive trial design. Traditional ADCs rely on a narrow range of tumor antigens and payloads, restricting therapeutic index and applicability. Future progress requires reframing antigen selection as a system-level challenge, supported by delivery-focused engineering, precision-medicine-driven trial design, and adaptive methodology.",
-        "authors": [
-          "Callum Chapman",
-          "Anthony Cheung",
-          "Georgina B Armstrong",
-          "Sophia N Karagiannis",
-          "Zahra Rattray"
-        ],
-        "journal": "Expert opinion on drug delivery",
-        "date": "2026-08-03",
-        "keywords": [
-          "Antibody-drug conjugates",
-          "breast cancer",
-          "clinical trials",
-          "cytotoxics",
-          "drug delivery",
-          "new modalities",
-          "tumor associated antigens"
-        ],
-        "companies": [],
-        "title_cn": "Developing next-generation antibody-drug conjugates for breast cancer drug delivery: hurdles and advances in the clinic.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：乳腺癌；核心技术：抗体偶联药物(ADC)；研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：鉴定/表征, 有效性验证, 表达水平变化。\n【机制创新与产业价值】发表期刊：Expert opinion on drug delivery。\n【后续追踪要点】新药研发。",
-        "composite_score": 7.28,
-        "relevance_score": 9.5,
-        "impact_factor": 5.0,
-        "top_tier": false
       }
     ],
     "glp1": [
@@ -1513,6 +1545,30 @@
         "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】表型：睡眠/昼夜节律异常；核心发现：调控作用。\n【机制创新与产业价值】发表期刊：The lancet. Diabetes & endocrinology。\n【后续追踪要点】长期疗效评估。",
         "composite_score": 11.51,
         "relevance_score": 13.0,
+        "impact_factor": 44.0,
+        "top_tier": true
+      },
+      {
+        "pmid": "42009015",
+        "title": "Efficacy and safety of co-administered cagrilintide and semaglutide versus semaglutide alone in adults with overweight or obesity with or without type 2 diabetes in Japan and Taiwan (REDEFINE 5): a multicentre, randomised, active-controlled, phase 3a trial.",
+        "abstract": "BACKGROUND: The combination of cagrilintide and semaglutide has been shown in global studies to induce reductions in bodyweight. We assessed the efficacy and safety of a fixed-dose combination of cagrilintide 2·4 mg and semaglutide 2·4 mg versus semaglutide 2·4 mg for weight management in an east Asian population. METHODS: This double-blind, parallel-group, phase 3a trial (REDEFINE 5) was conducted across 21 sites (community, hospital) in Japan and one site in Taiwan. We included participants aged at least 18 years with a BMI of at least 27 kg/m2 and at least two obesity-related complications, or with a BMI of at least 35 kg/m2 and at least one obesity-related complication (per the Japan Society for the Study of Obesity guidelines), with or without type 2 diabetes. Participants were randomly assigned (1:1) to once-weekly subcutaneous injections of cagrilintide-semaglutide or semaglutide (both escalated to 2·4 mg), plus lifestyle intervention, for 68 weeks. Randomisation was done centrally using an interactive web response system and stratified according to planned CT scan, BMI of at least 35 kg/m2, and type 2 diabetes status. Participants, site staff, investigators, and study funder were all masked to active study treatments. The primary endpoint was relative change in bodyweight from baseline to week 68. Efficacy analyses were done in all participants who underwent randomisation, using the trial product estimand (ie, assuming the treatment was taken as intended, regardless of dose) as the primary estimand. Missing data at week 68 were imputed. Safety analyses were done in all participants who underwent randomisation and received at least one dose of trial product. This trial is registered with ClinicalTrials.gov (NCT05813925) and is complete. FINDINGS: Between April 3, 2023, and Sept 15, 2023, we screened 355 individuals; 331 were randomly assigned to cagrilintide-semaglutide (n=164) or semaglutide (n=167). 226 (68%) participants were male and 105 (32%) were female; 80 (24%) had type 2 diabetes. 17 (10%) participants discontinued cagrilintide-semaglutide and ten (6%) discontinued semaglutide. The estimated mean change in bodyweight from baseline to week 68 was -18·4% (SE 0·7) in the cagrilintide-semaglutide group versus -11·9% (0·7) in the semaglutide group (estimated treatment difference [ETD] -6·5 percentage points [95% CI -8·4 to -4·6]; p<0·0001). Adverse events were reported by 143 (87%) of 164 participants in the cagrilintide-semaglutide group and 141 (84%) of 167 in the semaglutide group, the most common of which were gastrointestinal disorders (87 [53%] of 164 participants in the cagrilintide-semaglutide group vs 85 [51%] of 167 in the semaglutide group). One death was reported in the semaglutide 2·4 mg group, which was not judged to be treatment related by the investigator. INTERPRETATION: These findings support the efficacy and safety of cagrilintide-semaglutide for weight management in individuals from east Asia with overweight or obesity, with or without type 2 diabetes. FUNDING: Novo Nordisk. TRANSLATIONS: For the Japanese and Mandarin translations of the abstract see Supplementary Materials section.",
+        "authors": [
+          "Toshimasa Yamauchi",
+          "Niels-Peter Becker",
+          "Christoffer Andersen Hagemann",
+          "Kuo-Chin Huang",
+          "Arihiro Kiyosue"
+        ],
+        "journal": "The lancet. Diabetes & endocrinology",
+        "date": "2026-04-17",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Efficacy and safety of co-administered cagrilintide and semaglutide versus semaglutide alone in adults with overweight or obesity with or without type 2 diabetes in Japan and Taiwan (REDEFINE 5): a multicentre, randomised, active-controlled, phase 3a trial.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：III期临床试验。\n【核心实验关键数据】量化数据：68%, 32%, 24%；核心发现：促进作用, 安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The lancet. Diabetes & endocrinology。\n【后续追踪要点】安全性监测。",
+        "backfilled_from_news": "Cagrilintide-semaglutide: a new option for patients with type 2 diabetes.",
+        "composite_score": 9.58,
+        "relevance_score": 9.5,
         "impact_factor": 44.0,
         "top_tier": true
       },
@@ -1687,29 +1743,6 @@
         "composite_score": 5.88,
         "relevance_score": 2.5,
         "impact_factor": 63.1,
-        "top_tier": true
-      },
-      {
-        "pmid": "42551408",
-        "title": "Decoding neural signals to build metabolic therapies.",
-        "abstract": "Ongoing research points to neural circuits as the major targets for the incretin-mimetic drugs that are transforming obesity treatment. In this Voices piece, we asked researchers to discuss their work on how central and peripheral pathways influence energy balance and metabolism, and what next steps are needed to therapeutically target these pathways.",
-        "authors": [
-          "Tune H Pers",
-          "Amber L Alhadeff",
-          "Martin G Myers",
-          "Alice E Adriaenssens",
-          "Henning Fenselau"
-        ],
-        "journal": "Cell metabolism",
-        "date": "",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Decoding neural signals to build metabolic therapies.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】核心发现：有效性验证。\n【机制创新与产业价值】发表期刊：Cell metabolism。\n【后续追踪要点】新药研发。",
-        "composite_score": 4.94,
-        "relevance_score": 2.0,
-        "impact_factor": 27.7,
         "top_tier": true
       }
     ],
@@ -1956,25 +1989,32 @@
         "top_tier": false
       },
       {
-        "pmid": "42552843",
-        "title": "Differential modulation of exhausted Th1 cell migration by immune checkpoint blockade: insights from 3D microfluidic and in vivo PDX platforms.",
-        "abstract": "Effective anti-tumor immunity is critically dependent on the functional capacity and robust infiltration of type-1 helper T (Th1) cells into the tumor microenvironment (TME). However, persistent antigenic stimulation leads to T cell exhaustion, determining the efficacy of immunotherapy approaches such as immune checkpoint inhibitors (ICIs). A key barrier to successful immunotherapy therapy remains the impaired motility and infiltration of exhausted T cells. To address this, we investigated the dual impact of anti-PD-1 and anti-CTLA-4 blockade on the migratory efficacy of ex vivo generated exhausted Th1 (Th1-Ex) cells. Recognizing the limitations of 2D culture, we utilized a 3D microfluidic (lab-on-a-chip) platform to simulate the TME's complex physical and chemical constraints, alongside in vivo patient-derived xenograft (PDX) models. While ICI treatment did not alter static adhesion, it distinctly modulated focal adhesion dynamics. Critically, in the highly relevant 3D microfluidic environment, ICI-treated Th1-Ex cells exhibited significantly enhanced motility and directional persistence compared to untreated cells. Mechanistically, anti-PD-1/CTLA-4 treatment activated signalling pathways associated with both amoeboid and mesenchymal-like migration, but functional inhibition identified RAC1-dependent mesenchymal-like migration as the predominant contributor to the enhanced migratory response. These results were strongly corroborated in vivo, where the anti-PD-1/CTLA-4 combination conferred remarkable and selective tumor and lymph node infiltration capacity to the adoptively transferred Th1-Ex cells. Collectively, our findings highlight a dual role for ICIs on restoring Th1 cell functionality and actively promoting tumor-directed migration by altering adhesion-migration pathways, offering novel mechanistic insights for optimizing immunotherapies in solid tumors.",
+        "pmid": "42349316",
+        "title": "PD-1/PD-L1 immune checkpoint inhibitors in Hodgkin lymphoma: A meta- and network meta-analysis.",
+        "abstract": "BACKGROUND: Hodgkin lymphoma (HL) is a relatively rare lymphoid malignancy that significantly affects the health of adolescents, young adults and the elderly. Even though conventional chemotherapy offers high cure rates, the relapsed/refractory HL remains challenging. METHODS: Pooled single-arm and network meta-analyses were used. Literature search was conducted in PubMed, Embase, Web of Science, the Cochrane Library and Clinical Trials, et al., from the date of establishment dates to August 31, 2025. Studies were screened based on inclusion and exclusion criteria. The primary outcome analyzed was complete response rate (CRR), partial response rate (PRR), and objective response rate (ORR). RESULTS: 11 single-arm trials and five controlled trials, involving 1602 participants and seven ICI-based treatment strategies were included. The meta-analysis revealed an overall CRR of 0.35, a PRR of 0.37, and an ORR of 0.75 across all therapy methods. Of these, one ICI drug in combination with conventional therapy demonstrated the highest CRR and ORR, while camrelizumab achieved the highest PRR. The treatment strategies with the highest CRR in network meta-analysis was the combination of two ICI drugs. The strategies with the highest PRR were camrelizumab, a single ICI drug, while the strategies with the highest ORR was a single ICI drug combined with conventional therapy. CONCLUSION: This study suggests that camrelizumab is associated with an improved PRR for HL, whereas, combination strategy of two ICI drugs, and that one of pembrolizumab and camrelizumab combined with conventional chemoradiotherapy are more effective for elevating the CRR and ORR respectively.",
         "authors": [
-          "Utku Horzum",
-          "Hamdullah Yanik",
-          "Ece Tavukcuoglu",
-          "Ekim Zihni Taskiran",
-          "Suleyman Can Ozturk"
+          "Tingxi Zhu",
+          "Zhongyu Liu",
+          "Huan Sun",
+          "Tianchi Lin",
+          "Zhe Lu"
         ],
-        "journal": "Lab on a chip",
-        "date": "2026-08-05",
-        "keywords": [],
+        "journal": "Translational oncology",
+        "date": "2026-06-25",
+        "keywords": [
+          "Camrelizumab",
+          "Hodgkin lymphoma",
+          "Network meta-analysis",
+          "PD-1/PD-L1 immune checkpoint inhibitors",
+          "Pembrolizumab"
+        ],
         "companies": [],
-        "title_cn": "Differential modulation of exhausted Th1 cell migration by immune checkpoint blockade: insights from 3D microfluidic and in vivo PDX platforms.",
+        "title_cn": "PD-1/PD-L1 immune checkpoint inhibitors in Hodgkin lymphoma: A meta- and network meta-analysis.",
         "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】模型：患者来源异种移植模型(PDX)；研究层级：动物体内实验。\n【核心实验关键数据】表型：肿瘤发生, 迁移/侵袭/转移；核心发现：首次发现/鉴定, 抑制作用, 促进作用, 调控作用；局限性：存在实验局限性。\n【机制创新与产业价值】信号通路：免疫检查点通路；发表期刊：Lab on a chip。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 10.7,
-        "relevance_score": 17.0,
+        "summary_cn": "【研究基础与实验设计】研究针对：淋巴瘤；研究层级：基础研究。\n【核心实验关键数据】核心发现：抑制作用, 有效性验证。\n【机制创新与产业价值】信号通路：免疫检查点通路；发表期刊：Translational oncology。\n【后续追踪要点】临床试验。",
+        "backfilled_from_news": "One axis, two skeletal fates - PD-L1 blockade spares bone where PD-1 blockade do",
+        "composite_score": 10.97,
+        "relevance_score": 17.5,
         "impact_factor": null,
         "top_tier": false
       }
