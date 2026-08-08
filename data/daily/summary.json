@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-09T07:03:14.860665",
+  "timestamp": "2026-08-09T07:21:25.466157",
   "critical": {
     "deals": [
       {
@@ -53,16 +53,6 @@
       }
     ],
     "research": [
-      {
-        "title": "Effect of semaglutide on kidney outcomes in the SELECT, FLOW, and SOUL trials: a prespecified pooled analysis.",
-        "journal": "The lancet. Diabetes & endocrinology",
-        "date": "2026-08-07",
-        "authors": [
-          "Johannes F E Mann",
-          "Sunil V Badve",
-          "Florian M M Baeres"
-        ]
-      },
       {
         "title": "Talquetamab in patients with relapsed/refractory multiple myeloma: 3-year follow-up of the phase 1/2 MonumenTAL-1 study.",
         "journal": "Blood",
@@ -164,6 +154,16 @@
         ]
       },
       {
+        "title": "Nutritional, functional, and psychological considerations for incretin-based therapies in adults-an EASO, EFAD, and ECPO Consensus Statement.",
+        "journal": "The lancet. Diabetes & endocrinology",
+        "date": "2026-07-08",
+        "authors": [
+          "Laurence J Dobbie",
+          "Liisa Tolvanen",
+          "Daniela Alves"
+        ]
+      },
+      {
         "title": "1-year outcomes of semaglutide, tirzepatide, and sleeve gastrectomy in obesity in type 2 diabetes: a retrospective cohort study.",
         "journal": "The lancet. Diabetes & endocrinology",
         "date": "2026-06-17",
@@ -174,13 +174,13 @@
         ]
       },
       {
-        "title": "Cagrilintide-semaglutide (CagriSema) versus semaglutide or cagrilintide in people with type 2 diabetes (REIMAGINE 2): a double-blind, randomised, controlled, phase 3 study.",
+        "title": "Beyond weight loss: multisystem benefits of obesity medications.",
         "journal": "The lancet. Diabetes & endocrinology",
-        "date": "2026-06-07",
+        "date": "2026-05-28",
         "authors": [
-          "John B Buse",
-          "Harpreet S Bajaj",
-          "Stine-Mathilde Dalskov"
+          "Mesut Savas",
+          "Susanne Kuckuck",
+          "Mariëtte R Boon"
         ]
       },
       {
@@ -191,6 +191,36 @@
           "James E Hoffman",
           "Naresh Bumma",
           "Joshua Richter"
+        ]
+      },
+      {
+        "title": "Ionizable Lipid-Dependent Optimization of Steroid Lipid Nanoparticles With Tunable Immunomodulatory Properties.",
+        "journal": "Advanced materials (Deerfield Beach, Fla.)",
+        "date": "2026 Aug 6",
+        "authors": [
+          "Thatte AS",
+          "Nachod BE",
+          "Baena J"
+        ]
+      },
+      {
+        "title": "Engineered lipid nanoparticles for in vivo and durable editing of haematopoietic stem cells within humanized mice.",
+        "journal": "Nature biomedical engineering",
+        "date": "2026 Aug 5",
+        "authors": [
+          "Du J",
+          "Luo Z",
+          "Xie D"
+        ]
+      },
+      {
+        "title": "Targeted mRNA Delivery Using Bispecific Antibody-Lipid Nanoparticle Complexes.",
+        "journal": "Molecular pharmaceutics",
+        "date": "2026 Aug 3",
+        "authors": [
+          "Hickey JC",
+          "Roach T",
+          "Cassaidy B"
         ]
       },
       {
@@ -276,6 +306,30 @@
         "top_tier": true
       },
       {
+        "pmid": "42253238",
+        "title": "Survodutide Once Weekly for the Treatment of Adults with Obesity.",
+        "abstract": "BACKGROUND: Although medications with glucagon-like peptide-1 (GLP-1) receptor agonist activity have transformed the management of obesity and shown substantial cardiometabolic benefits, unmet needs remain. Survodutide, an investigational glucagon receptor-GLP-1 receptor dual agonist, led to substantial weight reduction in a phase 2 trial involving adults with obesity without diabetes. METHODS: In this phase 3, double-blind trial, we randomly assigned adults with a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or higher, or 27 or higher with at least one obesity-related complication (excluding diabetes), in a 1:1:1 ratio to receive once-weekly survodutide administered subcutaneously at a dose adjusted up to 3.6 mg or 6.0 mg or placebo, in addition to counseling for lifestyle modification. The two primary end points were the percent change in body weight and a reduction in body weight of at least 5% from baseline to week 76. The primary efficacy analysis was conducted according to the treatment-regimen estimand, which incorporates the effects of any early discontinuation of survodutide or placebo, the use of protocol-prohibited obesity medications, and a prolonged dose-escalation period. RESULTS: Among 725 participants (241 in the 3.6-mg survodutide group, 242 in the 6.0-mg survodutide group, and 242 in the placebo group), the mean age was 47.1 years; 294 participants (40.6%) were men. At baseline, the mean BMI was 37.9, and the mean body weight was 108.8 kg. At week 76, the mean change in body weight from baseline according to the treatment-regimen estimand was -12.2% (95% confidence interval [CI], -13.6 to -10.8) in the 3.6-mg group, -13.0% (95% CI, -14.4 to -11.6) in the 6.0-mg group, and -5.4% (95% CI, -6.9 to -4.0) in the placebo group; 72.6%, 71.9% and 46.3% of the participants, respectively, had weight reduction of at least 5% (P<0.001 for all comparisons with placebo). The most common adverse events were gastrointestinal symptoms (typically mild to moderate), which occurred in 80.9% of the participants in the 3.6-mg group, in 89.7% of those in the 6.0-mg group, and in 47.9% of those in the placebo group. No deaths were reported. CONCLUSIONS: Survodutide led to significantly greater reductions in body weight than placebo in adults with obesity without diabetes. (Funded by Boehringer Ingelheim; SYNCHRONIZE-1 ClinicalTrials.gov number, NCT06066515.).",
+        "authors": [
+          "Carel W le Roux",
+          "Sean Wharton",
+          "Elena Startseva",
+          "Isabel M Kloer",
+          "Samina Ajaz Hussain"
+        ],
+        "journal": "The New England journal of medicine",
+        "date": "2026-06-07",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Survodutide Once Weekly for the Treatment of Adults with Obesity.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：III期临床试验。\n【核心实验关键数据】量化数据：5%, 40.6%, 12.2%；核心发现：安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The New England journal of medicine。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "GLP-1 Gene Therapy Trial for Obesity and Type 2 Diabetes: Toward a New Paradigm ",
+        "composite_score": 6.15,
+        "relevance_score": 3.0,
+        "impact_factor": 96.2,
+        "top_tier": true
+      },
+      {
         "pmid": "42557300",
         "title": "Engineered lipid nanoparticles for in vivo and durable editing of haematopoietic stem cells within humanized mice.",
         "abstract": "In vivo genetic engineering of haematopoietic stem and progenitor cells (HSPCs) holds the potential to revolutionize the treatment landscape for numerous diseases. However, despite its transformative potential, it remains hindered by the difficulty in efficiently and specifically targeting quiescent human HSCs while maintaining their long-term functionality. Here, after screening 15 lipid nanoparticles (LNPs), we report an LNP that efficiently delivers reporter mRNA to human HSPCs both in ex vivo and in vivo settings when conjugated with the anti-CD34 antibody (CD34/LNPDP). Using CRISPR/Cas editing cargos, CD34/LNPDP achieves high editing efficiency in human HSPCs ex vivo. Intrafemoral administration of CD34/LNPDP in humanized mice results in efficient editing of the erythroid-specific BCL11A enhancer within human HSPCs, enabling the sustained long-term reactivation of fetal haemoglobin (HbF) expression in erythroid cells. In a humanized neutropaenia model harbouring an ELANE mutation, intrafemoral administration of CD34/LNPDP achieves robust editing, targeting exon 2 of ELANE in human HSPCs, partially restoring neutrophil development impairment under long-term observation. Collectively, CD34-targeted delivery enables in vivo HSPC modification without perturbing haematopoiesis, underscoring its suitability for clinical translation.",
@@ -319,6 +373,30 @@
         "composite_score": 5.57,
         "relevance_score": 2.0,
         "impact_factor": 48.5,
+        "top_tier": true
+      },
+      {
+        "pmid": "42120723",
+        "title": "Orforglipron for maintenance of body weight reduction: the double-blind, randomized phase 3b ATTAIN-MAINTAIN trial.",
+        "abstract": "Incretins have improved the management of obesity and its related complications, but maintaining these health benefits requires ongoing administration, which can be challenging. Orforglipron, a once-daily oral nonpeptide glucagon-like peptide-1 (GLP-1) receptor agonist, has demonstrated weight loss efficacy, improvements in cardiometabolic risk factors, and safety generally similar to injectable GLP-1 receptor agonists. Here this double-blind, placebo-controlled trial randomized participants previously treated with tirzepatide (cohort 1: N = 205) or semaglutide (cohort 2: N = 171) during the SURMOUNT-5 study to orforglipron once daily or placebo. Cohort 1 participants who achieved body weight plateau maintained a model-based estimate (MBE) of 74.7% (s.e.m. 4.05) of body weight reduction with orforglipron compared with an MBE of 49.2% (s.e.m. 3.92) with placebo, resulting in an estimated treatment difference of MBE 25.5% (95% confidence interval 14.5 to 36.5); P < 0.001; treatment-regimen estimand) at week 52. Cohort 2 participants who achieved body weight plateau maintained an MBE of 79.3% (s.e.m. 4.42) of body weight reduction with orforglipron compared with an MBE of 37.6% (s.e.m. 7.46) with placebo, resulting in an estimated treatment difference of MBE 41.7 (95% confidence interval 24.4 to 59.0); P < 0.001; treatment-regimen estimand) at week 52. All key secondary endpoints were met. The most common adverse events were gastrointestinal effects, which were mostly mild to moderate in severity. These data demonstrate orforglipron's potential as a globally scalable option for minimizing weight changes after injectable therapy. Trial limitations include the absence of a comparator arm involving continued use of injectable obesity-management medications and the trial's 1-year duration. ClinicalTrials.gov registration: NCT06584916 .",
+        "authors": [
+          "Louis J Aronne",
+          "Deborah B Horn",
+          "Carel W le Roux",
+          "Ariana M Chao",
+          "Wayne Ho"
+        ],
+        "journal": "Nature medicine",
+        "date": "2026-05-13",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Orforglipron for maintenance of body weight reduction: the double-blind, randomized phase 3b ATTAIN-MAINTAIN trial.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：III期临床试验。\n【核心实验关键数据】量化数据：74.7%, 49.2%, 25.5%；核心发现：疾病模型建立, 安全性评估, 有效性验证；关键突破：提高疗效；局限性：存在实验局限性。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Nature medicine。\n【后续追踪要点】安全性监测。",
+        "backfilled_from_news": "GLP-1 Gene Therapy Trial for Obesity and Type 2 Diabetes: Toward a New Paradigm ",
+        "composite_score": 5.33,
+        "relevance_score": 1.5,
+        "impact_factor": 58.7,
         "top_tier": true
       },
       {
@@ -432,6 +510,63 @@
         "summary_cn": "【研究基础与实验设计】研究针对：结直肠癌；核心技术：碱基编辑(CBE/ABE)、先导编辑；研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生, 耐药性；核心发现：首次发现/鉴定, 鉴定/表征, 抑制作用, 促进作用；关键突破：提高疗效；局限性：存在实验局限性。\n【机制创新与产业价值】临床痛点：治疗耐药；发表期刊：Cancer treatment and research communications。\n【后续追踪要点】新药研发。",
         "composite_score": 12.62,
         "relevance_score": 20.5,
+        "impact_factor": null,
+        "top_tier": false
+      },
+      {
+        "pmid": "42045650",
+        "title": "Molecular mechanisms and biotechnology applications of CRISPR-Cas12a.",
+        "abstract": "CRISPR-Cas12a is a versatile RNA-guided nuclease that has rapidly gained prominence for its dual functionality in genome editing and nucleic acid detection. In this Review, we discuss the structural, biochemical and mechanistic features of Cas12a that underpin its autonomous processing of the guide RNA and indiscriminate cleavage of single-stranded DNA, which enable Cas12a applications ranging from gene therapy to rapid diagnostics. We discuss key allosteric regulators and functional modules that orchestrate Cas12a activity, focusing on the core regulatory structural elements that control maturation of the guide RNA, target specificity, and both cis-cleavage and trans-cleavage activities, including the determinants of off-target cleavage. We provide a comparative analysis of Cas12a and the widely used Cas9, which further illuminates the distinctive attributes of Cas12a, and discuss recent advances in the characterization of its orthologues and in the development of engineered variants that expand its capabilities. Collectively, we present a comprehensive understanding of Cas12a and its increasing impact on biotechnology, therapeutics and molecular diagnostics.",
+        "authors": [
+          "Aakash Saha",
+          "Rodrigo Fregoso Ocampo",
+          "Jacquelyn T Wright",
+          "David W Taylor",
+          "Giulia Palermo"
+        ],
+        "journal": "Nature reviews. Molecular cell biology",
+        "date": "2026-04-27",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Molecular mechanisms and biotechnology applications of CRISPR-Cas12a.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】核心技术：Cas9核酸酶、基因治疗/病毒载体；研究层级：基础研究。\n【核心实验关键数据】核心发现：调控作用。\n【机制创新与产业价值】发表期刊：Nature reviews. Molecular cell biology。\n【后续追踪要点】新药研发；基因/细胞治疗。",
+        "backfilled_from_news": "CRISPR-Cas12a Gene Editing of HBG1 and HBG2 Promoters to Treat β-Thalassemia.",
+        "composite_score": 10.55,
+        "relevance_score": 11.0,
+        "impact_factor": 81.3,
+        "top_tier": false
+      },
+      {
+        "pmid": "42173386",
+        "title": "Emerging frontiers in genome editing: From CRISPR to next-generation technologies.",
+        "abstract": "Genome editing has revolutionized molecular biology. It offers precise modification of genetic material across diverse organisms. This review outlines the evolution of genome editing technologies from homologous recombination to advanced Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)-associated protein 9 (CRISPR-9) based systems that now dominate the field. Early methods, such as Zinc Finger Nucleases (ZFNs) and Transcription Activator-Like Effector Nucleases (TALENs), established the foundation for site-specific DNA cleavage. However, they were limited by complexity and cost. The advent of the CRISPR-Cas systems, particularly CRISPR-Cas9, transformed the landscape due to their simplicity, high efficiency, and adaptability. Variants such as CRISPR-Cas12a, base editors, and prime editors enhanced editing precision. They enable single-nucleotide modifications and targeted insertions without double-strand breaks. Emerging tools such as CRISPR-associated transposases, recombinase fusions, and RNA-targeting Cas13 enzymes expand the scope of manipulation beyond DNA to RNA. At the same time, epigenome editing, and gene drives present new therapeutic and ecological applications. Efficient delivery systems, both viral (Adeno-Associated Virus (AAV), lentivirus, adenovirus) and non-viral (lipid nanoparticles, gold nanoparticles, DNA nano clews), remain critical for clinical translation. Future directions emphasize artificial intelligence-guided design, retroelement-based integration, and novel biomimetic delivery vehicles to overcome current efficiency and safety barriers. These innovations can help overcome current efficiency and safety barriers. Together, they are propelling genome editing toward precise, programmable, and ethically responsible therapeutic applications. Despite unresolved challenges involving off-target effects, immunogenicity, and germline ethics, genome editing redefines biomedical research, drug development, and disease correction. CRISPR-derived technologies now stand at the forefront of next-generation genetic medicine.",
+        "authors": [
+          "Saurabh Mishra",
+          "Samrah Rehan",
+          "Ahmad Mujtaba Barekzai",
+          "Ambika Sharma",
+          "Alok Raghav"
+        ],
+        "journal": "Methods (San Diego, Calif.)",
+        "date": "2026-05-21",
+        "keywords": [
+          "Base editing",
+          "CRISPR–Cas systems",
+          "Delivery systems",
+          "Epigenome editing",
+          "Gene therapy",
+          "Genome editing",
+          "Prime editing",
+          "Transposases"
+        ],
+        "companies": [],
+        "title_cn": "Emerging frontiers in genome editing: From CRISPR to next-generation technologies.",
+        "abstract_cn": "Genome editing revolutionized molecular biology. It offers precise modification genetic material across diverse organisms. This review outlines evolution genome editing technologies from homologous recombination advanced Clustered Regularly Interspaced Short Palindromic Repeats -associated protein 9 based systems that dominate field. Early methods, such Zinc Finger Nucleases Transcription Activator-Like Effector Nucleases , established foundation site-specific cleavage. However, they were limited complexity cost. The advent CRISPR基因编辑-Cas systems, particularly CRISPR基因编辑-Cas9, transformed landscape their simplicity, high efficiency, adaptability. Variants such CRISPR基因编辑-Cas12a, base editors, prime editors enhanced editing precision. They enable single-nucleotide modifications targeted insertions without double-strand breaks. Emerging tools such CRISPR基因编辑-associated transposases, recombinase fusions, -targeting Cas13 enzymes expand scope manipulation beyond . At same time, epigenome editing, gene drives present therapeutic ecological applications. Efficient delivery systems, both viral , lentivirus, adenovirus) -viral , remain critical clinical translation. Future directions emphasize artificial intelligence-guided design, retroelement-based integration, novel biomimetic delivery vehicles overcome current efficiency safety barriers. These innovations help overcome current efficiency safety barriers. Together, they propelling genome editing toward precise, programmable, ethically responsible therapeutic applications. Despite unresolved challenges involving -target effects, immunogenicity, germline ethics, genome editing redefines biomedical research, drug development, disease correction. CRISPR基因编辑-derived technologies stand forefront next-generation genetic medicine.",
+        "summary_cn": "【研究基础与实验设计】核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：基础研究。\n【核心实验关键数据】核心发现：首次发现/鉴定, 促进作用, 安全性评估, 结合/相互作用；关键突破：克服耐药, 提高疗效。\n【机制创新与产业价值】发表期刊：Methods (San Diego, Calif.)。\n【后续追踪要点】新药研发；安全性监测。",
+        "backfilled_from_news": "CRISPR-Cas12a Gene Editing of HBG1 and HBG2 Promoters to Treat β-Thalassemia.",
+        "composite_score": 10.15,
+        "relevance_score": 16.0,
         "impact_factor": null,
         "top_tier": false
       },
@@ -575,113 +710,6 @@
         "composite_score": 8.26,
         "relevance_score": 8.0,
         "impact_factor": 28.1,
-        "top_tier": false
-      },
-      {
-        "pmid": "42166840",
-        "title": "Generation of two iPSC lines carrying two cystic fibrosis rare intronic mutations c.1585-1G>A and c.1680-886A>G in the CFTR gene of the parental line PCIi033-A using CRISPR/Cas tools.",
-        "abstract": "CFTR gene mutations are responsible for Cystic Fibrosis. For half a decade, a triple therapy has been available for patients carrying the most frequent mutation: p.F508del. Among classified mutations, intronic mutations are rare, and no therapeutic strategies have yet been developed for such patients. We genome edited the parental iPSC line PCIi033-A to introduce two intronic mutations: A.s.Cas12a for c.1585-1G>A (PCIi033-A-8) and SpCas9 for c.1680-886A>G (PCIi033-A-9). Both cell lines have normal morphology and karyotype, conserved pluripotency, and differentiate into the three germ layers. Obtaining iPSC-derived mutant lung epithelia would be an efficient tool for testing new therapeutic strategies.",
-        "authors": [
-          "Benjamin Simonneau",
-          "Sandrine Baghdoyan",
-          "Michel Cailleret",
-          "Stéphanie Simon",
-          "Odile Ruckebusch"
-        ],
-        "journal": "Stem cell research",
-        "date": "2026-05-18",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Generation of two iPSC lines carrying two cystic fibrosis rare intronic mutations c.1585-1G>A and c.1680-886A>G in the CFTR gene of the parental line PCIi033-A using CRISPR/Cas tools.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】模型：诱导多能干细胞(iPSC)；研究层级：基础研究。\n【核心实验关键数据】原文未披露详细量化数据。\n【机制创新与产业价值】发表期刊：Stem cell research。\n【后续追踪要点】新药研发。",
-        "composite_score": 7.98,
-        "relevance_score": 7.5,
-        "impact_factor": 28.1,
-        "top_tier": false
-      },
-      {
-        "pmid": "42566814",
-        "title": "Generation of an NKX2-1-EGFP reporter iPSC line with inducible Cas9 for lung progenitor cell tracing.",
-        "abstract": "NK2 homeobox 1 (NKX2-1), a master regulator robustly expressed in lung, thyroid, and forebrain, is indispensable for specifying lung epithelial fate and serves as a definitive marker of lung progenitors. Here, we generated a human induced Pluripotent Stem Cell (iPSC) line harboring a doxycycline (dox)-inducible Cas9 and an NKX2-1-EGFP-puro reporter via CRISPR/Cas9-mediated homology-directed repair. This dual-function line combines inducible genome editing with real-time tracing of early lung progenitors, enabling their prospective isolation and screening for stage-specific maturation regulators. Therefore, this engineered iCas9-NKX2-1 EGFP line is a key resource for dissecting human lung development, modeling pulmonary disease, and advancing regenerative therapies.",
-        "authors": [
-          "Shenglan Wang",
-          "Xing Feng",
-          "Bizhi Shang",
-          "Haiqiong Wang",
-          "Xiao Hu"
-        ],
-        "journal": "Stem cell research",
-        "date": "2026-08-03",
-        "keywords": [],
-        "companies": [
-          "Arbor"
-        ],
-        "title_cn": "Generation of an NKX2-1-EGFP reporter iPSC line with inducible Cas9 for lung progenitor cell tracing.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】模型：诱导多能干细胞(iPSC)；核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 调控作用, 疾病模型建立, 表达水平变化。\n【机制创新与产业价值】发表期刊：Stem cell research。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 7.71,
-        "relevance_score": 7.0,
-        "impact_factor": 28.1,
-        "top_tier": false
-      },
-      {
-        "pmid": "42561795",
-        "title": "Photoactivated liquid-liquid phase separation-based cascade CRISPR/Cas12a electrochemical platform for sensitive small extracellular vesicles detection.",
-        "abstract": "Small extracellular vesicles (sEVs) have emerged as promising liquid biopsy biomarker for gastric cancer (GC) diagnosis. However, profiling sEVs surface proteins in complex clinical matrices remains challenging by limited sensitivity and high background interference. In this study, we developed an electrochemical platform based on the photoactivated liquid-liquid phase separation cascaded Cas12a amplification (PL-cCas12a) for ultrasensitive and specific detection of sEVs surface proteins. The rationally designed system enables precise spatiotemporal control over the reaction. Photoactivation ensures precise reaction initiation. The spatially confined microenvironment accelerate reaction efficiency by local substrates enrichment and suppresses non-specific trans-cleavage leakage via steric hindrance. The PL-cCas12a platform achieved the limit of detection (LOD) as low as 3.95 × 103 particles/μL with negligible background leakage. By integrating the aptamers targeting GC-associated sEV surface proteins, this platform accurately discriminated GC patients from healthy donors (AUC = 0.912). Therefore, this platform represents a promising tool for non-invasive early cancer diagnosis.",
-        "authors": [
-          "Yiping Zhu",
-          "Shihua Luo",
-          "Min Luo",
-          "Jieyan Liu",
-          "Yuxin Lou"
-        ],
-        "journal": "Talanta",
-        "date": "2026-08-06",
-        "keywords": [
-          "CRISPR/Cas12a",
-          "Cancer screening",
-          "Catalytic hairpin assembly (CHA)",
-          "Liquid-liquid phase separation (LLPS)",
-          "Photoactivation",
-          "Small extracellular vesicles"
-        ],
-        "companies": [],
-        "title_cn": "Photoactivated liquid-liquid phase separation-based cascade CRISPR/Cas12a electrochemical platform for sensitive small extracellular vesicles detection.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：抑制作用, 促进作用, 结合/相互作用。\n【机制创新与产业价值】发表期刊：Talanta。\n【后续追踪要点】伴随诊断。",
-        "composite_score": 7.68,
-        "relevance_score": 11.5,
-        "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42560391",
-        "title": "In vitro CRISPR/Cas9-RNP cleavage of CcYUC1 in Coffea canephora.",
-        "abstract": "An in vitro CRISPR/Cas9-RNP system efficiently cleaves CcYUC1 in Coffea canephora, establishing a foundation for DNA-free genome editing in coffee. Somatic embryogenesis depends on auxin biosynthesis and signaling; however, functional validation of candidate genes remains limited. In this study, we identified CcYUC1, a putative flavin monooxygenase gene associated with indole-3-acetic acid biosynthesis, during SE induction in Coffea canephora. CcYUC1 transcripts accumulated during the early stages of SE, suggesting a role in embryogenic induction. To establish a genome editing platform in coffee, we designed a CRISPR/Cas9 ribonucleoprotein (RNP) system targeting exon 4 of CcYUC1. In vitro cleavage assays confirmed specific and efficient digestion of the target, achieving over 80% cleavage under optimized Cas9/sgRNA conditions. These findings establish a proof-of-concept CRISPR/Cas9-RNP platform for DNA-free genome editing in coffee and provide a basis for future functional studies of auxin biosynthesis during somatic embryogenesis.",
-        "authors": [
-          "Miguel A Uc-Chuc",
-          "Víctor Aguilar-Hernández",
-          "Irma A Jiménez-Ramírez",
-          "Ligia Brito-Argaez",
-          "Víctor M Loyola-Vargas"
-        ],
-        "journal": "Planta",
-        "date": "2026-08-06",
-        "keywords": [
-          "CRISPR–RNP",
-          "Cas9",
-          "Guide RNA",
-          "Indole-3-acetic acid",
-          "YUCCA"
-        ],
-        "companies": [],
-        "title_cn": "In vitro CRISPR/Cas9-RNP cleavage of CcYUC1 in Coffea canephora.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：体外细胞实验。\n【核心实验关键数据】量化数据：80%。\n【机制创新与产业价值】发表期刊：Planta。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 7.4,
-        "relevance_score": 11.0,
-        "impact_factor": null,
         "top_tier": false
       }
     ],
@@ -1236,6 +1264,101 @@
         "top_tier": true
       },
       {
+        "pmid": "42208956",
+        "title": "Beyond weight loss: multisystem benefits of obesity medications.",
+        "abstract": "Obesity is increasingly managed with medications as disease-modifying therapies, reflecting its role as a gateway disease driving metabolic, cardiovascular, reproductive, neuropsychiatric, and mechanical conditions. This Review synthesises evidence from randomised controlled trials and high-quality meta-analyses on approved and late-stage investigational obesity medications, including phentermine-topiramate, naltrexone-bupropion, glucagon-like peptide-1 (GLP-1) receptor agonists (eg, liraglutide, semaglutide, subcutaneously and orally), and newer GLP-1 receptor agonist-based agents (eg, tirzepatide, survodutide, mazdutide, retatrutide, cagrilintide-semaglutide, and amycretin). We evaluated the effects of obesity medications across major obesity-related conditions, including type 2 diabetes, metabolic dysfunction-associated steatotic liver disease, chronic kidney disease, heart failure, cardiovascular disease, obstructive sleep apnoea syndrome, polycystic ovary syndrome (recently named polyendocrine metabolic ovarian syndrome), osteoarthritis, muscle mass, depression, quality of life, and food cravings, along with binge-eating disorders, substance use disorders, and neurodegenerative diseases. Overall, GLP-1-based and multiagonist therapies show beneficial effects across these comorbid conditions. While many benefits of obesity medications are mediated by weight loss, accumulating evidence indicates important weight loss-independent effects, particularly with GLP-1 receptor agonist-based therapies. A broader understanding of these pleiotropic effects is essential to inform personalised obesity management and optimise long-term clinical outcomes.",
+        "authors": [
+          "Mesut Savas",
+          "Susanne Kuckuck",
+          "Mariëtte R Boon",
+          "Elisabeth F C van Rossum"
+        ],
+        "journal": "The lancet. Diabetes & endocrinology",
+        "date": "2026-05-28",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Beyond weight loss: multisystem benefits of obesity medications.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】表型：睡眠/昼夜节律异常；核心发现：调控作用。\n【机制创新与产业价值】发表期刊：The lancet. Diabetes & endocrinology。\n【后续追踪要点】长期疗效评估。",
+        "backfilled_from_news": "Cagrilintide-semaglutide: a new option for patients with type 2 diabetes.",
+        "composite_score": 11.51,
+        "relevance_score": 13.0,
+        "impact_factor": 44.0,
+        "top_tier": true
+      },
+      {
+        "pmid": "42419343",
+        "title": "Nutritional, functional, and psychological considerations for incretin-based therapies in adults-an EASO, EFAD, and ECPO Consensus Statement.",
+        "abstract": "Incretin-based therapies, including GLP-1 receptor agonists and dual GLP-1-GIP receptor agonists, have transformed obesity management, producing substantial weight loss and cardiometabolic benefits, with potential improvements in obesity-related complications, physical function, quality of life, and psychological wellbeing for many individuals. However, reduced appetite, rapid weight loss, gastrointestinal adverse effects, and changes in eating behaviour might create nutritional, functional, or psychological risks in some individuals. This EASO-EFAD-ECPO Consensus Statement outlines pragmatic nutritional, functional, and psychological considerations during incretin-based therapy treatment. We synthesise evidence on medical nutrition therapy, including protein targets during weight loss, dietary quality, and mitigation of gastrointestinal adverse events. We discuss pragmatic approaches that could help support preservation of fat-free mass and physical function during weight loss, including adequate protein intake and progressive resistance exercise. We emphasise the psychological and identity-related challenges during incretin-based therapy, including shifts in food reward, coping, and social connection, and recommend psychological screening, with integrated support where needed. We propose pragmatic monitoring during weight loss, including diet quality, micronutrient risk, and functional measures, with body-composition assessment where indicated. We suggest approaches to address disparities in access and adherence to ensure equity. We discuss the importance of shared decision making with the patient in decisions to start, up-titrate, delay, pause, down-titrate, or discontinue incretin-based therapies, considering the physical and psychological risks of treating versus not treating. Finally, we identify future research priorities, including longitudinal research on micronutrient status, macronutrient requirements, changes in dietary patterns and food choices, musculoskeletal outcomes, unique dosing schedules, and post-cessation maintenance to optimise safety, efficacy, and the patient experience.",
+        "authors": [
+          "Laurence J Dobbie",
+          "Liisa Tolvanen",
+          "Daniela Alves",
+          "Jennifer L Baker",
+          "Natalie S Bez"
+        ],
+        "journal": "The lancet. Diabetes & endocrinology",
+        "date": "2026-07-08",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Nutritional, functional, and psychological considerations for incretin-based therapies in adults-an EASO, EFAD, and ECPO Consensus Statement.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】核心发现：鉴定/表征, 安全性评估, 有效性验证；关键突破：提高疗效。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The lancet. Diabetes & endocrinology。\n【后续追踪要点】安全性监测。",
+        "backfilled_from_news": "Could Incretin-Based Weight Loss Unmask a Modifiable Nociplastic Pain Phenotype?",
+        "composite_score": 9.58,
+        "relevance_score": 9.5,
+        "impact_factor": 44.0,
+        "top_tier": true
+      },
+      {
+        "pmid": "42009015",
+        "title": "Efficacy and safety of co-administered cagrilintide and semaglutide versus semaglutide alone in adults with overweight or obesity with or without type 2 diabetes in Japan and Taiwan (REDEFINE 5): a multicentre, randomised, active-controlled, phase 3a trial.",
+        "abstract": "BACKGROUND: The combination of cagrilintide and semaglutide has been shown in global studies to induce reductions in bodyweight. We assessed the efficacy and safety of a fixed-dose combination of cagrilintide 2·4 mg and semaglutide 2·4 mg versus semaglutide 2·4 mg for weight management in an east Asian population. METHODS: This double-blind, parallel-group, phase 3a trial (REDEFINE 5) was conducted across 21 sites (community, hospital) in Japan and one site in Taiwan. We included participants aged at least 18 years with a BMI of at least 27 kg/m2 and at least two obesity-related complications, or with a BMI of at least 35 kg/m2 and at least one obesity-related complication (per the Japan Society for the Study of Obesity guidelines), with or without type 2 diabetes. Participants were randomly assigned (1:1) to once-weekly subcutaneous injections of cagrilintide-semaglutide or semaglutide (both escalated to 2·4 mg), plus lifestyle intervention, for 68 weeks. Randomisation was done centrally using an interactive web response system and stratified according to planned CT scan, BMI of at least 35 kg/m2, and type 2 diabetes status. Participants, site staff, investigators, and study funder were all masked to active study treatments. The primary endpoint was relative change in bodyweight from baseline to week 68. Efficacy analyses were done in all participants who underwent randomisation, using the trial product estimand (ie, assuming the treatment was taken as intended, regardless of dose) as the primary estimand. Missing data at week 68 were imputed. Safety analyses were done in all participants who underwent randomisation and received at least one dose of trial product. This trial is registered with ClinicalTrials.gov (NCT05813925) and is complete. FINDINGS: Between April 3, 2023, and Sept 15, 2023, we screened 355 individuals; 331 were randomly assigned to cagrilintide-semaglutide (n=164) or semaglutide (n=167). 226 (68%) participants were male and 105 (32%) were female; 80 (24%) had type 2 diabetes. 17 (10%) participants discontinued cagrilintide-semaglutide and ten (6%) discontinued semaglutide. The estimated mean change in bodyweight from baseline to week 68 was -18·4% (SE 0·7) in the cagrilintide-semaglutide group versus -11·9% (0·7) in the semaglutide group (estimated treatment difference [ETD] -6·5 percentage points [95% CI -8·4 to -4·6]; p<0·0001). Adverse events were reported by 143 (87%) of 164 participants in the cagrilintide-semaglutide group and 141 (84%) of 167 in the semaglutide group, the most common of which were gastrointestinal disorders (87 [53%] of 164 participants in the cagrilintide-semaglutide group vs 85 [51%] of 167 in the semaglutide group). One death was reported in the semaglutide 2·4 mg group, which was not judged to be treatment related by the investigator. INTERPRETATION: These findings support the efficacy and safety of cagrilintide-semaglutide for weight management in individuals from east Asia with overweight or obesity, with or without type 2 diabetes. FUNDING: Novo Nordisk. TRANSLATIONS: For the Japanese and Mandarin translations of the abstract see Supplementary Materials section.",
+        "authors": [
+          "Toshimasa Yamauchi",
+          "Niels-Peter Becker",
+          "Christoffer Andersen Hagemann",
+          "Kuo-Chin Huang",
+          "Arihiro Kiyosue"
+        ],
+        "journal": "The lancet. Diabetes & endocrinology",
+        "date": "2026-04-17",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Efficacy and safety of co-administered cagrilintide and semaglutide versus semaglutide alone in adults with overweight or obesity with or without type 2 diabetes in Japan and Taiwan (REDEFINE 5): a multicentre, randomised, active-controlled, phase 3a trial.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：III期临床试验。\n【核心实验关键数据】量化数据：68%, 32%, 24%；核心发现：促进作用, 安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The lancet. Diabetes & endocrinology。\n【后续追踪要点】安全性监测。",
+        "backfilled_from_news": "Cagrilintide-semaglutide: a new option for patients with type 2 diabetes.",
+        "composite_score": 9.58,
+        "relevance_score": 9.5,
+        "impact_factor": 44.0,
+        "top_tier": true
+      },
+      {
+        "pmid": "42253238",
+        "title": "Survodutide Once Weekly for the Treatment of Adults with Obesity.",
+        "abstract": "BACKGROUND: Although medications with glucagon-like peptide-1 (GLP-1) receptor agonist activity have transformed the management of obesity and shown substantial cardiometabolic benefits, unmet needs remain. Survodutide, an investigational glucagon receptor-GLP-1 receptor dual agonist, led to substantial weight reduction in a phase 2 trial involving adults with obesity without diabetes. METHODS: In this phase 3, double-blind trial, we randomly assigned adults with a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or higher, or 27 or higher with at least one obesity-related complication (excluding diabetes), in a 1:1:1 ratio to receive once-weekly survodutide administered subcutaneously at a dose adjusted up to 3.6 mg or 6.0 mg or placebo, in addition to counseling for lifestyle modification. The two primary end points were the percent change in body weight and a reduction in body weight of at least 5% from baseline to week 76. The primary efficacy analysis was conducted according to the treatment-regimen estimand, which incorporates the effects of any early discontinuation of survodutide or placebo, the use of protocol-prohibited obesity medications, and a prolonged dose-escalation period. RESULTS: Among 725 participants (241 in the 3.6-mg survodutide group, 242 in the 6.0-mg survodutide group, and 242 in the placebo group), the mean age was 47.1 years; 294 participants (40.6%) were men. At baseline, the mean BMI was 37.9, and the mean body weight was 108.8 kg. At week 76, the mean change in body weight from baseline according to the treatment-regimen estimand was -12.2% (95% confidence interval [CI], -13.6 to -10.8) in the 3.6-mg group, -13.0% (95% CI, -14.4 to -11.6) in the 6.0-mg group, and -5.4% (95% CI, -6.9 to -4.0) in the placebo group; 72.6%, 71.9% and 46.3% of the participants, respectively, had weight reduction of at least 5% (P<0.001 for all comparisons with placebo). The most common adverse events were gastrointestinal symptoms (typically mild to moderate), which occurred in 80.9% of the participants in the 3.6-mg group, in 89.7% of those in the 6.0-mg group, and in 47.9% of those in the placebo group. No deaths were reported. CONCLUSIONS: Survodutide led to significantly greater reductions in body weight than placebo in adults with obesity without diabetes. (Funded by Boehringer Ingelheim; SYNCHRONIZE-1 ClinicalTrials.gov number, NCT06066515.).",
+        "authors": [
+          "Carel W le Roux",
+          "Sean Wharton",
+          "Elena Startseva",
+          "Isabel M Kloer",
+          "Samina Ajaz Hussain"
+        ],
+        "journal": "The New England journal of medicine",
+        "date": "2026-06-07",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Survodutide Once Weekly for the Treatment of Adults with Obesity.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：III期临床试验。\n【核心实验关键数据】量化数据：5%, 40.6%, 12.2%；核心发现：安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The New England journal of medicine。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "GLP-1 receptor agonists after liver transplant: Early reassurance, unanswered qu",
+        "composite_score": 9.45,
+        "relevance_score": 9.0,
+        "impact_factor": 96.2,
+        "top_tier": true
+      },
+      {
         "pmid": "42567173",
         "title": "Effect of semaglutide on kidney outcomes in the SELECT, FLOW, and SOUL trials: a prespecified pooled analysis.",
         "abstract": "BACKGROUND: The GLP-1 receptor agonist semaglutide reduces clinically important kidney outcomes in people with type 2 diabetes and chronic kidney disease (CKD). We aimed to assess the pooled effects of semaglutide on kidney outcomes in prespecified analyses of participant-level data from the diverse populations of the SELECT, FLOW, and SOUL randomised placebo-controlled trials. METHODS: Participants with CKD (FLOW) or atherosclerotic cardiovascular disease (SELECT and SOUL) were randomly assigned semaglutide (once-weekly subcutaneous 1·0 mg [FLOW], once-weekly subcutaneous 2·4 mg [SELECT], or once-daily oral 14 mg [SOUL]) or matching placebo, added to standard of care. The primary outcome in this pooled analysis was time to first occurrence of a kidney composite, defined as onset of persistent 50% or greater reduction in estimated glomerular filtration rate (eGFR), kidney failure (persistent eGFR <15 mL/min per 1·73 m2, or initiation of kidney replacement therapy), kidney-related death, or cardiovascular-related death. Safety was also assessed. FINDINGS: The pooled participants from the trials (N=30 787) had a mean follow-up of 39·5-47·5 months. Among participants assigned to semaglutide, 973 first events of the primary kidney composite occurred compared with 1134 first events for placebo (hazard ratio [HR] 0·84 [95% CI 0·77-0·91]). First events of a narrower secondary kidney composite (excluding cardiovascular-related death from the primary outcome) were also reduced with semaglutide versus placebo (347 and 416, respectively; 0·80 [0·69-0·92]). Safety outcomes were overall similar between groups, and in line with other GLP-1 receptor agonist trials. Serious adverse events were numberically lower with semaglutide than with placebo. INTERPRETATION: Data pooled from three large phase 3 trials suggest that semaglutide reduces the risk of major kidney outcomes in a broad population with cardio-kidney-metabolic disease while having a favourable risk-benefit profile. In people with cardio-kidney-metabolic disease, with and without diabetes, semaglutide (oral or injected) prevents kidney-related and cardiovascular complications and induces adverse events in line with GLP-1 receptor agonist studies, regardless of baseline characteristics within the cardio-kidney-metabolic spectrum. This was a participant-level analysis conducted in a large database of three randomised controlled trials of similar design and examining the same treatment, but there were some differences in participants' baseline characteristics, and in the dose and route of administration of treatment. This pooled analysis adds evidence for the benefit of GLP-1 receptor agonists in general, and semaglutide in particular, in a broad population of people with cardio-kidney-metabolic disease, suggesting that the benefit of semaglutide might not be explained only by its glycaemic effects, weight-management effects, or both. FUNDING: Novo Nordisk.",
@@ -1353,112 +1476,6 @@
         "relevance_score": 5.0,
         "impact_factor": 27.7,
         "top_tier": true
-      },
-      {
-        "pmid": "42335894",
-        "title": "Methionine-supplemented longevity diet increases growth hormone, GLP-1, and FGF21; reduces frailty; and promotes healthspan.",
-        "abstract": "Southern European countries have some of the highest life expectancies in the world, yet they display relatively high frailty. We examined different diets to identify compositions that promote both healthspan and strength in mice. The western and ketogenic diets increased fat mass and frailty and increased either cholesterol or insulin resistance, whereas a low-protein longevity diet, modeling the traditional Mediterranean and Okinawan diets but supplemented with methionine (LDMM), reduced fat mass and frailty while improving cardiometabolic markers. LDMM reduced insulin-like growth factor (IGF)-1 while increasing growth hormone, GLP-1, and fibroblast growth factor (FGF)21, which was required for fat loss and insulin sensitivity. Bimonthly cycles of a 4-day fasting-mimicking diet instead improved metabolic markers. A cross-sectional analysis of epidemiological data from over 200,000 men and women indicates that those with the highest animal protein intake tended to have a healthier lifestyle but had approximately double the prevalence of type 2 diabetes compared with those in the lowest intake group. These findings indicate that mostly plant-based low-amino-acid diets have the most potent effects on healthspan but require moderate methionine intake to minimize frailty.",
-        "authors": [
-          "Maura Fanti",
-          "Sebastian Brandhorst",
-          "Gerardo Navarrete",
-          "Arnold Diaz",
-          "Giacomo Giuliani"
-        ],
-        "journal": "Cell metabolism",
-        "date": "2026-06-23",
-        "keywords": [
-          "FGF21",
-          "GH",
-          "GLP-1",
-          "IGF-1",
-          "dietary intervention",
-          "insulin sensitivity",
-          "longevity",
-          "methionine",
-          "obesity",
-          "weight loss"
-        ],
-        "companies": [],
-        "title_cn": "Methionine-supplemented longevity diet increases growth hormone, GLP-1, and FGF21; reduces frailty; and promotes healthspan.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】核心发现：鉴定/表征, 促进作用, 疾病模型建立。\n【机制创新与产业价值】发表期刊：Cell metabolism。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 6.04,
-        "relevance_score": 4.0,
-        "impact_factor": 27.7,
-        "top_tier": true
-      },
-      {
-        "pmid": "42551412",
-        "title": "When lactate speaks: Rewiring astrocyte-neuron metabolism in Alzheimer's disease.",
-        "abstract": "Metabolic dysfunction is a defining but poorly understood feature of Alzheimer's disease. Du et al. show that a brain-penetrant GLP-1 receptor agonist rewires astrocyte-neuron metabolic coupling through lactate-driven histone lactylation, linking astrocytic glycolysis to neuronal lipid homeostasis and positioning metabolite signaling as a therapeutic axis in neurodegeneration.",
-        "authors": [
-          "Jessica Furtado",
-          "Marc Schneeberger"
-        ],
-        "journal": "Cell metabolism",
-        "date": "",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "When lactate speaks: Rewiring astrocyte-neuron metabolism in Alzheimer's disease.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：阿尔茨海默病；研究层级：基础研究。\n【核心实验关键数据】核心发现：相关性。\n【机制创新与产业价值】临床痛点：认知衰退/神经退行；发表期刊：Cell metabolism。\n【后续追踪要点】新药研发。",
-        "composite_score": 4.39,
-        "relevance_score": 1.0,
-        "impact_factor": 27.7,
-        "top_tier": true
-      },
-      {
-        "pmid": "42551409",
-        "title": "Methionine tuning for health without frailty.",
-        "abstract": "Dietary protein quality, not merely quantity, shapes metabolic health and aging trajectories. Fanti et al. show that moderate methionine supplementation to a low-protein, Mediterranean-inspired diet activates a GH-GLP-1-FGF21 axis that reduces adiposity and frailty without caloric restriction; their findings provide a mechanism for why traditional plant-rich diets may promote longevity while sometimes compromising physical robustness.",
-        "authors": [
-          "Amanda Garrido",
-          "Nathan L Price",
-          "Rafael de Cabo"
-        ],
-        "journal": "Cell metabolism",
-        "date": "",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Methionine tuning for health without frailty.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用。\n【机制创新与产业价值】发表期刊：Cell metabolism。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 4.39,
-        "relevance_score": 1.0,
-        "impact_factor": 27.7,
-        "top_tier": true
-      },
-      {
-        "pmid": "42560457",
-        "title": "Analysis of the efficacy and safety of liraglutide, semaglutide, and tirzepatide for the treatment of overweight and obesity: a systematic review and network meta-analysis.",
-        "abstract": "BACKGROUND/OBJECTIVES: The rapid rise in overweight and obesity worldwide underscores the need for comparative evidence on long-term pharmacotherapy. The recent introduction of a 7.2 mg maintenance dose of semaglutide warrants particular attention. We assessed the efficacy and safety of glucagon-like peptide-1 (GLP-1) and GLP-1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonists-liraglutide, semaglutide, and tirzepatide-focusing on the incremental value of semaglutide 7.2 mg. SUBJECTS/METHODS: We conducted a systematic review and frequentist network meta-analysis (NMA) of phase 3 randomized controlled trials (RCTs) in adults (≥ 18 years) with body mass index (BMI) ≥ 25 kg/m², duration ≥ 52 weeks, comparing the above agents at approved weight management doses vs. placebo or each other (PROSPERO: CRD420251014401). Random effects models using the netmeta package estimated relative effects, ranking used P-scores. RESULTS: Twenty-four RCTs were included in the analysis, of which 23 were eligible for inclusion in the NMA. All active treatments reduced body weight, waist circumference, and BMI vs. placebo. Tirzepatide 15 mg ranked highest for weight and waist reduction across analyses based on P-scores. Semaglutide 7.2 mg ranked above semaglutide 2.4 mg for all efficacy endpoints based on P-scores; but the significant advantage in percentage bodyweight change was found only in the diabetes subgroup. Liraglutide 3.0 mg yielded the smallest weight loss. No significant between treatment differences were observed for serious adverse events (SAEs); however, tirzepatide was associated with higher risk of injection site reactions, and liraglutide with higher risks of any AEs and discontinuation due to AEs. Considerable heterogeneity was present for efficacy outcomes, with limited evidence of networkwide inconsistency; safety networks showed low to moderate heterogeneity. CONCLUSIONS: GLP-1 and GLP-1/GIP receptor agonists produce clinically meaningful weight loss vs. placebo over ≥ 1 year. Semaglutide 7.2 mg consistently ranks above 2.4 mg, but the average incremental benefit (~ 2-3% points) appears modest and should be interpreted in the context of limited statistically significant differences between doses, as well as balanced against considerations of tolerability and patient preferences. Further head-to-head trials and real world studies are warranted to refine dose selection and long-term safety.",
-        "authors": [
-          "Wiktoria Pałka",
-          "Paweł Moćko",
-          "Katarzyna Śladowska",
-          "Przemysław Holko",
-          "Paweł Kawalec"
-        ],
-        "journal": "Journal of endocrinological investigation",
-        "date": "2026-08-06",
-        "keywords": [
-          "Liraglutide",
-          "Meta-analysis",
-          "Obesity",
-          "Overweight",
-          "Semaglutide",
-          "Systematic review",
-          "Tirzepatide"
-        ],
-        "companies": [],
-        "title_cn": "Analysis of the efficacy and safety of liraglutide, semaglutide, and tirzepatide for the treatment of overweight and obesity: a systematic review and network meta-analysis.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：III期临床试验。\n【核心实验关键数据】量化数据：3%；核心发现：疾病模型建立, 安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Journal of endocrinological investigation。\n【后续追踪要点】长期疗效评估；安全性监测。",
-        "composite_score": 15.1,
-        "relevance_score": 25.0,
-        "impact_factor": null,
-        "top_tier": false
       }
     ],
     "io": [
