@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-10T07:16:22.384936",
+  "timestamp": "2026-08-11T07:01:58.255921",
   "critical": {
     "deals": [
       {
@@ -24,6 +24,34 @@
           "PFE"
         ],
         "priority": "critical"
+      },
+      {
+        "title": "RevMed, BeOne make clinical trial, Asia deal; MoonLake reports Phase 3 win",
+        "title_cn": "RevMed, BeOne make clinical trial, Asia deal; MoonLake reports Phase 3 win",
+        "description_cn": "【交易类型】临床试验；【交易详情】有药物正在推进III期临床试验",
+        "description": "Plus news about Avere Therapeutics, Novo Nordisk, Sobi, Innate Pharma, Oculis, Innovent Biologics and Daiichi Sankyo.\n\n 🌏 BeOne gets rights to RevMed drugs in 'select Asian markets': The deal includes Revolution Medicines' four clinical RAS ...",
+        "link": "https://endpoints.news/revmed-beone-make-clinical-trial-asia-deal-moonlake-reports-phase-3-win/",
+        "source": "endpoints",
+        "date": "Mon, 10 Aug 2026 15:33:02 +0000",
+        "companies": [
+          "NVO",
+          "DSEEY",
+          "1801.HK"
+        ],
+        "priority": "critical"
+      },
+      {
+        "title": "STAT+: Pharmalittle: We’re reading about a Sanofi drug shortage, a Jazz Pharma deal, and more",
+        "title_cn": "STAT+: Pharmalittle: We’re reading about a Sanofi drug shortage, a Jazz Pharma deal, and more",
+        "description_cn": "【交易类型】业务扩展；【战略意义】显示公司对市场需求前景的看好",
+        "description": "Sanofi is experiencing shortages of two medicines used to treat Pompe disease after the FDA warned the company over manufacturing issues",
+        "link": "https://www.statnews.com/pharmalot/2026/08/10/sanofi-drug-shortage-jazz-pharma-deal/?utm_campaign=rss",
+        "source": "statnews",
+        "date": "Mon, 10 Aug 2026 13:24:23 +0000",
+        "companies": [
+          "SNY"
+        ],
+        "priority": "normal"
       }
     ],
     "clinical": [
@@ -49,6 +77,32 @@
         "priority": "normal"
       },
       {
+        "title": "RevMed, BeOne make clinical trial, Asia deal; MoonLake reports Phase 3 win",
+        "title_cn": "RevMed, BeOne make clinical trial, Asia deal; MoonLake reports Phase 3 win",
+        "description_cn": "【交易类型】临床试验；【交易详情】有药物正在推进III期临床试验",
+        "description": "Plus news about Avere Therapeutics, Novo Nordisk, Sobi, Innate Pharma, Oculis, Innovent Biologics and Daiichi Sankyo.\n\n 🌏 BeOne gets rights to RevMed drugs in 'select Asian markets': The deal includes Revolution Medicines' four clinical RAS ...",
+        "link": "https://endpoints.news/revmed-beone-make-clinical-trial-asia-deal-moonlake-reports-phase-3-win/",
+        "source": "endpoints",
+        "date": "Mon, 10 Aug 2026 15:33:02 +0000",
+        "companies": [
+          "NVO",
+          "DSEEY",
+          "1801.HK"
+        ],
+        "priority": "critical"
+      },
+      {
+        "title": "Silence spells out Phase 2 success for gene-silencing drug in rare blood cancer",
+        "title_cn": "Silence spells out Phase 2 success for gene-silencing drug in rare blood cancer",
+        "description_cn": "【交易类型】临床试验；【交易详情】有药物正在推进III期临床试验",
+        "description": "Silence Therapeutics is set to advance its siRNA drug for the rare blood disorder polycythemia vera (PV) into Phase 3 following a successful mid-stage trial.\n\n Silence said Monday that its drug ...",
+        "link": "https://endpoints.news/silence-spells-out-phase-2-success-for-gene-silencing-drug-in-rare-blood-cancer/",
+        "source": "endpoints",
+        "date": "Mon, 10 Aug 2026 11:31:25 +0000",
+        "companies": [],
+        "priority": "critical"
+      },
+      {
         "title": "BioMarin discontinues rare disease drug; CSL and Arcturus split up",
         "title_cn": "BioMarin discontinues rare disease drug; CSL and Arcturus split up",
         "description_cn": "【交易类型】临床试验；【交易详情】有药物正在推进III期临床试验",
@@ -64,17 +118,6 @@
     ],
     "approvals": [
       {
-        "title": "FDA approves Takeda's orexin drug for narcolepsy",
-        "title_cn": "FDA approves Takeda's orexin drug for narcolepsy",
-        "description_cn": "【交易类型】监管批准",
-        "description": "One of the most closely watched commercial drug races is now off and running, after Takeda snagged FDA approval of its orexin agonist to treat narcolepsy type 1.\n\n The FDA",
-        "link": "https://endpoints.news/fda-approves-takedas-orexin-drug-for-narcolepsy/",
-        "source": "endpoints",
-        "date": "Wed, 05 Aug 2026 21:33:01 +0000",
-        "companies": [],
-        "priority": "critical"
-      },
-      {
         "title": "Replimune wins FDA approval after melanoma drug was twice rejected",
         "title_cn": "Replimune wins FDA approval after melanoma drug was twice rejected",
         "description_cn": "【交易类型】监管批准",
@@ -86,39 +129,28 @@
         "priority": "critical"
       },
       {
-        "title": "STAT+: Two FDA approvals — a new drug and a new vaccine",
-        "title_cn": "STAT+: Two FDA approvals — a new drug and a new vaccine",
-        "description_cn": "【交易类型】监管批准",
-        "description": "Takeda's narcolepsy drug approved, the first mRNA flu shot approved, and more biotech updates from The Readout",
-        "link": "https://www.statnews.com/2026/08/06/biotech-news-two-fda-approvals-a-new-drug-and-a-new-vaccine/?utm_campaign=rss",
-        "source": "statnews",
-        "date": "Thu, 06 Aug 2026 13:49:23 +0000",
-        "companies": [],
-        "priority": "critical"
-      },
-      {
-        "title": "STAT+: Pharmalittle: We’re reading about Moderna’s flu shot, a death in a gene-editing trial in China, and more",
-        "title_cn": "STAT+: Pharmalittle: We’re reading about Moderna’s flu shot, a death in a gene-editing trial in China, and more",
-        "description_cn": "【交易类型】监管批准",
-        "description": "In today's Pharmalittle newsletter: Moderna's mRNA flu shot approved, a death reported in a gene-editing trial in China, and more.",
-        "link": "https://www.statnews.com/pharmalot/2026/08/06/moderna-flu-shot-gene-editing-trial-death-pharmalittle-newsletter/?utm_campaign=rss",
-        "source": "statnews",
-        "date": "Thu, 06 Aug 2026 13:03:26 +0000",
+        "title": "FDA rejects ITM's radiopharma drug over manufacturing problems",
+        "title_cn": "FDA rejects ITM's radiopharma drug over manufacturing problems",
+        "description_cn": "【交易类型】业务扩展；【战略意义】显示公司对市场需求前景的看好",
+        "description": "The FDA rejected ITM Isotope Technologies Munich’s radiopharmaceutical agent for neuroendocrine tumors because of manufacturing issues, delaying a potential challenger to Novartis’ approved drug Lutathera.\n\n ITM said the agency cited manufacturing ...",
+        "link": "https://endpoints.news/fda-rejects-itms-radiopharma-drug-over-manufacturing-problems/",
+        "source": "endpoints",
+        "date": "Mon, 10 Aug 2026 19:05:00 +0000",
         "companies": [
-          "MRNA"
+          "NVS"
         ],
         "priority": "normal"
       },
       {
-        "title": "Covid can reactivate dormant viruses, according to study",
-        "title_cn": "Covid can reactivate dormant viruses, according to study",
-        "description_cn": "【交易类型】监管批准",
-        "description": "A CDC director officially confirmed, Moderna's mRNA flu shot approved, and other health news from Morning Rounds",
-        "link": "https://www.statnews.com/2026/08/06/health-news-covid-can-reactivate-dormant-viruses-study-finds/?utm_campaign=rss",
+        "title": "STAT+: In surprise decision, FDA rejects radiopharma therapy expected to rival Novartis treatment",
+        "title_cn": "STAT+: In surprise decision, FDA rejects radiopharma therapy expected to rival Novartis treatment",
+        "description_cn": "【交易类型】业务扩展；【战略意义】显示公司对市场需求前景的看好",
+        "description": "The FDA has rejected a radiopharmaceutical therapy because of manufacturing issues, halting what would have been a competitor for Novartis.",
+        "link": "https://www.statnews.com/2026/08/10/itm-radiopharma-fda-rejection/?utm_campaign=rss",
         "source": "statnews",
-        "date": "Thu, 06 Aug 2026 11:55:38 +0000",
+        "date": "Mon, 10 Aug 2026 15:11:07 +0000",
         "companies": [
-          "MRNA"
+          "NVS"
         ],
         "priority": "normal"
       },
@@ -159,6 +191,34 @@
           "PFE"
         ],
         "priority": "critical"
+      },
+      {
+        "title": "RevMed, BeOne make clinical trial, Asia deal; MoonLake reports Phase 3 win",
+        "title_cn": "RevMed, BeOne make clinical trial, Asia deal; MoonLake reports Phase 3 win",
+        "description_cn": "【交易类型】临床试验；【交易详情】有药物正在推进III期临床试验",
+        "description": "Plus news about Avere Therapeutics, Novo Nordisk, Sobi, Innate Pharma, Oculis, Innovent Biologics and Daiichi Sankyo.\n\n 🌏 BeOne gets rights to RevMed drugs in 'select Asian markets': The deal includes Revolution Medicines' four clinical RAS ...",
+        "link": "https://endpoints.news/revmed-beone-make-clinical-trial-asia-deal-moonlake-reports-phase-3-win/",
+        "source": "endpoints",
+        "date": "Mon, 10 Aug 2026 15:33:02 +0000",
+        "companies": [
+          "NVO",
+          "DSEEY",
+          "1801.HK"
+        ],
+        "priority": "critical"
+      },
+      {
+        "title": "STAT+: Pharmalittle: We’re reading about a Sanofi drug shortage, a Jazz Pharma deal, and more",
+        "title_cn": "STAT+: Pharmalittle: We’re reading about a Sanofi drug shortage, a Jazz Pharma deal, and more",
+        "description_cn": "【交易类型】业务扩展；【战略意义】显示公司对市场需求前景的看好",
+        "description": "Sanofi is experiencing shortages of two medicines used to treat Pompe disease after the FDA warned the company over manufacturing issues",
+        "link": "https://www.statnews.com/pharmalot/2026/08/10/sanofi-drug-shortage-jazz-pharma-deal/?utm_campaign=rss",
+        "source": "statnews",
+        "date": "Mon, 10 Aug 2026 13:24:23 +0000",
+        "companies": [
+          "SNY"
+        ],
+        "priority": "normal"
       }
     ],
     "clinical": [
@@ -182,6 +242,32 @@
         "date": "Thu, 06 Aug 2026 19:16:03 +0000",
         "companies": [],
         "priority": "normal"
+      },
+      {
+        "title": "RevMed, BeOne make clinical trial, Asia deal; MoonLake reports Phase 3 win",
+        "title_cn": "RevMed, BeOne make clinical trial, Asia deal; MoonLake reports Phase 3 win",
+        "description_cn": "【交易类型】临床试验；【交易详情】有药物正在推进III期临床试验",
+        "description": "Plus news about Avere Therapeutics, Novo Nordisk, Sobi, Innate Pharma, Oculis, Innovent Biologics and Daiichi Sankyo.\n\n 🌏 BeOne gets rights to RevMed drugs in 'select Asian markets': The deal includes Revolution Medicines' four clinical RAS ...",
+        "link": "https://endpoints.news/revmed-beone-make-clinical-trial-asia-deal-moonlake-reports-phase-3-win/",
+        "source": "endpoints",
+        "date": "Mon, 10 Aug 2026 15:33:02 +0000",
+        "companies": [
+          "NVO",
+          "DSEEY",
+          "1801.HK"
+        ],
+        "priority": "critical"
+      },
+      {
+        "title": "Silence spells out Phase 2 success for gene-silencing drug in rare blood cancer",
+        "title_cn": "Silence spells out Phase 2 success for gene-silencing drug in rare blood cancer",
+        "description_cn": "【交易类型】临床试验；【交易详情】有药物正在推进III期临床试验",
+        "description": "Silence Therapeutics is set to advance its siRNA drug for the rare blood disorder polycythemia vera (PV) into Phase 3 following a successful mid-stage trial.\n\n Silence said Monday that its drug ...",
+        "link": "https://endpoints.news/silence-spells-out-phase-2-success-for-gene-silencing-drug-in-rare-blood-cancer/",
+        "source": "endpoints",
+        "date": "Mon, 10 Aug 2026 11:31:25 +0000",
+        "companies": [],
+        "priority": "critical"
       },
       {
         "title": "BioMarin discontinues rare disease drug; CSL and Arcturus split up",
@@ -279,46 +365,6 @@
         ]
       },
       {
-        "title": "Endocytic evasion confers resistance to antibody-drug conjugates therapy in cancer.",
-        "journal": "Cancer cell",
-        "date": "2026-05-21",
-        "authors": [
-          "Yuzhao Wang",
-          "Zibin Chen",
-          "Weikai Wang"
-        ]
-      },
-      {
-        "title": "Engineered lipid nanoparticles for in vivo and durable editing of haematopoietic stem cells within humanized mice.",
-        "journal": "Nature biomedical engineering",
-        "date": "2026 Aug 5",
-        "authors": [
-          "Du J",
-          "Luo Z",
-          "Xie D"
-        ]
-      },
-      {
-        "title": "Lipid nanoparticle delivery of antisense gapmers attenuates pathology in a mouse model of facioscapulohumeral muscular dystrophy.",
-        "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
-        "date": "2026 Aug 5",
-        "authors": [
-          "Anwar S",
-          "Chan KYT",
-          "Zia A"
-        ]
-      },
-      {
-        "title": "Targeted mRNA Delivery Using Bispecific Antibody-Lipid Nanoparticle Complexes.",
-        "journal": "Molecular pharmaceutics",
-        "date": "2026 Aug 3",
-        "authors": [
-          "Hickey JC",
-          "Roach T",
-          "Cassaidy B"
-        ]
-      },
-      {
         "title": "In Vivo CAR T-Cell Therapy Spurs 100% ORR in Phase I.",
         "journal": "Cancer discovery",
         "date": "",
@@ -329,6 +375,16 @@
         "journal": "Cancer discovery",
         "date": "",
         "authors": []
+      },
+      {
+        "title": "HER2 Heterogeneous Breast Cancer Models Reveal Novel Therapeutic Targets and Subclonal Dynamics during Evolution to Resistance to HER2-Targeted Therapies.",
+        "journal": "Cancer discovery",
+        "date": "",
+        "authors": [
+          "Marie-Anne Goyette",
+          "Christopher Graser",
+          "Marco Seehawer"
+        ]
       },
       {
         "title": "Weight-loss-independent actions of GLP-1 medicines.",
@@ -604,8 +660,8 @@
         "title_cn": "CRISPR-Cas9 gene editing approaches in colorectal cancer: Current progress and future prospects.",
         "abstract_cn": "Colorectal cancer leading cause cancer-related deaths worldwide, characterized genetic heterogeneity accumulation mutations oncogenes tumor suppressor genes. CRISPR基因编辑-Cas9 technology greatly advanced genetic research enabling precise genome editing. This review focuses innovative applications CRISPR基因编辑-Cas9 research, particularly role identifying novel therapeutic targets, elucidating mechanisms drug resistance, uncovering metabolic stem cell pathway alterations tumorigenesis. We highlight diverse CRISPR基因编辑 systems, including Cas9, Cas12, Cas13, advanced variants such CRISPR基因编辑 activation , CRISPR基因编辑 interference , base editing, prime editing, which have expanded gene knockout studies enhanced understanding . Despite these breakthroughs, challenges such -target effects delivery limitations remain. Ongoing efforts refine CRISPR基因编辑 technology enhance precision clinical applicability, ultimately paving more effective personalized treatment strategies . In this review, explore these advances focus latest developments CRISPR基因编辑-based approaches treatment.",
         "summary_cn": "【研究基础与实验设计】研究针对：结直肠癌；核心技术：碱基编辑(CBE/ABE)、先导编辑；研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生, 耐药性；核心发现：首次发现/鉴定, 鉴定/表征, 抑制作用, 促进作用；关键突破：提高疗效；局限性：存在实验局限性。\n【机制创新与产业价值】临床痛点：治疗耐药；发表期刊：Cancer treatment and research communications。\n【后续追踪要点】新药研发。",
-        "composite_score": 12.62,
-        "relevance_score": 20.5,
+        "composite_score": 12.08,
+        "relevance_score": 19.5,
         "impact_factor": null,
         "top_tier": false
       },
@@ -724,31 +780,6 @@
         "top_tier": false
       },
       {
-        "pmid": "42566814",
-        "title": "Generation of an NKX2-1-EGFP reporter iPSC line with inducible Cas9 for lung progenitor cell tracing.",
-        "abstract": "NK2 homeobox 1 (NKX2-1), a master regulator robustly expressed in lung, thyroid, and forebrain, is indispensable for specifying lung epithelial fate and serves as a definitive marker of lung progenitors. Here, we generated a human induced Pluripotent Stem Cell (iPSC) line harboring a doxycycline (dox)-inducible Cas9 and an NKX2-1-EGFP-puro reporter via CRISPR/Cas9-mediated homology-directed repair. This dual-function line combines inducible genome editing with real-time tracing of early lung progenitors, enabling their prospective isolation and screening for stage-specific maturation regulators. Therefore, this engineered iCas9-NKX2-1 EGFP line is a key resource for dissecting human lung development, modeling pulmonary disease, and advancing regenerative therapies.",
-        "authors": [
-          "Shenglan Wang",
-          "Xing Feng",
-          "Bizhi Shang",
-          "Haiqiong Wang",
-          "Xiao Hu"
-        ],
-        "journal": "Stem cell research",
-        "date": "2026-08-03",
-        "keywords": [],
-        "companies": [
-          "Arbor"
-        ],
-        "title_cn": "Generation of an NKX2-1-EGFP reporter iPSC line with inducible Cas9 for lung progenitor cell tracing.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】模型：诱导多能干细胞(iPSC)；核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 调控作用, 疾病模型建立, 表达水平变化。\n【机制创新与产业价值】发表期刊：Stem cell research。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 7.71,
-        "relevance_score": 7.0,
-        "impact_factor": 28.1,
-        "top_tier": false
-      },
-      {
         "pmid": "42231578",
         "title": "AAV-mediated FGF21 gene therapy promotes health span extension by whole-body tissue-specific adaptations.",
         "abstract": "The decline of organ function during aging limits health span. Despite the potential of lifestyle interventions to improve health, sustained maintenance of health span is challenging, and no gerotherapeutic drugs have been approved. Here, we demonstrated that aged and geriatric male and female mice treated with muscle-directed adeno-associated viral (AAV) vector-mediated fibroblast growth factor 21 (FGF21) gene therapy extended health span and lifespan with sustained organ benefits. This treatment normalized body weight and adiposity, improved insulin sensitivity and glucose homeostasis, preserved hepatic detoxification capacity, counteracted age-related kidney disease, promoted cardiac health and muscular function, and enhanced cognition. Transcriptomic and histopathological analyses indicated improved whole-body energy homeostasis and cellular fitness, which were mediated by tissue-specific adaptations, including enhanced mitochondrial function, restored proteostasis, and reversion of inflammation, fibrosis, and amyloidosis. AAV-FGF21 treatment also activated AMPK signaling. These results highlight FGF21 gene therapy as a potential strategy to promote health span and delay age-related deterioration.",
@@ -776,6 +807,31 @@
         "composite_score": 7.37,
         "relevance_score": 8.0,
         "impact_factor": 12.4,
+        "top_tier": false
+      },
+      {
+        "pmid": "42566814",
+        "title": "Generation of an NKX2-1-EGFP reporter iPSC line with inducible Cas9 for lung progenitor cell tracing.",
+        "abstract": "NK2 homeobox 1 (NKX2-1), a master regulator robustly expressed in lung, thyroid, and forebrain, is indispensable for specifying lung epithelial fate and serves as a definitive marker of lung progenitors. Here, we generated a human induced Pluripotent Stem Cell (iPSC) line harboring a doxycycline (dox)-inducible Cas9 and an NKX2-1-EGFP-puro reporter via CRISPR/Cas9-mediated homology-directed repair. This dual-function line combines inducible genome editing with real-time tracing of early lung progenitors, enabling their prospective isolation and screening for stage-specific maturation regulators. Therefore, this engineered iCas9-NKX2-1 EGFP line is a key resource for dissecting human lung development, modeling pulmonary disease, and advancing regenerative therapies.",
+        "authors": [
+          "Shenglan Wang",
+          "Xing Feng",
+          "Bizhi Shang",
+          "Haiqiong Wang",
+          "Xiao Hu"
+        ],
+        "journal": "Stem cell research",
+        "date": "2026-08-03",
+        "keywords": [],
+        "companies": [
+          "Arbor"
+        ],
+        "title_cn": "Generation of an NKX2-1-EGFP reporter iPSC line with inducible Cas9 for lung progenitor cell tracing.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】模型：诱导多能干细胞(iPSC)；核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 调控作用, 疾病模型建立, 表达水平变化。\n【机制创新与产业价值】发表期刊：Stem cell research。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "composite_score": 7.16,
+        "relevance_score": 6.0,
+        "impact_factor": 28.1,
         "top_tier": false
       },
       {
@@ -993,26 +1049,6 @@
         "top_tier": true
       },
       {
-        "pmid": "42545803",
-        "title": "Classic Hodgkin Lymphoma: A Review.",
-        "abstract": "IMPORTANCE: Hodgkin lymphoma (HL) is a lymphoid malignancy derived from B cells. Globally, there were 82 409 new cases of HL in 2022, associated with 22 701 deaths. In the US, 8720 incident cases of HL and 1150 deaths due to HL were reported in 2025. Classic HL (cHL) accounts for 90% to 95% of HL cases. OBSERVATIONS: Classic HL has a bimodal age distribution, with an initial peak at age 15 to 35 years and a second, smaller peak at approximately age 70 years. The median age at cHL diagnosis is 33 years. Most patients present with supradiaphragmatic lymphadenopathy (cervical, mediastinal, supraclavicular, or axillary lymph node involvement or a combination of these lymph nodes); isolated infradiaphragmatic involvement occurs in less than 10% of individuals. Approximately 30% to 40% of patients have B (systemic) symptoms, including fevers (>38.3 °C), drenching sweats, and unintentional weight loss (>10% of body weight during the prior 6 months). Risk factors for cHL include Epstein-Barr virus infection, immune dysregulation (autoimmunity or immunosuppression), and familial predisposition. Patients with early-stage cHL (stage I-II) are risk stratified based on presence of favorable or unfavorable features, which include older age, elevated erythrocyte sedimentation rate, B symptoms, higher disease bulk (>10 cm for a nodal mass or greater than one-third of the internal transverse thoracic diameter at T5 to T6 for a mediastinal mass, measured on chest radiograph), increased number of nodal sites, and extranodal involvement. Patients with early-stage cHL receive chemotherapy with or without consolidative radiotherapy; advanced-stage disease (stage III-IV) is typically treated with chemotherapy alone. Novel agents, including anti-programmed cell death 1 immunotherapy or the CD30-targeted antibody-drug conjugate brentuximab vedotin, are combined with chemotherapy for some patients with early-stage unfavorable cHL and all patients with advanced-stage cHL. Patients with relapsed or refractory cHL who meet eligibility criteria should undergo high-dose chemotherapy and autologous stem cell transplant, with curative intent. Allogeneic stem cell transplant is reserved for select patients with relapse after high-dose chemotherapy and autologous stem cell transplant. Cure is achieved in up to 90% of treated patients with both early-stage and advanced-stage disease. However, survivors have increased risk of secondary malignancies (including non-Hodgkin lymphomas; breast, lung, and colorectal cancers; and myelodysplasia), cardiopulmonary dysfunction, and thyroid dysfunction. CONCLUSIONS AND RELEVANCE: First-line treatment for cHL is chemotherapy, with addition of radiotherapy for some patients with early-stage disease. Select patients with unfavorable early-stage cHL and all patients with advanced-stage cHL should also receive anti-programmed cell death 1 immunotherapy or a CD30-targeted antibody-drug conjugate in addition to chemotherapy. Patients with relapsed or refractory cHL should be evaluated for stem cell transplant.",
-        "authors": [
-          "Kishan K Patel",
-          "Alison J Moskowitz"
-        ],
-        "journal": "JAMA",
-        "date": "2026-08-03",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Classic Hodgkin Lymphoma: A Review.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：结直肠癌、淋巴瘤；核心技术：抗体偶联药物(ADC)；研究层级：基础研究。\n【核心实验关键数据】量化数据：90%, 95%, 10%；表型：肿瘤发生, 细胞凋亡/细胞毒性；核心发现：首次发现/鉴定, 抑制作用, 调控作用, 有效性验证。\n【机制创新与产业价值】发表期刊：JAMA。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 7.53,
-        "relevance_score": 5.5,
-        "impact_factor": 63.1,
-        "top_tier": true
-      },
-      {
         "pmid": "42557300",
         "title": "Engineered lipid nanoparticles for in vivo and durable editing of haematopoietic stem cells within humanized mice.",
         "abstract": "In vivo genetic engineering of haematopoietic stem and progenitor cells (HSPCs) holds the potential to revolutionize the treatment landscape for numerous diseases. However, despite its transformative potential, it remains hindered by the difficulty in efficiently and specifically targeting quiescent human HSCs while maintaining their long-term functionality. Here, after screening 15 lipid nanoparticles (LNPs), we report an LNP that efficiently delivers reporter mRNA to human HSPCs both in ex vivo and in vivo settings when conjugated with the anti-CD34 antibody (CD34/LNPDP). Using CRISPR/Cas editing cargos, CD34/LNPDP achieves high editing efficiency in human HSPCs ex vivo. Intrafemoral administration of CD34/LNPDP in humanized mice results in efficient editing of the erythroid-specific BCL11A enhancer within human HSPCs, enabling the sustained long-term reactivation of fetal haemoglobin (HbF) expression in erythroid cells. In a humanized neutropaenia model harbouring an ELANE mutation, intrafemoral administration of CD34/LNPDP achieves robust editing, targeting exon 2 of ELANE in human HSPCs, partially restoring neutrophil development impairment under long-term observation. Collectively, CD34-targeted delivery enables in vivo HSPC modification without perturbing haematopoiesis, underscoring its suitability for clinical translation.",
@@ -1033,6 +1069,26 @@
         "composite_score": 7.38,
         "relevance_score": 6.5,
         "impact_factor": 26.8,
+        "top_tier": true
+      },
+      {
+        "pmid": "42545803",
+        "title": "Classic Hodgkin Lymphoma: A Review.",
+        "abstract": "IMPORTANCE: Hodgkin lymphoma (HL) is a lymphoid malignancy derived from B cells. Globally, there were 82 409 new cases of HL in 2022, associated with 22 701 deaths. In the US, 8720 incident cases of HL and 1150 deaths due to HL were reported in 2025. Classic HL (cHL) accounts for 90% to 95% of HL cases. OBSERVATIONS: Classic HL has a bimodal age distribution, with an initial peak at age 15 to 35 years and a second, smaller peak at approximately age 70 years. The median age at cHL diagnosis is 33 years. Most patients present with supradiaphragmatic lymphadenopathy (cervical, mediastinal, supraclavicular, or axillary lymph node involvement or a combination of these lymph nodes); isolated infradiaphragmatic involvement occurs in less than 10% of individuals. Approximately 30% to 40% of patients have B (systemic) symptoms, including fevers (>38.3 °C), drenching sweats, and unintentional weight loss (>10% of body weight during the prior 6 months). Risk factors for cHL include Epstein-Barr virus infection, immune dysregulation (autoimmunity or immunosuppression), and familial predisposition. Patients with early-stage cHL (stage I-II) are risk stratified based on presence of favorable or unfavorable features, which include older age, elevated erythrocyte sedimentation rate, B symptoms, higher disease bulk (>10 cm for a nodal mass or greater than one-third of the internal transverse thoracic diameter at T5 to T6 for a mediastinal mass, measured on chest radiograph), increased number of nodal sites, and extranodal involvement. Patients with early-stage cHL receive chemotherapy with or without consolidative radiotherapy; advanced-stage disease (stage III-IV) is typically treated with chemotherapy alone. Novel agents, including anti-programmed cell death 1 immunotherapy or the CD30-targeted antibody-drug conjugate brentuximab vedotin, are combined with chemotherapy for some patients with early-stage unfavorable cHL and all patients with advanced-stage cHL. Patients with relapsed or refractory cHL who meet eligibility criteria should undergo high-dose chemotherapy and autologous stem cell transplant, with curative intent. Allogeneic stem cell transplant is reserved for select patients with relapse after high-dose chemotherapy and autologous stem cell transplant. Cure is achieved in up to 90% of treated patients with both early-stage and advanced-stage disease. However, survivors have increased risk of secondary malignancies (including non-Hodgkin lymphomas; breast, lung, and colorectal cancers; and myelodysplasia), cardiopulmonary dysfunction, and thyroid dysfunction. CONCLUSIONS AND RELEVANCE: First-line treatment for cHL is chemotherapy, with addition of radiotherapy for some patients with early-stage disease. Select patients with unfavorable early-stage cHL and all patients with advanced-stage cHL should also receive anti-programmed cell death 1 immunotherapy or a CD30-targeted antibody-drug conjugate in addition to chemotherapy. Patients with relapsed or refractory cHL should be evaluated for stem cell transplant.",
+        "authors": [
+          "Kishan K Patel",
+          "Alison J Moskowitz"
+        ],
+        "journal": "JAMA",
+        "date": "2026-08-03",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Classic Hodgkin Lymphoma: A Review.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：结直肠癌、淋巴瘤；核心技术：抗体偶联药物(ADC)；研究层级：基础研究。\n【核心实验关键数据】量化数据：90%, 95%, 10%；表型：肿瘤发生, 细胞凋亡/细胞毒性；核心发现：首次发现/鉴定, 抑制作用, 调控作用, 有效性验证。\n【机制创新与产业价值】发表期刊：JAMA。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "composite_score": 6.97,
+        "relevance_score": 4.5,
+        "impact_factor": 63.1,
         "top_tier": true
       },
       {
@@ -1089,6 +1145,29 @@
         "top_tier": true
       },
       {
+        "pmid": "42550847",
+        "title": "Phase I trial of IL13Rα2-targeted CAR-T cell therapy for recurrent malignant glioma: clinical results and pharmacokinetics.",
+        "abstract": "PURPOSE: This single-center, open-label, Phase 1 trial evaluated the safety and tolerability of chimeric antigen receptor (CAR)-T cells targeting interleukin-13 receptor α2 (IL13Rα2) in patients with malignant gliomas. PATIENTS AND METHODS: Adults with World Health Organization Grade 3-4 gliomas, recurrent after standard treatment and expressing IL13Rα2 (confirmed by immunohistochemistry), received a single intravenous infusion of autologous CAR-T cells. Primary objectives were to measure the maximum-tolerated dose (MTD) and recommended Phase 2 dose. Secondary objectives included assessment of pharmacokinetics, objective response rate, progression-free survival (PFS), and overall survival (OS). RESULTS: Ten patients were sequentially assigned to three dosing cohorts (1.0×107, 3.0×107, 1.0×108 cells/kg). The MTD was not reached, as no dose-limiting toxicities were observed, and all adverse events (AEs) were Grade ≤3 without irreversible sequelae. The most common treatment-related AEs were pyrexia (70%) and elevated transaminase (70%). CAR-T cell levels in blood reached peak concentrations at a median of 7 days (range 3-14), and the transgene was detected in cerebrospinal fluid from five of six patients treated at the higher two doses. Nine patients were evaluable for survival analysis, among whom six were available for response assessment at 3 months; best response was stable disease in three cases. Median PFS was 2.6 months (95% confidence interval [CI]: 0.95-5.75), and median OS was 10.9 months (95% CI: 8.2-26.6). CONCLUSIONS: Intravenous IL13Rα2-targeted CAR-T therapy was well tolerated and demonstrated preliminary safety. Further studies are warranted to optimize dosing and preconditioning regimens and identify exploratory biomarkers for efficacy evaluation.",
+        "authors": [
+          "Kiwan Kim",
+          "Seong-Won Song",
+          "Yeongha Jeon",
+          "Soyoung Choi",
+          "Jiyoun Choi"
+        ],
+        "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+        "date": "2026-08-04",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Phase I trial of IL13Rα2-targeted CAR-T cell therapy for recurrent malignant glioma: clinical results and pharmacokinetics.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：胶质母细胞瘤；核心技术：碱基编辑(CBE/ABE)、CAR-T细胞治疗；研究层级：II期临床试验。\n【核心实验关键数据】量化数据：70%, 70%, 95%；核心发现：鉴定/表征, 安全性评估, 有效性验证, 表达水平变化。\n【机制创新与产业价值】临床痛点：转移/复发, 药物毒性/副作用；发表期刊：Clinical cancer research : an official journal of the American Association for Cancer Research。\n【后续追踪要点】伴随诊断；基因/细胞治疗；安全性监测。",
+        "composite_score": 10.76,
+        "relevance_score": 14.5,
+        "impact_factor": 10.4,
+        "top_tier": false
+      },
+      {
         "pmid": "42544546",
         "title": "Safety and Efficacy of Allogeneic Integrin α10β1-Selected Mesenchymal Stem Cells in the Treatment of Knee Osteoarthritis: A First-In-Human Phase I/IIa Dose Escalation Study.",
         "abstract": "PurposeSafety and efficacy of allogeneic integrin α10β1-selected MSCs (integrin α10-MSCs) have been shown in two post-traumatic osteoarthritis (OA) equine models. The aim of this study is to evaluate safety, tolerability and preliminary efficacy of allogeneic integrin α10-MSCs in human symptomatic knee OA.MethodsIn a first-in-human prospective multicentre phase I/IIa dose escalation study, 24 patients (41-75 years, Kellgren-Lawrence grade II-III knee OA) were treated with a single intra-articular injection of 4, 8 or 16 million integrin α10-MSCs. Safety and tolerability were assessed by adverse events, electrocardiography, vital signs, and physical and laboratory examinations. Clinical outcome was measured by visual analogue scale (VAS) for pain and Knee injury and Osteoarthritis Outcome Score (KOOS). Structural outcomes were assessed by X-ray and MRI. The total follow-up period was 24 months for the highest dose and 18 months for the lower doses.ResultsThe most frequently reported study drug-related adverse events were injection site pain, joint swelling and injection site movement impairment. All doses showed sustained improvements in pain and function, whereas the 16 million dose cohort showed earlier effects. The 16 million dose cohort also showed a reduction in bone marrow lesions, signs of an improved cartilage quality by T2* relaxation time, and a stable medial minimum joint space width.ConclusionsThis study demonstrated safety and efficacy of intra-articular injection of integrin α10-MSCs for the treatment of mild to moderate knee OA. At a dose of 16 million integrin α10-MSCs, a potentially quick and long-lasting therapeutic effect, supportive of disease-modification, was evident.",
@@ -1112,32 +1191,9 @@
         "title_cn": "Safety and Efficacy of Allogeneic Integrin α10β1-Selected Mesenchymal Stem Cells in the Treatment of Knee Osteoarthritis: A First-In-Human Phase I/IIa Dose Escalation Study.",
         "abstract_cn": "",
         "summary_cn": "【研究基础与实验设计】研究层级：I期临床试验。\n【核心实验关键数据】核心发现：疾病模型建立, 安全性评估, 有效性验证；关键突破：提高疗效。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Cartilage。\n【后续追踪要点】新药研发；安全性监测。",
-        "composite_score": 11.25,
-        "relevance_score": 18.0,
+        "composite_score": 10.7,
+        "relevance_score": 17.0,
         "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42550847",
-        "title": "Phase I trial of IL13Rα2-targeted CAR-T cell therapy for recurrent malignant glioma: clinical results and pharmacokinetics.",
-        "abstract": "PURPOSE: This single-center, open-label, Phase 1 trial evaluated the safety and tolerability of chimeric antigen receptor (CAR)-T cells targeting interleukin-13 receptor α2 (IL13Rα2) in patients with malignant gliomas. PATIENTS AND METHODS: Adults with World Health Organization Grade 3-4 gliomas, recurrent after standard treatment and expressing IL13Rα2 (confirmed by immunohistochemistry), received a single intravenous infusion of autologous CAR-T cells. Primary objectives were to measure the maximum-tolerated dose (MTD) and recommended Phase 2 dose. Secondary objectives included assessment of pharmacokinetics, objective response rate, progression-free survival (PFS), and overall survival (OS). RESULTS: Ten patients were sequentially assigned to three dosing cohorts (1.0×107, 3.0×107, 1.0×108 cells/kg). The MTD was not reached, as no dose-limiting toxicities were observed, and all adverse events (AEs) were Grade ≤3 without irreversible sequelae. The most common treatment-related AEs were pyrexia (70%) and elevated transaminase (70%). CAR-T cell levels in blood reached peak concentrations at a median of 7 days (range 3-14), and the transgene was detected in cerebrospinal fluid from five of six patients treated at the higher two doses. Nine patients were evaluable for survival analysis, among whom six were available for response assessment at 3 months; best response was stable disease in three cases. Median PFS was 2.6 months (95% confidence interval [CI]: 0.95-5.75), and median OS was 10.9 months (95% CI: 8.2-26.6). CONCLUSIONS: Intravenous IL13Rα2-targeted CAR-T therapy was well tolerated and demonstrated preliminary safety. Further studies are warranted to optimize dosing and preconditioning regimens and identify exploratory biomarkers for efficacy evaluation.",
-        "authors": [
-          "Kiwan Kim",
-          "Seong-Won Song",
-          "Yeongha Jeon",
-          "Soyoung Choi",
-          "Jiyoun Choi"
-        ],
-        "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
-        "date": "2026-08-04",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Phase I trial of IL13Rα2-targeted CAR-T cell therapy for recurrent malignant glioma: clinical results and pharmacokinetics.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：胶质母细胞瘤；核心技术：碱基编辑(CBE/ABE)、CAR-T细胞治疗；研究层级：II期临床试验。\n【核心实验关键数据】量化数据：70%, 70%, 95%；核心发现：鉴定/表征, 安全性评估, 有效性验证, 表达水平变化。\n【机制创新与产业价值】临床痛点：转移/复发, 药物毒性/副作用；发表期刊：Clinical cancer research : an official journal of the American Association for Cancer Research。\n【后续追踪要点】伴随诊断；基因/细胞治疗；安全性监测。",
-        "composite_score": 10.76,
-        "relevance_score": 14.5,
-        "impact_factor": 10.4,
         "top_tier": false
       }
     ],
@@ -1160,44 +1216,9 @@
         "title_cn": "The next generation of antibody-drug conjugates.",
         "abstract_cn": "Antibody-drug conjugates -composed monoclonal antibody linked payload-were designed deliver high concentrations cytotoxic agents cancer cells. Since their inception, deeper understanding mechanisms action resistance 抗体偶联药物s patients generated wealth advances chemistry 抗体偶联药物 constructs, together with rational therapeutic combinations. However, pace innovation exceeds clinical trial capacity. Also, single modification combination unlikely generate clinically meaningful benefit . In this context, there need integrate multiple chemistry advances into individual 抗体偶联药物s develop frameworks, infrastructures tools accelerate -risk preclinical early clinical development these agents. In addition, development multidimensional molecular tools predict 抗体偶联药物 sensitivity, together with optimal 抗体偶联药物s early-stage cancers, should contribute improved outcomes patients. We discuss these opportunities challenges predict that longer term, development diversified 抗体偶联药物 libraries incorporating distinct constructs drug--antibody ratios will enable personalized treatment strategies aligned with individual tumor biology.",
         "summary_cn": "【研究基础与实验设计】核心技术：抗体偶联药物(ADC)；研究层级：临床前研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：相关性, 有效性验证, 结构解析。\n【机制创新与产业价值】发表期刊：Nature medicine。\n【后续追踪要点】临床试验；新药研发。",
-        "composite_score": 10.55,
-        "relevance_score": 11.0,
+        "composite_score": 10.0,
+        "relevance_score": 10.0,
         "impact_factor": 58.7,
-        "top_tier": true
-      },
-      {
-        "pmid": "42167230",
-        "title": "Endocytic evasion confers resistance to antibody-drug conjugates therapy in cancer.",
-        "abstract": "Enfortumab vedotin (NECTIN4-ADC), a NECTIN4-targeting antibody-drug conjugate, has shown substantial efficacy in urothelial carcinoma, yet primary and acquired resistance remain major barriers to durable benefit. By integrating paired spatial transcriptomic profiling of tumors collected before and after NECTIN4-ADC plus anti-PD1 therapy with humanized mouse models, single-cell RNA sequencing, and resistant cell systems, we mapped tumor-state remodeling during ADC resistance and identified a resistant tumor-cell population with increased NECTIN4 expression but defective ADC uptake. Mechanistically, AKR1C1 binds NECTIN4 and impairs the AP2M1-dependent clathrin-mediated internalization of NECTIN4-ADC, while the AKR1C1-WWP2 axis promotes extracellular vesicle-mediated ADC export and clearance, thereby reducing intracellular payload accumulation. Pharmacologic inhibition of AKR1C1 restores ADC uptake, increases payload delivery, and enhances therapeutic sensitivity in preclinical models. Together, these findings define a clinically relevant target-high but uptake-defective resistance state and establish altered membrane trafficking as a therapeutic target for overcoming ADC therapy failure in cancer.",
-        "authors": [
-          "Yuzhao Wang",
-          "Zibin Chen",
-          "Weikai Wang",
-          "Lijuan Jiang",
-          "Xiaoyu Liang"
-        ],
-        "journal": "Cancer cell",
-        "date": "2026-05-21",
-        "keywords": [
-          "NECTIN4",
-          "antibody-drug conjugates",
-          "antibody-drug conjugates therapy resistance",
-          "drug internalization",
-          "endocytosis",
-          "enfortumab vedotin",
-          "extracellular vesicles",
-          "immunotherapy",
-          "therapeutic resistance",
-          "urothelial carcinoma"
-        ],
-        "companies": [],
-        "title_cn": "Endocytic evasion confers resistance to antibody-drug conjugates therapy in cancer.",
-        "abstract_cn": "Enfortumab vedotin , NECTIN4-targeting antibody-drug conjugate, shown substantial efficacy urothelial carcinoma, primary acquired resistance remain major barriers durable benefit. By integrating paired spatial transcriptomic profiling tumors collected before after NECTIN4-抗体偶联药物 plus anti-PD1 therapy with humanized 小鼠模型s, single-cell sequencing, resistant cell systems, mapped tumor-state remodeling during 抗体偶联药物 resistance identified resistant tumor-cell population with increased NECTIN4 expression defective 抗体偶联药物 uptake. Mechanistically, AKR1C1 binds NECTIN4 impairs AP2M1-dependent clathrin-mediated internalization NECTIN4-抗体偶联药物, while AKR1C1-WWP2 axis promotes extracellular vesicle-mediated 抗体偶联药物 export clearance, thereby reducing intracellular payload accumulation. Pharmacologic inhibition AKR1C1 restores 抗体偶联药物 uptake, increases payload delivery, enhances therapeutic sensitivity preclinical models. Together, these findings define clinically relevant target-high uptake-defective resistance state establish altered membrane trafficking therapeutic target overcoming 抗体偶联药物 therapy failure cancer.",
-        "summary_cn": "【研究基础与实验设计】研究针对：膀胱癌/尿路上皮癌；模型：小鼠模型；核心技术：抗体偶联药物(ADC)、RNA-seq转录组测序；研究层级：临床前研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：抑制作用, 促进作用, 调控作用, 疾病模型建立。\n【机制创新与产业价值】发表期刊：Cancer cell。\n【后续追踪要点】新药研发。",
-        "backfilled_from_news": "AKR1C1 Promotes ADC Resistance by Altering Uptake and Export.",
-        "composite_score": 7.77,
-        "relevance_score": 6.0,
-        "impact_factor": 48.8,
         "top_tier": true
       },
       {
@@ -1288,32 +1309,9 @@
         "title_cn": "NPTXR as a novel therapeutic target: efficacy of antibody-drug conjugates in preclinical tumor models.",
         "abstract_cn": "BACKGROUND: The neuronal pentraxin receptor mainly expressed cytoplasm subset neuronal cells cerebral cortex. While involved mediating uptake synaptic material during synapse remodeling synaptic clustering glutamate receptors subset excitatory synapses during embryonic development, expression recently been shown elevated tissues from patients with gastric cancer. METHODS: protein expression evaluated human cancer healthy tissue samples. We then generated antibody-drug conjugates based -800 , fully humanized monoclonal antibody selectively targeting . The cross-reactivity -800 -800抗体偶联药物s were assessed, well their tumor inhibitory effects experimental tumor models. RESULTS: protein highly consistently expressed human tissue samples from multiple cancer types only minimally expressed, , healthy tissues. Treatment with -800抗体偶联药物s inhibited tumor cell proliferation/survival engineered HEK293 cells overexpressing human . -800抗体偶联药物s were also found have pronounced anti-tumor effects mice bearing -expressing HEK293 tumors well-tolerated doses. Initial anti-tumor findings were further confirmed using naturally occurring -expressing human bladder model. CONCLUSIONS: oncofetal protein that highly expressed multiple human cancers minimally expressed healthy tissues. We have established tumor marker have developed antibody-drug conjugates using -800, novel, first--class, humanized monoclonal antibody targeting human . Initial results demonstrate that -800抗体偶联药物s have pronounced anti-tumor effects 体内 -expressing cancer cells. Continued evaluation -800抗体偶联药物s warranted.",
         "summary_cn": "【研究基础与实验设计】模型：患者来源异种移植模型(PDX)、HEK293细胞；核心技术：抗体偶联药物(ADC)；研究层级：临床前研究。\n【核心实验关键数据】表型：肿瘤发生, 细胞增殖；核心发现：首次发现/鉴定, 抑制作用, 调控作用, 疾病模型建立。\n【机制创新与产业价值】发表期刊：Cancer cell international。\n【后续追踪要点】新药研发。",
-        "composite_score": 10.52,
-        "relevance_score": 11.0,
+        "composite_score": 9.97,
+        "relevance_score": 10.0,
         "impact_factor": 48.8,
-        "top_tier": false
-      },
-      {
-        "pmid": "42567650",
-        "title": "Cleaning Considerations for Antibody Drug Conjugate (ADC) Products: Poster Presented at PDA Week 2026.",
-        "abstract": "Novel drug products such as antibody drug conjugates (ADC) can present unique cleaning challenges based on the toxicity of the drug and degradation profile of the drug product. Equipment cleaning concerns are often overlooked during design, startup, and commissioning of biopharmaceutical facilities. Failures to understand cleaning agent selection, critical cleaning parameters, drug product degradation, analytical method recovery factors, and stainless-steel maintenance can lead to costly delays in the process. The cleaning validation strategy of ADC products can also encompass direct, indirect, and non-direct product contact surfaces.The roundtable discussion will be divided into four areas of focus: cleaning validation considerations for monoclonal antibody, attachment-linker assembly, highly potent drug, and antibody drug conjugate. The roundtable will engage the audience with a short description of the four areas of cleaning consideration followed by audience questions and possibly debate.",
-        "authors": [
-          "Paul Lopolito",
-          "Brian Bosso",
-          "Dijana Hadziselimovic",
-          "John Schallom",
-          "Sarah Riley"
-        ],
-        "journal": "PDA journal of pharmaceutical science and technology",
-        "date": "2026-08-07",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Cleaning Considerations for Antibody Drug Conjugate (ADC) Products: Poster Presented at PDA Week 2026.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：抗体偶联药物(ADC)；研究层级：基础研究。\n【核心实验关键数据】核心发现：首次发现/鉴定, 相关性, 安全性评估。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：PDA journal of pharmaceutical science and technology。\n【后续追踪要点】安全性监测。",
-        "composite_score": 7.95,
-        "relevance_score": 12.0,
-        "impact_factor": null,
         "top_tier": false
       },
       {
@@ -1402,6 +1400,56 @@
         "relevance_score": 7.5,
         "impact_factor": 13.3,
         "top_tier": false
+      },
+      {
+        "pmid": "42559290",
+        "title": "Antibody-Drug Conjugates and Peptide-Drug Conjugates: Current Understandings and Future Perspectives.",
+        "abstract": "Antibody-drug conjugates (ADCs) and peptide-drug conjugates (PDCs) are modular targeted therapeutics in which molecular recognition is coupled with controlled payload delivery. Owing to their high specificity and precision, they have been regarded as a transformative paradigm for cancer therapy. In this review, current understandings and future perspectives of ADCs and PDCs are synthesized across rational design principles, historical evolution, clinical translation, and emerging formats, aiming to improve practical comprehension and application in oncology. Key determinants of performance: target selection, antibody or peptide carrier attributes, linker stability and cleavage mechanisms, payload classes, and conjugation strategies, are additionally discussed. Milestone advances achieved spanning hematologic malignancies and solid tumors are emphatically summarized to provide a framework by which future conjugate development may be contextualized. In parallel, the expansion of PDCs as complementary platforms is outlined, and advantages are highlighted, while limitations are also considered. ADCs and PDCs still face challenges such as toxicity, resistance, and poor stability. However, through breakthroughs including linker optimization, novel payloads, bispecific designs, and AI-driven approaches, future conjugated drugs will continue to evolve toward personalization, combination therapies, and broader indications. This article provides a systematic synthesis of extant research, thereby facilitating the future advancement of targeted conjugate drugs toward greater precision and individualization. It holds significant academic value as a reference resource and offers practical guidance for the development of novel antineoplastic therapeutics.",
+        "authors": [
+          "Ruxi Zheng",
+          "Shuiquan Li",
+          "Zhigang Zhang",
+          "Mengke Niu",
+          "Jing Fei"
+        ],
+        "journal": "MedComm",
+        "date": "2026-08-05",
+        "keywords": [
+          "antibody–drug conjugate",
+          "cancer",
+          "peptide–drug conjugate"
+        ],
+        "companies": [],
+        "title_cn": "Antibody-Drug Conjugates and Peptide-Drug Conjugates: Current Understandings and Future Perspectives.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】核心技术：抗体偶联药物(ADC)；研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：首次发现/鉴定, 相关性, 安全性评估；局限性：存在实验局限性。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：MedComm。\n【后续追踪要点】新药研发；安全性监测。",
+        "composite_score": 7.12,
+        "relevance_score": 10.5,
+        "impact_factor": null,
+        "top_tier": false
+      },
+      {
+        "pmid": "42561120",
+        "title": "Talquetamab in patients with relapsed/refractory multiple myeloma: 3-year follow-up of the phase 1/2 MonumenTAL-1 study.",
+        "abstract": "Talquetamab is the first and only approved bispecific antibody targeting G protein-coupled receptor class C group 5 member D (GPRC5D) for treatment of relapsed/refractory multiple myeloma based on results from the phase 1/2 MonumenTAL-1 study. Here, we report efficacy and ongoing safety from MonumenTAL-1 with 3 years of follow-up. Patients naïve to T-cell redirection therapy (TCR) received talquetamab 0.4 mg/kg weekly (n=143) or 0.8 mg/kg every other week (n=154); a separate cohort received prior TCR (n=78, either talquetamab dose). Median follow-up was 38, 31, and 30 months in the 3 cohorts, respectively, as of September 2024. Overall response rate was 67-74% and complete response or better rate was 33-42%. Median progression-free survival was 7.5, 11.2, and 7.7 months, and median overall survival (OS) was 34.0 months, not reached, and 28.3 months (36-month OS rates 49.3%, 60.8%, and 44.6%), in the 3 cohorts, respectively. The most common adverse events (AEs) were cytokine release syndrome (73-79%; grade 3/4, 0.6-2.1%), taste changes (72-76%), and infections (61-78%; grade 3/4, 21-26%). Ataxia/balance disorders occurred in 5.3% of patients (no grade 4/5 events). Dose reduction and discontinuation rates due to AEs remained low; no patients died due to talquetamab-related AEs. With 3 years of follow-up, talquetamab continued to demonstrate high rates of deep and durable responses. The long-term safety profile was comparable to previous results and continued to show lower risk of high-grade infections relative to approved BCMA-targeting bispecific antibodies. NCT03399799 (phase 1) and NCT04634552 (phase 2).",
+        "authors": [
+          "Leo Rasche",
+          "Carolina Schinke",
+          "Cyrille Touzeau",
+          "Monique C Minnema",
+          "Niels van de Donk"
+        ],
+        "journal": "Blood",
+        "date": "2026-08-06",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Talquetamab in patients with relapsed/refractory multiple myeloma: 3-year follow-up of the phase 1/2 MonumenTAL-1 study.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：多发性骨髓瘤；核心技术：双特异性抗体/T细胞衔接器；研究层级：II期临床试验。\n【核心实验关键数据】量化数据：74%, 42%, 49.3%；核心发现：安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：转移/复发, 药物毒性/副作用；发表期刊：Blood。\n【后续追踪要点】长期疗效评估；安全性监测。",
+        "composite_score": 7.11,
+        "relevance_score": 6.5,
+        "impact_factor": 21.0,
+        "top_tier": false
       }
     ],
     "glp1": [
@@ -1423,8 +1471,8 @@
         "title_cn": "Effect of semaglutide on kidney outcomes in the SELECT, FLOW, and SOUL trials: a prespecified pooled analysis.",
         "abstract_cn": "",
         "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、心血管疾病；核心技术：碱基编辑(CBE/ABE)；研究层级：III期临床试验。\n【核心实验关键数据】量化数据：50%, 95%；核心发现：促进作用, 安全性评估, 有效性验证, 表达水平变化。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The lancet. Diabetes & endocrinology。\n【后续追踪要点】长期疗效评估；安全性监测。",
-        "composite_score": 9.03,
-        "relevance_score": 8.5,
+        "composite_score": 8.48,
+        "relevance_score": 7.5,
         "impact_factor": 44.0,
         "top_tier": true
       },
@@ -1479,26 +1527,6 @@
         "top_tier": true
       },
       {
-        "pmid": "42545803",
-        "title": "Classic Hodgkin Lymphoma: A Review.",
-        "abstract": "IMPORTANCE: Hodgkin lymphoma (HL) is a lymphoid malignancy derived from B cells. Globally, there were 82 409 new cases of HL in 2022, associated with 22 701 deaths. In the US, 8720 incident cases of HL and 1150 deaths due to HL were reported in 2025. Classic HL (cHL) accounts for 90% to 95% of HL cases. OBSERVATIONS: Classic HL has a bimodal age distribution, with an initial peak at age 15 to 35 years and a second, smaller peak at approximately age 70 years. The median age at cHL diagnosis is 33 years. Most patients present with supradiaphragmatic lymphadenopathy (cervical, mediastinal, supraclavicular, or axillary lymph node involvement or a combination of these lymph nodes); isolated infradiaphragmatic involvement occurs in less than 10% of individuals. Approximately 30% to 40% of patients have B (systemic) symptoms, including fevers (>38.3 °C), drenching sweats, and unintentional weight loss (>10% of body weight during the prior 6 months). Risk factors for cHL include Epstein-Barr virus infection, immune dysregulation (autoimmunity or immunosuppression), and familial predisposition. Patients with early-stage cHL (stage I-II) are risk stratified based on presence of favorable or unfavorable features, which include older age, elevated erythrocyte sedimentation rate, B symptoms, higher disease bulk (>10 cm for a nodal mass or greater than one-third of the internal transverse thoracic diameter at T5 to T6 for a mediastinal mass, measured on chest radiograph), increased number of nodal sites, and extranodal involvement. Patients with early-stage cHL receive chemotherapy with or without consolidative radiotherapy; advanced-stage disease (stage III-IV) is typically treated with chemotherapy alone. Novel agents, including anti-programmed cell death 1 immunotherapy or the CD30-targeted antibody-drug conjugate brentuximab vedotin, are combined with chemotherapy for some patients with early-stage unfavorable cHL and all patients with advanced-stage cHL. Patients with relapsed or refractory cHL who meet eligibility criteria should undergo high-dose chemotherapy and autologous stem cell transplant, with curative intent. Allogeneic stem cell transplant is reserved for select patients with relapse after high-dose chemotherapy and autologous stem cell transplant. Cure is achieved in up to 90% of treated patients with both early-stage and advanced-stage disease. However, survivors have increased risk of secondary malignancies (including non-Hodgkin lymphomas; breast, lung, and colorectal cancers; and myelodysplasia), cardiopulmonary dysfunction, and thyroid dysfunction. CONCLUSIONS AND RELEVANCE: First-line treatment for cHL is chemotherapy, with addition of radiotherapy for some patients with early-stage disease. Select patients with unfavorable early-stage cHL and all patients with advanced-stage cHL should also receive anti-programmed cell death 1 immunotherapy or a CD30-targeted antibody-drug conjugate in addition to chemotherapy. Patients with relapsed or refractory cHL should be evaluated for stem cell transplant.",
-        "authors": [
-          "Kishan K Patel",
-          "Alison J Moskowitz"
-        ],
-        "journal": "JAMA",
-        "date": "2026-08-03",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Classic Hodgkin Lymphoma: A Review.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：结直肠癌、淋巴瘤；核心技术：抗体偶联药物(ADC)；研究层级：基础研究。\n【核心实验关键数据】量化数据：90%, 95%, 10%；表型：肿瘤发生, 细胞凋亡/细胞毒性；核心发现：首次发现/鉴定, 抑制作用, 调控作用, 有效性验证。\n【机制创新与产业价值】发表期刊：JAMA。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 6.43,
-        "relevance_score": 3.5,
-        "impact_factor": 63.1,
-        "top_tier": true
-      },
-      {
         "pmid": "42335894",
         "title": "Methionine-supplemented longevity diet increases growth hormone, GLP-1, and FGF21; reduces frailty; and promotes healthspan.",
         "abstract": "Southern European countries have some of the highest life expectancies in the world, yet they display relatively high frailty. We examined different diets to identify compositions that promote both healthspan and strength in mice. The western and ketogenic diets increased fat mass and frailty and increased either cholesterol or insulin resistance, whereas a low-protein longevity diet, modeling the traditional Mediterranean and Okinawan diets but supplemented with methionine (LDMM), reduced fat mass and frailty while improving cardiometabolic markers. LDMM reduced insulin-like growth factor (IGF)-1 while increasing growth hormone, GLP-1, and fibroblast growth factor (FGF)21, which was required for fat loss and insulin sensitivity. Bimonthly cycles of a 4-day fasting-mimicking diet instead improved metabolic markers. A cross-sectional analysis of epidemiological data from over 200,000 men and women indicates that those with the highest animal protein intake tended to have a healthier lifestyle but had approximately double the prevalence of type 2 diabetes compared with those in the lowest intake group. These findings indicate that mostly plant-based low-amino-acid diets have the most potent effects on healthspan but require moderate methionine intake to minimize frailty.",
@@ -1530,6 +1558,26 @@
         "composite_score": 6.04,
         "relevance_score": 4.0,
         "impact_factor": 27.7,
+        "top_tier": true
+      },
+      {
+        "pmid": "42545803",
+        "title": "Classic Hodgkin Lymphoma: A Review.",
+        "abstract": "IMPORTANCE: Hodgkin lymphoma (HL) is a lymphoid malignancy derived from B cells. Globally, there were 82 409 new cases of HL in 2022, associated with 22 701 deaths. In the US, 8720 incident cases of HL and 1150 deaths due to HL were reported in 2025. Classic HL (cHL) accounts for 90% to 95% of HL cases. OBSERVATIONS: Classic HL has a bimodal age distribution, with an initial peak at age 15 to 35 years and a second, smaller peak at approximately age 70 years. The median age at cHL diagnosis is 33 years. Most patients present with supradiaphragmatic lymphadenopathy (cervical, mediastinal, supraclavicular, or axillary lymph node involvement or a combination of these lymph nodes); isolated infradiaphragmatic involvement occurs in less than 10% of individuals. Approximately 30% to 40% of patients have B (systemic) symptoms, including fevers (>38.3 °C), drenching sweats, and unintentional weight loss (>10% of body weight during the prior 6 months). Risk factors for cHL include Epstein-Barr virus infection, immune dysregulation (autoimmunity or immunosuppression), and familial predisposition. Patients with early-stage cHL (stage I-II) are risk stratified based on presence of favorable or unfavorable features, which include older age, elevated erythrocyte sedimentation rate, B symptoms, higher disease bulk (>10 cm for a nodal mass or greater than one-third of the internal transverse thoracic diameter at T5 to T6 for a mediastinal mass, measured on chest radiograph), increased number of nodal sites, and extranodal involvement. Patients with early-stage cHL receive chemotherapy with or without consolidative radiotherapy; advanced-stage disease (stage III-IV) is typically treated with chemotherapy alone. Novel agents, including anti-programmed cell death 1 immunotherapy or the CD30-targeted antibody-drug conjugate brentuximab vedotin, are combined with chemotherapy for some patients with early-stage unfavorable cHL and all patients with advanced-stage cHL. Patients with relapsed or refractory cHL who meet eligibility criteria should undergo high-dose chemotherapy and autologous stem cell transplant, with curative intent. Allogeneic stem cell transplant is reserved for select patients with relapse after high-dose chemotherapy and autologous stem cell transplant. Cure is achieved in up to 90% of treated patients with both early-stage and advanced-stage disease. However, survivors have increased risk of secondary malignancies (including non-Hodgkin lymphomas; breast, lung, and colorectal cancers; and myelodysplasia), cardiopulmonary dysfunction, and thyroid dysfunction. CONCLUSIONS AND RELEVANCE: First-line treatment for cHL is chemotherapy, with addition of radiotherapy for some patients with early-stage disease. Select patients with unfavorable early-stage cHL and all patients with advanced-stage cHL should also receive anti-programmed cell death 1 immunotherapy or a CD30-targeted antibody-drug conjugate in addition to chemotherapy. Patients with relapsed or refractory cHL should be evaluated for stem cell transplant.",
+        "authors": [
+          "Kishan K Patel",
+          "Alison J Moskowitz"
+        ],
+        "journal": "JAMA",
+        "date": "2026-08-03",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Classic Hodgkin Lymphoma: A Review.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：结直肠癌、淋巴瘤；核心技术：抗体偶联药物(ADC)；研究层级：基础研究。\n【核心实验关键数据】量化数据：90%, 95%, 10%；表型：肿瘤发生, 细胞凋亡/细胞毒性；核心发现：首次发现/鉴定, 抑制作用, 调控作用, 有效性验证。\n【机制创新与产业价值】发表期刊：JAMA。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "composite_score": 5.88,
+        "relevance_score": 2.5,
+        "impact_factor": 63.1,
         "top_tier": true
       },
       {
@@ -1781,8 +1829,8 @@
         "title_cn": "Classic Hodgkin Lymphoma: A Review.",
         "abstract_cn": "",
         "summary_cn": "【研究基础与实验设计】研究针对：结直肠癌、淋巴瘤；核心技术：抗体偶联药物(ADC)；研究层级：基础研究。\n【核心实验关键数据】量化数据：90%, 95%, 10%；表型：肿瘤发生, 细胞凋亡/细胞毒性；核心发现：首次发现/鉴定, 抑制作用, 调控作用, 有效性验证。\n【机制创新与产业价值】发表期刊：JAMA。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 6.43,
-        "relevance_score": 3.5,
+        "composite_score": 5.88,
+        "relevance_score": 2.5,
         "impact_factor": 63.1,
         "top_tier": true
       },
@@ -1864,8 +1912,8 @@
         "title_cn": "Impact of immune checkpoint inhibitors on pregnancy: current evidence and future directions.",
         "abstract_cn": "",
         "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：抑制作用, 调控作用, 安全性评估, 有效性验证。\n【机制创新与产业价值】信号通路：免疫检查点通路；临床痛点：药物毒性/副作用；发表期刊：BMJ oncology。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 11.93,
-        "relevance_score": 13.5,
+        "composite_score": 11.38,
+        "relevance_score": 12.5,
         "impact_factor": 93.6,
         "top_tier": false
       },
