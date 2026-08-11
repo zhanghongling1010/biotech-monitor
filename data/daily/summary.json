@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-12T07:02:02.728825",
+  "timestamp": "2026-08-12T07:16:50.347642",
   "critical": {
     "deals": [
       {
@@ -486,13 +486,43 @@
         ]
       },
       {
-        "title": "Oral GLP-1 receptor agonist promotes astrocyte-neuron lactate and lipid transfer with neuroprotective effects.",
-        "journal": "Cell metabolism",
-        "date": "2026-06-22",
+        "title": "Survodutide Once Weekly for the Treatment of Adults with Obesity.",
+        "journal": "The New England journal of medicine",
+        "date": "2026-06-07",
         "authors": [
-          "Yixuan Du",
-          "Chujun Sun",
-          "Lingxi Wu"
+          "Carel W le Roux",
+          "Sean Wharton",
+          "Elena Startseva"
+        ]
+      },
+      {
+        "title": "Engineered lipid nanoparticles for in vivo and durable editing of haematopoietic stem cells within humanized mice.",
+        "journal": "Nature biomedical engineering",
+        "date": "2026 Aug 5",
+        "authors": [
+          "Du J",
+          "Luo Z",
+          "Xie D"
+        ]
+      },
+      {
+        "title": "Targeted mRNA Delivery Using Bispecific Antibody-Lipid Nanoparticle Complexes.",
+        "journal": "Molecular pharmaceutics",
+        "date": "2026 Aug 3",
+        "authors": [
+          "Hickey JC",
+          "Roach T",
+          "Cassaidy B"
+        ]
+      },
+      {
+        "title": "TIGRa: An ultra-compact programmable activator enabling multiplexed and efficient gene regulation.",
+        "journal": "Cell stem cell",
+        "date": "2026 Aug 10",
+        "authors": [
+          "Liu Z",
+          "Chen S",
+          "Wang W"
         ]
       }
     ]
@@ -1584,6 +1614,30 @@
         "top_tier": true
       },
       {
+        "pmid": "42253238",
+        "title": "Survodutide Once Weekly for the Treatment of Adults with Obesity.",
+        "abstract": "BACKGROUND: Although medications with glucagon-like peptide-1 (GLP-1) receptor agonist activity have transformed the management of obesity and shown substantial cardiometabolic benefits, unmet needs remain. Survodutide, an investigational glucagon receptor-GLP-1 receptor dual agonist, led to substantial weight reduction in a phase 2 trial involving adults with obesity without diabetes. METHODS: In this phase 3, double-blind trial, we randomly assigned adults with a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or higher, or 27 or higher with at least one obesity-related complication (excluding diabetes), in a 1:1:1 ratio to receive once-weekly survodutide administered subcutaneously at a dose adjusted up to 3.6 mg or 6.0 mg or placebo, in addition to counseling for lifestyle modification. The two primary end points were the percent change in body weight and a reduction in body weight of at least 5% from baseline to week 76. The primary efficacy analysis was conducted according to the treatment-regimen estimand, which incorporates the effects of any early discontinuation of survodutide or placebo, the use of protocol-prohibited obesity medications, and a prolonged dose-escalation period. RESULTS: Among 725 participants (241 in the 3.6-mg survodutide group, 242 in the 6.0-mg survodutide group, and 242 in the placebo group), the mean age was 47.1 years; 294 participants (40.6%) were men. At baseline, the mean BMI was 37.9, and the mean body weight was 108.8 kg. At week 76, the mean change in body weight from baseline according to the treatment-regimen estimand was -12.2% (95% confidence interval [CI], -13.6 to -10.8) in the 3.6-mg group, -13.0% (95% CI, -14.4 to -11.6) in the 6.0-mg group, and -5.4% (95% CI, -6.9 to -4.0) in the placebo group; 72.6%, 71.9% and 46.3% of the participants, respectively, had weight reduction of at least 5% (P<0.001 for all comparisons with placebo). The most common adverse events were gastrointestinal symptoms (typically mild to moderate), which occurred in 80.9% of the participants in the 3.6-mg group, in 89.7% of those in the 6.0-mg group, and in 47.9% of those in the placebo group. No deaths were reported. CONCLUSIONS: Survodutide led to significantly greater reductions in body weight than placebo in adults with obesity without diabetes. (Funded by Boehringer Ingelheim; SYNCHRONIZE-1 ClinicalTrials.gov number, NCT06066515.).",
+        "authors": [
+          "Carel W le Roux",
+          "Sean Wharton",
+          "Elena Startseva",
+          "Isabel M Kloer",
+          "Samina Ajaz Hussain"
+        ],
+        "journal": "The New England journal of medicine",
+        "date": "2026-06-07",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Survodutide Once Weekly for the Treatment of Adults with Obesity.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：III期临床试验。\n【核心实验关键数据】量化数据：5%, 40.6%, 12.2%；核心发现：安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The New England journal of medicine。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "GLP-1 receptor agonists after liver transplant: Early reassurance, unanswered qu",
+        "composite_score": 9.45,
+        "relevance_score": 9.0,
+        "impact_factor": 96.2,
+        "top_tier": true
+      },
+      {
         "pmid": "42567173",
         "title": "Effect of semaglutide on kidney outcomes in the SELECT, FLOW, and SOUL trials: a prespecified pooled analysis.",
         "abstract": "BACKGROUND: The GLP-1 receptor agonist semaglutide reduces clinically important kidney outcomes in people with type 2 diabetes and chronic kidney disease (CKD). We aimed to assess the pooled effects of semaglutide on kidney outcomes in prespecified analyses of participant-level data from the diverse populations of the SELECT, FLOW, and SOUL randomised placebo-controlled trials. METHODS: Participants with CKD (FLOW) or atherosclerotic cardiovascular disease (SELECT and SOUL) were randomly assigned semaglutide (once-weekly subcutaneous 1·0 mg [FLOW], once-weekly subcutaneous 2·4 mg [SELECT], or once-daily oral 14 mg [SOUL]) or matching placebo, added to standard of care. The primary outcome in this pooled analysis was time to first occurrence of a kidney composite, defined as onset of persistent 50% or greater reduction in estimated glomerular filtration rate (eGFR), kidney failure (persistent eGFR <15 mL/min per 1·73 m2, or initiation of kidney replacement therapy), kidney-related death, or cardiovascular-related death. Safety was also assessed. FINDINGS: The pooled participants from the trials (N=30 787) had a mean follow-up of 39·5-47·5 months. Among participants assigned to semaglutide, 973 first events of the primary kidney composite occurred compared with 1134 first events for placebo (hazard ratio [HR] 0·84 [95% CI 0·77-0·91]). First events of a narrower secondary kidney composite (excluding cardiovascular-related death from the primary outcome) were also reduced with semaglutide versus placebo (347 and 416, respectively; 0·80 [0·69-0·92]). Safety outcomes were overall similar between groups, and in line with other GLP-1 receptor agonist trials. Serious adverse events were numberically lower with semaglutide than with placebo. INTERPRETATION: Data pooled from three large phase 3 trials suggest that semaglutide reduces the risk of major kidney outcomes in a broad population with cardio-kidney-metabolic disease while having a favourable risk-benefit profile. In people with cardio-kidney-metabolic disease, with and without diabetes, semaglutide (oral or injected) prevents kidney-related and cardiovascular complications and induces adverse events in line with GLP-1 receptor agonist studies, regardless of baseline characteristics within the cardio-kidney-metabolic spectrum. This was a participant-level analysis conducted in a large database of three randomised controlled trials of similar design and examining the same treatment, but there were some differences in participants' baseline characteristics, and in the dose and route of administration of treatment. This pooled analysis adds evidence for the benefit of GLP-1 receptor agonists in general, and semaglutide in particular, in a broad population of people with cardio-kidney-metabolic disease, suggesting that the benefit of semaglutide might not be explained only by its glycaemic effects, weight-management effects, or both. FUNDING: Novo Nordisk.",
@@ -1603,6 +1657,30 @@
         "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、心血管疾病；核心技术：碱基编辑(CBE/ABE)；研究层级：III期临床试验。\n【核心实验关键数据】量化数据：50%, 95%；核心发现：促进作用, 安全性评估, 有效性验证, 表达水平变化。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The lancet. Diabetes & endocrinology。\n【后续追踪要点】长期疗效评估；安全性监测。",
         "composite_score": 8.48,
         "relevance_score": 7.5,
+        "impact_factor": 44.0,
+        "top_tier": true
+      },
+      {
+        "pmid": "42251860",
+        "title": "Efficacy and safety of once-weekly cagrilintide-semaglutide (CagriSema) in adults with type 2 diabetes inadequately controlled on diet and exercise (REIMAGINE 1): a randomised, double-blind, placebo-controlled, phase 3a study.",
+        "abstract": "BACKGROUND: Cagrilintide-semaglutide (CagriSema) is a novel, once-weekly combination of the amylin receptor agonist cagrilintide and the GLP-1 receptor agonist semaglutide. We aimed to assess the efficacy and safety of cagrilintide-semaglutide for people with type 2 diabetes inadequately controlled with diet and exercise. METHODS: REIMAGINE 1 was a randomised, double-blind, parallel-group, phase 3a study carried out at 42 sites (study sites included university hospitals, health-care centres, research centres, and other centres) in six countries. Adults aged 18 years or older with type 2 diabetes inadequately controlled with diet and exercise were randomly assigned (2:1:2:1) to receive once-weekly subcutaneous cagrilintide 2·4 mg plus semaglutide 2·4 mg (cagrilintide-semaglutide [2·4 mg each]), placebo 2·4 mg plus 2·4 mg, cagrilintide 1·0 mg plus semaglutide 1·0 mg (cagrilintide-semaglutide [1·0 mg each]), or placebo 1·0 mg plus 1·0 mg for 40 weeks. Randomisation was done using a web-based system with a block size of six and stratified according to HbA1c less than 8·5% at screening and participation in the MRI substudy. Participants, care providers, investigators, and outcome assessors were masked within dose level and all participants received visually identical injections to maintain masking throughout the study. The primary endpoint was change in HbA1c from baseline to week 40 in the full analysis set; safety was assessed in all participants who received at least one dose of the trial product. Change in bodyweight from baseline to week 40 was a prespecified secondary endpoint. This study is registered with ClinicalTrials.gov, NCT06323174, and is complete. FINDINGS: Between March 19 and Dec 5, 2024, 294 people were screened for eligibility, 189 of whom were enrolled and randomly assigned to cagrilintide-semaglutide (2·4 mg each; n=62), cagrilintide-semaglutide (1·0 mg each; n=63), or placebo (n=64). 103 (54%) of 189 were male, 86 (46%) were female, 147 (78%) were White, and 26 (14%) were Asian. Baseline mean HbA1c was 7·8% (SD 0·7) and BMI was 35·2 kg/m2 (7·4). Using the efficacy estimand, the estimated mean change in HbA1c after 40 weeks was -1·8 percentage points (SE 0·1) with cagrilintide-semaglutide (2·4 mg each), -1·5 percentage points (0·1) with cagrilintide-semaglutide (1·0 mg each), and -0·1 percentage points (0·2) with placebo. This corresponded to an estimated treatment difference of -1·7 percentage points (95% CI -2·0 to -1·3; p<0·0001) for cagrilintide-semaglutide (2·4 mg each) versus placebo and -1·3 percentage points (-1·8 to -0·9; p<0·0001) for cagrilintide-semaglutide (1·0 mg each) versus placebo. Cagrilintide-semaglutide was superior to placebo with respect to estimated mean relative change in bodyweight from baseline to week 40 for cagrilintide-semaglutide (2·4 mg each; -13·8% [SE 1·0]) versus placebo (-1·4% [0·7]; estimated treatment difference -12·4 percentage points [95% CI -14·7 to -10·1]; p<0·0001) and cagrilintide-semaglutide (1·0 mg each; -11·8% [1·0]) versus placebo (-1·4% [0·7]; estimated treatment difference -10·4 percentage points [-12·9 to -8·0]; p<0·0001). Adverse events were reported by 49 (79%) of 62 participants in the cagrilintide-semaglutide (2·4 mg each) group, 47 (75%) of 63 in the cagrilintide-semaglutide (1·0 mg each) group, and 42 (66%) of 64 in the placebo group. Most adverse events were mild or moderate and gastrointestinal related. INTERPRETATION: In a population of people with early-stage type 2 diabetes inadequately controlled with diet and exercise, cagrilintide-semaglutide (2·4 mg each and 1·0 mg each) was superior to placebo in reducing HbA1c. The safety profile was consistent with the GLP-1 receptor agonist class and previous safety data for cagrilintide. These findings support cagrilintide-semaglutide as a potential novel and effective therapeutic intervention for people with early-stage type 2 diabetes. FUNDING: Novo Nordisk.",
+        "authors": [
+          "Vanita R Aroda",
+          "Raffaella Buzzetti",
+          "Stine-Mathilde Dalskov",
+          "Akshay B Jain",
+          "Jonas Hughes Larsen"
+        ],
+        "journal": "The lancet. Diabetes & endocrinology",
+        "date": "2026-06-07",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Efficacy and safety of once-weekly cagrilintide-semaglutide (CagriSema) in adults with type 2 diabetes inadequately controlled on diet and exercise (REIMAGINE 1): a randomised, double-blind, placebo-controlled, phase 3a study.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病；核心技术：碱基编辑(CBE/ABE)；研究层级：III期临床试验。\n【核心实验关键数据】量化数据：5%, 54%, 46%；核心发现：首次发现/鉴定, 抑制作用, 安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The lancet. Diabetes & endocrinology。\n【后续追踪要点】新药研发；安全性监测。",
+        "backfilled_from_news": "GLP-1 receptor agonists after liver transplant: Early reassurance, unanswered qu",
+        "composite_score": 7.93,
+        "relevance_score": 6.5,
         "impact_factor": 44.0,
         "top_tier": true
       },
@@ -1754,47 +1832,6 @@
         "title_cn": "Insulin resistance and type 2 diabetes as allostatic responses to chronic nutrient excess.",
         "abstract_cn": "",
         "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】核心发现：调控作用, 有效性验证。\n【机制创新与产业价值】发表期刊：Cell metabolism。\n【后续追踪要点】新药研发；长期疗效评估。",
-        "composite_score": 4.39,
-        "relevance_score": 1.0,
-        "impact_factor": 27.7,
-        "top_tier": true
-      },
-      {
-        "pmid": "42551412",
-        "title": "When lactate speaks: Rewiring astrocyte-neuron metabolism in Alzheimer's disease.",
-        "abstract": "Metabolic dysfunction is a defining but poorly understood feature of Alzheimer's disease. Du et al. show that a brain-penetrant GLP-1 receptor agonist rewires astrocyte-neuron metabolic coupling through lactate-driven histone lactylation, linking astrocytic glycolysis to neuronal lipid homeostasis and positioning metabolite signaling as a therapeutic axis in neurodegeneration.",
-        "authors": [
-          "Jessica Furtado",
-          "Marc Schneeberger"
-        ],
-        "journal": "Cell metabolism",
-        "date": "",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "When lactate speaks: Rewiring astrocyte-neuron metabolism in Alzheimer's disease.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：阿尔茨海默病；研究层级：基础研究。\n【核心实验关键数据】核心发现：相关性。\n【机制创新与产业价值】临床痛点：认知衰退/神经退行；发表期刊：Cell metabolism。\n【后续追踪要点】新药研发。",
-        "composite_score": 4.39,
-        "relevance_score": 1.0,
-        "impact_factor": 27.7,
-        "top_tier": true
-      },
-      {
-        "pmid": "42551409",
-        "title": "Methionine tuning for health without frailty.",
-        "abstract": "Dietary protein quality, not merely quantity, shapes metabolic health and aging trajectories. Fanti et al. show that moderate methionine supplementation to a low-protein, Mediterranean-inspired diet activates a GH-GLP-1-FGF21 axis that reduces adiposity and frailty without caloric restriction; their findings provide a mechanism for why traditional plant-rich diets may promote longevity while sometimes compromising physical robustness.",
-        "authors": [
-          "Amanda Garrido",
-          "Nathan L Price",
-          "Rafael de Cabo"
-        ],
-        "journal": "Cell metabolism",
-        "date": "",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Methionine tuning for health without frailty.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用。\n【机制创新与产业价值】发表期刊：Cell metabolism。\n【后续追踪要点】持续关注后续进展及临床转化。",
         "composite_score": 4.39,
         "relevance_score": 1.0,
         "impact_factor": 27.7,
