@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-15T07:01:10.820677",
+  "timestamp": "2026-08-15T07:16:08.543662",
   "critical": {
     "deals": [
       {
@@ -333,16 +333,6 @@
         ]
       },
       {
-        "title": "Effect of semaglutide on kidney outcomes in the SELECT, FLOW, and SOUL trials: a prespecified pooled analysis.",
-        "journal": "The lancet. Diabetes & endocrinology",
-        "date": "2026-08-07",
-        "authors": [
-          "Johannes F E Mann",
-          "Sunil V Badve",
-          "Florian M M Baeres"
-        ]
-      },
-      {
         "title": "Subclinical cholestasis is a hallmark of gut dysbiosis causing resistance to cancer immunotherapy.",
         "journal": "Cancer cell",
         "date": "2026-07-29",
@@ -382,6 +372,16 @@
         ]
       },
       {
+        "title": "Survodutide Once Weekly for the Treatment of Adults with Obesity.",
+        "journal": "The New England journal of medicine",
+        "date": "2026-06-07",
+        "authors": [
+          "Carel W le Roux",
+          "Sean Wharton",
+          "Elena Startseva"
+        ]
+      },
+      {
         "title": "In Vivo Base Editing of PCSK9 with VERVE-102 for Hypercholesterolemia.",
         "journal": "The New England journal of medicine",
         "date": "2026-05-25",
@@ -389,6 +389,36 @@
           "Scott B Vafai",
           "Jörg Täubel",
           "Thomas Ashdown"
+        ]
+      },
+      {
+        "title": "Engineered lipid nanoparticles for in vivo and durable editing of haematopoietic stem cells within humanized mice.",
+        "journal": "Nature biomedical engineering",
+        "date": "2026 Aug 5",
+        "authors": [
+          "Du J",
+          "Luo Z",
+          "Xie D"
+        ]
+      },
+      {
+        "title": "Non-invasive nanoparticle barcoding in nonhuman primates.",
+        "journal": "Nature biotechnology",
+        "date": "2026 Aug 11",
+        "authors": [
+          "Jang B",
+          "Zenhausern R",
+          "Lian L"
+        ]
+      },
+      {
+        "title": "TIGRa: An ultra-compact programmable activator enabling multiplexed and efficient gene regulation.",
+        "journal": "Cell stem cell",
+        "date": "2026 Aug 10",
+        "authors": [
+          "Liu Z",
+          "Chen S",
+          "Wang W"
         ]
       }
     ]
@@ -1270,6 +1300,30 @@
         "top_tier": true
       },
       {
+        "pmid": "42361276",
+        "title": "First-Line Disitamab Vedotin, Tislelizumab, and S-1 in HER2-Overexpressing Advanced Gastric or Gastroesophageal Junction Adenocarcinoma: A Single-Arm, Phase II Trial.",
+        "abstract": "PURPOSE: Clinical data for first-line combination of antibody-drug conjugates (ADC) and immune checkpoint inhibitors in human epidermal growth factor receptor 2 (HER2)-overexpressing advanced gastric or gastroesophageal junction (G/GEJ) adenocarcinoma remain limited. We evaluated the efficacy and safety of disitamab vedotin (a HER2-directed ADC) combined with tislelizumab (a PD-1 inhibitor) and oral fluoropyrimidine S-1 as first-line therapy for patients with advanced HER2-overexpressing (immunohistochemistry [IHC] 3+ or 2+, regardless of in situ hybridization [ISH] status) G/GEJ adenocarcinoma. METHODS: In this single-arm, multicenter, phase II trial, patients received disitamab vedotin (2.5 mg/kg, once on day 1), tislelizumab (200 mg, once on day 1), and S-1 (40-60 mg, twice daily, days 1-14) in 21-day cycles. The primary end point was confirmed objective response rate (ORR) by independent central review (RECIST v1.1). Secondary end points included progression-free survival (PFS), overall survival (OS), duration of response (DoR), and safety. RESULTS: Fifty-seven patients (median age 65; IHC 3+ 71.9%, IHC 2+/ISH+ 17.5%, IHC 2+/ISH- 10.5%; PD-L1 combined positive score [CPS] <1 54.4%) were enrolled. The confirmed ORR was 89.5% (95% CI, 78.5 to 96.0). At a median follow-up of 28.2 months, the median PFS (mPFS) was 13.8 months (95% CI, 10.3 to 24.0), the median OS (mOS) reached 31.9 months (95% CI, 22.1 to not reached), and the median DoR was 13.3 months (95% CI, 9.6 to not reached). Patients with CPS ≥1 achieved an ORR of 92.3%, mPFS of 16.7 months, and mOS of 31.9 months; in the CPS <1 subgroup, the ORR was 87.1% with an mPFS of 10.0 months, and mOS of 25.4 months. Grade ≥3 treatment-related adverse events occurred in 64.9% of patients, primarily hematologic and peripheral neuropathy. CONCLUSION: First-line disitamab vedotin with tislelizumab and S-1 demonstrated remarkable antitumor activity and a manageable safety profile in HER2-overexpressing advanced G/GEJ adenocarcinoma, warranting validation in randomized controlled trials.",
+        "authors": [
+          "Song Li",
+          "Zimin Liu",
+          "Yanguo Liu",
+          "Kainan Li",
+          "Lei Cong"
+        ],
+        "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+        "date": "2026-06-26",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "First-Line Disitamab Vedotin, Tislelizumab, and S-1 in HER2-Overexpressing Advanced Gastric or Gastroesophageal Junction Adenocarcinoma: A Single-Arm, Phase II Trial.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】核心技术：抗体偶联药物(ADC)；研究层级：II期临床试验。\n【核心实验关键数据】量化数据：71.9%, 17.5%, 10.5%；表型：肿瘤发生；核心发现：抑制作用, 安全性评估, 有效性验证, 表达水平变化。\n【机制创新与产业价值】信号通路：免疫检查点通路；临床痛点：转移/复发, 药物毒性/副作用；发表期刊：Journal of clinical oncology : official journal of the American Society of Clinical Oncology。\n【后续追踪要点】安全性监测。",
+        "backfilled_from_news": "First-Line HER2 ADC and Anti-PD-1 Plus Chemo Shows Efficacy in Gastric Cancer.",
+        "composite_score": 6.23,
+        "relevance_score": 3.5,
+        "impact_factor": 42.1,
+        "top_tier": true
+      },
+      {
         "pmid": "42526445",
         "title": "Subclinical cholestasis is a hallmark of gut dysbiosis causing resistance to cancer immunotherapy.",
         "abstract": "Gut dysbiosis compromises cancer immunosurveillance by downregulating ileal mucosal addressin cell adhesion molecule 1 (MAdCAM-1), but the metabolic landscape associated with gut dysbiosis remains elusive. Here, we show that antibiotics (ABX) or ABX-associated Enterocloster species lead to the loss of secondary bile acids (BAs) including deoxycholic acid (DCA) and the accumulation of tauro-conjugated primary BAs (tauro-chenodeoxycholic acid [TCDCA] and tauro-β-muricholic acid [T-βMCA]) from the alternative pathway in the plasma of patients and mice. Fecal microbial transplantation (FMT), the ileum-specific farnesoid X receptor (FXR) agonist fexaramine, or glycodeoxycholic acid (GDCA) compensated dysbiosis-associated BA abnormalities and circumvent primary resistance to PD-1 blockade. GDCA curtailed ABX-induced MAdCAM-1 downregulation and T cell exhaustion in tumors. Subclinical cholestasis defined by elevation of γ-glutamyl transferase (γGT) correlated with increased TCDCA and decreased soluble MAdCAM-1 in plasma and predicted poor survival in multivariate analyses in six cohorts of patients who received immunotherapy. Hence, subclinical cholestasis accompanies gut dysbiosis, paving the way to immunoresistance.",
@@ -1431,29 +1485,6 @@
         "relevance_score": 11.0,
         "impact_factor": null,
         "top_tier": false
-      },
-      {
-        "pmid": "42473236",
-        "title": "MolT5-Linker: A Transformer-Based Sequence- and Putative Site-Guided Generative Framework for Antibody-Drug Conjugate Linkers.",
-        "abstract": "The rational generation of antibody-drug conjugate (ADC) linkers remains challenging due to the need to balance linker stability, payload release, and compatibility with antibody-payload components. We propose MolT5-Linker, a Transformer-based generative framework conditioned on antibody sequences and payload molecular structures. In the encoder stage, the model integrates a GAT-based Attachment Site Attention Network that infers putative attachment sites from antibody and payload representations. This site-related information guides the decoder to generate chemically compatible linker candidates, improving compatibility between generated linkers and ADC components. Following fine-tuning on a self-constructed ADC data set, MolT5-Linker achieves a generation validity of 0.8986 while maintaining a balance between molecular recovery (0.5802) and uniqueness (0.5438). Furthermore, the generated linker candidates exhibit medicinal chemistry property distributions─including molecular weight, lipophilicity, and topological polar surface area (TPSA)─consistent with ground-truth ADC linkers. These results highlight MolT5-Linker as a computational framework for ADC linker candidate generation.",
-        "authors": [
-          "Yanjing Chen",
-          "FanHong Wu",
-          "Yiwei Liu",
-          "Yichu Wu",
-          "Dong Wang"
-        ],
-        "journal": "Journal of chemical information and modeling",
-        "date": "",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "MolT5-Linker: A Transformer-Based Sequence- and Putative Site-Guided Generative Framework for Antibody-Drug Conjugate Linkers.",
-        "abstract_cn": "The rational generation antibody-drug conjugate linkers remains challenging need balance linker stability, payload release, compatibility with antibody-payload components. We propose MolT5-Linker, Transformer-based generative framework conditioned antibody sequences payload molecular structures. In encoder stage, model integrates -based Attachment Site Attention Network that infers putative attachment sites from antibody payload representations. This site-related information guides decoder generate chemically compatible linker candidates, improving compatibility between generated linkers 抗体偶联药物 components. Following fine-tuning self-constructed 抗体偶联药物 data , MolT5-Linker achieves generation validity 0.8986 while maintaining balance between molecular recovery uniqueness . Furthermore, generated linker candidates exhibit medicinal chemistry property distributions─including molecular weight, lipophilicity, topological polar surface area ─consistent with ground-truth 抗体偶联药物 linkers. These results highlight MolT5-Linker computational framework 抗体偶联药物 linker candidate generation.",
-        "summary_cn": "【研究基础与实验设计】核心技术：抗体偶联药物(ADC)；研究层级：基础研究。\n【核心实验关键数据】核心发现：相关性, 疾病模型建立, 结构解析。\n【机制创新与产业价值】发表期刊：Journal of chemical information and modeling。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 6.85,
-        "relevance_score": 10.0,
-        "impact_factor": null,
-        "top_tier": false
       }
     ],
     "glp1": [
@@ -1478,6 +1509,30 @@
         "composite_score": 10.68,
         "relevance_score": 11.5,
         "impact_factor": 44.0,
+        "top_tier": true
+      },
+      {
+        "pmid": "42253238",
+        "title": "Survodutide Once Weekly for the Treatment of Adults with Obesity.",
+        "abstract": "BACKGROUND: Although medications with glucagon-like peptide-1 (GLP-1) receptor agonist activity have transformed the management of obesity and shown substantial cardiometabolic benefits, unmet needs remain. Survodutide, an investigational glucagon receptor-GLP-1 receptor dual agonist, led to substantial weight reduction in a phase 2 trial involving adults with obesity without diabetes. METHODS: In this phase 3, double-blind trial, we randomly assigned adults with a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or higher, or 27 or higher with at least one obesity-related complication (excluding diabetes), in a 1:1:1 ratio to receive once-weekly survodutide administered subcutaneously at a dose adjusted up to 3.6 mg or 6.0 mg or placebo, in addition to counseling for lifestyle modification. The two primary end points were the percent change in body weight and a reduction in body weight of at least 5% from baseline to week 76. The primary efficacy analysis was conducted according to the treatment-regimen estimand, which incorporates the effects of any early discontinuation of survodutide or placebo, the use of protocol-prohibited obesity medications, and a prolonged dose-escalation period. RESULTS: Among 725 participants (241 in the 3.6-mg survodutide group, 242 in the 6.0-mg survodutide group, and 242 in the placebo group), the mean age was 47.1 years; 294 participants (40.6%) were men. At baseline, the mean BMI was 37.9, and the mean body weight was 108.8 kg. At week 76, the mean change in body weight from baseline according to the treatment-regimen estimand was -12.2% (95% confidence interval [CI], -13.6 to -10.8) in the 3.6-mg group, -13.0% (95% CI, -14.4 to -11.6) in the 6.0-mg group, and -5.4% (95% CI, -6.9 to -4.0) in the placebo group; 72.6%, 71.9% and 46.3% of the participants, respectively, had weight reduction of at least 5% (P<0.001 for all comparisons with placebo). The most common adverse events were gastrointestinal symptoms (typically mild to moderate), which occurred in 80.9% of the participants in the 3.6-mg group, in 89.7% of those in the 6.0-mg group, and in 47.9% of those in the placebo group. No deaths were reported. CONCLUSIONS: Survodutide led to significantly greater reductions in body weight than placebo in adults with obesity without diabetes. (Funded by Boehringer Ingelheim; SYNCHRONIZE-1 ClinicalTrials.gov number, NCT06066515.).",
+        "authors": [
+          "Carel W le Roux",
+          "Sean Wharton",
+          "Elena Startseva",
+          "Isabel M Kloer",
+          "Samina Ajaz Hussain"
+        ],
+        "journal": "The New England journal of medicine",
+        "date": "2026-06-07",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Survodutide Once Weekly for the Treatment of Adults with Obesity.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：III期临床试验。\n【核心实验关键数据】量化数据：5%, 40.6%, 12.2%；核心发现：安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The New England journal of medicine。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "GLP-1 deaths: Are weight loss drugs linked to hundreds of fatalities?",
+        "composite_score": 9.45,
+        "relevance_score": 9.0,
+        "impact_factor": 96.2,
         "top_tier": true
       },
       {
@@ -1683,31 +1738,6 @@
         "composite_score": 9.26,
         "relevance_score": 14.0,
         "impact_factor": 2.9,
-        "top_tier": false
-      },
-      {
-        "pmid": "42593182",
-        "title": "Role of glucagon in metabolic diseases.",
-        "abstract": "Currently, diabetes is defined as \"a chronic hyperglycemic state resulting from the absolute or relative insufficiency of insulin action,\" emphasizing its characterization as an insulin-related disease. However, glucagon dysregulation should also play a critical role in the pathophysiology of type 2 diabetes. The pathophysiological relevance of glucagon in type 2 diabetes has long remained uncertain, largely owing to the lack of a reliable assay for measuring plasma glucagon concentrations. We recently developed a highly accurate glucagon sandwich enzyme-linked immunosorbent assay, demonstrating its utility in characterizing patients with type 2 diabetes and its potential for near-term clinical application. In parallel, glucagon has emerged as a promising therapeutic target. Although glucagon receptor antagonists produce potent glucose-lowering effects without increasing the risk of hypoglycemia, their clinical development has not progressed to phase 3 trials because of adverse effects, including weight gain and worsening hepatic steatosis. In contrast, we demonstrated that α-methyl D-glucopyranoside, an endogenous glucagon secretagogue, reduces body weight and improves hepatic steatosis and glucose intolerance in an obese diabetic mouse model. Furthermore, dual glucagon/glucagon-like peptide 1 (GLP-1) receptor agonists and triple glucagon/GLP-1/glucose-dependent insulinotropic polypeptide receptor agonists are currently undergoing phase 3 clinical trials for the treatment of obesity and metabolic dysfunction-associated steatotic liver disease. Taken together, glucagon plays a key role in the pathophysiology, diagnosis, and treatment of metabolic diseases.",
-        "authors": [
-          "Tadahiro Kitamura",
-          "Yoko Tabei",
-          "Masaki Kobayashi"
-        ],
-        "journal": "Journal of diabetes investigation",
-        "date": "2026-08-13",
-        "keywords": [
-          "Glucagon",
-          "Obesity",
-          "Type 2 diabetes"
-        ],
-        "companies": [],
-        "title_cn": "Role of glucagon in metabolic diseases.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；模型：小鼠模型；核心技术：碱基编辑(CBE/ABE)；研究层级：III期临床试验。\n【核心实验关键数据】核心发现：调控作用, 相关性, 疾病模型建立, 安全性评估。\n【机制创新与产业价值】发表期刊：Journal of diabetes investigation。\n【后续追踪要点】临床试验；新药研发；长期疗效评估。",
-        "composite_score": 9.13,
-        "relevance_score": 12.5,
-        "impact_factor": 6.2,
         "top_tier": false
       }
     ],
