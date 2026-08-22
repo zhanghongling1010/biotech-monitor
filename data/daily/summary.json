@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-23T07:01:27.875985",
+  "timestamp": "2026-08-23T07:16:20.120354",
   "critical": {
     "deals": [
       {
@@ -412,16 +412,6 @@
         ]
       },
       {
-        "title": "Long-term safety of oral orforglipron in Japanese participants with type 2 diabetes (ACHIEVE-J): a multicentre, randomised, open-label, parallel-group phase 3 trial.",
-        "journal": "The lancet. Diabetes & endocrinology",
-        "date": "2026-08-17",
-        "authors": [
-          "Daisuke Yabe",
-          "Toshihiko Shiraiwa",
-          "Hiroyuki Ugai"
-        ]
-      },
-      {
         "title": "Intratumoral Bacillus cereus orchestrates stem-like lymphoid niches to potentiate immunotherapy response in hepatocellular carcinoma.",
         "journal": "Cancer cell",
         "date": "2026-08-17",
@@ -429,6 +419,16 @@
           "Chupeng Hu",
           "Wenhua You",
           "Yedi Huang"
+        ]
+      },
+      {
+        "title": "Nutritional, functional, and psychological considerations for incretin-based therapies in adults-an EASO, EFAD, and ECPO Consensus Statement.",
+        "journal": "The lancet. Diabetes & endocrinology",
+        "date": "2026-07-08",
+        "authors": [
+          "Laurence J Dobbie",
+          "Liisa Tolvanen",
+          "Daniela Alves"
         ]
       },
       {
@@ -479,6 +479,36 @@
           "Barbara Burtness",
           "Ari J Rosenberg",
           "Benoit Calderon"
+        ]
+      },
+      {
+        "title": "Enhanced antitumor immunity of mRNA vaccines by bioorthogonal-like delayed activation of exogeneous STING.",
+        "journal": "Nature biotechnology",
+        "date": "2026 Aug 19",
+        "authors": [
+          "Qin P",
+          "Qin Q",
+          "Hao Y"
+        ]
+      },
+      {
+        "title": "Virus-like particles enable targeted gene engineering and pooled CRISPR screening in primary human myeloid cells.",
+        "journal": "Nature biotechnology",
+        "date": "2026 Aug 17",
+        "authors": [
+          "Jung H",
+          "Devant P",
+          "Ching C"
+        ]
+      },
+      {
+        "title": "Ultrasound-guided renal artery administration of angiopoietin-1 RNA therapy slows the progression of preclinical WT1 glomerular disease.",
+        "journal": "Science translational medicine",
+        "date": "2026 Aug 12",
+        "authors": [
+          "Malik SN",
+          "Chandler JC",
+          "Maeshima R"
         ]
       }
     ]
@@ -555,6 +585,30 @@
         "top_tier": true
       },
       {
+        "pmid": "42348822",
+        "title": "Donor Selection and Human Leukocyte Antigen Loss Leukemia Relapse After Hematopoietic Cell Transplantation.",
+        "abstract": "PURPOSE: For patients with hematologic malignancies, relapse is the leading cause of death after allogeneic hematopoietic cell transplantation (allo-HCT). Frequently, relapses are explained by immune evasion through alterations of human leukocyte antigens (HLAs), but determinants and clinical consequences remain poorly defined. METHODS: We analyzed 533 relapses of hematologic cancers after allo-HCT from different donor types, conducted at 27 centers worldwide. Genomic loss of mismatched HLA (HLA loss) was assessed using a newly developed next-generation sequencing pipeline. Clinical and immunogenetic factors associated with HLA loss were evaluated. Using HLA data from approximately 5 million individuals, a web-based tool to infer HLA incompatibility phasing was developed. RESULTS: HLA loss occurred in 15.6% of relapses, with significant variation according to donor type (28.7% haploidentical family, 7.2% unrelated adult, 2.7% cord blood, P < .0001). The distribution of HLA mismatches across the patient's haplotypes, predicted through the phasing tool, was strongly associated with HLA loss, with an incidence of 27.6% when HLA mismatches were in the same haplotype, compared with 5.4% if present on different haplotypes (P < .0001). HLA loss affected postrelapse outcomes, abrogating the efficacy of original donor lymphocyte infusions, with significant survival advantage by second allo-HCT from a different donor. CONCLUSION: The likelihood of HLA loss varies significantly according to the number and positioning of HLA mismatches between patient and donor. A newly developed phasing tool enables reliable prediction of its risk, supporting informed donor selection. Routine assessment of HLA loss at relapse is warranted, as it critically affects the success of immunologic salvage therapies.",
+        "authors": [
+          "Katharina Fleischhauer",
+          "Cristina Toffalori",
+          "Federica Cugnata",
+          "Jan A Hofmann",
+          "Giorgio Orofino"
+        ],
+        "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+        "date": "2026-06-25",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Donor Selection and Human Leukocyte Antigen Loss Leukemia Relapse After Hematopoietic Cell Transplantation.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】量化数据：15.6%, 28.7%, 7.2%；表型：肿瘤发生；核心发现：有效性验证。\n【机制创新与产业价值】发表期刊：Journal of clinical oncology : official journal of the American Society of Clinical Oncology。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "Incidence of Human Leukocyte Antigen (HLA) Class I Antibodies and Impact on Plat",
+        "composite_score": 5.13,
+        "relevance_score": 1.5,
+        "impact_factor": 42.1,
+        "top_tier": true
+      },
+      {
         "pmid": "42580338",
         "title": "Trans-regulatory gene mapping prioritizes disease drivers in asthma.",
         "abstract": "Deciphering which genes are most important to disease etiology is a central challenge in human genetics. While genome-wide association studies have cataloged thousands of variants, it's been proposed that most are indirect regulators of a limited, currently unidentified set of central disease-driving genes, defined here as disease-proximal genes (DPGs). Here, we introduce DANDELION, a mediation-inspired statistical framework that prioritizes DPGs by integrating trans-regulatory effects from disease-relevant tissues with gene-level burden from whole-exome sequencing. Applying DANDELION to asthma uncovers novel DPGs that escape detection by conventional methods. CRISPR screens in epithelial and T cells find that most DPGs regulate key asthma-related cellular phenotypes. We also demonstrate that loss of two DPGs, SLC27A3 and SCD, affects inflammation and airway remodeling in a mouse model of allergic asthma. Our study establishes DANDELION as a powerful framework for prioritizing novel, therapeutically actionable genes and pathways underlying disease pathogenesis.",
@@ -600,6 +654,36 @@
         "composite_score": 10.71,
         "relevance_score": 16.0,
         "impact_factor": 4.3,
+        "top_tier": false
+      },
+      {
+        "pmid": "42303162",
+        "title": "CRISPR Cas9 revolutionizing genetic engineering and therapeutic applications.",
+        "abstract": "Genetic engineering has been transformed by CRISPR-Cas9 technology, offering high precision and adaptability in biological research and therapeutic innovation. Originating from a bacterial defense system, CRISPR-Cas9 enables targeted DNA editing through guide RNA-directed Cas9 nuclease activity, allowing gene modification, mutation correction, and disease mechanism analysis. This has opened new avenues in personalized medicine and gene therapy, particularly for cancer and inherited disorders, alongside applications in agriculture. In oncology, CRISPR-Cas9 demonstrates strong potential in oncogene targeting, immune cell engineering, and CAR-T-based immunotherapy, supported by substantial preclinical success. Delivery efficiency is enhanced through systems such as exosomes, liposomes, and nanoparticles, improving stability and tumor targeting. However, clinical translation remains constrained by off-target effects, delivery limitations, and ethical concerns in human genome editing, particularly germline modification. CRISPR shows therapeutic promise for muscular dystrophy, sickle cell disease, and cystic fibrosis. Emerging platforms including base editing, prime editing, and dCas9-based epigenome editing enable precise genome and gene regulation without double-strand breaks, reducing toxicity and expanding therapeutic scope in cancer and genetic diseases. Regulatory frameworks remain heterogeneous, affecting translation. The United States leads in approvals and clinical progress, the European Union emphasizes safety and ethics, China shows rapid expansion in clinical trials, and India remains in early stages due to regulatory and infrastructure constraints. Public perception influences adoption, shaped by misinformation and limited awareness. Persistent gaps in long-term safety, clinical efficacy, and population diversity remain challenges. Overall, CRISPR-Cas9 represents a transformative but carefully regulated platform for advancing biotechnology and medicine.",
+        "authors": [
+          "Sivakumar Durairaj",
+          "Shankar Durairaj",
+          "Sundar Krishnan",
+          "Anand Raju"
+        ],
+        "journal": "Journal of biotechnology",
+        "date": "2026-06-16",
+        "keywords": [
+          "CRISPR-Cas9 Nuclease",
+          "Ethical Considerations",
+          "Genome Editing",
+          "Guide RNA",
+          "Targeted Editing",
+          "Therapeutic Applications"
+        ],
+        "companies": [],
+        "title_cn": "CRISPR Cas9 revolutionizing genetic engineering and therapeutic applications.",
+        "abstract_cn": "Genetic engineering been transformed CRISPR基因编辑-Cas9 technology, offering high precision adaptability biological research therapeutic innovation. Originating from bacterial defense system, CRISPR基因编辑-Cas9 enables targeted editing through guide -directed Cas9 nuclease activity, allowing gene modification, mutation correction, disease mechanism analysis. This opened avenues personalized medicine gene therapy, particularly cancer inherited disorders, alongside applications agriculture. In oncology, CRISPR基因编辑-Cas9 demonstrates strong potential oncogene targeting, immune cell engineering, -T细胞治疗-based immunotherapy, supported substantial preclinical success. Delivery efficiency enhanced through systems such exosomes, liposomes, nanoparticles, improving stability tumor targeting. However, clinical translation remains constrained -target effects, delivery limitations, ethical concerns human genome editing, particularly germline modification. CRISPR基因编辑 shows therapeutic promise muscular dystrophy, sickle cell disease, cystic fibrosis. Emerging platforms including base editing, prime editing, dCas9-based epigenome editing enable precise genome gene regulation without double-strand breaks, reducing toxicity expanding therapeutic scope cancer genetic diseases. Regulatory frameworks remain heterogeneous, affecting translation. The United States leads approvals clinical progress, European Union emphasizes safety ethics, China shows rapid expansion clinical trials, India remains early stages regulatory infrastructure constraints. Public perception influences adoption, shaped misinformation limited awareness. Persistent gaps long-term safety, clinical efficacy, population diversity remain challenges. Overall, CRISPR基因编辑-Cas9 represents transformative carefully regulated platform advancing biotechnology medicine.",
+        "summary_cn": "【研究基础与实验设计】研究针对：镰状细胞病；核心技术：碱基编辑(CBE/ABE)、先导编辑；研究层级：临床前研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：促进作用, 调控作用, 安全性评估, 有效性验证；关键突破：提高疗效；局限性：存在实验局限性。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Journal of biotechnology。\n【后续追踪要点】临床试验；新药研发；基因/细胞治疗。",
+        "backfilled_from_news": "Long-term in vivo CRISPR/Cas9 gene editing in liver triggers host immunity and c",
+        "composite_score": 9.33,
+        "relevance_score": 14.5,
+        "impact_factor": null,
         "top_tier": false
       },
       {
@@ -947,64 +1031,6 @@
         "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】量化数据：0.02%, 93.3%, 95%；表型：肿瘤发生, 耐药性；核心发现：鉴定/表征, 抑制作用, 调控作用, 表达水平变化。\n【机制创新与产业价值】临床痛点：治疗耐药；发表期刊：Molecular and cellular probes。\n【后续追踪要点】持续关注后续进展及临床转化。",
         "composite_score": 7.12,
         "relevance_score": 10.5,
-        "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42493436",
-        "title": "[CRISPR-Cas9 activation screening identifies candidate chemokine regulators of ter-tiary lymphoid structure formation in bladder cancer].",
-        "abstract": "OBJECTIVE: To identify the cytokine genes influencing the formation of tertiary lymphoid structures (TLS) through CRISPR-Cas9 library screening, and to discover potential key regulatory molecules, providing new targets for enhancing the efficacy of bladder cancer immunotherapy. METHODS: Based on a mouse whole-genome library, 44 chemokine-related genes were identified, and an single-guide RNA (sgRNA) library targeting these genes was designed and constructed, with three sgRNAs assigned to each gene. Using a lentiviral packaging system, the library plasmids were used to transfect HEK293T cells to generate a lentiviral library, which was then used to infect the mouse bladder cancer cell line MB49. Purinomycin selection was performed to obtain the MB49-mCherry cell line stably over-expressing chemokines. The cells were inoculated into the peritoneal cavity of C57BL/6 mice to establish a bladder cancer xenograft model, and tumor growth was monitored. Three weeks later, tumor tissue was excised, genomic DNA was extracted for high-throughput sequencing, and sgRNA enrichment was analyzed to screen for differentially expressed cytokine genes. Concurrently, immunohistochemical staining was performed to detect TLS markers CD20 and CD3, and the number, distribution, and maturity of TLS were assessed. The selected candidate genes were validated individually in vivo to further confirm their impact on TLS formation. RESULTS: We successfully constructed a cytokine gene library containing 132 sgRNAs, covering 44 chemokine genes. Following lentiviral infection, we obtained the MB49-mCherry cell line, which stably expressed the library, and isolated dead Cas9-positive monoclonal cell lines via flow cytometry to ensure the homogeneity and reproducibility of subsequent experiments. Intratumoral tumor experiments in mice revealed that the number of TLS cells in the experimental group was significantly higher than in the control group, primarily distributed at the tumor margins. High-throughput sequencing results showed that, compared with the control group, in the experimental group, Cxcl16 sgDNA was significantly enriched, while Ccl20 and Cx3lc1 sgDNA levels decreased compared with baseline (P < 0.05). Further validation of the individual roles of each factor via intraperitoneal injection revealed that the number of TLSs in tumors decreased in the group treated with the CX3CL1 chemokine, suggesting that CX3CL1 might negatively regulate TLS formation. Immunohistochemical results showed that in the CX3CL1-treated group, the aggregation of CD20-positive B cells and CD3-positive T cells in the tumor tissue was reduced, and the TLS structure was incomplete. CONCLUSION: Through CRISPR-Cas9 library screening combined with in vivo validation, this study successfully identified CX3CL1 as a potential negative regulator of TLS formation in bladder cancer. High CX3CL1 expression was associated with a reduction in TLS numbers, suggesting that it might exert an inhibitory role in the immune microenvironment of bladder cancer. This finding provides new clues and research directions for understanding the molecular mechanisms of TLS formation in bladder cancer. However, whether CX3CL1 can serve as an immunotherapeutic target remains to be further validated through clinical specimen analysis, multidimensional mechanistic investigation, and immunotherapy response correlation studies.",
-        "authors": [
-          "Yongcun Wang",
-          "Hongchen Song",
-          "Yiqing DU",
-          "Tao Xu"
-        ],
-        "journal": "Beijing da xue xue bao. Yi xue ban = Journal of Peking University. Health sciences",
-        "date": "",
-        "keywords": [
-          "CRISPR-Cas systems",
-          "Chemokines",
-          "Gene library",
-          "Tertiary lymphoid structures",
-          "Urinary bladder neoplasms"
-        ],
-        "companies": [],
-        "title_cn": "[CRISPR-Cas9 activation screening identifies candidate chemokine regulators of ter-tiary lymphoid structure formation in bladder cancer].",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：膀胱癌/尿路上皮癌；模型：异种移植瘤模型、HEK293细胞；核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：动物体内实验。\n【核心实验关键数据】表型：肿瘤发生；核心发现：首次发现/鉴定, 鉴定/表征, 抑制作用, 促进作用；关键突破：新靶点；局限性：需进一步研究。\n【机制创新与产业价值】发表期刊：Beijing da xue xue bao. Yi xue ban = Journal of Peking University. Health sciences。\n【后续追踪要点】功能验证；新药研发。",
-        "composite_score": 7.12,
-        "relevance_score": 10.5,
-        "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42628890",
-        "title": "CRISPR/Cas12a-based tag-free fluorescent biosensor using G-quadruplex specific thioflavin T for detection of oncogenic microRNAs.",
-        "abstract": "MicroRNAs (miRs) are central regulators of tumor initiation and progression, and their aberrant expression patterns have been identified as clinically valuable biomarkers for the early diagnosis of malignancies and prognostic evaluation. Here, we report tag-free fluorescence biosensing platform for the detection of circulating miRs in serum, targeting microRNA-21 (miR-21) and microRNA-10b (miR-10b) as clinically relevant oncogenic markers. The assay integrates CRISPR/Cas12a-mediated signal regulation with complementary strand (CS)-mediated target recognition. In this strategy, target miRs hybridize with the CS, thereby preventing CS-mediated activation of the Cas12a-crRNA complex. As a result, Cas12a collateral cleavage is suppressed, the G-quadruplex reporter remains intact, and Thioflavin T fluorescence is enhanced. The platform demonstrated excellent sequence discrimination capability, effectively distinguishing closely related and mismatched targets. Sensitive quantification was achieved with limits of detection of 1.4 nM for miR-21 and 852 pM for miR-10b. Importantly, robust analytical performance was maintained in complex biological matrices, confirming its applicability to serum samples. Collectively, this CRISPR/Cas12a-enabled fluorescent biosensor provides a simple approach for circulating miR detection.",
-        "authors": [
-          "Sepideh Hassibian",
-          "Masoomeh Esmaelpourfarkhani",
-          "Mona Alibolandi",
-          "Mohammad Ramezani",
-          "Khalil Abnous"
-        ],
-        "journal": "Methods (San Diego, Calif.)",
-        "date": "2026-08-21",
-        "keywords": [
-          "CRISPR-Cas12a",
-          "Fluorescent biosensor",
-          "G-quadruplex",
-          "MicroRNA",
-          "Oncogenes",
-          "Thioflavin T"
-        ],
-        "companies": [],
-        "title_cn": "CRISPR/Cas12a-based tag-free fluorescent biosensor using G-quadruplex specific thioflavin T for detection of oncogenic microRNAs.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：抑制作用, 促进作用, 调控作用, 有效性验证；关键突破：提高疗效。\n【机制创新与产业价值】临床痛点：转移/复发；发表期刊：Methods (San Diego, Calif.)。\n【后续追踪要点】伴随诊断。",
-        "composite_score": 6.85,
-        "relevance_score": 10.0,
         "impact_factor": null,
         "top_tier": false
       }
@@ -1569,6 +1595,30 @@
         "top_tier": true
       },
       {
+        "pmid": "42419343",
+        "title": "Nutritional, functional, and psychological considerations for incretin-based therapies in adults-an EASO, EFAD, and ECPO Consensus Statement.",
+        "abstract": "Incretin-based therapies, including GLP-1 receptor agonists and dual GLP-1-GIP receptor agonists, have transformed obesity management, producing substantial weight loss and cardiometabolic benefits, with potential improvements in obesity-related complications, physical function, quality of life, and psychological wellbeing for many individuals. However, reduced appetite, rapid weight loss, gastrointestinal adverse effects, and changes in eating behaviour might create nutritional, functional, or psychological risks in some individuals. This EASO-EFAD-ECPO Consensus Statement outlines pragmatic nutritional, functional, and psychological considerations during incretin-based therapy treatment. We synthesise evidence on medical nutrition therapy, including protein targets during weight loss, dietary quality, and mitigation of gastrointestinal adverse events. We discuss pragmatic approaches that could help support preservation of fat-free mass and physical function during weight loss, including adequate protein intake and progressive resistance exercise. We emphasise the psychological and identity-related challenges during incretin-based therapy, including shifts in food reward, coping, and social connection, and recommend psychological screening, with integrated support where needed. We propose pragmatic monitoring during weight loss, including diet quality, micronutrient risk, and functional measures, with body-composition assessment where indicated. We suggest approaches to address disparities in access and adherence to ensure equity. We discuss the importance of shared decision making with the patient in decisions to start, up-titrate, delay, pause, down-titrate, or discontinue incretin-based therapies, considering the physical and psychological risks of treating versus not treating. Finally, we identify future research priorities, including longitudinal research on micronutrient status, macronutrient requirements, changes in dietary patterns and food choices, musculoskeletal outcomes, unique dosing schedules, and post-cessation maintenance to optimise safety, efficacy, and the patient experience.",
+        "authors": [
+          "Laurence J Dobbie",
+          "Liisa Tolvanen",
+          "Daniela Alves",
+          "Jennifer L Baker",
+          "Natalie S Bez"
+        ],
+        "journal": "The lancet. Diabetes & endocrinology",
+        "date": "2026-07-08",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Nutritional, functional, and psychological considerations for incretin-based therapies in adults-an EASO, EFAD, and ECPO Consensus Statement.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】核心发现：鉴定/表征, 安全性评估, 有效性验证；关键突破：提高疗效。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The lancet. Diabetes & endocrinology。\n【后续追踪要点】安全性监测。",
+        "backfilled_from_news": "GLP-1 and GLP-1/GIP agonists in psoriasis: A real-world cohort study on healthca",
+        "composite_score": 9.58,
+        "relevance_score": 9.5,
+        "impact_factor": 44.0,
+        "top_tier": true
+      },
+      {
         "pmid": "42253238",
         "title": "Survodutide Once Weekly for the Treatment of Adults with Obesity.",
         "abstract": "BACKGROUND: Although medications with glucagon-like peptide-1 (GLP-1) receptor agonist activity have transformed the management of obesity and shown substantial cardiometabolic benefits, unmet needs remain. Survodutide, an investigational glucagon receptor-GLP-1 receptor dual agonist, led to substantial weight reduction in a phase 2 trial involving adults with obesity without diabetes. METHODS: In this phase 3, double-blind trial, we randomly assigned adults with a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 30 or higher, or 27 or higher with at least one obesity-related complication (excluding diabetes), in a 1:1:1 ratio to receive once-weekly survodutide administered subcutaneously at a dose adjusted up to 3.6 mg or 6.0 mg or placebo, in addition to counseling for lifestyle modification. The two primary end points were the percent change in body weight and a reduction in body weight of at least 5% from baseline to week 76. The primary efficacy analysis was conducted according to the treatment-regimen estimand, which incorporates the effects of any early discontinuation of survodutide or placebo, the use of protocol-prohibited obesity medications, and a prolonged dose-escalation period. RESULTS: Among 725 participants (241 in the 3.6-mg survodutide group, 242 in the 6.0-mg survodutide group, and 242 in the placebo group), the mean age was 47.1 years; 294 participants (40.6%) were men. At baseline, the mean BMI was 37.9, and the mean body weight was 108.8 kg. At week 76, the mean change in body weight from baseline according to the treatment-regimen estimand was -12.2% (95% confidence interval [CI], -13.6 to -10.8) in the 3.6-mg group, -13.0% (95% CI, -14.4 to -11.6) in the 6.0-mg group, and -5.4% (95% CI, -6.9 to -4.0) in the placebo group; 72.6%, 71.9% and 46.3% of the participants, respectively, had weight reduction of at least 5% (P<0.001 for all comparisons with placebo). The most common adverse events were gastrointestinal symptoms (typically mild to moderate), which occurred in 80.9% of the participants in the 3.6-mg group, in 89.7% of those in the 6.0-mg group, and in 47.9% of those in the placebo group. No deaths were reported. CONCLUSIONS: Survodutide led to significantly greater reductions in body weight than placebo in adults with obesity without diabetes. (Funded by Boehringer Ingelheim; SYNCHRONIZE-1 ClinicalTrials.gov number, NCT06066515.).",
@@ -1589,6 +1639,30 @@
         "composite_score": 9.45,
         "relevance_score": 9.0,
         "impact_factor": 96.2,
+        "top_tier": true
+      },
+      {
+        "pmid": "42120723",
+        "title": "Orforglipron for maintenance of body weight reduction: the double-blind, randomized phase 3b ATTAIN-MAINTAIN trial.",
+        "abstract": "Incretins have improved the management of obesity and its related complications, but maintaining these health benefits requires ongoing administration, which can be challenging. Orforglipron, a once-daily oral nonpeptide glucagon-like peptide-1 (GLP-1) receptor agonist, has demonstrated weight loss efficacy, improvements in cardiometabolic risk factors, and safety generally similar to injectable GLP-1 receptor agonists. Here this double-blind, placebo-controlled trial randomized participants previously treated with tirzepatide (cohort 1: N = 205) or semaglutide (cohort 2: N = 171) during the SURMOUNT-5 study to orforglipron once daily or placebo. Cohort 1 participants who achieved body weight plateau maintained a model-based estimate (MBE) of 74.7% (s.e.m. 4.05) of body weight reduction with orforglipron compared with an MBE of 49.2% (s.e.m. 3.92) with placebo, resulting in an estimated treatment difference of MBE 25.5% (95% confidence interval 14.5 to 36.5); P < 0.001; treatment-regimen estimand) at week 52. Cohort 2 participants who achieved body weight plateau maintained an MBE of 79.3% (s.e.m. 4.42) of body weight reduction with orforglipron compared with an MBE of 37.6% (s.e.m. 7.46) with placebo, resulting in an estimated treatment difference of MBE 41.7 (95% confidence interval 24.4 to 59.0); P < 0.001; treatment-regimen estimand) at week 52. All key secondary endpoints were met. The most common adverse events were gastrointestinal effects, which were mostly mild to moderate in severity. These data demonstrate orforglipron's potential as a globally scalable option for minimizing weight changes after injectable therapy. Trial limitations include the absence of a comparator arm involving continued use of injectable obesity-management medications and the trial's 1-year duration. ClinicalTrials.gov registration: NCT06584916 .",
+        "authors": [
+          "Louis J Aronne",
+          "Deborah B Horn",
+          "Carel W le Roux",
+          "Ariana M Chao",
+          "Wayne Ho"
+        ],
+        "journal": "Nature medicine",
+        "date": "2026-05-13",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Orforglipron for maintenance of body weight reduction: the double-blind, randomized phase 3b ATTAIN-MAINTAIN trial.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：III期临床试验。\n【核心实验关键数据】量化数据：74.7%, 49.2%, 25.5%；核心发现：疾病模型建立, 安全性评估, 有效性验证；关键突破：提高疗效；局限性：存在实验局限性。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Nature medicine。\n【后续追踪要点】安全性监测。",
+        "backfilled_from_news": "Oral semaglutide for obesity: clarifying comparative evidence and real-world app",
+        "composite_score": 9.18,
+        "relevance_score": 8.5,
+        "impact_factor": 58.7,
         "top_tier": true
       },
       {
@@ -1613,6 +1687,30 @@
         "relevance_score": 3.5,
         "impact_factor": 44.0,
         "top_tier": true
+      },
+      {
+        "pmid": "41837981",
+        "title": "Holding vs Continuing GLP-1/GIP Agonists Before Upper Endoscopy: The OCULUS Randomized Clinical Trial.",
+        "abstract": "IMPORTANCE: Glucagon-like peptide-1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) are known to increase the risk of retained gastric contents. High-quality data are lacking to guide periprocedure management of GLP-1 and GIP agonists. OBJECTIVE: To compare the risk of clinically significant residual gastric volume (RGV) in patients who continue vs hold 1 dose of weekly or daily GLP-1 and GIP agonists prior to sedation. DESIGN, SETTING, AND PARTICIPANTS: This randomized, single-masked clinical trial conducted at 2 large tertiary referral centers in the US included patients undergoing elective upper endoscopy (EGD) who were receiving GLP-1 or GLP-1/GIP agonists between July 2024 and May 2025. Eligible participants were adults aged 18 years or older, scheduled for EGD with or without colonoscopy, under moderate sedation or monitored anesthesia care, and taking a stable dose of a GLP-1 or GLP-1/GIP agonist for at least 1 month. Exclusion criteria were prior foregut surgery, achalasia, documented gastroparesis, RGV on previous endoscopy, gastric outlet obstruction, planned general anesthesia, or recent opioid use. Data were analyzed May 2025. INTERVENTION: Participants were randomized to either continue their medication or hold 1 dose prior to the procedure. MAIN OUTCOMES AND MEASURES: Clinically significant RGV, a composite of gastric contents that (1) precludes endoscopic examination, (2) requires premature termination or endotracheal intubation, and/or (3) results in an aspiration event that necessitates extended observation or monitoring, unplanned therapeutics, or hospital admission. RESULTS: There were 60 patients (32 holding 1 dose, 28 continuing medication) in the preplanned interim analysis (median [IQR] age, 62.5 [55.5-67.5] years; 30 female [50.0%]). Clinically significant RGV occurred in 3.1% in the hold group vs 25.0% in the continue group (absolute difference, 21.9% [90% CI, 7.0%-36.7%]; P = .003). The trial was terminated early as risk exceeded the preestablished O'Brien-Fleming stopping boundary. In the EGD-only subgroup (35 patients), clinically significant RGV occurred in 46.7% in the continue vs 5.0% in the hold groups (absolute difference, 41.7% [90% CI, 17.9%-65.4%]; P = .001). In the EGD plus colonoscopy subgroup (25 patients), who were on clear liquids the day prior, no patients had clinically significant RGV. CONCLUSIONS AND RELEVANCE: This randomized clinical trial found that continuing GLP-1 or GIP agonist in the preprocedural period increased clinically significant RGV but did not increase the risk of other adverse events. Clear liquids the day prior to the procedure may mitigate the risk of clinically significant RGV regardless of GLP-1/GIP use. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT06533527.",
+        "authors": [
+          "Akram I Ahmad",
+          "Samita Garg",
+          "Jeffrey Jacobs",
+          "Zaid Ansari",
+          "Tasneem Jamal Al-Din"
+        ],
+        "journal": "JAMA internal medicine",
+        "date": "",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Holding vs Continuing GLP-1/GIP Agonists Before Upper Endoscopy: The OCULUS Randomized Clinical Trial.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】量化数据：50.0%, 3.1%, 25.0%；核心发现：安全性评估。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：JAMA internal medicine。\n【后续追踪要点】临床试验；新药研发。",
+        "backfilled_from_news": "GLP-1 and GLP-1/GIP agonists in psoriasis: A real-world cohort study on healthca",
+        "composite_score": 11.1,
+        "relevance_score": 12.0,
+        "impact_factor": 63.1,
+        "top_tier": false
       },
       {
         "pmid": "42610271",
@@ -1695,123 +1793,27 @@
         "top_tier": false
       },
       {
-        "pmid": "42624330",
-        "title": "Trends in utilization of glucagon-like peptide‑1 receptor agonists, sodium-glucose cotransporter‑2 inhibitors, and metabolic bariatric surgery in U.S. Adults with diabetes and obesity.",
-        "abstract": "AIMS: To characterize trends in utilization of glucagon-like peptide‑1 receptor agonists (GLP‑1RAs), sodium-glucose cotransporter‑2 inhibitors (SGLT2is), and metabolic/bariatric surgery among US adults with type 2 diabetes (T2D) and obesity. METHODS: We conducted a cohort study using electronic health record and claims data from Optum Labs Data Warehouse for US private and Medicare Advantage plan enrollees aged 18-79 with T2D and obesity initiating GLP‑1RAs or SGLT2is or undergoing MBS (2010-2024). We evaluated initiation, adherence (≥80% of days with medication), and persistence. RESULTS: Among 342,932 treatment initiations (335,605 individuals), 60.8% initiated GLP‑1RAs, 35.7% SGLT2is, and 3.6% MBS. Use of both medication classes increased over time (GLP-1RAs: 1,988 to 44,852; SGLT2is: 861 to 19,892). In 2024, semaglutide (62.2%) and tirzepatide (32.6%) were the most initiated GLP-1RAs; MBS was rare (0.7% of treatments). Median treatment duration was 240 days for GLP‑1RAs and 254 days for SGLT2is; ∼50% were adherent. Tirzepatide had the highest adherence and persistence. At one-year, 53.0% of GLP‑1RA and 56.0% of SGLT2i initiators were using their initiated treatment; transition to other therapies was uncommon. CONCLUSIONS: Initiation of GLP‑1RAs and SGLT2is, but not MBS utilization, has expanded in recent years, although adherence and persistence remain low. Further studies should evaluate how these shifting patterns affect health outcomes.",
+        "pmid": "42419792",
+        "title": "Comparative effects of drugs for adults with overweight or obesity: systematic review and network meta-analysis.",
+        "abstract": "OBJECTIVE: To provide an up-to-date evidence summary about the comparative benefits and harms of drugs for adults with overweight or obesity to inform decision making for policymakers, payers, clinicians, and patients. DESIGN: Systematic review and network meta-analysis of 24 outcomes using frequentist random effects models and bayesian dose-response models, the GRADE (Grading of Recommendations Assessment, Development, and Evaluation) approach, and the Cochrane Risk of Bias 2 tool. DATA SOURCES: Medline, Embase, and Cochrane Library, searched up to 12 November 2025. STUDY SELECTION: Randomised controlled trials of 12 weeks' duration or longer comparing one or more drugs with lifestyle modification, placebo, or another drug. RESULTS: This network meta-analysis comprised 262 trials (99 791 participants) evaluating 19 drugs with follow-up from 12 to 172 weeks. Compared with lifestyle modification alone, at one year, moderate to high certainty evidence shows substantial weight loss with tirzepatide (mean difference -14.9%, 95% confidence interval -16.0% to -13.9%), cagrilintide-semaglutide (CagriSema, -14.8%, -16.9% to -12.7%), oral semaglutide (-10.9%, -12.7% to -9.1%), orforglipron (-9.9%, -12.4% to -7.5%), subcutaneous semaglutide (-9.8%, -10.6% to -9.1%), and phentermine-topiramate (-8.1%, -9.7% to -6.5%). Emerging agents (ecnoglutide, mazdutide, retatrutide) may produce similar or greater reductions (13.1-14.6%; very low to low certainty). Moderate to high certainty evidence supports discontinuation because of adverse events to be highest with orforglipron, naltrexone-bupropion, liraglutide, phentermine-topiramate, CagriSema, and oral semaglutide (risk ratios from 1.9 to 4.2); gastrointestinal events were most increased with naltrexone-bupropion, oral semaglutide, orforglipron, and tirzepatide (risk ratios from 3.1 to 4.2). Fatigue risk increased, particularly with naltrexone-bupropion (risk ratio 8.9; absolute increase 331 per 1000 people over one year), orforglipron (3.4; 100 more per 1000), and CagriSema (3.2; 92 more per 1000). Tirzepatide reduced fat mass the most (by 25.7%) but also lean mass the most (by 8.3%). Subcutaneous semaglutide was the only drug associated with reduced all cause mortality (risk ratio 0.81, 95% confidence interval 0.72 to 0.93) and myocardial infarction (0.72, 0.61 to 0.85), with these estimates largely informed by cardiovascular outcome trials in high risk populations. Subcutaneous semaglutide (0.43, 0.21 to 0.84) and tirzepatide (0.49, 0.27 to 0.88) reduced heart failure risk. No drugs convincingly reduced kidney failure or improved quality of life (43 trials with 45 663 participants) beyond established minimally important differences (all mean differences <5 points; minimally important difference 10). Except for larger weight reductions in trials with longer duration (shown for subcutaneous semaglutide), subgroup analyses for drug dosages and key patient characteristics did not identify credible differences in relative effects of treatment. CONCLUSIONS: Obesity drugs produce variable weight loss at one year, with larger benefits generally accompanied by greater harms and discontinuation. Most agents do not improve quality of life meaningfully and few show cardiovascular benefits. Decisions in clinical practice should consider trade-offs between benefits and harms within the context of shared decision making. SYSTEMATIC REVIEW REGISTRATION: PROSPERO CRD42024507993.",
         "authors": [
-          "Paige D Wartko",
-          "Rui Zhang",
-          "Eric Johnson",
-          "Connor Begle",
-          "Jennifer F Bobb"
+          "Kailei Nong",
+          "Qingyang Shi",
+          "Xinran Xie",
+          "Yang Wang",
+          "Arnav Agarwal"
         ],
-        "journal": "Diabetes research and clinical practice",
-        "date": "2026-08-20",
-        "keywords": [
-          "GIP/GLP-1RA",
-          "GLP-1RA",
-          "Metabolic surgery",
-          "Obesity",
-          "Pharmacoepidemiology",
-          "SGLT2i",
-          "Type 2 diabetes"
-        ],
+        "journal": "BMJ (Clinical research ed.)",
+        "date": "2026-07-08",
+        "keywords": [],
         "companies": [],
-        "title_cn": "Trends in utilization of glucagon-like peptide‑1 receptor agonists, sodium-glucose cotransporter‑2 inhibitors, and metabolic bariatric surgery in U.S. Adults with diabetes and obesity.",
+        "title_cn": "Comparative effects of drugs for adults with overweight or obesity: systematic review and network meta-analysis.",
         "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：80%, 60.8%, 35.7%；核心发现：鉴定/表征, 抑制作用, 有效性验证。\n【机制创新与产业价值】发表期刊：Diabetes research and clinical practice。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 9.41,
-        "relevance_score": 13.0,
-        "impact_factor": 6.2,
-        "top_tier": false
-      },
-      {
-        "pmid": "42629417",
-        "title": "Psychiatric and eye disorders associated with use of glucagon-like peptide 1 receptor agonists (GLP-1 RAs).",
-        "abstract": "Glucagon-like peptide 1 receptor agonists (GLP-1 RAs) semaglutide, liraglutide, and dulaglutide are indicated for diabetes. Semaglutide and liraglutide were also approved for therapy of obesity or weight control. Apprehension has been expressed about the possible link between GLP-1 RAs and suicidality. Drug agencies established no causal relationship, but declaring that this risk cannot be underevaluated. We analyzed spontaneous signals of suspected adverse reactions (SARs) to liraglutide, semaglutide, and dulaglutide from EudraVigilance database for the years 2020-2025, to give a contribution in the definition of safety profile of GLP-1 RAs. SARs to semaglutide, liraglutide, and dulaglutide were analyzed, and descriptive and disproportionality analysis for adverse reactions was performed. Eye disorders were more frequently reported with semaglutide than liraglutide (ROR 2.67; 95% CI 1.54-4.63) and dulaglutide (ROR 1.89; 95% CI 1.30-2.75). Suicidal ideation was disproportionately reported with semaglutide (ROR 6.49; 95% CI 1.57-26.81) and liraglutide (ROR 8.61; 95% CI 1.87-39.45) compared with dulaglutide. Data suggest the need of further research and vigilance on the potential occurrence of eye disorders related to GLP-1 RAs semaglutide and liraglutide use and suggest not to underestimate the possibility of a link between these two drugs and suicidality. Caution is suggested when GLP-1 RAs are prescribed for patients characterized by ophthalmic and neuropsychiatric vulnerability.",
-        "authors": [
-          "Ilaria Ammendolia",
-          "Cristina Mondello",
-          "Emanuela Esposito",
-          "Gioacchino Calapai",
-          "Mariaconcetta Currò"
-        ],
-        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
-        "date": "2026-08-22",
-        "keywords": [
-          "Adverse events",
-          "Eye disorders",
-          "Glucagon-like peptide 1 receptor agonists",
-          "Pharmacovigilance",
-          "Psychiatric disorders",
-          "Suicide"
-        ],
-        "companies": [
-          "Scribe"
-        ],
-        "title_cn": "Psychiatric and eye disorders associated with use of glucagon-like peptide 1 receptor agonists (GLP-1 RAs).",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：95%, 95%, 95%；核心发现：鉴定/表征, 相关性, 安全性评估, 表达水平变化；局限性：需进一步研究; 存在技术局限。\n【机制创新与产业价值】发表期刊：Naunyn-Schmiedeberg's archives of pharmacology。\n【后续追踪要点】安全性监测。",
-        "composite_score": 9.33,
-        "relevance_score": 14.5,
-        "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42618523",
-        "title": "Major Adverse Liver Outcomes With Tirzepatide and Injectable Semaglutide in Adults With Overweight or Obesity and Type 2 Diabetes.",
-        "abstract": "OBJECTIVE: This study aimed to compare the effectiveness of tirzepatide versus injectable semaglutide in preventing major adverse liver outcomes (MALO) among adults with overweight or obesity and type 2 diabetes. METHODS: This retrospective target trial emulation utilized the TriNetX global network to analyze new users of tirzepatide and semaglutide. The primary outcome was time-to-first MALO (a composite of cirrhosis, decompensated events, and hepatocellular carcinoma). Propensity score matching balanced baseline covariates. RESULTS: Over a median follow-up of ~17 months, no significant difference in MALO risk was observed between tirzepatide and semaglutide initiators (estimated incidence rate [IR] 4.05 vs. 4.04 per 1000 person-years [PY]; hazard ratio [HR] 1.04, 95% CI 0.88-1.23). This comparable risk profile was maintained across sensitivity analyses, including people with MASLD (IR 9.97 vs. 10.03 per 1000 PY; HR 1.03, 95% CI: 0.75-1.42) and \"as treated\" analysis (HR 0.98, 95% CI: 0.80-1.21). Tirzepatide achieved greater BMI reduction (mean difference ~1.1 kg/m2, p < 0.001). Internal validation confirmed both agents significantly outperformed sitagliptin. CONCLUSIONS: In this high-risk population with type 2 diabetes, tirzepatide and injectable semaglutide offered comparable effectiveness in mitigating liver disease progression and MALO in the short- to medium-term follow-up.",
-        "authors": [
-          "Mainak Banerjee",
-          "Ajitesh Roy",
-          "Vivek Mohan Sharma",
-          "Abhishek Das"
-        ],
-        "journal": "Obesity (Silver Spring, Md.)",
-        "date": "2026-08-19",
-        "keywords": [
-          "GLP‐1RA",
-          "GLP‐1RA/GIP agonist",
-          "MASLD",
-          "NAFLD",
-          "fatty liver"
-        ],
-        "companies": [],
-        "title_cn": "Major Adverse Liver Outcomes With Tirzepatide and Injectable Semaglutide in Adults With Overweight or Obesity and Type 2 Diabetes.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：肝癌/肝细胞癌、糖尿病；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：95%, 95%, 95%；表型：肿瘤发生；核心发现：安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：转移/复发；发表期刊：Obesity (Silver Spring, Md.)。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 9.04,
-        "relevance_score": 13.0,
-        "impact_factor": 4.2,
-        "top_tier": false
-      },
-      {
-        "pmid": "42622752",
-        "title": "Oral semaglutide vs DPP-4 inhibitors in reducing risk of cognitive impairment in elderly patients with HFpEF and obesity.",
-        "abstract": "Heart failure with preserved ejection fraction (HFpEF), obesity, type 2 diabetes mellitus are common in elderly patients and are associated with an increased risk of cognitive impairment (CoI). In these patients, the protective metabolic and vascular effects of glucagon-like peptide-1 receptor agonists (GLP-1 RAs) are well established. The aim of this study was to evaluate effects of one-year treatment with oral semaglutide versus DPP-4 inhibitors (DPP4i), as an add-on to the hypoglycaemic therapy, on the incidence of CoI in patients with HFpEF, obesity, and type 2 diabetes. 246 elderly outpatients were recruited and divided into two groups (oral semaglutide vs. DPP4i), accurately matched for age, sex, and body mass index (BMI). At one-year follow-up, 106 new cases of CoI were observed in the entire study population (43.1 events/100 patients/year). A significant difference was found between the two groups: 33 cases with oral semaglutide (26.8 events/100 patients/year) versus 73 cases with DPP4i (59.3 events/100 patients/year), p<0.0001. Logistic regression analysis indicated a 77% reduced risk of incident CoI with oral semaglutide compared to DPP4i. In elderly patients with HFpEF, obesity and type 2 diabetes, oral semaglutide seems to have a positive effect in reducing the incidence of cognitive impairment.",
-        "authors": [
-          "Giuseppe Armentaro",
-          "Cristiana Vitale",
-          "Velia Cassano",
-          "Marilisa Panza",
-          "Ilaria Gareri"
-        ],
-        "journal": "Internal and emergency medicine",
-        "date": "2026-08-20",
-        "keywords": [
-          "Cognitive impairment",
-          "Elderly",
-          "HFpEF",
-          "Obesity",
-          "Type 2 diabetes"
-        ],
-        "companies": [],
-        "title_cn": "Oral semaglutide vs DPP-4 inhibitors in reducing risk of cognitive impairment in elderly patients with HFpEF and obesity.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：77%；表型：认知/学习记忆障碍；核心发现：抑制作用, 有效性验证。\n【机制创新与产业价值】发表期刊：Internal and emergency medicine。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 8.78,
-        "relevance_score": 13.5,
-        "impact_factor": null,
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】量化数据：14.9%, 95%, 16.0%；核心发现：鉴定/表征, 疾病模型建立, 安全性评估, 有效性验证；局限性：需进一步研究。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：BMJ (Clinical research ed.)。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "Oral semaglutide for obesity: clarifying comparative evidence and real-world app",
+        "composite_score": 9.73,
+        "relevance_score": 9.5,
+        "impact_factor": 93.6,
         "top_tier": false
       }
     ],
