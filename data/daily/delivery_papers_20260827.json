@@ -1,0 +1,1779 @@
+{
+  "date": "2026-08-27",
+  "timestamp": "2026-08-27T07:02:18.162157",
+  "count": 98,
+  "type_distribution": {
+    "lnp": 30,
+    "nanoparticle": 35,
+    "aav": 21,
+    "lentivirus": 7,
+    "adenovirus": 2,
+    "other": 26,
+    "exosome": 17,
+    "electroporation": 3,
+    "vlp": 6
+  },
+  "papers": [
+    {
+      "pmid": "42632941",
+      "title": "Advances in gene transfer technologies: comparing viral and non-viral vectors for therapeutic applications.",
+      "authors": [
+        "Halagali P",
+        "Seenivasan R",
+        "Sreedevi A",
+        "Ligade VS",
+        "Bugadannavar P"
+      ],
+      "journal": "3 Biotech",
+      "date": "2026 Sep",
+      "abstract": "Gene and cell therapies have emerged as transformative approaches for treating a wide range of genetic and acquired diseases. Central to their success is the development of safe and effective gene delivery systems, categorized broadly into viral and non-viral vectors. Each system has its own advantages and limitations, requiring careful consideration of the target tissue, disease, and the balance between safety, efficacy, and scalability. Viral vectors, including adeno-associated viruses, retroviruses, lentiviruses, herpes simplex viruses, and adenoviruses, offer high transduction efficiency and specificity but raise concerns about immunogenicity and production challenges. Non-viral systems, such as lipid nanoparticles (LNPs) and other synthetic carriers, provide scalable, cost-effective, and potentially safer alternatives but often face hurdles in transduction efficiency and targeted delivery. This review provides a comprehensive overview of the current status of these vector systems for in vivo and ex vivo applications. Key comparisons are made across safety, efficacy, scalability, and immune responses, highlighting recent advancements and innovative approaches. We also discuss the outlook for next-generation gene transfer technologies, focusing on improvements in vector design, manufacturing, and application versatility. By addressing these considerations, we aim to inform the development of optimized therapeutic strategies that leverage the unique strengths of each delivery system.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle",
+        "aav",
+        "lentivirus",
+        "adenovirus"
+      ],
+      "query_category": "nanoparticle"
+    },
+    {
+      "pmid": "42586226",
+      "title": "Cholesterol restores corticostriatal synaptic connectivity in Huntington's disease through BDNF/TrkB signalling, supporting a role for cholesterol pathways implicated by human genetic modifier studies.",
+      "authors": [
+        "Lenci A",
+        "Villa M",
+        "Scolz A",
+        "Birolini G",
+        "Conforti P"
+      ],
+      "journal": "Pharmacological research",
+      "date": "2026 Sep",
+      "abstract": "Corticostriatal synaptic dysfunction is an early hallmark of Huntington's disease (HD), yet the mechanisms underlying synapse loss and its reversibility remain poorly understood. Brain cholesterol is essential for neuronal and synaptic function, and dysregulated cholesterol metabolism has emerged as a key feature of HD, with reduced cholesterol biosynthesis reported in rodent models and cholesterol replenishment shown to be beneficial. Consistent with these findings, GWAS identified HD modifier loci outside canonical DNA repair pathways, including MED15, which among its functions supports SREBP2-mediated transcription of cholesterol biosynthesis genes, and a chr22 locus encompassing SREBF2, the master regulator of cholesterol biosynthesis. These findings suggest that pathways regulating cholesterol homeostasis may contribute to modifying the course of HD. Here, we show that increasing cholesterol availability prevents synapse loss and restores corticostriatal connectivity in HD models. Cholesterol supplementation restores excitatory synapse density in vivo and in vitro. In primary HD neurons, cholesterol stabilizes dendritic spines and promotes the enrichment of GluA1-containing AMPA receptors in mature mushroom spines during chemically induced long-term potentiation, consistent with improved synaptic plasticity. Using microfluidic devices to spatially resolve the corticostriatal circuitry, we identified a compartment-specific mechanism whereby cholesterol delivery to cortical neurons is necessary and sufficient to restore corticostriatal connectivity, whereas cholesterol administration to the striatal compartment selectively restores intrastriatal inhibitory synapses. Mechanistically, NMDA receptor and BDNF/TrkB signalling mediate the cholesterol-dependent restoration of synaptic connectivity, establishing cholesterol as a critical regulator of corticostriatal synaptic integrity in HD and supporting targeting cholesterol homeostasis as a therapeutic strategy to restore synaptic function.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "in_vivo"
+    },
+    {
+      "pmid": "42643933",
+      "title": "Bioactive lipid-derived nanoparticles for RNA delivery.",
+      "authors": [
+        "Long K",
+        "Yuan J",
+        "Zhang Y",
+        "Li Y",
+        "Zhong M"
+      ],
+      "journal": "Materials today (Kidlington, England)",
+      "date": "2026 Oct",
+      "abstract": "Lipid nanoparticles (LNPs) have emerged as the most widely used and clinically validated platform for delivering RNAs, including small interfering RNA (siRNA) and messenger RNA (mRNA), as exemplified by the FDA approvals of Onpattro, Comirnaty, Spikevax, and mRESVIA. LNPs offer various benefits for RNA delivery, such as protecting RNA from enzymatic degradation, increasing cellular uptake and endosomal escape, and improving pharmacokinetics. To further broaden their use across a wide spectrum of diseases, various LNPs have recently been developed with unique biological functions, such as immunomodulation, tissue microenvironmental modulation, endosomal pathway interference, pharmacological activity, and tissue and cell selectivity, giving rise to the emerging concept of bioactive lipid-derived nanoparticles (bioactive LNPs). In this review, we summarize bioactive LNPs incorporating naturally sourced bioactive lipids, bioactive agent-derived lipids, or novel bioactive lipids identified through combinatorial synthesis coupled with high-throughput screening. We also discuss the structure-activity relationship of these bioactive lipids and overview their corresponding LNPs for specific biomedical applications. We further provide perspectives on the challenges and opportunities in translating bioactive lipid-derived LNPs into next-generation RNA nanomedicines.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42586245",
+      "title": "Targeting the hallmarks of ageing: Pharmacological challenges and breakthroughs in CRISPR delivery systems and future prospects.",
+      "authors": [
+        "Rathore S",
+        "Gupta A",
+        "Shah K",
+        "Chauhan NS",
+        "Gupta SK"
+      ],
+      "journal": "Ageing research reviews",
+      "date": "2026 Oct",
+      "abstract": "CRISPR has emerged as a next-generation gene-editing tool with the potential to target the molecular pathways associated with ageing and related disorders. It functions through RNA-guided Cas nucleases, directing DNA cleavage and utilizing the native DNA repair machinery for genetic manipulations. Advances in CRISPR technology have significantly enhanced the precision and flexibility of techniques for genome editing. The enzyme Cas9's ability to cut DNA at exact site has revolutionized genome editing by enabling accurate modifications within living eukaryotic cells. This review critically examines recent developments in CRISPR-based technologies, including Cas9, Cas12, base editing, prime editing, and CRISPR-mediated gene regulation. It highlights their rising applications in ageing research, with more emphasis on neurodegenerative disorders such as Alzheimer's and Parkinson's diseases. The review also discusses the major pharmacological and translational challenges that currently limit clinical applications, including inefficient tissue-specific delivery, off-target genome editing, immunogenicity, manufacturing complexity, and long-term safety concerns. Also, recent progress in both, viral and non-viral delivery methods are critically evaluated, including adeno-associated viruses, lentivirus vectors, lipid nanoparticles, gold nanoparticles, exosomes, electroporation, and microinjection, is thoroughly discussed to highlight their therapeutic potential and translational limitations. Current studies indicate that CRISPR-based approaches have preclinical potential for targeting important hallmarks of ageing, particularly genomic instability, telomere attrition, and mitochondrial dysfunction. Other hallmarks of ageing, such as stem cell exhaustion, epigenetic modifications, and microbiome changes, are at earlier stages of development. Overall, this review describes future strategies for developing safe, precise, and clinically translatable CRISPR-based treatments to promote healthy ageing.",
+      "delivery_types": [
+        "lnp",
+        "exosome",
+        "nanoparticle",
+        "aav",
+        "lentivirus",
+        "electroporation"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42633397",
+      "title": "Research advances in microneedle-exosome delivery systems for the treatment of multisystem diseases.",
+      "authors": [
+        "Jin ZE",
+        "Wang X",
+        "Cai Z"
+      ],
+      "journal": "Regenerative therapy",
+      "date": "2026 Dec",
+      "abstract": "The combined application of microneedles (MNs) and exosomes represents a significant research direction in the fields of targeted drug delivery and regenerative medicine. Their synergistic and complementary effects not only address key technical challenges associated with exosome delivery-such as low delivery efficiency and limited tissue penetration-but also endow MNs with capabilities for targeted therapy and precise diagnostics, thereby demonstrating substantial advantages in the diagnosis and treatment of multisystem diseases. This review summarizes recent advances in MN-exosome delivery systems across dermatological, cardiovascular and cerebrovascular, and musculoskeletal diseases, as well as tumor diagnosis and therapy, ocular surface disorders, and oral diseases. It focuses on the fabrication strategies, mechanisms of action, and therapeutic efficacy of various MN-based exosome delivery systems. Furthermore, it proposes research perspectives and potential solutions for diseases that respond poorly to conventional diagnostic and therapeutic approaches, providing a reference for the future development and clinical translation of MN-exosome systems.",
+      "delivery_types": [
+        "exosome"
+      ],
+      "query_category": "exosome"
+    },
+    {
+      "pmid": "42645750",
+      "title": "Nanomedicine strategies for overcoming multidrug resistance in breast cancer: recent advances and future perspectives.",
+      "authors": [
+        "Kumar M",
+        "Tejaswi",
+        "Bangwal R",
+        "Yadav M",
+        "Singh R"
+      ],
+      "journal": "Journal of the Egyptian National Cancer Institute",
+      "date": "2026 Aug 26",
+      "abstract": "Multidrug resistance (MDR) remains a major challenge in the effective treatment of breast cancer, often leading to therapeutic failure, tumor recurrence, and poor clinical outcomes. Multiple mechanisms contribute to MDR, including overexpression of ATP-binding cassette (ABC) transporters, evasion of apoptosis, epithelial-mesenchymal transition (EMT), and the persistence of cancer stem cells (CSCs). In recent years, nanomedicine has emerged as a promising strategy to overcome these resistance pathways by enhancing drug delivery, improving intracellular drug accumulation, and enabling targeted and combination therapies.This review provides a comprehensive overview of nanomedicine-based approaches for overcoming MDR in breast cancer. Various nanocarrier systems, including liposomes, solid lipid nanoparticles (SLNs), nanostructured lipid carriers (NLCs), polymeric nanoparticles, inorganic nanocarriers, nanoemulsions, and ligand-targeted systems, are systematically discussed in terms of their design, drug delivery capabilities, and role in bypassing resistance mechanisms. Particular emphasis is placed on combination nanotherapeutic strategies, such as co-delivery of chemotherapeutic agents with natural compounds, gene modulators, or sensitizers, which have demonstrated enhanced efficacy in both in vitro and in vivo models.In addition, this review critically evaluates the limitations of current preclinical studies and highlights key challenges in clinical translation, including variability of the enhanced permeability and retention (EPR) effect, safety concerns, and large-scale manufacturing issues. Overall, nanomedicine offers a multifaceted and promising approach to overcome MDR in breast cancer; however, further translational and clinical studies are required to fully realize its therapeutic potential.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42647756",
+      "title": "Message in a Bottle: The Therapeutic Potential of Domesticated Capsid Proteins.",
+      "authors": [
+        "Cullen HB",
+        "Berchowitz LE"
+      ],
+      "journal": "Annual review of genetics",
+      "date": "2026 Aug 26",
+      "abstract": "Domesticated gag genes derived from long terminal repeat (LTR) retrotransposons are widespread in mammals and occur in other metazoans, including Drosophila and zebrafish. Their protein products commonly contain a capsid (CA) domain, and many retain the ability to assemble capsid-like particles that package RNA, and potentially other biomolecules, with emerging roles in intercellular communication, neuronal signaling, placental gene regulation, and fertility. Biochemical, genetic, and structural studies have identified the core domains that are necessary and sufficient for capsid formation, even in the absence of accessory proteins. Several systems also exhibit selective self-RNA packaging directed by cis elements, suggesting rules that could be harnessed for programmable cargo selection. Building on this foundation, recent efforts have developed host-encoded Gag CA proteins for delivery applications, ranging from engineered systems to approaches that exploit naturally preloaded capsids. In addition to established platforms such as adeno-associated viruses (AAVs), lipid nanoparticles (LNPs), and nonintegrating lentiviral systems, domesticated Gag CA proteins may offer complementary features such as lower immunogenicity, flexible cargo capacity, and tissue-specific targeting. Open questions remain regarding release and cellular entry mechanisms, in vivo tropism, determinants of immunogenicity across family members, and safety.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle",
+        "lentivirus",
+        "aav"
+      ],
+      "query_category": "nanoparticle"
+    },
+    {
+      "pmid": "42644266",
+      "title": "Advances in the development and delivery of nucleic acid-based therapeutics.",
+      "authors": [
+        "Kurczewski E",
+        "Mansurov A",
+        "Sachar C",
+        "Guler MO"
+      ],
+      "journal": "Biomaterials science",
+      "date": "2026 Aug 26",
+      "abstract": "Recent advancements in experimental and computational methods along with growing gene sequencing libraries have enabled rapid development of nucleic acid-based therapeutic design for a wide variety of diseases. New drugs, delivery tools and methods have enabled precise and efficient therapy at a molecular scale. This review covers the current landscape and future directions of methods for gene and cell therapies, as well as their applications, advantages, and limitations. We present self-amplifying RNA, circular RNA, CRISPR systems, antisense oligonucleotides, and antibody-oligonucleotide conjugates, as well as CAR modification of T-cells, natural killer cells, and macrophages, with a brief discussion of modified stem cells. We also discuss developments in viral and non-viral delivery systems for their applications in cell and gene therapies.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "crispr_delivery"
+    },
+    {
+      "pmid": "42641929",
+      "title": "Spatially restricted antigen expression by an ionizable lipid nanoparticle enhances mRNA vaccine immunity against Pseudomonas aeruginosa.",
+      "authors": [
+        "Zhang N",
+        "Sun Z",
+        "Fan L",
+        "Miao Y",
+        "Wei A"
+      ],
+      "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+      "date": "2026 Aug 25",
+      "abstract": "Pseudomonas aeruginosa is a major cause of hospital-acquired infections, yet no licensed vaccine is available. Although mRNA-LNP vaccines offer a flexible platform for antibacterial immunization, conventional formulations are primarily optimized for gene expression and often result in systemic antigen distribution. Here, we developed a novel ionizable lipid, LC3, that enables spatially confined antigen expression following intramuscular administration while enhancing immunostimulatory activity. Compared with SM102-based LNPs, mRNA-LNPLC3 achieved preferential antigen expression at the injection site and draining lymph nodes, with reduced hepatic expression. Mechanistic studies revealed a pronounced decoupling between cellular uptake and productive gene expression, where LC3-based LNPs showed comparable uptake but cell-context-dependent expression differences between hepatocytes and muscle cells, indicating that intracellular processing rather than uptake efficiency governs functional expression and underlies the liver-sparing profile. Single-cell RNA sequencing demonstrated that LNPLC3 vaccination induced a coordinated early immune activation program. Functionally, LNPLC3 elicited stronger humoral and cellular immune responses than LNPSM102 and conferred improved protection against P. aeruginosa, while maintaining a favorable safety profile. Collectively, these results demonstrate that LC3 enables spatially restricted antigen expression through cell-context-dependent intracellular processing, linking localized expression to enhanced immunostimulatory activity. LC3-based LNPs therefore integrate spatial control of antigen expression with improved immune activation, providing a rational strategy for mRNA-LNP vaccine design.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42639936",
+      "title": "From Cell-Derived Vesicles to Hybrid Nanovectors: Biological Membranes as Functional Blueprints for Gene Delivery.",
+      "authors": [
+        "Baldari C",
+        "Leone C",
+        "Leccese G",
+        "De Stradis C",
+        "Invidia A"
+      ],
+      "journal": "Advanced healthcare materials",
+      "date": "2026 Aug 25",
+      "abstract": "Nonviral gene therapy reached unprecedented clinical prominence, with the approval of lipid nanoparticles (LNPs). Yet, their success remains largely confined to a narrow range of applications and tissues, which reflects the inherent functional constraints based on formulation optimization to overcome intrinsically complex physiological barriers. In contrast, biological membranes evolved to integrate immune evasion, targeting, intracellular trafficking, and membrane fusion within a single functional interface. In this review, we provide a mechanistic comparison between membrane-derived vesicles (MDVs) and hybrid biomimetic systems. We critically examine MDVs from different biological sources, highlighting their unique advantages for gene delivery applications. We also focus on hybrid systems, which merge the biological functionality of naturally derived membranes with the design control of synthetic nanovectors to address key limitations such as inefficient cytosolic release, poor targeting specificity, and transfection of hard-to-engineer cells. This review provides a biologically informed roadmap for designing efficient gene delivery vectors, proposing membrane-integrated nanovesicles (NVs) as \"living interfaces\" for non-viral gene therapy.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42641999",
+      "title": "A microfluidic and mechanistic modeling approach to enhance oral bioavailability of cannabidiol via poloxamer-coated camel milk exosomes.",
+      "authors": [
+        "Padakanti SC",
+        "Nathani A",
+        "Bagde A",
+        "Singh M"
+      ],
+      "journal": "International journal of pharmaceutics",
+      "date": "2026 Aug 25",
+      "abstract": "Cannabidiol (CBD) has significant therapeutic potential, but its oral delivery remains limited by poor aqueous solubility, variable intestinal absorption, and extensive first-pass metabolism. This study evaluated Poloxamer 407-coated camel milk-derived exosomes (CBD-CMDE-P407) as an oral nanocarrier system for improving CBD delivery. The relationship between in vitro release, epithelial permeability, in vivo pharmacokinetics, and GastroPlus&#xae; PBPK-based absorption prediction was also examined. CBD-loaded CMDE were successfully prepared with a particle size of 126.11&#x202f;&#xb1;&#x202f;0.75&#x202f;nm, while P407 coating increased the hydrodynamic diameter to 142.3&#x202f;&#xb1;&#x202f;2.1&#x202f;nm without evidence of major vesicle destabilization. CBD-CMDE-P407 reduced premature CBD release under simulated gastric conditions and supported sustained CBD release under intestinal pH, indicating improved gastric protection and controlled intestinal drug availability. In MDCK monolayers, CBD-CMDE-P407 showed higher apparent permeability than the control formulation, with a Papp of 29.56&#x202f;&#xd7;&#x202f;10-6 &#xb1; 0.78&#x202f;cm/s. Following oral administration in rats, CBD-CMDE-P407 increased systemic CBD exposure compared with the control formulation, with Cmax of 719.58&#x202f;&#xb1;&#x202f;27.63&#x202f;ng/mL and AUC0-24&#x202f;h of 2947.88&#x202f;&#xb1;&#x202f;124.03&#x202f;h&#xb7;ng/mL. A custom microfluidic dissolution chip reproduced the formulation rank order observed with conventional USP dissolution testing and may serve as a complementary low-volume platform for evaluating nanocarrier release behavior. GastroPlus&#xae; PBPK modeling further supported the experimental trends, predicting improved absorption for exosome-based formulations, mainly in the proximal small intestine. Overall, these findings provide proof-of-concept evidence that P407-coated CMDE may improve oral CBD delivery through gastric protection, controlled intestinal release, and enhanced epithelial transport. Further studies are needed to establish long-term stability, safety, reproducibility, and pharmacodynamic relevance.",
+      "delivery_types": [
+        "exosome"
+      ],
+      "query_category": "exosome"
+    },
+    {
+      "pmid": "42641619",
+      "title": "Molecular targets in proliferative vitreoretinopathy: rethinking prevention, treatment and drug delivery after rhegmatogenous retinal detachment.",
+      "authors": [
+        "Bernardi E",
+        "Mitchell W",
+        "Troyas C",
+        "Anguita R"
+      ],
+      "journal": "Expert opinion on therapeutic targets",
+      "date": "2026 Aug 25",
+      "abstract": "Proliferative vitreoretinopathy (PVR) is the leading cause of surgical failure after rhegmatogenous retinal detachment repair and the principal indication for repeat vitreoretinal surgery, yet four decades of mechanistic research have not produced an effective pharmacological adjunct. This review reexamines why, and asks how prevention, treatment and drug delivery might be reframed.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "exosome"
+    },
+    {
+      "pmid": "42640785",
+      "title": "Cell-Free Regenerative Therapies for Wound Healing and Skin Repair: The Emerging Role of Adipose-Derived Stem Cell Extracellular Vesicles.",
+      "authors": [
+        "Zhang Y",
+        "Guo X",
+        "Chen Y",
+        "Peng Y",
+        "Cheong S"
+      ],
+      "journal": "Advances in wound care",
+      "date": "2026 Aug 25",
+      "abstract": "Chronic wounds, burns, radiation-injured wounds, and pathological scars remain major clinical challenges despite advances in wound care. Adipose-derived stem/stromal cell extracellular vesicles (ADSC-EVs) offer a cell-free strategy for delivering bioactive proteins, lipids, and nucleic acids across multiple phases of repair, but their clinical value depends on wound-focused product definition, delivery, and evidence standards.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "exosome"
+    },
+    {
+      "pmid": "42640395",
+      "title": "Exosomes in the treatment of age-related ophthalmic diseases: an updated review.",
+      "authors": [
+        "Lin L",
+        "Zhang J",
+        "Xie X"
+      ],
+      "journal": "International ophthalmology",
+      "date": "2026 Aug 25",
+      "abstract": "Exosomes are nanoscale extracellular vesicles of endosomal origin that mediate intercellular communication by transferring bioactive cargo, including proteins, lipids, messenger RNAs, microRNAs, and other regulatory molecules. Through this process, they can modulate the biological functions of recipient cells. Age-related ophthalmic diseases, including age-related macular degeneration (AMD), dry eye disease (DED), and age-related cataract (ARC), are degenerative ocular conditions whose incidence increases with age and are associated with chronic inflammation, oxidative stress, dysregulated angiogenesis, tissue fibrosis, epithelial injury, and apoptosis. Diabetic retinopathy (DR), although not classically defined as an age-related ophthalmic disease, is also briefly discussed in this review as an age-associated metabolic retinal comorbidity. Existing clinical treatments have several limitations, including the need for repeated administration, variable therapeutic responses, and potential adverse effects. Because of their biocompatibility, low immunogenicity, modifiable cargo and potential for local delivery, exosomes are being investigated as therapeutic agents and drug delivery vehicles in ophthalmology. This review summarizes the biological characteristics of exosomes and their potential relevance to ophthalmic applications, reviews recent evidence on their roles and mechanisms in major age-related ophthalmic diseases, and discusses the current limitations and future directions of exosome-based therapeutic strategies.",
+      "delivery_types": [
+        "exosome"
+      ],
+      "query_category": "exosome"
+    },
+    {
+      "pmid": "42607213",
+      "title": "Serum IgA proteomics reveals clonal composition and neutralization of dimeric and monomeric IgA repertoires against human norovirus.",
+      "authors": [
+        "Park J",
+        "Jo G",
+        "Reyes Y",
+        "Pickens W",
+        "Kim DS"
+      ],
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "date": "2026 Aug 25",
+      "abstract": "Protection against human norovirus correlates with attachment ligand blockade antibody titers, fecal IgA titers, and serum IgA titers. IgA responses in serum comprise approximately 80 to 95% of monomeric IgA (mIgA) and 5 to 20% of dimeric IgA (dIgA). Using serum LC-MS/MS proteomics, we established clonal relationships between circulating IgG and IgA, as well as between dIgA and mIgA. We observed a modest degree of clonal overlap between circulating IgG and IgA at steady state and found that more than 80% of antigen-specific mIgA was also detectable as dIgA. We biochemically characterized neutralizing epitopes on norovirus GII.4 virus-like particles (VLPs) targeted by serum IgA clonotypes and demonstrated that dIgA markedly enhances neutralization potency relative to mIgA and IgG in an epitope-specific manner. Cryoelectron microscopy and cryoelectron tomography revealed that whether IgA dimerization enhances viral neutralization depends on epitope accessibility on the VLP and antibody binding orientation. Together, these findings provide molecular-level resolution of the serum IgA response and define the structural basis by which dIgA enhances neutralization potency in an epitope-specific manner.",
+      "delivery_types": [
+        "vlp"
+      ],
+      "query_category": "vlp"
+    },
+    {
+      "pmid": "42644387",
+      "title": "Dual-mode application of transcriptional regulation and DNA editing using the ultra-compact TnpB system.",
+      "authors": [
+        "Oh Y",
+        "Jeon SB",
+        "Gwon LW",
+        "Sim BW",
+        "Lee SH"
+      ],
+      "journal": "Nucleic acids research",
+      "date": "2026 Aug 24",
+      "abstract": "RNA-guided obligate mobile element guided activity systems derived from transposable elements have emerged as compact genome-editing tools that may replace clustered regularly interspaced short palindromic repeats platforms. We established a dual-mode genome regulation platform using ISDge10 TnpB effectors and engineered &#x3c9;RNAs, in which modulation of the &#x3c9;RNA guide length enables switching between programmable transcriptional activation and genome editing. TnpB programmed with a 10-nt guide region of the &#x3c9;RNA engages target DNA without inducing double-strand breaks. Fusion of transcriptional activators with Sso7d (DNA-binding protein from&#xa0;Sulfolobus solfataricus) enables specific transcriptional upregulation across endogenous loci. Restoring the &#x3c9;RNA guide length to 20 nt triggers DNA cleavage, thereby supporting homology-directed repair-mediated sequence correction. A catalytically inactivated TnpB-based adenine base editor enabled A-to-G base conversion at genomic targets. TnpB shows strict &#x3c9;RNA-dependent mismatch sensitivity with low off-target effects, suggesting its potential as a high-fidelity genome regulation platform. Compact ISDge10 TnpB facilitates co-packaging of effector and &#x3c9;RNA in a single adeno-associated virus vector and co-expression of large functional domains. Thus, this study expands RNA-guided genome-editing capabilities.",
+      "delivery_types": [
+        "aav"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42637924",
+      "title": "Lack of sensorimotor toxicity when using the clinical SMN expression cassette in scAAV9.",
+      "authors": [
+        "Balch MHH",
+        "Blatnik AJ 3rd",
+        "Kray KM",
+        "McGovern VL",
+        "Baxley SR"
+      ],
+      "journal": "Nature neuroscience",
+      "date": "2026 Aug 24",
+      "abstract": "",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42634078",
+      "title": "GC-rich regions affect amplification efficiency of neighboring amplicons in qPCR and digital PCR.",
+      "authors": [
+        "Wang X",
+        "Kruchkow J",
+        "Rodríguez-Vargas A",
+        "Wenzel S",
+        "Richer SM"
+      ],
+      "journal": "Scientific reports",
+      "date": "2026 Aug 24",
+      "abstract": "DNA polymerase chain reaction (PCR) has been widely used for the quantitation of DNA and RNA samples. Multiple factors can affect amplification efficiency, including GC-rich regions. The proximity effects of GC-rich regions on the amplification efficiency of neighboring amplicons that are not themselves GC-rich are not fully understood. Using a GFP-6.0Kb recombinant adeno-associated virus (rAAV) vector plasmid containing a 300&#xa0;bp region with 79% GC content, we evaluated the effect of this GC-rich region on six amplicons (38-61% GC) at varying distances from it in nanoplate digital PCR (ndPCR), real-time quantitative PCR (qPCR), and droplet digital PCR (ddPCR). In ndPCR, amplification efficiency decreased progressively with proximity to the GC-rich region, with the nearest amplicon yielding only 9% of the reference value. Restriction enzyme digestion that physically separated amplicons from the GC-rich region restored efficiency to approximately 100%. In qPCR, the effect on quantitation depended on whether the standard curve material and the sample shared similar neighboring GC-rich sequence context. The effect was not observed in ddPCR under the conditions tested. Additives including DMSO and betaine, and physical separation by restriction enzyme digestion or sonication, mitigated the effect in ndPCR and qPCR. These findings may have broad practical implications for PCR-based quantitation, as GC-rich regions are prevalent in many mammalian promoters, enhancers, and other gene regulatory elements.",
+      "delivery_types": [
+        "aav"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42637102",
+      "title": "From intercellular communication to therapeutic delivery: Mechanistic perspectives of cancer exosomes.",
+      "authors": [
+        "Malla R",
+        "Nagaraju GP"
+      ],
+      "journal": "Biochemical pharmacology",
+      "date": "2026 Aug 24",
+      "abstract": "Exosomes, enriched with cancer-specific nucleic acids and proteins, have emerged as key intercellular communicators for orchestrating a tripartite axis of the tumor microenvironment (TME). They contribute significantly to tumor progression, particularly through their involvement in drug resistance, immune suppression, and metastasis. Recently, extensive research has mapped isolated functions to integrated perspective on how exosomal cargo mediates the complex crosstalk between these three important avenues of tumor survival. This begins by outlining the fundamental mechanisms of exosome biogenesis, cargo sorting and release that are frequently hijacked by cancer cells. This review then examines the exosome-mediated transfer of drug efflux pumps, non-coding RNAs, and metabolic enzymes from drug-resistant tumor cells to drug-sensitive cells. Subsequently, this review explore how tumor derived exosomes influence the premetastatic niche to support angiogenesis, including the horizontal transfer of key cytokines and growth factors. Additionally, this review details the role of tumor derived exosomes in shaping an immunosuppressive TME, especially their capacity to modulate T-cell function, polarize myeloid cells, and influence immune checkpoint signalling. Finally , we discuss emerging therapeutic strategies aimed at intercepting or reprogramming exosomal cargo to potentially prevent metastasis, sensitize tumor to therapeutics , and counteract immune evasion. By shifting the focus from isolated mechanisms to the interconnected roles of exosomes, this review aims to inform the rational design of next-generation exosome targeted and exosome based cancer therapeutics.",
+      "delivery_types": [
+        "exosome"
+      ],
+      "query_category": "exosome"
+    },
+    {
+      "pmid": "42636924",
+      "title": "Antibodies and aptamers as affinity ligands for exosome isolation, detection, and targeted delivery: A review.",
+      "authors": [
+        "Long S",
+        "Lyu M",
+        "Chan CH",
+        "Chen Z",
+        "Lu A"
+      ],
+      "journal": "International journal of biological macromolecules",
+      "date": "2026 Aug 24",
+      "abstract": "Exosomes, key mediators of intercellular communication, are emerging as promising tools for disease diagnosis and therapy. Realizing this potential depends on technologies that can isolate, detect, and deliver exosomes with high specificity and efficiency. Affinity-based strategies that exploit the molecular recognition of antibodies and aptamers are central to this effort. In this review, we analyze how these ligands are advancing exosome research. We first examine isolation methods, benchmarking affinity capture against conventional techniques and weighing trade-offs among yield, purity, and vesicle integrity. We next explore detection technologies, in which antibody- and aptamer-based biosensors enable ultrasensitive, multiplexed, and point-of-care assays. Finally, we discuss the therapeutic frontier, where ligand-mediated surface functionalization creates targeted delivery vehicles. In preclinical models, engineered exosomes can traverse biological barriers and deliver multimodal payloads, indicating potential therapeutic avenues for cancer as well as neurodegenerative and metabolic disorders. Taken together, we highlight the synergy between affinity ligands and exosome science and outline key challenges for clinical translation.",
+      "delivery_types": [
+        "exosome"
+      ],
+      "query_category": "exosome"
+    },
+    {
+      "pmid": "42636084",
+      "title": "Targeting the NR1D1-IGF2BP2-V-ATPase Axis With Hybrid Nanovesicles Restores Macrophage Rhythms to Reverse Sepsis-Induced Immunosuppression.",
+      "authors": [
+        "Chen L",
+        "Lin W",
+        "Jiang L",
+        "Gao X",
+        "Yu C"
+      ],
+      "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "date": "2026 Aug 24",
+      "abstract": "Patients with sepsis exhibit circadian disruption and persistent immunosuppression. However, the molecular mechanisms linking them remain unclear. Integration of multi-cohort transcriptomic and single-cell datasets shows that circadian gene dysregulation in patients with sepsis and septic mice correlates with disease severity and immunosuppressive states, with monocytes/macrophages emerging as a principal affected population. Sustained endotoxin stimulation elevates the core clock repressor NR1D1 in macrophages, which occupies the Igf2bp2 promoter and suppresses its transcription. Loss of IGF2BP2 destabilizes the V-ATPase subunit transcripts Atp6v1b2 and Atp6v0c through an m6A-dependent mechanism, disrupting phagolysosomal acidification rhythms and pathogen clearance. siRNA-mediated NR1D1 knockdown restores IGF2BP2 expression, circadian oscillations, and phagolysosomal function during the development of endotoxin tolerance. To achieve therapeutic delivery, we engineer hybrid membrane nanovesicles (siNR1D1@HM-LNP) that reverse circadian and immune dysregulation in septic mice, enhance bacterial clearance, and markedly improve survival. These findings establish an NR1D1-mediated circadian-immune coupling mechanism and provide a therapeutic strategy for targeting sepsis-induced immunosuppression.",
+      "delivery_types": [
+        "lnp"
+      ],
+      "query_category": "nanoparticle"
+    },
+    {
+      "pmid": "42635499",
+      "title": "DNAzymes: a promising tool in gene therapy.",
+      "authors": [
+        "Li Y",
+        "Sun H",
+        "Han M",
+        "Jia J",
+        "Li Q"
+      ],
+      "journal": "Chemical communications (Cambridge, England)",
+      "date": "2026 Aug 24",
+      "abstract": "The growing demand for precise and effective gene therapy has driven the extensive exploration of nucleic acid therapeutics. DNAzymes are catalytically active single-stranded DNA molecules with high programmability and substrate-recognition specificity, and they have been considered as promising tools for gene therapy. Nevertheless, their clinical translation remains constrained by several major challenges, including structural instability, limited catalytic activity under physiological conditions, inadequate spatiotemporal controllability, and inefficient in vivo delivery. This review first outlines the fundamental structural features of DNAzymes and summarizes de novo and target-guided screening strategies. It then discusses mechanistic insights to guide the rational design of DNAzymes. Recent advances in controllable activation systems are also reviewed, followed by the design of delivery platforms with an emphasis on cofactor supply and amplification. Additionally, synergistic therapeutic applications are discussed as important strategies for disease intervention. Finally, current challenges are highlighted and future research directions are proposed to guide the development of precise and efficient DNAzyme-based gene therapy systems, thereby facilitating their transition from laboratory research to therapeutic applications.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "in_vivo"
+    },
+    {
+      "pmid": "42634137",
+      "title": "Esterified Cholesterol Conjugates Enable LNP-Mediated mRNA Delivery to the Blood-Brain Barrier Following Intravenous Administration.",
+      "authors": [
+        "Tian Z",
+        "Wang X",
+        "Benitez AP",
+        "Guerrero E",
+        "Duan Y"
+      ],
+      "journal": "Advanced materials (Deerfield Beach, Fla.)",
+      "date": "2026 Aug 23",
+      "abstract": "The blood-brain barrier (BBB) plays a critical role in maintaining central nervous system homeostasis by regulating molecular and cellular exchange between the brain and peripheral circulation. While most delivery strategies focus on crossing the BBB, targeting brain endothelial cells directly may offer a complementary and more controlled alternative for therapeutic intervention. This study presents a ligand-free lipid nanoparticle (LNP) platform that enables efficient mRNA delivery to the brain endothelium via systemic administration. A modular synthesis strategy was used to generate a chemically diverse library of cholesterol-based lipids. Screening of 486 LNPs identified an optimized four-component formulation consisting of C6O2B2 (novel cholesterol-based lipid), DODAP, DSPC, and DMG-PEG, which achieves high transfection efficiency in brain endothelial cells without the incorporation of free cholesterol or disruption of BBB integrity and function, such as those utilized in focused ultrasound (FUS) techniques. This BBB-targeting LNP platform avoids neuronal and glial transfection, thereby offering a noninvasive, and scalable approach for cerebrovascular gene delivery. The work establishes a new class of cholesterol-based lipids and provides a foundation for next-generation RNA therapeutics targeting BBB-associated diseases.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42633869",
+      "title": "Peptide barcoding: an alternative to the phenotype-genotype problem.",
+      "authors": [
+        "Hong O",
+        "Mayor T",
+        "Joshi J"
+      ],
+      "journal": "New biotechnology",
+      "date": "2026 Aug 23",
+      "abstract": "Barcoding methods are powerful tools for screening large libraries and have successfully been employed using DNA-centric approaches for over two decades. Yet despite the central role of proteins in most biological processes, protein-based barcoding methods have only recently emerged as a viable alternative. In this review we summarize recent advances in peptide barcoding and highlight its diverse applications, including screening of binding affinity, lipid nanoparticles, mRNA untranslated regions, and designed protein libraries. We discuss key challenges in barcode design, library construction, and mass spectrometry methods for accurate, scalable, and high-throughput screening. We propose that peptide barcoding represents a conceptual shift in genotype-phenotype mapping and will play an increasingly important role in AI-driven protein engineering, delivery technologies, and synthetic biology.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42625558",
+      "title": "In vivo CAR T cells on the highway: a roadmap for the next decade.",
+      "authors": [
+        "Barden M",
+        "Harrer DC",
+        "Abken H"
+      ],
+      "journal": "Expert opinion on biological therapy",
+      "date": "2026 Aug 23",
+      "abstract": "Chimeric antigen receptor (CAR) T cell therapy has shown efficacy in the treatment of hematological malignancies. However, the application to a broader patient population is still limited by the complex logistics in coordinating the lymphodepleting chemotherapy and the labor-, time-, and cost-intensive ex vivo manufacturing of patients' CAR T cells in specialized centers. By combining recent advances in lipid nanotechnology, RNA chemistry, and viral particle targeting, engineering CAR T cells in the patient's bloodstream is becoming an emerging option that may overcome current limitations. Advanced pre-clinical and early clinical studies support this approach by demonstrating successful engineering of CAR T cells in vivo and producing some anti-tumor responses in clinical trials.",
+      "delivery_types": [
+        "lnp"
+      ],
+      "query_category": "nanoparticle"
+    },
+    {
+      "pmid": "42631501",
+      "title": "Self-Amplifying RNA-Based Therapeutics: Advances, Challenges, and Future Perspectives.",
+      "authors": [
+        "Zong Y",
+        "Jin C",
+        "Cheng Q"
+      ],
+      "journal": "Small (Weinheim an der Bergstrasse, Germany)",
+      "date": "2026 Aug 22",
+      "abstract": "mRNA therapeutics have garnered significant attention in recent years due to their remarkable success in addressing unmet medical needs across diverse fields, including infectious diseases, cancer, and hereditary disorders. Among the various modalities of mRNA therapeutics, self-amplifying mRNA (saRNA) has emerged as a particularly promising platform. Distinguished by its ability to achieve robust protein expression at lower doses, saRNA offers several advantages, including higher cumulative expression levels and significantly extended expression durations. But the questions of how and where saRNA technology will evolve in the coming years remain underexplored. In this review, we provide a comprehensive overview of saRNA therapeutics, beginning with a detailed explanation of their underlying mechanism of action. We then systematically summarize the preclinical and clinical advancements in saRNA-based therapies, highlighting their applications across a broad spectrum of diseases. We then discuss the key challenges currently faced by saRNA therapeutics and propose potential strategies to overcome these barriers. Finally, we outline future directions for the field, emphasizing the transformative potential of saRNA in clinical applications. In summary, the unique properties of saRNA have positioned it as an innovative tool for the treatment of various diseases, unlocking more possibilities for clinical applications.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42632040",
+      "title": "Neoantigen in cancer immunotherapy: mechanism, therapeutic strategies and future perspectives.",
+      "authors": [
+        "Raj A",
+        "Khan Z",
+        "Mumtaz",
+        "Mehan S",
+        "Lamba T"
+      ],
+      "journal": "Immunotherapy",
+      "date": "2026 Aug 22",
+      "abstract": "Neoantigens are tumor-specific antigens resulting from genetic, transcriptomic, and proteomic changes, making them a promising avenue for personalized cancer immunotherapy due to their unique specificity and strong immunogenicity. They arise through various mechanisms like SNVs, INDELs, SVs, alternative splicing, post-translational modifications, and viral oncoproteins. Neoantigen-based therapies, including personalized vaccines, adoptive T-cell therapies, and immune checkpoint inhibitors, have demonstrated considerable potential in both preclinical and clinical settings. Tumors with high mutational burdens, like melanoma and lung cancers, show significant neoantigen-driven immune responses. Progress in cancer treatment is highlighted by the need for combinatorial approaches in tumors with low neoantigen loads, such as pancreatic and prostate cancers, to boost immunogenicity. Advances in computational tools and next-generation sequencing support accurate neoantigen identification for personalized therapies. However, challenges remain, including tumor heterogeneity and immune evasion. Innovative solutions such as machine learning for neoantigen prediction and the use of lipid nanoparticles, alongside radiotherapy and chemotherapy, are being developed to overcome these limitations. Future strategies may involve integrating multi-omics data, next-generation vaccines, and CRISPR-Cas9 gene editing technologies to enhance therapeutic precision. Overall, despite existing challenges, neoantigen-targeted immunotherapies hold promise for advancing precision oncology and improving patient outcomes.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42631515",
+      "title": "Human Brain Organoid-Enabling Discoveries Reach the Clinic: A Translational Inflection Point.",
+      "authors": [
+        "Martins AMA",
+        "Muotri AR"
+      ],
+      "journal": "Stem cells and development",
+      "date": "2026 Aug 22",
+      "abstract": "Human brain organoids have evolved from early neurodevelopmental models into platforms for therapeutic discovery. Here, we highlight two cases in which organoid-derived findings enabled FDA-approved clinical trials. Patient-derived organoids modeling Pitt-Hopkins syndrome revealed human-specific, TCF4-dependent abnormalities and supported the development of a regulated AAV gene therapy. In parallel, Rett syndrome organoids cultured aboard the International Space Station uncovered space-induced neural senescence, characterized by retroelement-associated neuroinflammation, prompting evaluation of antiretroviral therapy. These examples illustrate how organoids can reveal disease mechanisms that are inaccessible or incompletely reproduced in animal models, while animal studies remain essential for validation and safety assessment. As the field advances, matching model complexity to experimental purpose-and ensuring reproducibility, scalability, and accessibility-will be critical. Human brain organoids are crossing a translational threshold, emerging as engines of therapeutic discovery and gateways to clinical intervention.",
+      "delivery_types": [
+        "aav"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42632430",
+      "title": "Indole-3-acetic acid alleviates intestinal failure associated liver disease via the miR-216a-5p/LRH-1 axis.",
+      "authors": [
+        "Liu S",
+        "Huang L",
+        "Liu S",
+        "Qi X",
+        "Maitiabula G"
+      ],
+      "journal": "The Journal of nutritional biochemistry",
+      "date": "2026 Aug 22",
+      "abstract": "Long-term total parenteral nutrition can cause intestinal failure-associated liver disease (IFALD). Gut microbiota-derived indole-3-acetic acid (IAA) has been linked to liver disease, but mechanisms remain unclear. This study aimed to verify the protective role of Lactobacillus reuteri and IAA in IFALD and to investigate whether IAA acts through the miR-216a-5p/LRH-1 axis.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42641196",
+      "title": "Eimeria in chickens: Recent advances in host-pathogen interactions, molecular insights, and control strategies.",
+      "authors": [
+        "Zhen Z",
+        "Baihe M",
+        "Meiliang G",
+        "Shuhua L",
+        "Lianrui L"
+      ],
+      "journal": "Veterinary parasitology",
+      "date": "2026 Aug 22",
+      "abstract": "Avian coccidiosis, caused by Eimeria spp., remains a major parasitic disease of poultry and imposes significant economic burdens on the global poultry industry. This review systematically synthesizes key advances over the past decade concerning host-Eimeria interactions, molecular regulatory mechanisms, and novel control strategies, while contextualizing these findings with earlier seminal discoveries. In recent years, novel diagnostic tools based on molecular detection and antigen capture have emerged, offering improved sensitivity and interspecies specificity over conventional methods. These techniques complement traditional approaches relying on oocyst morphology and histopathology, and provide critical support for accurate assessment of field infection status, species and genotype discrimination, monitoring of drug-sensitivity shifts, and elucidation of transmission dynamics. Epidemiological investigations have further revealed the impacts of rearing management, environmental temperature and humidity, host genetic background, and gut microbiota composition on infection kinetics, underscoring the necessity of integrating biosecurity and precision management into regionally tailored control programs. Utilizing chicken embryo and chick infection models, in conjunction with CRISPR/Cas9 gene editing, single-cell transcriptomics, and high-resolution proteomics, researchers have gained deeper insights into key regulatory genes governing invasion, asexual multiplication, and gametogenesis, as well as invasion-related effector molecules and resistance-associated markers, thereby laying a foundation for the identification of novel intervention targets. In immunology, growing knowledge of the intestinal epithelial barrier response, Th1/Th17 polarization, regulatory T-cell function, and immune evasion strategies (e.g., antigenic variation and downregulation of host antigen presentation) provides a theoretical basis for the rational optimization of subunit vaccines and live oocyst vaccines. On the therapeutic front, novel combination regimens of conventional anticoccidials and plant-derived bioactive compounds have shown efficacy in reducing oocyst shedding and alleviating intestinal lesions, while nanoparticle-based targeted delivery systems and adjuvant combination strategies are being explored to enhance drug bioavailability or vaccine-induced protective immunity. Nevertheless, the effective integration of ever-expanding omics data, immune-protective mechanisms, and field-applicable control measures, while concurrently addressing drug residues and resistance management, remains a central challenge for achieving sustainable coccidiosis control.",
+      "delivery_types": [
+        "nanoparticle"
+      ],
+      "query_category": "nanoparticle"
+    },
+    {
+      "pmid": "42631783",
+      "title": "Staphylococcus aureus biofilms: molecular mechanisms, resistance determinants, and emerging therapeutic strategies.",
+      "authors": [
+        "Saleem M",
+        "Syed Khaja AS",
+        "Ahmad I",
+        "Alraey Y",
+        "Azhar MA"
+      ],
+      "journal": "Molecular biology reports",
+      "date": "2026 Aug 22",
+      "abstract": "S. aureus is a significant opportunistic pathogen that causes a variety of community and healthcare-associated infections. Biofilm formation is one of its many virulence factors and contributes to persistent, recurrent, and device-associated infections through enhancing bacterial survival, immune system evasion, and resistance to antimicrobial agents. The development of biofilms is a complex, highly regulated process influenced by genetic regulators, environmental factors, and intercellular communication, leading to the formation of a structured microbial community with a protective extracellular matrix (ECM). These biofilms undergo large-scale physiological, transcriptomic, and proteomic changes, which help them survive harsh host conditions and reduce their susceptibility to immune responses and standard antibiotics. Biofilm-associated antimicrobial resistance is also facilitated by several complementary mechanisms, including limited penetration of antimicrobials, changes in bacterial physiology, persister cell formation, adaptive stress responses, and the presence of other clinically relevant microorganisms in polymicrobial biofilms. Recent evidence has also emphasized the importance of host-biofilm interactions in the establishment of chronic infections, including dysregulated inflammatory responses and immune evasion. Due to the intrinsic inefficacy of traditional antimicrobial drug treatment against mature biofilms, significant efforts have been made to develop novel anti-biofilm interventions, such as matrix-disrupting agents, quorum-sensing inhibitors, antimicrobial peptides, bacteriophages, nanotechnology-assisted delivery systems, CRISPR-Cas-based therapeutics, and rational combination therapy. This review aims to provide a comprehensive and up-to-date overview of the molecular biology of S. aureus biofilms, biofilm-associated antimicrobial resistance, interactions with the host, polymicrobial interactions, and emerging therapeutic strategies, and to highlight the ongoing challenges and future directions in the prevention and treatment of persistent biofilm-associated infections.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "crispr_delivery"
+    },
+    {
+      "pmid": "42628816",
+      "title": "Engineered exosome-lymphotropic mRNA vaccine encoding series-connected antigens elicits potent antitumor immunity in pancreatic cancer.",
+      "authors": [
+        "Li Y",
+        "Jin J",
+        "Chen K",
+        "Yao S",
+        "Yang L"
+      ],
+      "journal": "International journal of pharmaceutics",
+      "date": "2026 Aug 21",
+      "abstract": "Pancreatic ductal adenocarcinoma (PDAC) is driven by KRAS mutations in over 90% of cases yet remains refractory to most therapies due to poor antigen delivery and a suppressive tumor microenvironment. To address these challenges, we developed an exosome&#x2011;augmented, epitope&#x2011;focused mRNA nanovaccine. First, we engineered a series-connected (SC) mRNA that condenses five immunodominant KRAS&#x2011;mutant epitopes (G12D, G12V, G12R and two other sequences) into a single open reading frame. This design minimizes non&#x2011;productive sequence and enhances antigen presentation compared to a conventional parallel-connected (PC) mixture of full&#x2011;length transcripts. Second, we cloaked &#x3b2;&#x2011;sitosterol LNPs with mature dendritic&#x2011;cell-derived exosomes (LNP@exo), endowing the particles with lymph&#x2011;node tropism and intrinsic adjuvanticity. The resulting mKRAS SC-LNP@exo triggered potent dendritic cell activation and Th1 cytokine release in vitro, rapidly accumulated in lymph nodes, and drove superior CD8&#x207a; T cell infiltration in a Pan02 tumor model. Remarkably, one&#x2011;third of mKRAS SC-LNP@exo treated mice achieved complete tumor regression without off&#x2011;target toxicity. These findings demonstrate that combining epitope&#x2011;condensed mRNA with exosome&#x2011;cloaked LNP delivery can convert \"cold\" KRAS&#x2011;mutant PDAC into an immunologically responsive tumor and provide a broadly applicable strategy for next&#x2011;generation mRNA cancer vaccines.",
+      "delivery_types": [
+        "lnp",
+        "exosome"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42628750",
+      "title": "Evaluation of early prophylactic corticosteroid administration on early safety and efficacy outcomes of AAV gene therapy in the hemophilia dog model.",
+      "authors": [
+        "Batty P",
+        "Swystun LL",
+        "Handyside B",
+        "Menard A",
+        "Harpell L"
+      ],
+      "journal": "Journal of thrombosis and haemostasis : JTH",
+      "date": "2026 Aug 21",
+      "abstract": "Prior to commercial withdrawal, adeno-associated virus (AAV) gene therapy was approved for the treatment of adults with severe hemophilia A. Mechanisms underlying variability, durability, and liver transaminitis are largely uncharacterized.",
+      "delivery_types": [
+        "aav"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42634848",
+      "title": "THERAPEUTIC ROLE OF siRNA IN GASTRIC CANCER: GENE SILENCING MECHANISMS AND NANOCARRIER-BASED DELIVERY STRATEGIES.",
+      "authors": [
+        "Seifollahnezhad G",
+        "Erdağ B"
+      ],
+      "journal": "Experimental oncology",
+      "date": "2026 Aug 21",
+      "abstract": "Gastric cancer (GC) continues to be a significant global contributor to cancer-related mortality, primarily due to late-stage diagnoses, tumor heterogeneity, and the frequent emergence of therapeutic resistance. Despite advancements in surgical techniques, chemotherapy, targeted therapies, and immunotherapy, long-term survival rates remain unsatisfactory, underscoring the need for innovative, molecularly driven approaches. SiRNA has emerged as a promising gene-silencing tool capable of selectively downregulating oncogenic drivers and pathways associated with resistance via RNA interference. Preclinical studies using GC models demonstrate promising biological activity following siRNA-mediated suppression of various molecular targets - including CD44v6, Rac1, and ZNRD1-leading to reduced cell proliferation, inhibited migration and invasion, enhanced apoptosis, and increased chemosensitivity. However, the successful translation of siRNA-based strategies into clinical practice is fundamentally reliant on the development of efficient and safe delivery systems. Recent advancements in nanotechnology have enabled the development of multifunctional nanocarriers, including lipid-based nanoparticles, peptide-based systems, chitosanderived platforms, exosome-mimetic vesicles, layer-by-layer architectures, and stimuli-responsive theranostic nanoparticles. These engineered platforms are designed to enhance siRNA stability, improve tumor targeting, facilitate intracellular trafficking, and promote endosomal escape while minimizing off-target effects and immune activation. Preclinical findings suggest significant biological potential; however, additional research is required to address issues concerning biodistribution, safety, scalability, and regulatory standardization before clinical application. Overall, siRNA-based strategies may play a crucial role in the future development of precision-oriented therapeutic frameworks in GC research. Importantly, this review emphasizes the integration of molecular target selection with delivery system design in a GC-specific context. By systematically linking validated siRNA targets with corresponding nanocarrier strategies, this work provides a more application-oriented and translationally relevant perspective that is not typically addressed in conventional RNA interference or nanocarrier-focused reviews.",
+      "delivery_types": [
+        "exosome",
+        "nanoparticle"
+      ],
+      "query_category": "exosome"
+    },
+    {
+      "pmid": "42629543",
+      "title": "Milk derived exosomes sensitize Gefitinib-resistant lung cancer cells to Pemetrexed via CAV1-mediated endocytosis.",
+      "authors": [
+        "Liu T",
+        "Zhang Y",
+        "Ren T",
+        "Xu Z",
+        "Tu L"
+      ],
+      "journal": "Drug delivery and translational research",
+      "date": "2026 Aug 21",
+      "abstract": "Lung cancer patients resistant to EGFR-TKIs often demonstrate a decreased response to Pemetrexed. Therefore, it is urgent to explore the mechanisms of drug resistance and develop new strategies. We investigated the potential of milk-derived exosomes as drug carriers, focusing specifically on pemetrexed encapsulated in these exosomes. We isolated exosomes from milk and loaded them with pemetrexed through electroporation to form a drug delivery carrier named as mExoPEM. Then, we examined how mExoPEM exerts anti-tumor effects in Gefitinib-resistant lung cancer cells, as well as the molecular mechanisms involved. Gefitinib-resistant cells were insensitive to the cytotoxicity of pemetrexed, due to the drug reflux caused by the elevated P-glycoprotein. When co-cultured with mExoPEM, resistant cells demonstrated enhanced anti-tumor responses in vitro and in vivo. Moreover, mExoPEM facilitated cellular uptake via Caveolin-1 (CAV1)-mediated endocytosis, which was regulated by the PPAR&#x3b3;/CAV1 pathway. Notably, pioglitazone, a PPAR&#x3b3; agonist, augmented mExoPEM uptake and synergized with mExoPEM to inhibit the proliferation of resistant cells. In conclusion, our study presents a promising strategy to address pemetrexed resistance in GR lung cancer cells through the use of milk exosome as drug carriers. Moreover, we elucidate the molecular mechanism underlying pemetrexed resistance and its enhanced delivery via milk exosome-mediated endocytosis.",
+      "delivery_types": [
+        "exosome",
+        "electroporation"
+      ],
+      "query_category": "exosome"
+    },
+    {
+      "pmid": "42627586",
+      "title": "Cardio-Oncology in Cold Climates: Epidemiological Features, Bidirectional Interaction Mechanisms, and Integrated Management Strategies.",
+      "authors": [
+        "Li Y",
+        "Zhang Y",
+        "Sun H",
+        "He Y",
+        "Gao D"
+      ],
+      "journal": "Cardiovascular toxicology",
+      "date": "2026 Aug 21",
+      "abstract": "Cardiovascular disease (CVD) and cancer are leading causes of death worldwide, with their comorbidity posing a major public health challenge. In cold regions (latitude&#x2009;&#x2265;&#x2009;45&#xb0; or annual mean temperature&#x2009;&#x2264;&#x2009;10&#xa0;&#xb0;C), this dual burden is exacerbated by unique environmental exposures and lifestyle factors. This review aims to systematically characterize the epidemiological features of CVD and cancer in cold regions, elucidate the mechanisms by which cold exposure synergistically exacerbates cancer therapy-related cardiovascular toxicity (CTR-CVT), and propose a comprehensive, cold-region-tailored management framework for the prevention, treatment, and rehabilitation of cardio-oncology comorbidity. Cold regions show significantly higher age-standardized incidence and mortality rates for both CVD and cancer compared to temperate regions. Low temperatures, high-sodium diets, and air pollution synergistically increase cardiovascular risk, while lung, colorectal, breast, and prostate cancers substantially exceed global averages. The bidirectional interaction between CVD and cancer involves multiple mechanisms. Cancer therapies induce cardiotoxicity via oxidative stress, mitochondrial dysfunction, ferroptosis, and inflammatory pathways. Conversely, CVD promotes cancer progression through chronic inflammation, neurohormonal activation, cardiac-derived factors, and exosome-mediated communication. Cold stress, acting as a synergistic toxicological factor, exacerbates comorbidity through sympathetic overactivation, amplification of oxidative and inflammatory cascades, and metabolic remodeling that disrupts drug metabolism and myocardial energy supply. In conclusion, CVD-cancer comorbidity in cold regions represents a distinct entity shaped by environmental and lifestyle factors. We propose a full-cycle, cold-region-tailored management system including cold adaptation training, dietary modification, vitamin D supplementation, integrated traditional Chinese and Western medicine, and dynamic monitoring of cardiometabolic and tumor markers. Future research should prioritize large-scale prospective studies, multi-omics approaches for sensitive biomarker identification, and region-specific interventions to reduce this dual disease burden.",
+      "delivery_types": [
+        "exosome"
+      ],
+      "query_category": "exosome"
+    },
+    {
+      "pmid": "42626960",
+      "title": "Emerging Biomaterials Revolutionizing Pre-Eclampsia Treatment.",
+      "authors": [
+        "Dong SD",
+        "Wang ZX",
+        "Tian LN",
+        "Wang Y",
+        "Deng J"
+      ],
+      "journal": "Small (Weinheim an der Bergstrasse, Germany)",
+      "date": "2026 Aug 21",
+      "abstract": "Pre-eclampsia (PE)&#xa0;is a complex pregnancy-specific disorder characterized by hypertension and proteinuria, posing significant risks to both maternal and fetal health. Despite ongoing efforts, drug development remains hindered by poor placental targeting, potential fetal toxicity, and limited biocompatibility. This review highlights the recent advances in biomaterials-based therapeutic strategies and diagnostic platforms for PE. We focus on the applications of targeted drug delivery nanosystems that aim to improve placental targeting specificity, enhance therapeutic efficacy, and minimize off-target effects. Emerging biomaterials-related drug delivery systems, including lipid nanoparticles, polymer nanoparticles, and hydrogels, along with biologically derived carriers or therapeutics such as adenoviral vectors and exosomes derived from mesenchymal stem cells, offer innovative solutions to overcome the existing pharmacological constraints such as poor target specificity, rapid clearance, and off-target toxicity. Additionally, cutting-edge technologies like organoids and organ-on-a-chip platforms provide powerful tools for advanced disease modeling and drug screening. For each drug delivery system and diagnostic platform, we summarize the most representative research achievements, emphasizing the design principles, application advantages, and practical limitations. By systematically introducing the various significant advances in recent years, this review offers insights into how biomaterial-based approaches address PE treatment challenges and may inspire the development of precise platforms for safe and effective therapy.",
+      "delivery_types": [
+        "lnp",
+        "exosome",
+        "nanoparticle"
+      ],
+      "query_category": "exosome"
+    },
+    {
+      "pmid": "42627922",
+      "title": "RNA delivery to the corneal endothelium using charge-altering releasable transporters.",
+      "authors": [
+        "Wang SK",
+        "Li Z",
+        "Shah SH",
+        "Edwards QA",
+        "Bouffard R"
+      ],
+      "journal": "Science advances",
+      "date": "2026 Aug 21",
+      "abstract": "RNA therapies hold tremendous promise for treating genetic eye diseases. However, their development is limited by the lack of non-viral delivery platforms that can target specific ocular cell types. Here, we describe a charge-altering releasable transporter (CART) that delivers RNA selectively to the corneal endothelium, a non-regenerative cell layer whose dysfunction underlies several blinding conditions. We characterize the safety of CART-RNA nanoparticles in mice and show that they facilitate delivery of diverse RNA cargoes to the corneal endothelium, including circular RNA and CRISPR/Cas9. We verify that these nanoparticles can be redosed and apply them to achieve corneal gene editing. We further demonstrate CART transfection of corneal endothelial cells from a human donor in vitro and in a non-human primate in vivo, supporting the feasibility of clinical translation. Our findings establish CARTs as a platform for non-viral gene delivery to the eye, with the potential to treat corneal dystrophies and other vision disorders.",
+      "delivery_types": [
+        "nanoparticle"
+      ],
+      "query_category": "nanoparticle"
+    },
+    {
+      "pmid": "42627700",
+      "title": "Indoxyl Sulfate Promotes Uremic Arterial and Venous Thrombosis by Stabilizing IDO1 via the E3 Ligase SHFM3.",
+      "authors": [
+        "Almiron R",
+        "Malloum AB",
+        "Lotfollahzadeh S",
+        "Sethuraman K",
+        "Sharma A"
+      ],
+      "journal": "Journal of the American Society of Nephrology : JASN",
+      "date": "2026 Aug 21",
+      "abstract": "The uremic milieu of chronic kidney disease (CKD) is characterized by the accumulation of protein-bound uremic toxins, which contribute to thrombosis. Indoxyl sulfate, a bona fide uremic toxin, upregulates indoleamine 2,3-dioxygenase 1 (IDO1), thereby augmenting kynurenine biogenesis. Both toxins activate tissue factor and thrombosis. Despite this pathogenic synergy, the mechanisms of indoxyl sulfate-mediated IDO1 stabilization remain undefined.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "nanoparticle"
+    },
+    {
+      "pmid": "42627584",
+      "title": "RNA interference mediated disease resistance in vegetable crops: fundamental discovery to current trends.",
+      "authors": [
+        "Thangavel M",
+        "Pathak M",
+        "Devi R",
+        "Babanjeet",
+        "Kr A"
+      ],
+      "journal": "Molecular biology reports",
+      "date": "2026 Aug 21",
+      "abstract": "Vegetable productivity has been decreasing due to a range of stresses, both biotic and abiotic. Biotic factors mainly arise from nematodes, bacteria, viruses and fungal diseases. Traditional approaches such as chemical treatments and conventional breeding are often limited by environmental concerns and restricted genetic resources. Therefore, RNA interference (RNAi) has demonstrated significant promise as a molecular strategy for combating biotic stresses in vegetable crops, offering precision and sustainability in managing plant diseases. RNAi utilizes double-stranded RNA (dsRNA) to silence target genes through post-transcriptional gene silencing mechanisms, thereby interfering mRNA translation and protein synthesis. This gene-silencing mechanism, initiated by Dicer-like protein and facilitated by the RNA-induced silencing complex (RISC), involves small interfering RNAs (siRNAs), microRNAs (miRNAs) and long non-coding RNAs (lncRNAs) to mediate specific gene knockdown. Advances in delivery methods, including host-induced gene silencing (HIGS), spray-induced gene silencing (SIGS) and virus-induced gene silencing (VIGS) have enabled effective application of RNAi in non-transgenic vegetable systems. Innovative tools such as BioClay and liposomal nanoparticles further improve efficacy and resilience of dsRNA applications in the field. This mechanism has been successfully employed to develop resistant cultivars and suppress plant pathogens such as fungi, viruses and nematodes. Notably, VIGS allows rapid gene function without the need for stable transformation. The versatility of RNAi platforms holds significant potential for improving disease resistance, particularly in vegetable crops that are vulnerable to diverse biotic stresses. This review underscores molecular mechanisms of RNAi, application through various delivery strategies and its growing relevance as an eco-friendly and adaptable tool to enhance vegetable production.",
+      "delivery_types": [
+        "nanoparticle"
+      ],
+      "query_category": "nanoparticle"
+    },
+    {
+      "pmid": "42619262",
+      "title": "Leveraging host cell modulators of adeno-associated vectors transduction to tailor viral biodistribution.",
+      "authors": [
+        "Kubek-Luck K",
+        "Velazquez J",
+        "Yao X",
+        "Gabriels J",
+        "Hsu C"
+      ],
+      "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+      "date": "2026 Aug 20",
+      "abstract": "Clinical successes in gene therapy using adeno-associated vectors (AAV) are offering a hopeful path toward the correction of several monogenic disorders. At its core, AAV gene delivery relies on multiple interactions between the capsid or vector genome and numerous host cell factors, a complex process that remains incompletely understood. Whether different serotypes similarly hijack the intracellular machinery in a cell, and whether these processes are necessarily conserved across species, are not known. To identify host factors enabling or preventing transduction across species or serotypes, CRISPR/Cas9 whole-genome knockdown screens were conducted in mouse (AML12) and human (HuH-7) cell lines before transduction with AAV2 or AAV9. Key common entry factors (AAVR, GPR108) were confirmed, with many other serotype- and/or species-specific host cell modulators identified. Interestingly, while serotype-specific differences were observed for successful transduction of a specific cell line, species-specific divergences were even more striking when comparing results across murine and human cells for the same serotype. Leveraging these data, we developed a novel approach to detarget liver transduction by transiently downregulating the expression of key entry factors in this tissue using GalNac-siRNAs prior to AAV9 administration. Such manipulation not only blunted hepatic transduction but also redirected the vector to other transduction-permissive tissues.",
+      "delivery_types": [
+        "aav"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42119653",
+      "title": "Virus-like particles: Bridging immunization and precision drug delivery.",
+      "authors": [
+        "Gupta J",
+        "Tiwari P",
+        "Kumar R"
+      ],
+      "journal": "Gene",
+      "date": "2026 Aug 20",
+      "abstract": "Virus-like particles (VLPs) are self-assembling entities formed from structural proteins, notably devoid of viral genetic material, hence mitigating any chance of replication. These particles closely resemble the structure and look of genuine viruses, rendering them particularly appealing for biological applications. VLPs present repeated, multivalent antigenic epitopes on their surface, efficiently activating both the innate and adaptive components of the immune system. This renders them viable candidates for the advancement of both preventive and therapeutic vaccines targeting infectious illnesses and malignancies. VLPs can be categorized into enveloped and non-enveloped forms. By means of exact chemical or genetic alterations, their interior and external surfaces can be designed to produce chimeric VLPs, which serve as adaptable platforms for the formulation of multivalent vaccines and the administration of medicines, siRNA, peptides, and proteins. This paper provides an analysis of the immune response induced by VLP, delineates their classification, and emphasizes its revolutionary potential in vaccine development for infectious diseases and cancer therapies. Furthermore, it examines their evolving importance in targeted medication delivery and gene editing, particularly in cancer and genetic disorders, highlighting their dual capacity as next-generation vaccine platforms and advanced biological delivery systems.",
+      "delivery_types": [
+        "vlp"
+      ],
+      "query_category": "vlp"
+    },
+    {
+      "pmid": "42619609",
+      "title": "Acoustically active poly(tBMA) floral nanocages for ultrasound-guided spatiotemporal cargo release.",
+      "authors": [
+        "Sreekumar N",
+        "Vasu S",
+        "S UK"
+      ],
+      "journal": "Journal of materials chemistry. B",
+      "date": "2026 Aug 20",
+      "abstract": "Clinically approved ultrasound contrast agents, including microbubbles and nanobubbles, suffer from limited circulation stability, restricted extravasation, and dependence on exogenous gas cores, necessitating structurally inherent cavitation-active nanocarriers. Herein, we report acoustically active mesoporous polymeric nanoparticles (MNPs), also hereby referred to as 'Floral nanocages' synthesized via diffusion-guided seeded emulsion polymerization of tert-butyl methacrylate (tBMA) within polystyrene (PS) templates, where confined polymerization-induced phase separation generated floral-like mesoporous architectures with intrinsically entrapped air pockets serving as endogenous cavitation nuclei. Field emission scanning electron microscopy (FESEM), high-resolution transmission electron microscopy (HRTEM), and small-angle X-ray scattering (SAXS) analyses confirmed radially aligned disordered mesoporous frameworks with characteristic structural correlation lengths of &#x223c;45-60 nm, while thermogravimetric analysis (TGA), derivative thermogravimetry (DTG), differential scanning calorimetry (DSC), Fourier-transform infrared spectroscopy (FTIR), dynamic light scattering (DLS), and &#x3b6;-potential measurements verified successful poly(tertbutyl methacrylate)/divinyl benzene (PtBMA/DVB) network formation and nanoconfinement-induced structural stabilization. Under 1 MHz ultrasound irradiation, the MNPs exhibited intensity-dependent cargo release, showing a &#x223c;3-fold enhancement in cumulative release at 8 W cm-2 relative to passive diffusion, with near-complete release achieved within 4-5 min, whereas 4 W cm-2 produced a sustained release profile (t1/2 &#x2248; 1.5 min; complete release &#x2248;6 min). Release kinetics followed the Korsmeyer-Peppas model, indicating anomalous non-Fickian transport governed by matrix relaxation and ultrasound-enhanced diffusion. In tissue-mimicking agarose phantoms containing millifluidic channels, ultrasound activation produced a &#x223c;1.7-fold increase in mean fluorescence intensity and a &#x223c;71-fold expansion in the activated release area compared with non-exposed controls. These structurally inherent cavitation-active nanocages provide a versatile platform for ultrasound-triggered spatiotemporal cargo delivery without exogenous contrast agents. Key challenges for future translation include improving the long-term colloidal stability under physiological serum conditions and overcoming the polymer matrix's inherent hydrophobicity to enhance systemic circulation and shelf life. These limitations may be effectively addressed through PEGylation and other surface-engineering strategies. Further integration with targeting ligands and biologically active cargoes may further expand applications in cancer therapy, blood-brain barrier (BBB) modulation, and nonviral gene delivery.",
+      "delivery_types": [
+        "nanoparticle"
+      ],
+      "query_category": "nanoparticle"
+    },
+    {
+      "pmid": "42556338",
+      "title": "An ER stress-responsive RNA rheostat for programmable gene and mRNA therapies.",
+      "authors": [
+        "Ogurlu R",
+        "Sanchez EB",
+        "Hull JA",
+        "Fergione SM",
+        "Yudistyra V"
+      ],
+      "journal": "Cell chemical biology",
+      "date": "2026 Aug 20",
+      "abstract": "Therapeutic protein overexpression can overwhelm endoplasmic reticulum (ER) folding capacity, trigger unfolded protein response (UPR) signaling, and compromise the safety of gene and mRNA therapies. Here, we engineer stress-responsive RNA rheostats that couple transgene expression to endogenous ER stress sensing. Short RNA elements derived from X-box-binding protein 1 (XBP1) mRNA undergo inositol-requiring enzyme 1&#x3b1; (IRE1&#x3b1;)-dependent splicing under ER stress, inducing a frameshift that attenuates downstream protein expression. XBP1 switches function across DNA and mRNA delivery platforms and regulate the expression of fluorescent reporters, coagulation factor VIII, and Leronlimab, a therapeutic anti-CCR5 monoclonal antibody. Switch activation reduces ER stress markers while preserving expression under homeostatic conditions. We further demonstrate the regulation of Leronlimab expression in vivo using recombinant adeno-associated virus vectors. Together, these findings establish programmable RNA feedback control as a strategy for linking cellular proteostasis to therapeutic protein expression and improving the safety of gene and mRNA therapies.",
+      "delivery_types": [
+        "aav"
+      ],
+      "query_category": "in_vivo"
+    },
+    {
+      "pmid": "42625114",
+      "title": "Molecular pathways and emerging therapeutic strategies in advanced thyroid cancer: from targeted therapy to precision oncology.",
+      "authors": [
+        "Sarkar T",
+        "Arisha R",
+        "Sengupta S",
+        "Bhushan B",
+        "Dewangan HK"
+      ],
+      "journal": "Clinical & translational oncology : official publication of the Federation of Spanish Oncology Societies and of the National Cancer Institute of Mexico",
+      "date": "2026 Aug 20",
+      "abstract": "The most prevalent endocrine cancer is thyroid cancer. It may act in a very disparate manner; ranging between slow growing, well differentiated tumours to an aggressive anaplastic subtype. Initial treatment with standard therapy, surgery, radioactive iodine, the thyroid-stimulating hormone inhibition and in some cases, chemotherapy or external-beam radiations are effective with the differentiated cancers at the early stages. Nevertheless, there is no choice with tumours, which become unresponsive to iodine, metastasized, or un- differentiated. Recent developments in molecular oncology have elucidated the genetic alterations that contribute to thyroid cancer, in particular, the MAPK and PI3K/AKT/mTOR pathways, and BRAF, RAS, RET, and TERT promoter mutations. The current review summarizes the changing therapeutic environment of thyroid cancer that includes established targeted medicines and novel developments. These are immune checkpoint inhibitors, redifferentiation based on reinstatement of iodine uptake, selective RET and BRAF/MEK, RNA-based therapeutics, CRISPR gene editing, oncolytic virotherapy, peptide receptor radionuclide therapy, alpha-particle radiotherapy, and nanotechnology-based drug delivery systems. A combination regimen involving molecular targeting and immunotherapy or radioactive iodine is also improving the disease in advanced disease. Collectively, the advances are an indication of a transition to the personalized, mechanism-driven treatment strategies that would prolong the survivability of patients with advanced thyroid cancer, conquer resistance, and reduce systemic toxicity.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "crispr_delivery"
+    },
+    {
+      "pmid": "42624898",
+      "title": "Advanced gene editing technologies for oncology mechanisms, applications, and clinical implementation.",
+      "authors": [
+        "Bindu S",
+        "Ash A",
+        "Sarkar K"
+      ],
+      "journal": "Cancer gene therapy",
+      "date": "2026 Aug 20",
+      "abstract": "Advanced gene editing tools have transformed oncology by facilitating precise molecular therapies aimed at the hereditary basis of cancer. This thorough study examines the mechanisms, applications, and clinical implementation of advanced genome editing technologies in cancer treatment. This review commences with the molecular principles of genome editing and DNA repair mechanisms, systematically analyzing established technologies such as Zinc Finger Nucleases, Transcription Activator-Like Effector Nucleases, and various CRISPR/Cas systems (Cas9, Cas12, Cas13), in addition to novel advancements including base editors, prime editors, and the PASTE system. Additionally, hybrid platforms such as ARCUS, MegaTALs, and modified recombinases are examined, highlighting their amalgamation with artificial intelligence, biosensors, and synthetic biology concepts. The study outlines significant applications including functional genomics, disease modeling, synthetic lethality screening, and direct therapeutic interventions, with a specific focus on CAR-T cell engineering and immune checkpoint regulation. Applications unique to various cancer types are thoroughly examined throughout lung, breast, colorectal, hematologic, liver, pancreatic, head &amp; neck, esophageal, prostate, gastric, and brain cancers. Significant obstacles such as delivery optimization via viral and non-viral vectors, tumor-specific targeting, off-target effects, immunogenicity, and ethical issues related to germline vs somatic editing are comprehensively examined. The translational landscape is analyzed via current clinical trials, regulatory structures, and the incorporation of organoid models and patient-derived xenografts for the advancement of personalized therapies. This review highlights the transformative impact of gene editing on cancer medicine, advancing toward more accurate, effective, and personalized therapeutic approaches.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "crispr_delivery"
+    },
+    {
+      "pmid": "42619087",
+      "title": "A Bioorthogonal Desilylation System Potentiates mRNA Therapeutics in Tumors.",
+      "authors": [
+        "Zhang M",
+        "Wang C",
+        "Xu X",
+        "Ding Z",
+        "Chen J"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026 Aug 19",
+      "abstract": "Lipid nanoparticle (LNP)-mediated mRNA delivery has emerged as a powerful therapeutic modality, yet its clinical translation in oncology remains constrained by inherent hepatic tropism and inefficient endosomal escape. These limitations necessitate high-dose administration, which triggers lipid-associated toxicity and off-target protein expression in the liver. To overcome these barriers, we report a cleavable silyl-ether-based bioorthogonally activatable LNP platform, termed SiLNP, that enables tumor-specific activation and cytosolic mRNA release. We engineered ionizable lipids incorporating silyl ether structural fuses that respond to a phenylalanine trifluoroborate (Phe-BF3) trigger. This system leverages the upregulated transporter LAT-1 to actively import Phe-BF3 into tumor cells, where it triggers lipid desilylation and rapid cargo release. In vitro, SiLNPs demonstrated controllable external control over mRNA expression, achieving a 44-fold enhancement in mRNA expression compared to standard SM-102 LNPs with a 10-fold activation-to-silent ratio. In immunologically \"cold\" B16-F10 melanoma models, SiLNPs encoding the N-terminal domain of gasdermin D (GDNT) induced tumor-specific pyroptosis, resulting in tumor growth inhibition without detectable systemic toxicity. Furthermore, this platform demonstrated versatility by delivering immunomodulatory mRNAs, including IL-2 and Cxcl9. Taken together, this work presents a metabolically targeted, bioorthogonal-activated delivery strategy to address the selectivity and efficiency limitations of current mRNA medicines, providing a promising platform for precision oncology.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42618291",
+      "title": "The Role of VEGF-C and VEGF-D in Coronary Artery Disease: From Molecular Pathophysiology to Therapeutic Lymphangiogenesis.",
+      "authors": [
+        "Wada H",
+        "Kotani K",
+        "Iguchi M",
+        "Hasegawa K"
+      ],
+      "journal": "Journal of atherosclerosis and thrombosis",
+      "date": "2026 Aug 19",
+      "abstract": "Traditional therapeutic strategies for coronary artery disease (CAD) primarily focus on arterial perfusion, largely overlooking the critical role of the cardiac lymphatic system in maintaining myocardial fluid, lipid, and immune homeostasis. The vascular endothelial growth factor C (VEGF-C) and VEGF-D/VEGF receptor-3 (VEGFR3) signaling axes are the primary drivers of lymphangiogenesis. However, recent clinical and mechanistic insights suggest that these two homologous ligands exert highly distinct and divergent pathophysiological roles under ischemic stress. This review synthesizes the current clinical, epidemiological, and preclinical evidence evaluating the distinct temporal and spatial dynamics of the VEGF-C/D axis. Large-scale clinical cohorts have revealed a striking prognostic divergence: while elevated circulating VEGF-D levels independently predict incident heart failure, atrial fibrillation, and mortality, low serum VEGF-C levels independently predict mortality. Mechanistically, adventitial lymphatics actively govern scavenger receptor class B type I (SR-BI)-dependent reverse cholesterol transport and macrophage trafficking. Preclinical large animal validation and phase 1/2 clinical trials (such as KAT301 and ReGenHeart) have demonstrated that timely, localized pro-lymphangiogenic interventions-leveraging modified mRNA, lipid nanoparticles, or sequential growth factor delivery kinetics-effectively resolve myocardial edema, suppress adverse remodeling, and improve the myocardial perfusion reserve. In conclusion, VEGF-C and VEGF-D represent a complex molecular dualism in CAD. Transitioning from non-specific growth factor overproduction to cell-specific, sequentially timed lymphatic therapeutics is a new frontier in halting the progression of adverse ventricular remodeling and chronic heart failure.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42619364",
+      "title": "Extracellular matrix targeting peptide functionalized plant-derived lipid nanoparticles for gene therapy in osteoarthritis.",
+      "authors": [
+        "Iqbal Z",
+        "Shabbir M",
+        "Rasul F",
+        "Xia J",
+        "Zeng H"
+      ],
+      "journal": "Chinese medical journal",
+      "date": "2026 Aug 19",
+      "abstract": "The pathogenesis of osteoarthritis (OA) involves the degradation of the extracellular matrix (ECM) of cartilage, which is mainly mediated by matrix metalloproteinases (MMPs). Small interfering RNA (siRNA)-based gene therapy has shown promise in treating various diseases, including OA, but its effectiveness is hindered by poor stability and low uptake efficiency. Additionally, the avascular nature of cartilage poses a challenge for drug delivery. This study aims to develop a novel plant-derived nanoparticle system for targeted, efficient delivery of siRNA to intra-articular chondrocytes, thereby alleviating OA progression.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42618806",
+      "title": "Enhanced antitumor immunity of mRNA vaccines by bioorthogonal-like delayed activation of exogeneous STING.",
+      "authors": [
+        "Qin P",
+        "Qin Q",
+        "Hao Y",
+        "Liu M",
+        "Li Y"
+      ],
+      "journal": "Nature biotechnology",
+      "date": "2026 Aug 19",
+      "abstract": "The development of cGAS-STING (stimulator of interferon genes) agonists as mRNA vaccine adjuvants has been hampered by widespread STING expression and by the observation that codelivered STING agonists suppress antigen mRNA translation. Here, to address these challenges, we engineer synchronized STING (Syn-STING): a lipid nanoparticle (LNP) codelivering antigen mRNA, mRNA encoding full-length STING transmembrane protein and a bioorthogonal-like delayed-release STING activator, DMXAA. DMXAA release is controlled by a biodegradable linker, enabling localized mouse STING activation while avoiding systemic endogeneous human STING recognition. In humanized STING mouse models, we test human papillomavirus E7 and ovalbumin antigens with mouse STING or a human STING mutant engineered for DMXAA specificity. Intratumoral or subcutaneous LNPs are preferentially internalized by myeloid cells, preserving antigen expression fidelity, achieving localized STING activation in antigen-presenting cells and preventing systemic regulatory B cell differentiation and immunocyte apoptosis. The Syn-STING vaccine elicits robust adaptive responses and Th1-biased T cell immunity. It suppresses tumor growth and prolongs survival while exhibiting negligible anti-STING immunity.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42618860",
+      "title": "Industry Perspective on Translational and Clinical Pharmacology Aspects of Viral-based Gene Therapies and Vaccines-Key Considerations and Learnings From Approved Products.",
+      "authors": [
+        "Mody H",
+        "Narula J",
+        "Shastri PN",
+        "Miles D",
+        "Liu Y"
+      ],
+      "journal": "The AAPS journal",
+      "date": "2026 Aug 19",
+      "abstract": "Viral-based gene therapies and vaccines represent a rapidly evolving modality for treating a wide range of diseases. However, these novel modalities pose novel and complex challenges for translational PK/PD scientists and clinical pharmacologists during preclinical and clinical development. To support accelerated development of these transformative therapies, experts in the field formed a working group under the umbrella of AAPS and through this review provide a comprehensive overview of translational and clinical pharmacology considerations for viral vector-based gene therapies, including adeno-associated virus (AAV), oncolytic virus, adenovirus (AdV) and herpes simplex virus (HSV), and viral-vector based vaccines; with the help of robust discussion of the literature and learnings from the currently approved products. We discuss key developmental challenges, such as preclinical characterization, including dose-response evaluations and biodistribution assessments. The manuscript highlights how preclinical data, particularly the minimum effective dose (MED) and maximum tolerated dose (MTD) in relevant animal models, inform the selection of the First-in-Human (FIH) dose. We explore the challenges and strategies for clinical study design, including use of open-label, dose-escalation trials and the importance of monitoring for immunogenicity. The text also reviews clinical pharmacology considerations, such as vector shedding and tissue biodistribution, which are critical for determining product safety and efficacy. Finally, we discuss the emerging role of modeling and simulation approaches to improve preclinical-to-clinical dose translation and clinical dose optimization. By synthesizing lessons from approved products, this review aims to provide a valuable framework for navigating the complex translational and clinical pharmacology landscape of viral vector-based gene therapies and vaccines.",
+      "delivery_types": [
+        "adenovirus",
+        "aav"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42618444",
+      "title": "Engineering RNA-guided bridge recombinases for precise large-scale genome editing.",
+      "authors": [
+        "Gao R",
+        "Wei J",
+        "Sun C",
+        "Liu J",
+        "Li Z"
+      ],
+      "journal": "Trends in biotechnology",
+      "date": "2026 Aug 19",
+      "abstract": "Precise manipulation of large DNA fragments in eukaryotic genomes remains limited by the low efficiency and delivery constraints of current multicomponent editing systems. In this study, we engineered an RNA-guided bridge recombinase system through rational mutagenesis and AI-assisted directed evolution, enabling programmable chromosomal rearrangements in both plant and mammalian cells and achieving up to a 29.8-fold increase in activity. In plants, the optimized system mediated precise deletions, insertions, and inversions from 1.8- to 315-kb DNA fragments, with stable editing efficiencies of up to 23.9% in regenerated rice plants. We further generated herbicide-resistant rice through a 315-kb chromosomal inversion that rewired endogenous promoter activity. In mammalian cells, the compact ISCro4 recombinase system was delivered using a single adeno-associated virus vector, thereby supporting efficient genome editing. Together, these results establish bridge RNA-guided recombinases as a versatile platform for programmable chromosome-scale genome engineering, with broad potential for precision breeding and gene therapy.",
+      "delivery_types": [
+        "aav"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42617187",
+      "title": "Cardiotropic Adeno-Associated Virus-Based Gene Therapy via Intracoronary Delivery for Nonischemic Heart Failure.",
+      "authors": [
+        "Abraham J",
+        "Chung ES",
+        "Emani S",
+        "Bhatia A",
+        "Egnaczyk G"
+      ],
+      "journal": "Canadian journal of physiology and pharmacology",
+      "date": "2026 Aug 19",
+      "abstract": "Heart failure (HF) remains a leading cause of morbidity and mortality with significant residual risk despite major advances in medical therapies. Development of cardiotropic vectors have allowed gene therapy to be revisited to target the molecular roots of (HF) to potentially improve structural cardiac remodeling and cardiac contractility on top of functional improvement offered by current standard of care therapies. In a first-in-human phase 1 trial, a cardiotropic vector gene AB-1002 targets a phosphorylation pathway responsible for calcium handling in cardiomyocytes. AB-1002 stimulates inhibitor 1 (I -1c), which functions to inhibit protein phosphatase 1 (PP1). PP1 overactivity contributes to maladaptive calcium dynamics. AB-1002 has favorable safety and efficacy profiles, potentially representing a promising new frontier in HF treatment.",
+      "delivery_types": [
+        "aav"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42628399",
+      "title": "Surface-engineered GE11-functionalized exosomes for EGFR-targeted peonidin delivery and suppression of SNAI1-mediated epithelial-mesenchymal transition in glioma.",
+      "authors": [
+        "Bai Y",
+        "Jin Y",
+        "Jiang Y",
+        "Liu B",
+        "Chen C"
+      ],
+      "journal": "Colloids and surfaces. B, Biointerfaces",
+      "date": "2026 Aug 19",
+      "abstract": "Glioblastoma is a highly aggressive and invasive brain tumor with poor prognosis, largely due to its rapid progression, epithelial-mesenchymal transition (EMT)-mediated invasiveness, and resistance to conventional therapies. Herein, the surface-engineered exosomal nanoplatform for targeted glioma therapy is functionalized glioblastoma-derived exosomes with the epidermal growth factor receptor (EGFR)-targeting GE11 peptide and loading them with peonidin (PN), a naturally occurring anthocyanin with anticancer potential. The engineered Exo-GE11/PN nanoparticles exhibited favorable physicochemical characteristics, including nanoscale size distribution, high encapsulation efficiency, colloidal stability, and preserved exosome morphology. GE11 functionalization significantly enhanced cellular uptake in EGFR-overexpressing glioma cells, facilitating efficient intracellular delivery of PN. In vitro studies demonstrated that Exo-GE11/PN effectively suppressed glioma cell proliferation, migration, and invasion while promoting apoptotic cell death. Mechanistic investigations revealed that the formulation attenuated EMT through downregulation of SNAI1 and modulation of the PI3K/Akt/NF-&#x3ba;B signaling pathway, accompanied by restoration of epithelial markers and suppression of mesenchymal markers. Furthermore, Exo-GE11/PN significantly reduced tumor growth and improved survival in glioma-bearing mice without inducing clear systemic toxicity, confirming its biocompatibility and therapeutic efficacy. Collectively, these findings highlight the importance of exosome surface engineering for targeted drug delivery and demonstrate that GE11-functionalized exosomes serve as an effective biointerface-mediated carrier for peonidin. This biomacromolecular nanoplatform offers a promising strategy for EGFR-targeted glioblastoma therapy through the suppression of EMT-associated oncogenic signaling pathways.",
+      "delivery_types": [
+        "exosome",
+        "nanoparticle"
+      ],
+      "query_category": "exosome"
+    },
+    {
+      "pmid": "42615537",
+      "title": "Genetic Engineering of Tumor-Infiltrating Lymphocytes (TIL) via a T-Editor Platform to Enhance Anti-Tumor Activity.",
+      "authors": [
+        "Li F",
+        "Ma X",
+        "Xue Y",
+        "Yang J",
+        "Wang R"
+      ],
+      "journal": "Cancer science",
+      "date": "2026 Aug 19",
+      "abstract": "Tumor-infiltrating lymphocytes (TIL) therapy has demonstrated clinical potential in malignancies. However, limited understanding of why only a subset of patients respond to TIL therapy, coupled with the lack of simple and efficient methods to genetically engineer fragile TIL, has hindered efforts to enhance TIL efficacy through genetic modification. A T-Editor platform enabling rapid and efficient CRISPR-mediated gene editing in TIL was developed and optimized. To minimize the risk of chromosomal translocations associated with Cas9-induced double-strand breaks (DSBs), single-guide RNAs (sgRNAs) were designed for cytosine base editing (CBE). The expansion capacity, phenotypic profile, cytokine production, and in&#xa0;vitro cytolytic activity of base-edited TIL were compared with those of Cas9-KO TIL. In&#xa0;vivo efficacy was assessed using patient-derived xenograft (PDX) mouse models. The T-Editor platform was optimized for TIL gene editing by refining stimulation conditions, electroporation parameters, and CRISPR/Cas9 reagent dosing. FAM84B emerged as the top candidate, with its knockout resulting in the most pronounced enhancement of TIL cytolytic activity. CBE-mediated C&#xb7;G-to-T&#xb7;A conversion in the FAM84B exon achieved high editing efficiency with minimal insertion-deletion (indel) events. Base-edited TIL exhibited comparable expansion, phenotype, cytokine production, and in&#xa0;vitro cytolytic activity relative to Cas9-KO TIL. Compared with non-engineered control TIL, FAM84B-edited TIL displayed an increased CD62L+ memory subset, enhanced effector function and cytolytic activity, and improved in&#xa0;vivo antitumor efficacy. In conclusion, the T-Editor platform enables rapid and efficient CRISPR-mediated gene editing for engineering TIL to enhance its therapeutic potency. FAM84B may represent a novel potential target for improving TIL-mediated antitumor activity.",
+      "delivery_types": [
+        "electroporation"
+      ],
+      "query_category": "electroporation"
+    },
+    {
+      "pmid": "42616698",
+      "title": "Cell-specific epigenetic editing in cardiovascular disease: Mechanisms, therapeutic potential, and translational challenges.",
+      "authors": [
+        "Alsulami M",
+        "Rasool M",
+        "Masoud AN",
+        "Al-Hoban WA",
+        "Shorbaji AM"
+      ],
+      "journal": "Cardiology",
+      "date": "2026 Aug 19",
+      "abstract": "Cell-specific epigenetic editing provides a new approach to the therapy of cardiovascular disease (CVD) by rewriting pathological chromatin and RNA marks in exactly those cell populations responsible for causing disease. CVD is caused by interactions of genetics and environment on cell-type-specific epigenomic programs. Interventions that alter DNA methylation, histone marks, or RNA modifications can therefore correct maladaptive gene expression without altering DNA sequence.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "in_vivo"
+    },
+    {
+      "pmid": "42616280",
+      "title": "Applications of synthetic biology in biomedicine.",
+      "authors": [
+        "Li CX",
+        "Liu ZX",
+        "Lin YF",
+        "Wang ZH",
+        "Yang YM"
+      ],
+      "journal": "Molecular biomedicine",
+      "date": "2026 Aug 19",
+      "abstract": "Based on the principles of engineering reconstruction and programmable design, synthetic biology is driving a paradigm shift in biomedical diagnosis and therapy from conventional models toward intelligent and precision medicine. By constructing artificial genetic circuits, functional cells, and biomaterial systems both in vitro and in vivo, synthetic biology markedly enhances diagnostic sensitivity, therapeutic targeting, and clinical benefit. In recent years, with the maturation of key technologies such as DNA synthesis and assembly, computational modeling, gene editing, RNA regulation, and protein engineering, synthetic biology has spawned numerous applications with potential for clinical translation in fields such as early screening for pathogens and tumors, programmable cellular immunotherapies, intelligent life-based therapies, and the manufacture of medical biomaterials. Nevertheless, current synthetic biology systems still face critical bottlenecks such as insufficient targeting and editing precision in vivo, poor functional stability of gene circuits, pronounced immunogenicity risks, high manufacturing costs, and lagging ethical and regulatory frameworks. This review systematically summarizes progress in foundational tools and key supporting technologies of synthetic biology, highlights innovative strategies and clinical value in biosensors, cell therapy, living therapeutics, and smart biomaterials, and provides an in&#x2011;depth comparison of different chassis cells, delivery vectors, and regulatory circuits in terms of disease suitability, safety, and translational efficiency. The artificial intelligence&#xa0;(AI)-enabled component design, closed-loop intelligent regulation, off&#x2011;the&#x2011;shelf universal cells, and multimodal theranostic platforms&#xa0;are also discussed. This review offers a systematic framework from technical principles to clinical translation and provides theoretical support and technical guidance for developing next-generation synthetic biology-based diagnostic and therapeutic strategies.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "in_vivo"
+    },
+    {
+      "pmid": "42616243",
+      "title": "Piezo1 channel: structure, mechanogating mechanism, functions, diseases and therapeutic strategy.",
+      "authors": [
+        "Wu Q",
+        "Hu Y",
+        "Wang Y",
+        "Zhu F",
+        "Xu Q"
+      ],
+      "journal": "Molecular biomedicine",
+      "date": "2026 Aug 19",
+      "abstract": "The Piezo1 channel is a mechanosensitive, non-selective cation channel that converts mechanical forces into electrochemical signals, playing pivotal roles in vertebrate physiology. Structurally, Piezo1 features a distinctive trimeric propeller structure that undergoes conformational changes in response to membrane tension, enabling mechanogating. Accordingly, Piezo1 is involved in a broad spectrum of physiological processes, including vascular development and homeostasis, bone and cartilage formation, skeletal muscle growth, neural development, sensory perception, immune regulation, and cellular volume regulation. Accumulating evidence indicates that mutations or dysregulation of Piezo1 are closely associated with a variety of human diseases, including genetic diseases, cardiovascular diseases, infectious diseases, autoimmune diseases, and cancer. Therefore, Piezo1 has emerged as a potential therapeutic target. Currently, the exploration of pharmacological modulators targeting Piezo1, as well as emerging approaches such as gene therapy, artificial intelligence (AI)-driven drug discovery, and advanced drug delivery systems, offer potential avenues for the development of Piezo1-targeted therapeutic strategies. However, these approaches still face significant challenges regarding specificity, in vivo targeting, and context-dependent effects. This review systematically summarizes the structure, mechanogating mechanisms, physiological and cellular functions of Piezo1, as well as its associations with human diseases. Based on this, the limitations of current Piezo1-targeted therapeutic strategies and their future developmental directions are highlighted, while the therapeutic potential of targeting Piezo1 is emphasized.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "in_vivo"
+    },
+    {
+      "pmid": "42615483",
+      "title": "ROS-Scavenging Single-Component Polymeric Nanocarriers for Precision siRNA Delivery in Pulmonary Fibrosis Therapy.",
+      "authors": [
+        "Yang Y",
+        "Zhang H",
+        "Du J",
+        "Sun W",
+        "Peng X"
+      ],
+      "journal": "Advanced materials (Deerfield Beach, Fla.)",
+      "date": "2026 Aug 19",
+      "abstract": "Idiopathic pulmonary fibrosis (IPF) is a progressive refractory lung disorder with limited effective therapies. Although RNA interference (RNAi) holds promise for IPF treatment, current delivery systems are hampered by complex preparation, redundant components, and an inability to modulate oxidative stress, which severely compromises their therapeutic outcomes. Herein, we design a single-component, lung-targeted nanosystem, PPN@siIL11, that simplifies formulation while integrating dual functions of efficient siRNA delivery and reactive oxygen species (ROS) scavenging. Upon intravenous administration, this streamlined platform exhibits enhanced pulmonary accumulation, effectively silences the profibrotic gene IL11, and suppresses fibroblast-to-myofibroblast transdifferentiation and excessive extracellular matrix deposition. Concurrently, it scavenges overproduced ROS to alleviate oxidative stress-mediated lung damage. Both in vitro and in vivo results demonstrate the potent anti-fibrotic efficacy of PPN@siIL11. By overcoming critical drawbacks of conventional multi-component carriers, this multifunctional single-component platform establishes a translatable approach for RNAi-based IPF therapy, with potential applicability to other lung diseases.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "in_vivo"
+    },
+    {
+      "pmid": "42619385",
+      "title": "Targeting interleukin-6 in immune-mediated inflammatory diseases: Current strategies and emerging technologies.",
+      "authors": [
+        "Ji P",
+        "Zhao P",
+        "Guo W",
+        "Cai S",
+        "Hunter D"
+      ],
+      "journal": "Chinese medical journal",
+      "date": "2026 Aug 19",
+      "abstract": "Immune-mediated inflammatory diseases (IMIDs) refer to a heterogeneous group of conditions driven by dysregulated immune responses that affect multiple organs and systems, leading to substantial morbidity and premature mortality. Accumulating evidence indicates that excessive interleukin-6 (IL-6) production and aberrant activation of downstream signaling pathways play central roles in sustaining chronic inflammation and acute hyperinflammatory states. This review aims to summarize the current understanding of IL-6 biology and signaling modes, and critically evaluate therapeutic strategies targeting IL-6 across multiple IMIDs. We discuss the clinical efficacy and limitations of approved IL-6 signaling inhibitors in chronic immune-mediated disorders and acute systemic inflammation, as well as emerging evidence supporting pathway-selective interventions such as IL-6 trans-signaling blockade. In addition, recent advances in therapeutic innovation, including proteolysis-targeting chimeras, clustered regularly interspaced short palindromic repeats (CRISPR)-based genome engineering, RNA interference, and nanotechnology-enabled drug delivery platforms, are highlighted for their potential to improve specificity, tissue targeting, and durability of IL-6 modulation. In summary, these developments reflect a shift from uniform cytokine inhibition toward more selective and physiologically informed approaches, which may ultimately refine IL-6 targeted therapies and improve outcomes across diverse IMIDs.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "crispr_delivery"
+    },
+    {
+      "pmid": "42617141",
+      "title": "Translating CRISPR to Practice in the Clinic: Transformative Therapy in Hemoglobinopathies and Emerging Applications in Malignancies.",
+      "authors": [
+        "Salim Hammoud M",
+        "Hanna R"
+      ],
+      "journal": "JCO oncology practice",
+      "date": "2026 Aug 19",
+      "abstract": "Exagamglogene autotemcel, the first clustered regularly interspaced short palindromic repeats (CRISPR)-based gene-editing therapy to enter clinical practice, has established genome editing as a curative-intent option for eligible patients with severe sickle cell disease (SCD) and transfusion-dependent &#x3b2;-thalassemia (TDT). Ex vivo CRISPR-Cas9 editing of autologous CD34-positive hematopoietic stem and progenitor cells to reactivate fetal hemoglobin has produced durable freedom from severe vaso-occlusive crises in SCD and sustained transfusion independence in TDT. This approach offers a donor-independent alternative to allogeneic hematopoietic stem-cell transplantation without graft rejection or graft-versus-host disease. Hemoglobinopathies, therefore, provide the first clinically validated delivery model for CRISPR therapeutics. Successful implementation, however, requires more than editing efficacy. It depends on structured referral, candidacy assessment, organ function review, mobilization and collection, centralized manufacturing, pharmacokinetic-guided myeloablative conditioning, transplant-level supportive care, fertility preservation, psychosocial support, and prolonged surveillance coordinated among primary hematologists and cellular therapy programs. Key barriers include stem cell collection, conditioning-related toxicity, cost, reimbursement friction, and persistent inequities in access. Long-term follow-up and registry participation are necessary to evaluate outcomes beyond pain crises, identify late toxic effects, and compare real-world effectiveness across gene editing, gene addition, and allogeneic transplantation. In oncology, CRISPR-based therapy remains investigational, with early clinical feasibility demonstrated in relapsed or refractory B-cell malignancies, T-cell malignancies, AML, multiple myeloma, and selected solid tumors. For hematologists, oncologists, and transplant and cellular therapy programs, the central challenge is to integrate CRISPR into practice with the rigor required for any high-risk curative therapy: careful patient selection, disciplined delivery, and long-term accountability.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "crispr_delivery"
+    },
+    {
+      "pmid": "42613923",
+      "title": "A Microfluidic Dialysis Chip for Continuous Purification of Lipid Nanoparticles.",
+      "authors": [
+        "Zou D",
+        "Lan Z",
+        "Liu J",
+        "Liu S",
+        "Jin S"
+      ],
+      "journal": "Small methods",
+      "date": "2026 Aug 18",
+      "abstract": "Synthesis of lipid nanoparticles (LNPs) for mRNA delivery is now standardized and automated. In contrast, post-synthesis purification-ethanol removal, clearance of unencapsulated components, and buffer exchange-remains less controlled. Conventional bulk dialysis is time-consuming, whereas centrifugal ultrafiltration, although rapid, can result in reduced particle recovery and mRNA preservation; both of these laboratory-scale approaches present limitations for reproducible high-throughput processing. Here we report a 3D-printed microfluidic dialysis chip for continuous LNP purification. Mirrored serpentine sample and wash-buffer channels run counter-current across a clamped, interchangeable membrane in a three-layer printed chip. A mass-transfer model relating ethanol removal to the number of transfer units (NTU) identified channel height as the principal geometric design parameter under the fixed-flow-rate conditions tested. At a 100&#xa0;kDa cut-off and 25&#xa0;&#xb5;L/min, the chip removed &gt;99% ethanol and adjusted pH from 4.0 to 7.4, processing 1&#xa0;mL in 40&#xa0;min at steady state. Membrane choice set a trade-off: Polyethersulfone removed ethanol faster, whereas regenerated cellulose gave the highest particle recovery (83%). F&#xf6;rster resonance energy transfer (FRET) confirmed preserved LNP integrity, and on-chip purified mRNA-LNPs matched bulk dialysis in transfection efficiency. Serial or parallel configurations offer a gentle, scalable route to LNP purification.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42612849",
+      "title": "Platelet-derived nanovesicle-LNP hybrid delivering collagen III mRNA for skin rejuvenation.",
+      "authors": [
+        "Xue W",
+        "Wang M",
+        "Jiang Y",
+        "Luo J",
+        "Liu J"
+      ],
+      "journal": "International journal of pharmaceutics",
+      "date": "2026 Aug 18",
+      "abstract": "Skin photoaging caused by chronic UV radiation usually leads to extracellular matrix (ECM) degradation and a persistent pro-inflammatory microenvironment. Although lipid nanoparticles (LNPs) have been reported to deliver collagen mRNA to treat photoaged skin, their clinical translation remains severely limited due to lipid-induced inflammation and other side effects. To overcome this limitation, we developed a biomimetic platelet-derived nanovesicle (PNV)-lipid nanoparticle hybrid (PLH) to deliver collagen III mRNA (COL3A1) for skin rejuvenation. This hybrid loaded with COL3A1 (C3-PLH) was found to have enhanced uptake by damaged fibroblasts through surface-displayed CD62P protein. In vivo delivery tests showed that C3-PLH show a 3.1-fold higher skin retention and extend protein expression to 36&#xa0;h without leaking into the liver. In a UVB-induced photoaging mouse model, C3-PLH treatment drove robust in situ collagen expression and achieved a remarkable 86.5% reduction in wrinkle area on day 21, compared to only a 25.8% reduction for conventional C3-LNP. Importantly, C3-PLH actively cleared harmful reactive oxygen species (ROS), reduced inflammation by promoting M2 macrophage polarization, and enhanced blood vessel growth. This synergistic dual-action strategy activated the TGF-&#x3b2;1/Smad-3 pathway while blocking the collagen-destroying enzyme MMP-9, successfully rebuilding a youth-associated skin architecture by lowering the dermal COL1A1/COL3A1 ratio to 2.2. Consequently, this platelet-derived nanovesicle/LNP hybrid offers a highly effective, safe, and microenvironment-reprogramming biomimetic strategy for advanced skin rejuvenation.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42612848",
+      "title": "Effect of thin-film freezing process parameters and excipient composition on mRNA lipid nanoparticles in inhalable powders.",
+      "authors": [
+        "Sandoval MA",
+        "Li Q",
+        "Shi R",
+        "Giri BR",
+        "Yanwinitchai S"
+      ],
+      "journal": "International journal of pharmaceutics",
+      "date": "2026 Aug 18",
+      "abstract": "Inhalable messenger RNA (mRNA) therapeutics provide direct access to the respiratory tract but liquid mRNA-lipid nanoparticle (LNP) formulations often require frozen storage and can be destabilized during nebulization. Thin-film freeze-drying (TFFD) offers a viable manufacturing approach to convert mRNA-LNP suspensions into stable dry powders with desirable aerosol performance. Our prior work focused on how LNP composition and excipients affect mRNA-LNPs when they are subject to TFFD. Herein, we evaluated how thin-film freezing (TFF) process parameters in addition to formulation composition influence mRNA-LNPs and the aerosol performance of the resultant powders, using influenza virus Cal07 hemagglutinin (Cal07 HA mRNA)-LNPs. Increasing the lipid-to-mRNA ratio (LPR) improved HA mRNA encapsulation and enabled the selection of two lead HA mRNA-LNP formulation candidates.A 2-level factorial design of experiments (DOE) showed that Tris buffer, HA mRNA-LNP type, excipients, and drum temperature affected mRNA encapsulation efficiency and mRNA-LNP particle size differently after TFFD and reconstitution. Notably, processing at -30&#x202f;&#xb0;C better preserved HA mRNA encapsulation efficiency than at -80&#x202f;&#xb0;C and this effect was formulation-dependent.The selected mRNA-LNP powders were amorphous, highly porous, and exhibited desirable aerosol performance. The immunogenicity of the HA mRNA-LNP was maintained after TFFD and reconstitution. Importantly, HA mRNA-LNPs that were destabilized by nebulization did not show significant changes in their particle size and mRNA encapsulation efficiency when actuated as TFFD powders using a dry powder inhaler. These findings highlight the importance of TFF process parameters in developing inhalable mRNA-LNP dry powders using TFFD.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42612711",
+      "title": "FcBP-HFQ lipid-mediated trastuzumab modification of mRNA-loaded lipid nanoparticles enhances delivery to HER2-expressing cancer cells.",
+      "authors": [
+        "Matsumoto M",
+        "Takayama R",
+        "Matsuguchi C",
+        "Shimada H",
+        "Izumi T"
+      ],
+      "journal": "European journal of pharmaceutical sciences : official journal of the European Federation for Pharmaceutical Sciences",
+      "date": "2026 Aug 18",
+      "abstract": "Lipid nanoparticles (LNPs) have emerged as a key delivery platform for mRNA therapeutics, as demonstrated by the clinical success of mRNA vaccines against SARS-CoV-2. LNPs are now being investigated for various applications, such as cancer immunotherapy and the treatment of genetic disorders. However, LNPs tend to accumulate predominantly in the liver and lack intrinsic cell-type specificity. Modifying LNPs with antibodies is a promising strategy for enhancing cell-specific delivery. We have previously developed orientation-controlled anti-transferrin receptor and anti-PD-L1 antibody modifications for the targeted delivery of nucleic acids, including mRNA and siRNA. In this study, we newly applied this platform to trastuzumab, a clinically established high-affinity anti-HER2 therapeutic antibody, to develop orientation-controlled trastuzumab-modified mRNA/LNPs for HER2-selective delivery. we evaluated trastuzumab-modified mRNA/LNPs in HER2-overexpressing SKOV-3 ovarian cancer cells and HER2-low MDA-MB-231 breast cancer cells. Trastuzumab-modified mRNA/LNPs exhibited over 100-fold greater cellular association than unmodified LNPs in cultured HER2-overexpressing SKOV-3 cells. Furthermore, after intratumoral administration in a mouse model bearing subcutaneous SKOV-3 tumors, the trastuzumab-modified group showed significantly higher luciferase expression than the unmodified and isotype-controlled antibody-modified groups. These findings support FcBP-HFQ lipid-mediated trastuzumab modification of LNPs as a useful approach for efficient cell-selective mRNA delivery.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42610947",
+      "title": "Enhancing the Membrane Destabilization Capacity of DNA-Surfactant Conjugates for Improved Cytosolic Delivery of Nucleic Acids.",
+      "authors": [
+        "Gorecki J",
+        "Fuente IF",
+        "Corrigan PM",
+        "Pal S",
+        "Cannata JN"
+      ],
+      "journal": "ACS applied materials & interfaces",
+      "date": "2026 Aug 18",
+      "abstract": "Enhancing the endosomal escape of nucleic acids remains a critical bottleneck in improving their therapeutic efficacy. Inspired by advancements in lipid nanoparticles, we describe a chemical approach to deliver multi-tailed DNA-surfactant conjugates (DSCs) into cells using nucleic acid nanocapsules (NANs). NANs are enzyme degradable, crosslinked DNA micelles that exhibit enhanced membrane destabilizing properties. Previously, we reported the successful delivery of therapeutic oligonucleotides to cells using single-tailed DSCs delivered by esterase-cleavable NANs. This work features the rational design of a set of asymmetrically synthesized hydrophobic micelle crosslinkers using a synthetic approach that incorporates either one or two alkyl chains and an esterase-labile group into a nonionic surfactant flanked by clickable azides. These crosslinkers are covalently incorporated into the NAN construct, and upon their enzymatic degradation within the cell, multi-tailed DSCs are released. We show that these DSCs have superior transfection capabilities over single-tailed DSCs. Additionally, we show that these multi-tailed DSCs improve DNAzyme-mediated gene silencing and enhance mRNA delivery in vitro, owing to their enhanced membrane disruption capabilities reflected in both cell studies and molecular dynamics simulations. Importantly, our chemical approach enables the formation of multi-tailed surfactants in situ, post micelle assembly. This allows an oligonucleotide nanomaterial delivery platform to act as a \"pro-drug\" where the active therapeutic and the potential for its cytosolic delivery are the product of the nanoformulation's degradation.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42610945",
+      "title": "Rational Design of Pyrrole-Based Ionizable Lipids for mRNA Delivery.",
+      "authors": [
+        "Kim B",
+        "Nguyen TOO",
+        "Patil RH",
+        "Patil BR",
+        "Le ND"
+      ],
+      "journal": "ACS macro letters",
+      "date": "2026 Aug 18",
+      "abstract": "Ionizable lipids are key components of lipid nanoparticles for mRNA delivery. Inspired by the DLin-KC2-DMA ionizable lipid, we developed a series of pyrrole-based ionizable lipids to evaluate the feasibility of incorporating a rigid heterocyclic scaffold into ionizable lipid design. Systematic variation of headgroup architecture revealed that positioning the tertiary amine outside the pyrrole core substantially improved RNA encapsulation and transfection activity and identified lipid 6 as the lead structure within this series. Lipid nanoparticles formulated with lipid 6, administered via intramuscular injection, outperformed other pyrrole analogs and achieved lymph node transfection comparable to structural reference DLin-KC2-DMA. Mechanistic studies combining F&#xf6;rster resonance energy transfer assays and multiscale molecular dynamics simulations suggested that the improved delivery was associated with enhanced lipid-RNA electrostatic interactions and favorable membrane fusion behavior. Overall, this work establishes pyrrole as a feasible scaffold for ionizable lipid development and expands the chemical design space of mRNA delivery materials.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42523117",
+      "title": "AAV2 bypasses direct endosomal escape by using AAVR to access the trans-Golgi network en route to the nucleus.",
+      "authors": [
+        "Cabanes-Creus M",
+        "Liao SHY",
+        "Pardo-Piñón M",
+        "Rojas AL",
+        "Kelich J"
+      ],
+      "journal": "Journal of virology",
+      "date": "2026 Aug 18",
+      "abstract": "Vectors based on the adeno-associated virus are widely used as delivery methods in gene therapy applications, yet understanding of the mechanisms governing its intracellular trafficking remains incomplete. Traditional models suggest that AAV escapes from endosomes via membrane disruption, but direct evidence for this process is lacking. Here, we show that AAVR, the essential AAV cell entry receptor, functions as a bona fide retromer cargo. Using in vitro reconstitution assays, we demonstrate that AAVR's cytosolic tail is sufficient to engage the retromer-SNX3 complex and drive membrane tubulation, a hallmark of retrograde trafficking. In AAVR-knockout HuH-7 cells, AAV2 particles are internalized, but accumulate in early endosomal compartments, and fail to support transgene expression. Galectin-8 recruitment assays reveal no evidence of endosomal membrane rupture during productive transduction, distinguishing AAV2 from lytic vectors such as lipid nanoparticles. Moreover, VP1u-deficient and PLA2-mutant AAV2 capsids accumulate at the TGN, indicating that VP1u is dispensable for early trafficking but required for post-TGN progression toward productive transduction. These findings argue against the widely held model of direct endosomal escape and provide a mechanistic basis for the previously described essential role of the TGN in productive AAV transduction, positioning AAV entry as a vesicle-guided, receptor-mediated process.IMPORTANCEThe study demonstrates that AAV2 does not escape endosomes via membrane rupture but instead exploits the cellular receptor AAVR as a retromer cargo to traffic through vesicle-mediated retrograde transport to the trans-Golgi network, a critical checkpoint for productive transduction. Building on prior observations that VP1u-deficient particles are still internalized (R. Popa-Wagner, M. Porwal, M. Kann, M. Reuss, et al., J Virol 86:9163-9174, 2012, https://doi.org/10.1128/jvi.00282-12), we show that these particles traffic to the TGN but accumulate at this compartment, indicating that VP1u and its PLA2 activity become essential specifically at a post-TGN step in the transduction pathway.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle",
+        "aav"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42610332",
+      "title": "Perivascular Astrocytic Gliosis Induced by Retinal Gene Therapy.",
+      "authors": [
+        "Abdalla Elsayed MEA",
+        "Seitz IP",
+        "Fischer MD",
+        "MacLaren RE"
+      ],
+      "journal": "Human gene therapy",
+      "date": "2026 Aug 18",
+      "abstract": "This retrospective follow-on study reviewed 25 consecutive patients with genetically confirmed choroideremia who were treated with subretinal AAV2-CAG-REP1 in dose-escalation gene therapy clinical trials conducted at Oxford University Hospitals NHS Foundation Trust and the University Eye Hospital T&#xfc;bingen. Six patients in Oxford received 1010 vector genomes in 100 &#xb5;L, while a further 19 patients across both centers received 1011 vector genomes in 100 &#xb5;L. Although the primary safety outcomes of both investigator-led academic studies have previously been reported, retinal imaging changes were observed during follow-up, prompting a more detailed characterization of these findings. Twelve of 25 treated eyes developed imaging features consistent with perivascular astrocytic gliosis during follow-up, representing 48% of the cohort. All affected eyes had received the higher dose, accounting for 12 of 19 eyes treated with 1011 vector genomes. No patients receiving the lower dose (1.0 &#xd7; 1010 vector genomes) developed this phenotype. The lesions followed the major vascular arcades toward the optic disc, and optical coherence tomography demonstrated inner retinal thickening with a fine, granular hyperreflective texture, without intraretinal cysts. Longitudinal imaging showed no progressive expansion of the involved regions. Clinically, the findings were silent: no patient reported uveitic symptoms, ocular examinations were largely quiet, and no peripheral cellular immune responses were detected in patients with available assays. Perivascular astrocytic gliosis therefore appears to be a common, clinically silent, nonprogressive, and noninflammatory retinal response after subretinal AAV2-CAG-REP1 gene therapy for choroideremia at a dose of 1011 vector genomes, which is generally accepted as the therapeutic human dose for targeting photoreceptors. We hypothesize that local REP1 overexpression in perivascular astrocytes suppresses FOXO3-mediated apoptosis and engages EGFR/STAT3 signaling, driving benign perivascular astrocytic accumulation analogous to retinal astrocytic hamartomas seen in phacomatoses. Gene therapy involving ubiquitous promoters may have unexpected effects, and while benign, may not be predicted.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42584998",
+      "title": "TBC1D23-AAVR interaction drives endosome-to-TGN trafficking required for rAAV transduction.",
+      "authors": [
+        "Zhang X",
+        "Habib A",
+        "McFarlin S",
+        "Richart D",
+        "Park SY"
+      ],
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "date": "2026 Aug 18",
+      "abstract": "The adeno-associated virus receptor (AAVR; also known as KIAA0319L) is the proteinaceous receptor required for the transduction of multiserotype adeno-associated viruses (AAVs). While the extracellular polycystic kidney disease (PKD) domains of AAVR directly bind AAV capsids, the function of its C-terminal cytosolic domain (AAVR-C) in governing AAV internalization and intracellular trafficking remains undefined. Using targeted pulldown of AAVR-interacting host proteins with a glutathione S-Transferase (GST)-fused AAVR-C recombinant protein (GST-AAVR-C) as a bait, we identified that TBC1 domain family member 23 (TBC1D23), a specialized intracellular trafficking adaptor and bridging factor, binds AAVR via the AAVR-C and mediates AAV's endosome-to-trans-Golgi network (TGN) transport. Biolayer interferometry (BLI) demonstrates nanomolar-affinity binding between AAVR-C and the C-terminal scaffold domain of TBC1D23 (TBC1D23-C). CRISPR-mediated knockout of TBC1D23 severely impairs rAAV transduction across multiple human cell types, including polarized human airway epithelium (HAE). Loss of TBC1D23 disrupts convergence of internalized AAV capsids at the TGN, leading to diminished nuclear import of AAV vectors. Mutational analyses of AAVR-C reveal that its acidic residue cluster is required for TBC1D23 binding and AAV retrograde transport from the endosome to the TGN. Together, these findings define TBC1D23 as a receptor-proximal trafficking module that couples AAV-AAVR engagement to vesicle transport, revealing a missing core regulatory step in AAV retrograde transport that is essential for productive rAAV transduction.",
+      "delivery_types": [
+        "aav"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42636788",
+      "title": "Unlocking exosome potential: Comprehensive review on diagnostic, prognostic and therapeutic approaches in melanoma.",
+      "authors": [
+        "Srivastava A",
+        "Khairnar P",
+        "Chaure P",
+        "Vambhurkar G",
+        "Devi A"
+      ],
+      "journal": "Colloids and surfaces. B, Biointerfaces",
+      "date": "2026 Aug 18",
+      "abstract": "Melanoma is one of the most lethal and aggressive forms of skin malignancies, which characterized by a high mutational burden, rapid metastatic dissemination and development of resistance to targeted and conventional therapies. Increasing interest in site-specific delivery has led to tailored therapeutic delivery mechanisms, resulting in enhanced pharmacodynamic success and diminished adverse effects. Currently, melanoma is marked by multifaceted mechanisms that interplay with drug resistance and enhanced metastatic propensity, providing a paradigm for exosome-mediated delivery. The advent of engineered exosomes poses an innovative delivery platform that transports diverse bioactive cargo such as DNA, lipids, proteins and mRNA, thereby modulating immune evasion, angiogenesis, pre-metastatic niche formation, tumor progression and therapeutic resistance. Beyond their biological functions, exosomes have emerged as potential minimally invasive biomarkers for melanoma prognosis, diagnosis and treatment monitoring owing to their biocompatibility, stability and capability to imitate the molecular profile of the primary tumor. The current developments in exosome engineering have marked their potential as natural nanocarriers in various therapeutic delivery approaches like chemotherapy, immunotherapy, radiotherapy and codelivery. The current review highlights the promising potential of exosome-based therapeutics as targeted therapeutics, prognostic and diagnostic biomarkers, and as a theranostic platform. Furthermore, the review critically analyzes current challenges associated with isolation and characterization of exosomes, safety, reproducibility, large-scale manufacturing and regulatory considerations of exosome-based therapeutics. Collectively, exosome-based strategies hold substantial potential for improving the diagnosis and management of melanoma, which may encourage the development of next-generation therapeutic interventions in the medical world.",
+      "delivery_types": [
+        "exosome"
+      ],
+      "query_category": "exosome"
+    },
+    {
+      "pmid": "42625533",
+      "title": "[Еxosomes: possibilities and prospects in the diagnosis and treatment of digestive diseases].",
+      "authors": [
+        "Maev IV",
+        "Livzan MA",
+        "Gaus OV"
+      ],
+      "journal": "Terapevticheskii arkhiv",
+      "date": "2026 Aug 18",
+      "abstract": "Exosomes are extracellular membrane vesicles with a diameter of 30-150 nm secreted by various cell types into the extracellular environment and regulating many vital physiological processes, including signaling, immune activation, proliferation, differentiation, and apoptosis. Numerous studies conducted in recent years have demonstrated the key role of exosomes in the development of various gastrointestinal diseases, including cancer, allowing them to be considered as potentially promising diagnostic biomarkers. Furthermore, due to their inherent biocompatibility, ability to overcome biological barriers, low toxicity, and immunogenicity, exosomes can be used for targeted drug delivery in the treatment of patients with gastrointestinal diseases. This review article systematizes and presents information on exosomes, their functions, extraction and detection methods, and examines the main exosomal markers, which demonstrate significant potential for the diagnosis and treatment of various gastrointestinal diseases.",
+      "delivery_types": [
+        "exosome"
+      ],
+      "query_category": "exosome"
+    },
+    {
+      "pmid": "42608566",
+      "title": "Virus-like particles enable targeted gene engineering and pooled CRISPR screening in primary human myeloid cells.",
+      "authors": [
+        "Jung H",
+        "Devant P",
+        "Ching C",
+        "Ota M",
+        "Dann E"
+      ],
+      "journal": "Nature biotechnology",
+      "date": "2026 Aug 17",
+      "abstract": "Primary human myeloid cells hold promise for immunotherapies, yet efficient, scalable technologies for engineering and screening in these cells remain limited. Here we present a virus-like particle (VLP)-based toolkit that delivers diverse CRISPR editing modalities to human monocytes, macrophages and dendritic cells with high efficiency while preserving viability and innate immune responsiveness. VLP-mediated delivery of ribonucleoproteins supports gene knockout, base editing and epigenetic silencing. Combined with adeno-associated virus-mediated donor delivery, this approach enables site-specific integration of large DNA sequences by homology-directed repair. We developed SLICeVLP, which pairs sgRNA delivery by VPX-lentivirus with Cas9 protein delivery by engineered VLPs, and used it for pooled loss-of-function and Perturb-seq screens in human macrophages. We uncovered regulators of tumor necrosis factor (TNF) and CD80 expression, converging on TNFAIP3 as a central regulator of inflammatory polarization. TNFAIP3 ablation drove a proinflammatory state resistant to suppressive repolarization and enhanced cytotoxicity in chimeric antigen receptor macrophages. This system enables unbiased functional genomics in primary human myeloid cells, with implications for myeloid cell therapy design.",
+      "delivery_types": [
+        "vlp",
+        "lentivirus",
+        "aav"
+      ],
+      "query_category": "vlp"
+    },
+    {
+      "pmid": "42608251",
+      "title": "Disarming a pathogen with programmable phage-derived particles.",
+      "authors": [
+        "Yang S",
+        "Cress BF"
+      ],
+      "journal": "Trends in microbiology",
+      "date": "2026 Aug 17",
+      "abstract": "Shiga toxin-producing Escherichia coli (STEC) presents a therapeutic dilemma because antibiotic treatment induces prophage-encoded Shiga toxin expression. Galtier et al. engineer phage-derived particles with programmable cell specificity, genetic cargo, and CRISPR guide RNAs that destroy stx while killing STEC in animal models.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "crispr_delivery"
+    },
+    {
+      "pmid": "42607939",
+      "title": "The miRNA-virus axis in RNA virus infections: Mechanisms, therapeutic targeting, and systems biology approaches.",
+      "authors": [
+        "Nair DM",
+        "Vajravelu LK",
+        "Lathakumari RH",
+        "Vimala PB",
+        "Paneerselvam V"
+      ],
+      "journal": "Microbial pathogenesis",
+      "date": "2026 Aug 17",
+      "abstract": "RNA viruses are a diverse and rapidly evolving group of pathogens that significantly contribute to worldwide morbidity and mortality, propelled by elevated mutation rates and effective use of host cellular mechanisms. MicroRNAs (miRNAs) have emerged as an essential post-transcriptional regulator of host-virus interactions, influencing viral replication, immunological responses and disease progression. This review offers a comprehensive overview of the miRNA-virus axis in RNA virus infections, highlighting the dynamic and context-dependent roles of host miRNAs. We investigate the mechanistic basis of miRNA-mediated regulation, including direct targeting of viral RNA, modulation of host dependency factors, regulation of antiviral signaling pathways, and immune-mediated effects on infection outcomes. We propose a functional categorization of miRNAs that transcends the conventional antiviral-proviral dichotomy, facilitating a more accurate comprehension of their involvement in various infection settings. This review connects mechanistic insights with translational applications by outlining novel treatment techniques, such as miRNA mimics, anti-miRs, RNA interference, and CRISPR-based methodologies. We also propose a therapeutic decision framework that links miRNA functional classification with targeted antiviral interventions. Key challenges including delivery efficiency, tissue specificity, and off-target effects are also discussed, with emphasis on lipid nanoparticles and exosome-based delivery systems. We further highlight the role of systems biology approaches, including multi-omics integration, single-cell and spatial transcriptomics, network analysis, and artificial intelligence, in identifying regulatory miRNA hubs and enabling precision antiviral medicine. Collectively, this review reinterprets the miRNA-virus axis as a dynamic regulatory network and provides a translational framework for the development of next-generation antiviral therapeutics.",
+      "delivery_types": [
+        "lnp",
+        "exosome",
+        "nanoparticle"
+      ],
+      "query_category": "crispr_delivery"
+    },
+    {
+      "pmid": "42605109",
+      "title": "Durational Study of Persistent Transduction of Rhesus Macaque Lung and Other Organs Following Single Dosing with AAV1-CFTR.",
+      "authors": [
+        "Paul P",
+        "Sharma T",
+        "Afshani M",
+        "Maxwell A",
+        "Sharma A"
+      ],
+      "journal": "Human gene therapy",
+      "date": "2026 Aug 16",
+      "abstract": "Adeno-associated virus (AAV)-mediated gene transfer remains a promising strategy for cystic fibrosis (CF), but durability of expression and optimal dosing intervals are unresolved challenges. Here, we evaluated long-term gene transfer, transduction, and immunological responses following a single pulmonary administration of an AAV1 vector encoding &#x394;27-264 CFTR to juvenile rhesus macaques. Four animals received 1 &#xd7; 101&#xb3; vector genomes via endotracheal spray. Two were untreated. All were analyzed 180 days post-delivery. Vector genomes were detected throughout the conducting airways and distal lung at levels ranging from &#x223c;5 &#xd7; 106 to 9 &#xd7; 107 vg/&#xb5;g genomic DNA. Vector genomes were also detected in extrapulmonary tissues, including liver, pancreas, spleen, heart, and kidney. Cystic fibrosis transmembrane conductance regulator (CFTR) messenger RNA expression was detected in all tissues examined and in several respiratory and extrapulmonary tissues, accompanied by increased CFTR protein expression in multiple tissues. Transgene expression was observed in airway basal cells and FOXI1-positive ionocytes, indicating targeting of key epithelial and progenitor cell populations. Despite persistence of vector genomes, immune activation was limited. Cytokine and chemokine expression profiles showed only sporadic, tissue-specific changes without evidence of coordinated inflammation. Neutralizing antibodies to AAV1 developed in all animals but did not correlate with capsid-specific T cell responses, which remained low and infrequent. These findings indicate sustained gene transfer and transduction for at least 180 days following a single AAV1 administration to the primate lung, with minimal immunopathology. The durability of expression supports the potential feasibility of extended dosing intervals and informs the development of repeatable AAV-based gene therapies for CF.",
+      "delivery_types": [
+        "aav"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42604592",
+      "title": "Enhancing Adeno-Associated Virus 2 Capsid Engineering Through Co-Evolutionary Coupling.",
+      "authors": [
+        "Laosinwattana S",
+        "Li Y",
+        "Sanchez BC",
+        "Khan A",
+        "Dalby PA"
+      ],
+      "journal": "Biotechnology and bioengineering",
+      "date": "2026 Aug 16",
+      "abstract": "Adeno-associated virus (AAV) has emerged as a leading platform for gene therapy. However, to unlock the full potential, their manufacturing yields, stability, and efficacy must all be improved. Rational design is limited by poor predictability and the potential impact of mutations on multiple important vector properties. Directed evolution requires little knowledge or predictability, but requires large libraries, and lacks appropriate selection methods to ensure that all properties needed for successful translation are achieved. Here we bring semi-rational design to AAV capsid engineering, combining co-evolutionary coupling and consensus-based design. We designed 110 mutants at sites with different degrees of coupling and mutated them either back to consensus or with various residue similarities according to BLOSUM62. Seven were selected based on their yields and transduction efficiencies before and after heat treatment. Our results demonstrate that mutations at sites within coupled networks exhibited the highest success rates. The BLOSUM62 selection strategy and consensus design approaches had similar success rates. K-means clustering of mutants further revealed that five of the successful mutants clustered in regions with moderate coupling scores and positive BLOSUM62 values. This study highlights the potential of using evolutionary coupling analysis to guide AAV capsid engineering, suggesting that conservative mutations informed by evolutionary data can improve AAV stability and efficacy.",
+      "delivery_types": [
+        "aav"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42604446",
+      "title": "Spatial Transcriptomics-Inspired Targeted Hydrogel for Dental Pulp Therapy via Strengthen Macrophage Communication.",
+      "authors": [
+        "Yang M",
+        "Lai H",
+        "Wu F",
+        "Luo W",
+        "Zhan P"
+      ],
+      "journal": "Advanced healthcare materials",
+      "date": "2026 Aug 16",
+      "abstract": "Tissue repair depends on how inflammatory cues drive regenerative cell-state transitions; a process poorly understood in human tissues. Human dental pulp provides an accessible, structurally well-defined injury model with robust clinical responses, facilitating in situ investigations of inflammatory signaling and endogenous regeneration. Here, we integrated high-resolution spatial transcriptomics with single-cell RNA sequencing (scRNA-seq) to chart its cellular ecosystem in health and caries. We resolved five major cell classes and four odontoblast progenitor subtypes, reconstructing their differentiation trajectories. Spatial mapping of immune cells combined with cell-cell communication analysis revealed that macrophages promote progenitor migration and odontoblastic differentiation via platelet-derived growth factor B (PDGFB) signaling. Inspired by this axis, we developed a hydrogel that amplifies macrophage PDGFB delivery via adeno-associated virus (AAV) vectors, which promoted mineralization in vitro and accelerated reparative dentin formation in a direct pulp-capping mouse model. Downstream analyses and pathway perturbation further confirmed the role of the PDGFB-Wnt-RUNX2 signaling axis in these progenitors. This study provides a spatially resolved single-cell framework showing how immune cues direct stem/progenitor fate to orchestrate regeneration, offering a targeted design paradigm for pulp regeneration biomaterials.",
+      "delivery_types": [
+        "aav"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42604587",
+      "title": "Purification of Disassembled Capsid Protein by Hydroxyapatite Chromatography Enhances Virus-Like Particle Recovery.",
+      "authors": [
+        "Samuelson N",
+        "Parker N",
+        "Wang S",
+        "Daley S",
+        "Cote A"
+      ],
+      "journal": "Biotechnology and bioengineering",
+      "date": "2026 Aug 16",
+      "abstract": "Virus-like particles (VLPs) are a promising modality with extensive applications in prophylactic and therapeutic vaccine design. Human Papillomavirus (HPV) vaccines are one such example where VLP vaccine applications have led to the successful reduction in HPV-associated diseases, such as cervical cancer. Current purification approaches utilize hydroxyapatite (HA) chromatography in bind-and-elute mode to purify HPV VLPs from host-cell impurities such as proteins and nucleic acids, though binding capacity for VLPs is low due to mass transfer limitations related to their large particle size. The intent of this work was to utilize VLP disassembly prior to HA chromatography in order to increase column yield and capacity. Since L1 protein subunits demonstrated weaker binding avidity for HA resin compared to VLPs, this enabled flow-through purification of L1 protein from strongly adsorbed host cell impurities. Mobile phase conditions were evaluated in batch partition screening experiments to determine the optimal conditions for L1 protein recovery with selective clearance of nucleic acid. Dynamic loading studies showed that while nucleic acid removal was equivalent to the VLP purification process, the flow-through process with disassembled L1 protein achieved higher L1 yield and column capacity. Optimal conditions were applied to HA flow-through purification for multiple HPV types with recombinant L1 protein expressed in yeast, demonstrating &gt;&#x2009;35% increased yield for six of eight types. The purified, disassembled proteins were subsequently reassembled and had comparable product attributes to the VLP purification process. The implementation of disassembly prior to purification also eliminates the requirement to perform a distinct final disassembly/reassembly process after isolating crude VLPs during purification.",
+      "delivery_types": [
+        "vlp"
+      ],
+      "query_category": "vlp"
+    },
+    {
+      "pmid": "42611631",
+      "title": "In Situ Generation of Claudin18.2-Specific CAR-T Cells via Lipid Nanoparticle-Mediated mRNA Delivery.",
+      "authors": [
+        "Li H",
+        "Li J",
+        "Wang Y",
+        "Chen L"
+      ],
+      "journal": "Journal of visualized experiments : JoVE",
+      "date": "2026 Aug 14",
+      "abstract": "Chimeric antigen receptor (CAR) T-cell therapy has achieved remarkable clinical success in hematological malignancies; however, its broader application is limited by high manufacturing costs and insufficient efficacy against solid tumors. To overcome these challenges, an in situ CAR-T cell generation strategy was developed based on lipid nanoparticle (LNP)-mediated delivery of CAR mRNA targeting Claudin18.2, enabling the transient production of CAR-T cells directly within tumor tissue. Following LNP transfection, activated T cells exhibited efficient surface expression of CARs. These transient CAR-T cells demonstrated potent cytotoxic activity against Claudin18.2-positive gastric carcinoma cell lines, including NUGC4 and NCI-N87, and produced significant antitumor efficacy in tumor-bearing mouse models. This protocol describes detailed procedures for in vitro transcription of CAR mRNA, LNP formulation, T-cell activation and transfection, CAR expression analysis, and in vitro and in vivo functional evaluation of CAR-T-mediated cytotoxicity. Taken together, this strategy provides a cost-effective and versatile platform for generating transient CAR-T cells and offers a promising approach for treating solid tumors.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42611607",
+      "title": "Light- and X-ray-Activated Liposomes for Controlled Gene Editing and Drug Delivery.",
+      "authors": [
+        "Aksoy YA",
+        "Yang B",
+        "Liew G",
+        "Mitchell P",
+        "Goldys EM"
+      ],
+      "journal": "Journal of visualized experiments : JoVE",
+      "date": "2026 Aug 14",
+      "abstract": "Photodynamic therapy (PDT) exploits photosensitizer activation to generate reactive oxygen species (ROS), principally singlet oxygen. Beyond direct cytotoxicity, this photochemistry can be repurposed for on-demand cargo release from lipid nanocarrier systems, enabling spatiotemporal control over therapeutic delivery that is not achievable with conventional lipid nanoparticles. This protocol presents methods for fabricating and characterising two distinct verteporfin (VP)-integrated lipid nanoparticle formulations: (1) light-triggered liposomes composed of DOTAP, DOPE, cholesterol, and VP for delivery of CRISPR-Cas9 ribonucleoprotein (RNP) complexes; and (2) X-ray-triggered liposomes composed of DOTAP, DOPC, VP, and gold nanoparticles for controlled chemotherapy drug release. Upon activation at 690 nm (visible light) or by clinical X-ray radiation (6 MeV), VP generates singlet oxygen that oxidises unsaturated lipid components, destabilising the nanoparticle membrane and releasing encapsulated cargos. Protocols are provided for liposome formulation by thin-film hydration and membrane extrusion, physicochemical characterisation, light- and X-ray-triggered cargo release assessment, in vitro gene knockout in human cells, and in vivo validation using a quantitative zebrafish visual reporter system and a mouse xenograft tumour model. Representative results demonstrate knockout of up to approximately 326 slow-muscle fibres per zebrafish embryo via light activation and significant tumour growth suppression via X-ray-triggered doxorubicin release.The clinical precedent for 689-690 nm verteporfin activation in the eye motivates evaluation of this platform for ophthalmic delivery, although retinal biodistribution, pharmacokinetics, and large-animal safety remain to be established. These methods provide an experimental approach with translational potential for externally controlled therapeutic cargo release.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42611747",
+      "title": "Evaluation of 3D Spheroids for AAV Transduction Studies.",
+      "authors": [
+        "Najera SS",
+        "Mazor R"
+      ],
+      "journal": "Journal of visualized experiments : JoVE",
+      "date": "2026 Aug 14",
+      "abstract": "Adeno-associated viruses (AAVs) are potent vectors used for gene delivery in gene therapy products. Their development requires in vitro&#xa0;systems that can reliably detect differences in vector design, serotype performance, regulatory element strength, and expression kinetics. These systems must also support applications such as potency assessment and vector optimization. Here, we describe a streamlined three-dimensional spheroid platform optimized for evaluating AAV potency, transgene expression kinetics, and serotype-specific transduction efficacy across diverse cell lines. Uniform spheroids are generated using ultra-low attachment plates and maintained under conditions that support stable architecture and long-term imaging. Following AAV transduction, fluorescent or luminescent readouts are monitored in real time using live-cell imaging systems. This enables quantitative assessment of reporter signal, dose responsiveness, regulatory element activity, and onset time through continuous kinetic imaging. The platform effectively discriminates between potent and weak vector genome designs and among multiple AAV serotypes. This method demonstrates robust performance across both slowly and rapidly dividing cell lines. These results establish its utility as a scalable and physiologically relevant system for preclinical gene therapy evaluation and development.",
+      "delivery_types": [
+        "aav"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42601389",
+      "title": "Potential for enhanced oncolytic HSV-1 therapy via SHED as a vehicle against malignant gliomas.",
+      "authors": [
+        "Kida S",
+        "Oishi T",
+        "Yamasaki T",
+        "Kamio Y",
+        "Sakamoto T"
+      ],
+      "journal": "Cancer gene therapy",
+      "date": "2026 Aug 14",
+      "abstract": "Malignant gliomas are common primary brain tumors. Glioblastoma carries a poor prognosis, with median survival of less than 2 years. Given the urgent need for novel therapies, oncolytic virus (OV) therapy has developed rapidly. However, challenges remain with effective OV delivery to tumor sites and efficient infection of tumor cells. This study investigated the use of stem cells from human exfoliated deciduous teeth (SHED) as a potential vehicle for oncolytic herpes simplex virus-1 therapy (SHED-OV) to enhance treatment efficacy. SHED-OV showed a greater reduction in tumor cell viability in vitro than direct OV infection. Migration assays revealed that SHED-OV actively migrated toward glioma cell-conditioned medium, demonstrating their tumor-homing ability. In vivo experiments demonstrated significantly prolonged survival in both the glioma cell/SHED-OV co-implantation group and the OV-infected glioma cell group compared with controls. In a glioma stem cell model, both SHED-OV and OV alone significantly improved survival compared with controls, with SHED-OV achieving anti-tumor effects comparable to those of direct OV administration and complete tumor regression in a subset of mice. SHED-OV also exhibited tumor-homing ability. These results suggest that SHED could serve as an effective vehicle for OV delivery, potentially improving tumor infection and therapeutic efficacy.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "in_vivo"
+    },
+    {
+      "pmid": "42600889",
+      "title": "Unlocking the Curative Potential of Gene Transfer and Editing for Hematopoietic Disorders.",
+      "authors": [
+        "Shiroshita K",
+        "Stolz A",
+        "Malouf C",
+        "Tran VL",
+        "Li J"
+      ],
+      "journal": "Experimental hematology",
+      "date": "2026 Aug 14",
+      "abstract": "Hematopoietic stem and progenitor cells (HSPCs) gene therapy may transform the therapeutic landscape for inherited hematological disorders and already offers potentially curative options for some diseases, including inborn errors of immunity and &#x3b2;-hemoglobinopathies. Its continued success relies on further refinement of gene transfer technologies, gene editing tools such as CRISPR-Cas, and optimized ex vivo HSPC manipulation protocols that ensure robust, long-term engraftment and clonal diversity with reduced-toxicity, non-genotoxic conditioning strategies. Here, we review recent developments and refinements in gene transfer and editing technologies for HSPCs, while also discussing the critical limitations and hurdles to clinical translation, as recently presented at the New Investigator Committee Gene Therapy webinar. Future directions must prioritize integrating technological innovation with the development of equitable and simplified models to reduce costs and ensure that these life-saving cellular therapies reach patients worldwide. Teaser abstract Hematopoietic stem and progenitor cells (HSPCs) gene therapy is advancing rapidly, with lentiviral gene transfer, genome editing, and emerging in vivo delivery approaches expanding the therapeutic landscape for inherited hematologic disorders. Recent clinical successes have demonstrated the potential for durable correction, while ongoing refinements continue to improve safety, efficacy, and feasibility. Key challenges remain in genotoxicity, conditioning toxicity, manufacturing scalability, and equitable global access.",
+      "delivery_types": [
+        "lentivirus"
+      ],
+      "query_category": "in_vivo"
+    },
+    {
+      "pmid": "42585315",
+      "title": "GNPs-pIL-4 reprograms macrophage polarization and activates the OSM/GSNOR/ENG axis to improve angiogenesis in ischemic limbs.",
+      "authors": [
+        "Zhang P",
+        "Zhuang J",
+        "Hao Y",
+        "Zhu X",
+        "Liang H"
+      ],
+      "journal": "Science advances",
+      "date": "2026 Aug 14",
+      "abstract": "Therapeutic angiogenesis based on gene therapies is a potential peripheral artery disease (PAD) treatment yet needs a more stable, efficient, and high-affinity delivery vector and an optimized delivery strategy. Here, we engineered three-dimensional graphene nanoparticles modified with folic acid and polyethyleneimine for macrophage-specific delivery of interleukin-4 plasmids (pIL-4), forming GNPs-pIL-4 for local intramuscular injection. GNPs-pIL-4 had uniform size, positive surface charge, and strong nucleic acid loading capacity (Kd: 25&#xa0;nanomolar). In vivo, GNPs-pIL-4 reshaped the ischemic microenvironment by inducing reparative M2 macrophage polarization. Mediated by macrophages, GNPs-pIL-4 improved muscle contractility, delayed strength loss, and enhanced blood perfusion and oxygen saturation. Mechanistically, GNPs-pIL-4 specifically turned on the oncostatin M-mediated macrophage-endothelium communication and then activated the angiogenesis, with increased endothelial sprouting, migration, and tube formation. These effects attributed to the down-regulated S-nitrosoglutathione reductase expression, thereby increasing S-nitrosylation at the C209 site of endoglin. GNPs-pIL-4 represents a promising gene therapy strategy for PAD.",
+      "delivery_types": [
+        "nanoparticle"
+      ],
+      "query_category": "in_vivo"
+    },
+    {
+      "pmid": "42599326",
+      "title": "Phage and CRISPR based precision antimicrobials: a dual strategy against multidrug-resistant bacteria.",
+      "authors": [
+        "Musini A",
+        "Yata VK",
+        "Bukke SPN",
+        "Akhila K",
+        "Shivani T"
+      ],
+      "journal": "Molecular biology reports",
+      "date": "2026 Aug 14",
+      "abstract": "The rapid global emergence of multidrug-resistant (MDR) bacterial pathogens has significantly reduced the effectiveness of conventional antibiotics, creating an urgent need for alternative antimicrobial strategies. Among emerging precision therapeutics bacteriophage therapy and Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)-Cas systems have shown to have strong potential through highly specific bacterial targeting mechanisms. Bacteriophages have the ability to replicate themselves and penetrate biofilms, and the ability of CRISPR-Cas systems to edit the genes responsible for antimicrobial resistance, virulence factors, and the mobile genetic elements that underlie bacterial resistance. The recent advancement enabled the integration of these technologies through CRISPR-armed bacteriophages, which utilize bacteriophages as delivery mechanisms for CRISPR and address the large populations of MDR bacteria. Compared to administering CRISPR and bacteriophage independently, the current data suggest that the use of these two methods synergistically will lead to greater efficacy of delivery, specific targeting of resistance determinants, decreased risk of resistance development, and minimal impact on the body's beneficial microorganisms. While the potential combination of these approaches holds great promise to help combat the issue of MDR bacteria, there are still numerous barriers to overcome in order to implement these methods which include narrow phage host range, bacterial escape mechanisms, off-target CRISPR activity, anti-CRISPR proteins, host immune responses, and unresolved manufacturing and regulatory limitations. This review critically examines bacteriophage-based antimicrobials, CRISPR-Cas therapeutic systems, and their emerging integration as CRISPR-armed phages, highlighting their comparative advantages, current limitations, and future potential as promising targeted antimicrobial approach platforms requiring further clinical validation.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "crispr_delivery"
+    },
+    {
+      "pmid": "42187087",
+      "title": "In Vivo Base Editing of PCSK9 with VERVE-102 for Hypercholesterolemia.",
+      "authors": [
+        "Vafai SB",
+        "Täubel J",
+        "Ashdown T",
+        "Patel RS",
+        "Diamondali S"
+      ],
+      "journal": "The New England journal of medicine",
+      "date": "2026 Aug 13",
+      "abstract": "Persons carrying loss-of-function variants of proprotein convertase subtilisin-kexin type 9 (PCSK9) have reduced levels of low-density lipoprotein (LDL) cholesterol and fewer atherosclerotic cardiovascular disease events than persons without such variants. VERVE-102 is an investigational base-editing therapy designed to durably inactivate PCSK9 in the liver.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42594869",
+      "title": "AAV-DJ enables efficient, function-preserving neuronal transduction for circuit interrogation in human cortical and thalamic organoids.",
+      "authors": [
+        "Adachi S",
+        "Nishimura M",
+        "Yamaguchi K",
+        "Sato AY",
+        "Takeuchi RF"
+      ],
+      "journal": "Cell reports methods",
+      "date": "2026 Aug 13",
+      "abstract": "Neural organoids provide tractable models of human brain development, function, and disease, but adeno-associated viral vector (AAV)-based gene delivery is limited by inefficient transduction and insufficient comparative evaluation of the natural and engineered capsids. Here, we evaluated seven AAV capsids (AAV-2, -6, -9, -DJ, -2-retro, -PHP.eB, and -Cap-Mac) for transduction efficiency, cell type tropism, cytotoxicity, and functional integrity in human cortical and thalamic organoids. AAV-Cap-Mac demonstrated the highest transduction efficiency, with broad cellular tropism, but caused cytotoxicity and decreased neuronal activity. By contrast, AAV-DJ yielded efficient neuronal transduction, with preserved calcium dynamics and minimal cytotoxicity, which enabled rabies virus-based circuit tracing and all-optical physiology. Our findings reveal a capsid-dependent trade-off between transduction efficiency and functional integrity and identify AAV-DJ as an optimal serotype for robust gene delivery and physiological interrogation in organoid-based neuroscience. Combining AAV-DJ with emerging molecular and circuit-level technologies in organoids should facilitate mechanistic and translational studies of the human brain.",
+      "delivery_types": [
+        "aav"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42641366",
+      "title": "Emerging biomaterials for auditory disorders.",
+      "authors": [
+        "Chen X",
+        "Wang N",
+        "Huang Y",
+        "Xu B",
+        "Liu Y"
+      ],
+      "journal": "Biomaterials",
+      "date": "2026 Aug 13",
+      "abstract": "The inner ear is a highly specialized sensory organ whose therapeutic inaccessibility arises from its structural sequestration, compartmentalized fluid environment, and the restrictive blood-labyrinth barrier (BLB). These features severely limit drug penetration, spatial precision, and therapeutic durability, thereby constraining the treatment of hearing and balance disorders. Emerging biomaterial platforms have provided promising strategies to overcome these barriers through rationally engineered biomaterials. This review presents a materials-centered framework for emerging biomaterial platforms in auditory disorders, spanning the anatomical and transport foundations of otologic delivery, the major material classes used in ear disorders, and the physicochemical design determinants that govern transport, retention, targeting, biodegradability, and biosafety. We discuss polymer-based, lipid-based, hydrogel-based, exosome-derived, inorganic, composite, and piezoelectric biomaterials, highlighting how structure and property relationships shape therapeutic performance. Beyond serving as delivery carriers, these biomaterial platforms can provide intrinsic or engineered therapeutic and regenerative functions, as well as bioelectronic interfacing capable of redox regulation, anti-inflammatory modulation, synaptic repair, and self-powered auditory sensing or stimulation. We further summarize disease-specific applications and outline major translational barriers, including delivery heterogeneity, incomplete long-term safety evaluation, limited standardization, and manufacturing scalability, together with future directions for precision-guided otologic therapy.",
+      "delivery_types": [
+        "exosome"
+      ],
+      "query_category": "exosome"
+    },
+    {
+      "pmid": "42586309",
+      "title": "Hippocampal teneurin-4 knockdown promotes depression-like behavioral phenotypes by disrupting oligodendrocyte differentiation in mice.",
+      "authors": [
+        "Sugimori Y",
+        "Yano Y",
+        "Asano T",
+        "Suzuki S",
+        "Kaigawa T"
+      ],
+      "journal": "Neuropharmacology",
+      "date": "2026 Aug 12",
+      "abstract": "Depression is one of the most prevalent mental disorders worldwide. The limited clinical efficacy of current antidepressants highlights identifying new therapeutic targets. Emerging evidence suggests that dysfunction of oligodendrocyte lineage cells contributes to the pathophysiology of depression. Teneurin-4 (Tenm4), a transmembrane protein that promotes oligodendrocyte differentiation and myelination, has been implicated in psychiatric disorders in genome-wide association studies; however, its causal role remains unclear. To determine whether Tenm4 contributes to depressive-like behavioral phenotypes, we examined Tenm4 protein expression in mice exposed to repeated forced swimming stress and generated hippocampal Tenm4 knockdown (Tenm4KD) mice. Chronic stress reduced Tenm4 expression levels in the hippocampus. Mice with hippocampus-specific Tenm4KD exhibited depressive-like behaviors, accompanied by reduced hippocampal myelin basic protein. Importantly, administration of clemastine, a myelin formation promoter, inhibited the reduction of myelin and attenuated depression-like behavioral phenotypes. Immunohistochemical analysis showed that Tenm4KD significantly decreased the number of mature oligodendrocyte cells and increased in the number of oligodendrocyte precursor cells, without changes in the total number of oligodendrocyte lineage cells. This study provides the first evidence that hippocampal Tenm4 deficiency induces depression-like behavior phenotypes through impaired oligodendrocyte differentiation and promoting demyelination. Our results identify Tenm4 as a molecular regulator of stress-induced behavioral phenotypes and suggest that it might represent a potential therapeutic target for mood disorders associated with demyelination.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42646709",
+      "title": "Vectored Immunoprophylaxis for Mucosal Immunity: Advances and Challenges Associated with Recombinant Secretory IgA Expression.",
+      "authors": [
+        "Manchester BJ",
+        "Gommerman JL",
+        "Sharif S",
+        "Susta L",
+        "Wootton SK"
+      ],
+      "journal": "Vaccines",
+      "date": "2026 Aug 12",
+      "abstract": "Existing vectored immunoprophylaxis (VIP) approaches have primarily focused on IgG, which provides systemic protection but is less specialized in mucosal immunity. In contrast, secretory IgA (sIgA) plays a central role at epithelial surfaces, promoting pathogen neutralization while limiting inflammation. Although monoclonal IgA therapies are effective, their short half-life requires repeated dosing. Thus, VIP strategies enabling sustained sIgA expression at mucosal sites could transform mucosal infection prevention and treatment. This review outlines the key challenges associated with in vivo IgA expression and discusses critical considerations for VIP-mediated IgA delivery at mucosal surfaces, with emphasis on its potential for clinical translation. We provide a detailed overview of platforms for targeted IgA expression, including adeno-associated virus (AAV), adenoviral and lentiviral vectors, and lipid nanoparticle-based systems, alongside relevant routes of administration. Additionally, we examine emerging strategies to enhance the robustness, durability, and localization of IgA expression in vivo. Overall, VIP-enabled IgA expression represents an emerging strategy for enhancing mucosal immunity, with continued advances required to establish its role in the prevention and treatment of mucosal infections.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle",
+        "lentivirus",
+        "aav"
+      ],
+      "query_category": "aav"
+    },
+    {
+      "pmid": "42586052",
+      "title": "eVLP compound delivery breaks the prime editing efficiency ceiling.",
+      "authors": [
+        "Wang MR",
+        "Sánchez-Rivera FJ"
+      ],
+      "journal": "Cell genomics",
+      "date": "2026 Aug 12",
+      "abstract": "Prime editing could resolve gene variant function at scale, but the editing machinery needs to be delivered efficiently and reproducibly. Langley, Baudrier, et al.1 show that timing of editor delivery is rate limiting and introduce PRIME-VLP, a repeated dosing strategy with engineered virus-like particles that improves editing efficiency and screening performance.",
+      "delivery_types": [
+        "vlp"
+      ],
+      "query_category": "vlp"
+    },
+    {
+      "pmid": "42447864",
+      "title": "Compound delivery of eVLPs enhances prime editing for targeted genome engineering and high-throughput screening.",
+      "authors": [
+        "Langley J",
+        "Baudrier L",
+        "Curry J",
+        "Narta K",
+        "Todesco HM"
+      ],
+      "journal": "Cell genomics",
+      "date": "2026 Aug 12",
+      "abstract": "Engineered virus-like particles (eVLPs) enable transgene-free ribonucleoprotein delivery for genome editing, yet optimized strategies for high-throughput applications remain unexplored. Prime editing enables precise genomic modifications but suffers from limited efficiency. Here, we present PRIME-VLP (Progressive Repeated Infections for Maximized Editing via Virus-Like Particles), which exploits eVLP-mediated editing kinetics through multiple sequential sub-saturating transductions at optimal intervals. PRIME-VLP achieves 1.5- to 2.9-fold improvements in prime editing efficiency across diverse genomic targets and cell types without increasing off-target editing, compromising cellular viability or causing transcriptional perturbations. By decoupling pegRNA and editor delivery through pegRNA-free eVLPs, PRIME-VLP enables pooled prime editing screens and circumvents transgene silencing limitations. Using a 6,000-pegRNA library targeting TP53, PRIME-VLP achieved 2.8-fold higher editing and improved reproducibility compared to conventional lentiviral delivery, identifying TP53 loss-of-function variants conferring Nutlin-3 resistance. This work expands the versatility of eVLPs beyond their current in vivo therapeutic applications, demonstrating their promise for high-throughput functional genomics.",
+      "delivery_types": [
+        "vlp",
+        "lentivirus"
+      ],
+      "query_category": "vlp"
+    },
+    {
+      "pmid": "42585291",
+      "title": "Ultrasound-guided renal artery administration of angiopoietin-1 RNA therapy slows the progression of preclinical WT1 glomerular disease.",
+      "authors": [
+        "Malik SN",
+        "Chandler JC",
+        "Maeshima R",
+        "Kolatsi-Joannou M",
+        "Mason WJ"
+      ],
+      "journal": "Science translational medicine",
+      "date": "2026 Aug 12",
+      "abstract": "Mutations in the transcription factor gene Wilms Tumor 1 (WT1) are one of the leading causes of congenital glomerular disease, characterized by severe urinary protein loss and glomerular scarring. No disease-modifying therapies exist for WT1 glomerulopathies, and affected children rely on dialysis or kidney transplantation. We evaluated a previously uncharacterized treatment in a mouse model with an orthologous human mutation in Wt1 (Wt1+/R394W) that replicates the pathology of WT1 glomerulopathy. Lipid nanocomplexes were engineered to target integrin &#x3b1;v&#x3b2;3 for efficient delivery of mRNA to primary podocytes and glomerular endothelial cells in vitro. A minimally invasive ultrasound-guided renal artery injection enabled precise and specific kidney localization in vivo, a finding not replicated by systemic administration. Nanocomplex-derived protein localized in glomeruli for up to 7 days in healthy and diseased mice. This platform was then used to perform an interventional preclinical trial in Wt1+/R394W mice, delivering angiopoietin-1 (Angpt1) mRNA, a vascular growth factor critical for glomerular health that is reduced in Wt1+/R394W podocytes. Angpt1 nanocomplex therapy reduced albuminuria, preserved glomerular endothelial integrity, prevented podocyte loss, and alleviated glomerulosclerosis in Wt1+/R394W mice. These findings demonstrate the therapeutic potential of this targeted approach for WT1 glomerulopathy and provide a foundation for clinical translation to improve outcomes in children with glomerular disease.",
+      "delivery_types": [
+        "lnp"
+      ],
+      "query_category": "in_vivo"
+    },
+    {
+      "pmid": "42584508",
+      "title": "A cascade-amplified Fe(3)O(4)-based nanoplatform for miRNA-21 sensing and combined apoptosis/ferroptosis induction.",
+      "authors": [
+        "Guo Z",
+        "Zhang H",
+        "Xing X",
+        "Ren X",
+        "Wang Y"
+      ],
+      "journal": "Mikrochimica acta",
+      "date": "2026 Aug 12",
+      "abstract": "A miRNA-21-responsive analytical nanoplatform based on Fe&#x2083;O&#x2084;@polydopamine (PDA) was constructed for co-delivery of doxorubicin (DOX) and functional nucleic acids, with glucose oxidase (GOx) immobilized to achieve cascade-amplified combined therapeutic effects; notably, the proposed self-supplying oxidative cascade is a proof-of-concept deduction based on indirect evidence. The platform enables targeted recognition and specific binding to tumor cells via the sgc8 aptamer. Following cellular internalization, endogenous miRNA-21 triggers the catalytic hairpin assembly (CHA) reaction, enabling DOX release and DNAzyme generation with high specificity for miRNA-21 detection. The DNAzyme downregulates the expression of proliferation-promoting and ferroptosis-suppressing proteins, working in conjunction with DOX to promote tumor cell apoptosis. Concurrently, ferrous ions (Fe2+) released from Fe&#x2083;O&#x2084; under GSH reduction react with H&#x2082;O&#x2082; generated by GOx via the Fenton reaction, driving lipid peroxide accumulation and promoting ferroptosis. Experimental results indicate that the platform markedly reduces the viability of MCF-7 cells, exerting potent cytotoxicity. This study establishes a targeted multifunctional nanotherapeutic platform by integrating ferroptosis induction, gene modulation, and chemotherapeutic intervention with highly sensitive and selective miRNA-21 sensing capability. Aptamer substitution may enable adaptation to other tumor types in future in vivo studies, laying the groundwork for precision tumor therapy. Notably, this work is confined to in vitro cellular characterization, and comprehensive in vivo validation is required for translational assessment.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "in_vivo"
+    },
+    {
+      "pmid": "42621625",
+      "title": "Azobenzene-Cored Amphiphilic Dendrimers: Molecular Photoswitching Controls Dendriplex Topology and Gene Delivery.",
+      "authors": [
+        "Puerto-Madorrán MJ",
+        "Rivero-Barbarroja G",
+        "Benito JM",
+        "Maisonneuve S",
+        "Vélaz I"
+      ],
+      "journal": "Small science",
+      "date": "2026 Aug",
+      "abstract": "Azobenzene-cored ionizable amphiphilic Janus dendrimers (Azo-IAJDs) are introduced as molecularly defined, single-component vectors in which reversible photoswitching controls plasmid DNA (pDNA) condensation pathways, dendriplex topology, and transfection behavior. The amphiphiles combine asymmetrically substituted azobenzene cores with ionizable and lipophilic dendrons and undergo efficient, reversible E/Z photoisomerization under biologically relevant conditions. In the presence of pDNA, they form nanocomplexes displaying markedly different supramolecular organizations depending on the architecture of the ionizable domain, ranging from highly ordered lamellar nanoparticles to morula-like or weakly structured condensates. Molecular mechanics and molecular dynamics simulations reveal that photoisomerization within preassembled lamellar dendriplexes introduces local structural frustration, transiently destabilizes bilayer organization, and enhances amphiphile dissociation. These structural perturbations correlate with enhanced intracellular delivery and transgene expression upon E&#x2009;&#x2194;&#x2009;Z interconversion. In vitro, Z-derived nanocomplexes systematically outperform the corresponding E-isomers in COS-7, HepG2, and RAW264.7 cells, while ex vivo photoswitching yields up to 50-fold increases in expression. In vivo studies further demonstrate isomer-dependent passive organ targeting, including pronounced shifts from lung- to liver-dominant transfection profiles. Collectively, these results establish molecular photoswitching as a mechanism to encode supramolecular DNA organization and biological function in single-component dendritic vectors.",
+      "delivery_types": [
+        "nanoparticle"
+      ],
+      "query_category": "nanoparticle"
+    },
+    {
+      "pmid": "42622042",
+      "title": "ZIF-8 Nanodrug Delivery Systems: Construction Strategies, Functional Modifications, and Advances in Synergistic Tumor Therapy.",
+      "authors": [
+        "Xie R",
+        "Peng W",
+        "Zeng B",
+        "Chen C",
+        "Tang X"
+      ],
+      "journal": "International journal of nanomedicine",
+      "date": "2026",
+      "abstract": "Conventional chemotherapeutic agents are commonly hampered by off-target toxicity and multidrug resistance. Although nanoscale delivery systems can enhance targeting and controlled release, they are frequently constrained by insufficient drug-loading capacity. Zeolitic imidazolate framework-8 (ZIF-8), a metal-organic framework self-assembled from Zn2+ and 2-methylimidazole, features pH-triggered degradability, high drug payload, and favorable biocompatibility. This review systematically evaluates ZIF-8-based cancer therapeutic platforms, comparing synthetic routes (batch preparation versus scalable production), drug-loading strategies (one-pot versus impregnation methods), and functional modification approaches (PEGylation, folic acid conjugation, hyaluronic acid decoration, RGD peptide grafting, and cell-membrane coating) with respect to their efficacy in overcoming current limitations. The core section highlights multimodal combination therapies integrating chemotherapy, photothermal/photodynamic therapy, gene therapy, and immunotherapy. Furthermore, we discuss translational obstacles, including heterogeneous enhanced permeability and retention (EPR) effects, manufacturing reproducibility, and regulatory hurdles, with the goal of comprehensively unleashing the potential of ZIF-8. We conclude that ZIF-8 represents a versatile platform; however, its clinical application necessitates a paradigm shift from empirical design to mechanism-driven engineering, alongside standardized scalable production.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "nanoparticle"
+    },
+    {
+      "pmid": "42610073",
+      "title": "Nanotechnology in Prostate Cancer: PSMA-Targeted Nanoplatforms, TME-Responsive Therapy, Immunomodulation, and Clinical Translation Challenges.",
+      "authors": [
+        "Li W"
+      ],
+      "journal": "International journal of nanomedicine",
+      "date": "2026",
+      "abstract": "The field of nanotechnology has demonstrated considerable potential in the diagnosis and treatment of prostate cancer, particularly through the use of prostate-specific membrane antigen (PSMA)-targeted platforms and tumor microenvironment (TME)-responsive systems. In the context of diagnosis, nanoparticle-based molecular imaging probes have been shown to enhance detection sensitivity and specificity. These probes include superparamagnetic iron oxide, which is utilized in magnetic resonance imaging, and near-infrared fluorescent nanomicelles. Additionally, nanostructured liquid biopsy systems have demonstrated the capability to capture circulating tumor cells, exosomes, and circulating tumor DNA with high sensitivity, facilitating non-invasive genotyping and treatment monitoring. In the field of therapeutics, PSMA-targeted liposomes, polymeric nanoparticles, and inorganic nanocarriers have demonstrated efficacy in enhancing the delivery of chemotherapeutics, gene-editing tools (eg, CRISPR/Cas9, siRNA), and immunomodulators. These delivery mechanisms are equipped with TME-responsive release mechanisms (eg, pH, enzyme, redox) that enable the spatiotemporal control of drug release. Nanotechnology offers multi-level strategies to overcome multidrug resistance in castration-resistant prostate cancer, including PROTAC-mediated protein degradation, ferroptosis induction, and synergistic chemo-immunotherapy. Multifunctional theranostic nanoplatforms integrating imaging and therapy enable real-time efficacy assessment and personalized treatment adaptation. Emerging green synthesis approaches that utilize agricultural byproducts and bio-inspired platforms (eg, cell membrane-coated nanoparticles) present sustainable and biocompatible alternatives. Concurrently, artificial intelligence (AI) holds the potential to expedite the design of nanocarriers. Despite the advancement of several nanomedicines to clinical trials, significant translational barriers persist. These include heterogeneous PSMA expression (15-37% of castration-resistant prostate cancer cases are PSMA-negative), suboptimal enhanced permeability and retention effect in humans, long-term safety concerns, manufacturing hurdles, and regulatory gaps. This narrative review methodically examines the applications of nanotechnology in prostate cancer. It critically analyzes the clinical translation challenges encountered during clinical trials and discusses future directions, including smart responsive systems, multimodal immunotherapy, and AI-assisted nanomedicine design.",
+      "delivery_types": [
+        "exosome",
+        "nanoparticle"
+      ],
+      "query_category": "crispr_delivery"
+    }
+  ]
+}
