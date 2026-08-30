@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-31T07:01:13.544513",
+  "timestamp": "2026-08-31T07:16:11.464550",
   "critical": {
     "deals": [
       {
@@ -401,16 +401,6 @@
         ]
       },
       {
-        "title": "Effects of subcutaneous semaglutide on weight loss and inflammatory markers in adults with overweight or obesity without diabetes: a systematic review and meta-analysis.",
-        "journal": "International journal of obesity (2005)",
-        "date": "2026-08-29",
-        "authors": [
-          "Agostino Milluzzo",
-          "Vittorio Oteri",
-          "Lucia Manuella"
-        ]
-      },
-      {
         "title": "Precise genomic integration of large DNA fragments by donor-directed annealing using prime editing.",
         "journal": "Nature biotechnology",
         "date": "2026-08-28",
@@ -538,6 +528,46 @@
           "Huaigeng Xu",
           "Chisato Kamei",
           "Deniz Gökbuget"
+        ]
+      },
+      {
+        "title": "GLP-1R and GIPR crosstalk modulates insulinotropic signaling pathways.",
+        "journal": "Cell chemical biology",
+        "date": "2026-07-08",
+        "authors": [
+          "Peter Lindquist",
+          "Luuk R Hoegen Dijkhof",
+          "Anna K Drzazga"
+        ]
+      },
+      {
+        "title": "Esterified Cholesterol Conjugates Enable LNP-Mediated mRNA Delivery to the Blood-Brain Barrier Following Intravenous Administration.",
+        "journal": "Advanced materials (Deerfield Beach, Fla.)",
+        "date": "2026 Aug 23",
+        "authors": [
+          "Tian Z",
+          "Wang X",
+          "Benitez AP"
+        ]
+      },
+      {
+        "title": "Enhanced antitumor immunity of mRNA vaccines by bioorthogonal-like delayed activation of exogeneous STING.",
+        "journal": "Nature biotechnology",
+        "date": "2026 Aug 19",
+        "authors": [
+          "Qin P",
+          "Qin Q",
+          "Hao Y"
+        ]
+      },
+      {
+        "title": "Virus-like particles enable targeted gene engineering and pooled CRISPR screening in primary human myeloid cells.",
+        "journal": "Nature biotechnology",
+        "date": "2026 Aug 17",
+        "authors": [
+          "Jung H",
+          "Devant P",
+          "Ching C"
         ]
       }
     ]
@@ -1152,6 +1182,41 @@
         "top_tier": true
       },
       {
+        "pmid": "42480527",
+        "title": "Localized PD-1 CAR T therapy reprograms neuroinflammation.",
+        "abstract": "B cell-depleting therapies are effective in multiple sclerosis (MS), yet some patients relapse, underscoring the need for more precise interventions. To identify new therapeutic targets, we generated a single-cell RNA sequencing (scRNA-seq) atlas of cerebrospinal fluid (CSF), brain, and blood from non-inflammatory controls and patients with MS or other neuroinflammatory diseases. We found disease-associated enrichment of class-switched immunoglobulin G+ (IgG+) B cells and plasma cells in MS CSF. Unbiased analysis identified a rare disease-enriched subset of activated, T cell receptor (TCR)-restricted, PD-1+ T follicular helper-like cells with B cell-recruiting features. To target this population, we developed PD-1-directed chimeric antigen receptor (CAR) T cells that selectively depleted pathogenic PD-1+ CD4 T cells and locally released IL-10. This strategy attenuated central nervous system (CNS) inflammation, reprogrammed the local immune milieu, and improved clinical outcomes across murine neuroinflammation models. These findings define a CNS-localized adaptive immune circuit in MS and nominate programmable PD-1 CAR T cells as a strategy to disrupt it.",
+        "authors": [
+          "Rotem Shalita",
+          "Maya Ben Yehuda",
+          "Chamutal Gur",
+          "Yasmin Frid",
+          "Sarah McGrath"
+        ],
+        "journal": "Cell",
+        "date": "2026-07-21",
+        "keywords": [
+          "CAR T cells",
+          "IL-10",
+          "PD-1",
+          "autoimmunity",
+          "deep probabilistic modeling",
+          "enhancer-driven regulatory circuits",
+          "follicular Th cells",
+          "immunotherapy",
+          "multiple sclerosis",
+          "single-cell genomics"
+        ],
+        "companies": [],
+        "title_cn": "Localized PD-1 CAR T therapy reprograms neuroinflammation.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】核心技术：CAR-T细胞治疗、RNA-seq转录组测序；研究层级：基础研究。\n【核心实验关键数据】核心发现：鉴定/表征, 促进作用, 疾病模型建立, 有效性验证。\n【机制创新与产业价值】信号通路：免疫检查点通路；发表期刊：Cell。\n【后续追踪要点】新药研发。",
+        "backfilled_from_news": "CAR-T cell therapy for multiple sclerosis.",
+        "composite_score": 7.97,
+        "relevance_score": 6.5,
+        "impact_factor": 45.5,
+        "top_tier": true
+      },
+      {
         "pmid": "42649384",
         "title": "Engineered autophagy receptors administered with extracellular vesicles eliminate pathological Tau and TDP-43.",
         "abstract": "In neurodegenerative diseases such as frontotemporal dementia and amyotrophic lateral sclerosis, pathological forms of proteins such as Tau and TDP-43 accumulate within large heterogeneous inclusions inside cells. Current strategies to eliminate such aberrant protein species in patients encounter three main challenges: crossing the blood-brain barrier and plasma membrane, specifically recognizing pathological forms of proteins, and engaging mechanisms to eliminate large entities. Here we fuse LC3A, a central protein in the recruitment of substrates into autophagosomes, to cytoplasm-stable antibodies. These engineered autophagy receptors, targeting Tau or TDP-43, are delivered using small extracellular vesicles and reduce pathology in models, including Tau P301S adult primary mouse neurons, TDP-43G298S iPSC-derived motor neurons and after intravenous injection in Tau P301S mice. Similarly, adeno-associated-virus-mediated delivery in TDP-43ΔNLS mice enhances clearance of pathological TDP-43. This targeted degradation strategy allows delivery into the brain while capitalizing on the specificity of antibodies and the ability of autophagy to degrade large intracellular entities.",
@@ -1309,32 +1374,6 @@
         "composite_score": 9.41,
         "relevance_score": 12.5,
         "impact_factor": 8.2,
-        "top_tier": false
-      },
-      {
-        "pmid": "42665995",
-        "title": "Novel targeted therapy and cellular immunotherapy enabling allogeneic hematopoietic stem cell transplantation for relapsed/refractory acute myeloid leukemia.",
-        "abstract": "Patients with relapsed or refractory (R/R) acute myeloid leukemia (AML) are characterized by a disastrous prognosis. For most patients with R/R AML, allogeneic hematopoietic stem cell transplantation (HSCT) is the only curative option. It is important to conduct mutational analysis again when the disease relapses to identify any new genetic abnormalities that can be targeted with novel treatments. As part of a conditioning regimen or post-transplant maintenance therapy, new targeted agents support HSCT in patients with R/R AML in various forms, including combination chemotherapy to improve complete remission (CR) prior to HSCT. For R/R AML patients with mutated FMS-related tyrosine kinase 3 (FLT3), sorafenib and quizartinib have shown encouraging therapeutic effects either in combination with chemotherapy for bridging to transplantation or as maintenance therapy after HSCT. Ivosidenib and enasidenib, which are inhibitors that target mutated isocitrate dehydrogenase (IDH) 1 and 2, respectively, have been approved by the US Food and Drug Administration (FDA) for the treatment of IDH1/IDH2-mutated R/R AML. Venetoclax, an inhibitor of B-cell lymphoma-2 (BCL2), is widely used in the salvage treatment of R/R AML and has better therapeutic effects and controllable drug toxicity than traditional chemotherapy. In addition, chimeric antigen receptor (CAR) T-cell immunotherapy (targeting CD33, CD123, and CLL1) has achieved encouraging clinical response rates in phase I and phase II clinical trials for R/R-AML, and subsequent bridging HSCT has significantly improved patient survival.",
-        "authors": [
-          "Liqin Cao",
-          "Daihong Hu",
-          "Lijuan Cui",
-          "Xiaohui Zhang"
-        ],
-        "journal": "Chinese medical journal",
-        "date": "2026-08-28",
-        "keywords": [
-          "Allogeneic hematopoietic stem cell transplantation",
-          "Chimeric antigen receptor T-cell immunotherapy",
-          "Relapsed or refractory acute myeloid leukemia"
-        ],
-        "companies": [],
-        "title_cn": "Novel targeted therapy and cellular immunotherapy enabling allogeneic hematopoietic stem cell transplantation for relapsed/refractory acute myeloid leukemia.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：急性髓系白血病、淋巴瘤；研究层级：II期临床试验。\n【核心实验关键数据】核心发现：首次发现/鉴定, 鉴定/表征, 抑制作用, 安全性评估；关键突破：新靶点。\n【机制创新与产业价值】临床痛点：药物毒性/副作用, 现有治疗局限；发表期刊：Chinese medical journal。\n【后续追踪要点】临床试验；新药研发；安全性监测。",
-        "composite_score": 9.33,
-        "relevance_score": 14.5,
-        "impact_factor": null,
         "top_tier": false
       }
     ],
@@ -1642,6 +1681,40 @@
         "top_tier": true
       },
       {
+        "pmid": "42419304",
+        "title": "GLP-1R and GIPR crosstalk modulates insulinotropic signaling pathways.",
+        "abstract": "Drugs targeting glucagon-like peptide-1 and glucose-dependent insulinotropic polypeptide receptors (GLP-1R and GIPR) show strong clinical effects in type 2 diabetes and obesity. Both GIPR agonism and antagonism enhance GLP-1R agonist efficacy, indicating important incretin receptor crosstalk. We show that GLP-1 and semaglutide, but not exendin-4, promote heterodimerization between GLP-1R and GIPR through interactions between TM4 of GLP-1R and TM1/2 of GIPR. Phosphoproteomics and molecular dynamics reveal that dimerizing and non-dimerizing agonists differentially influence GLP-1R, activating divergent signaling pathways in human pancreatic islets. Moreover, semaglutide and exenatide display distinct patterns in their FDA-reported safety profiles. When co-expressed, GLP-1R enhances GIPR signaling in a β-arrestin-dependent manner, while increasing GIPR levels decreases GLP-1R signaling. Additionally, we show that changes in GIPR expression are clinically associated with adiposity and diabetic phenotypes. These findings highlight heterodimerization and receptor expression as key modulators of GLP-1R/GIPR signaling, offering mechanistic insights, and guiding drug design strategies that incorporate receptor crosstalk.",
+        "authors": [
+          "Peter Lindquist",
+          "Luuk R Hoegen Dijkhof",
+          "Anna K Drzazga",
+          "Pierre Sabatier",
+          "Tomasz M Stepniewski"
+        ],
+        "journal": "Cell chemical biology",
+        "date": "2026-07-08",
+        "keywords": [
+          "GIPR",
+          "GLP-1R",
+          "GPCR",
+          "adverse drug events",
+          "crosstalk",
+          "heterodimerization",
+          "obesity",
+          "stoichiometry",
+          "type 2 diabetes"
+        ],
+        "companies": [],
+        "title_cn": "GLP-1R and GIPR crosstalk modulates insulinotropic signaling pathways.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 调控作用, 性别差异, 安全性评估。\n【机制创新与产业价值】发表期刊：Cell chemical biology。\n【后续追踪要点】安全性监测。",
+        "backfilled_from_news": "GLP-1 Receptor Agonism in Prostate Cancer: Insights and Perspectives.",
+        "composite_score": 11.82,
+        "relevance_score": 13.5,
+        "impact_factor": 45.5,
+        "top_tier": false
+      },
+      {
         "pmid": "42668312",
         "title": "Effects of subcutaneous semaglutide on weight loss and inflammatory markers in adults with overweight or obesity without diabetes: a systematic review and meta-analysis.",
         "abstract": "BACKGROUND/OBJECTIVES: Obesity is a chronic, relapsing disease associated with multiple serious comorbidities. Semaglutide has emerged as an effective pharmacological option for obesity management, owing to its substantial effects on weight loss, cardiometabolic risk factors, and patient-reported outcomes. This systematic review and meta-analysis evaluated the efficacy and safety of subcutaneous semaglutide for weight management in adults with overweight or obesity without diabetes. METHODS: Randomized controlled trials comparing subcutaneous semaglutide with placebo in adults with overweight or obesity without diabetes were identified through systematic searches of PubMed, the Cochrane Library, and ClinicalTrials.gov. Outcomes included changes in body weight, waist circumference, C-reactive protein (CRP) and serious adverse events (SAEs). A quality assessment and meta-analysis were performed using REVMAN 10.1.1 software. RESULTS: Across nine trials including 6 239 participants, subcutaneous semaglutide significantly reduced percentage body weight from baseline (mean difference [MD] -12.04%, 95% CI -13.08 to -11.00), waist circumference (MD -9.36 cm, 95% CI -10.27 to -8.45), and CRP (MD -40.90%, 95% CI -46.37 to -35.42) versus placebo (all p < 0.00001). The risk of SAEs did not differ significantly between semaglutide and placebo (risk ratio [RR] 1.12, 95% CI 0.76 to 1.65; p = 0.55). CONCLUSIONS: Subcutaneous semaglutide is effective for weight management in adults with overweight or obesity without diabetes. The recently published STEP UP trial evaluating semaglutide 7.2 mg provides additional evidence on higher-dose regimens and showed greater weight reduction compared with previously available data, representing a meaningful new contribution to the literature. Longer-term studies are needed to better define the long-term efficacy and safety profile of semaglutide across clinical populations.",
@@ -1806,62 +1879,32 @@
         "top_tier": false
       },
       {
-        "pmid": "42666703",
-        "title": "Impacts of M. oleifera Leaf Extract on Weight Loss, the Metabolomic Profile, and the Intestinal Microbiota in Individuals With Simple Obesity.",
-        "abstract": "Moringa oleifera leaves, recognized as a novel food resource in China, have shown potential health benefits. To investigate the effects of Moringa oleifera leaf extract on weight loss and its underlying mechanisms, this study conducted a randomized, double-blind clinical trial. In this trial, 35 participants were participated to the placebo group (Con group) or the M. oleifera leaf extract group (Med group) for 90 days. Both groups received dietary/lifestyle guidance. Body composition was assessed monthly, and stool and serum samples were collected for 16S ribosomal RNA sequencing (16S rRNA sequencing), biochemical analysis, and metabolomics. The results show that significant changes were observed in body mass index (BMI), basal metabolic rate, muscle mass, and fat-free mass between the two groups (all p < 0.05). Compared with the Con group, the Med group showed a more pronounced decrease in BMI, yet better preserved its basal metabolic rate, muscle mass, and fat-free mass. Among the metabolic markers, the Med group showed a significant decrease in glycated hemoglobin (HbA1c) and a significant increase in high-density lipoprotein cholesterol (HDL-C) compared with the Con group (all p < 0.05). Gut microbiota analysis showed there were significant differences in the abundance of 9 taxa between the two groups (p < 0.05). Differentially expressed metabolic pathways are concentrated in \"Metabolic pathways,\" Acetate levels in the feces of the Med group were significantly lower than those in the Con group; untargeted metabolomics identified a total of 132 differentially expressed metabolites, which were enriched in multiple lipid metabolic pathways. There is a certain correlation between the levels of certain differential metabolites and gut microbiota and the expression of clinical indicators. In summary, M. oleifera leaf extract can effectively reduce the BMI in obese patients while better preserving basal metabolic rate, muscle mass, and fat-free mass. HbA1c and HDL-C levels in the body also showed significant improvement, and the extract played a regulatory role in the abundance of gut microbiota and metabolites related to lipid metabolism. Trial Registration: Chinese Clinical Trial Registry CTR2400089558.",
+        "pmid": "41877354",
+        "title": "Lean Mass Changes With Incretin Therapy Versus Lifestyle Intervention: A Systematic Review and Meta-Analysis of Randomised Controlled Trials.",
+        "abstract": "AIMS: To compare lean mass changes between incretin-based therapies (GLP-1 receptor agonists and dual GLP-1/GIP agonists) and intensive lifestyle interventions in adults with overweight or obesity, and to determine whether the proportion of total weight lost as lean mass differs between these treatment modalities. MATERIALS AND METHODS: PubMed, Embase, Cochrane CENTRAL, and Web of Science were searched from inception through 20 January 2026. Randomised controlled trials of semaglutide, tirzepatide, liraglutide or lifestyle interventions reporting body composition outcomes measured by dual-energy X-ray absorptiometry or magnetic resonance imaging were included. The co-primary outcomes were the absolute change in lean mass (kg) and the proportion of total weight loss attributable to lean mass. Data were pooled using random-effects models. Risk of bias was assessed using Cochrane RoB 2, and certainty of evidence was evaluated using GRADE. RESULTS: Twenty randomised controlled trials (RCTs) comprising 15 782 participants met inclusion criteria. Lean mass constituted 25%-39% of total weight lost with incretin agonists: semaglutide (35.2% [95% CI: 31.5-38.9]), tirzepatide (25.4% [22.8-28.0]) and liraglutide (26.8% [23.1-30.5]). Lifestyle interventions showed comparable proportional lean mass loss (26.2% [24.1-28.3]; p = 0.42 for comparison), while lifestyle plus resistance training demonstrated the most favourable profile (17.5% [14.2-20.8]). Heterogeneity was moderate (I2 = 68%). No publication bias was detected (Egger's test p = 0.23). CONCLUSIONS: Lean mass loss during significant weight reduction is substantial, and the proportion of weight lost as lean mass is broadly comparable between incretin-based pharmacotherapy and lifestyle interventions. Muscle mass can be significantly preserved by integrating resistance training, adequate protein intake, and body composition monitoring into weight-loss treatment programs.",
         "authors": [
-          "Xiaoxian Zhou",
-          "Daoqiang He",
-          "Jia Xiong",
-          "Xinle Zhang",
-          "Yongfang Zhou"
+          "Naseem Eisa",
+          "Omar Barood"
         ],
-        "journal": "Food science & nutrition",
-        "date": "2026-08-28",
+        "journal": "Diabetes, obesity & metabolism",
+        "date": "2026-03-24",
         "keywords": [
-          "Moringa oleifera leaf extracts",
-          "gut microbiota",
-          "metabolomic profiles",
-          "simple obesity",
-          "weight loss"
+          "GLP‐1 receptor agonists",
+          "body composition",
+          "lean body mass",
+          "meta‐analysis",
+          "obesity",
+          "semaglutide",
+          "tirzepatide"
         ],
         "companies": [],
-        "title_cn": "Impacts of M. oleifera Leaf Extract on Weight Loss, the Metabolomic Profile, and the Intestinal Microbiota in Individuals With Simple Obesity.",
+        "title_cn": "Lean Mass Changes With Incretin Therapy Versus Lifestyle Intervention: A Systematic Review and Meta-Analysis of Randomised Controlled Trials.",
         "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；核心技术：RNA-seq转录组测序；研究层级：基础研究。\n【核心实验关键数据】核心发现：首次发现/鉴定, 调控作用, 相关性, 性别差异。\n【机制创新与产业价值】发表期刊：Food science & nutrition。\n【后续追踪要点】临床试验。",
-        "composite_score": 8.5,
-        "relevance_score": 13.0,
-        "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42656873",
-        "title": "Inappropriate use of GLP-1-based antiobesity medications: beyond appropriate drug use toward appropriate weight reduction.",
-        "abstract": "Glucagon-like peptide-1 (GLP-1) receptor agonists and glucose-dependent insulinotropic polypeptide (GIP)/GLP-1 receptor dual agonists have transformed obesity treatment, but their widespread use has been accompanied by increasing medically inappropriate use for weight loss. Current efforts to promote the appropriate use of GLP-1-based medications have largely focused on regulatory compliance related to off-label prescribing and illegal acquisition. However, recent reports of serious health consequences associated with inappropriate tirzepatide use suggest that these events may arise not only from the intrinsic toxicity of these medications but also from inappropriate dietary restriction and inadequate medical supervision during weight-loss attempts. We argue that inappropriate use should be understood from two complementary perspectives: regulatory appropriateness and medical appropriateness. Medical appropriateness encompasses not only drug-related risks but also the safety of weight reduction itself. Emerging concepts such as female underweight/undernutrition syndrome further emphasize that weight reduction should be evaluated not only by its magnitude but also by its nutritional and clinical consequences. We propose that the discussion surrounding GLP-1-based therapies should move beyond appropriate drug use toward appropriate weight reduction, regardless of whether weight loss is pursued to improve obesity-related health conditions or for cosmetic purposes.",
-        "authors": [
-          "Wataru Ogawa",
-          "Seiji Nishikage",
-          "Kazuhiro Nomura",
-          "Tetsuya Hosooka",
-          "Yushi Hirota"
-        ],
-        "journal": "Diabetology international",
-        "date": "2026-08-26",
-        "keywords": [
-          "Antiobesity medication",
-          "GLP-1 receptor agonist",
-          "Inappropriate use",
-          "Tirzepatide",
-          "Undernutrition",
-          "Weight reduction"
-        ],
-        "companies": [],
-        "title_cn": "Inappropriate use of GLP-1-based antiobesity medications: beyond appropriate drug use toward appropriate weight reduction.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 调控作用, 安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Diabetology international。\n【后续追踪要点】安全性监测。",
-        "composite_score": 8.5,
-        "relevance_score": 13.0,
-        "impact_factor": null,
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】量化数据：25%, 39%, 35.2%；核心发现：疾病模型建立, 有效性验证。\n【机制创新与产业价值】发表期刊：Diabetes, obesity & metabolism。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "GLP-1 Receptor Agonists, Gastric Emptying, and Mechanisms of Weight Loss.",
+        "composite_score": 8.77,
+        "relevance_score": 11.0,
+        "impact_factor": 9.8,
         "top_tier": false
       }
     ],
