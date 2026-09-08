@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-09T07:01:09.379840",
+  "timestamp": "2026-09-09T07:16:07.953109",
   "critical": {
     "deals": [
       {
@@ -322,23 +322,13 @@
         ]
       },
       {
-        "title": "Engineered mechanosensitive MSCs enable synthetic radiotheranostic targeting across tumor types.",
-        "journal": "Cell stem cell",
-        "date": "2026-08-20",
+        "title": "Precise DNA base editing using AlphaFold3-based contact modelling.",
+        "journal": "Nature",
+        "date": "2026-07-22",
         "authors": [
-          "Xiujie Yang",
-          "Qi Yin",
-          "Kui Li"
-        ]
-      },
-      {
-        "title": "TIGRa: An ultra-compact programmable activator enabling multiplexed and efficient gene regulation.",
-        "journal": "Cell stem cell",
-        "date": "2026-08-10",
-        "authors": [
-          "Zhiquan Liu",
-          "Siyu Chen",
-          "Wenmin Wang"
+          "Haowei Meng",
+          "Zhixin Lei",
+          "Yongchang Yan"
         ]
       },
       {
@@ -369,6 +359,46 @@
           "Laurence J Dobbie",
           "Liisa Tolvanen",
           "Daniela Alves"
+        ]
+      },
+      {
+        "title": "Creating bottom-up RNA transfer vehicles from synthetic protein assemblies.",
+        "journal": "Nature",
+        "date": "2026 Sep 2",
+        "authors": [
+          "Schuhmacher MK",
+          "Gruber C",
+          "Lang CMR"
+        ]
+      },
+      {
+        "title": "MicroRNA-224 orchestrates BMP and TGFβ signaling and is a therapeutic target in preclinical pulmonary arterial hypertension.",
+        "journal": "Science translational medicine",
+        "date": "2026 Sep 2",
+        "authors": [
+          "Bikou O",
+          "Halouani A",
+          "Sun Y"
+        ]
+      },
+      {
+        "title": "Live-cell transcriptomics with engineered virus-like particles.",
+        "journal": "Cell",
+        "date": "2026 Sep 1",
+        "authors": [
+          "Najia MA",
+          "Le A",
+          "Borrajo J"
+        ]
+      },
+      {
+        "title": "Ten-Year Outcomes after CAR T-Cell Therapy for B-Cell Lymphomas.",
+        "journal": "The New England journal of medicine",
+        "date": "",
+        "authors": [
+          "Marco Ruella",
+          "Luca Paruzzo",
+          "Emeline R Chong"
         ]
       },
       {
@@ -411,6 +441,30 @@
   },
   "papers": {
     "gene_editing": [
+      {
+        "pmid": "42486984",
+        "title": "Precise DNA base editing using AlphaFold3-based contact modelling.",
+        "abstract": "Achieving high specificity in biochemical transformations is crucial for research and therapeutics. This is particularly important for genome editing, where enhancing tool specificity ensures effective and precise editing outcomes1,2. Current strategies are constrained by activity-specificity trade-offs, high labour intensity and low success rates3,4. Here we present ContactSeek, an artificial-intelligence-driven framework that uses AlphaFold3 (AF3)-predicted contact probability5 to improve the specificity of genome editors. Using Cas9-TadA adenine base editors6-8 as a demonstration, we mapped their genome-wide off-targets and fed the off-target DNA sequences to AF3. Among AF3 outputs, we found that contact probability was more sensitive than predicted three-dimensional structures for detecting differential interactions between on- and off-target complexes. Correlating contact probability with sequencing-based off-target signals, ContactSeek identified and ranked consensus contact regions, which are neighbouring Cas residues with consistent contact changes to DNA/guide RNA, and pinpointed specificity-determining residues within them. ContactSeek can also be applied modularly and identified key residues in the TadA8e deaminase. Targeted amplicon sequencing, genome-wide profiling, R-loop assay and RNA-sequencing together confirmed the greatly enhanced specificity; our best variant, combining two mutations of Cas9 and TadA8e, outperformed several known high-fidelity adenine base editors. ContactSeek is also generalized to Cas12a-based cytosine base editors. Collectively, our framework represents an AF3-driven model tailored for specificity improvement, establishing a paradigm for improving the precision of genome editing tools through the integration of structural and functional dimensions.",
+        "authors": [
+          "Haowei Meng",
+          "Zhixin Lei",
+          "Yongchang Yan",
+          "Liren Wang",
+          "Sihan Zhang"
+        ],
+        "journal": "Nature",
+        "date": "2026-07-22",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Precise DNA base editing using AlphaFold3-based contact modelling.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】核心技术：碱基编辑(CBE/ABE)、Cas9核酸酶；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 相关性, 疾病模型建立, 性别差异。\n【机制创新与产业价值】发表期刊：Nature。\n【后续追踪要点】新药研发。",
+        "backfilled_from_news": "Precise DNA base editing using ContactSeek.",
+        "composite_score": 8.87,
+        "relevance_score": 8.0,
+        "impact_factor": 48.5,
+        "top_tier": true
+      },
       {
         "pmid": "42705233",
         "title": "Clinical base editing for β-hemoglobinopathies across different genetic backgrounds.",
@@ -946,39 +1000,33 @@
         "relevance_score": 6.5,
         "impact_factor": 35.5,
         "top_tier": false
-      },
-      {
-        "pmid": "42692283",
-        "title": "Precision genome editing strategies for enduring lipid lowering in atherosclerosis.",
-        "abstract": "Atherosclerosis continues to be a primary contributor to global cardiovascular mortality, influenced by intricate lipid and inflammatory mechanisms. Despite the efficacy of conventional pharmacotherapies, ongoing issues of patient non-adherence and residual risk have prompted the exploration of more enduring therapeutic alternatives. This review examines the significant transition in cardiovascular research from conventional, wide knockout models to the utilization of advanced precision genome editing methods, particularly emphasizing CRISPR-Cas9, base editing, and prime editing. These sophisticated molecular tools allow for the accurate insertion and rectification of single-nucleotide variants without causing double-strand breaks, marking a significant shift from rudimentary gene disruption to precise variant engineering. By specifically targeting essential lipid-regulating genes like proprotein convertase subtilisin/kexin type 9 (PCSK9) and angiopoietin-like 3 (ANGPTL3), precision editing presents an exceptional opportunity for lasting, one-shot lipid-lowering treatments. Additionally, we examine the advancement of preclinical modeling, emphasizing humanized models that precisely represent population genetics. This review highlights the essential obstacles to clinical translation, focusing on the optimization of delivery systems such as adeno-associated viruses (AAVs) and lipid nanoparticles (LNPs), as well as the thorough assessment of off-target effects and ethical implications.",
-        "authors": [
-          "Durlav Chowdhury",
-          "Nirdesh Singh",
-          "Swarnalata Garai",
-          "Devi Prasad Pandey",
-          "Surendra H Bodakhe"
-        ],
-        "journal": "European journal of pharmacology",
-        "date": "2026-09-03",
-        "keywords": [
-          "ANGPTL3",
-          "Atherosclerosis",
-          "Base editing",
-          "CRISPR",
-          "PCSK9",
-          "Prime editing"
-        ],
-        "companies": [],
-        "title_cn": "Precision genome editing strategies for enduring lipid lowering in atherosclerosis.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：碱基编辑(CBE/ABE)、先导编辑；研究层级：临床前研究。\n【核心实验关键数据】核心发现：调控作用, 疾病模型建立, 有效性验证。\n【机制创新与产业价值】发表期刊：European journal of pharmacology。\n【后续追踪要点】新药研发。",
-        "composite_score": 7.68,
-        "relevance_score": 11.5,
-        "impact_factor": null,
-        "top_tier": false
       }
     ],
     "cell_therapy": [
+      {
+        "pmid": "42341302",
+        "title": "Ten-Year Outcomes after CAR T-Cell Therapy for B-Cell Lymphomas.",
+        "abstract": "BACKGROUND: Anti-CD19 chimeric antigen receptor (CAR) T-cell therapy is a standard treatment for relapsed or refractory B-cell non-Hodgkin lymphomas. Long-term results and curative potential remain uncertain. METHODS: We evaluated long-term outcomes in 38 patients with relapsed or refractory B-cell non-Hodgkin lymphomas (24 patients with large B-cell lymphoma and 14 with follicular lymphoma) who had been treated with CTL019 (now called tisagenlecleucel) - autologous T cells expressing CD19-directed, 4-1BB-costimulated chimeric receptors. Lymphoma-free survival was defined as the time from the tisagenlecleucel infusion to relapse or lymphoma-related death. The incidence of non-relapse-related death and second primary cancer was estimated with the Aalen-Johansen method. The data-cutoff date was October 1, 2025. RESULTS: At a median follow-up of 10.1 years (range, 7.9 to 11.5), no relapses had occurred beyond 5.4 years. The 10-year lymphoma-free survival was 32% (95% confidence interval [CI], 14 to 51) among patients with large B-cell lymphoma and 47% (95% CI, 20 to 71) among those with follicular lymphoma. In an analysis that included deaths from any cause, the 10-year progression-free survival was 17% (95% CI, 5 to 34) among patients with large B-cell lymphoma and 29% (95% CI, 9 to 52) among those with follicular lymphoma; the 10-year overall survival was 17% (95% CI, 5 to 34) and 50% (95% CI, 23 to 72), respectively. Persistent grade 2 or 3 neutropenia occurred in 2 patients (5%); no late anemia or thrombocytopenia was observed. A second primary cancer developed in 9 patients (10-year cumulative incidence, 21%). The 10-year non-relapse-related mortality was 18% (14% when deaths related to coronavirus disease 2019 were excluded). Higher CAR-transgene persistence appeared to be associated with long-term response. B-cell aplasia persisted in 44% of patients with a long-term response. CONCLUSIONS: Among patients with heavily pretreated B-cell non-Hodgkin lymphoma, a single infusion of tisagenlecleucel led to decade-long remissions (lymphoma-free survival) in approximately one third of the patients with large B-cell lymphomas and in nearly one half of those with follicular lymphoma. (Funded by the Richard Berman Family Innovations Center in CLL and Lymphomas and others; ClinicalTrials.gov number, NCT02030834.).",
+        "authors": [
+          "Marco Ruella",
+          "Luca Paruzzo",
+          "Emeline R Chong",
+          "Elise A Chong",
+          "Daniel J Landsburg"
+        ],
+        "journal": "The New England journal of medicine",
+        "date": "",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Ten-Year Outcomes after CAR T-Cell Therapy for B-Cell Lymphomas.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：淋巴瘤；研究层级：基础研究。\n【核心实验关键数据】量化数据：32%, 95%, 47%；表型：肿瘤发生；核心发现：有效性验证, 表达水平变化。\n【机制创新与产业价值】临床痛点：转移/复发；发表期刊：The New England journal of medicine。\n【后续追踪要点】基因/细胞治疗；长期疗效评估。",
+        "backfilled_from_news": "Up and coming early phase CAR T-cell therapy for treating relapsed or refractory",
+        "composite_score": 10.82,
+        "relevance_score": 11.5,
+        "impact_factor": 96.2,
+        "top_tier": true
+      },
       {
         "pmid": "42660131",
         "title": "CD19 CAR T-cell therapy (GLPG5101) for relapsed or refractory B-cell non-Hodgkin lymphoma (ATALANTA-1): phase 1 results from a single-arm, multicentre, phase 1/2 study.",
@@ -1145,6 +1193,30 @@
         "top_tier": true
       },
       {
+        "pmid": "42270901",
+        "title": "Iron-mediated ferroptosis impairs CAR-T cell function and antitumor efficacy.",
+        "abstract": "Long-term persistence of chimeric antigen receptor (CAR)-T cells is essential for durable therapeutic efficacy but the mechanisms underlying CAR-T cell dysfunction remain unclear. On the basis of integrated analyses of clinical samples from participants with multiple myeloma and acute lymphoblastic leukemia treated with CAR-T cells, we show that rapid expansion of CAR-T cells after infusion is followed by a 'diminution' phase characterized by ferroptosis-associated features and elevated serum iron levels. In preclinical cancer models in female mice and ex vivo culture systems, excess intracellular iron impaired CAR-T cell function. Mechanistically, iron promoted ferroptosis by increasing mitochondrial reactive oxygen species and lipid peroxidation, in part through acyl-CoA synthetase long-chain family member 4 (ACSL4)-associated lipid remodeling. Targeting ferroptosis, particularly through genetic ablation of ACSL4 in CAR-T cells, substantially enhanced antitumor efficacy. Together, these findings identify iron-driven ferroptosis as a determinant of CAR-T cell dysfunction and a targetable barrier to durable CAR-T efficacy.",
+        "authors": [
+          "Delin Kong",
+          "Tingting Yang",
+          "Mengyu Zhao",
+          "Lin Yang",
+          "Ruirui Jing"
+        ],
+        "journal": "Nature cancer",
+        "date": "2026-06-10",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Iron-mediated ferroptosis impairs CAR-T cell function and antitumor efficacy.",
+        "abstract_cn": "Long-term persistence chimeric antigen receptor - cells essential durable therapeutic efficacy mechanisms underlying -T细胞治疗 cell dysfunction remain unclear. On basis integrated analyses clinical samples from participants with multiple myeloma acute lymphoblastic leukemia treated with -T细胞治疗 cells, show that rapid expansion -T细胞治疗 cells after infusion followed 'diminution' phase characterized ferroptosis-associated features elevated serum iron levels. In preclinical cancer models female mice vivo culture systems, excess intracellular iron impaired -T细胞治疗 cell function. Mechanistically, iron promoted ferroptosis increasing mitochondrial 活性氧 lipid peroxidation, part through acyl-CoA synthetase long-chain family member 4 -associated lipid remodeling. Targeting ferroptosis, particularly through genetic ablation ACSL4 -T细胞治疗 cells, substantially enhanced antitumor efficacy. Together, these findings identify iron-driven ferroptosis determinant -T细胞治疗 cell dysfunction targetable barrier durable -T细胞治疗 efficacy.",
+        "summary_cn": "【研究基础与实验设计】研究针对：多发性骨髓瘤；核心技术：CAR-T细胞治疗；研究层级：临床前研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：鉴定/表征, 促进作用, 调控作用, 疾病模型建立；局限性：原文未披露详细信息。\n【机制创新与产业价值】发表期刊：Nature cancer。\n【后续追踪要点】新药研发；长期疗效评估。",
+        "backfilled_from_news": "CAR T-Cell Therapy in Acute Lymphoblastic Leukemia-Is Limited Persistence Enough",
+        "composite_score": 5.86,
+        "relevance_score": 4.0,
+        "impact_factor": 23.5,
+        "top_tier": true
+      },
+      {
         "pmid": "42486986",
         "title": "Efficient and precise programmable DNA knock-in without double-strand breaks.",
         "abstract": "Programmable gene knock-in holds substantial promise for treating genetic diseases and advancing cell therapies. However, achieving precise and efficient kilobase-scale DNA fragment integration remains challenging1,2. Here we report CRISPR kilobase-scale nickase-targeting (KNIT) editing for efficient, precise and programmable kilobase-scale DNA insertion without double-strand DNA cleavage, which is enabled through the coupling of a Cas9 nickase with a DNA donor recruiting system. KNIT editing facilitates programmable integration of DNA fragments from 0.7 kb to more than 10 kb and is effective across genomic loci and cell types. It achieves up to 89% efficiency and markedly reduces unintended insertion-deletion mutation (indels) rates, translocations and off-target editing. The system supports repeated insertion editing and multiloci gene knock-in with minimal translocations. Its enhanced version, KNIT editor 2, further improves efficiency via a single transfection. Moreover, in mutant cells with a pathological mutation, KNIT editing restores normal gene expression by inserting a therapeutic gene into a safe harbour locus or its native locus. Notably, KNIT editing enables non-viral and programmable chimeric antigen receptor T cell (CAR-T cell) engineering without double-strand breaks and with clinically relevant efficiencies. Moreover, the engineered CAR-T cells exhibit effective antitumour activity in vitro and in mouse models. Therefore, by achieving programmable and site-specific kilobase-scale DNA insertions without double-strand breaks while reducing unintended outcomes, KNIT editing provides a versatile platform for advancing personalized medicine.",
@@ -1165,62 +1237,6 @@
         "composite_score": 5.57,
         "relevance_score": 2.0,
         "impact_factor": 48.5,
-        "top_tier": true
-      },
-      {
-        "pmid": "42692018",
-        "title": "Epi-Allele elicits compensatory expression of the non-targeted allele and prevents haploinsufficiency in dominant genetic diseases.",
-        "abstract": "Epigenetic regulation may underlie asymmetric allelic expression of many genes during development and disease pathogenesis. Allele-specific epigenetic modification could provide an efficient therapy for dominant genetic diseases due to heterozygous mutations. We developed an allele-specific epigenetic editing method (\"Epi-Allele\") for silencing pathogenic alleles and found surprisingly elevated expression of the non-targeted alleles, leaving total gene expression unchanged. Genome-wide screening revealed that such compensated allelic expression represents a common phenomenon, suggesting that the Epi-Allele approach could avoid the haploinsufficiency induced by current allele-specific silencing therapies. This notion was validated by allele-specific epigenetic remodeling of Myh6 and MYH7 genes in ameliorating cardiac phenotypes in a hypertrophic cardiomyopathy (HCM) mouse model and HCM patient iPSC-derived cardiomyocytes, respectively. Thus, Epi-Allele offers an allele-specific haploinsufficiency-free therapeutic approach for treating dominant genetic diseases.",
-        "authors": [
-          "Zhengmin Wang",
-          "Chengzhi Han",
-          "Yiming Huang",
-          "Yuyuan Fu",
-          "Kaijie Hu"
-        ],
-        "journal": "Cell stem cell",
-        "date": "2026-09-03",
-        "keywords": [
-          "DNA methylation",
-          "allele-specific therapy",
-          "chromatin remodeling",
-          "compensatory allele expression",
-          "dominant genetic diseases",
-          "epigenetic editing",
-          "haploinsufficiency",
-          "hypertrophic cardiomyopathy",
-          "transcription factors"
-        ],
-        "companies": [],
-        "title_cn": "Epi-Allele elicits compensatory expression of the non-targeted allele and prevents haploinsufficiency in dominant genetic diseases.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】模型：小鼠模型、诱导多能干细胞(iPSC)；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 调控作用, 疾病模型建立, 表达水平变化。\n【机制创新与产业价值】发表期刊：Cell stem cell。\n【后续追踪要点】新药研发。",
-        "composite_score": 5.4,
-        "relevance_score": 3.5,
-        "impact_factor": 19.8,
-        "top_tier": true
-      },
-      {
-        "pmid": "41944586",
-        "title": "Correcting Mitochondrial Complex I Defect in Tumor-Associated Natural Killer Cells Potentiates Immunotherapy for Glioblastoma.",
-        "abstract": "UNLABELLED: Despite successful immuno-oncology therapies in other cancers, they have largely failed in glioblastoma (GBM). In this study, natural killer (NK) cells from patients with glioma show impaired oxidative phosphorylation and mitochondrial complex I activity. Multiomics profiling identified complex I subunit NDUFA9 as a critical mediator of NK cell metabolic fitness. The abundance of NDUFA9+ NK cells informed patient outcomes. Ndufa9 knockout in NK cells compromised mitochondrial function, antitumor efficacy, and the memory-like phenotype of NK cells by triggering a metabolic reprogramming toward glutamine dependence. The decreased α-ketoglutarate/succinate ratio in Ndufa9-deficient NK cells mediated widespread epigenetic reprogramming by inducing the transcriptionally repressive histone mark H3K27me3 on key immune function genes. Resveratrol-mediated NDUFA9 activation or its overexpression enhanced NK cell anti-GBM function by restoring complex I activity. Together, these findings reveal the critical role of mitochondrial complex I activity in NK cells and highlight its potential as an actionable target to enhance NK cell-based immunotherapy for patients with GBM. SIGNIFICANCE: This study reveals that NDUFA9 deficiency in mitochondrial complex I compromises metabolic fitness and impairs the antitumor activity of NK cells in GBM. We identify the mitochondrial complex I subunit NDUFA9 as a key pharmacologically targetable node for NK cell-based immunotherapy in GBM, leveraging metabolic reprogramming to enhance antitumor efficacy. See related commentary by Tiberti et al., p. 1727.",
-        "authors": [
-          "Nianxin Zhou",
-          "Fan Fei",
-          "Lin Tang",
-          "Peidong Zhang",
-          "Wei Wang"
-        ],
-        "journal": "Cancer discovery",
-        "date": "",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Correcting Mitochondrial Complex I Defect in Tumor-Associated Natural Killer Cells Potentiates Immunotherapy for Glioblastoma.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：胶质母细胞瘤；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】表型：认知/学习记忆障碍, 肿瘤发生；核心发现：鉴定/表征, 抑制作用, 促进作用, 调控作用；局限性：存在技术局限。\n【机制创新与产业价值】发表期刊：Cancer discovery。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 5.29,
-        "relevance_score": 2.5,
-        "impact_factor": 29.7,
         "top_tier": true
       }
     ],
@@ -1292,6 +1308,30 @@
         "composite_score": 8.04,
         "relevance_score": 7.5,
         "impact_factor": 29.7,
+        "top_tier": true
+      },
+      {
+        "pmid": "42361276",
+        "title": "First-Line Disitamab Vedotin, Tislelizumab, and S-1 in HER2-Overexpressing Advanced Gastric or Gastroesophageal Junction Adenocarcinoma: A Single-Arm, Phase II Trial.",
+        "abstract": "PURPOSE: Clinical data for first-line combination of antibody-drug conjugates (ADC) and immune checkpoint inhibitors in human epidermal growth factor receptor 2 (HER2)-overexpressing advanced gastric or gastroesophageal junction (G/GEJ) adenocarcinoma remain limited. We evaluated the efficacy and safety of disitamab vedotin (a HER2-directed ADC) combined with tislelizumab (a PD-1 inhibitor) and oral fluoropyrimidine S-1 as first-line therapy for patients with advanced HER2-overexpressing (immunohistochemistry [IHC] 3+ or 2+, regardless of in situ hybridization [ISH] status) G/GEJ adenocarcinoma. METHODS: In this single-arm, multicenter, phase II trial, patients received disitamab vedotin (2.5 mg/kg, once on day 1), tislelizumab (200 mg, once on day 1), and S-1 (40-60 mg, twice daily, days 1-14) in 21-day cycles. The primary end point was confirmed objective response rate (ORR) by independent central review (RECIST v1.1). Secondary end points included progression-free survival (PFS), overall survival (OS), duration of response (DoR), and safety. RESULTS: Fifty-seven patients (median age 65; IHC 3+ 71.9%, IHC 2+/ISH+ 17.5%, IHC 2+/ISH- 10.5%; PD-L1 combined positive score [CPS] <1 54.4%) were enrolled. The confirmed ORR was 89.5% (95% CI, 78.5 to 96.0). At a median follow-up of 28.2 months, the median PFS (mPFS) was 13.8 months (95% CI, 10.3 to 24.0), the median OS (mOS) reached 31.9 months (95% CI, 22.1 to not reached), and the median DoR was 13.3 months (95% CI, 9.6 to not reached). Patients with CPS ≥1 achieved an ORR of 92.3%, mPFS of 16.7 months, and mOS of 31.9 months; in the CPS <1 subgroup, the ORR was 87.1% with an mPFS of 10.0 months, and mOS of 25.4 months. Grade ≥3 treatment-related adverse events occurred in 64.9% of patients, primarily hematologic and peripheral neuropathy. CONCLUSION: First-line disitamab vedotin with tislelizumab and S-1 demonstrated remarkable antitumor activity and a manageable safety profile in HER2-overexpressing advanced G/GEJ adenocarcinoma, warranting validation in randomized controlled trials.",
+        "authors": [
+          "Song Li",
+          "Zimin Liu",
+          "Yanguo Liu",
+          "Kainan Li",
+          "Lei Cong"
+        ],
+        "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+        "date": "2026-06-26",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "First-Line Disitamab Vedotin, Tislelizumab, and S-1 in HER2-Overexpressing Advanced Gastric or Gastroesophageal Junction Adenocarcinoma: A Single-Arm, Phase II Trial.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】核心技术：抗体偶联药物(ADC)；研究层级：II期临床试验。\n【核心实验关键数据】量化数据：71.9%, 17.5%, 10.5%；表型：肿瘤发生；核心发现：抑制作用, 安全性评估, 有效性验证, 表达水平变化。\n【机制创新与产业价值】信号通路：免疫检查点通路；临床痛点：转移/复发, 药物毒性/副作用；发表期刊：Journal of clinical oncology : official journal of the American Society of Clinical Oncology。\n【后续追踪要点】安全性监测。",
+        "backfilled_from_news": "First-Line HER2 ADC and Anti-PD-1 Plus Chemo Shows Efficacy in Gastric Cancer.",
+        "composite_score": 6.23,
+        "relevance_score": 3.5,
+        "impact_factor": 42.1,
         "top_tier": true
       },
       {
@@ -1447,36 +1487,6 @@
         "composite_score": 8.9,
         "relevance_score": 8.0,
         "impact_factor": 56.7,
-        "top_tier": false
-      },
-      {
-        "pmid": "42700288",
-        "title": "Antibody-Drug Conjugates in the Treatment of Esophageal Cancer.",
-        "abstract": "Esophageal cancer remains one of the most lethal malignancies worldwide, with particularly poor outcomes following disease progression after first-line chemoimmunotherapy. Antibody-drug conjugates (ADCs) have emerged as a transformative therapeutic class that combines the targeting precision of monoclonal antibodies with potent cytotoxic payloads, enabling selective tumor cell killing while minimizing off-target toxicity. In the management of advanced esophageal cancer, I advocate for the integration of ADCs as a therapeutic option following progression on first-line chemoimmunotherapy. For patients with human epidermal growth factor receptor 2 (HER2)-positive gastroesophageal junction adenocarcinoma, trastuzumab deruxtecan is my preferred choice based on its superior overall survival benefit and robust bystander killing effect, which also confers activity in HER2-low tumors. For HER2-negative gastroesophageal adenocarcinoma, trophoblast cell-surface antigen 2 represents a promising target given its high prevalence of moderate to strong expression in nearly 80% of cases, and sacituzumab tirumotecan is currently under phase III investigation in this setting. In esophageal squamous cell carcinoma, I recommend biomarker-guided selection among ADCs targeting B7-H3, given its overexpression in over 90% of cases. For Nectin-4-expressing tumors, enfortumab vedotin may be considered as a later-line alternative despite modest activity. Notably, the bispecific ADC targeting both epidermal growth factor receptor and human epidermal growth factor receptor 3, BL-B01D1, has demonstrated compelling efficacy in immunotherapy-refractory esophageal squamous cell carcinoma, and I consider it a breakthrough option in this subtype. For claudin-18.2-positive gastroesophageal junction adenocarcinoma, several ADCs including CMG901, IBI343, and tecotabart vedotin represent promising later-line choices. I emphasize that patient selection should be guided by validated predictive biomarkers, and treatment decisions must account for distinctive toxicity profiles, particularly interstitial lung disease with trastuzumab deruxtecan. Finally, I strongly support advancing ADCs into earlier lines of therapy and perioperative settings through well-designed clinical trials to further improve long-term outcomes in this aggressive malignancy.",
-        "authors": [
-          "Dapeng Wu",
-          "Wei Chen",
-          "Qi Zhao",
-          "Wenjing Zhu",
-          "Jian Xu"
-        ],
-        "journal": "Current treatment options in oncology",
-        "date": "2026-09-05",
-        "keywords": [
-          "Antibody–drug conjugate",
-          "B7-H3",
-          "CLDN18.2",
-          "Esophageal cancer",
-          "HER2",
-          "TROP2"
-        ],
-        "companies": [],
-        "title_cn": "Antibody-Drug Conjugates in the Treatment of Esophageal Cancer.",
-        "abstract_cn": "Esophageal cancer remains most lethal malignancies worldwide, with particularly poor outcomes following disease progression after first-line chemoimmunotherapy. Antibody-drug conjugates have emerged transformative therapeutic class that combines targeting precision monoclonal antibodies with potent cytotoxic payloads, enabling selective tumor cell killing while minimizing -target toxicity. In management advanced esophageal cancer, advocate integration 抗体偶联药物s therapeutic option following progression first-line chemoimmunotherapy. For patients with human epidermal growth factor receptor 2 -positive gastroesophageal junction adenocarcinoma, trastuzumab deruxtecan preferred choice based superior overall survival benefit robust bystander killing effect, which also confers activity HER2- tumors. For HER2-negative gastroesophageal adenocarcinoma, trophoblast cell-surface antigen 2 represents promising target given high prevalence moderate strong expression nearly 80% cases, sacituzumab tirumotecan currently under phase investigation this setting. In esophageal squamous cell carcinoma, recommend biomarker-guided selection among 抗体偶联药物s targeting B7-H3, given overexpression over 90% cases. For Nectin-4-expressing tumors, enfortumab vedotin considered later-line alternative despite modest activity. Notably, 双特异性抗体 抗体偶联药物 targeting both epidermal growth factor receptor human epidermal growth factor receptor 3, -B01D1, demonstrated compelling efficacy immunotherapy-refractory esophageal squamous cell carcinoma, consider breakthrough option this subtype. For claudin-18.2-positive gastroesophageal junction adenocarcinoma, several 抗体偶联药物s including CMG901, IBI343, tecotabart vedotin represent promising later-line choices. emphasize that patient selection should guided validated predictive biomarkers, treatment decisions must account distinctive toxicity profiles, particularly interstitial lung disease with trastuzumab deruxtecan. Finally, strongly support advancing 抗体偶联药物s into earlier lines therapy perioperative settings through well-designed clinical trials further improve long-term outcomes this aggressive malignancy.",
-        "summary_cn": "【研究基础与实验设计】核心技术：抗体偶联药物(ADC)；研究层级：III期临床试验。\n【核心实验关键数据】量化数据：80%, 90%；表型：肿瘤发生；核心发现：安全性评估, 有效性验证, 表达水平变化。\n【机制创新与产业价值】临床痛点：转移/复发, 药物毒性/副作用；发表期刊：Current treatment options in oncology。\n【后续追踪要点】临床试验；伴随诊断；新药研发。",
-        "composite_score": 8.23,
-        "relevance_score": 12.5,
-        "impact_factor": null,
         "top_tier": false
       }
     ],
