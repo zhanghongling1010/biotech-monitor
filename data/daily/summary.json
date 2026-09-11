@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-12T07:01:22.209186",
+  "timestamp": "2026-09-12T07:16:12.567302",
   "critical": {
     "deals": [
       {
@@ -270,15 +270,6 @@
         ]
       },
       {
-        "title": "Semaglutide and Tirzepatide for the treatment of MASH: What Works, What's Coming, and What's Missing.",
-        "journal": "Digestion",
-        "date": "2026-09-09",
-        "authors": [
-          "Sakkarin Chirapongsathorn",
-          "Frank Tacke"
-        ]
-      },
-      {
         "title": "Development and external validation of a new prognostic model for metastatic clear cell renal cell carcinoma: a preregistered analysis using data from randomised clinical trials in the checkpoint inhibitor era.",
         "journal": "The Lancet. Oncology",
         "date": "2026-09-09",
@@ -319,6 +310,26 @@
         ]
       },
       {
+        "title": "Nutritional, functional, and psychological considerations for incretin-based therapies in adults-an EASO, EFAD, and ECPO Consensus Statement.",
+        "journal": "The lancet. Diabetes & endocrinology",
+        "date": "2026-07-08",
+        "authors": [
+          "Laurence J Dobbie",
+          "Liisa Tolvanen",
+          "Daniela Alves"
+        ]
+      },
+      {
+        "title": "CAR T cell therapy selectively depletes disease-driving mutant calreticulin cells in xenotransplants and human organoid models of myelofibrosis.",
+        "journal": "Science translational medicine",
+        "date": "2026-07-01",
+        "authors": [
+          "Alexandros Rampotas",
+          "Zoë C Wong",
+          "Isaac Gannon"
+        ]
+      },
+      {
         "title": "Exa-cel in Children with Transfusion-Dependent β-Thalassemia or Sickle Cell Disease.",
         "journal": "The New England journal of medicine",
         "date": "2026-06-11",
@@ -329,12 +340,33 @@
         ]
       },
       {
-        "title": "Classic Hodgkin Lymphoma: A Review.",
-        "journal": "JAMA",
-        "date": "",
+        "title": "Intravenous gene therapy improves life span and clinical outcomes in a feline model of Sandhoff disease.",
+        "journal": "Science translational medicine",
+        "date": "2026 Sep 9",
         "authors": [
-          "Kishan K Patel",
-          "Alison J Moskowitz"
+          "Maguire AS",
+          "Ta NL",
+          "Gross AL"
+        ]
+      },
+      {
+        "title": "MicroRNA-224 orchestrates BMP and TGFβ signaling and is a therapeutic target in preclinical pulmonary arterial hypertension.",
+        "journal": "Science translational medicine",
+        "date": "2026 Sep 2",
+        "authors": [
+          "Bikou O",
+          "Halouani A",
+          "Sun Y"
+        ]
+      },
+      {
+        "title": "Live-cell transcriptomics with engineered virus-like particles.",
+        "journal": "Cell",
+        "date": "2026 Sep 1",
+        "authors": [
+          "Najia MA",
+          "Le A",
+          "Borrajo J"
         ]
       },
       {
@@ -919,6 +951,30 @@
     ],
     "cell_therapy": [
       {
+        "pmid": "42384776",
+        "title": "CAR T cell therapy selectively depletes disease-driving mutant calreticulin cells in xenotransplants and human organoid models of myelofibrosis.",
+        "abstract": "Targeted immunotherapies have revolutionized outcomes for lymphoid malignancies, but success in myeloid neoplasms is limited by the lack of amenable targets and immunologically hostile tumor microenvironment (TME). Myeloproliferative neoplasms (MPNs) are chronic myeloid blood cancers, a third of which are driven by mutations in calreticulin. Calreticulin mutant protein (mutCALR) binds and activates thrombopoietin receptor (TpoR) and results in the display of the mutCALR-TpoR complex on the extracellular membrane of disease-driving cells, thus exposing a therapeutic vulnerability. Here, we present a chimeric antigen receptor T cell (CAR T cell) therapy that specifically targets mutCALR+ cells, both in vitro and in vivo. The CAR T cell therapy selectively depleted mutCALR+ stem cells in samples from patients with myelofibrosis without affecting healthy stem cells and improved survival in mutCALR leukemia xenograft models. To mimic myelofibrotic marrow, we developed a human \"chimeroid\" model and showed no decrease in the potency of CAR T cell-mediated target cell killing even in a fibrotic TME. We also devised a method to boost the cell surface expression of mutCALR in CD34+ cells isolated from patients with accelerated/blast phase MPNs (defined as >10% blasts in the peripheral blood or bone marrow), enhancing CAR T cell targeting. This study presents a therapeutic strategy with potential to eradicate mutCALR-driven malignancies and highlights an innovative strategy to evaluate blood cancer-targeting immunotherapies in a relevant TME.",
+        "authors": [
+          "Alexandros Rampotas",
+          "Zoë C Wong",
+          "Isaac Gannon",
+          "Charlotte K Brierley",
+          "Yuqi Shen"
+        ],
+        "journal": "Science translational medicine",
+        "date": "2026-07-01",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "CAR T cell therapy selectively depletes disease-driving mutant calreticulin cells in xenotransplants and human organoid models of myelofibrosis.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】模型：异种移植瘤模型、类器官模型；核心技术：CAR-T细胞治疗；研究层级：动物体内实验。\n【核心实验关键数据】量化数据：10%；表型：肿瘤发生；核心发现：促进作用, 调控作用, 疾病模型建立, 表达水平变化。\n【机制创新与产业价值】发表期刊：Science translational medicine。\n【后续追踪要点】新药研发；基因/细胞治疗；长期疗效评估。",
+        "backfilled_from_news": "A boost for CAR T cell therapy.",
+        "composite_score": 10.38,
+        "relevance_score": 13.0,
+        "impact_factor": 15.8,
+        "top_tier": true
+      },
+      {
         "pmid": "42715345",
         "title": "Reprogramming engineered autologous T cells to overcome resistance in patients with Merkel cell carcinoma.",
         "abstract": "Immune checkpoint inhibitors (ICIs) have transformed Merkel cell carcinoma (MCC) outcomes, but most patients with MCC develop resistance. We identified T cell receptor (TCR)MCC1, a highly avid, HLA-A*02:01-restricted TCR targeting the Merkel cell polyomavirus (MCPyV) oncoprotein large-T antigen15-23. Seven patients with ICI-refractory metastatic MCPyV+ MCC received TCRMCC1-transduced cells (TTCR-MCC1 cells) after lymphodepleting chemotherapy or HLA-enhancing interventions [radiation or interferon gamma-1b (Actimmune)], with concurrent ICIs (NCT03747484). TTCR-MCC1 cells trafficked to tumor sites and expressed a gene expression profile compatible with T cell activation, with tumor regression observed in two patients. However, therapeutic activity was limited by HLA class I silencing, a common mechanism of immune escape in MCC. In one patient, delayed tumor regression coincided with endogenous effector immune activation and restoration of MCC HLA expression, implying that robust local responses could reverse HLA silencing. To overcome this barrier, we engineered CD4 and CD8 TTCR-MCC1 cells to coexpress CD8αβ and a CD200R-CD28 switch receptor, enabling CD4 T cell engagement and T cell costimulation. These modifications enhanced tumor infiltration, increased HLA expression, and improved control of HLAlow MCC in vivo in mice. These findings support the feasibility of TCR-engineered cell therapy for MCPyV+ MCC and provide a blueprint for overcoming immune evasion via targeted localized enhancement of antigen presentation.",
@@ -1033,6 +1089,30 @@
         "top_tier": true
       },
       {
+        "pmid": "42485431",
+        "title": "Modulating the VIP-VIPR pathway reprograms CAR T cells for superior antitumor efficacy in preclinical cancer models.",
+        "abstract": "Clinical efficacy with chimeric antigen receptor (CAR) T cells is currently limited by numerous factors including poor initial product phenotypes and lack of engagement of endogenous immunity. Vasoactive intestinal peptide (VIP) is an immunosuppressive neuropeptide, and the antagonism of its receptor (VIPR) on T cells potentiates T cell activation. We demonstrated that VIP suppresses CAR T cell function and engineered CAR T cells to secrete a short peptide drug that antagonizes VIPR (CAR/VIPRa). Armored CAR/VIPRa T cells maintained a memory phenotype and were metabolically quiescent after manufacturing yet mounted a strong bioenergetic response after antigen stimulation. Moreover, CAR/VIPRa T cells potentiated endogenous antitumor immunity through the recruitment of host T cells. In syngeneic and xenogeneic mouse models of hematological and solid tumors, CAR/VIPRa T cells exhibited greater tumor infiltration and maintained a less exhausted memory phenotype, resulting in superior antitumor efficacy. Together, these data show that VIPRa peptides produced by armored CAR T cells can enhance T cell function and boost endogenous immunity, thereby improving tumor control.",
+        "authors": [
+          "Heather K Lin",
+          "Dejah A Blake",
+          "Ruby Freeman",
+          "YuJie Chen",
+          "Jaehoon Kim"
+        ],
+        "journal": "Science translational medicine",
+        "date": "2026-07-22",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Modulating the VIP-VIPR pathway reprograms CAR T cells for superior antitumor efficacy in preclinical cancer models.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】模型：小鼠模型；核心技术：CAR-T细胞治疗；研究层级：临床前研究。\n【核心实验关键数据】表型：认知/学习记忆障碍, 肿瘤发生；核心发现：抑制作用, 促进作用, 调控作用, 疾病模型建立。\n【机制创新与产业价值】发表期刊：Science translational medicine。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "A boost for CAR T cell therapy.",
+        "composite_score": 5.43,
+        "relevance_score": 4.0,
+        "impact_factor": 15.8,
+        "top_tier": true
+      },
+      {
         "pmid": "42711699",
         "title": "Allogeneic CD19 CAR-NK cell therapy for a patient with relapsed and refractory lupus nephritis.",
         "abstract": "OBJECTIVE: To monitor changes in the clinical course and adverse events following allogeneic CD19 CAR-NK cell therapy in a patient with relapsed/refractory lupus nephritis (LN). METHODS: This case report depicts a patient with severe LN refractory to available treatments (including prednisone, mycophenolate mofetil and belimumab) was treated with allogenic CD19-CAR NK cells. Prior to infusion with CD19 CAR-NK cells, this patient received condition lymphodepleting chemotherapy with cyclophosphamide 300 mg/m2/d and fludarabine 25 mg/m2/d intravenously on day - 5, - 4, and - 3. The patient's response to CD19 CAR-NK treatment was evaluated by SLEDAI-2 K score, Lupus Low Disease Activity State (LLDAS) and the Definitions of Remission in SLE (DORIS) remission criteria. RESULTS: Clinical symptoms improved rapidly after infusion of CD19-targeted CAR NK cells. Three months after CAR-NK therapy, the patient's SLEDAI-2 K score decreased from 14 to 8. Clinical remission of arthritis and alopecia was achieved one month following CAR-NK cell infusion, while clinical remission of proteinuria was observed six months after the second infusion, at which time the 2021 DORIS remission criteria were also met, and this remission has persisted through the latest follow-up at 20 months. CONCLUSION: CD19-targeted CAR-NK cell therapy achieved durable remission in a patient with relapsed/refractory LN and showed favorable safety and tolerability.",
@@ -1099,52 +1179,6 @@
         "composite_score": 10.51,
         "relevance_score": 14.5,
         "impact_factor": 8.2,
-        "top_tier": false
-      },
-      {
-        "pmid": "42085626",
-        "title": "Safety and efficacy of allogeneic CD19-directed CAR-T therapy CTX110 in relapsed/refractory B-cell non-Hodgkin lymphoma.",
-        "abstract": "This multicenter, single-arm, phase 1/2 study evaluated the safety and efficacy of CD19-directed allogeneic chimeric antigen receptor (CAR) immunotherapy CTX110 in adult patients with relapsed/refractory (R/R) B-cell non-Hodgkin lymphoma (NHL). Patients received 1 or 2 treatment courses: standard lymphodepletion, followed by 1 CTX110 infusion at dose levels (DLs) 1 to 4 (3 × 107 to 60 × 107 CAR T cells; dose escalation, N = 32), or 2 infusions at DL4 on days 1 and 35 (cohort expansion, N = 31). Primary end points in dose escalation and cohort expansion were incidence of dose-limiting toxicities and objective response rate, respectively. CTX110 was administered to 63 heavily pretreated patients: 59% primary refractory, 43% with ≥3 previous therapies. Among 57 patients whose first infusion was DL ≥3, rates of objective and complete response (CR) were 65% and 39%, respectively. Among 22 patients achieving CR, 5 (23%) had ongoing CR at data cutoff, with 15 to 50 (median 34) months follow-up. The 2-infusion regimen prolonged response duration vs 1 infusion (hazard ratio, 0.65). Cytokine release syndrome (CRS) and immune effector cell-associated neurotoxicity syndrome (ICANS) were reported in 54% and 13% of treated patients, respectively, including 2 grade ≥3 cases each. The most common grade ≥3 adverse events (AEs) were neutropenia (59%), and anemia and thrombocytopenia (35% each). Serious AEs occurred in 32% of treated patients, including CRS (14%), ICANS (8%), and febrile neutropenia (6%). In this R/R NHL population, CTX110 was well tolerated, resulting in clinically meaningful responses at DL ≥3, with a second infusion demonstrating further clinical benefit. This trial was registered at www.clinicaltrials.gov as #NCT04035434.",
-        "authors": [
-          "Joseph P McGuirk",
-          "Armin Ghobadi",
-          "Carlos R Bachier",
-          "Paul J Shaughnessy",
-          "Farrukh Awan"
-        ],
-        "journal": "Blood advances",
-        "date": "",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Safety and efficacy of allogeneic CD19-directed CAR-T therapy CTX110 in relapsed/refractory B-cell non-Hodgkin lymphoma.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：淋巴瘤；核心技术：CAR-T细胞治疗；研究层级：I期临床试验。\n【核心实验关键数据】量化数据：59%, 43%, 65%；核心发现：安全性评估, 有效性验证, 表达水平变化。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Blood advances。\n【后续追踪要点】安全性监测。",
-        "composite_score": 10.14,
-        "relevance_score": 12.0,
-        "impact_factor": 21.0,
-        "top_tier": false
-      },
-      {
-        "pmid": "42341322",
-        "title": "CAR T-cell therapy as a definitive consolidation for older adults with B-ALL in first complete remission.",
-        "abstract": "We report a phase 1 study assessing the safety and efficacy of CD19 chimeric antigen receptor (CAR) T cells as definitive consolidation in older adults (aged ≥55 years) with B-cell acute lymphoblastic leukemia (B-ALL) in first complete remission (CR1). Eighteen patients received lymphodepletion followed by infusion of memory-enriched CD19 CAR T cells. The median age was 64 years, and all patients were measurable residual disease (MRD)-negative before lymphodepletion. There were no dose-limiting toxicities, grade ≥2 cytokine release syndrome, or any grade immune effector cell-associated neurotoxicity syndrome. Estimated 18-month event-free and overall survival were 84% and 100%, respectively. CAR T cells expanded in the blood and cerebrospinal fluid despite patients' MRD-negative status. Comparing clinical samples from patients with relapsed/refractory (R/R) B-ALL from our historical trial (ClinicalTrials.gov identifier: NCT02146924) and patients in CR1, we found that the blood and CAR T-cell products from patients with R/R B-ALL were hyperinflammatory and hyperimmunometabolic, respectively. First-line CAR T-cell therapy was safe and well tolerated and potentially extended remission in patients in MRD-negative CR1. These findings support further investigation of the early use of CAR T-cell therapy for B-ALL. This trial was registered at www.clinicaltrials.gov as NCT05707273.",
-        "authors": [
-          "Ibrahim Aldoss",
-          "Lior Goldberg",
-          "Jianying Zhang",
-          "Andrew Artz",
-          "Mary C Clark"
-        ],
-        "journal": "Blood advances",
-        "date": "",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "CAR T-cell therapy as a definitive consolidation for older adults with B-ALL in first complete remission.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：CAR-T细胞治疗；研究层级：I期临床试验。\n【核心实验关键数据】量化数据：84%, 100%；表型：认知/学习记忆障碍；核心发现：安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Blood advances。\n【后续追踪要点】基因/细胞治疗；安全性监测。",
-        "composite_score": 9.59,
-        "relevance_score": 11.0,
-        "impact_factor": 21.0,
         "top_tier": false
       }
     ],
@@ -1401,6 +1435,30 @@
     ],
     "glp1": [
       {
+        "pmid": "42419343",
+        "title": "Nutritional, functional, and psychological considerations for incretin-based therapies in adults-an EASO, EFAD, and ECPO Consensus Statement.",
+        "abstract": "Incretin-based therapies, including GLP-1 receptor agonists and dual GLP-1-GIP receptor agonists, have transformed obesity management, producing substantial weight loss and cardiometabolic benefits, with potential improvements in obesity-related complications, physical function, quality of life, and psychological wellbeing for many individuals. However, reduced appetite, rapid weight loss, gastrointestinal adverse effects, and changes in eating behaviour might create nutritional, functional, or psychological risks in some individuals. This EASO-EFAD-ECPO Consensus Statement outlines pragmatic nutritional, functional, and psychological considerations during incretin-based therapy treatment. We synthesise evidence on medical nutrition therapy, including protein targets during weight loss, dietary quality, and mitigation of gastrointestinal adverse events. We discuss pragmatic approaches that could help support preservation of fat-free mass and physical function during weight loss, including adequate protein intake and progressive resistance exercise. We emphasise the psychological and identity-related challenges during incretin-based therapy, including shifts in food reward, coping, and social connection, and recommend psychological screening, with integrated support where needed. We propose pragmatic monitoring during weight loss, including diet quality, micronutrient risk, and functional measures, with body-composition assessment where indicated. We suggest approaches to address disparities in access and adherence to ensure equity. We discuss the importance of shared decision making with the patient in decisions to start, up-titrate, delay, pause, down-titrate, or discontinue incretin-based therapies, considering the physical and psychological risks of treating versus not treating. Finally, we identify future research priorities, including longitudinal research on micronutrient status, macronutrient requirements, changes in dietary patterns and food choices, musculoskeletal outcomes, unique dosing schedules, and post-cessation maintenance to optimise safety, efficacy, and the patient experience.",
+        "authors": [
+          "Laurence J Dobbie",
+          "Liisa Tolvanen",
+          "Daniela Alves",
+          "Jennifer L Baker",
+          "Natalie S Bez"
+        ],
+        "journal": "The lancet. Diabetes & endocrinology",
+        "date": "2026-07-08",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Nutritional, functional, and psychological considerations for incretin-based therapies in adults-an EASO, EFAD, and ECPO Consensus Statement.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】核心发现：鉴定/表征, 安全性评估, 有效性验证；关键突破：提高疗效。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The lancet. Diabetes & endocrinology。\n【后续追踪要点】安全性监测。",
+        "backfilled_from_news": "Weight Loss Is Not Surgical Readiness: The Missing Operative Phenotype in GLP-1 ",
+        "composite_score": 9.58,
+        "relevance_score": 9.5,
+        "impact_factor": 44.0,
+        "top_tier": true
+      },
+      {
         "pmid": "42710489",
         "title": "Implications of GLP-1 receptor agonists for the fertility of women with polyendocrine metabolic ovarian syndrome.",
         "abstract": "Women with polyendocrine metabolic ovarian syndrome (PMOS) represent a particularly challenging patient population, characterized by the convergence of reproductive dysfunction, obesity, insulin resistance, and chronic inflammation. The emergence of glucagon-like peptide-1 receptor agonists (GLP-1RAs) offers a transformative therapeutic opportunity, addressing the complex endocrine and reproductive disturbances that underpin this disorder.",
@@ -1439,6 +1497,27 @@
         "composite_score": 5.88,
         "relevance_score": 2.5,
         "impact_factor": 63.1,
+        "top_tier": true
+      },
+      {
+        "pmid": "42134367",
+        "title": "Is weight cycling clinically harmful?",
+        "abstract": "Worldwide, approximately half of the general population is actively attempting to lose weight. However, weight loss is typically followed by substantial weight regain, often leading to repeated cycles of loss and gain of bodyweight. Weight cycling has been suggested to be metabolically harmful, in that it could lead to greater rebounds in fat mass and smaller regains in lean (muscle) mass, thereby promoting sarcopenia, lowering metabolic rate, and exacerbating obesity and its metabolic complications (eg, glucose intolerance). In this Personal view, we critically evaluate evidence from studies in humans and animals investigating whether weight cycling has adverse effects on bodyweight, body composition, energy metabolism, and metabolic function. We also briefly discuss potential strategies to mitigate weight regain and its consequences. Overall, the current evidence does not support a causal link between weight cycling per se and clinical harm in people with obesity. Most of the adverse effects reported are likely circumstantial, possibly because of ageing, unintentional weight loss, reverse causality, earlier onset of obesity, repeated obesogenic exposures, or longer cumulative exposure to obesity. Available evidence suggests that the benefits of intermittent weight reduction-such as improved metabolic markers, cardiovascular health, and quality of life-outweigh the potential risks associated with weight fluctuation.",
+        "authors": [
+          "Faidon Magkos",
+          "Norbert Stefan"
+        ],
+        "journal": "The lancet. Diabetes & endocrinology",
+        "date": "2026-05-14",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Is weight cycling clinically harmful?",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】核心发现：相关性, 安全性评估。\n【机制创新与产业价值】发表期刊：The lancet. Diabetes & endocrinology。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "Weight Loss Is Not Surgical Readiness: The Missing Operative Phenotype in GLP-1 ",
+        "composite_score": 5.46,
+        "relevance_score": 2.0,
+        "impact_factor": 44.0,
         "top_tier": true
       },
       {
@@ -1540,6 +1619,30 @@
         "top_tier": false
       },
       {
+        "pmid": "42129460",
+        "title": "The evolving landscape of obesity pharmacotherapy.",
+        "abstract": "Obesity is a chronic, relapsing disease driven by complex interactions between genetic, environmental, neuroendocrine and behavioural factors. The advent of incretin-based therapies and the expansion to multi-receptor agonist peptides targeting glucagon-like peptide 1 (GLP1), glucose-dependent insulinotropic polypeptide (GIP), glucagon, and amylin receptors has transformed obesity treatment, demonstrating average weight loss of more than 20% in humans and improvements in a broad range of obesity-related comorbidities. In this Review, we trace the recent evolution of obesity pharmacotherapy from GLP1 receptor agonists to next-generation multi-receptor agonists, alongside strategies that incorporate oral formulations, weight-loss quality approaches and tissue-specific drug targeting. We outline major translational and biological challenges, identify key gaps for future research and discuss emerging approaches aimed at achieving durable and scalable obesity treatment.",
+        "authors": [
+          "Jonas Petersen",
+          "Brian Finan",
+          "Valdemar B I Johansen",
+          "Timo D Müller",
+          "Christoffer Clemmensen"
+        ],
+        "journal": "Nature reviews. Drug discovery",
+        "date": "2026-05-13",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "The evolving landscape of obesity pharmacotherapy.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】量化数据：20%；核心发现：鉴定/表征, 有效性验证, 结合/相互作用。\n【机制创新与产业价值】发表期刊：Nature reviews. Drug discovery。\n【后续追踪要点】长期疗效评估。",
+        "backfilled_from_news": "Glucagon-Like Peptide-1 Receptor Agonist Use Is Associated With Improved Lung Fu",
+        "composite_score": 9.45,
+        "relevance_score": 9.0,
+        "impact_factor": 122.7,
+        "top_tier": false
+      },
+      {
         "pmid": "42710812",
         "title": "Association of tirzepatide with reverse cardiac remodeling and improved diastolic function in obesity-related HFpEF: A prospective real-world cohort study.",
         "abstract": "BACKGROUND: Obesity-related heart failure with preserved ejection fraction (HFpEF) is characterized by concentric remodeling, diastolic dysfunction, and systemic inflammation. Tirzepatide, a dual GIP/GLP-1 receptor agonist, produces substantial weight loss, but real-world echocardiographic evidence of cardiac reverse remodeling remains limited, particularly in prospective cohorts. METHODS: We conducted a prospective, single-center, longitudinal observational cohort study of 50 adults with obesity-related HFpEF (LVEF ≥50%, BMI ≥30 kg/m2) initiating tirzepatide in routine care. Co-primary endpoints were changes in left ventricular (LV) mass and the E/e' ratio from baseline to ≈6 months. Multiplicity was controlled via hierarchical gate-keeping with Benjamini-Hochberg false discovery rate (FDR) correction. RESULTS: Over a median follow-up of 5.8 months, mean LV mass decreased by -12.4 g (95% CI -15.4 to -9.4; q < 0.001; SRM -1.16) and E/e' improved by -1.45 (95% CI -1.85 to -1.11; q < 0.001; SRM -1.08). KCCQ score increased by +13.1 points (q < 0.001), 6-min walk distance by +43 m (q < 0.001), and BMI decreased by -5.8 kg/m2 (q < 0.001). NT-proBNP, hs-CRP, and hs-TnT all declined significantly (all q < 0.01). NYHA class improved in 30 patients (60%) with none worsening (p < 0.001). CONCLUSIONS: In real-world practice, tirzepatide use was associated with reverse cardiac remodeling, improved diastolic function, and better health status in obesity-related HFpEF. These findings complement randomized trial evidence and support further evaluation of incretin-based therapy in obesity-related HFpEF.",
@@ -1567,82 +1670,6 @@
         "composite_score": 9.33,
         "relevance_score": 14.5,
         "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42721492",
-        "title": "CARDIOVASCULAR EFFECTS OF INCRETIN RECEPTOR AGONISTS: BEYOND GLYCEMIC CONTROL.",
-        "abstract": "Incretin-based therapies have evolved from selective GLP-1RA to dual GLP-1/ GIP agonists and unimolecular triple GLP-1/GIP/glucagon receptor agonists. This review examines the cardiovascular effects of these three pharmacological tiers, with emphasis on mechanisms that operate beyond glycaemic control. Mediation analyses of major CVOTs indicate that glycaemic improvement accounts for less than 15 to 20 percent of the reduction in major adverse cardiovascular events achieved by these agents. The remainder reflects converging effects on weight reduction, lipid remodelling, blood pressure, systemic inflammation, and direct myocardial protection. At the cellular level, incretin signalling preserves mitochondrial bioenergetics, activates antioxidant defences, and inhibits multiple cardiomyocyte death pathways. At the tissue level, recent investigations in isolated human atrial preparations demonstrate direct positive inotropic effects of both GLP-1RA and the triple agonist retatrutide. Cardiac magnetic resonance evidence from the SUMMIT programme documents reverse left ventricular remodelling with tirzepatide in obesity-related heart failure with preserved ejection fraction. Phase 2 data for triple agonists have produced unprecedented surrogate cardiovascular improvements, while Phase 3 outcome data from the TRIUMPH programme remain awaited. The cardiovascular pharmacology of metabolic disease has been fundamentally reshaped, and ongoing trials will determine whether multi-receptor agonism establishes a new therapeutic standard.",
-        "authors": [
-          "Marko Ravic",
-          "Ivan M Srejovic",
-          "Isidora Milosavljevic",
-          "Jovana Novakovic",
-          "Vladimir Jakovljevic"
-        ],
-        "journal": "Canadian journal of physiology and pharmacology",
-        "date": "2026-09-10",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "CARDIOVASCULAR EFFECTS OF INCRETIN RECEPTOR AGONISTS: BEYOND GLYCEMIC CONTROL.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：III期临床试验。\n【核心实验关键数据】核心发现：抑制作用, 促进作用, 调控作用, 疾病模型建立。\n【机制创新与产业价值】发表期刊：Canadian journal of physiology and pharmacology。\n【后续追踪要点】新药研发。",
-        "composite_score": 9.05,
-        "relevance_score": 14.0,
-        "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42712125",
-        "title": "GLP-1 Receptor Agonists Post-Bariatric Surgery (GRABS) Trial: Rationale, Design and Baseline Characteristics.",
-        "abstract": "AIMS: No studies have investigated the synergistic effectiveness of Glucagon-Like Peptide 1 Receptor Agonists (GLP1RAs) in patients with persistent obesity following bariatric surgery. The GLP-1 Receptor Agonists Post-Bariatric Surgery (GRABS) Trial aims to investigate the effectiveness of tirzepatide (TRZ) versus standard of care (SOC) after Roux-en-Y gastric bypass (RYGB) in patients with persistent obesity (body mass index [BMI] ≥ 30 kg/m2). MATERIALS AND METHODS: This randomized, open-label proof-of-concept trial compares 24 weeks of TRZ with SOC versus SOC alone after RYGB. The primary outcome is total percent weight change from baseline to 24 weeks after trial initiation. Patients aged 25-65 with BMI ≥ 30 kg/m2 enroled 12 months after RYGB are randomized 1:1 to 24 weeks of TRZ or SOC. Exclusion criteria include: type 1 diabetes, type 2 diabetes treatment other than metformin, conversion to RYGB from prior bariatric surgery, and GLP1RA use in the past 3 months. RESULTS: The study enroled 33 patients, with 5 withdrawals prior to completing a baseline visit, resulting in a final sample of 28 patients. The final cohort is 82% female, 75% white, median age 42.0 years, pre-surgery BMI of 48.3 kg/m2, baseline BMI at randomization of 36.0 kg/m2 and baseline weight of 95.6 kg. CONCLUSIONS: GRABS is the first randomized trial to investigate GLP1RA effectiveness in patients with persistent obesity following RYGB, with the potential to inform synergistic adjuvant strategies to enhance surgical weight loss. TRIAL REGISTRATION: ClinicalTrials.gov identifier: NCT06162715.",
-        "authors": [
-          "J M Samuels",
-          "C R Williams",
-          "M B Patel",
-          "W H Self",
-          "L M Funk"
-        ],
-        "journal": "Diabetes, obesity & metabolism",
-        "date": "2026-09-08",
-        "keywords": [
-          "GLP‐1 receptor agonist",
-          "GRABS trial",
-          "bariatric surgery",
-          "multimodal obesity treatment",
-          "obesity management medication",
-          "weight recurrence"
-        ],
-        "companies": [],
-        "title_cn": "GLP-1 Receptor Agonists Post-Bariatric Surgery (GRABS) Trial: Rationale, Design and Baseline Characteristics.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：82%, 75%；核心发现：促进作用, 有效性验证。\n【机制创新与产业价值】发表期刊：Diabetes, obesity & metabolism。\n【后续追踪要点】联合用药。",
-        "composite_score": 9.05,
-        "relevance_score": 11.5,
-        "impact_factor": 9.8,
-        "top_tier": false
-      },
-      {
-        "pmid": "42709513",
-        "title": "Vagal activity related events and glucagon-like peptide-1 receptor agonists.",
-        "abstract": "BACKGROUND AND AIMS: Glucagon-like peptide-1 receptor agonists (GLP-1 RA) carry side-effects such as dizziness and nausea related to increased vagal tone. This study investigated associations between GLP-1 RA use and the risk of vagal activity related (VAR) events. METHODS: Using the Danish health registers, patients with type 2 diabetes mellitus (T2DM) first-time initiated on GLP-1 RA (exposure) or SGLT-2i (active control) were identified between January 2010 and October 2022. Standardized 1-year absolute risks of VAR events (syncope, fractures, bradyarrhythmia, or cardiac device implantation) were computed to compare risk associated with GLP-1 RA and SGLT-2i initiation. Complementary analyses in patients treated for obesity were performed as well. RESULTS: During the study period, 50 076 and 73 138 patients with T2DM were initiated on GLP-1 RA (47% women, median age: 59 years [IQR: 50-68]) or SGLT-2i (39% women, median age: 64 years [IQR: 55-72]). Comorbidity was equally prevalent. The standardized 1-year absolute risk of syncope was 0.58% (95% CI: 0.51%-0.66%) among patients initiated on GLP-1 RA and comparable to patients initiated on SGLT-2i (0.56% [95% CI: 0.50%-0.62%]). 1-year risks of fractures, bradyarrhythmia, and cardiac device implantation were equally low and with corresponding standardized risk ratios of 0.90 (95% CI: 0.79-1.01), 0.97 (95% CI: 0.67-1.28), and 0.86 (95% CI: 0.62-1.10), respectively. No associations were found in the group treated for obesity either. CONCLUSIONS: In nationwide cohorts of patients treated for T2DM or obesity, initiation of GLP-1 RA was not associated with an elevated risk of VAR events. Despite a proposed argumentation of vagal activity, GLP-1 RA use was not associated with an increased risk in real-life users.",
-        "authors": [
-          "Lina Al-Ansary",
-          "Sebastian Kinnberg Nielsen",
-          "Mads Hashiba Jensen",
-          "Nina Nouhravesh",
-          "Caroline Sindet-Pedersen"
-        ],
-        "journal": "European heart journal. Cardiovascular pharmacotherapy",
-        "date": "2026-09-08",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Vagal activity related events and glucagon-like peptide-1 receptor agonists.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：47%, 39%, 0.58%；核心发现：相关性。\n【机制创新与产业价值】发表期刊：European heart journal. Cardiovascular pharmacotherapy。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 8.86,
-        "relevance_score": 8.5,
-        "impact_factor": 37.6,
         "top_tier": false
       }
     ],
