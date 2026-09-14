@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-15T07:01:08.332033",
+  "timestamp": "2026-09-15T07:16:11.957073",
   "critical": {
     "deals": [
       {
@@ -288,16 +288,6 @@
         ]
       },
       {
-        "title": "A bispecific CD3×CD19 antibody for systemic lupus erythematosus: a phase 1 trial.",
-        "journal": "Nature medicine",
-        "date": "2026-09-10",
-        "authors": [
-          "Jason Xu",
-          "Chunli Mei",
-          "Xin Guan"
-        ]
-      },
-      {
         "title": "COVID-19 vaccination around immune checkpoint inhibitor start and survival in a nationwide cohort of patients with cancer.",
         "journal": "Nature medicine",
         "date": "2026-09-10",
@@ -325,15 +315,6 @@
           "Yuta Asano",
           "Joshua R Veatch",
           "Cheng-Jung Sung"
-        ]
-      },
-      {
-        "title": "Semaglutide and Tirzepatide for the treatment of MASH: What Works, What's Coming, and What's Missing.",
-        "journal": "Digestion",
-        "date": "2026-09-09",
-        "authors": [
-          "Sakkarin Chirapongsathorn",
-          "Frank Tacke"
         ]
       },
       {
@@ -374,6 +355,56 @@
           "Rongrong Liu",
           "Yongrong Lai",
           "Lijie Wang"
+        ]
+      },
+      {
+        "title": "Nutritional, functional, and psychological considerations for incretin-based therapies in adults-an EASO, EFAD, and ECPO Consensus Statement.",
+        "journal": "The lancet. Diabetes & endocrinology",
+        "date": "2026-07-08",
+        "authors": [
+          "Laurence J Dobbie",
+          "Liisa Tolvanen",
+          "Daniela Alves"
+        ]
+      },
+      {
+        "title": "CAR T cell therapy selectively depletes disease-driving mutant calreticulin cells in xenotransplants and human organoid models of myelofibrosis.",
+        "journal": "Science translational medicine",
+        "date": "2026-07-01",
+        "authors": [
+          "Alexandros Rampotas",
+          "Zoë C Wong",
+          "Isaac Gannon"
+        ]
+      },
+      {
+        "title": "Intravenous gene therapy improves life span and clinical outcomes in a feline model of Sandhoff disease.",
+        "journal": "Science translational medicine",
+        "date": "2026 Sep 9",
+        "authors": [
+          "Maguire AS",
+          "Ta NL",
+          "Gross AL"
+        ]
+      },
+      {
+        "title": "Dense RNA motif modifications enable robust in vivo prime editing and enhance efficiencies of diverse editing systems.",
+        "journal": "Nature biomedical engineering",
+        "date": "2026 Sep 11",
+        "authors": [
+          "Lei X",
+          "Chen D",
+          "Zhang K"
+        ]
+      },
+      {
+        "title": "Live-cell transcriptomics with engineered virus-like particles.",
+        "journal": "Cell",
+        "date": "2026 Sep 1",
+        "authors": [
+          "Najia MA",
+          "Le A",
+          "Borrajo J"
         ]
       },
       {
@@ -988,6 +1019,30 @@
         "top_tier": true
       },
       {
+        "pmid": "42384776",
+        "title": "CAR T cell therapy selectively depletes disease-driving mutant calreticulin cells in xenotransplants and human organoid models of myelofibrosis.",
+        "abstract": "Targeted immunotherapies have revolutionized outcomes for lymphoid malignancies, but success in myeloid neoplasms is limited by the lack of amenable targets and immunologically hostile tumor microenvironment (TME). Myeloproliferative neoplasms (MPNs) are chronic myeloid blood cancers, a third of which are driven by mutations in calreticulin. Calreticulin mutant protein (mutCALR) binds and activates thrombopoietin receptor (TpoR) and results in the display of the mutCALR-TpoR complex on the extracellular membrane of disease-driving cells, thus exposing a therapeutic vulnerability. Here, we present a chimeric antigen receptor T cell (CAR T cell) therapy that specifically targets mutCALR+ cells, both in vitro and in vivo. The CAR T cell therapy selectively depleted mutCALR+ stem cells in samples from patients with myelofibrosis without affecting healthy stem cells and improved survival in mutCALR leukemia xenograft models. To mimic myelofibrotic marrow, we developed a human \"chimeroid\" model and showed no decrease in the potency of CAR T cell-mediated target cell killing even in a fibrotic TME. We also devised a method to boost the cell surface expression of mutCALR in CD34+ cells isolated from patients with accelerated/blast phase MPNs (defined as >10% blasts in the peripheral blood or bone marrow), enhancing CAR T cell targeting. This study presents a therapeutic strategy with potential to eradicate mutCALR-driven malignancies and highlights an innovative strategy to evaluate blood cancer-targeting immunotherapies in a relevant TME.",
+        "authors": [
+          "Alexandros Rampotas",
+          "Zoë C Wong",
+          "Isaac Gannon",
+          "Charlotte K Brierley",
+          "Yuqi Shen"
+        ],
+        "journal": "Science translational medicine",
+        "date": "2026-07-01",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "CAR T cell therapy selectively depletes disease-driving mutant calreticulin cells in xenotransplants and human organoid models of myelofibrosis.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】模型：异种移植瘤模型、类器官模型；核心技术：CAR-T细胞治疗；研究层级：动物体内实验。\n【核心实验关键数据】量化数据：10%；表型：肿瘤发生；核心发现：促进作用, 调控作用, 疾病模型建立, 表达水平变化。\n【机制创新与产业价值】发表期刊：Science translational medicine。\n【后续追踪要点】新药研发；基因/细胞治疗；长期疗效评估。",
+        "backfilled_from_news": "A boost for CAR T cell therapy.",
+        "composite_score": 10.38,
+        "relevance_score": 13.0,
+        "impact_factor": 15.8,
+        "top_tier": true
+      },
+      {
         "pmid": "42715345",
         "title": "Reprogramming engineered autologous T cells to overcome resistance in patients with Merkel cell carcinoma.",
         "abstract": "Immune checkpoint inhibitors (ICIs) have transformed Merkel cell carcinoma (MCC) outcomes, but most patients with MCC develop resistance. We identified T cell receptor (TCR)MCC1, a highly avid, HLA-A*02:01-restricted TCR targeting the Merkel cell polyomavirus (MCPyV) oncoprotein large-T antigen15-23. Seven patients with ICI-refractory metastatic MCPyV+ MCC received TCRMCC1-transduced cells (TTCR-MCC1 cells) after lymphodepleting chemotherapy or HLA-enhancing interventions [radiation or interferon gamma-1b (Actimmune)], with concurrent ICIs (NCT03747484). TTCR-MCC1 cells trafficked to tumor sites and expressed a gene expression profile compatible with T cell activation, with tumor regression observed in two patients. However, therapeutic activity was limited by HLA class I silencing, a common mechanism of immune escape in MCC. In one patient, delayed tumor regression coincided with endogenous effector immune activation and restoration of MCC HLA expression, implying that robust local responses could reverse HLA silencing. To overcome this barrier, we engineered CD4 and CD8 TTCR-MCC1 cells to coexpress CD8αβ and a CD200R-CD28 switch receptor, enabling CD4 T cell engagement and T cell costimulation. These modifications enhanced tumor infiltration, increased HLA expression, and improved control of HLAlow MCC in vivo in mice. These findings support the feasibility of TCR-engineered cell therapy for MCPyV+ MCC and provide a blueprint for overcoming immune evasion via targeted localized enhancement of antigen presentation.",
@@ -1168,29 +1223,6 @@
         "composite_score": 10.06,
         "relevance_score": 13.0,
         "impact_factor": 11.7,
-        "top_tier": false
-      },
-      {
-        "pmid": "42341322",
-        "title": "CAR T-cell therapy as a definitive consolidation for older adults with B-ALL in first complete remission.",
-        "abstract": "We report a phase 1 study assessing the safety and efficacy of CD19 chimeric antigen receptor (CAR) T cells as definitive consolidation in older adults (aged ≥55 years) with B-cell acute lymphoblastic leukemia (B-ALL) in first complete remission (CR1). Eighteen patients received lymphodepletion followed by infusion of memory-enriched CD19 CAR T cells. The median age was 64 years, and all patients were measurable residual disease (MRD)-negative before lymphodepletion. There were no dose-limiting toxicities, grade ≥2 cytokine release syndrome, or any grade immune effector cell-associated neurotoxicity syndrome. Estimated 18-month event-free and overall survival were 84% and 100%, respectively. CAR T cells expanded in the blood and cerebrospinal fluid despite patients' MRD-negative status. Comparing clinical samples from patients with relapsed/refractory (R/R) B-ALL from our historical trial (ClinicalTrials.gov identifier: NCT02146924) and patients in CR1, we found that the blood and CAR T-cell products from patients with R/R B-ALL were hyperinflammatory and hyperimmunometabolic, respectively. First-line CAR T-cell therapy was safe and well tolerated and potentially extended remission in patients in MRD-negative CR1. These findings support further investigation of the early use of CAR T-cell therapy for B-ALL. This trial was registered at www.clinicaltrials.gov as NCT05707273.",
-        "authors": [
-          "Ibrahim Aldoss",
-          "Lior Goldberg",
-          "Jianying Zhang",
-          "Andrew Artz",
-          "Mary C Clark"
-        ],
-        "journal": "Blood advances",
-        "date": "",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "CAR T-cell therapy as a definitive consolidation for older adults with B-ALL in first complete remission.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：CAR-T细胞治疗；研究层级：I期临床试验。\n【核心实验关键数据】量化数据：84%, 100%；表型：认知/学习记忆障碍；核心发现：安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Blood advances。\n【后续追踪要点】基因/细胞治疗；安全性监测。",
-        "composite_score": 9.59,
-        "relevance_score": 11.0,
-        "impact_factor": 21.0,
         "top_tier": false
       }
     ],
@@ -1452,6 +1484,30 @@
     ],
     "glp1": [
       {
+        "pmid": "42419343",
+        "title": "Nutritional, functional, and psychological considerations for incretin-based therapies in adults-an EASO, EFAD, and ECPO Consensus Statement.",
+        "abstract": "Incretin-based therapies, including GLP-1 receptor agonists and dual GLP-1-GIP receptor agonists, have transformed obesity management, producing substantial weight loss and cardiometabolic benefits, with potential improvements in obesity-related complications, physical function, quality of life, and psychological wellbeing for many individuals. However, reduced appetite, rapid weight loss, gastrointestinal adverse effects, and changes in eating behaviour might create nutritional, functional, or psychological risks in some individuals. This EASO-EFAD-ECPO Consensus Statement outlines pragmatic nutritional, functional, and psychological considerations during incretin-based therapy treatment. We synthesise evidence on medical nutrition therapy, including protein targets during weight loss, dietary quality, and mitigation of gastrointestinal adverse events. We discuss pragmatic approaches that could help support preservation of fat-free mass and physical function during weight loss, including adequate protein intake and progressive resistance exercise. We emphasise the psychological and identity-related challenges during incretin-based therapy, including shifts in food reward, coping, and social connection, and recommend psychological screening, with integrated support where needed. We propose pragmatic monitoring during weight loss, including diet quality, micronutrient risk, and functional measures, with body-composition assessment where indicated. We suggest approaches to address disparities in access and adherence to ensure equity. We discuss the importance of shared decision making with the patient in decisions to start, up-titrate, delay, pause, down-titrate, or discontinue incretin-based therapies, considering the physical and psychological risks of treating versus not treating. Finally, we identify future research priorities, including longitudinal research on micronutrient status, macronutrient requirements, changes in dietary patterns and food choices, musculoskeletal outcomes, unique dosing schedules, and post-cessation maintenance to optimise safety, efficacy, and the patient experience.",
+        "authors": [
+          "Laurence J Dobbie",
+          "Liisa Tolvanen",
+          "Daniela Alves",
+          "Jennifer L Baker",
+          "Natalie S Bez"
+        ],
+        "journal": "The lancet. Diabetes & endocrinology",
+        "date": "2026-07-08",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Nutritional, functional, and psychological considerations for incretin-based therapies in adults-an EASO, EFAD, and ECPO Consensus Statement.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】核心发现：鉴定/表征, 安全性评估, 有效性验证；关键突破：提高疗效。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The lancet. Diabetes & endocrinology。\n【后续追踪要点】安全性监测。",
+        "backfilled_from_news": "Weight Loss Is Not Surgical Readiness: The Missing Operative Phenotype in GLP-1 ",
+        "composite_score": 9.58,
+        "relevance_score": 9.5,
+        "impact_factor": 44.0,
+        "top_tier": true
+      },
+      {
         "pmid": "42710489",
         "title": "Implications of GLP-1 receptor agonists for the fertility of women with polyendocrine metabolic ovarian syndrome.",
         "abstract": "Women with polyendocrine metabolic ovarian syndrome (PMOS) represent a particularly challenging patient population, characterized by the convergence of reproductive dysfunction, obesity, insulin resistance, and chronic inflammation. The emergence of glucagon-like peptide-1 receptor agonists (GLP-1RAs) offers a transformative therapeutic opportunity, addressing the complex endocrine and reproductive disturbances that underpin this disorder.",
@@ -1493,6 +1549,37 @@
         "top_tier": true
       },
       {
+        "pmid": "42688617",
+        "title": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials.",
+        "abstract": "OBJECTIVE: To compare the efficacy and safety of glucagon-like peptide 1 (GLP-1) based drug treatments for weight loss in adults with overweight or obesity without diabetes. DESIGN: Network meta-analysis of randomised controlled trials. DATA SOURCES: Embase, PubMed (Medline), and Web of Science, 1 January 2000 to 6 March 2026. ELIGIBILITY CRITERIA FOR SELECTING STUDIES: Randomised controlled trials that enrolled adults with overweight or obesity, comparing GLP-1 receptor agonists or related co-agonists with placebo or active comparators, with a minimum intervention duration of 12 weeks. Excluded were trials that enrolled participants with diabetes, or where diabetes status could not be clearly determined. RESULTS: 58 trials of 24 214 participants were analysed. Compared with placebo, weight loss was greatest with retatrutide (-22.10%, 95% confidence interval -25.60% to -18.60%), followed by tirzepatide (-19.28%, -20.39% to -18.16%), and CagriSema (a combination of cagrilintide and semaglutide, -17.32%, -19.32% to -15.32%). Conventional GLP-1 receptor agonists showed more modest effects. Similar patterns were seen for waist circumference and lipid outcomes. Treatment rankings suggested a probabilistic hierarchy favouring next generation incretin based treatments, although confidence intervals overlapped for several comparisons. Low certainty evidence suggested higher rates for discontinuing treatment with danuglipron and retatrutide, whereas mazdutide showed better tolerability. CONCLUSIONS: In adults with overweight or obesity without diabetes, next generation incretin based treatments achieved greater weight loss than conventional GLP-1 receptor agonists. Differences in tolerability, limited head-to-head evidence, and residual uncertainty, however, should be considered when interpreting comparative treatment effects. STUDY REGISTRATION: PROSPERO CRD420261279841.",
+        "authors": [
+          "Deshi Chen",
+          "Bing Ma",
+          "Hao Sun",
+          "Jing Zhang",
+          "Linlin Gong"
+        ],
+        "journal": "BMJ medicine",
+        "date": "2026-08-27",
+        "keywords": [
+          "Diabetes mellitus",
+          "Drug therapy",
+          "Endocrinology",
+          "Pharmacology, clinical",
+          "Public health",
+          "Therapeutics"
+        ],
+        "companies": [],
+        "title_cn": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：22.10%, 95%, 25.60%；核心发现：安全性评估, 有效性验证；局限性：需进一步研究。\n【机制创新与产业价值】发表期刊：BMJ medicine。\n【后续追踪要点】安全性监测。",
+        "backfilled_from_news": "Interpreting reduced biologic initiation after GLP-1 receptor agonist exposure i",
+        "composite_score": 13.3,
+        "relevance_score": 16.0,
+        "impact_factor": 93.6,
+        "top_tier": false
+      },
+      {
         "pmid": "42715139",
         "title": "Semaglutide and Tirzepatide for the treatment of MASH: What Works, What's Coming, and What's Missing.",
         "abstract": "BACKGROUND: Metabolic dysfunction-associated steatotic liver disease (MASLD) and its progressive form, metabolic dysfunction-associated steatohepatitis (MASH), are increasingly prevalent conditions closely linked to obesity, insulin resistance, and cardiometabolic diseases. Although lifestyle modification remains the cornerstone of management, it frequently fails to achieve sustained histologic improvement, suggesting that patients require effective pharmacologic therapies. SUMMARY: Incretin-based treatments, including glucagon-like peptide-1 (GLP-1) receptor agonists and newer dual agonists additionally targeting glucose-dependent insulinotropic polypeptide (GIP), have emerged as promising disease-modifying options. These agents improve hepatic steatosis primarily through weight reduction and enhanced insulin sensitivity, while also exerting pleiotropic effects on inflammation, and lipid metabolism. Phase 2 clinical trials consistently demonstrate improvement in steatohepatitis with GLP-1 receptor agonists, with encouraging signals of fibrosis improvement observed with dual agonists such as tirzepatide. Interim data from a phase 3 clinical trial with semaglutide show clinically meaningful benefits in both MASH resolution and fibrosis regression. These findings have led to accelerated regulatory approval of semaglutide for the treatment of non-cirrhotic MASH with stage F2-F3 fibrosis. In addition to hepatic effects, incretin-based therapies provide substantial cardiometabolic benefits, reinforcing their relevance in a disease strongly associated with cardiovascular risk. KEY MESSAGES: Overall, mono- and dual-incretin agonist therapies represent a significant advance in the treatment landscape of MASLD/MASH, although long-term outcome data are required to confirm durability, safety, and impact on major adverse liver-related outcomes.",
@@ -1510,6 +1597,35 @@
         "composite_score": 12.35,
         "relevance_score": 20.0,
         "impact_factor": null,
+        "top_tier": false
+      },
+      {
+        "pmid": "41936548",
+        "title": "Weight Loss With GLP-1 Agonists in Nondiabetic Adults: Systematic Review and Network Meta-Analysis.",
+        "abstract": "OBJECTIVE: Two glucagon-like peptide-1 receptor agonists (GLP-1 RAs) (semaglutide and liraglutide) and one dual agonist (tirzepatide) are FDA-approved for weight loss in adults with obesity without type 2 diabetes mellitus. This systematic review and network meta-analysis aims to compare the efficacy of these agents against each other. METHODS: A comprehensive search of PubMed/MEDLINE, Embase, Web of Science, and Cochrane Library was conducted from inception to May 2025. Phase 3 randomized controlled trials (RCTs) in adult patients (≥ 18 years) with at least one arm of tirzepatide, semaglutide, or liraglutide were included. A frequentist random-effects network meta-analysis was performed using R 4.3.3. RESULTS: Of 1420 articles identified, 15 RCTs with 14,059 patients were included. All agents significantly reduced body weight compared to placebo. The largest reduction occurred with the maximum tolerated dose of tirzepatide, followed by tirzepatide 15 mg and 10 mg, semaglutide 2.4 mg, tirzepatide 5 mg, and liraglutide 3 mg. Tirzepatide and semaglutide were associated with a higher risk of any adverse event compared with placebo, whereas liraglutide was not. CONCLUSIONS: Tirzepatide, particularly at higher doses, provides the greatest weight reduction in adults without diabetes. Future studies should evaluate discontinuation, weight regain, metabolic outcomes, cost-effectiveness, and patient preferences.",
+        "authors": [
+          "Michael Lim",
+          "Pooja Gokhale",
+          "Akwasi Akosah",
+          "Lorenzo Villa-Zapata"
+        ],
+        "journal": "Obesity (Silver Spring, Md.)",
+        "date": "2026-04-05",
+        "keywords": [
+          "GLP‐1 receptor agonists",
+          "liraglutide",
+          "semaglutide",
+          "tirzepatide",
+          "weight loss"
+        ],
+        "companies": [],
+        "title_cn": "Weight Loss With GLP-1 Agonists in Nondiabetic Adults: Systematic Review and Network Meta-Analysis.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：III期临床试验。\n【核心实验关键数据】核心发现：安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Obesity (Silver Spring, Md.)。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "Weight Loss Is Not Surgical Readiness: The Missing Operative Phenotype in GLP-1 ",
+        "composite_score": 11.51,
+        "relevance_score": 17.5,
+        "impact_factor": 4.2,
         "top_tier": false
       },
       {
@@ -1572,6 +1688,30 @@
         "top_tier": false
       },
       {
+        "pmid": "42129460",
+        "title": "The evolving landscape of obesity pharmacotherapy.",
+        "abstract": "Obesity is a chronic, relapsing disease driven by complex interactions between genetic, environmental, neuroendocrine and behavioural factors. The advent of incretin-based therapies and the expansion to multi-receptor agonist peptides targeting glucagon-like peptide 1 (GLP1), glucose-dependent insulinotropic polypeptide (GIP), glucagon, and amylin receptors has transformed obesity treatment, demonstrating average weight loss of more than 20% in humans and improvements in a broad range of obesity-related comorbidities. In this Review, we trace the recent evolution of obesity pharmacotherapy from GLP1 receptor agonists to next-generation multi-receptor agonists, alongside strategies that incorporate oral formulations, weight-loss quality approaches and tissue-specific drug targeting. We outline major translational and biological challenges, identify key gaps for future research and discuss emerging approaches aimed at achieving durable and scalable obesity treatment.",
+        "authors": [
+          "Jonas Petersen",
+          "Brian Finan",
+          "Valdemar B I Johansen",
+          "Timo D Müller",
+          "Christoffer Clemmensen"
+        ],
+        "journal": "Nature reviews. Drug discovery",
+        "date": "2026-05-13",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "The evolving landscape of obesity pharmacotherapy.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】量化数据：20%；核心发现：鉴定/表征, 有效性验证, 结合/相互作用。\n【机制创新与产业价值】发表期刊：Nature reviews. Drug discovery。\n【后续追踪要点】长期疗效评估。",
+        "backfilled_from_news": "Glucagon-Like Peptide-1 Receptor Agonist Use Is Associated With Improved Lung Fu",
+        "composite_score": 9.45,
+        "relevance_score": 9.0,
+        "impact_factor": 122.7,
+        "top_tier": false
+      },
+      {
         "pmid": "42710812",
         "title": "Association of tirzepatide with reverse cardiac remodeling and improved diastolic function in obesity-related HFpEF: A prospective real-world cohort study.",
         "abstract": "BACKGROUND: Obesity-related heart failure with preserved ejection fraction (HFpEF) is characterized by concentric remodeling, diastolic dysfunction, and systemic inflammation. Tirzepatide, a dual GIP/GLP-1 receptor agonist, produces substantial weight loss, but real-world echocardiographic evidence of cardiac reverse remodeling remains limited, particularly in prospective cohorts. METHODS: We conducted a prospective, single-center, longitudinal observational cohort study of 50 adults with obesity-related HFpEF (LVEF ≥50%, BMI ≥30 kg/m2) initiating tirzepatide in routine care. Co-primary endpoints were changes in left ventricular (LV) mass and the E/e' ratio from baseline to ≈6 months. Multiplicity was controlled via hierarchical gate-keeping with Benjamini-Hochberg false discovery rate (FDR) correction. RESULTS: Over a median follow-up of 5.8 months, mean LV mass decreased by -12.4 g (95% CI -15.4 to -9.4; q < 0.001; SRM -1.16) and E/e' improved by -1.45 (95% CI -1.85 to -1.11; q < 0.001; SRM -1.08). KCCQ score increased by +13.1 points (q < 0.001), 6-min walk distance by +43 m (q < 0.001), and BMI decreased by -5.8 kg/m2 (q < 0.001). NT-proBNP, hs-CRP, and hs-TnT all declined significantly (all q < 0.01). NYHA class improved in 30 patients (60%) with none worsening (p < 0.001). CONCLUSIONS: In real-world practice, tirzepatide use was associated with reverse cardiac remodeling, improved diastolic function, and better health status in obesity-related HFpEF. These findings complement randomized trial evidence and support further evaluation of incretin-based therapy in obesity-related HFpEF.",
@@ -1598,114 +1738,6 @@
         "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】量化数据：50%, 95%, 95%；核心发现：首次发现/鉴定, 鉴定/表征, 相关性, 疾病模型建立。\n【机制创新与产业价值】发表期刊：International journal of cardiology。\n【后续追踪要点】持续关注后续进展及临床转化。",
         "composite_score": 9.33,
         "relevance_score": 14.5,
-        "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42728029",
-        "title": "International expert panel review for the use of resmetirom and semaglutide in the management of MASH-related fibrosis: clinical practice update.",
-        "abstract": "The recent conditional US Food and Drug Administration (FDA) approval of two therapies, resmetirom (Rezdiffra) and semaglutide (Wegovy), marks the first time clinicians have pharmacological therapy for metabolic dysfunction-associated steatohepatitis (MASH) with significant fibrosis (F2-F3) without cirrhosis, a disease that previously had no available pharmacological treatment. The two agents act through complementary mechanisms: resmetirom as a liver-directed thyroid hormone receptor-beta agonist and semaglutide as a glucagon-like peptide-1 receptor agonist (GLP-1 RA) with a broad spectrum of metabolic effects. In this international expert panel review, we consolidate data from phase III trials, FDA labels and emerging clinical experience into a single resource. It covers the entire care pathway: non-invasive test-based diagnosis of MASH with significant fibrosis, treatment selection and initiation, on-treatment monitoring and response assessment. We offer practical recommendations for individualising therapy by patient phenotype, managing patients already receiving GLP-1 RAs and defining response, non-response and criteria for switching or combining agents. The proposed framework is intended to evolve as long-term outcomes data emerge and additional MASH therapies become available.",
-        "authors": [
-          "Maria Mironova",
-          "Vlad Ratziu",
-          "Mary E Rinella",
-          "Meena B Bansal",
-          "Mazen Noureddin"
-        ],
-        "journal": "Gut",
-        "date": "2026-09-11",
-        "keywords": [
-          "FATTY LIVER",
-          "FIBROSIS",
-          "LIVER METABOLISM",
-          "OBESITY",
-          "PHARMACOTHERAPY"
-        ],
-        "companies": [],
-        "title_cn": "International expert panel review for the use of resmetirom and semaglutide in the management of MASH-related fibrosis: clinical practice update.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：碱基编辑(CBE/ABE)；研究层级：III期临床试验。\n【核心实验关键数据】核心发现：首次发现/鉴定, 有效性验证。\n【机制创新与产业价值】发表期刊：Gut。\n【后续追踪要点】长期疗效评估。",
-        "composite_score": 9.14,
-        "relevance_score": 10.0,
-        "impact_factor": 23.0,
-        "top_tier": false
-      },
-      {
-        "pmid": "42712125",
-        "title": "GLP-1 Receptor Agonists Post-Bariatric Surgery (GRABS) Trial: Rationale, Design and Baseline Characteristics.",
-        "abstract": "AIMS: No studies have investigated the synergistic effectiveness of Glucagon-Like Peptide 1 Receptor Agonists (GLP1RAs) in patients with persistent obesity following bariatric surgery. The GLP-1 Receptor Agonists Post-Bariatric Surgery (GRABS) Trial aims to investigate the effectiveness of tirzepatide (TRZ) versus standard of care (SOC) after Roux-en-Y gastric bypass (RYGB) in patients with persistent obesity (body mass index [BMI] ≥ 30 kg/m2). MATERIALS AND METHODS: This randomized, open-label proof-of-concept trial compares 24 weeks of TRZ with SOC versus SOC alone after RYGB. The primary outcome is total percent weight change from baseline to 24 weeks after trial initiation. Patients aged 25-65 with BMI ≥ 30 kg/m2 enroled 12 months after RYGB are randomized 1:1 to 24 weeks of TRZ or SOC. Exclusion criteria include: type 1 diabetes, type 2 diabetes treatment other than metformin, conversion to RYGB from prior bariatric surgery, and GLP1RA use in the past 3 months. RESULTS: The study enroled 33 patients, with 5 withdrawals prior to completing a baseline visit, resulting in a final sample of 28 patients. The final cohort is 82% female, 75% white, median age 42.0 years, pre-surgery BMI of 48.3 kg/m2, baseline BMI at randomization of 36.0 kg/m2 and baseline weight of 95.6 kg. CONCLUSIONS: GRABS is the first randomized trial to investigate GLP1RA effectiveness in patients with persistent obesity following RYGB, with the potential to inform synergistic adjuvant strategies to enhance surgical weight loss. TRIAL REGISTRATION: ClinicalTrials.gov identifier: NCT06162715.",
-        "authors": [
-          "J M Samuels",
-          "C R Williams",
-          "M B Patel",
-          "W H Self",
-          "L M Funk"
-        ],
-        "journal": "Diabetes, obesity & metabolism",
-        "date": "2026-09-08",
-        "keywords": [
-          "GLP‐1 receptor agonist",
-          "GRABS trial",
-          "bariatric surgery",
-          "multimodal obesity treatment",
-          "obesity management medication",
-          "weight recurrence"
-        ],
-        "companies": [],
-        "title_cn": "GLP-1 Receptor Agonists Post-Bariatric Surgery (GRABS) Trial: Rationale, Design and Baseline Characteristics.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：82%, 75%；核心发现：促进作用, 有效性验证。\n【机制创新与产业价值】发表期刊：Diabetes, obesity & metabolism。\n【后续追踪要点】联合用药。",
-        "composite_score": 9.05,
-        "relevance_score": 11.5,
-        "impact_factor": 9.8,
-        "top_tier": false
-      },
-      {
-        "pmid": "42709513",
-        "title": "Vagal activity related events and glucagon-like peptide-1 receptor agonists.",
-        "abstract": "BACKGROUND AND AIMS: Glucagon-like peptide-1 receptor agonists (GLP-1 RA) carry side-effects such as dizziness and nausea related to increased vagal tone. This study investigated associations between GLP-1 RA use and the risk of vagal activity related (VAR) events. METHODS: Using the Danish health registers, patients with type 2 diabetes mellitus (T2DM) first-time initiated on GLP-1 RA (exposure) or SGLT-2i (active control) were identified between January 2010 and October 2022. Standardized 1-year absolute risks of VAR events (syncope, fractures, bradyarrhythmia, or cardiac device implantation) were computed to compare risk associated with GLP-1 RA and SGLT-2i initiation. Complementary analyses in patients treated for obesity were performed as well. RESULTS: During the study period, 50 076 and 73 138 patients with T2DM were initiated on GLP-1 RA (47% women, median age: 59 years [IQR: 50-68]) or SGLT-2i (39% women, median age: 64 years [IQR: 55-72]). Comorbidity was equally prevalent. The standardized 1-year absolute risk of syncope was 0.58% (95% CI: 0.51%-0.66%) among patients initiated on GLP-1 RA and comparable to patients initiated on SGLT-2i (0.56% [95% CI: 0.50%-0.62%]). 1-year risks of fractures, bradyarrhythmia, and cardiac device implantation were equally low and with corresponding standardized risk ratios of 0.90 (95% CI: 0.79-1.01), 0.97 (95% CI: 0.67-1.28), and 0.86 (95% CI: 0.62-1.10), respectively. No associations were found in the group treated for obesity either. CONCLUSIONS: In nationwide cohorts of patients treated for T2DM or obesity, initiation of GLP-1 RA was not associated with an elevated risk of VAR events. Despite a proposed argumentation of vagal activity, GLP-1 RA use was not associated with an increased risk in real-life users.",
-        "authors": [
-          "Lina Al-Ansary",
-          "Sebastian Kinnberg Nielsen",
-          "Mads Hashiba Jensen",
-          "Nina Nouhravesh",
-          "Caroline Sindet-Pedersen"
-        ],
-        "journal": "European heart journal. Cardiovascular pharmacotherapy",
-        "date": "2026-09-08",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Vagal activity related events and glucagon-like peptide-1 receptor agonists.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：47%, 39%, 0.58%；核心发现：相关性。\n【机制创新与产业价值】发表期刊：European heart journal. Cardiovascular pharmacotherapy。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 8.86,
-        "relevance_score": 8.5,
-        "impact_factor": 37.6,
-        "top_tier": false
-      },
-      {
-        "pmid": "42734425",
-        "title": "Cardiovascular Effects of Chronic GIPR and GLP-1R Agonism in Lean and Diet-Induced Obese Mice: Sex Differences and Dose-Dependent Remodeling.",
-        "abstract": "Glucose‑dependent insulinotropic polypeptide (GIP) and glucagon‑like peptide‑1 (GLP‑1) regulate metabolism and are increasingly targeted in therapies for type 2 diabetes and obesity. Although GLP‑1 receptor agonists confer cardiovascular benefits, the cardiovascular effects of GIP receptor (GIPR) stimulation remain controversial. This study aimed at defining the short-term cardiovascular consequences GIPR and GLP‑1 receptor (GLP‑1R) agonism in lean and diet‑induced obese mice, with emphasis on sex‑specific cardiac remodeling patterns. Male and female mice received continuous infusion of a GIPR or GLP‑1R agonist for one month at 0.1, 0.4, 0.8 and 1.0 mg/kg/day under chow feeding, or an effective dose of 0.8 mg/kg/day after 2 months of high‑fat diet (HFD)-induced obesity. Cardiovascular phenotyping included tail‑cuff blood pressure, cardiac magnetic resonance imaging, metabolic testing, and assessment of plasma biomarkers of cardiac stress (ST2 or NT‑proBNP). In lean mice, GIPR agonism dose-dependently increased end‑diastolic volume (EDV), while GLP‑1R agonism increased end‑diastolic left‑ventricular (LV) mass in male mice, resulting in divergent remodeling patterns without affecting systolic function. These structural changes occurred without alterations in ST2 or NT‑proBNP, suggesting remodeling in the absence of overt myocardial stress. In obese mice, both agonists lowered mean arterial pressure and improved systolic function. GIPR agonism primarily increased LV volume in males, whereas GLP‑1R agonism increased LV mass in females. While ST2 levels were largely driven by HFD, NT‑proBNP was reduced by both treatments, consistent with improved cardiac loading conditions. In conclusion, short-term incretin receptor agonism induces distinct, context-dependent cardiovascular remodeling patterns that depended on receptor specificity, metabolic state, and sex. While both GIPR and GLP‑1R agonists exerted beneficial hemodynamic and functional effects in obesity, GIPR stimulation in lean mice increased ventricular volume and GLP‑1R stimulation increases mass without overt functional deterioration. These findings demonstrate distinct cardiac actions of incretin pathways and highlight the importance of metabolic context in their therapeutic effects.",
-        "authors": [
-          "Sevilay ŞahoŞlu Göktaş",
-          "Annelise Francisco",
-          "João M N Duarte",
-          "Anja Meissner",
-          "Martin Magnusson"
-        ],
-        "journal": "American journal of physiology. Heart and circulatory physiology",
-        "date": "2026-09-14",
-        "keywords": [
-          "Glucose‑dependent insulinotropic polypeptide (GIP)",
-          "glucagon‑like peptide‑1 (GLP‑1)"
-        ],
-        "companies": [],
-        "title_cn": "Cardiovascular Effects of Chronic GIPR and GLP-1R Agonism in Lean and Diet-Induced Obese Mice: Sex Differences and Dose-Dependent Remodeling.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 调控作用, 疾病模型建立, 性别差异。\n【机制创新与产业价值】发表期刊：American journal of physiology. Heart and circulatory physiology。\n【后续追踪要点】伴随诊断；新药研发；长期疗效评估。",
-        "composite_score": 8.5,
-        "relevance_score": 13.0,
         "impact_factor": null,
         "top_tier": false
       }
