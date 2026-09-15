@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-16T07:01:16.631669",
+  "timestamp": "2026-09-16T07:16:11.539308",
   "critical": {
     "deals": [
       {
@@ -276,16 +276,6 @@
         ]
       },
       {
-        "title": "A bispecific CD3×CD19 antibody for systemic lupus erythematosus: a phase 1 trial.",
-        "journal": "Nature medicine",
-        "date": "2026-09-10",
-        "authors": [
-          "Jason Xu",
-          "Chunli Mei",
-          "Xin Guan"
-        ]
-      },
-      {
         "title": "Computable longitudinal patient journeys from structured and unstructured EHR data.",
         "journal": "Nature medicine",
         "date": "2026-09-10",
@@ -376,12 +366,53 @@
         ]
       },
       {
-        "title": "Classic Hodgkin Lymphoma: A Review.",
-        "journal": "JAMA",
-        "date": "",
+        "title": "Nutritional, functional, and psychological considerations for incretin-based therapies in adults-an EASO, EFAD, and ECPO Consensus Statement.",
+        "journal": "The lancet. Diabetes & endocrinology",
+        "date": "2026-07-08",
         "authors": [
-          "Kishan K Patel",
-          "Alison J Moskowitz"
+          "Laurence J Dobbie",
+          "Liisa Tolvanen",
+          "Daniela Alves"
+        ]
+      },
+      {
+        "title": "CAR T cell therapy selectively depletes disease-driving mutant calreticulin cells in xenotransplants and human organoid models of myelofibrosis.",
+        "journal": "Science translational medicine",
+        "date": "2026-07-01",
+        "authors": [
+          "Alexandros Rampotas",
+          "Zoë C Wong",
+          "Isaac Gannon"
+        ]
+      },
+      {
+        "title": "Intravenous gene therapy improves life span and clinical outcomes in a feline model of Sandhoff disease.",
+        "journal": "Science translational medicine",
+        "date": "2026 Sep 9",
+        "authors": [
+          "Maguire AS",
+          "Ta NL",
+          "Gross AL"
+        ]
+      },
+      {
+        "title": "Dense RNA motif modifications enable robust in vivo prime editing and enhance efficiencies of diverse editing systems.",
+        "journal": "Nature biomedical engineering",
+        "date": "2026 Sep 11",
+        "authors": [
+          "Lei X",
+          "Chen D",
+          "Zhang K"
+        ]
+      },
+      {
+        "title": "Live-cell transcriptomics with engineered virus-like particles.",
+        "journal": "Cell",
+        "date": "2026 Sep 1",
+        "authors": [
+          "Najia MA",
+          "Le A",
+          "Borrajo J"
         ]
       }
     ]
@@ -978,6 +1009,30 @@
         "top_tier": true
       },
       {
+        "pmid": "42384776",
+        "title": "CAR T cell therapy selectively depletes disease-driving mutant calreticulin cells in xenotransplants and human organoid models of myelofibrosis.",
+        "abstract": "Targeted immunotherapies have revolutionized outcomes for lymphoid malignancies, but success in myeloid neoplasms is limited by the lack of amenable targets and immunologically hostile tumor microenvironment (TME). Myeloproliferative neoplasms (MPNs) are chronic myeloid blood cancers, a third of which are driven by mutations in calreticulin. Calreticulin mutant protein (mutCALR) binds and activates thrombopoietin receptor (TpoR) and results in the display of the mutCALR-TpoR complex on the extracellular membrane of disease-driving cells, thus exposing a therapeutic vulnerability. Here, we present a chimeric antigen receptor T cell (CAR T cell) therapy that specifically targets mutCALR+ cells, both in vitro and in vivo. The CAR T cell therapy selectively depleted mutCALR+ stem cells in samples from patients with myelofibrosis without affecting healthy stem cells and improved survival in mutCALR leukemia xenograft models. To mimic myelofibrotic marrow, we developed a human \"chimeroid\" model and showed no decrease in the potency of CAR T cell-mediated target cell killing even in a fibrotic TME. We also devised a method to boost the cell surface expression of mutCALR in CD34+ cells isolated from patients with accelerated/blast phase MPNs (defined as >10% blasts in the peripheral blood or bone marrow), enhancing CAR T cell targeting. This study presents a therapeutic strategy with potential to eradicate mutCALR-driven malignancies and highlights an innovative strategy to evaluate blood cancer-targeting immunotherapies in a relevant TME.",
+        "authors": [
+          "Alexandros Rampotas",
+          "Zoë C Wong",
+          "Isaac Gannon",
+          "Charlotte K Brierley",
+          "Yuqi Shen"
+        ],
+        "journal": "Science translational medicine",
+        "date": "2026-07-01",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "CAR T cell therapy selectively depletes disease-driving mutant calreticulin cells in xenotransplants and human organoid models of myelofibrosis.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】模型：异种移植瘤模型、类器官模型；核心技术：CAR-T细胞治疗；研究层级：动物体内实验。\n【核心实验关键数据】量化数据：10%；表型：肿瘤发生；核心发现：促进作用, 调控作用, 疾病模型建立, 表达水平变化。\n【机制创新与产业价值】发表期刊：Science translational medicine。\n【后续追踪要点】新药研发；基因/细胞治疗；长期疗效评估。",
+        "backfilled_from_news": "A boost for CAR T cell therapy.",
+        "composite_score": 10.38,
+        "relevance_score": 13.0,
+        "impact_factor": 15.8,
+        "top_tier": true
+      },
+      {
         "pmid": "42715345",
         "title": "Reprogramming engineered autologous T cells to overcome resistance in patients with Merkel cell carcinoma.",
         "abstract": "Immune checkpoint inhibitors (ICIs) have transformed Merkel cell carcinoma (MCC) outcomes, but most patients with MCC develop resistance. We identified T cell receptor (TCR)MCC1, a highly avid, HLA-A*02:01-restricted TCR targeting the Merkel cell polyomavirus (MCPyV) oncoprotein large-T antigen15-23. Seven patients with ICI-refractory metastatic MCPyV+ MCC received TCRMCC1-transduced cells (TTCR-MCC1 cells) after lymphodepleting chemotherapy or HLA-enhancing interventions [radiation or interferon gamma-1b (Actimmune)], with concurrent ICIs (NCT03747484). TTCR-MCC1 cells trafficked to tumor sites and expressed a gene expression profile compatible with T cell activation, with tumor regression observed in two patients. However, therapeutic activity was limited by HLA class I silencing, a common mechanism of immune escape in MCC. In one patient, delayed tumor regression coincided with endogenous effector immune activation and restoration of MCC HLA expression, implying that robust local responses could reverse HLA silencing. To overcome this barrier, we engineered CD4 and CD8 TTCR-MCC1 cells to coexpress CD8αβ and a CD200R-CD28 switch receptor, enabling CD4 T cell engagement and T cell costimulation. These modifications enhanced tumor infiltration, increased HLA expression, and improved control of HLAlow MCC in vivo in mice. These findings support the feasibility of TCR-engineered cell therapy for MCPyV+ MCC and provide a blueprint for overcoming immune evasion via targeted localized enhancement of antigen presentation.",
@@ -1144,56 +1199,28 @@
         "top_tier": true
       },
       {
-        "pmid": "41540830",
-        "title": "Preclinical Analysis of Bone Marrow-Derived Stem Cell Therapy Response and Transcriptomic Overlap Analysis in a Severe Alcoholic Hepatitis Mouse Model.",
-        "abstract": "BACKGROUND/AIMS: Severe alcoholic hepatitis (SAH) is a life-threatening form of alcoholic liver disease resulting in high short-term mortality. Mesenchymal stem cells (MSCs) have potent immunomodulatory effects and have been evaluated in various clinical trials for the treatment of chronic liver diseases. However, clinical evidence in patients with alcoholic hepatitis remains scarce, and the underlying mechanisms of MSCs in this population are not yet fully understood. METHODS: An integrative meta-analysis identified conserved transcriptomic signatures of alcoholic hepatitis. These signatures were validated in an ethanol-induced murine model. A mouse model of SAH was induced via subacute ethanol exposure (5 g/kg) combined with thioacetamide injection. MSCs were administered at two concentrations (5×105 or 1×106 cells), depending on the treatment group. RESULTS: In the animal model, MSCs treatment visibly alleviated liver injury induced by thioacetamide and ethanol. Significant reductions in tumor necrosis factor-α (p<0.05) and α-smooth muscle actin (p<0.01) levels were observed, accompanied by notable changes in inducible nitric oxide synthase, interleukin-1β, and transforming growth factor-β1 levels. From the meta-analysis, seven upregulated and 17 downregulated genes were identified. Subsequent quantitative polymerase chain reaction and Western blot analyses consistently validated four upregulated genes that demonstrated overlapping expression patterns across both the meta-analysis and in vivo experiments. CONCLUSIONS: MSCs therapy significantly attenuates liver injury, inflammation, and fibrosis in SAH model mice. The observed messenger RNA-protein expression mismatches highlight the complexity of molecular regulation in acute hepatitis and underscore the importance of multilevel analysis in evaluating stem cell therapy. These results provide valuable insights into the mechanisms of MSC-mediated liver repair and suggest key targets for MSC therapy and response assessment in SAH.",
+        "pmid": "42485431",
+        "title": "Modulating the VIP-VIPR pathway reprograms CAR T cells for superior antitumor efficacy in preclinical cancer models.",
+        "abstract": "Clinical efficacy with chimeric antigen receptor (CAR) T cells is currently limited by numerous factors including poor initial product phenotypes and lack of engagement of endogenous immunity. Vasoactive intestinal peptide (VIP) is an immunosuppressive neuropeptide, and the antagonism of its receptor (VIPR) on T cells potentiates T cell activation. We demonstrated that VIP suppresses CAR T cell function and engineered CAR T cells to secrete a short peptide drug that antagonizes VIPR (CAR/VIPRa). Armored CAR/VIPRa T cells maintained a memory phenotype and were metabolically quiescent after manufacturing yet mounted a strong bioenergetic response after antigen stimulation. Moreover, CAR/VIPRa T cells potentiated endogenous antitumor immunity through the recruitment of host T cells. In syngeneic and xenogeneic mouse models of hematological and solid tumors, CAR/VIPRa T cells exhibited greater tumor infiltration and maintained a less exhausted memory phenotype, resulting in superior antitumor efficacy. Together, these data show that VIPRa peptides produced by armored CAR T cells can enhance T cell function and boost endogenous immunity, thereby improving tumor control.",
         "authors": [
-          "Soonchang Hong",
-          "Seul Ki Han",
-          "Mi Ra Lee",
-          "Taesic Lee",
-          "Soon Koo Baik"
+          "Heather K Lin",
+          "Dejah A Blake",
+          "Ruby Freeman",
+          "YuJie Chen",
+          "Jaehoon Kim"
         ],
-        "journal": "Gut and liver",
-        "date": "2026-01-16",
-        "keywords": [
-          "Alcoholic liver disease",
-          "Hepatitis, alcoholic",
-          "Immunomodulation",
-          "Liver regeneration",
-          "Mesenchymal stem cells"
-        ],
-        "companies": [],
-        "title_cn": "Preclinical Analysis of Bone Marrow-Derived Stem Cell Therapy Response and Transcriptomic Overlap Analysis in a Severe Alcoholic Hepatitis Mouse Model.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】模型：小鼠模型；核心技术：mRNA技术；研究层级：临床前研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：促进作用, 调控作用, 疾病模型建立, 有效性验证。\n【机制创新与产业价值】发表期刊：Gut and liver。\n【后续追踪要点】临床试验；基因/细胞治疗；长期疗效评估。",
-        "composite_score": 12.16,
-        "relevance_score": 15.5,
-        "impact_factor": 23.0,
-        "top_tier": false
-      },
-      {
-        "pmid": "42711699",
-        "title": "Allogeneic CD19 CAR-NK cell therapy for a patient with relapsed and refractory lupus nephritis.",
-        "abstract": "OBJECTIVE: To monitor changes in the clinical course and adverse events following allogeneic CD19 CAR-NK cell therapy in a patient with relapsed/refractory lupus nephritis (LN). METHODS: This case report depicts a patient with severe LN refractory to available treatments (including prednisone, mycophenolate mofetil and belimumab) was treated with allogenic CD19-CAR NK cells. Prior to infusion with CD19 CAR-NK cells, this patient received condition lymphodepleting chemotherapy with cyclophosphamide 300 mg/m2/d and fludarabine 25 mg/m2/d intravenously on day - 5, - 4, and - 3. The patient's response to CD19 CAR-NK treatment was evaluated by SLEDAI-2 K score, Lupus Low Disease Activity State (LLDAS) and the Definitions of Remission in SLE (DORIS) remission criteria. RESULTS: Clinical symptoms improved rapidly after infusion of CD19-targeted CAR NK cells. Three months after CAR-NK therapy, the patient's SLEDAI-2 K score decreased from 14 to 8. Clinical remission of arthritis and alopecia was achieved one month following CAR-NK cell infusion, while clinical remission of proteinuria was observed six months after the second infusion, at which time the 2021 DORIS remission criteria were also met, and this remission has persisted through the latest follow-up at 20 months. CONCLUSION: CD19-targeted CAR-NK cell therapy achieved durable remission in a patient with relapsed/refractory LN and showed favorable safety and tolerability.",
-        "authors": [
-          "Yu Tang",
-          "Yanru Wang",
-          "Wei Shi",
-          "Xun Gong",
-          "Yingying Qiu"
-        ],
-        "journal": "Arthritis research & therapy",
-        "date": "2026-09-08",
+        "journal": "Science translational medicine",
+        "date": "2026-07-22",
         "keywords": [],
         "companies": [],
-        "title_cn": "Allogeneic CD19 CAR-NK cell therapy for a patient with relapsed and refractory lupus nephritis.",
+        "title_cn": "Modulating the VIP-VIPR pathway reprograms CAR T cells for superior antitumor efficacy in preclinical cancer models.",
         "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：CAR-NK细胞治疗；研究层级：基础研究。\n【核心实验关键数据】核心发现：安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Arthritis research & therapy。\n【后续追踪要点】基因/细胞治疗；安全性监测。",
-        "composite_score": 11.53,
-        "relevance_score": 18.5,
-        "impact_factor": null,
-        "top_tier": false
+        "summary_cn": "【研究基础与实验设计】模型：小鼠模型；核心技术：CAR-T细胞治疗；研究层级：临床前研究。\n【核心实验关键数据】表型：认知/学习记忆障碍, 肿瘤发生；核心发现：抑制作用, 促进作用, 调控作用, 疾病模型建立。\n【机制创新与产业价值】发表期刊：Science translational medicine。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "A boost for CAR T cell therapy.",
+        "composite_score": 5.43,
+        "relevance_score": 4.0,
+        "impact_factor": 15.8,
+        "top_tier": true
       }
     ],
     "adc": [
@@ -1452,6 +1479,30 @@
     ],
     "glp1": [
       {
+        "pmid": "42419343",
+        "title": "Nutritional, functional, and psychological considerations for incretin-based therapies in adults-an EASO, EFAD, and ECPO Consensus Statement.",
+        "abstract": "Incretin-based therapies, including GLP-1 receptor agonists and dual GLP-1-GIP receptor agonists, have transformed obesity management, producing substantial weight loss and cardiometabolic benefits, with potential improvements in obesity-related complications, physical function, quality of life, and psychological wellbeing for many individuals. However, reduced appetite, rapid weight loss, gastrointestinal adverse effects, and changes in eating behaviour might create nutritional, functional, or psychological risks in some individuals. This EASO-EFAD-ECPO Consensus Statement outlines pragmatic nutritional, functional, and psychological considerations during incretin-based therapy treatment. We synthesise evidence on medical nutrition therapy, including protein targets during weight loss, dietary quality, and mitigation of gastrointestinal adverse events. We discuss pragmatic approaches that could help support preservation of fat-free mass and physical function during weight loss, including adequate protein intake and progressive resistance exercise. We emphasise the psychological and identity-related challenges during incretin-based therapy, including shifts in food reward, coping, and social connection, and recommend psychological screening, with integrated support where needed. We propose pragmatic monitoring during weight loss, including diet quality, micronutrient risk, and functional measures, with body-composition assessment where indicated. We suggest approaches to address disparities in access and adherence to ensure equity. We discuss the importance of shared decision making with the patient in decisions to start, up-titrate, delay, pause, down-titrate, or discontinue incretin-based therapies, considering the physical and psychological risks of treating versus not treating. Finally, we identify future research priorities, including longitudinal research on micronutrient status, macronutrient requirements, changes in dietary patterns and food choices, musculoskeletal outcomes, unique dosing schedules, and post-cessation maintenance to optimise safety, efficacy, and the patient experience.",
+        "authors": [
+          "Laurence J Dobbie",
+          "Liisa Tolvanen",
+          "Daniela Alves",
+          "Jennifer L Baker",
+          "Natalie S Bez"
+        ],
+        "journal": "The lancet. Diabetes & endocrinology",
+        "date": "2026-07-08",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Nutritional, functional, and psychological considerations for incretin-based therapies in adults-an EASO, EFAD, and ECPO Consensus Statement.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】核心发现：鉴定/表征, 安全性评估, 有效性验证；关键突破：提高疗效。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The lancet. Diabetes & endocrinology。\n【后续追踪要点】安全性监测。",
+        "backfilled_from_news": "Weight Loss Is Not Surgical Readiness: The Missing Operative Phenotype in GLP-1 ",
+        "composite_score": 9.58,
+        "relevance_score": 9.5,
+        "impact_factor": 44.0,
+        "top_tier": true
+      },
+      {
         "pmid": "42710489",
         "title": "Implications of GLP-1 receptor agonists for the fertility of women with polyendocrine metabolic ovarian syndrome.",
         "abstract": "Women with polyendocrine metabolic ovarian syndrome (PMOS) represent a particularly challenging patient population, characterized by the convergence of reproductive dysfunction, obesity, insulin resistance, and chronic inflammation. The emergence of glucagon-like peptide-1 receptor agonists (GLP-1RAs) offers a transformative therapeutic opportunity, addressing the complex endocrine and reproductive disturbances that underpin this disorder.",
@@ -1514,6 +1565,58 @@
         "relevance_score": 2.5,
         "impact_factor": 63.1,
         "top_tier": true
+      },
+      {
+        "pmid": "42134367",
+        "title": "Is weight cycling clinically harmful?",
+        "abstract": "Worldwide, approximately half of the general population is actively attempting to lose weight. However, weight loss is typically followed by substantial weight regain, often leading to repeated cycles of loss and gain of bodyweight. Weight cycling has been suggested to be metabolically harmful, in that it could lead to greater rebounds in fat mass and smaller regains in lean (muscle) mass, thereby promoting sarcopenia, lowering metabolic rate, and exacerbating obesity and its metabolic complications (eg, glucose intolerance). In this Personal view, we critically evaluate evidence from studies in humans and animals investigating whether weight cycling has adverse effects on bodyweight, body composition, energy metabolism, and metabolic function. We also briefly discuss potential strategies to mitigate weight regain and its consequences. Overall, the current evidence does not support a causal link between weight cycling per se and clinical harm in people with obesity. Most of the adverse effects reported are likely circumstantial, possibly because of ageing, unintentional weight loss, reverse causality, earlier onset of obesity, repeated obesogenic exposures, or longer cumulative exposure to obesity. Available evidence suggests that the benefits of intermittent weight reduction-such as improved metabolic markers, cardiovascular health, and quality of life-outweigh the potential risks associated with weight fluctuation.",
+        "authors": [
+          "Faidon Magkos",
+          "Norbert Stefan"
+        ],
+        "journal": "The lancet. Diabetes & endocrinology",
+        "date": "2026-05-14",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Is weight cycling clinically harmful?",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】核心发现：相关性, 安全性评估。\n【机制创新与产业价值】发表期刊：The lancet. Diabetes & endocrinology。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "Weight Loss Is Not Surgical Readiness: The Missing Operative Phenotype in GLP-1 ",
+        "composite_score": 5.46,
+        "relevance_score": 2.0,
+        "impact_factor": 44.0,
+        "top_tier": true
+      },
+      {
+        "pmid": "42688617",
+        "title": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials.",
+        "abstract": "OBJECTIVE: To compare the efficacy and safety of glucagon-like peptide 1 (GLP-1) based drug treatments for weight loss in adults with overweight or obesity without diabetes. DESIGN: Network meta-analysis of randomised controlled trials. DATA SOURCES: Embase, PubMed (Medline), and Web of Science, 1 January 2000 to 6 March 2026. ELIGIBILITY CRITERIA FOR SELECTING STUDIES: Randomised controlled trials that enrolled adults with overweight or obesity, comparing GLP-1 receptor agonists or related co-agonists with placebo or active comparators, with a minimum intervention duration of 12 weeks. Excluded were trials that enrolled participants with diabetes, or where diabetes status could not be clearly determined. RESULTS: 58 trials of 24 214 participants were analysed. Compared with placebo, weight loss was greatest with retatrutide (-22.10%, 95% confidence interval -25.60% to -18.60%), followed by tirzepatide (-19.28%, -20.39% to -18.16%), and CagriSema (a combination of cagrilintide and semaglutide, -17.32%, -19.32% to -15.32%). Conventional GLP-1 receptor agonists showed more modest effects. Similar patterns were seen for waist circumference and lipid outcomes. Treatment rankings suggested a probabilistic hierarchy favouring next generation incretin based treatments, although confidence intervals overlapped for several comparisons. Low certainty evidence suggested higher rates for discontinuing treatment with danuglipron and retatrutide, whereas mazdutide showed better tolerability. CONCLUSIONS: In adults with overweight or obesity without diabetes, next generation incretin based treatments achieved greater weight loss than conventional GLP-1 receptor agonists. Differences in tolerability, limited head-to-head evidence, and residual uncertainty, however, should be considered when interpreting comparative treatment effects. STUDY REGISTRATION: PROSPERO CRD420261279841.",
+        "authors": [
+          "Deshi Chen",
+          "Bing Ma",
+          "Hao Sun",
+          "Jing Zhang",
+          "Linlin Gong"
+        ],
+        "journal": "BMJ medicine",
+        "date": "2026-08-27",
+        "keywords": [
+          "Diabetes mellitus",
+          "Drug therapy",
+          "Endocrinology",
+          "Pharmacology, clinical",
+          "Public health",
+          "Therapeutics"
+        ],
+        "companies": [],
+        "title_cn": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：22.10%, 95%, 25.60%；核心发现：安全性评估, 有效性验证；局限性：需进一步研究。\n【机制创新与产业价值】发表期刊：BMJ medicine。\n【后续追踪要点】安全性监测。",
+        "backfilled_from_news": "Interpreting reduced biologic initiation after GLP-1 receptor agonist exposure i",
+        "composite_score": 13.3,
+        "relevance_score": 16.0,
+        "impact_factor": 93.6,
+        "top_tier": false
       },
       {
         "pmid": "42736027",
@@ -1621,95 +1724,6 @@
         "composite_score": 10.7,
         "relevance_score": 14.5,
         "impact_factor": 9.8,
-        "top_tier": false
-      },
-      {
-        "pmid": "42712041",
-        "title": "Safety, Pharmacokinetics and Pharmacodynamics of the GLP-1/GIP/GCG Receptor Agonist UBT251 Injection: A Randomized, Placebo-Controlled Phase 1a/1b Study.",
-        "abstract": "AIMS: UBT251 is a novel triple agonist peptide targeting the glucagon-like peptide-1 (GLP-1), glucose-dependent insulinotropic polypeptide (GIP) and glucagon receptors. This first-in-human Phase 1a/1b study evaluated the safety, tolerability, pharmacokinetic and pharmacodynamic characteristics of UBT251. MATERIALS AND METHODS: This randomized, double-blind, placebo-controlled study consisted of two clinical trials. The Phase 1a study was a single-ascending-dose trial, in which participants received a single subcutaneous injection of UBT251 at doses ranging from 0.1 to 4.5 mg. The Phase 1b study was a multiple-ascending-dose trial conducted in participants with overweight or obesity without diabetes. UBT251 was administered once weekly by subcutaneous injection for 12 consecutive weeks. Safety and tolerability were the primary endpoints. RESULTS: UBT251 was generally well tolerated, with laboratory investigations, decreased appetite and gastrointestinal adverse events being the most common adverse effects. In participants with overweight or obesity, once-weekly subcutaneous injections of UBT251 at doses of 1, 3 and 6 mg for 12 weeks led to a mean body weight reduction of 8.96-13.48 kg, compared with the 1.57 kg increase observed in the placebo group. Following single and multiple dosing, UBT251 exhibited approximately linear pharmacokinetics across the 1.0-6.0 mg dose range. UBT251 treatment also demonstrated favourable metabolic effects, including reductions in fasting plasma glucose, haemoglobin A1c and lipid parameters. CONCLUSIONS: UBT251 demonstrated an acceptable safety profile and predictable pharmacokinetic properties, accompanied by substantial weight reduction and meaningful metabolic improvements. These findings strongly support the continued clinical development of UBT251 as a potential therapeutic option for obesity and type 2 diabetes. TRIAL REGISTRATION: ChiCTR2600116148 and ChiCTR2600123803 (https://www.chictr.org.cn/).",
-        "authors": [
-          "Guo-Ping Yang",
-          "Ya-Xin Liu",
-          "Jin-Lian Xie",
-          "Shan Zeng",
-          "Jing Xiong"
-        ],
-        "journal": "Diabetes, obesity & metabolism",
-        "date": "2026-09-08",
-        "keywords": [
-          "GIP",
-          "GLP‐1",
-          "diabetes",
-          "glucagon",
-          "obesity",
-          "triple agonist"
-        ],
-        "companies": [],
-        "title_cn": "Safety, Pharmacokinetics and Pharmacodynamics of the GLP-1/GIP/GCG Receptor Agonist UBT251 Injection: A Randomized, Placebo-Controlled Phase 1a/1b Study.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：I期临床试验。\n【核心实验关键数据】核心发现：首次发现/鉴定, 安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Diabetes, obesity & metabolism。\n【后续追踪要点】临床试验；新药研发；安全性监测。",
-        "composite_score": 10.7,
-        "relevance_score": 14.5,
-        "impact_factor": 9.8,
-        "top_tier": false
-      },
-      {
-        "pmid": "42610271",
-        "title": "Effect of Semaglutide on the Inflammatory Biomarker High-Sensitivity CRP in Patients With Established Cardiovascular Disease and Overweight or Obesity in SELECT: A Prespecified Secondary Analysis.",
-        "abstract": "BACKGROUND: In SELECT (Semaglutide Effects on Heart Disease and Stroke in Patients With Overweight or Obesity), among 17 604 patients with known atherosclerotic cardiovascular disease and overweight or obesity, but not diabetes, randomization to the glucagon-like peptide-1 receptor agonist semaglutide significantly reduced the primary outcome of major adverse cardiovascular events (MACE; cardiovascular death, nonfatal myocardial infarction, or nonfatal stroke) compared with placebo (mean follow-up, 39.8 months). Inflammation, as indicated by plasma hsCRP (high-sensitivity C-reactive protein) level, is implicated as a biomarker predicting cardiovascular risk in obesity and atherosclerotic cardiovascular disease. SELECT provides a unique opportunity to study the relationship among hsCRP, obesity, weight loss, and MACE outcomes in semaglutide versus placebo groups. METHODS: In this prespecified SELECT substudy, we evaluated whether baseline hsCRP levels predicted MACE risk and examined the relationships between changes in hsCRP levels and time to first MACE, baseline body weight, weight loss, and other clinical measures among treatment groups over time (104, 208 weeks) using multiple approaches, including Cox modeling. RESULTS: Baseline hsCRP level, which was similar in the semaglutide (geometric mean 1.96 mg/L) and placebo (geometric mean 1.91 mg/L) groups, was prognostic of future MACE. The risk of MACE increased across baseline hsCRP level <2, 2-<10, and ≥10 mg/L subgroups, including significant associations with cardiovascular and all-cause death. Semaglutide reduced hsCRP levels (-37.8% [104 weeks]) and risk of MACE across all hsCRP subgroups. Greater reductions in ratio-to-baseline hsCRP with semaglutide were associated with greater weight loss, but preceded major weight loss, evident by 4 and 8 weeks, and occurred among those without weight loss. Semaglutide-associated changes in hsCRP were independent of low-density lipoprotein cholesterol levels, statin use, and atherosclerotic cardiovascular disease entry criteria. hsCRP reductions were found to be prognostic of decreased risk of MACE. Modeling suggests decreased inflammation as contributing in part to the benefits seen with semaglutide in SELECT. CONCLUSIONS: In SELECT, hsCRP data at baseline and in response to treatment with semaglutide support inflammation as a potential prognostic factor associated with cardiovascular risk in these generally well-treated patients with atherosclerotic cardiovascular disease and overweight or obesity but not diabetes. These findings suggest that the MACE reduction observed with semaglutide versus placebo in SELECT may have partially involved a decrease in inflammation. REGISTRATION: URL: https://www.clinicaltrials.gov; Unique identifier: NCT03574597.",
-        "authors": [
-          "Jorge Plutzky",
-          "Paweł Bogdański",
-          "Helen M Colhoun",
-          "Selçuk Dağdelen",
-          "John E Deanfield"
-        ],
-        "journal": "Circulation",
-        "date": "2026-08-18",
-        "keywords": [
-          "atherosclerosis",
-          "cardiovascular diseases",
-          "glucagon-like peptide-1 receptor agonists",
-          "inflammation",
-          "obesity",
-          "semaglutide"
-        ],
-        "companies": [],
-        "title_cn": "Effect of Semaglutide on the Inflammatory Biomarker High-Sensitivity CRP in Patients With Established Cardiovascular Disease and Overweight or Obesity in SELECT: A Prespecified Secondary Analysis.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：37.8%；核心发现：相关性, 疾病模型建立, 安全性评估, 有效性验证。\n【机制创新与产业价值】发表期刊：Circulation。\n【后续追踪要点】伴随诊断。",
-        "composite_score": 10.44,
-        "relevance_score": 11.5,
-        "impact_factor": 35.5,
-        "top_tier": false
-      },
-      {
-        "pmid": "42728029",
-        "title": "International expert panel review for the use of resmetirom and semaglutide in the management of MASH-related fibrosis: clinical practice update.",
-        "abstract": "The recent conditional US Food and Drug Administration (FDA) approval of two therapies, resmetirom (Rezdiffra) and semaglutide (Wegovy), marks the first time clinicians have pharmacological therapy for metabolic dysfunction-associated steatohepatitis (MASH) with significant fibrosis (F2-F3) without cirrhosis, a disease that previously had no available pharmacological treatment. The two agents act through complementary mechanisms: resmetirom as a liver-directed thyroid hormone receptor-beta agonist and semaglutide as a glucagon-like peptide-1 receptor agonist (GLP-1 RA) with a broad spectrum of metabolic effects. In this international expert panel review, we consolidate data from phase III trials, FDA labels and emerging clinical experience into a single resource. It covers the entire care pathway: non-invasive test-based diagnosis of MASH with significant fibrosis, treatment selection and initiation, on-treatment monitoring and response assessment. We offer practical recommendations for individualising therapy by patient phenotype, managing patients already receiving GLP-1 RAs and defining response, non-response and criteria for switching or combining agents. The proposed framework is intended to evolve as long-term outcomes data emerge and additional MASH therapies become available.",
-        "authors": [
-          "Maria Mironova",
-          "Vlad Ratziu",
-          "Mary E Rinella",
-          "Meena B Bansal",
-          "Mazen Noureddin"
-        ],
-        "journal": "Gut",
-        "date": "2026-09-11",
-        "keywords": [
-          "FATTY LIVER",
-          "FIBROSIS",
-          "LIVER METABOLISM",
-          "OBESITY",
-          "PHARMACOTHERAPY"
-        ],
-        "companies": [],
-        "title_cn": "International expert panel review for the use of resmetirom and semaglutide in the management of MASH-related fibrosis: clinical practice update.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：碱基编辑(CBE/ABE)；研究层级：III期临床试验。\n【核心实验关键数据】核心发现：首次发现/鉴定, 有效性验证。\n【机制创新与产业价值】发表期刊：Gut。\n【后续追踪要点】长期疗效评估。",
-        "composite_score": 9.14,
-        "relevance_score": 10.0,
-        "impact_factor": 23.0,
         "top_tier": false
       }
     ],
