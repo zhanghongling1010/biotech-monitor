@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-17T07:01:06.776150",
+  "timestamp": "2026-09-17T07:16:12.641184",
   "critical": {
     "deals": [
       {
@@ -341,15 +341,6 @@
         ]
       },
       {
-        "title": "Semaglutide and Tirzepatide for the treatment of MASH: What Works, What's Coming, and What's Missing.",
-        "journal": "Digestion",
-        "date": "2026-09-09",
-        "authors": [
-          "Sakkarin Chirapongsathorn",
-          "Frank Tacke"
-        ]
-      },
-      {
         "title": "Development and external validation of a new prognostic model for metastatic clear cell renal cell carcinoma: a preregistered analysis using data from randomised clinical trials in the checkpoint inhibitor era.",
         "journal": "The Lancet. Oncology",
         "date": "2026-09-09",
@@ -357,6 +348,16 @@
           "Anke Richters",
           "Marinde J G Bond",
           "Hans M Westgeest"
+        ]
+      },
+      {
+        "title": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials.",
+        "journal": "BMJ medicine",
+        "date": "2026-08-27",
+        "authors": [
+          "Deshi Chen",
+          "Bing Ma",
+          "Hao Sun"
         ]
       },
       {
@@ -377,6 +378,36 @@
           "R Ryan Meyerhoff",
           "Alan Chen",
           "Jenny O'Brien"
+        ]
+      },
+      {
+        "title": "Intravenous gene therapy improves life span and clinical outcomes in a feline model of Sandhoff disease.",
+        "journal": "Science translational medicine",
+        "date": "2026 Sep 9",
+        "authors": [
+          "Maguire AS",
+          "Ta NL",
+          "Gross AL"
+        ]
+      },
+      {
+        "title": "Pancreatic ductal adenocarcinoma: The Vision of Heracles.",
+        "journal": "Cancer cell",
+        "date": "2026 Sep 14",
+        "authors": [
+          "Mota Reyes C",
+          "Goetz MR",
+          "Algül H"
+        ]
+      },
+      {
+        "title": "Dense RNA motif modifications enable robust in vivo prime editing and enhance efficiencies of diverse editing systems.",
+        "journal": "Nature biomedical engineering",
+        "date": "2026 Sep 11",
+        "authors": [
+          "Lei X",
+          "Chen D",
+          "Zhang K"
         ]
       },
       {
@@ -1171,26 +1202,27 @@
         "top_tier": false
       },
       {
-        "pmid": "42715334",
-        "title": "TCR-JANUS engager proteins enable bispecific targeting to overcome tumor heterogeneity in TCR-T cell therapy.",
-        "abstract": "T cell receptor (TCR)-based immunotherapy is limited by tumor antigen heterogeneity, which frequently leads to relapse. We developed a bispecific TCR-JANUS engager that functions synergistically with TCR engineered T cells (TCR-T). In contrast to conventional T cell engagers targeting CD3, TCR-JANUS engages both the variable region of a transgenic TCR (TRBV) and a tumor surface antigen. Using a model system targeting a humanized KRAS-G12V-specific TCR and trophoblast cell surface antigen 2 (Trop2), we show that TCR-JANUS effectively redirects TCR-T cells to lyse Trop2-expressing tumor cells while preserving intrinsic specificity toward the cognate pHLA target, thereby enabling simultaneous dual-antigen recognition. In heterogeneous tumor models, the combination of TCR-JANUS with TCR-T cells, an integrated system termed T Cell Dual Arsenal Recon, potently suppressed tumor growth by clearing antigenically divergent populations. Moreover, TCR-JANUS maintained enhanced T cell functionality with reduced exhaustion compared to anti-CD3-based engagers upon chronic stimulation. Together, this approach offers a targeted and durable strategy to overcome antigenic heterogeneity, expanding the clinical prospects of TCR-T cell therapy for solid tumors.",
+        "pmid": "42085626",
+        "title": "Safety and efficacy of allogeneic CD19-directed CAR-T therapy CTX110 in relapsed/refractory B-cell non-Hodgkin lymphoma.",
+        "abstract": "This multicenter, single-arm, phase 1/2 study evaluated the safety and efficacy of CD19-directed allogeneic chimeric antigen receptor (CAR) immunotherapy CTX110 in adult patients with relapsed/refractory (R/R) B-cell non-Hodgkin lymphoma (NHL). Patients received 1 or 2 treatment courses: standard lymphodepletion, followed by 1 CTX110 infusion at dose levels (DLs) 1 to 4 (3 × 107 to 60 × 107 CAR T cells; dose escalation, N = 32), or 2 infusions at DL4 on days 1 and 35 (cohort expansion, N = 31). Primary end points in dose escalation and cohort expansion were incidence of dose-limiting toxicities and objective response rate, respectively. CTX110 was administered to 63 heavily pretreated patients: 59% primary refractory, 43% with ≥3 previous therapies. Among 57 patients whose first infusion was DL ≥3, rates of objective and complete response (CR) were 65% and 39%, respectively. Among 22 patients achieving CR, 5 (23%) had ongoing CR at data cutoff, with 15 to 50 (median 34) months follow-up. The 2-infusion regimen prolonged response duration vs 1 infusion (hazard ratio, 0.65). Cytokine release syndrome (CRS) and immune effector cell-associated neurotoxicity syndrome (ICANS) were reported in 54% and 13% of treated patients, respectively, including 2 grade ≥3 cases each. The most common grade ≥3 adverse events (AEs) were neutropenia (59%), and anemia and thrombocytopenia (35% each). Serious AEs occurred in 32% of treated patients, including CRS (14%), ICANS (8%), and febrile neutropenia (6%). In this R/R NHL population, CTX110 was well tolerated, resulting in clinically meaningful responses at DL ≥3, with a second infusion demonstrating further clinical benefit. This trial was registered at www.clinicaltrials.gov as #NCT04035434.",
         "authors": [
-          "Chenxi Cheng",
-          "Ting Liang",
-          "Pengju Yao",
-          "Wenling Wang",
-          "Huxuan Chen"
+          "Joseph P McGuirk",
+          "Armin Ghobadi",
+          "Carlos R Bachier",
+          "Paul J Shaughnessy",
+          "Farrukh Awan"
         ],
-        "journal": "Science advances",
-        "date": "2026-09-09",
+        "journal": "Blood advances",
+        "date": "",
         "keywords": [],
         "companies": [],
-        "title_cn": "TCR-JANUS engager proteins enable bispecific targeting to overcome tumor heterogeneity in TCR-T cell therapy.",
+        "title_cn": "Safety and efficacy of allogeneic CD19-directed CAR-T therapy CTX110 in relapsed/refractory B-cell non-Hodgkin lymphoma.",
         "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：抑制作用, 促进作用, 疾病模型建立, 有效性验证；关键突破：克服耐药。\n【机制创新与产业价值】发表期刊：Science advances。\n【后续追踪要点】联合用药；基因/细胞治疗；长期疗效评估。",
-        "composite_score": 9.51,
+        "summary_cn": "【研究基础与实验设计】研究针对：淋巴瘤；核心技术：CAR-T细胞治疗；研究层级：I期临床试验。\n【核心实验关键数据】量化数据：59%, 43%, 65%；核心发现：安全性评估, 有效性验证, 表达水平变化。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Blood advances。\n【后续追踪要点】安全性监测。",
+        "backfilled_from_news": "Immune Toxicities After CAR-T and Bispecific T-Cell Engager Therapies.",
+        "composite_score": 10.14,
         "relevance_score": 12.0,
-        "impact_factor": 11.7,
+        "impact_factor": 21.0,
         "top_tier": false
       }
     ],
@@ -1480,6 +1512,37 @@
         "top_tier": true
       },
       {
+        "pmid": "42688617",
+        "title": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials.",
+        "abstract": "OBJECTIVE: To compare the efficacy and safety of glucagon-like peptide 1 (GLP-1) based drug treatments for weight loss in adults with overweight or obesity without diabetes. DESIGN: Network meta-analysis of randomised controlled trials. DATA SOURCES: Embase, PubMed (Medline), and Web of Science, 1 January 2000 to 6 March 2026. ELIGIBILITY CRITERIA FOR SELECTING STUDIES: Randomised controlled trials that enrolled adults with overweight or obesity, comparing GLP-1 receptor agonists or related co-agonists with placebo or active comparators, with a minimum intervention duration of 12 weeks. Excluded were trials that enrolled participants with diabetes, or where diabetes status could not be clearly determined. RESULTS: 58 trials of 24 214 participants were analysed. Compared with placebo, weight loss was greatest with retatrutide (-22.10%, 95% confidence interval -25.60% to -18.60%), followed by tirzepatide (-19.28%, -20.39% to -18.16%), and CagriSema (a combination of cagrilintide and semaglutide, -17.32%, -19.32% to -15.32%). Conventional GLP-1 receptor agonists showed more modest effects. Similar patterns were seen for waist circumference and lipid outcomes. Treatment rankings suggested a probabilistic hierarchy favouring next generation incretin based treatments, although confidence intervals overlapped for several comparisons. Low certainty evidence suggested higher rates for discontinuing treatment with danuglipron and retatrutide, whereas mazdutide showed better tolerability. CONCLUSIONS: In adults with overweight or obesity without diabetes, next generation incretin based treatments achieved greater weight loss than conventional GLP-1 receptor agonists. Differences in tolerability, limited head-to-head evidence, and residual uncertainty, however, should be considered when interpreting comparative treatment effects. STUDY REGISTRATION: PROSPERO CRD420261279841.",
+        "authors": [
+          "Deshi Chen",
+          "Bing Ma",
+          "Hao Sun",
+          "Jing Zhang",
+          "Linlin Gong"
+        ],
+        "journal": "BMJ medicine",
+        "date": "2026-08-27",
+        "keywords": [
+          "Diabetes mellitus",
+          "Drug therapy",
+          "Endocrinology",
+          "Pharmacology, clinical",
+          "Public health",
+          "Therapeutics"
+        ],
+        "companies": [],
+        "title_cn": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：22.10%, 95%, 25.60%；核心发现：安全性评估, 有效性验证；局限性：需进一步研究。\n【机制创新与产业价值】发表期刊：BMJ medicine。\n【后续追踪要点】安全性监测。",
+        "backfilled_from_news": "Interpreting reduced biologic initiation after GLP-1 receptor agonist exposure i",
+        "composite_score": 13.3,
+        "relevance_score": 16.0,
+        "impact_factor": 93.6,
+        "top_tier": false
+      },
+      {
         "pmid": "42736027",
         "title": "Psychiatric Safety of GLP-1 and Dual GIP/GLP-1 Receptor Agonists in Adolescents With Obesity.",
         "abstract": "BACKGROUND: Glucagon-like peptide-1 receptor agonists (GLP-1RAs) and dual GIP/GLP-1 receptor agonists are increasingly used for adolescent obesity, but concerns persist regarding psychiatric adverse events, particularly suicidality. METHODS: This retrospective cohort study used deidentified electronic health records from the TriNetX Global Collaborative Network. Adolescents with overweight or obesity were included. New users of semaglutide, liraglutide, or tirzepatide were compared with those receiving lifestyle interventions. Cohorts were balanced using propensity score matching. The primary outcome was suicide-related events (suicidal ideation or suicide attempt). Secondary outcomes included suicidal ideation, suicide attempt, anxiety, insomnia, depression, and eating disorders, assessed from 30 days to 1095 days after the index date. RESULTS: After propensity score matching, 9222 adolescents were included in each group. Incretin-based therapy was associated with lower risks of suicide-related events (HR, 0.74; 95% CI, 0.57-0.95), suicidal ideation (HR, 0.73; 95% CI, 0.56-0.96), and anxiety (HR, 0.92; 95% CI, 0.84-0.99) compared with lifestyle intervention. No significant differences were observed for suicide attempt, insomnia, depression, or eating disorders. Risk reductions were significant among female adolescents (HR, 0.61; 95% CI, 0.46-0.82) and those without Type 2 diabetes (HR, 0.63; 95% CI, 0.47-0.85), but not among males or those with Type 2 diabetes. Sensitivity analyses supported the primary findings. CONCLUSIONS: Among adolescents with obesity, incretin-based therapy was not associated with increased psychiatric risk and was associated with lower risks of suicide-related events, suicidal ideation, and anxiety compared with lifestyle intervention. Although a lower risk was observed compared with lifestyle intervention, this finding should be interpreted cautiously given potential selection bias and the lack of a significant difference in the active-comparator analysis with metformin.",
@@ -1687,36 +1750,6 @@
         "composite_score": 10.4,
         "relevance_score": 12.5,
         "impact_factor": 20.8,
-        "top_tier": false
-      },
-      {
-        "pmid": "42744726",
-        "title": "A multicenter real-world study on the safety and effectiveness of the glucagon-like peptide-1 receptor agonist (liraglutide) in adolescents with obesity in Taiwan.",
-        "abstract": "BACKGROUND AND AIMS: Pediatric obesity is linked to many metabolic complications and has limited treatment options. We evaluated the safety and effectiveness of GLP-1 receptor agonist (liraglutide) in adolescents with obesity in clinical practice in Taiwan. METHODS: We conducted a prospective study (NCT06283641) across 14 hospitals and clinics from February 2024 to March 2025 evaluating adolescents receiving liraglutide at baseline, week 13, and week 26. Demographics, and safety and effectiveness outcomes, including incidence proportions of adverse events and adverse drug reactions, and changes in body weight and body mass index, were assessed. RESULTS: Among 41 participants, 22 (53.7%) were male, with mean age (±standard deviation) 13.9 ± 1.8 years, body weight (BW) 88.5 ± 19.3 kg, and body mass index (BMI) 33.4 ± 5.1 kg/m2. Nineteen (46.3%) had medical history of hepatic impairment. Mean daily and maximum doses were 1.4 ± 0.5 mg/day and 1.8 ± 0.7 mg/day, respectively, throughout 128.3 ± 56.0 days; 14.4% escalated to 3.0 mg/day. Overall respective incidence proportions of adverse events and adverse drug reactions were 19.5% (8/41; all mild) and 9.8% (4/41; 6 events), respectively. Gastrointestinal events were most frequent, followed by injection site-related events. No treatment discontinuation resulted from intolerance. Mean respective losses in BW, BMI, and BMI standard deviation score at weeks 13 and 26 were -2.7 ± 3.8 kg (p = 0.0003), -1.3 ± 1.4 kg/m2 (p < 0.0001), and -0.2 ± 0.2 (p < 0.0001); and -4.4 ± 5.7 kg (p = 0.0015), -1.9 ± 2.1 kg/m2 (p = 0.0004), and -0.4 ± 0.3 (p < 0.0001), respectively. CONCLUSION: In adolescents with obesity in Taiwan, liraglutide at doses below 3.0 mg/day was well-tolerated, and reductions in BW, BMI, and BMI standard deviation score were observed.",
-        "authors": [
-          "Chiao-Fan Chiu",
-          "Chu-Kuang Chou",
-          "Shu-Wei Hu",
-          "Kuo-Chin Huang",
-          "Yi-Lei Wu"
-        ],
-        "journal": "Obesity research & clinical practice",
-        "date": "2026-09-15",
-        "keywords": [
-          "Adolescents",
-          "GLP-1 RA",
-          "Liraglutide",
-          "Obesity",
-          "Real-world evidence",
-          "Taiwan"
-        ],
-        "companies": [],
-        "title_cn": "A multicenter real-world study on the safety and effectiveness of the glucagon-like peptide-1 receptor agonist (liraglutide) in adolescents with obesity in Taiwan.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】量化数据：53.7%, 46.3%, 14.4%；核心发现：相关性, 安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Obesity research & clinical practice。\n【后续追踪要点】安全性监测。",
-        "composite_score": 10.14,
-        "relevance_score": 15.0,
-        "impact_factor": 4.2,
         "top_tier": false
       }
     ],
