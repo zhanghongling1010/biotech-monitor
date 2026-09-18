@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-18T07:16:02.294107",
+  "timestamp": "2026-09-19T07:01:21.650584",
   "critical": {
     "deals": [
       {
@@ -10,17 +10,6 @@
         "company": "Bristol Myers Squibb / Prime Medicine",
         "value": "$2.5B total",
         "date": "2026-06-18",
-        "priority": "critical"
-      },
-      {
-        "title": "Sling gets $123M for Phase 3 trial of ex-Astellas drug in thyroid eye disease",
-        "title_cn": "Sling gets $123M for Phase 3 trial of ex-Astellas drug in thyroid eye disease",
-        "description_cn": "【交易类型】临床试验；【交易详情】有药物正在推进III期临床试验",
-        "description": "Investors are pumping $123 million into a tiny Michigan biotech that is resurrecting an Astellas cancer drug for an eye disease that has attracted lots of VC and pharma attention in recent years.\n\n Sling Therapeutics ...",
-        "link": "https://endpoints.news/sling-gets-123m-for-phase-3-trial-of-ex-astellas-drug-in-thyroid-eye-disease/",
-        "source": "endpoints",
-        "date": "Wed, 16 Sep 2026 11:00:19 +0000",
-        "companies": [],
         "priority": "critical"
       },
       {
@@ -94,16 +83,14 @@
         "priority": "normal"
       },
       {
-        "title": "STAT+: England to cover AstraZeneca breast cancer drug, a result of U.K.-U.S. drug pricing deal",
-        "title_cn": "STAT+: England to cover AstraZeneca breast cancer drug, a result of U.K.-U.S. drug pricing deal",
+        "title": "STAT+: Pharmalittle: We’re reading about licensing deals with China, making drugs in space, and more",
+        "title_cn": "STAT+: Pharmalittle: We’re reading about licensing deals with China, making drugs in space, and more",
         "description_cn": "",
-        "description": "A breast cancer drug from AstraZeneca will now be available in England after a pricing deal was reached, in part a result of the U.S.-U.K. pharma pact.",
-        "link": "https://www.statnews.com/2026/09/17/astrazeneca-enhertu-breast-cancer-england-nice-pricing-agreement-us-trade-deal/?utm_campaign=rss",
+        "description": "The U.S. is working on rules for investing in China that would likely preserve pharma's ability to strike most licensing deals for Chinese drugs",
+        "link": "https://www.statnews.com/pharmalot/2026/09/18/rules-for-china-licensing-deals-making-drugs-in-space/?utm_campaign=rss",
         "source": "statnews",
-        "date": "Thu, 17 Sep 2026 07:42:48 +0000",
-        "companies": [
-          "AZN"
-        ],
+        "date": "Fri, 18 Sep 2026 13:29:38 +0000",
+        "companies": [],
         "priority": "normal"
       }
     ],
@@ -117,30 +104,6 @@
         "value": "",
         "date": "",
         "priority": "normal"
-      },
-      {
-        "title": "Novartis' TREM2 drug fails Phase 2 ALS trial",
-        "title_cn": "Novartis' TREM2 drug fails Phase 2 ALS trial",
-        "description_cn": "【交易类型】临床试验；【交易详情】有药物正在推进II期临床试验",
-        "description": "Novartis has scrapped development of a Phase 2 treatment candidate for amyotrophic lateral sclerosis, Endpoints News has learned.\n\n The Swiss pharma giant is ending work on VHB937/lifonebart in ALS, according to a",
-        "link": "https://endpoints.news/novartis-trem2-drug-fails-phase-2-als-trial/",
-        "source": "endpoints",
-        "date": "Wed, 16 Sep 2026 11:24:04 +0000",
-        "companies": [
-          "NVS"
-        ],
-        "priority": "normal"
-      },
-      {
-        "title": "Sling gets $123M for Phase 3 trial of ex-Astellas drug in thyroid eye disease",
-        "title_cn": "Sling gets $123M for Phase 3 trial of ex-Astellas drug in thyroid eye disease",
-        "description_cn": "【交易类型】临床试验；【交易详情】有药物正在推进III期临床试验",
-        "description": "Investors are pumping $123 million into a tiny Michigan biotech that is resurrecting an Astellas cancer drug for an eye disease that has attracted lots of VC and pharma attention in recent years.\n\n Sling Therapeutics ...",
-        "link": "https://endpoints.news/sling-gets-123m-for-phase-3-trial-of-ex-astellas-drug-in-thyroid-eye-disease/",
-        "source": "endpoints",
-        "date": "Wed, 16 Sep 2026 11:00:19 +0000",
-        "companies": [],
-        "priority": "critical"
       },
       {
         "title": "Bristol Myers scraps $100M Orum-partnered cancer drug",
@@ -191,6 +154,32 @@
         "date": "Thu, 17 Sep 2026 19:55:46 +0000",
         "companies": [],
         "priority": "normal"
+      },
+      {
+        "title": "FDA approves Lilly's oral SERD combo for second-line breast cancer therapy",
+        "title_cn": "FDA approves Lilly's oral SERD combo for second-line breast cancer therapy",
+        "description_cn": "【交易类型】监管批准",
+        "description": "The FDA approved a new combination regimen from Eli Lilly for certain breast cancer patients, a regimen that includes Lilly’s oral selective estrogen receptor degrader (SERD) drug Inluriyo.\n\n Patients with metastatic ...",
+        "link": "https://endpoints.news/fda-approves-lillys-oral-serd-combo-for-second-line-breast-cancer-therapy/",
+        "source": "endpoints",
+        "date": "Fri, 18 Sep 2026 19:32:11 +0000",
+        "companies": [
+          "LLY"
+        ],
+        "priority": "normal"
+      },
+      {
+        "title": "STAT+: Roche expands its Boston footprint with new research center",
+        "title_cn": "STAT+: Roche expands its Boston footprint with new research center",
+        "description_cn": "【交易类型】业务扩展；【战略意义】显示公司对市场需求前景的看好",
+        "description": "A gene therapy approved for Sanfilippo syndrome, good and bad news for Xenon Pharma, and more biotech news",
+        "link": "https://www.statnews.com/2026/09/18/biotech-news-roche-expands-it-boston-footprint-with-research-center/?utm_campaign=rss",
+        "source": "statnews",
+        "date": "Fri, 18 Sep 2026 13:42:29 +0000",
+        "companies": [
+          "RHHBY"
+        ],
+        "priority": "normal"
       }
     ]
   },
@@ -204,17 +193,6 @@
         "company": "Bristol Myers Squibb / Prime Medicine",
         "value": "$2.5B total",
         "date": "2026-06-18",
-        "priority": "critical"
-      },
-      {
-        "title": "Sling gets $123M for Phase 3 trial of ex-Astellas drug in thyroid eye disease",
-        "title_cn": "Sling gets $123M for Phase 3 trial of ex-Astellas drug in thyroid eye disease",
-        "description_cn": "【交易类型】临床试验；【交易详情】有药物正在推进III期临床试验",
-        "description": "Investors are pumping $123 million into a tiny Michigan biotech that is resurrecting an Astellas cancer drug for an eye disease that has attracted lots of VC and pharma attention in recent years.\n\n Sling Therapeutics ...",
-        "link": "https://endpoints.news/sling-gets-123m-for-phase-3-trial-of-ex-astellas-drug-in-thyroid-eye-disease/",
-        "source": "endpoints",
-        "date": "Wed, 16 Sep 2026 11:00:19 +0000",
-        "companies": [],
         "priority": "critical"
       },
       {
@@ -288,16 +266,14 @@
         "priority": "normal"
       },
       {
-        "title": "STAT+: England to cover AstraZeneca breast cancer drug, a result of U.K.-U.S. drug pricing deal",
-        "title_cn": "STAT+: England to cover AstraZeneca breast cancer drug, a result of U.K.-U.S. drug pricing deal",
+        "title": "STAT+: Pharmalittle: We’re reading about licensing deals with China, making drugs in space, and more",
+        "title_cn": "STAT+: Pharmalittle: We’re reading about licensing deals with China, making drugs in space, and more",
         "description_cn": "",
-        "description": "A breast cancer drug from AstraZeneca will now be available in England after a pricing deal was reached, in part a result of the U.S.-U.K. pharma pact.",
-        "link": "https://www.statnews.com/2026/09/17/astrazeneca-enhertu-breast-cancer-england-nice-pricing-agreement-us-trade-deal/?utm_campaign=rss",
+        "description": "The U.S. is working on rules for investing in China that would likely preserve pharma's ability to strike most licensing deals for Chinese drugs",
+        "link": "https://www.statnews.com/pharmalot/2026/09/18/rules-for-china-licensing-deals-making-drugs-in-space/?utm_campaign=rss",
         "source": "statnews",
-        "date": "Thu, 17 Sep 2026 07:42:48 +0000",
-        "companies": [
-          "AZN"
-        ],
+        "date": "Fri, 18 Sep 2026 13:29:38 +0000",
+        "companies": [],
         "priority": "normal"
       }
     ],
@@ -311,30 +287,6 @@
         "value": "",
         "date": "",
         "priority": "normal"
-      },
-      {
-        "title": "Novartis' TREM2 drug fails Phase 2 ALS trial",
-        "title_cn": "Novartis' TREM2 drug fails Phase 2 ALS trial",
-        "description_cn": "【交易类型】临床试验；【交易详情】有药物正在推进II期临床试验",
-        "description": "Novartis has scrapped development of a Phase 2 treatment candidate for amyotrophic lateral sclerosis, Endpoints News has learned.\n\n The Swiss pharma giant is ending work on VHB937/lifonebart in ALS, according to a",
-        "link": "https://endpoints.news/novartis-trem2-drug-fails-phase-2-als-trial/",
-        "source": "endpoints",
-        "date": "Wed, 16 Sep 2026 11:24:04 +0000",
-        "companies": [
-          "NVS"
-        ],
-        "priority": "normal"
-      },
-      {
-        "title": "Sling gets $123M for Phase 3 trial of ex-Astellas drug in thyroid eye disease",
-        "title_cn": "Sling gets $123M for Phase 3 trial of ex-Astellas drug in thyroid eye disease",
-        "description_cn": "【交易类型】临床试验；【交易详情】有药物正在推进III期临床试验",
-        "description": "Investors are pumping $123 million into a tiny Michigan biotech that is resurrecting an Astellas cancer drug for an eye disease that has attracted lots of VC and pharma attention in recent years.\n\n Sling Therapeutics ...",
-        "link": "https://endpoints.news/sling-gets-123m-for-phase-3-trial-of-ex-astellas-drug-in-thyroid-eye-disease/",
-        "source": "endpoints",
-        "date": "Wed, 16 Sep 2026 11:00:19 +0000",
-        "companies": [],
-        "priority": "critical"
       },
       {
         "title": "Bristol Myers scraps $100M Orum-partnered cancer drug",
@@ -376,10 +328,40 @@
     ],
     "research": [
       {
+        "title": "In vivo CRISPR screens identify the glutamine transporter SLC1A5 as a metabolic barrier to antitumor immunity.",
+        "journal": "Science immunology",
+        "date": "2026-09-18",
+        "authors": [
+          "Wenlong Jia",
+          "Guanxing Yu",
+          "Shenqi Han"
+        ]
+      },
+      {
+        "title": "Genomic and transcriptomic quality control for an autologous iPSC-derived cell therapy for Parkinson's disease.",
+        "journal": "Cell stem cell",
+        "date": "2026-09-17",
+        "authors": [
+          "Andres M Bratt-Leal",
+          "Thorsten Gorba",
+          "Roy M Williams"
+        ]
+      },
+      {
         "title": "Anti-B7-H3 ADCs Take Center Stage against SCLC at WCLC.",
         "journal": "Cancer discovery",
         "date": "2026-09-17",
         "authors": []
+      },
+      {
+        "title": "Effectiveness, Safety and Pharmacokinetics of BGM0504, a Dual GLP-1/GIP Receptor Agonist, in Chinese Adults With Overweight or Obesity Without Diabetes: A Phase 2 Multicentre, Randomized, Double-Blind, Placebo-Controlled Trial.",
+        "journal": "Diabetes, obesity & metabolism",
+        "date": "2026-09-17",
+        "authors": [
+          "Linong Ji",
+          "Guoping Yang",
+          "Yangqing Huang"
+        ]
       },
       {
         "title": "Factor IX Padua AAV gene therapy in adolescents with hemophilia B: a phase 1 trial.",
@@ -389,26 +371,6 @@
           "Feng Xue",
           "Ai Zhang",
           "Mankai Ju"
-        ]
-      },
-      {
-        "title": "A rapid CRISPR-based nanodroplet assay enables direct clinical identification of mycobacteria species.",
-        "journal": "Science translational medicine",
-        "date": "2026-09-16",
-        "authors": [
-          "Hongquan Gou",
-          "Long Chen",
-          "Kelly L Eick"
-        ]
-      },
-      {
-        "title": "Antibodies against HLA-E-VL9 enhance NK cell and CD8+ T cell cytotoxicity against tumor cells and HIV-infected CD4+ T cells.",
-        "journal": "Science translational medicine",
-        "date": "2026-09-16",
-        "authors": [
-          "Joyce K Hwang",
-          "Marina Tuyishime",
-          "Daniel J Marston"
         ]
       },
       {
@@ -462,33 +424,13 @@
         ]
       },
       {
-        "title": "Computable longitudinal patient journeys from structured and unstructured EHR data.",
-        "journal": "Nature medicine",
-        "date": "2026-09-10",
+        "title": "Tumor immune microenvironment remodeling predicts response to checkpoint inhibitor therapy.",
+        "journal": "Cancer cell",
+        "date": "2026-09-01",
         "authors": [
-          "Edward Kim",
-          "Richard Foty",
-          "Avnesh S Thakor"
-        ]
-      },
-      {
-        "title": "COVID-19 vaccination around immune checkpoint inhibitor start and survival in a nationwide cohort of patients with cancer.",
-        "journal": "Nature medicine",
-        "date": "2026-09-10",
-        "authors": [
-          "Joe-Elie Salem",
-          "Raphaelle Curmin",
-          "Aya Ajrouche"
-        ]
-      },
-      {
-        "title": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials.",
-        "journal": "BMJ medicine",
-        "date": "2026-08-27",
-        "authors": [
-          "Deshi Chen",
-          "Bing Ma",
-          "Hao Sun"
+          "Zhongyang Lin",
+          "Mitalee Chandra",
+          "Nalini Srinivas"
         ]
       },
       {
@@ -512,33 +454,13 @@
         ]
       },
       {
-        "title": "Intravenous gene therapy improves life span and clinical outcomes in a feline model of Sandhoff disease.",
-        "journal": "Science translational medicine",
-        "date": "2026 Sep 9",
+        "title": "GLP-1R and GIPR crosstalk modulates insulinotropic signaling pathways.",
+        "journal": "Cell chemical biology",
+        "date": "2026-07-08",
         "authors": [
-          "Maguire AS",
-          "Ta NL",
-          "Gross AL"
-        ]
-      },
-      {
-        "title": "Factor IX Padua AAV gene therapy in adolescents with hemophilia B: a phase 1 trial.",
-        "journal": "Nature medicine",
-        "date": "2026 Sep 16",
-        "authors": [
-          "Xue F",
-          "Zhang A",
-          "Ju M"
-        ]
-      },
-      {
-        "title": "Dense RNA motif modifications enable robust in vivo prime editing and enhance efficiencies of diverse editing systems.",
-        "journal": "Nature biomedical engineering",
-        "date": "2026 Sep 11",
-        "authors": [
-          "Lei X",
-          "Chen D",
-          "Zhang K"
+          "Peter Lindquist",
+          "Luuk R Hoegen Dijkhof",
+          "Anna K Drzazga"
         ]
       },
       {
@@ -596,9 +518,32 @@
         "title_cn": "Dense RNA motif modifications enable robust in vivo prime editing and enhance efficiencies of diverse editing systems.",
         "abstract_cn": "",
         "summary_cn": "【研究基础与实验设计】核心技术：碱基编辑(CBE/ABE)、先导编辑；研究层级：动物体内实验。\n【核心实验关键数据】量化数据：70%, 80倍, 11倍, 80倍；核心发现：抑制作用, 促进作用, 表达水平变化。\n【机制创新与产业价值】发表期刊：Nature biomedical engineering。\n【后续追踪要点】新药研发；长期疗效评估。",
-        "composite_score": 8.48,
-        "relevance_score": 8.5,
+        "composite_score": 7.93,
+        "relevance_score": 7.5,
         "impact_factor": 26.8,
+        "top_tier": true
+      },
+      {
+        "pmid": "42758798",
+        "title": "In vivo CRISPR screens identify the glutamine transporter SLC1A5 as a metabolic barrier to antitumor immunity.",
+        "abstract": "Tumor cells often evade immune pressure via metabolic reprogramming, yet the key metabolic regulators orchestrating this process remain incompletely defined. Here, using in vivo metabolic CRISPR screening under distinct immune pressures, we identified tumor cell-intrinsic solute carrier family 1 member 5 (SLC1A5) as a metabolic node that sustains an immunosuppressive tumor microenvironment. SLC1A5-mediated glutamine metabolism in tumor cells modulated CD8 T cell infiltration and effector function, reshaping tumor responses to immune checkpoint blockade therapy. Glucose deprivation up-regulated SLC1A5 isoforms in tumor cells, enhancing glutamine uptake and glutathione synthesis. This adaptation limited mitochondrial oxidative stress and cytosolic mitochondrial DNA release, thereby suppressing cyclic GMP-AMP synthase-stimulator of interferon genes (cGAS-STING) activation, interferon-β production, and CD8 T cell antitumor responses. These findings define a glutamine-fueled metabolic program as a barrier to tumor immunogenicity, positioning SLC1A5 as a tumor-intrinsic metabolic regulator with potential therapeutic relevance.",
+        "authors": [
+          "Wenlong Jia",
+          "Guanxing Yu",
+          "Shenqi Han",
+          "Zhibo Ma",
+          "Junnan Liang"
+        ],
+        "journal": "Science immunology",
+        "date": "2026-09-18",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "In vivo CRISPR screens identify the glutamine transporter SLC1A5 as a metabolic barrier to antitumor immunity.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究层级：动物体内实验。\n【核心实验关键数据】表型：肿瘤发生；核心发现：鉴定/表征, 抑制作用, 促进作用, 调控作用。\n【机制创新与产业价值】信号通路：免疫检查点通路；发表期刊：Science immunology。\n【后续追踪要点】新药研发。",
+        "composite_score": 7.47,
+        "relevance_score": 7.5,
+        "impact_factor": 17.6,
         "top_tier": true
       },
       {
@@ -650,31 +595,6 @@
         "top_tier": true
       },
       {
-        "pmid": "42274009",
-        "title": "Exa-cel in Children with Transfusion-Dependent β-Thalassemia or Sickle Cell Disease.",
-        "abstract": "BACKGROUND: Exagamglogene autotemcel (exa-cel) is a cell therapy in which autologous CD34+ hematopoietic cells are engineered through ex vivo clustered regularly interspaced short palindromic repeats-Cas9 editing of the erythroid-specific enhancer region of BCL11A to express fetal hemoglobin. In phase 3 studies involving participants 12 to 35 years of age with sickle cell disease or transfusion-dependent β-thalassemia, exa-cel eliminated vaso-occlusive crises and the need for red-cell transfusions. METHODS: In two ongoing, phase 3, open-label, single-group studies, we evaluated exa-cel in children 5 to 11 years of age with transfusion-dependent β-thalassemia or sickle cell disease. Before exa-cel infusion, participants underwent myeloablative conditioning with pharmacokinetically dose-adjusted busulfan. The primary end points were transfusion independence for at least 12 consecutive months in children with transfusion-dependent β-thalassemia and freedom from severe vaso-occlusive crises for at least 12 consecutive months in children with sickle cell disease. RESULTS: A total of 15 children with transfusion-dependent β-thalassemia and 11 with sickle cell disease received exa-cel; median follow-up was 16.0 months (range, 2.2 to 32.1) and 16.9 months (range, 7.6 to 33.1), respectively. Of 8 children with transfusion-dependent β-thalassemia who were followed to at least 16 months, 8 were transfusion independent; the status of the remaining 7 was not yet evaluable. Of 8 children with sickle cell disease who were followed to at least 16 months, 8 were free of vaso-occlusive crises; the status of the remaining 3 was not yet evaluable. All the children had at least one grade 3 or 4 adverse event; 2 children with transfusion-dependent β-thalassemia had severe veno-occlusive liver disease that was assessed as being related to busulfan conditioning, 1 of whom died. CONCLUSIONS: Exa-cel therapy resulted in transfusion independence or freedom from severe vaso-occlusive crises in participants with transfusion-dependent β-thalassemia or sickle cell disease, respectively, who were followed for at least 16 months. All the participants had grade 3 or 4 adverse events. (Funded by Vertex Pharmaceuticals and CRISPR Therapeutics; CLIMB THAL-141 ClinicalTrials.gov number, NCT05356195; CLIMB SCD-151 ClinicalTrials.gov number, NCT05329649.).",
-        "authors": [
-          "Haydar Frangoul",
-          "Josu de la Fuente",
-          "Yogi Chopra",
-          "Roland Meisel",
-          "Persis J Amrolia"
-        ],
-        "journal": "The New England journal of medicine",
-        "date": "2026-06-11",
-        "keywords": [],
-        "companies": [
-          "CRISPR Therapeutics"
-        ],
-        "title_cn": "Exa-cel in Children with Transfusion-Dependent β-Thalassemia or Sickle Cell Disease.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：镰状细胞病；核心技术：碱基编辑(CBE/ABE)、Cas9核酸酶；研究层级：III期临床试验。\n【核心实验关键数据】核心发现：促进作用, 安全性评估, 表达水平变化。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The New England journal of medicine。\n【后续追踪要点】新药研发；基因/细胞治疗。",
-        "composite_score": 6.43,
-        "relevance_score": 3.5,
-        "impact_factor": 96.2,
-        "top_tier": true
-      },
-      {
         "pmid": "42735679",
         "title": "Pancreatic ductal adenocarcinoma: The Vision of Heracles.",
         "abstract": "Pancreatic ductal adenocarcinoma (PDAC) remains among the deadliest malignancies, as tumors evolve faster than therapies. Resistance is ecological, not merely KRAS driven, involving overlooked players like high-grade pancreatic intraepithelial neoplasias (PanINs), peripancreatic fat, stromal mechanics, myeloid-neural circuits, metabolic rewiring, and systemic host responses. We propose precision interception targeting PanIN/intraductal papillary mucinous neoplasm (IPMN) biology, spatial-functional-proteogenomic classification beyond transcriptomics, the Heracles Protocol (measure, prime, strike, and adapt), and integrated technologies from AI pathology to exosomal delivery and CRISPR-based synergy mapping, together making PDAC more tractable.",
@@ -721,31 +641,32 @@
         "top_tier": false
       },
       {
-        "pmid": "42603971",
-        "title": "In-depth characterization of stem cell potency and genotoxicity for clinical-scale ex vivo CRISPR-Cas9 gene editing.",
-        "abstract": "Translating CRISPR-Cas9-based homology-directed repair (HDR) strategies into clinical application remains a major challenge due to limited standardization, concerns over safety, and efficacy issues. Here, we present a comprehensive and clinically compliant preclinical framework for the ex vivo correction of Wiskott-Aldrich syndrome (WAS) using a CRISPR-Cas9-AAV6 platform targeting hematopoietic stem and progenitor cells (HSPCs). In this study, we established a clinical-compatible platform enabling large-scale manufacturing while preserving HSPC viability, stemness, and multilineage functionality. To overcome low HSPC long-term engraftment, we fine-tuned AAV dosing and transiently modulated p53BP-dependent DNA damage response pathway, achieving significantly improved in vivo correction and repopulation. Importantly, we implemented a multi-tiered genotoxicity assessment strategy, integrating in silico, genome-wide, and orthogonal assays, revealing a largely favorable safety profile with minimal off-target risks and no evidence of clonal dominance or transformation during the study period. Longitudinal in vivo safety monitoring revealed donor-specific rare off-target events and structural variants. This highlights the crucial importance of patient monitoring after transplantation, further emphasized by the identification of a de novo chromosomal rearrangement that could be detected exclusively following cell engraftment in mice. This work offers a robust and adaptable roadmap for future HDR-based gene editing platforms, establishing critical benchmarks for efficacy, safety, and regulatory readiness in the development of advanced therapeutic medicinal products.",
+        "pmid": "42758354",
+        "title": "CRISPR-Cas9 genome editing: technological advances, delivery strategies and precision engineering of primary cells for therapeutic application in genetic disorders and diabetes mellitus.",
+        "abstract": "The CRISPR-Cas9 system has revolutionized modern life sciences, driving a paradigm shift in biomedical research and becoming an indispensable tool in molecular biology due to its remarkable precision, efficiency, and simplicity. Originating from a bacterial adaptive immune mechanism, CRISPR-Cas9 has evolved rapidly, providing a versatile framework for manipulating genetic material and addressing a wide spectrum of human diseases. Recent progress includes the discovery of novel Cas orthologs and the rational engineering of Cas9 variants to enhance editing fidelity, broaden target range, and minimize off-target effects. Structural and functional optimization of single-guide RNAs (sgRNAs) has further improved target binding affinity, stability, and Cas9-sgRNA complex formation, thereby increasing overall editing performance. The development of high-fidelity Cas9 derivatives and next-generation platforms such as base editors and prime editors has enabled precise single-nucleotide substitutions and small insertions or deletions without generating double-stranded DNA breaks. Advanced delivery systems-including viral vectors, lipid nanoparticles, and ribonucleoprotein electroporation-have facilitated efficient CRISPR-mediated editing across in vitro, ex vivo, and in vivo models. Remarkable therapeutic milestones have been achieved in treating monogenic disorders such as sickle cell disease, β-thalassemia, and cystic fibrosis, where long-term clinical benefits have been documented. Furthermore, CRISPR-Cas9 technology is redefining diabetes research by enabling precise modeling of disease mechanisms, uncovering molecular pathways involved in glucose homeostasis, and opening new avenues for cellular and gene-based therapies. This review highlights recent advances in CRISPR-Cas9-mediated genome editing, emphasizing breakthroughs in primary cell editing and the development of translational models for genetic diseases and diabetes mellitus.",
         "authors": [
-          "Asma Naseem",
-          "Winston Vetharoy",
-          "Thomas E Whittaker",
-          "Federica Zinghirino",
-          "Antonio Carusillo"
+          "Md Nur Islam",
+          "Md Mahmudul Islam",
+          "Han Feng",
+          "Sm Faysal Bellah",
+          "M Morsed Zaman Miah"
         ],
-        "journal": "Molecular therapy. Advances",
-        "date": "2026-07-22",
+        "journal": "Molecular biology reports",
+        "date": "2026-09-18",
         "keywords": [
-          "gene editing",
-          "hematopoietic stem and progenitor cells",
-          "homology-directed repair",
-          "preclinical"
+          "CRISPR-Cas9",
+          "Cas9 variants",
+          "Diabetes mellitus",
+          "Genetic diseases",
+          "Genome editing"
         ],
         "companies": [],
-        "title_cn": "In-depth characterization of stem cell potency and genotoxicity for clinical-scale ex vivo CRISPR-Cas9 gene editing.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：临床前研究。\n【核心实验关键数据】核心发现：调控作用, 安全性评估, 有效性验证；关键突破：克服耐药, 提高疗效。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Molecular therapy. Advances。\n【后续追踪要点】新药研发；长期疗效评估；安全性监测。",
-        "composite_score": 11.77,
-        "relevance_score": 16.0,
-        "impact_factor": 12.4,
+        "title_cn": "CRISPR-Cas9 genome editing: technological advances, delivery strategies and precision engineering of primary cells for therapeutic application in genetic disorders and diabetes mellitus.",
+        "abstract_cn": "The CRISPR基因编辑-Cas9 system revolutionized modern life sciences, driving paradigm shift biomedical research becoming indispensable tool molecular biology remarkable precision, efficiency, simplicity. Originating from bacterial adaptive immune mechanism, CRISPR基因编辑-Cas9 evolved rapidly, providing versatile framework manipulating genetic material addressing wide spectrum human diseases. Recent progress includes discovery novel Cas orthologs rational engineering Cas9 variants enhance editing fidelity, broaden target range, minimize -target effects. Structural functional optimization single-guide RNAs further improved target binding affinity, stability, Cas9-sgRNA complex formation, thereby increasing overall editing performance. The development high-fidelity Cas9 derivatives next-generation platforms such base editors prime editors enabled precise single-nucleotide substitutions small insertions deletions without generating double-stranded breaks. Advanced delivery systems-including viral vectors, lipid nanoparticles, ribonucleoprotein electroporation-have facilitated efficient CRISPR基因编辑-mediated editing across 体外, vivo, 体内 models. Remarkable therapeutic milestones have been achieved treating monogenic disorders such sickle cell disease, β-thalassemia, cystic fibrosis, where long-term clinical benefits have been documented. Furthermore, CRISPR基因编辑-Cas9 technology redefining diabetes research enabling precise modeling disease mechanisms, uncovering molecular pathways involved glucose homeostasis, opening avenues cellular gene-based therapies. This review highlights recent advances CRISPR基因编辑-Cas9-mediated genome editing, emphasizing breakthroughs primary cell editing development translational models genetic diseases diabetes mellitus.",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、镰状细胞病；核心技术：碱基编辑(CBE/ABE)、CRISPR-Cas9系统；研究层级：动物体内实验。\n【核心实验关键数据】核心发现：首次发现/鉴定, 促进作用, 调控作用, 疾病模型建立；关键突破：提高疗效；局限性：需进一步研究。\n【机制创新与产业价值】发表期刊：Molecular biology reports。\n【后续追踪要点】新药研发；长期疗效评估。",
+        "composite_score": 11.25,
+        "relevance_score": 18.0,
+        "impact_factor": null,
         "top_tier": false
       },
       {
@@ -764,8 +685,8 @@
         "title_cn": "Endogenous tagging of the TBXT (Brachyury) gene with 2A-EGFP in BJNhem19 human embryonic stem cells using CRISPR-Cas9 genome editing.",
         "abstract_cn": "",
         "summary_cn": "【研究基础与实验设计】核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：基础研究。\n【核心实验关键数据】核心发现：调控作用, 表达水平变化。\n【机制创新与产业价值】发表期刊：Stem cell research。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 11.01,
-        "relevance_score": 13.0,
+        "composite_score": 10.46,
+        "relevance_score": 12.0,
         "impact_factor": 28.1,
         "top_tier": false
       },
@@ -800,88 +721,36 @@
         "top_tier": false
       },
       {
-        "pmid": "42723282",
-        "title": "Multiplexed genome editing by CRISPR-Un1Cas12f1 restores dystrophin expression in a mouse model of Duchenne muscular dystrophy.",
-        "abstract": "The compact type V clustered regularly interspaced short palindromic repeats (CRISPR) nuclease Un1Cas12f1 is compatible with adeno-associated virus (AAV)-mediated genome editing, although the protospacer adjacent motif (PAM) requirements and capacity for multiplexed genome editing remain undefined. Here, we show that Un1Cas12f1 exhibits a broad tolerance for non-canonical PAMs, including Y-rich motifs with a preference for TTCR and TCTA PAMs, thereby expanding the genomic targeting range. We further demonstrate that a tandem sgRNA array expressed from a single transcript supports Un1Cas12f1-mediated multiplexed genome editing at up to five distinct genomic loci. Leveraging this multiplexing capability, we achieved targeted excision of the Dmd exon 23 through intramuscular delivery of an all-in-one AAV vector encoding Un1Cas12f1 and a CRISPR array. This treatment restored the disrupted open reading frame and dystrophin expression in a mouse model of Duchenne muscular dystrophy (DMD). Together, these findings establish Un1Cas12f1 as a compact CRISPR system capable of multiplexed genome editing and demonstrate its therapeutic potential for DMD.",
+        "pmid": "42754893",
+        "title": "Accurate characterization of CRISPR-Cas9 genome editing outcomes and mosaicism with near-perfect long reads.",
+        "abstract": "BACKGROUND: Genetic mosaicism is a well-recognized consequence of CRISPR-Cas9 genome editing, yet its characterization remains challenging, especially when it involves low-frequency structural variants. A comprehensive analysis of mosaicism requires deep and unbiased sequencing of the target loci, with accurate single-molecule reads. METHODS: We performed amplification-free PureTarget PacBio sequencing to investigate CRISPR-Cas9 outcomes at on-target and off-target sites in genome edited zebrafish and their offspring. CRISPR-Cas9 genome editing was performed by micro-injection in fertilized eggs at the single-cell stage. RESULTS: Thirty samples from pooled larvae and individual zebrafish were successfully sequenced, resulting in > 1100x average target coverage. The PacBio reads reached an exceptional accuracy (QV39) over the target regions, with every read originating from a unique DNA molecule. The two haplotypes of the target loci displayed a balanced depth of coverage, while long-range PCR of the same samples resulted in skewed data. Further analysis of the PureTarget data revealed widespread genetic mosaicism in individual founder (F0) fish, with up to 18 distinct on-target events and 11 off-target events present in a single adult founder. Several CRISPR-Cas9 editing outcomes, including large structural variants and off-target mutations, were inherited to the F1 generation. Notably, as many as seven unique editing events were found among sibling F1 juvenile offspring derived from a single founder pair, thereby confirming the presence of genetic mosaicism in germ cells of founder zebrafish. This implies that some consequences of CRISPR-Cas9 editing may emerge only in the second generation. We also analyzed DNA methylation signals in the PureTarget data but did not observe altered 5mC CpG levels in genome edited samples. CONCLUSIONS: PureTarget enables efficient, accurate, and unbiased profiling of genetic mosaicism and DNA methylation at pre-defined genomic regions. Our results show that CRISPR-Cas9-induced mosaicism is widespread and represents an important factor to consider in genome editing experiments.",
         "authors": [
-          "Jin-Seok Gil",
-          "Eunyoung Lee",
-          "Hyunsun Na",
-          "Gyubin Oh",
-          "Eunyoung Choi"
+          "Ida Höijer",
+          "Robin van Schendel",
+          "Anastasia Emmanouilidou",
+          "Rebecka Östlund",
+          "Ignas Bunikis"
         ],
-        "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
-        "date": "2026-09-10",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Multiplexed genome editing by CRISPR-Un1Cas12f1 restores dystrophin expression in a mouse model of Duchenne muscular dystrophy.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：杜氏肌营养不良；模型：小鼠模型；研究层级：基础研究。\n【核心实验关键数据】核心发现：调控作用, 疾病模型建立, 有效性验证, 表达水平变化。\n【机制创新与产业价值】发表期刊：Molecular therapy : the journal of the American Society of Gene Therapy。\n【后续追踪要点】新药研发。",
-        "composite_score": 10.12,
-        "relevance_score": 13.0,
-        "impact_factor": 12.4,
-        "top_tier": false
-      },
-      {
-        "pmid": "42382945",
-        "title": "CRISPR-Cas9 screening reveals TM9SF2 knockout as a solution to HEK293 cell aggregation for improved AAV production.",
-        "abstract": "The inherent tendency of human embryonic kidney (HEK) cells to aggregate in suspension culture poses a significant obstacle to the large-scale production of adeno-associated virus (AAV) vectors for gene therapy. To overcome this, we employed a virus-free CRISPR-Cas9 single gene knockout (KO) library in HEK293T cells to systematically identify key genetic regulators of cell aggregation. By serially passaging the KO library and selectively sub-culturing only the suspended (non-aggregated) cells, we enriched for genotypes that reduce aggregation. Next-generation sequencing identified TM9SF2 as a key target, and its KO reduced aggregation by 53% and 28% in HEK293T and HEK293 cells, respectively. Transcriptomic analysis of TM9SF2 KO cells showed enrichment in MAPK signaling, calcium signaling, and plasma membrane components, offering insights into the mechanisms of aggregation suppression. Importantly, TM9SF2 KO did not compromise the genome titer, full capsid ratio, or infectivity of AAV5, AAV8, and AAV9, representative serotypes for secreted AAVs, in both HEK293T and HEK293 cells. These findings identify TM9SF2 as a promising target to mitigate cell aggregation in HEK293-based systems, thereby facilitating scalable AAV vector production.",
-        "authors": [
-          "Sungje Park",
-          "Seunghyeon Shin",
-          "Gyucheol Han",
-          "Yubin Won",
-          "Sang Yoon Lee"
-        ],
-        "journal": "Molecular therapy. Advances",
-        "date": "2026-06-11",
+        "journal": "Genome medicine",
+        "date": "2026-09-15",
         "keywords": [
-          "CRISPR-Cas9 knockout library",
-          "HEK293",
-          "adeno-associated virus",
-          "cell aggregation",
-          "suspension culture"
+          "CRISPR-Cas9",
+          "Genome editing",
+          "Long-read sequencing",
+          "Mosaicism",
+          "Off-target mutations",
+          "PureTarget",
+          "Single-molecule sequencing",
+          "Structural variation",
+          "Targeted sequencing"
         ],
         "companies": [],
-        "title_cn": "CRISPR-Cas9 screening reveals TM9SF2 knockout as a solution to HEK293 cell aggregation for improved AAV production.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】模型：HEK293细胞；核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：基础研究。\n【核心实验关键数据】量化数据：53%, 28%；核心发现：鉴定/表征, 抑制作用, 调控作用；关键突破：克服耐药。\n【机制创新与产业价值】发表期刊：Molecular therapy. Advances。\n【后续追踪要点】基因/细胞治疗。",
-        "composite_score": 10.12,
+        "title_cn": "Accurate characterization of CRISPR-Cas9 genome editing outcomes and mosaicism with near-perfect long reads.",
+        "abstract_cn": "BACKGROUND: Genetic mosaicism well-recognized consequence CRISPR基因编辑-Cas9 genome editing, characterization remains challenging, especially when involves -frequency structural variants. comprehensive analysis mosaicism requires deep unbiased sequencing target loci, with accurate single-molecule reads. METHODS: We performed amplification-free PureTarget PacBio sequencing investigate CRISPR基因编辑-Cas9 outcomes -target -target sites genome edited zebrafish their offspring. CRISPR基因编辑-Cas9 genome editing performed micro-injection fertilized eggs single-cell stage. RESULTS: Thirty samples from pooled larvae individual zebrafish were successfully sequenced, resulting > 1100x average target coverage. The PacBio reads reached exceptional accuracy over target regions, with every read originating from unique molecule. The haplotypes target loci displayed balanced depth coverage, while long-range same samples resulted skewed data. Further analysis PureTarget data revealed widespread genetic mosaicism individual founder fish, with 18 distinct -target events 11 -target events present single adult founder. Several CRISPR基因编辑-Cas9 editing outcomes, including large structural variants -target mutations, were inherited F1 generation. Notably, many seven unique editing events were found among sibling F1 juvenile offspring derived from single founder pair, thereby confirming presence genetic mosaicism germ cells founder zebrafish. This implies that some consequences CRISPR基因编辑-Cas9 editing emerge only second generation. We also analyzed methylation signals PureTarget data observe altered 5mC CpG levels genome edited samples. CONCLUSIONS: PureTarget enables efficient, accurate, unbiased profiling genetic mosaicism methylation -defined genomic regions. Our results show that CRISPR基因编辑-Cas9-induced mosaicism widespread represents important factor consider genome editing experiments.",
+        "summary_cn": "【研究基础与实验设计】模型：斑马鱼模型；核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 表达水平变化。\n【机制创新与产业价值】发表期刊：Genome medicine。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "composite_score": 10.01,
         "relevance_score": 13.0,
-        "impact_factor": 12.4,
-        "top_tier": false
-      },
-      {
-        "pmid": "42318138",
-        "title": "Efficacy and safety of SENS-501, a dual-AAV otoferlin gene therapy, for DFNB9 congenital deafness.",
-        "abstract": "Congenital sensorineural hearing loss heavily impacts patients' lives and their ability to communicate. Non-syndromic autosomal recessive deafness 9 (DFNB9), caused by mutations in OTOF, which encodes otoferlin, is one of the most prevalent forms of congenital hearing loss. SENS-501, a dual-AAV8 (adeno-associated virus 8) vector carrying the human OTOF coding sequence, was developed as a gene therapy to treat patients with DFNB9-related hearing loss. Intracochlear injection of SENS-501 in Otof -/- mice achieved targeted expression of otoferlin specifically in cochlear inner hair cells (IHCs), resulting in the restoration of auditory function observed as early as 3 weeks post administration and sustained for up to 10 months. SENS-501 was well tolerated following both local and systemic administrations in wild-type mice. GLP toxicology studies in non-human primates using the same surgical method and injection device used in DFNB9 patients confirmed that the intracochlear administration of SENS-501 is well tolerated and affords an adequate safety margin for human use. Vector biodistribution was largely restricted to the injection site. Collectively, these preclinical data support the development of SENS-501 as a safe and efficacious AAV-based treatment for DFNB9. A phase 1/2 clinical trial in children with severe-to-profound hearing loss due to otoferlin mutations is underway.",
-        "authors": [
-          "Rafik Boudra",
-          "Guillaume Olivier",
-          "Christophe Tran Van Ba",
-          "Lise Barrot",
-          "Pierre Rambeau"
-        ],
-        "journal": "Molecular therapy. Advances",
-        "date": "2026-05-19",
-        "keywords": [
-          "AAV biodistribution",
-          "Audiogene",
-          "DFNB9",
-          "GLP toxicity studies",
-          "OTOF",
-          "SENS-501",
-          "dual-AAV",
-          "gene therapy",
-          "hereditary hearing loss"
-        ],
-        "companies": [],
-        "title_cn": "Efficacy and safety of SENS-501, a dual-AAV otoferlin gene therapy, for DFNB9 congenital deafness.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】模型：非人灵长类动物；核心技术：基因治疗/病毒载体；研究层级：I期临床试验。\n【核心实验关键数据】核心发现：安全性评估, 有效性验证, 表达水平变化。\n【机制创新与产业价值】发表期刊：Molecular therapy. Advances。\n【后续追踪要点】临床试验；基因/细胞治疗；安全性监测。",
-        "composite_score": 9.85,
-        "relevance_score": 12.5,
-        "impact_factor": 12.4,
+        "impact_factor": 11.2,
         "top_tier": false
       },
       {
@@ -908,68 +777,32 @@
         "title_cn": "Development of an AAV-Encoded Adenine Base Editor for Duchenne Muscular Dystrophy.",
         "abstract_cn": "",
         "summary_cn": "【研究基础与实验设计】研究针对：杜氏肌营养不良；模型：诱导多能干细胞(iPSC)、HEK293细胞；核心技术：碱基编辑(CBE/ABE)、Cas9核酸酶；研究层级：基础研究。\n【核心实验关键数据】核心发现：鉴定/表征, 促进作用, 调控作用, 相关性。\n【机制创新与产业价值】发表期刊：Human gene therapy。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 9.22,
-        "relevance_score": 13.5,
+        "composite_score": 8.67,
+        "relevance_score": 12.5,
         "impact_factor": 3.8,
         "top_tier": false
       },
       {
-        "pmid": "42747567",
-        "title": "An inducer-independent, single-plasmid CRISPR-Cas9 system for genome editing in Bacillus species.",
-        "abstract": "Advances in molecular biology tools are essential for streamlining and accelerating genetic engineering of cells across industrial and academic applications. While CRISPR-Cas improves genome editing efficiency, current systems have limitations and are often host specific, which restricts their versatility. This study describes a versatile CRISPR-Cas9 system for genome editing in industrially relevant Bacillus species. By adapting the well-established pJOE8999 vector-based CRISPR-Cas9 genome editing system, we constructed an inducer-independent, broad-host-range genome editing system. It maintains the benefits of low toxicity to the target cell and the cloning host as well as the ease to use of a single-plasmid CRISPR-Cas9 system. We utilized the constitutive Sigma70-type promoter from the conserved veg gene of Bacillus, to develop and test the suitability of promoter variants of different strengths for Cas9 expression. Successful gene deletions in three different Bacillus species demonstrated the versatility of the modified system for this industrially important genus. This was further confirmed by the integration of a reporter gene fusion and the introduction of a single point mutation in the genome of Bacillus licheniformis. This one-step CRISPR-based transformation protocol developed in this study enables fast genome editing workflows with minimal hands-on time. KEY POINTS: • Editing and screening of promoter variants for balanced Cas9 expression in Bacillus. • Development of a versatile inducer-independent, single-plasmid CRISPR-Cas-based system. • Verification of the modified CRISPR-based system for genome editing in different Bacilli.",
+        "pmid": "42754710",
+        "title": "In vivo CRISPRi screens reveal Escherichia coli functional adaptations in the mouse gut.",
+        "abstract": "Escherichia coli exhibits remarkable genetic diversity that enables it to adapt to the intestinal environment. Here we establish an in vivo CRISPR interference platform that leverages bacterial gene fitness as a high-resolution functional reporter of E. coli adaptations within mice harbouring a defined minimal microbial community (OligoMM12). The screen revealed that diet profoundly shapes the metabolic landscape of E. coli and the essential gene profile identified cross-feeding interactions. Comparison between a laboratory strain (MG1655), a uropathogenic strain (CFT073) and an adherent-invasive E. coli (AIEC LF82) identified distinct genetic requirements for intestinal colonization, highlighting divergent motility, stress response and respiration strategies. In a host inflammatory environment, we found that AIEC LF82 preferably colonized the small intestine with a mobile genetic element, Gally prophage, playing an important role in modulating fitness. These findings provide a high-resolution genetic atlas of E. coli's functional adaptation and demonstrate the utility of functional genomics to probe the gut environment itself.",
         "authors": [
-          "Maximilian Hilkmann",
-          "Norma Welsch",
-          "Max Fabian Felle",
-          "Thomas Schweder",
-          "Mathis Appelbaum"
+          "Amandine Maire",
+          "Monica Ortelli",
+          "Emma Tkacz",
+          "Christoph Dehio",
+          "Benoit Chassaing"
         ],
-        "journal": "Applied microbiology and biotechnology",
-        "date": "2026-09-11",
-        "keywords": [
-          "Bacillus",
-          "CRISPR-Cas",
-          "Genome editing",
-          "Promoter",
-          "Strain optimization"
-        ],
-        "companies": [
-          "Scribe"
-        ],
-        "title_cn": "An inducer-independent, single-plasmid CRISPR-Cas9 system for genome editing in Bacillus species.",
-        "abstract_cn": "Advances molecular biology tools essential streamlining accelerating genetic engineering cells across industrial academic applications. While CRISPR基因编辑-Cas improves genome editing efficiency, current systems have limitations often host specific, which restricts their versatility. This study describes versatile CRISPR基因编辑-Cas9 system genome editing industrially relevant Bacillus species. By adapting well-established pJOE8999 vector-based CRISPR基因编辑-Cas9 genome editing system, constructed inducer-independent, broad-host-range genome editing system. It maintains benefits toxicity target cell cloning host well ease single-plasmid CRISPR基因编辑-Cas9 system. We utilized constitutive Sigma70-type promoter from conserved gene Bacillus, develop test suitability promoter variants different strengths Cas9 expression. Successful gene deletions three different Bacillus species demonstrated versatility modified system this industrially important genus. This further confirmed integration reporter gene fusion introduction single point mutation genome Bacillus licheniformis. This -step CRISPR基因编辑-based transformation protocol developed this study enables fast genome editing workflows with minimal hands- time. POINTS: • Editing screening promoter variants balanced Cas9 expression Bacillus. • Development versatile inducer-independent, single-plasmid CRISPR基因编辑-Cas-based system. • Verification modified CRISPR基因编辑-based system genome editing different Bacilli.",
-        "summary_cn": "【研究基础与实验设计】核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 安全性评估, 表达水平变化；局限性：需进一步研究; 存在实验局限性。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Applied microbiology and biotechnology。\n【后续追踪要点】安全性监测。",
-        "composite_score": 8.5,
-        "relevance_score": 13.0,
-        "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42744681",
-        "title": "Cross-target and cell-preferential CRISPR-Cas9 inhibition with carbohydrate-tagged oligonucleotides.",
-        "abstract": "Precise control of clustered regularly interspaced short palindromic repeats (CRISPR)-CRISPR-associated protein 9 (Cas9) activity is important for limiting off-target effects and chromosomal rearrangements. Existing inhibitors, including anti-CRISPR proteins and spacer-targeting oligonucleotides, can be constrained by immunogenicity, target-sequence dependence, or delivery challenges. Here, we developed single-stranded DNA oligonucleotides that target conserved regions of the Streptococcus pyogenes Cas9 single-guide RNA (sgRNA) scaffold rather than the variable spacer. Screening identified single-stranded DNA 7 (ssDNA7), which targets stem-loop-1 and the adjacent linker and inhibits Cas9 activity across multiple tested spacer sequences and genomic loci without redesigning the inhibitor. Carbohydrate conjugation improved oligonucleotide stability and preferentially enhanced inhibitory activity in selected liver-derived or cancer cell models. Amplicon sequencing confirmed inhibition of endogenous editing in multiple cell models and normal liver-derived organoids, and supported cell-preferential inhibition in matched cell comparisons. These findings establish sgRNA-scaffold targeting as a strategy for cross-target inhibition of Cas9 and show that carbohydrate conjugation can tune its cellular activity.",
-        "authors": [
-          "Bingzhi Li",
-          "Shulin Wang",
-          "Min Cao",
-          "Shuyao Ma",
-          "Xin Wang"
-        ],
-        "journal": "Trends in biotechnology",
-        "date": "2026-09-15",
-        "keywords": [
-          "CRISPR-Cas9",
-          "inhibitor",
-          "oligonucleotide",
-          "sgRNA"
-        ],
+        "journal": "Nature microbiology",
+        "date": "2026-09-17",
+        "keywords": [],
         "companies": [],
-        "title_cn": "Cross-target and cell-preferential CRISPR-Cas9 inhibition with carbohydrate-tagged oligonucleotides.",
+        "title_cn": "In vivo CRISPRi screens reveal Escherichia coli functional adaptations in the mouse gut.",
         "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】模型：类器官模型；核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：抑制作用, 促进作用, 相关性, 疾病模型建立。\n【机制创新与产业价值】发表期刊：Trends in biotechnology。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 8.37,
-        "relevance_score": 10.0,
-        "impact_factor": 11.3,
+        "summary_cn": "【研究基础与实验设计】核心技术：CRISPR激活(CRISPRa)、CRISPR干扰(CRISPRi)；研究层级：动物体内实验。\n【核心实验关键数据】核心发现：调控作用, 有效性验证, 结合/相互作用, 结构解析。\n【机制创新与产业价值】发表期刊：Nature microbiology。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "composite_score": 8.59,
+        "relevance_score": 7.5,
+        "impact_factor": 48.5,
         "top_tier": false
       },
       {
@@ -1002,60 +835,34 @@
         "top_tier": false
       },
       {
-        "pmid": "42494983",
-        "title": "Optimization of AAV tools to target Müller glial cells for retinal gene therapy.",
-        "abstract": "Reprogramming of Müller glial (MG) cells into retinal neurons has the potential to treat vision loss by regenerating the retina. Development of efficient gene delivery systems to target the MG cells is critical for this approach. Adeno-associated virus (AAV) serotypes and promoter specificity are important factors that influence AAV transduction profile in the retina. However, studies optimizing these parameters to specifically target MG cells are limited, particularly in rats which are widely used for eye research. In this study, we tested 4 AAV serotypes and 13 promoters to optimize gene delivery to human MG cells in vitro and/or rat MG cells in vivo. We showed that the combinatorial use of MG-specific serotypes and promoters achieved high specificity for MG cell targeting, with ShH10Y serotype and the GFAP (gfaABC1D) promoter as the best performing tool to target rat MG cells in vivo. We developed AAV vectors using known and novel MG-specific promoters and engineered short promoter variants to improve the cargo capacity of AAV delivery. Our results highlighted a panel of promoters that can target MG cells in vitro or in vivo. This study further expands the AAV toolbox for MG-targeted gene delivery, which has important implications for retinal gene therapy.",
+        "pmid": "42747567",
+        "title": "An inducer-independent, single-plasmid CRISPR-Cas9 system for genome editing in Bacillus species.",
+        "abstract": "Advances in molecular biology tools are essential for streamlining and accelerating genetic engineering of cells across industrial and academic applications. While CRISPR-Cas improves genome editing efficiency, current systems have limitations and are often host specific, which restricts their versatility. This study describes a versatile CRISPR-Cas9 system for genome editing in industrially relevant Bacillus species. By adapting the well-established pJOE8999 vector-based CRISPR-Cas9 genome editing system, we constructed an inducer-independent, broad-host-range genome editing system. It maintains the benefits of low toxicity to the target cell and the cloning host as well as the ease to use of a single-plasmid CRISPR-Cas9 system. We utilized the constitutive Sigma70-type promoter from the conserved veg gene of Bacillus, to develop and test the suitability of promoter variants of different strengths for Cas9 expression. Successful gene deletions in three different Bacillus species demonstrated the versatility of the modified system for this industrially important genus. This was further confirmed by the integration of a reporter gene fusion and the introduction of a single point mutation in the genome of Bacillus licheniformis. This one-step CRISPR-based transformation protocol developed in this study enables fast genome editing workflows with minimal hands-on time. KEY POINTS: • Editing and screening of promoter variants for balanced Cas9 expression in Bacillus. • Development of a versatile inducer-independent, single-plasmid CRISPR-Cas-based system. • Verification of the modified CRISPR-based system for genome editing in different Bacilli.",
         "authors": [
-          "Daniel Urrutia-Cabrera",
-          "Genevieve Huppert",
-          "Stephanie W L Chu",
-          "Luozixian Wang",
-          "Cat Binh Nguy"
+          "Maximilian Hilkmann",
+          "Norma Welsch",
+          "Max Fabian Felle",
+          "Thomas Schweder",
+          "Mathis Appelbaum"
         ],
-        "journal": "Molecular therapy. Advances",
-        "date": "2026-07-03",
+        "journal": "Applied microbiology and biotechnology",
+        "date": "2026-09-11",
         "keywords": [
-          "AAV",
-          "Müller glia",
-          "cellular reprogramming",
-          "retinal gene therapy",
-          "short promoters",
-          "vector design"
+          "Bacillus",
+          "CRISPR-Cas",
+          "Genome editing",
+          "Promoter",
+          "Strain optimization"
         ],
-        "companies": [],
-        "title_cn": "Optimization of AAV tools to target Müller glial cells for retinal gene therapy.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】核心技术：基因治疗/病毒载体；研究层级：动物体内实验。\n【核心实验关键数据】核心发现：首次发现/鉴定, 促进作用。\n【机制创新与产业价值】发表期刊：Molecular therapy. Advances。\n【后续追踪要点】基因/细胞治疗。",
-        "composite_score": 8.2,
-        "relevance_score": 9.5,
-        "impact_factor": 12.4,
-        "top_tier": false
-      },
-      {
-        "pmid": "42292913",
-        "title": "Preclinical evaluation of AAV2 anti-VEGF gene therapy using scFv for choroidal neovascularization.",
-        "abstract": "Single-chain variable fragments (scFvs) have been proposed as efficient therapeutic cargoes for gene therapy. However, their safety and efficacy in clinical settings remain to be fully established. In this study, we constructed a recombinant adeno-associated virus 2 (AAV2) vector encoding an anti-VEGF scFv to inhibit choroidal neovascularization (CNV), and evaluated its efficacy, biodistribution, and safety in non-human primates (NHPs) and chinchilla rabbits. Pharmacological studies demonstrated sustained inhibition of neovascularization and vascular leakage both in vivo and in vitro. Pharmacokinetic and biodistribution analyses further showed that a single subretinal injection of AAV2-antiVEGFscFv resulted in prolonged retention of the transgene product in the retina and choroid, with minimal distribution to non-target tissues. These results indicate that AAV2-antiVEGFscFv may provide a safe and durable therapeutic approach for wet age-related macular degeneration (AMD). Collectively, our results support the potential of scFvs as efficient and well-tolerated therapeutic payloads for in vivo gene therapy, with the capacity to overcome key limitations of conventional antibody-based therapies.",
-        "authors": [
-          "Xin Xu",
-          "Guangzuo Luo"
+        "companies": [
+          "Scribe"
         ],
-        "journal": "Molecular therapy. Advances",
-        "date": "2026-05-28",
-        "keywords": [
-          "AAV",
-          "biodistribution",
-          "choroidal neovascularization",
-          "efficacy",
-          "safety",
-          "scFv"
-        ],
-        "companies": [],
-        "title_cn": "Preclinical evaluation of AAV2 anti-VEGF gene therapy using scFv for choroidal neovascularization.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】模型：非人灵长类动物；核心技术：基因治疗/病毒载体；研究层级：临床前研究。\n【核心实验关键数据】核心发现：抑制作用, 安全性评估, 有效性验证；关键突破：克服耐药；局限性：存在实验局限性。\n【机制创新与产业价值】发表期刊：Molecular therapy. Advances。\n【后续追踪要点】新药研发；基因/细胞治疗；安全性监测。",
-        "composite_score": 8.2,
-        "relevance_score": 9.5,
-        "impact_factor": 12.4,
+        "title_cn": "An inducer-independent, single-plasmid CRISPR-Cas9 system for genome editing in Bacillus species.",
+        "abstract_cn": "Advances molecular biology tools essential streamlining accelerating genetic engineering cells across industrial academic applications. While CRISPR基因编辑-Cas improves genome editing efficiency, current systems have limitations often host specific, which restricts their versatility. This study describes versatile CRISPR基因编辑-Cas9 system genome editing industrially relevant Bacillus species. By adapting well-established pJOE8999 vector-based CRISPR基因编辑-Cas9 genome editing system, constructed inducer-independent, broad-host-range genome editing system. It maintains benefits toxicity target cell cloning host well ease single-plasmid CRISPR基因编辑-Cas9 system. We utilized constitutive Sigma70-type promoter from conserved gene Bacillus, develop test suitability promoter variants different strengths Cas9 expression. Successful gene deletions three different Bacillus species demonstrated versatility modified system this industrially important genus. This further confirmed integration reporter gene fusion introduction single point mutation genome Bacillus licheniformis. This -step CRISPR基因编辑-based transformation protocol developed this study enables fast genome editing workflows with minimal hands- time. POINTS: • Editing screening promoter variants balanced Cas9 expression Bacillus. • Development versatile inducer-independent, single-plasmid CRISPR基因编辑-Cas-based system. • Verification modified CRISPR基因编辑-based system genome editing different Bacilli.",
+        "summary_cn": "【研究基础与实验设计】核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 安全性评估, 表达水平变化；局限性：需进一步研究; 存在实验局限性。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Applied microbiology and biotechnology。\n【后续追踪要点】安全性监测。",
+        "composite_score": 7.95,
+        "relevance_score": 12.0,
+        "impact_factor": null,
         "top_tier": false
       },
       {
@@ -1086,9 +893,147 @@
         "relevance_score": 9.5,
         "impact_factor": 9.4,
         "top_tier": false
+      },
+      {
+        "pmid": "42744681",
+        "title": "Cross-target and cell-preferential CRISPR-Cas9 inhibition with carbohydrate-tagged oligonucleotides.",
+        "abstract": "Precise control of clustered regularly interspaced short palindromic repeats (CRISPR)-CRISPR-associated protein 9 (Cas9) activity is important for limiting off-target effects and chromosomal rearrangements. Existing inhibitors, including anti-CRISPR proteins and spacer-targeting oligonucleotides, can be constrained by immunogenicity, target-sequence dependence, or delivery challenges. Here, we developed single-stranded DNA oligonucleotides that target conserved regions of the Streptococcus pyogenes Cas9 single-guide RNA (sgRNA) scaffold rather than the variable spacer. Screening identified single-stranded DNA 7 (ssDNA7), which targets stem-loop-1 and the adjacent linker and inhibits Cas9 activity across multiple tested spacer sequences and genomic loci without redesigning the inhibitor. Carbohydrate conjugation improved oligonucleotide stability and preferentially enhanced inhibitory activity in selected liver-derived or cancer cell models. Amplicon sequencing confirmed inhibition of endogenous editing in multiple cell models and normal liver-derived organoids, and supported cell-preferential inhibition in matched cell comparisons. These findings establish sgRNA-scaffold targeting as a strategy for cross-target inhibition of Cas9 and show that carbohydrate conjugation can tune its cellular activity.",
+        "authors": [
+          "Bingzhi Li",
+          "Shulin Wang",
+          "Min Cao",
+          "Shuyao Ma",
+          "Xin Wang"
+        ],
+        "journal": "Trends in biotechnology",
+        "date": "2026-09-15",
+        "keywords": [
+          "CRISPR-Cas9",
+          "inhibitor",
+          "oligonucleotide",
+          "sgRNA"
+        ],
+        "companies": [],
+        "title_cn": "Cross-target and cell-preferential CRISPR-Cas9 inhibition with carbohydrate-tagged oligonucleotides.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】模型：类器官模型；核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生；核心发现：抑制作用, 促进作用, 相关性, 疾病模型建立。\n【机制创新与产业价值】发表期刊：Trends in biotechnology。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "composite_score": 7.82,
+        "relevance_score": 9.0,
+        "impact_factor": 11.3,
+        "top_tier": false
+      },
+      {
+        "pmid": "42754663",
+        "title": "CRISPR/Cas9 screening revealed BIRC6-AS1/BIRC6 mediates abiraterone resistance via NHEJ pathway-dependent A20 degradation in prostate cancer.",
+        "abstract": "Abiraterone acetate is a standard-of-care therapy for prostate cancer (PCa). However, resistance frequently emerges, often characterized by the progression to AR-independent phenotypes. Employing a genome-wide CRISPR/Cas9 library screening strategy, we identified 523 long non-coding RNAs (lncRNAs) and 2,183 protein-coding genes as potential candidates associated with abiraterone resistance. Notably, a pair of sense-antisense genes, BIRC6-AS1/BIRC6, was identified as a significant contributor to abiraterone resistance, serving as a critical survival factor in AR-independent contexts. BIRC6-AS1 depletion led to a reduction in both the mRNA and protein levels of BIRC6. Moreover, depletion of either BIRC6-AS1 or BIRC6 enhanced the sensitivity of PCa cells to abiraterone in both in vitro and in vivo settings. Further investigation revealed that BIRC6-AS1 stabilized the mRNA of BIRC6 through interaction with ILF2. Suppression of either BIRC6-AS1 or BIRC6 attenuated non-homologous end joining (NHEJ) repair activity, resulting in the disassembly of 53BP1 foci at DNA damage sites and an increased accumulation of DNA damage, thereby exposing a vulnerability in AR-independent resistant cells. Mechanistically, BIRC6 interacted with A20 and facilitated the K48-linked ubiquitination and subsequent degradation of A20 at the K337 residue. Additionally, A20 knockdown effectively reversed the abiraterone sensitivity induced by BIRC6-AS1 depletion. Collectively, our study provides a landscape of lncRNAs and protein-coding genes associated with abiraterone resistance and suggests that targeting the BIRC6-AS1/BIRC6 axis represents a potential therapeutic strategy to eradicate AR-independent resistant tumors in prostate cancer.",
+        "authors": [
+          "Lan Li",
+          "Xue-Ni An",
+          "Yong-Tong Ruan",
+          "Rong Yang",
+          "Peng Li"
+        ],
+        "journal": "Oncogene",
+        "date": "2026-09-17",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "CRISPR/Cas9 screening revealed BIRC6-AS1/BIRC6 mediates abiraterone resistance via NHEJ pathway-dependent A20 degradation in prostate cancer.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：前列腺癌；核心技术：CRISPR-Cas9系统、Cas9核酸酶；研究层级：动物体内实验。\n【核心实验关键数据】表型：肿瘤发生；核心发现：鉴定/表征, 抑制作用, 促进作用, 调控作用；关键突破：提高疗效；局限性：需进一步研究。\n【机制创新与产业价值】临床痛点：转移/复发；发表期刊：Oncogene。\n【后续追踪要点】新药研发。",
+        "composite_score": 7.68,
+        "relevance_score": 11.5,
+        "impact_factor": null,
+        "top_tier": false
+      },
+      {
+        "pmid": "42756827",
+        "title": "Precision Genome Engineering in Human Disease: Expanding Therapeutic Roles of CRISPR Technologies.",
+        "abstract": "The advent of CRISPR-Cas9 technology has revolutionized genome editing, enabling precise modifications to the human genome with unprecedented accuracy and sequence specificity. This review examines current mechanistic insights, translational advances, and clinical developments in gene editing, focusing on applications in diabetes mellitus, cancer, hematologic disorders, neurodegenerative diseases, and autoimmune pathologies. This study provides a comprehensive analysis of recent literature on CRISPR-based genome editing, emphasizing next-generation modalities like base editing and prime editing, and their impact on target specificity and genomic integrity. Therapeutic strategies involving ex vivo editing of hematopoietic stem cells and in vivo delivery approaches, including lipid nanoparticle-mediated systems, are evaluated. Base editing and prime editing have improved sequence specificity and reduced double-strand DNA breaks, enhancing safety profiles. Ex vivo editing of hematopoietic stem cells for hemoglobinopathies and in vivo genome editing via lipid nanoparticles show translational promise. However, limitations persist: off-target effects, immunogenicity, delivery inefficiencies, and ethical concerns surrounding germline editing require careful consideration. Gene editing technologies show potential for treating previously intractable diseases. Technical, safety, and ethical challenges must be addressed through continued refinement of editing platforms, rigorous scientific validation, and the establishment of robust governance frameworks to ensure safe and responsible translation into clinical medicine.",
+        "authors": [
+          "Abraham Ehinomhen Ubhenin",
+          "Fatima Adis Adamude",
+          "Dickson Owoicho Ochalefu",
+          "Fatimah Anura",
+          "Clement Iorhembe Tarnande"
+        ],
+        "journal": "Nigerian medical journal : journal of the Nigeria Medical Association",
+        "date": "2026-09-14",
+        "keywords": [
+          "CRISPR-Cas9 technology",
+          "clinical medicine",
+          "ethical challenges",
+          "hematopoietic stem cells",
+          "hemoglobinopathies",
+          "translation"
+        ],
+        "companies": [],
+        "title_cn": "Precision Genome Engineering in Human Disease: Expanding Therapeutic Roles of CRISPR Technologies.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病；核心技术：碱基编辑(CBE/ABE)、先导编辑；研究层级：动物体内实验。\n【核心实验关键数据】表型：肿瘤发生；核心发现：调控作用, 安全性评估；局限性：存在实验局限性。\n【机制创新与产业价值】发表期刊：Nigerian medical journal : journal of the Nigeria Medical Association。\n【后续追踪要点】新药研发；安全性监测。",
+        "composite_score": 7.68,
+        "relevance_score": 11.5,
+        "impact_factor": null,
+        "top_tier": false
+      },
+      {
+        "pmid": "42752133",
+        "title": "A noncontiguous code for RNA-guided DNA recognition at the origin of CRISPR-Cas.",
+        "abstract": "CRISPR-Cas provides RNA-mediated adaptive immunity, but how its first RNA-guided effector arose is unclear. In this study, we report the discovery of Viral Interference Programmable Repeat (VIPR) systems consisting of a Vipr protein ancestral to the earliest CRISPR-Cas effectors and VIPR RNAs (vrRNAs) comprising alternating GGY/NN motifs. Unlike canonical guide RNAs that pair with target nucleic acids through contiguous complementarity, vrRNAs recognize double-stranded DNA through a noncontiguous code in which the variable NN dinucleotides collectively specify a gapped target sequence. Natural vrRNA targets suggest that VIPR systems act against competing phages, and we demonstrate programmable phage defense by redirecting the complex for transcriptional repression. These results suggest that adaptive immunity originated from ancient warfare between viruses, revealing a previously unidentified logic for encoding information in sequence.",
+        "authors": [
+          "Peter H Yoon",
+          "Kenneth J Loi",
+          "Zeyuan Terry Zhang",
+          "Trevor A Docter",
+          "Santiago C Lopez"
+        ],
+        "journal": "Science (New York, N.Y.)",
+        "date": "2026-09-17",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "A noncontiguous code for RNA-guided DNA recognition at the origin of CRISPR-Cas.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：首次发现/鉴定, 抑制作用, 调控作用, 结合/相互作用；局限性：原文未披露详细信息。\n【机制创新与产业价值】发表期刊：Science (New York, N.Y.)。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "composite_score": 7.67,
+        "relevance_score": 6.0,
+        "impact_factor": 44.7,
+        "top_tier": false
       }
     ],
     "cell_therapy": [
+      {
+        "pmid": "42753738",
+        "title": "Genomic and transcriptomic quality control for an autologous iPSC-derived cell therapy for Parkinson's disease.",
+        "abstract": "Toward development of an autologous, induced pluripotent stem cell (iPSC)-based cell therapy for Parkinson's disease (PD), we demonstrate successful, reproducible genomic and transcriptomic qualification of patient-derived dopaminergic neuron precursor cells (DANPCs) across multiple donors. Our analysis includes whole-genome sequencing data from fibroblasts, iPSCs, and DANPCs and the development of NeuriTest, an RNAseq-based bioinformatic analysis of DANPCs designed to predict cell quality based on empirical animal data. Autologous cell therapies are immune matched to the patient, potentially augmenting durability of benefit compared to allogeneic cells while negating the need for immunosuppression and accompanying side effects. Patient-specific iPSCs are an autologous cell source that can be differentiated to dopaminergic neurons, the cell type lost in PD. We report here our preclinical manufacturing strategy and results demonstrating efficacy in a PD rodent model and safety in a 9-month GLP toxicology study.",
+        "authors": [
+          "Andres M Bratt-Leal",
+          "Thorsten Gorba",
+          "Roy M Williams",
+          "Jim A Mossman",
+          "Rachel Hills"
+        ],
+        "journal": "Cell stem cell",
+        "date": "2026-09-17",
+        "keywords": [
+          "Parkinson’s disease",
+          "autologous",
+          "cell therapy",
+          "clinical trial",
+          "dopaminergic neurons",
+          "genomics",
+          "induced pluripotent stem cells",
+          "preclinical",
+          "regenerative medicine",
+          "transplantation"
+        ],
+        "companies": [],
+        "title_cn": "Genomic and transcriptomic quality control for an autologous iPSC-derived cell therapy for Parkinson's disease.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：帕金森病；模型：诱导多能干细胞(iPSC)；核心技术：RNA-seq转录组测序；研究层级：临床前研究。\n【核心实验关键数据】核心发现：抑制作用, 促进作用, 疾病模型建立, 安全性评估。\n【机制创新与产业价值】信号通路：多巴胺通路；临床痛点：药物毒性/副作用；发表期刊：Cell stem cell。\n【后续追踪要点】基因/细胞治疗；安全性监测。",
+        "composite_score": 13.1,
+        "relevance_score": 17.5,
+        "impact_factor": 19.8,
+        "top_tier": true
+      },
       {
         "pmid": "42727576",
         "title": "Glycocalyx-edited mesenchymal stem/stromal cell therapy in advanced osteoporosis.",
@@ -1118,8 +1063,8 @@
         "title_cn": "Glycocalyx-edited mesenchymal stem/stromal cell therapy in advanced osteoporosis.",
         "abstract_cn": "",
         "summary_cn": "【研究基础与实验设计】研究层级：临床前研究。\n【核心实验关键数据】核心发现：疾病模型建立, 安全性评估, 有效性验证, 表达水平变化。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Cell。\n【后续追踪要点】临床试验；新药研发；基因/细胞治疗。",
-        "composite_score": 12.92,
-        "relevance_score": 15.5,
+        "composite_score": 12.37,
+        "relevance_score": 14.5,
         "impact_factor": 45.5,
         "top_tier": true
       },
@@ -1171,31 +1116,6 @@
         "top_tier": true
       },
       {
-        "pmid": "42274009",
-        "title": "Exa-cel in Children with Transfusion-Dependent β-Thalassemia or Sickle Cell Disease.",
-        "abstract": "BACKGROUND: Exagamglogene autotemcel (exa-cel) is a cell therapy in which autologous CD34+ hematopoietic cells are engineered through ex vivo clustered regularly interspaced short palindromic repeats-Cas9 editing of the erythroid-specific enhancer region of BCL11A to express fetal hemoglobin. In phase 3 studies involving participants 12 to 35 years of age with sickle cell disease or transfusion-dependent β-thalassemia, exa-cel eliminated vaso-occlusive crises and the need for red-cell transfusions. METHODS: In two ongoing, phase 3, open-label, single-group studies, we evaluated exa-cel in children 5 to 11 years of age with transfusion-dependent β-thalassemia or sickle cell disease. Before exa-cel infusion, participants underwent myeloablative conditioning with pharmacokinetically dose-adjusted busulfan. The primary end points were transfusion independence for at least 12 consecutive months in children with transfusion-dependent β-thalassemia and freedom from severe vaso-occlusive crises for at least 12 consecutive months in children with sickle cell disease. RESULTS: A total of 15 children with transfusion-dependent β-thalassemia and 11 with sickle cell disease received exa-cel; median follow-up was 16.0 months (range, 2.2 to 32.1) and 16.9 months (range, 7.6 to 33.1), respectively. Of 8 children with transfusion-dependent β-thalassemia who were followed to at least 16 months, 8 were transfusion independent; the status of the remaining 7 was not yet evaluable. Of 8 children with sickle cell disease who were followed to at least 16 months, 8 were free of vaso-occlusive crises; the status of the remaining 3 was not yet evaluable. All the children had at least one grade 3 or 4 adverse event; 2 children with transfusion-dependent β-thalassemia had severe veno-occlusive liver disease that was assessed as being related to busulfan conditioning, 1 of whom died. CONCLUSIONS: Exa-cel therapy resulted in transfusion independence or freedom from severe vaso-occlusive crises in participants with transfusion-dependent β-thalassemia or sickle cell disease, respectively, who were followed for at least 16 months. All the participants had grade 3 or 4 adverse events. (Funded by Vertex Pharmaceuticals and CRISPR Therapeutics; CLIMB THAL-141 ClinicalTrials.gov number, NCT05356195; CLIMB SCD-151 ClinicalTrials.gov number, NCT05329649.).",
-        "authors": [
-          "Haydar Frangoul",
-          "Josu de la Fuente",
-          "Yogi Chopra",
-          "Roland Meisel",
-          "Persis J Amrolia"
-        ],
-        "journal": "The New England journal of medicine",
-        "date": "2026-06-11",
-        "keywords": [],
-        "companies": [
-          "CRISPR Therapeutics"
-        ],
-        "title_cn": "Exa-cel in Children with Transfusion-Dependent β-Thalassemia or Sickle Cell Disease.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：镰状细胞病；核心技术：碱基编辑(CBE/ABE)、Cas9核酸酶；研究层级：III期临床试验。\n【核心实验关键数据】核心发现：促进作用, 安全性评估, 表达水平变化。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：The New England journal of medicine。\n【后续追踪要点】新药研发；基因/细胞治疗。",
-        "composite_score": 6.43,
-        "relevance_score": 3.5,
-        "impact_factor": 96.2,
-        "top_tier": true
-      },
-      {
         "pmid": "42742315",
         "title": "Targeting BLVRB Overcomes Immunosuppression and Potentiates Immunotherapy in Monocytic Acute Myeloid Leukemia.",
         "abstract": "Acute Myeloid Leukemia (AML) is characterized by significant immunosuppression, limiting the efficacy of immunotherapy. Monocytic AML presents unique immunosuppressive features and constitutes a challenging subtype necessitating focused investigation. Using single-cell multi-omics analyses of primary AML samples, we revealed the immunosuppression landscape of monocytic AML and identified BLVRB as a marker of immunosuppressive monocytic AML cells. BLVRB depletion downregulated immune-modulatory gene expression and sensitized AML cells to T cell cytotoxicity, resulting in improved therapeutic efficacy in cell line and patient-derived xenograft models. Mechanistically, BLVRB signals through the transcription factor MAFB to masterfully promote the expression of various immunosuppression-associated genes, resulting in inhibitory effect against anti-AML T cells. We further demonstrated that the small molecule Tamibarotene targets BLVRB, enhancing the efficacy of both CAR-T and anti-PD-1 antibody therapies in AML. These findings elucidate the critical mechanism regulating immunosuppression in monocytic AML and identify BLVRB as a therapeutic target for improving AML immunotherapy.",
@@ -1213,8 +1133,8 @@
         "title_cn": "Targeting BLVRB Overcomes Immunosuppression and Potentiates Immunotherapy in Monocytic Acute Myeloid Leukemia.",
         "abstract_cn": "",
         "summary_cn": "【研究基础与实验设计】研究针对：急性髓系白血病；模型：患者来源异种移植模型(PDX)、异种移植瘤模型；研究层级：基础研究。\n【核心实验关键数据】表型：细胞凋亡/细胞毒性；核心发现：鉴定/表征, 抑制作用, 促进作用, 调控作用；关键突破：克服耐药, 提高疗效。\n【机制创新与产业价值】信号通路：免疫检查点通路；临床痛点：药物毒性/副作用；发表期刊：Cancer discovery。\n【后续追踪要点】新药研发；安全性监测。",
-        "composite_score": 6.39,
-        "relevance_score": 4.5,
+        "composite_score": 5.84,
+        "relevance_score": 3.5,
         "impact_factor": 29.7,
         "top_tier": true
       },
@@ -1304,31 +1224,6 @@
         "top_tier": false
       },
       {
-        "pmid": "42748593",
-        "title": "Generation of TWO iPSC lines (CRICKi025-A and CRICKi026-A) from healthy donor bone marrow mesenchymal stromal cells.",
-        "abstract": "Mesenchymal stromal cells (MSCs) are key components of the bone marrow (BM), providing structural support and paracrine signals that regulate haematopoietic stem cell maintenance, self-renewal and differentiation. However, primary BM MSCs are rare, heterogeneous, and subject to donor variability and have limited ex-vivo expansion capacity, restricting their utility. Here, we describe two human induced pluripotent stem cells lines, CRICKi0025-A and CRICKi0026-A, reprogrammed from adult BM-derived MSCs using non-integrating Sendai virus vectors. Both lines showcase grade-A morphology, are genomically stable, upregulate essential pluripotent markers and can differentiate into the three germ layers. These lines are a well-characterised resource for generating MSCs.",
-        "authors": [
-          "Liani Devito",
-          "Khadidja Habel",
-          "Ruta Meleckyte-Martinez",
-          "Lyn Healy",
-          "Syed A Mian"
-        ],
-        "journal": "Stem cell research",
-        "date": "2026-09-11",
-        "keywords": [],
-        "companies": [
-          "Scribe"
-        ],
-        "title_cn": "Generation of TWO iPSC lines (CRICKi025-A and CRICKi026-A) from healthy donor bone marrow mesenchymal stromal cells.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】模型：诱导多能干细胞(iPSC)；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 调控作用。\n【机制创新与产业价值】发表期刊：Stem cell research。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 10.46,
-        "relevance_score": 12.0,
-        "impact_factor": 28.1,
-        "top_tier": false
-      },
-      {
         "pmid": "42031691",
         "title": "Generation of Allogeneic CAR-T Circumvents Functional Deficits in Patient-Derived Autologous Product for Glioblastoma.",
         "abstract": "Glioblastoma (GBM) is the most common malignant brain tumor in adults, with a poor prognosis despite aggressive standard of care. Chimeric antigen receptor T-cell (CAR-T) therapy has shown promising results in liquid malignancies, but clinical trials in GBM targeting various tumor antigens have not shown durable clinical benefit. While this may be attributable to various tumor-intrinsic immune evasion strategies characteristic of GBM, little work has been done to assess whether the issue is due to the quality of the CAR-T treatment itself. Currently, CAR-Ts for GBMs and liquid malignancies are manufactured in an autologous setting in which T-cells are extracted from patients, engineered ex vivo, and subsequently reinfused back. However, peripheral T-cells taken from untreated GBM patients have demonstrated qualitative and functional deficits, which may contribute to suboptimal treatment outcomes. Thus, we aimed to establish whether CAR-Ts generated from GBM patients would show reduced efficacy in comparison to healthy donors using our previously validated CD133 CAR-T. In this work, we show pre-treatment exhaustion and reduced survival advantage in autologous, patient-derived CD133-targeting CAR-T cell products using an orthotopic xenograft model of human GBM. To overcome the functional and logistical considerations of autologous therapy, we additionally aimed to generate an \"off-the-shelf\" allogeneic CD133 CAR-T. Using CRISPR gene editing technology, we generated TCR-knockout CAR-T cells with comparable pre-clinical efficacy to our autologous models. Ultimately, this work highlights the need to reassess autologous CAR-T therapy for GBM and consider allogeneic approaches as biologically informed therapeutic alternatives.",
@@ -1355,6 +1250,31 @@
         "composite_score": 10.15,
         "relevance_score": 16.0,
         "impact_factor": null,
+        "top_tier": false
+      },
+      {
+        "pmid": "42748593",
+        "title": "Generation of TWO iPSC lines (CRICKi025-A and CRICKi026-A) from healthy donor bone marrow mesenchymal stromal cells.",
+        "abstract": "Mesenchymal stromal cells (MSCs) are key components of the bone marrow (BM), providing structural support and paracrine signals that regulate haematopoietic stem cell maintenance, self-renewal and differentiation. However, primary BM MSCs are rare, heterogeneous, and subject to donor variability and have limited ex-vivo expansion capacity, restricting their utility. Here, we describe two human induced pluripotent stem cells lines, CRICKi0025-A and CRICKi0026-A, reprogrammed from adult BM-derived MSCs using non-integrating Sendai virus vectors. Both lines showcase grade-A morphology, are genomically stable, upregulate essential pluripotent markers and can differentiate into the three germ layers. These lines are a well-characterised resource for generating MSCs.",
+        "authors": [
+          "Liani Devito",
+          "Khadidja Habel",
+          "Ruta Meleckyte-Martinez",
+          "Lyn Healy",
+          "Syed A Mian"
+        ],
+        "journal": "Stem cell research",
+        "date": "2026-09-11",
+        "keywords": [],
+        "companies": [
+          "Scribe"
+        ],
+        "title_cn": "Generation of TWO iPSC lines (CRICKi025-A and CRICKi026-A) from healthy donor bone marrow mesenchymal stromal cells.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】模型：诱导多能干细胞(iPSC)；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 调控作用。\n【机制创新与产业价值】发表期刊：Stem cell research。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "composite_score": 9.91,
+        "relevance_score": 11.0,
+        "impact_factor": 28.1,
         "top_tier": false
       }
     ],
@@ -1415,29 +1335,9 @@
         "title_cn": "Teclistamab versus lenalidomide-dexamethasone in high-risk smoldering multiple myeloma: a randomized phase 2 trial.",
         "abstract_cn": "",
         "summary_cn": "【研究基础与实验设计】研究针对：多发性骨髓瘤；核心技术：双特异性抗体/T细胞衔接器；研究层级：II期临床试验。\n【核心实验关键数据】量化数据：77.8%, 0%, 82.2%；核心发现：促进作用, 安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：转移/复发, 药物毒性/副作用；发表期刊：Nature medicine。\n【后续追踪要点】安全性监测。",
-        "composite_score": 7.25,
-        "relevance_score": 5.0,
+        "composite_score": 6.7,
+        "relevance_score": 4.0,
         "impact_factor": 58.7,
-        "top_tier": true
-      },
-      {
-        "pmid": "42715563",
-        "title": "Treatment Decisions in Multiple Myeloma.",
-        "abstract": "Revolutions in transplantation and targeted and immune therapies have transformed multiple myeloma from a disease with an associated survival of a few years into one for which functional cure is an emerging goal. This abundance of effective therapies has created clinical complexity. Here we provide a practical framework, anchored in trial evidence and informed by emerging biologic discoveries, for the navigation of treatment decisions across the disease spectrum. We outline how cytogenetic and genomic risk stratification, functional fitness, and measurable residual disease status individualize therapy in newly diagnosed disease, in which quadruplet induction therapy is now standard and the role of autologous transplantation is being reevaluated. Regarding relapse, we address the sequencing of B-cell maturation antigen-directed chimeric antigen receptor (CAR) T cells, bispecific antibodies, and antibody-drug conjugates, emphasizing T-cell fitness and multiantigen targeting to counter exhaustion and antigen escape. We also consider early interception in high-risk smoldering myeloma. Throughout, we underscore that enrollment of patients in clinical trials should be considered in order to ensure continued progress.",
-        "authors": [
-          "Tarek H Mouhieddine",
-          "Kenneth C Anderson"
-        ],
-        "journal": "The New England journal of medicine",
-        "date": "",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Treatment Decisions in Multiple Myeloma.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：多发性骨髓瘤；核心技术：抗体偶联药物(ADC)；研究层级：基础研究。\n【核心实验关键数据】核心发现：首次发现/鉴定, 有效性验证, 表达水平变化, 结合/相互作用。\n【机制创新与产业价值】发表期刊：The New England journal of medicine。\n【后续追踪要点】临床试验。",
-        "composite_score": 7.25,
-        "relevance_score": 5.0,
-        "impact_factor": 96.2,
         "top_tier": true
       },
       {
@@ -1461,6 +1361,23 @@
         "composite_score": 5.7,
         "relevance_score": 4.5,
         "impact_factor": 15.8,
+        "top_tier": true
+      },
+      {
+        "pmid": "42755291",
+        "title": "Phase III Trials Test First-Line Options in Advanced NSCLC.",
+        "abstract": "Presented at the 2026 World Conference on Lung Cancer, two phase III trials-PAPILLON and REZILIENT3-established amivantamab and zipalertinib combination therapies as effective first-line strategies for advanced NSCLC with EGFR exon 20 insertions, with significantly improved progression-free survival, although high crossover rates prevented them demonstrating an overall survival benefit. Separately, HARMONi-2 showed that the bispecific antibody ivonescimab improved overall survival versus pembrolizumab in PD-L1-positive NSCLC, supporting its use as standard of care in China while larger global trials continue.",
+        "authors": [],
+        "journal": "Cancer discovery",
+        "date": "2026-09-18",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Phase III Trials Test First-Line Options in Advanced NSCLC.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：非小细胞肺癌、肺癌；核心技术：双特异性抗体/T细胞衔接器；研究层级：III期临床试验。\n【核心实验关键数据】表型：肿瘤发生；核心发现：有效性验证。\n【机制创新与产业价值】信号通路：免疫检查点通路；临床痛点：转移/复发；发表期刊：Cancer discovery。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "composite_score": 5.57,
+        "relevance_score": 3.0,
+        "impact_factor": 29.7,
         "top_tier": true
       },
       {
@@ -1518,8 +1435,8 @@
         "title_cn": "Safety and antitumor activity of the first-in-class EGFR-HER3 bispecific antibody-drug conjugate iza-bren (BL-B01D1) in patients with pretreated locally advanced or metastatic breast cancer: a phase 1b study.",
         "abstract_cn": "",
         "summary_cn": "【研究基础与实验设计】研究针对：乳腺癌；核心技术：双特异性抗体/T细胞衔接器、抗体偶联药物(ADC)；研究层级：I期临床试验。\n【核心实验关键数据】量化数据：69.8%, 99.4%, 77.8%；表型：肿瘤发生；核心发现：安全性评估, 有效性验证；关键突破：克服耐药；局限性：存在实验局限性。\n【机制创新与产业价值】临床痛点：转移/复发, 药物毒性/副作用；发表期刊：Annals of oncology : official journal of the European Society for Medical Oncology。\n【后续追踪要点】安全性监测。",
-        "composite_score": 11.65,
-        "relevance_score": 13.0,
+        "composite_score": 11.1,
+        "relevance_score": 12.0,
         "impact_factor": 56.7,
         "top_tier": false
       },
@@ -1581,8 +1498,8 @@
         "title_cn": "A framework for evaluating unexpected reactions in antibody-drug conjugates during clinical development: a case study of a promiscuous payload.",
         "abstract_cn": "Antibody-drug conjugates complex biotherapeutic molecules, comprising antibody moiety small molecule linker-drug. The product quality 抗体偶联药物 controlled through monitoring critical quality attributes ensure safety efficacy. During development, unexpected changes occur product quality 抗体偶联药物, example under stress physiological conditions. This should prompt systematic evaluation determine cause impact product quality. structured approach such evaluation well established. Here, strategy detection, identification, assessment unexpected reactions 抗体偶联药物 during clinical development presented encompassing physicochemical functional analytical characterization, mechanistic confirmation, evaluation relevance 体内. The strategy illustrated real-world example 抗体偶联药物 clinical development, SYD1875, exhibiting unexpected decrease biological activity following 3 months storage stressed condition. Comprehensive analytical characterization revealed intramolecular cross-link between linker-drug glutamic acid light chain antibody. Mechanistic studies confirmed that this cross-link abolishes cytotoxicity 抗体偶联药物. Subsequent bioanalytical pharmacokinetic investigations demonstrated that, although cross-link also formed 体内, overall impact systemic exposure limited. The generalizable framework described this report aims facilitating evaluation anomalies product quality 抗体偶联药物 subsequent risk assessment, thereby supporting decision making.",
         "summary_cn": "【研究基础与实验设计】核心技术：抗体偶联药物(ADC)；研究层级：动物体内实验。\n【核心实验关键数据】表型：细胞凋亡/细胞毒性；核心发现：相关性, 安全性评估, 有效性验证, 结合/相互作用。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：mAbs。\n【后续追踪要点】新药研发；安全性监测。",
-        "composite_score": 9.58,
-        "relevance_score": 13.5,
+        "composite_score": 9.03,
+        "relevance_score": 12.5,
         "impact_factor": 5.6,
         "top_tier": false
       },
@@ -1612,60 +1529,6 @@
     ],
     "glp1": [
       {
-        "pmid": "42742184",
-        "title": "Computable longitudinal patient journeys from structured and unstructured EHR data.",
-        "abstract": "Most electronic health record (EHR) data reside in unstructured text, recorded in encounters between health care providers and patients. These encounters capture symptom narratives, adverse effects, treatment rationales, adherence challenges, family history and other nuances that are not coded or only partially reflected in structured fields such as diagnosis and procedures codes. Yet the majority of real-world evidence studies rely on structured data fields. Here we present a novel approach that uses large, pre-trained language models to accurately extract computable clinical data from unstructured EHR text. Physician adjudication confirmed high accuracy against a blinded expert reference standard, with high expert physician inter-reviewer agreement. The framework is disease-agnostic and scales to large patient datasets across all clinical conditions. The extracted clinical entities are integrated with structured EHR data, embedded with medical ontologies, and organized into a knowledge graph (KG), allowing all relationships between variables to be interrogated at the level of individual patients or at scale. An agentic-friendly programmatic interface navigates large-scale KG data, making analyses rapid, easy and cost-effective, both for exploration and hypothesis testing. This human-guided query environment enables acceleration of labor-intensive tasks while study design, analytic decisions and interpretation remain under investigator control. To demonstrate clinical utility, we conducted a large-scale longitudinal analysis of treatment responses among individuals initiating glucagon-like peptide-1 receptor agonists (GLP-1 RAs) therapy. We identify large numbers of patients initiating GLP-1 RAs with high confidence, reconstruct patient-level trajectories, and model longitudinal changes in weight and hemoglobin A1c (HbA1c) following GLP-1 RA initiation, revealing association between these parameters and response to therapy. Further, we characterize outcomes captured only in unstructured clinical notes and show time-to-event outcomes, moving beyond fixed-timepoint endpoints to provide a comprehensive understanding of real-world treatment responses.",
-        "authors": [
-          "Edward Kim",
-          "Richard Foty",
-          "Avnesh S Thakor",
-          "Jay S Skyler",
-          "Lucy F Robinson"
-        ],
-        "journal": "Nature medicine",
-        "date": "2026-09-10",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Computable longitudinal patient journeys from structured and unstructured EHR data.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：首次发现/鉴定, 鉴定/表征, 相关性, 疾病模型建立。\n【机制创新与产业价值】发表期刊：Nature medicine。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 6.43,
-        "relevance_score": 3.5,
-        "impact_factor": 58.7,
-        "top_tier": true
-      },
-      {
-        "pmid": "42688617",
-        "title": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials.",
-        "abstract": "OBJECTIVE: To compare the efficacy and safety of glucagon-like peptide 1 (GLP-1) based drug treatments for weight loss in adults with overweight or obesity without diabetes. DESIGN: Network meta-analysis of randomised controlled trials. DATA SOURCES: Embase, PubMed (Medline), and Web of Science, 1 January 2000 to 6 March 2026. ELIGIBILITY CRITERIA FOR SELECTING STUDIES: Randomised controlled trials that enrolled adults with overweight or obesity, comparing GLP-1 receptor agonists or related co-agonists with placebo or active comparators, with a minimum intervention duration of 12 weeks. Excluded were trials that enrolled participants with diabetes, or where diabetes status could not be clearly determined. RESULTS: 58 trials of 24 214 participants were analysed. Compared with placebo, weight loss was greatest with retatrutide (-22.10%, 95% confidence interval -25.60% to -18.60%), followed by tirzepatide (-19.28%, -20.39% to -18.16%), and CagriSema (a combination of cagrilintide and semaglutide, -17.32%, -19.32% to -15.32%). Conventional GLP-1 receptor agonists showed more modest effects. Similar patterns were seen for waist circumference and lipid outcomes. Treatment rankings suggested a probabilistic hierarchy favouring next generation incretin based treatments, although confidence intervals overlapped for several comparisons. Low certainty evidence suggested higher rates for discontinuing treatment with danuglipron and retatrutide, whereas mazdutide showed better tolerability. CONCLUSIONS: In adults with overweight or obesity without diabetes, next generation incretin based treatments achieved greater weight loss than conventional GLP-1 receptor agonists. Differences in tolerability, limited head-to-head evidence, and residual uncertainty, however, should be considered when interpreting comparative treatment effects. STUDY REGISTRATION: PROSPERO CRD420261279841.",
-        "authors": [
-          "Deshi Chen",
-          "Bing Ma",
-          "Hao Sun",
-          "Jing Zhang",
-          "Linlin Gong"
-        ],
-        "journal": "BMJ medicine",
-        "date": "2026-08-27",
-        "keywords": [
-          "Diabetes mellitus",
-          "Drug therapy",
-          "Endocrinology",
-          "Pharmacology, clinical",
-          "Public health",
-          "Therapeutics"
-        ],
-        "companies": [],
-        "title_cn": "Comparative efficacy and safety of glucagon-like peptide 1 based drugs for weight loss in adults with overweight or obesity without diabetes: network meta-analysis of randomised controlled trials.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：22.10%, 95%, 25.60%；核心发现：安全性评估, 有效性验证；局限性：需进一步研究。\n【机制创新与产业价值】发表期刊：BMJ medicine。\n【后续追踪要点】安全性监测。",
-        "backfilled_from_news": "Interpreting reduced biologic initiation after GLP-1 receptor agonist exposure i",
-        "composite_score": 13.3,
-        "relevance_score": 16.0,
-        "impact_factor": 93.6,
-        "top_tier": false
-      },
-      {
         "pmid": "42736027",
         "title": "Psychiatric Safety of GLP-1 and Dual GIP/GLP-1 Receptor Agonists in Adolescents With Obesity.",
         "abstract": "BACKGROUND: Glucagon-like peptide-1 receptor agonists (GLP-1RAs) and dual GIP/GLP-1 receptor agonists are increasingly used for adolescent obesity, but concerns persist regarding psychiatric adverse events, particularly suicidality. METHODS: This retrospective cohort study used deidentified electronic health records from the TriNetX Global Collaborative Network. Adolescents with overweight or obesity were included. New users of semaglutide, liraglutide, or tirzepatide were compared with those receiving lifestyle interventions. Cohorts were balanced using propensity score matching. The primary outcome was suicide-related events (suicidal ideation or suicide attempt). Secondary outcomes included suicidal ideation, suicide attempt, anxiety, insomnia, depression, and eating disorders, assessed from 30 days to 1095 days after the index date. RESULTS: After propensity score matching, 9222 adolescents were included in each group. Incretin-based therapy was associated with lower risks of suicide-related events (HR, 0.74; 95% CI, 0.57-0.95), suicidal ideation (HR, 0.73; 95% CI, 0.56-0.96), and anxiety (HR, 0.92; 95% CI, 0.84-0.99) compared with lifestyle intervention. No significant differences were observed for suicide attempt, insomnia, depression, or eating disorders. Risk reductions were significant among female adolescents (HR, 0.61; 95% CI, 0.46-0.82) and those without Type 2 diabetes (HR, 0.63; 95% CI, 0.47-0.85), but not among males or those with Type 2 diabetes. Sensitivity analyses supported the primary findings. CONCLUSIONS: Among adolescents with obesity, incretin-based therapy was not associated with increased psychiatric risk and was associated with lower risks of suicide-related events, suicidal ideation, and anxiety compared with lifestyle intervention. Although a lower risk was observed compared with lifestyle intervention, this finding should be interpreted cautiously given potential selection bias and the lack of a significant difference in the active-comparator analysis with metformin.",
@@ -1690,6 +1553,69 @@
         "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】量化数据：95%, 95%, 95%；表型：焦虑/抑郁样行为；核心发现：安全性评估。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Diabetes, obesity & metabolism。\n【后续追踪要点】安全性监测。",
         "composite_score": 12.62,
         "relevance_score": 18.0,
+        "impact_factor": 9.8,
+        "top_tier": false
+      },
+      {
+        "pmid": "42419304",
+        "title": "GLP-1R and GIPR crosstalk modulates insulinotropic signaling pathways.",
+        "abstract": "Drugs targeting glucagon-like peptide-1 and glucose-dependent insulinotropic polypeptide receptors (GLP-1R and GIPR) show strong clinical effects in type 2 diabetes and obesity. Both GIPR agonism and antagonism enhance GLP-1R agonist efficacy, indicating important incretin receptor crosstalk. We show that GLP-1 and semaglutide, but not exendin-4, promote heterodimerization between GLP-1R and GIPR through interactions between TM4 of GLP-1R and TM1/2 of GIPR. Phosphoproteomics and molecular dynamics reveal that dimerizing and non-dimerizing agonists differentially influence GLP-1R, activating divergent signaling pathways in human pancreatic islets. Moreover, semaglutide and exenatide display distinct patterns in their FDA-reported safety profiles. When co-expressed, GLP-1R enhances GIPR signaling in a β-arrestin-dependent manner, while increasing GIPR levels decreases GLP-1R signaling. Additionally, we show that changes in GIPR expression are clinically associated with adiposity and diabetic phenotypes. These findings highlight heterodimerization and receptor expression as key modulators of GLP-1R/GIPR signaling, offering mechanistic insights, and guiding drug design strategies that incorporate receptor crosstalk.",
+        "authors": [
+          "Peter Lindquist",
+          "Luuk R Hoegen Dijkhof",
+          "Anna K Drzazga",
+          "Pierre Sabatier",
+          "Tomasz M Stepniewski"
+        ],
+        "journal": "Cell chemical biology",
+        "date": "2026-07-08",
+        "keywords": [
+          "GIPR",
+          "GLP-1R",
+          "GPCR",
+          "adverse drug events",
+          "crosstalk",
+          "heterodimerization",
+          "obesity",
+          "stoichiometry",
+          "type 2 diabetes"
+        ],
+        "companies": [],
+        "title_cn": "GLP-1R and GIPR crosstalk modulates insulinotropic signaling pathways.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】核心发现：促进作用, 调控作用, 性别差异, 安全性评估。\n【机制创新与产业价值】发表期刊：Cell chemical biology。\n【后续追踪要点】安全性监测。",
+        "composite_score": 11.82,
+        "relevance_score": 13.5,
+        "impact_factor": 45.5,
+        "top_tier": false
+      },
+      {
+        "pmid": "42755112",
+        "title": "Effectiveness, Safety and Pharmacokinetics of BGM0504, a Dual GLP-1/GIP Receptor Agonist, in Chinese Adults With Overweight or Obesity Without Diabetes: A Phase 2 Multicentre, Randomized, Double-Blind, Placebo-Controlled Trial.",
+        "abstract": "AIMS: To evaluate the safety, tolerability, pharmacokinetics (PK), pharmacodynamics, and efficacy of the dual GLP-1R/GIPR agonist BGM0504 in Chinese adults with overweight or obesity without diabetes. MATERIALS AND METHODS: In this randomized, double-blind, placebo-controlled, parallel-group phase 2 trial, 120 participants were assigned (1:1:1:1) to receive once-weekly subcutaneous injections of BGM0504 5 mg, 10 mg, 15 mg, or placebo for 24 weeks. The primary endpoint was percentage change in body weight from baseline to week 24. Key secondary endpoints included absolute body weight change, waist circumference, and the proportions of participants achieving prespecified weight-loss targets. Safety was assessed using adverse events, laboratory tests, and vital signs. The trial was registered with the Chinese National Medical Products Administration (CTR20233198) and ClinicalTrials.gov (NCT06973681). RESULTS: Mean percentage changes in body weight from baseline to week 24 were -10.68%, -16.07%, -18.33%, and 0.13% with BGM0504 5 mg, 10 mg, 15 mg, and placebo, respectively; all BGM0504 doses were significantly superior to placebo (all p < 0.0001). Mean reductions in waist circumference were -8.88 cm, -12.71 cm, -14.38 cm, and -1.03 cm, respectively (all p < 0.001 vs. placebo). The proportions of participants achieving clinically meaningful weight loss increased in a dose-dependent manner across BGM0504 groups versus placebo (all p < 0.001). PK analyses showed an approximately linear dose-exposure relationship across the evaluated dose range. TEAEs occurred in 96.7%, 93.5%, 100.0%, and 86.7% of participants in the BGM0504 5 mg, 10 mg, 15 mg, and placebo groups, respectively, and drug-related adverse events occurred in 53.3%, 80.6%, 93.1%, and 40.0%. The most common selected TEAEs were gastrointestinal, including nausea, diarrhoea, and vomiting. One serious adverse event occurred in the 10 mg group and no TEAEs led to trial withdrawal. CONCLUSIONS: Once-weekly BGM0504 was associated with substantial dose-dependent weight loss and acceptable tolerability in Chinese adults with overweight or obesity without diabetes, supporting further clinical development.",
+        "authors": [
+          "Linong Ji",
+          "Guoping Yang",
+          "Yangqing Huang",
+          "Haifeng Ding",
+          "Daosheng Xie"
+        ],
+        "journal": "Diabetes, obesity & metabolism",
+        "date": "2026-09-17",
+        "keywords": [
+          "BGM0504",
+          "GIP receptor",
+          "GLP‐1 receptor",
+          "obesity",
+          "pharmacokinetics",
+          "phase 2 trial"
+        ],
+        "companies": [],
+        "title_cn": "Effectiveness, Safety and Pharmacokinetics of BGM0504, a Dual GLP-1/GIP Receptor Agonist, in Chinese Adults With Overweight or Obesity Without Diabetes: A Phase 2 Multicentre, Randomized, Double-Blind, Placebo-Controlled Trial.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：糖尿病、肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：II期临床试验。\n【核心实验关键数据】量化数据：10.68%, 16.07%, 18.33%；核心发现：安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Diabetes, obesity & metabolism。\n【后续追踪要点】安全性监测。",
+        "composite_score": 11.8,
+        "relevance_score": 16.5,
         "impact_factor": 9.8,
         "top_tier": false
       },
@@ -1722,6 +1648,35 @@
         "composite_score": 11.46,
         "relevance_score": 14.0,
         "impact_factor": 25.7,
+        "top_tier": false
+      },
+      {
+        "pmid": "42754274",
+        "title": "Semaglutide as adjunct treatment for obesity in adolescents receiving antipsychotic medication (the GOAL trial): protocol for a single-arm, open-label feasibility study.",
+        "abstract": "INTRODUCTION: Adolescents treated with antipsychotic medication are at increased risk of obesity and metabolic complications, yet evidence-based interventions in this group remain limited. Glucagon-like peptide-1 receptor agonists have demonstrated efficacy in the treatment of obesity in both adults and adolescents. The aim of this trial is to assess the feasibility of a 36-week treatment period with a glucagon-like peptide-1 receptor agonist as an adjunct to standard care in adolescents with antipsychotic-associated obesity, defined as completion from baseline to end of treatment. The findings from this feasibility trial will inform the design and support the scale-up of a subsequent randomised controlled trial. METHODS AND ANALYSIS: The GOAL trial is a single-arm, open-label feasibility study conducted at Copenhagen University Hospital, Bispebjerg, Denmark, in collaboration with the Child and Adolescent Mental Health Center. A total of 34 adolescents aged 12-18 years with obesity, defined as body mass index SD score equal to or greater than +1.28 and body fat percentage at or above the 95th percentile, receiving stable antipsychotic treatment will be enrolled. The study population includes adolescents with a range of psychiatric diagnoses requiring antipsychotic treatment, including psychotic disorders, mood disorders and neurodevelopmental disorders. Adolescents receiving antipsychotic treatment under coercion are excluded. Participants will receive once-weekly subcutaneous semaglutide at a dose up to 2.4 milligrams for 36 weeks in addition to standard care, followed by an 18-month observational follow-up period. The primary outcome is study completion rate. Additional feasibility outcomes include recruitment rate, treatment adherence and completion of study procedures. Secondary outcomes include changes in body mass index SD score, body composition, metabolic biomarkers and psychiatric outcomes. Feasibility outcomes will be analysed descriptively. Exploratory longitudinal analyses will be conducted using linear mixed-effects models. ETHICS AND DISSEMINATION: The study complies with the Declaration of Helsinki and European Union Clinical Trials Regulation (536/2014) and is approved in the Clinical Trials Information System (2024-5 17 471-21-02). Written informed consent will be obtained from participants and their legal guardians. Results will be disseminated through peer-reviewed publications and scientific conferences. TRIAL REGISTRATION NUMBER: 2024-5 17 471-21-02.",
+        "authors": [
+          "Laura Victoria Giraldi",
+          "Jon Trærup Andersen",
+          "Jonas Jespersen",
+          "Christoffer Storm Baden",
+          "Cilius Esmann Fonvig"
+        ],
+        "journal": "BMJ open",
+        "date": "2026-09-17",
+        "keywords": [
+          "Adolescent",
+          "Body Mass Index",
+          "Child & adolescent psychiatry",
+          "Clinical Protocols",
+          "Clinical Trial"
+        ],
+        "companies": [],
+        "title_cn": "Semaglutide as adjunct treatment for obesity in adolescents receiving antipsychotic medication (the GOAL trial): protocol for a single-arm, open-label feasibility study.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；核心技术：碱基编辑(CBE/ABE)；研究层级：基础研究。\n【核心实验关键数据】核心发现：调控作用, 疾病模型建立, 有效性验证。\n【机制创新与产业价值】发表期刊：BMJ open。\n【后续追踪要点】临床试验；伴随诊断。",
+        "composite_score": 11.38,
+        "relevance_score": 12.5,
+        "impact_factor": 93.6,
         "top_tier": false
       },
       {
@@ -1804,29 +1759,6 @@
         "top_tier": false
       },
       {
-        "pmid": "42744908",
-        "title": "Cagrilintide and retatrutide combination therapy enhances weight loss and metabolic outcomes in obese male rats.",
-        "abstract": "Peptide multi-receptor agonists have advanced obesity treatment, yet challenges remain in achieving maximal weight loss and metabolic control, especially in patients with obesity and type 2 diabetes. Here we demonstrate enhanced metabolic benefits of a combination therapy with retatrutide, a unimolecular GLP-1R/GIPR/GCGR tri-agonist, and cagrilintide, an AMLNR/CALCR co-agonist, in diet-induced obese male rats. Daily co-administration produces dose-dependent reductions in body weight and food intake that exceed both equimolar monotherapies and matched-dose comparator combinations incorporating semaglutide or tirzepatide. The combination therapy also improves circulating markers of metabolic health, including cholesterol, triglycerides and insulin levels. Pair-feeding and weight-matching studies reveal that the enhanced weight loss cannot be explained by reduced food intake alone and enable discrimination between weight-loss-dependent and drug-specific molecular responses. Plasma proteomic profiling highlights enrichment of bioenergetic processes with the combination therapy, whereas brain transcriptomic profiling identifies convergent central neuronal programmes linked to energy balance regulation. Collectively, our preclinical findings support five-receptor polypharmacology as a strategy for efficaciously lowering body weight and provide guidance for the design of next-generation unimolecular multi-receptor agonists.",
-        "authors": [
-          "Jonas Petersen",
-          "Christoffer Merrild",
-          "Stephanie Kjærulff Holm",
-          "Nigel Kurgan",
-          "Shad Hassan"
-        ],
-        "journal": "Nature metabolism",
-        "date": "2026-09-15",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Cagrilintide and retatrutide combination therapy enhances weight loss and metabolic outcomes in obese male rats.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：急性髓系白血病、糖尿病；核心技术：碱基编辑(CBE/ABE)；研究层级：临床前研究。\n【核心实验关键数据】核心发现：促进作用, 调控作用, 相关性, 有效性验证；局限性：存在技术局限。\n【机制创新与产业价值】发表期刊：Nature metabolism。\n【后续追踪要点】联合用药。",
-        "composite_score": 10.4,
-        "relevance_score": 12.5,
-        "impact_factor": 20.8,
-        "top_tier": false
-      },
-      {
         "pmid": "42732089",
         "title": "GLP-1 receptor agonist use and mental health outcomes in adolescents with obesity: a retrospective review.",
         "abstract": "OBJECTIVES: Adolescent obesity is associated with increased rates of depression and suicidality. Glucagon-like peptide-1 receptor agonists (GLP-1RAs) are increasingly used to treat pediatric obesity, yet concerns remain regarding potential psychiatric effects. This study evaluated changes in depressive symptoms and suicidality screening scores among adolescents with obesity treated with GLP-1RAs in a pediatric endocrinology setting. We evaluated changes in depressive symptoms and suicidality following initiation of GLP-1RA therapy in adolescents with obesity. METHODS: We performed a retrospective chart review of adolescents aged 12-21 years with obesity treated with liraglutide or semaglutide at a single academic center between June 2022 and December 2024. Demographic, clinical, and psychosocial data were extracted from the electronic health record at baseline and follow-up. Depressive symptoms or suicidality were screened at clinic visits per protocol using either the Patient Health Questionnaire-9 (PHQ-9) or the Ask Suicide-Screening Questions (ASQ), respectively. Analyses were restricted to patients with paired baseline and follow-up assessments using the same instrument. Paired nonparametric tests were used for longitudinal comparisons. RESULTS: Forty-four adolescents met inclusion criteria. Among patients with paired PHQ-9 data (n=15), the median PHQ-9 score decreased significantly from 6 (IQR 2-14) at baseline to 1 (IQR 0-5) at follow-up (p=0.003), independent of changes in BMI. Among patients with paired ASQ data (n=23), no increase in suicidality or new suicidal ideation was observed. CONCLUSIONS: In this small, exploratory retrospective review, no evidence of short-term psychological harm or increased suicidality was observed among adolescents receiving GLP-1RA therapy. These findings support the short-term psychosocial safety of GLP-1RA therapy in adolescents with obesity. Larger prospective case-control studies are needed to better characterize psychiatric safety and psychosocial outcomes.",
@@ -1856,60 +1788,30 @@
         "top_tier": false
       },
       {
-        "pmid": "42744726",
-        "title": "A multicenter real-world study on the safety and effectiveness of the glucagon-like peptide-1 receptor agonist (liraglutide) in adolescents with obesity in Taiwan.",
-        "abstract": "BACKGROUND AND AIMS: Pediatric obesity is linked to many metabolic complications and has limited treatment options. We evaluated the safety and effectiveness of GLP-1 receptor agonist (liraglutide) in adolescents with obesity in clinical practice in Taiwan. METHODS: We conducted a prospective study (NCT06283641) across 14 hospitals and clinics from February 2024 to March 2025 evaluating adolescents receiving liraglutide at baseline, week 13, and week 26. Demographics, and safety and effectiveness outcomes, including incidence proportions of adverse events and adverse drug reactions, and changes in body weight and body mass index, were assessed. RESULTS: Among 41 participants, 22 (53.7%) were male, with mean age (±standard deviation) 13.9 ± 1.8 years, body weight (BW) 88.5 ± 19.3 kg, and body mass index (BMI) 33.4 ± 5.1 kg/m2. Nineteen (46.3%) had medical history of hepatic impairment. Mean daily and maximum doses were 1.4 ± 0.5 mg/day and 1.8 ± 0.7 mg/day, respectively, throughout 128.3 ± 56.0 days; 14.4% escalated to 3.0 mg/day. Overall respective incidence proportions of adverse events and adverse drug reactions were 19.5% (8/41; all mild) and 9.8% (4/41; 6 events), respectively. Gastrointestinal events were most frequent, followed by injection site-related events. No treatment discontinuation resulted from intolerance. Mean respective losses in BW, BMI, and BMI standard deviation score at weeks 13 and 26 were -2.7 ± 3.8 kg (p = 0.0003), -1.3 ± 1.4 kg/m2 (p < 0.0001), and -0.2 ± 0.2 (p < 0.0001); and -4.4 ± 5.7 kg (p = 0.0015), -1.9 ± 2.1 kg/m2 (p = 0.0004), and -0.4 ± 0.3 (p < 0.0001), respectively. CONCLUSION: In adolescents with obesity in Taiwan, liraglutide at doses below 3.0 mg/day was well-tolerated, and reductions in BW, BMI, and BMI standard deviation score were observed.",
+        "pmid": "42744908",
+        "title": "Cagrilintide and retatrutide combination therapy enhances weight loss and metabolic outcomes in obese male rats.",
+        "abstract": "Peptide multi-receptor agonists have advanced obesity treatment, yet challenges remain in achieving maximal weight loss and metabolic control, especially in patients with obesity and type 2 diabetes. Here we demonstrate enhanced metabolic benefits of a combination therapy with retatrutide, a unimolecular GLP-1R/GIPR/GCGR tri-agonist, and cagrilintide, an AMLNR/CALCR co-agonist, in diet-induced obese male rats. Daily co-administration produces dose-dependent reductions in body weight and food intake that exceed both equimolar monotherapies and matched-dose comparator combinations incorporating semaglutide or tirzepatide. The combination therapy also improves circulating markers of metabolic health, including cholesterol, triglycerides and insulin levels. Pair-feeding and weight-matching studies reveal that the enhanced weight loss cannot be explained by reduced food intake alone and enable discrimination between weight-loss-dependent and drug-specific molecular responses. Plasma proteomic profiling highlights enrichment of bioenergetic processes with the combination therapy, whereas brain transcriptomic profiling identifies convergent central neuronal programmes linked to energy balance regulation. Collectively, our preclinical findings support five-receptor polypharmacology as a strategy for efficaciously lowering body weight and provide guidance for the design of next-generation unimolecular multi-receptor agonists.",
         "authors": [
-          "Chiao-Fan Chiu",
-          "Chu-Kuang Chou",
-          "Shu-Wei Hu",
-          "Kuo-Chin Huang",
-          "Yi-Lei Wu"
+          "Jonas Petersen",
+          "Christoffer Merrild",
+          "Stephanie Kjærulff Holm",
+          "Nigel Kurgan",
+          "Shad Hassan"
         ],
-        "journal": "Obesity research & clinical practice",
+        "journal": "Nature metabolism",
         "date": "2026-09-15",
-        "keywords": [
-          "Adolescents",
-          "GLP-1 RA",
-          "Liraglutide",
-          "Obesity",
-          "Real-world evidence",
-          "Taiwan"
-        ],
+        "keywords": [],
         "companies": [],
-        "title_cn": "A multicenter real-world study on the safety and effectiveness of the glucagon-like peptide-1 receptor agonist (liraglutide) in adolescents with obesity in Taiwan.",
+        "title_cn": "Cagrilintide and retatrutide combination therapy enhances weight loss and metabolic outcomes in obese male rats.",
         "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：肥胖；研究层级：基础研究。\n【核心实验关键数据】量化数据：53.7%, 46.3%, 14.4%；核心发现：相关性, 安全性评估, 有效性验证。\n【机制创新与产业价值】临床痛点：药物毒性/副作用；发表期刊：Obesity research & clinical practice。\n【后续追踪要点】安全性监测。",
-        "composite_score": 10.14,
-        "relevance_score": 15.0,
-        "impact_factor": 4.2,
+        "summary_cn": "【研究基础与实验设计】研究针对：急性髓系白血病、糖尿病；核心技术：碱基编辑(CBE/ABE)；研究层级：临床前研究。\n【核心实验关键数据】核心发现：促进作用, 调控作用, 相关性, 有效性验证；局限性：存在技术局限。\n【机制创新与产业价值】发表期刊：Nature metabolism。\n【后续追踪要点】联合用药。",
+        "composite_score": 9.85,
+        "relevance_score": 11.5,
+        "impact_factor": 20.8,
         "top_tier": false
       }
     ],
     "io": [
-      {
-        "pmid": "42722885",
-        "title": "COVID-19 vaccination around immune checkpoint inhibitor start and survival in a nationwide cohort of patients with cancer.",
-        "abstract": "Experimental data suggest that COVID-19 vaccination could modulate immune checkpoint inhibitor (ICI) effects, but population evidence is limited. Using the French health data system (Système National des Données de Santé), we identified 95,015 adults initiating ICI therapy between December 2020 and March 2023. We assessed mRNA vaccination within 100 days before ICI initiation using inverse probability of treatment weighting and within 100 days after ICI initiation among previously unvaccinated patients using a cloning-censoring-weighting target-trial emulation. The primary outcome was all-cause mortality; secondary outcomes were cancer-specific and non-COVID-19 mortality. Follow-up extended to 31 December 2024 for all-cause mortality and to 31 December 2023 for cause-specific deaths. Pre-ICI mRNA vaccination was associated with lower early all-cause mortality (hazard ratio (HR) 0.90 (95% confidence interval (CI) 0.87-0.94) at 1-3 months and 0.96 (0.93-1.00) at 6 months) and no significant association after 12 months. Post-ICI mRNA vaccination showed a similar early association (HR 0.84 (95% CI 0.80-0.88) at 3 months and 0.86 (0.79-0.94) at 6 months), also with no significant association after 12 months. Estimates for non-COVID-19 and cancer-specific mortality were similar to those for overall survival. Similar early patterns with non-mRNA COVID-19 and other adult vaccines suggest modest, transient associations or healthy-vaccinee effects, rather than a specific mRNA COVID-19 vaccine effect.",
-        "authors": [
-          "Joe-Elie Salem",
-          "Raphaelle Curmin",
-          "Aya Ajrouche",
-          "Yann De Rycke",
-          "Jacques Cadranel"
-        ],
-        "journal": "Nature medicine",
-        "date": "2026-09-10",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "COVID-19 vaccination around immune checkpoint inhibitor start and survival in a nationwide cohort of patients with cancer.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：COVID-19；核心技术：mRNA技术；研究层级：基础研究。\n【核心实验关键数据】量化数据：95%, 95%；表型：肿瘤发生；核心发现：抑制作用, 调控作用, 相关性, 有效性验证。\n【机制创新与产业价值】信号通路：免疫检查点通路；发表期刊：Nature medicine。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 9.73,
-        "relevance_score": 9.5,
-        "impact_factor": 58.7,
-        "top_tier": true
-      },
       {
         "pmid": "42508408",
         "title": "Tumor-infiltrating plasma cell profiling after PD-1 blockade reveals tumor-specific antibodies.",
@@ -1973,38 +1875,6 @@
         "top_tier": true
       },
       {
-        "pmid": "42462708",
-        "title": "PD-1 blockade unleashes local hepatitis B virus-related B cell response inhibiting hepatocellular carcinoma.",
-        "abstract": "The prevailing notion is that effector T cell activation mediates anti-PD-1 efficacy in cancer. Here, we conducted a mechanistic study parallel to our phase 2 trial of perioperative anti-PD-1 therapy in patients with resectable recurrent hepatocellular carcinoma (HCC) (NCT04615143) to study its mechanism of action. Late-recurrence patients present two distinct subtypes characterized by T cell or B cell dominant responses in the tumor microenvironment by dynamic single-cell multi-omics analysis. Clonal antibody repertoire analysis and spatially paired scRNA-seq/BCR-seq reveal somatic hypermutation promoting antibody binding against hepatitis B virus core antigen (HBcAg) within tumor tertiary lymphoid structures (TLSs) in these type B-late recurrence patients. Mechanistically, HBcAg is exported into the extracellular space, triggering local B cell and antibody responses and complement activation. In mice, these high-affinity HBcAg-reactive antibodies lead to complement-mediated antitumor activity with enhanced anti-PD-1 efficacy. Thus, we uncover enhanced anti-virus B cell immunity within the TLS as a mechanism to anti-PD-1 in HCC.",
-        "authors": [
-          "Shuling Chen",
-          "Yuanqi Wang",
-          "Jingying Chen",
-          "Wenxuan Xie",
-          "Jianyu Chen"
-        ],
-        "journal": "Cancer cell",
-        "date": "2026-07-16",
-        "keywords": [
-          "B-cell response",
-          "anti-PD-1",
-          "antibody affinity",
-          "hepatitis B virus",
-          "hepatocellular carcinoma",
-          "immune checkpoint blockade",
-          "tertiary lymphoid structures"
-        ],
-        "companies": [],
-        "title_cn": "PD-1 blockade unleashes local hepatitis B virus-related B cell response inhibiting hepatocellular carcinoma.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：肝癌/肝细胞癌；核心技术：RNA-seq转录组测序；研究层级：II期临床试验。\n【核心实验关键数据】表型：肿瘤发生；核心发现：鉴定/表征, 抑制作用, 促进作用, 调控作用。\n【机制创新与产业价值】信号通路：免疫检查点通路；临床痛点：转移/复发；发表期刊：Cancer cell。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "backfilled_from_news": "Local antibody-driven response to anti-PD-1 blockade.",
-        "composite_score": 8.87,
-        "relevance_score": 8.0,
-        "impact_factor": 48.8,
-        "top_tier": true
-      },
-      {
         "pmid": "42679812",
         "title": "Tumor immune microenvironment remodeling predicts response to checkpoint inhibitor therapy.",
         "abstract": "Immune checkpoint inhibitors (ICIs) have transformed cancer therapy, yet the basis of variable patient responses remains unclear. We assemble a longitudinal single-cell RNA sequencing atlas of 441 samples from 241 patients across ten cancer entities to map treatment-associated remodeling of the tumor immune microenvironment (TIME). With a hierarchical reference-guided deep-phenotyping framework, we define 77 immune and stromal subtypes and resolve four conserved TIME subtypes. Approximately 40% of tumors shift between states during therapy, and the transition is more predictive of outcome than the baseline state. Favorable transitions toward inflamed or B cell-enriched subtype track with improved response and survival, while persistence in or shifts toward myeloid dominance indicate resistance. We derive a 59-gene signature that predicted response and survival for 1,383 baseline tumors across 19 independent cohorts. These findings establish immunotype transitions as a central determinant of ICI efficacy, offering new avenues for response prediction and rational immunotherapy design.",
@@ -2051,9 +1921,43 @@
         "title_cn": "Targeting BLVRB Overcomes Immunosuppression and Potentiates Immunotherapy in Monocytic Acute Myeloid Leukemia.",
         "abstract_cn": "",
         "summary_cn": "【研究基础与实验设计】研究针对：急性髓系白血病；模型：患者来源异种移植模型(PDX)、异种移植瘤模型；研究层级：基础研究。\n【核心实验关键数据】表型：细胞凋亡/细胞毒性；核心发现：鉴定/表征, 抑制作用, 促进作用, 调控作用；关键突破：克服耐药, 提高疗效。\n【机制创新与产业价值】信号通路：免疫检查点通路；临床痛点：药物毒性/副作用；发表期刊：Cancer discovery。\n【后续追踪要点】新药研发；安全性监测。",
-        "composite_score": 8.59,
-        "relevance_score": 8.5,
+        "composite_score": 8.04,
+        "relevance_score": 7.5,
         "impact_factor": 29.7,
+        "top_tier": true
+      },
+      {
+        "pmid": "42753736",
+        "title": "Myeloid reprogramming generates myeloid-derived activating cells to potentiate radiotherapy and suppress metastasis.",
+        "abstract": "Radiation induces immunosuppressive myeloid cells that drive therapeutic resistance and metastasis. We identify TET2 as a radiation-induced regulator of myeloid-derived suppressor cells whose expression correlates with poor outcomes in advanced lung cancer patients receiving radio-immunotherapy. Following radiotherapy, myeloid-specific Tet2 deletion suppresses tumor progression and redirects monocyte differentiation toward antigen-presenting myeloid-derived activating cells (MDACs), which augment antitumor T cell responses; spatiotemporal mapping shows that this fate program initiates rapidly in the bone marrow. Mechanistically, a radiation-responsive p53-TET2 axis decreases m5C on chromatin-associated RNAs (caRNAs), enforcing immunosuppressive chromatin compaction and silencing interferon signaling, whereas Tet2 loss restores chromatin accessibility and enhances CD8+ T cell cytotoxicity. Pharmacological TET2 inhibition recapitulates this phenotype and augments radiotherapy and PD-L1 blockade to control primary and metastatic tumors. These findings define MDACs as an immunogenic myeloid subset and establish myeloid reprogramming as a strategy to improve radiotherapy-immunotherapy outcomes.",
+        "authors": [
+          "Fei Ji",
+          "Lei Zheng",
+          "Dapeng Chen",
+          "Peng Xia",
+          "Zhongyu Zou"
+        ],
+        "journal": "Cancer cell",
+        "date": "2026-09-17",
+        "keywords": [
+          "MDACs",
+          "MDSCs",
+          "T cell cytotoxicity",
+          "TET2",
+          "chromatin-associated RNA",
+          "immunotherapy",
+          "myeloid reprogramming",
+          "myeloid-derived activating cells",
+          "myeloid-derived suppressor cells",
+          "radiotherapy"
+        ],
+        "companies": [],
+        "title_cn": "Myeloid reprogramming generates myeloid-derived activating cells to potentiate radiotherapy and suppress metastasis.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】表型：肿瘤发生, 细胞凋亡/细胞毒性, 迁移/侵袭/转移；核心发现：鉴定/表征, 抑制作用, 促进作用, 调控作用。\n【机制创新与产业价值】信号通路：免疫检查点通路；临床痛点：转移/复发, 药物毒性/副作用；发表期刊：Cancer cell。\n【后续追踪要点】新药研发；安全性监测。",
+        "composite_score": 7.5,
+        "relevance_score": 5.5,
+        "impact_factor": 48.8,
         "top_tier": true
       },
       {
@@ -2100,6 +2004,29 @@
         "composite_score": 7.08,
         "relevance_score": 7.0,
         "impact_factor": 15.8,
+        "top_tier": true
+      },
+      {
+        "pmid": "42758798",
+        "title": "In vivo CRISPR screens identify the glutamine transporter SLC1A5 as a metabolic barrier to antitumor immunity.",
+        "abstract": "Tumor cells often evade immune pressure via metabolic reprogramming, yet the key metabolic regulators orchestrating this process remain incompletely defined. Here, using in vivo metabolic CRISPR screening under distinct immune pressures, we identified tumor cell-intrinsic solute carrier family 1 member 5 (SLC1A5) as a metabolic node that sustains an immunosuppressive tumor microenvironment. SLC1A5-mediated glutamine metabolism in tumor cells modulated CD8 T cell infiltration and effector function, reshaping tumor responses to immune checkpoint blockade therapy. Glucose deprivation up-regulated SLC1A5 isoforms in tumor cells, enhancing glutamine uptake and glutathione synthesis. This adaptation limited mitochondrial oxidative stress and cytosolic mitochondrial DNA release, thereby suppressing cyclic GMP-AMP synthase-stimulator of interferon genes (cGAS-STING) activation, interferon-β production, and CD8 T cell antitumor responses. These findings define a glutamine-fueled metabolic program as a barrier to tumor immunogenicity, positioning SLC1A5 as a tumor-intrinsic metabolic regulator with potential therapeutic relevance.",
+        "authors": [
+          "Wenlong Jia",
+          "Guanxing Yu",
+          "Shenqi Han",
+          "Zhibo Ma",
+          "Junnan Liang"
+        ],
+        "journal": "Science immunology",
+        "date": "2026-09-18",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "In vivo CRISPR screens identify the glutamine transporter SLC1A5 as a metabolic barrier to antitumor immunity.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究层级：动物体内实验。\n【核心实验关键数据】表型：肿瘤发生；核心发现：鉴定/表征, 抑制作用, 促进作用, 调控作用。\n【机制创新与产业价值】信号通路：免疫检查点通路；发表期刊：Science immunology。\n【后续追踪要点】新药研发。",
+        "composite_score": 6.92,
+        "relevance_score": 6.5,
+        "impact_factor": 17.6,
         "top_tier": true
       },
       {
