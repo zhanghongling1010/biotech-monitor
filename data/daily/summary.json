@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-19T07:01:21.650584",
+  "timestamp": "2026-09-19T07:16:02.495292",
   "critical": {
     "deals": [
       {
@@ -424,16 +424,6 @@
         ]
       },
       {
-        "title": "Tumor immune microenvironment remodeling predicts response to checkpoint inhibitor therapy.",
-        "journal": "Cancer cell",
-        "date": "2026-09-01",
-        "authors": [
-          "Zhongyang Lin",
-          "Mitalee Chandra",
-          "Nalini Srinivas"
-        ]
-      },
-      {
         "title": "EGFR-targeting ADCs: From oncogene addiction to antigen-guided drug delivery.",
         "journal": "Cancer cell",
         "date": "2026-08-13",
@@ -454,6 +444,16 @@
         ]
       },
       {
+        "title": "PD-1 blockade unleashes local hepatitis B virus-related B cell response inhibiting hepatocellular carcinoma.",
+        "journal": "Cancer cell",
+        "date": "2026-07-16",
+        "authors": [
+          "Shuling Chen",
+          "Yuanqi Wang",
+          "Jingying Chen"
+        ]
+      },
+      {
         "title": "GLP-1R and GIPR crosstalk modulates insulinotropic signaling pathways.",
         "journal": "Cell chemical biology",
         "date": "2026-07-08",
@@ -461,6 +461,36 @@
           "Peter Lindquist",
           "Luuk R Hoegen Dijkhof",
           "Anna K Drzazga"
+        ]
+      },
+      {
+        "title": "Intravenous gene therapy improves life span and clinical outcomes in a feline model of Sandhoff disease.",
+        "journal": "Science translational medicine",
+        "date": "2026 Sep 9",
+        "authors": [
+          "Maguire AS",
+          "Ta NL",
+          "Gross AL"
+        ]
+      },
+      {
+        "title": "Factor IX Padua AAV gene therapy in adolescents with hemophilia B: a phase 1 trial.",
+        "journal": "Nature medicine",
+        "date": "2026 Sep 16",
+        "authors": [
+          "Xue F",
+          "Zhang A",
+          "Ju M"
+        ]
+      },
+      {
+        "title": "Dense RNA motif modifications enable robust in vivo prime editing and enhance efficiencies of diverse editing systems.",
+        "journal": "Nature biomedical engineering",
+        "date": "2026 Sep 11",
+        "authors": [
+          "Lei X",
+          "Chen D",
+          "Zhang K"
         ]
       },
       {
@@ -569,6 +599,30 @@
         "composite_score": 7.08,
         "relevance_score": 7.0,
         "impact_factor": 15.8,
+        "top_tier": true
+      },
+      {
+        "pmid": "42134381",
+        "title": "Hypofractionated breast radiotherapy for 1 week versus 3 weeks (FAST-Forward): 10-year efficacy and late normal tissue effects from a multicentre, open-label, non-inferiority, phase 3, randomised controlled trial and 5-year efficacy results from a randomised axillary substudy.",
+        "abstract": "BACKGROUND: FAST-Forward aimed to identify a 1-week adjuvant radiotherapy schedule for early-stage breast cancer that was as safe and efficacious as the standard 3-week schedule of 40 Gy in 15 fractions over 3 weeks. Primary analysis showed non-inferiority of 5-year ipsilateral breast recurrence for 26 Gy and 27 Gy in five fractions over 1 week, with 26 Gy also having similar results to 40 Gy for normal tissue effects. Here, we report 10-year outcomes of the FAST-Forward trial and 5-year efficacy outcomes of a substudy assessing the approach in patients requiring axillary treatment. METHODS: FAST-Forward is a multicentre, open-label, non-inferiority, phase 3, randomised controlled trial done at 97 hospitals (47 radiotherapy centres and 50 referring hospitals) in the UK. Patients aged 18 years or older with invasive carcinoma of the breast (pT1-3, pN0-1, M0) after breast conservation surgery or mastectomy were eligible. We randomly allocated patients (in a 1:1:1 ratio with random permuted blocks, stratified by radiotherapy centre) to either 40 Gy in 15 fractions (over 3 weeks), 27 Gy in five fractions (over 1 week), or 26 Gy in five fractions (over 1 week) to the whole breast or chest wall. Allocation was not masked because of the nature of the intervention. The primary endpoint was non-inferiority of ipsilateral breast recurrence at 5 years. Here, we report the planned 10-year analysis assessed in the intention-to-treat population (all participants who were randomly assigned and consented for use of data). We also report a planned intention-to-treat analysis of a subsequent substudy assessing 5-year efficacy of the same schedules in patients meeting the study criteria but requiring axillary treatment. The clinical trial was registered with ISRCTN (ISRCTN19906132); the main trial is complete, follow-up of the substudy cohort is ongoing. FINDINGS: Between Nov 24, 2011, and June 19, 2014, 4110 participants were enrolled in the main FAST-Forward trial. 23 withdrew consent for data use and were excluded and 4087 participants were included in the intention-to-treat population for this 10-year analysis. Participants were randomly assigned to 40 Gy (n=1358), 27 Gy (n=1362), or 26 Gy (n=1367). Median follow-up was 10·1 years (IQR 10·0-10·2). Ipsilateral breast recurrence was reported for 116 participants (45 in the 40 Gy group, 41 in the 27 Gy group, and 30 in the 26 Gy group), with 10-year cumulative incidence of 3·6% (95% CI 2·7-4·9) for the 40 Gy group, 2·9% (2·1-4·0) for the 27 Gy group, and 2·1% (1·5-3·1) for the 26 Gy group. 10-year clinician-reported moderate or marked breast or chest wall effects occurred in 100 (13·1%) of 765 participants in the 40 Gy group, 157 (19·3%) of 814 in the 27 Gy group, and 111 (14·4%) of 770 in the 26 Gy group. Between April 11, 2016, and Oct 2, 2018, 469 participants enrolled in the nodal substudy, 466 of which were included in intention-to-treat analyses. Median follow-up was 7·0 years (IQR 6·2-7·1) and 32 locoregional recurrences were reported. INTERPRETATION: Long-term follow-up confirms that 26 Gy in five fractions over 1 week is safe and efficacious for adjuvant radiotherapy to the breast or chest wall, supporting its use as a standard of care. Efficacy data for this schedule in the axillary nodal radiotherapy setting are reassuring; however, sample size limits precision of estimation for this subgroup on its own. FUNDING: UK National Institute for Health and Care Research.",
+        "authors": [
+          "Adrian Murray Brunt",
+          "Fay H Cafferty",
+          "Anna M Kirby",
+          "Jaymini Patel",
+          "Mark A Sydenham"
+        ],
+        "journal": "The Lancet. Oncology",
+        "date": "2026-05-14",
+        "keywords": [],
+        "companies": [],
+        "title_cn": "Hypofractionated breast radiotherapy for 1 week versus 3 weeks (FAST-Forward): 10-year efficacy and late normal tissue effects from a multicentre, open-label, non-inferiority, phase 3, randomised controlled trial and 5-year efficacy results from a randomised axillary substudy.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：乳腺癌；核心技术：碱基编辑(CBE/ABE)；研究层级：III期临床试验。\n【核心实验关键数据】量化数据：6%, 95%, 9%；表型：肿瘤发生；核心发现：鉴定/表征, 抑制作用, 有效性验证。\n【机制创新与产业价值】临床痛点：转移/复发；发表期刊：The Lancet. Oncology。\n【后续追踪要点】临床试验；长期疗效评估。",
+        "backfilled_from_news": "Disease Stage and Efficacy Interpretation in Gene Therapy for Arrhythmogenic Car",
+        "composite_score": 6.76,
+        "relevance_score": 4.5,
+        "impact_factor": 41.3,
         "top_tier": true
       },
       {
@@ -973,29 +1027,6 @@
         "composite_score": 7.68,
         "relevance_score": 11.5,
         "impact_factor": null,
-        "top_tier": false
-      },
-      {
-        "pmid": "42752133",
-        "title": "A noncontiguous code for RNA-guided DNA recognition at the origin of CRISPR-Cas.",
-        "abstract": "CRISPR-Cas provides RNA-mediated adaptive immunity, but how its first RNA-guided effector arose is unclear. In this study, we report the discovery of Viral Interference Programmable Repeat (VIPR) systems consisting of a Vipr protein ancestral to the earliest CRISPR-Cas effectors and VIPR RNAs (vrRNAs) comprising alternating GGY/NN motifs. Unlike canonical guide RNAs that pair with target nucleic acids through contiguous complementarity, vrRNAs recognize double-stranded DNA through a noncontiguous code in which the variable NN dinucleotides collectively specify a gapped target sequence. Natural vrRNA targets suggest that VIPR systems act against competing phages, and we demonstrate programmable phage defense by redirecting the complex for transcriptional repression. These results suggest that adaptive immunity originated from ancient warfare between viruses, revealing a previously unidentified logic for encoding information in sequence.",
-        "authors": [
-          "Peter H Yoon",
-          "Kenneth J Loi",
-          "Zeyuan Terry Zhang",
-          "Trevor A Docter",
-          "Santiago C Lopez"
-        ],
-        "journal": "Science (New York, N.Y.)",
-        "date": "2026-09-17",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "A noncontiguous code for RNA-guided DNA recognition at the origin of CRISPR-Cas.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究层级：基础研究。\n【核心实验关键数据】核心发现：首次发现/鉴定, 抑制作用, 调控作用, 结合/相互作用；局限性：原文未披露详细信息。\n【机制创新与产业价值】发表期刊：Science (New York, N.Y.)。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 7.67,
-        "relevance_score": 6.0,
-        "impact_factor": 44.7,
         "top_tier": false
       }
     ],
@@ -1875,6 +1906,38 @@
         "top_tier": true
       },
       {
+        "pmid": "42462708",
+        "title": "PD-1 blockade unleashes local hepatitis B virus-related B cell response inhibiting hepatocellular carcinoma.",
+        "abstract": "The prevailing notion is that effector T cell activation mediates anti-PD-1 efficacy in cancer. Here, we conducted a mechanistic study parallel to our phase 2 trial of perioperative anti-PD-1 therapy in patients with resectable recurrent hepatocellular carcinoma (HCC) (NCT04615143) to study its mechanism of action. Late-recurrence patients present two distinct subtypes characterized by T cell or B cell dominant responses in the tumor microenvironment by dynamic single-cell multi-omics analysis. Clonal antibody repertoire analysis and spatially paired scRNA-seq/BCR-seq reveal somatic hypermutation promoting antibody binding against hepatitis B virus core antigen (HBcAg) within tumor tertiary lymphoid structures (TLSs) in these type B-late recurrence patients. Mechanistically, HBcAg is exported into the extracellular space, triggering local B cell and antibody responses and complement activation. In mice, these high-affinity HBcAg-reactive antibodies lead to complement-mediated antitumor activity with enhanced anti-PD-1 efficacy. Thus, we uncover enhanced anti-virus B cell immunity within the TLS as a mechanism to anti-PD-1 in HCC.",
+        "authors": [
+          "Shuling Chen",
+          "Yuanqi Wang",
+          "Jingying Chen",
+          "Wenxuan Xie",
+          "Jianyu Chen"
+        ],
+        "journal": "Cancer cell",
+        "date": "2026-07-16",
+        "keywords": [
+          "B-cell response",
+          "anti-PD-1",
+          "antibody affinity",
+          "hepatitis B virus",
+          "hepatocellular carcinoma",
+          "immune checkpoint blockade",
+          "tertiary lymphoid structures"
+        ],
+        "companies": [],
+        "title_cn": "PD-1 blockade unleashes local hepatitis B virus-related B cell response inhibiting hepatocellular carcinoma.",
+        "abstract_cn": "",
+        "summary_cn": "【研究基础与实验设计】研究针对：肝癌/肝细胞癌；核心技术：RNA-seq转录组测序；研究层级：II期临床试验。\n【核心实验关键数据】表型：肿瘤发生；核心发现：鉴定/表征, 抑制作用, 促进作用, 调控作用。\n【机制创新与产业价值】信号通路：免疫检查点通路；临床痛点：转移/复发；发表期刊：Cancer cell。\n【后续追踪要点】持续关注后续进展及临床转化。",
+        "backfilled_from_news": "Local antibody-driven response to anti-PD-1 blockade.",
+        "composite_score": 8.87,
+        "relevance_score": 8.0,
+        "impact_factor": 48.8,
+        "top_tier": true
+      },
+      {
         "pmid": "42679812",
         "title": "Tumor immune microenvironment remodeling predicts response to checkpoint inhibitor therapy.",
         "abstract": "Immune checkpoint inhibitors (ICIs) have transformed cancer therapy, yet the basis of variable patient responses remains unclear. We assemble a longitudinal single-cell RNA sequencing atlas of 441 samples from 241 patients across ten cancer entities to map treatment-associated remodeling of the tumor immune microenvironment (TIME). With a hierarchical reference-guided deep-phenotyping framework, we define 77 immune and stromal subtypes and resolve four conserved TIME subtypes. Approximately 40% of tumors shift between states during therapy, and the transition is more predictive of outcome than the baseline state. Favorable transitions toward inflamed or B cell-enriched subtype track with improved response and survival, while persistence in or shifts toward myeloid dominance indicate resistance. We derive a 59-gene signature that predicted response and survival for 1,383 baseline tumors across 19 independent cohorts. These findings establish immunotype transitions as a central determinant of ICI efficacy, offering new avenues for response prediction and rational immunotherapy design.",
@@ -2047,23 +2110,6 @@
         "composite_score": 6.4,
         "relevance_score": 3.5,
         "impact_factor": 48.8,
-        "top_tier": true
-      },
-      {
-        "pmid": "42751833",
-        "title": "Anti-B7-H3 ADCs Take Center Stage against SCLC at WCLC.",
-        "abstract": "Separate phase III trials of the anti-B7-H3 antibody-drug conjugates tambotatug pelitecan and risvutatug rezetecan significantly improved overall survival, progression-free survival, and objective response rates compared with topotecan in patients with relapsed small-cell lung cancer. In a third trial, the combination of the investigational PD-L1 x VEGF-A bispecific antibody pumitamig plus the anti-B7-H3 ADC elfetabart drozuntecan showed encouraging early efficacy in SCLC across lines of therapy and doses. The studies were presented at the 2026 World Congress on Lung Cancer in Seoul, Republic of Korea.",
-        "authors": [],
-        "journal": "Cancer discovery",
-        "date": "2026-09-17",
-        "keywords": [],
-        "companies": [],
-        "title_cn": "Anti-B7-H3 ADCs Take Center Stage against SCLC at WCLC.",
-        "abstract_cn": "",
-        "summary_cn": "【研究基础与实验设计】研究针对：肺癌；核心技术：双特异性抗体/T细胞衔接器、抗体偶联药物(ADC)；研究层级：III期临床试验。\n【核心实验关键数据】表型：肿瘤发生；核心发现：有效性验证；关键突破：提高疗效。\n【机制创新与产业价值】信号通路：免疫检查点通路；临床痛点：转移/复发；发表期刊：Cancer discovery。\n【后续追踪要点】持续关注后续进展及临床转化。",
-        "composite_score": 6.39,
-        "relevance_score": 4.5,
-        "impact_factor": 29.7,
         "top_tier": true
       }
     ]
