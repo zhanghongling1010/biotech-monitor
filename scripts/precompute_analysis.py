@@ -142,6 +142,9 @@ def main():
         selected += [p for p in papers[limit:15] if p.get('top_tier')]
         seen = set()
         for paper in selected:
+            # 无摘要的是新闻报道,不生成 AI 解读(新闻已拆到独立板块,这里双保险)
+            if not paper.get('abstract'):
+                continue
             pmid = paper.get('pmid') or paper.get('title', '')[:50]
             if pmid in seen:
                 continue

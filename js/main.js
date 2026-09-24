@@ -381,6 +381,38 @@ function renderPapersBySection(data) {
     renderPaperSection('IOPapers', data.papers?.io || []);
     // 递送系统专题（包含 LNP、AAV、纳米、外泌体等）
     renderDeliverySection('deliveryPapers', data.papers?.delivery_systems || []);
+    // 行业新闻合并板块(无摘要的顶刊报道,不做 AI 解读)
+    renderNewsSection('newsList', data.news || []);
+}
+
+function renderNewsSection(containerId, items) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    if (items.length === 0) {
+        container.innerHTML = '<div class="empty-card">暂无行业新闻</div>';
+        return;
+    }
+
+    const catLabels = {
+        'gene_editing': '基因编辑', 'cell_therapy': '细胞治疗', 'adc': 'ADC',
+        'glp1': 'GLP-1', 'io': '肿瘤免疫', 'delivery_systems': '递送系统'
+    };
+
+    container.innerHTML = items.map(n => {
+        const url = n.link || (n.pmid ? `https://pubmed.ncbi.nlm.nih.gov/${n.pmid}/` : '');
+        const cats = (n.news_categories || []).map(c => catLabels[c] || c).join(' / ');
+        return `
+            <div class="paper-card" ${url ? `onclick="window.open('${url}', '_blank')" style="cursor:pointer;"` : ''}>
+                <div class="paper-journal">${n.journal || '新闻'}</div>
+                <h4>${n.title || '无标题'}</h4>
+                <div class="paper-meta">
+                    ${cats ? `<span class="delivery-tags">${cats}</span>` : ''}
+                    <span class="date">${formatDate(n.date)}</span>
+                </div>
+            </div>
+        `;
+    }).join('');
 }
 
 function renderDeliverySection(containerId, items) {
