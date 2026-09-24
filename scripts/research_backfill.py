@@ -84,44 +84,66 @@ def search_related_papers(terms, days_back=120, max_results=5):
         return []
 
 
-def backfill_from_news(papers_by_category, fetch_details_fn, max_news_per_category=3):
+def backfill_from_news(papers_by_category, fetch_details_fn, max_news_per_category=3,
+                       extra_news=None):
     """主入口:扫描各分类中的顶刊新闻,把原论文回填进对应分类。
     fetch_details_fn: 复用 collect_pubmed.fetch_article_details
+    extra_news: 可选,[(news_item, category)] — 上一轮合并已分离到新闻板块的条目,
+                同样参与溯源(否则 related_pmids 关联会断)
     返回新增论文数量"""
     added = 0
+
+    def process_news(news, category, papers, existing_pmids):
+        nonlocal added
+        terms = extract_query_terms(news.get('title', ''))
+        if len(terms) < 2:
+            return
+        # 渐进放松:先全词 AND,无结果就逐步减词,避免过严漏掉原论文
+        pmids = []
+        for n in range(min(len(terms), 3), 1, -1):
+            pmids = search_related_papers(terms[:n])
+            if pmids:
+                break
+        # 注意:即使论文已在列表中(增量合并场景)也要抓取详情,
+        # 以便把关联关系 related_pmids 记录到新闻上(新闻AI解读的上下文)
+        own_pmid = str(news.get('pmid') or '')
+        try:
+            articles = fetch_details_fn(pmids)
+        except Exception as e:
+            print(f'  溯源抓取详情失败: {e}')
+            return
+        for art in articles:
+            # 只关联研究论文(有摘要),跳过其他新闻/评论
+            if not art.get('abstract') or is_news_item(art):
+                continue
+            art_pmid = str(art.get('pmid'))
+            if art_pmid == own_pmid:
+                continue
+            related = news.setdefault('related_pmids', [])
+            if art_pmid not in related and len(related) < 3:
+                related.append(art_pmid)
+            if art_pmid in existing_pmids:
+                continue
+            art['backfilled_from_news'] = news.get('title', '')[:80]
+            papers.append(art)
+            existing_pmids.add(art_pmid)
+            added += 1
+            print(f"  溯源补充: [{category}] {art.get('title', '')[:60]} "
+                  f"(源自新闻: {news.get('title', '')[:40]}...)")
+
+    # 1. 各分类论文列表中的新闻
     for category, papers in papers_by_category.items():
         news_items = [p for p in papers if is_news_item(p)][:max_news_per_category]
         if not news_items:
             continue
         existing_pmids = {str(p.get('pmid')) for p in papers if p.get('pmid')}
         for news in news_items:
-            terms = extract_query_terms(news.get('title', ''))
-            if len(terms) < 2:
-                continue
-            # 渐进放松:先全词 AND,无结果就逐步减词,避免过严漏掉原论文
-            pmids = []
-            for n in range(min(len(terms), 3), 1, -1):
-                pmids = search_related_papers(terms[:n])
-                if pmids:
-                    break
-            new_pmids = [p for p in pmids if p not in existing_pmids]
-            if not new_pmids:
-                continue
-            try:
-                articles = fetch_details_fn(new_pmids)
-            except Exception as e:
-                print(f'  溯源抓取详情失败: {e}')
-                continue
-            for art in articles:
-                # 只补研究论文(有摘要),跳过其他新闻/评论
-                if not art.get('abstract') or is_news_item(art):
-                    continue
-                if str(art.get('pmid')) in existing_pmids:
-                    continue
-                art['backfilled_from_news'] = news.get('title', '')[:80]
-                papers.append(art)
-                existing_pmids.add(str(art.get('pmid')))
-                added += 1
-                print(f"  溯源补充: [{category}] {art.get('title', '')[:60]} "
-                      f"(源自新闻: {news.get('title', '')[:40]}...)")
+            process_news(news, category, papers, existing_pmids)
+
+    # 2. 已分离到新闻板块的历史新闻(仍要维护 related_pmids)
+    for news, category in (extra_news or []):
+        papers = papers_by_category.setdefault(category, [])
+        existing_pmids = {str(p.get('pmid')) for p in papers if p.get('pmid')}
+        process_news(news, category, papers, existing_pmids)
+
     return added

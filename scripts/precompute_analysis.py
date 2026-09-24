@@ -7,6 +7,7 @@ Biotech Monitor - AI 解读预生成脚本
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 import threading
@@ -17,6 +18,7 @@ from datetime import datetime
 # 配置
 PROXY_URL = "http://localhost:3000/v1/chat/completions"
 MODEL = "MiniMax-M3"
+CLAUDE_BIN = "/Users/nnn_nice/.local/bin/claude"
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, '..', 'data', 'daily')
 OUTPUT_FILE = os.path.join(DATA_DIR, 'analysis_cache.json')
@@ -25,9 +27,26 @@ OUTPUT_FILE = os.path.join(DATA_DIR, 'analysis_cache.json')
 SYSTEM_PROMPT = '你是一位资深的生物医药行业分析师，专注于基因编辑、细胞治疗、抗体药物偶联物(ADC)、GLP-1和肿瘤免疫领域。你的分析风格专业、深入、量化，具备产业视角。'
 
 
-def call_ai(prompt, max_retries=3):
-    """调用 AI API，带重试。trust_env=False: localhost 调用绝不走系统代理
-    (macOS 系统代理切到 Clash(7897)后,requests 会把 localhost 也代理出去导致超时)"""
+def call_ai_claude(prompt, timeout=240):
+    """首选:Claude Code CLI 无头模式生成解读(质量远高于 MiniMax)。
+    认证来自 ~/.claude/settings.json,无需钥匙串,cron/裸环境可用。"""
+    try:
+        r = subprocess.run(
+            [CLAUDE_BIN, '-p', '--system-prompt', SYSTEM_PROMPT],
+            input=prompt, capture_output=True, text=True, timeout=timeout
+        )
+        if r.returncode == 0 and r.stdout.strip():
+            return r.stdout.strip()
+        print(f"  claude 调用失败: rc={r.returncode} {r.stderr[:150]}")
+    except Exception as e:
+        print(f"  claude 调用异常: {e}")
+    return None
+
+
+def call_ai_minimax(prompt, max_retries=2):
+    """备用:MiniMax(Claude 不可用时兜底)。trust_env=False: localhost 调用
+    绝不走系统代理(macOS 系统代理切到 Clash(7897)后,requests 会把
+    localhost 也代理出去导致超时)"""
     session = requests.Session()
     session.trust_env = False
     for attempt in range(max_retries):
@@ -49,12 +68,24 @@ def call_ai(prompt, max_retries=3):
                 data = response.json()
                 return data.get('choices', [{}])[0].get('message', {}).get('content', '')
             else:
-                print(f"  Attempt {attempt+1} failed: HTTP {response.status_code}")
+                print(f"  MiniMax attempt {attempt+1} failed: HTTP {response.status_code}")
                 time.sleep(2)
         except Exception as e:
-            print(f"  Attempt {attempt+1} error: {e}")
+            print(f"  MiniMax attempt {attempt+1} error: {e}")
             time.sleep(2)
     return None
+
+
+def call_ai(prompt, max_retries=2):
+    """Claude 优先,MiniMax 兜底"""
+    for attempt in range(max_retries):
+        result = call_ai_claude(prompt)
+        if result:
+            return result
+        if attempt < max_retries - 1:
+            time.sleep(2)
+    print("  Claude 不可用,回退 MiniMax")
+    return call_ai_minimax(prompt)
 
 
 def generate_prompt(item, content_type):
@@ -108,6 +139,23 @@ def generate_prompt(item, content_type):
 【数据解读】关键数据
 【竞争格局】同类对比
 【上市前景】获批可能性"""
+    elif content_type == 'news':
+        # 新闻解读:标题 + 关联原论文摘要(溯源回填提供)作为上下文
+        related_ctx = ''
+        for t, a in (item.get('_related') or [])[:2]:
+            related_ctx += f"\n论文标题: {t}\n论文摘要: {a[:600]}\n"
+        desc = item.get('summary_cn') or item.get('description_cn') or ''
+        desc_part = f"【新闻内容】\n{desc[:400]}\n" if desc else ''
+        related_part = f"【相关原研究论文】{related_ctx}" if related_ctx else ''
+        return f"""请为以下医药科研新闻提供中文解读（400字以内）：
+
+【新闻标题】{item.get('title', 'N/A')}
+【来源】{item.get('journal', 'N/A')} | {item.get('date', 'N/A')}
+{desc_part}{related_part}
+请输出（用【】标记各部分）：
+【新闻要点】2-3句概括核心信息
+【科学背景】基于相关原研究论文的深度解读(若无则基于行业知识分析该新闻涉及的科学与产业逻辑)
+【行业影响】对biotech领域的意义与后续关注点"""
     return None
 
 
@@ -133,13 +181,12 @@ def main():
     # 收集需要分析的项目
     items_to_analyze = []
 
-    # 论文 - 每类前6篇 + 所有顶刊置顶论文(顶刊保证名单意味着必读,必须带解读)
+    # 论文 - 每类前10篇 + 所有顶刊置顶论文(减少实时生成转圈的概率)
     for category, papers in data.get('papers', {}).items():
-        # 递送系统分类增加到前8篇(专题更重要)
-        limit = 8 if category == 'delivery_systems' else 6
+        limit = 10
         selected = list(papers[:limit])
-        # 顶刊论文无论排名都纳入(上限15篇/类防膨胀)
-        selected += [p for p in papers[limit:15] if p.get('top_tier')]
+        # 顶刊论文无论排名都纳入(上限20篇/类防膨胀)
+        selected += [p for p in papers[limit:20] if p.get('top_tier')]
         seen = set()
         for paper in selected:
             # 无摘要的是新闻报道,不生成 AI 解读(新闻已拆到独立板块,这里双保险)
@@ -174,6 +221,19 @@ def main():
             if key not in cache or not cache[key].get('analysis'):
                 items_to_analyze.append((key, approval, 'approval'))
 
+    # 新闻板块 - 用关联原论文摘要做上下文(解决新闻无摘要导致解读空洞的问题)
+    pmid_abs = {}
+    for papers in data.get('papers', {}).values():
+        for p in papers:
+            if p.get('pmid') and p.get('abstract'):
+                pmid_abs[str(p['pmid'])] = (p.get('title', ''), p['abstract'])
+    for news in data.get('news', [])[:12]:
+        pmid = news.get('pmid')
+        key = f"paper_{pmid}" if pmid else f"paper_{news.get('title', '')}_{news.get('date', '')}"
+        if key not in cache or not cache[key].get('analysis'):
+            news['_related'] = [pmid_abs[pm] for pm in (news.get('related_pmids') or []) if pm in pmid_abs][:2]
+            items_to_analyze.append((key, news, 'news'))
+
     print(f"需要分析的项目: {len(items_to_analyze)}")
     print(f"已有缓存: {len(cache)}")
 
@@ -183,7 +243,7 @@ def main():
 
     # 生成分析（3 路并发 + 全局时间预算，避免被外层超时强杀）
     MAX_WORKERS = 3
-    deadline = time.time() + int(os.environ.get('PRE_MAX_MINUTES', '12')) * 60
+    deadline = time.time() + int(os.environ.get('PRE_MAX_MINUTES', '20')) * 60
     save_lock = threading.Lock()
     success = 0
     failed = 0

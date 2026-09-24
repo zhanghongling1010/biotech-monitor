@@ -94,12 +94,12 @@ python3 proxy.py
 - 用户最关心的是最新进展
 - `daily_update.py` 中的 `sort_by_date_desc()` 函数统一处理
 
-### 2. 研究论文与新闻分离（2026-09-24 起）
-- 各板块（gene_editing / cell_therapy / adc / glp1 / io / delivery_systems）**只保留有摘要的研究论文**
-- 无摘要条目（Nature/Science/JAMA 等顶刊记者报道、评论）由 `daily_update.py` 自动拆出，跨板块去重合并到 `latest.json` 的 `news` 字段
-- 前端"行业新闻"tab 展示合并新闻（点击跳 PubMed 原文，**不做 AI 解读**）
-- AI 解读只覆盖研究论文：`precompute_analysis.py` 对每类前6篇（递送前8篇）+ 前15篇内所有顶刊论文预生成，且防御性跳过无摘要条目
-- `research_backfill.py` 仍依赖分类中的新闻条目做原论文溯源，因此拆分发生在回溯回填之后
+### 2. 研究论文与新闻分离
+- 各板块（gene_editing / cell_therapy / adc / glp1 / io / delivery_systems）**只保留有摘要的研究论文**；`daily_update.py` 的 `split_news()` 将无摘要条目拆出
+- 拆出的期刊新闻（`news_type: journal`，带 `source_category`）与 BD/RSS 行业新闻（`news_type: industry`）糅合成统一 `news` 板块（上限 40 条，按日期倒序 + 顶刊优先），前端"行业新闻"tab 渲染（`renderPaperSection('newsPapers', data.news)`）
+- `news` 在 latest.json 中跨轮继承（latest.json 既是输入又是输出），按标题去重，避免二次合并丢新闻
+- AI 解读策略：`precompute_analysis.py` 对每类前 10 篇 + 前 20 内顶刊论文预生成（跳过无摘要条目）；新闻本身也可解读——`research_backfill.py`（`extra_news` 参数）溯源出的原论文摘要作为 `related_pmids`/`_related` 上下文，让新闻解读有据可依
+- 无摘要的论文条目绝不进入 AI 解读队列（双保险过滤）
 
 ### 2. AI 分析缓存机制
 - 避免重复 API 调用（节省成本+速度）

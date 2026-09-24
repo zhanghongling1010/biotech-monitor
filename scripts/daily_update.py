@@ -67,10 +67,15 @@ def merge_data():
     bd_news_data = load_bd_news_data(data_dir)
 
     # 新闻溯源回填:顶刊新闻提到的原论文(可能发表早于7天窗口)补进文献列表
+    # extra_news: 上一轮已分离到新闻板块的期刊新闻,继续维护其原论文关联
     try:
         from research_backfill import backfill_from_news
         from collect_pubmed import fetch_article_details
-        added = backfill_from_news(pubmed_data.get('papers', {}), fetch_article_details)
+        extra_news = [(n, n.get('source_category') or 'gene_editing')
+                      for n in pubmed_data.get('news', [])
+                      if n.get('news_type') == 'journal']
+        added = backfill_from_news(pubmed_data.get('papers', {}), fetch_article_details,
+                                   extra_news=extra_news)
         if added:
             print(f"  新闻溯源: 补充了 {added} 篇原论文")
     except Exception as e:
@@ -125,10 +130,32 @@ def merge_data():
     company_clinical = sort_by_date_desc(company_clinical)
 
     # 对PubMed论文按 相关度+影响因子 综合排序(顶刊保证置顶)
-    from paper_scoring import sort_papers_by_score
+    # 同时分离新闻:无摘要的条目(记者报道/行业动态)不进论文板块,单独进新闻板块
+    from paper_scoring import sort_papers_by_score, is_top_tier
     sorted_papers = {}
+    # 上一轮合并分离出的新闻要继承(latest.json 既是输入又是输出,
+    # 不继承的话第二次合并新闻就丢了);按标题去重
+    news_items = list(pubmed_data.get('news', []))
+    seen_news = {n.get('title', '') for n in news_items}
+
+    def split_news(papers, category):
+        research, news = [], []
+        for p in papers:
+            if (p.get('abstract') or '').strip():
+                research.append(p)
+            else:
+                if p.get('title', '') not in seen_news:
+                    p['source_category'] = category
+                    p['news_type'] = 'journal'
+                    news.append(p)
+                    seen_news.add(p.get('title', ''))
+        return research, news
+
     for category, papers in pubmed_data.get('papers', {}).items():
-        sorted_papers[category] = sort_papers_by_score(papers, category)
+        research, news = split_news(papers, category)
+        news_items.extend(news)
+        sorted_papers[category] = sort_papers_by_score(research, category)
+
     # 合并递送系统专题数据（如果存在）
     delivery_file = os.path.join(data_dir, f'delivery_papers_{datetime.now().strftime("%Y%m%d")}.json')
     if os.path.exists(delivery_file):
@@ -143,41 +170,36 @@ def merge_data():
                 p['title_cn'] = p.get('title', '')
                 p['abstract_cn'] = ''
                 p['summary_cn'] = ''
-            sorted_papers['delivery_systems'] = sort_papers_by_score(delivery_papers, 'delivery_systems')
-            print(f"  已合并递送系统专题: {len(delivery_papers)} 篇")
+            research, news = split_news(delivery_papers, 'delivery_systems')
+            news_items.extend(news)
+            sorted_papers['delivery_systems'] = sort_papers_by_score(research, 'delivery_systems')
+            print(f"  已合并递送系统专题: {len(research)} 篇")
         except Exception as e:
             print(f"  合并递送数据失败: {e}")
 
-    # ===== 拆分:各分类只保留有摘要的研究论文,无摘要条目(顶刊新闻报道等)
-    # 合并到独立的 news 板块(跨分类去重、不做 AI 解读) =====
-    merged_news = []
-    news_seen = set()
-    research_papers = {}
-    for category, papers in sorted_papers.items():
-        research = []
-        for p in papers:
-            if p.get('abstract'):
-                research.append(p)
-                continue
-            # 无摘要 = 新闻报道/评论,归入合并新闻板块
-            key = str(p.get('pmid') or '') or (p.get('title', '')[:80])
-            if key and key not in news_seen:
-                news_seen.add(key)
-                p['news_categories'] = [category]
-                merged_news.append(p)
-            elif key in news_seen:
-                for n in merged_news:
-                    nk = str(n.get('pmid') or '') or (n.get('title', '')[:80])
-                    if nk == key and category not in n['news_categories']:
-                        n['news_categories'].append(category)
-                        break
-        research_papers[category] = research
-    # 新闻按 综合分+日期 倒序
-    merged_news.sort(key=lambda x: (x.get('composite_score', 0), x.get('date', '')), reverse=True)
-    moved = sum(len(sorted_papers[c]) - len(research_papers[c]) for c in sorted_papers)
-    if moved:
-        print(f"  新闻拆分: {moved} 条无摘要条目移入合并新闻板块(去重后 {len(merged_news)} 条)")
-    sorted_papers = research_papers
+    # 新闻板块:期刊新闻 + 行业新闻(BD/RSS 源),糅合成一个板块
+    for item in bd_news_data.get('items', []):
+        if item.get('title', '') in seen_news:
+            continue
+        seen_news.add(item.get('title', ''))
+        news_items.append({
+            'title': item.get('title', ''),
+            'title_cn': item.get('title_cn', item.get('title', '')),
+            'summary_cn': item.get('description_cn', ''),
+            'abstract': '',
+            'journal': item.get('source', '行业新闻'),
+            'date': item.get('date', item.get('pub_date', '')),
+            'link': item.get('link', ''),
+            'authors': [],
+            'keywords': item.get('categories', []),
+            'source_category': 'industry',
+            'news_type': 'industry',
+        })
+    # 新闻排序:先按日期,再稳定排序把顶刊新闻提到最前
+    news_items.sort(key=lambda n: str(n.get('date', '')), reverse=True)
+    news_items.sort(key=lambda n: 0 if is_top_tier(n.get('journal')) else 1)
+    news_items = news_items[:40]
+    print(f"  新闻板块: {len(news_items)} 条")
 
     # 构建今日重点
     critical = {
@@ -243,7 +265,7 @@ def merge_data():
         'critical': critical,
         'daily': daily,
         'papers': sorted_papers,
-        'news': merged_news[:30],
+        'news': news_items,
         'companies': companies,
         'earnings': sort_by_date_desc(company_data.get('earnings', []))
     }
@@ -272,7 +294,6 @@ def save_combined_data(data, output_dir):
             'glp1': data['papers'].get('glp1', [])[:10],
             'io': data['papers'].get('io', [])[:10]
         },
-        'news': data.get('news', [])[:20],
         'companies': data['companies'],
         'earnings': data['earnings']
     }
@@ -299,7 +320,6 @@ def main():
     print(f"  今日重点 - 临床: {len(data['critical']['clinical'])}")
     for cat, papers in data['papers'].items():
         print(f"  文献 - {cat}: {len(papers)}")
-    print(f"  行业新闻(合并板块): {len(data.get('news', []))}")
     print(f"  公司: {len(data['companies']['international'])} 国际 + {len(data['companies']['china'])} 国内")
     print(f"  财报: {len(data['earnings'])}")
 

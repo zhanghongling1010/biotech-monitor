@@ -1,0 +1,292 @@
+{
+  "date": "2026-08-09",
+  "timestamp": "2026-08-09T07:04:47.822817",
+  "count": 15,
+  "type_distribution": {
+    "other": 1,
+    "lnp": 14,
+    "nanoparticle": 13,
+    "electroporation": 1
+  },
+  "papers": [
+    {
+      "pmid": "42521411",
+      "title": "In situ generation of proinflammatory CAR macrophages via mRNA-TLR agonist co-delivery for triple-negative breast cancer immunotherapy.",
+      "authors": [
+        "Zhou JE",
+        "Hu Y",
+        "Chen Y",
+        "Liu J",
+        "Gao Y"
+      ],
+      "journal": "Journal for immunotherapy of cancer",
+      "date": "2026 Jul 28",
+      "abstract": "Chimeric antigen receptor (CAR) macrophage therapy shows significant potential for solid tumors owing to the intrinsic tumor infiltration and phagocytic capacity of macrophages. However, its clinical translation is limited by macrophage phenotypic plasticity within the immunosuppressive tumor microenvironment and the complexity of ex vivo cell manufacturing. It is essential to develop techniques that enable macrophages to be activated specifically by antigens while sustaining their proinflammatory activity in vivo.",
+      "delivery_types": [
+        "other"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42521061",
+      "title": "Targeting tumor angiogenesis: advances in VEGF-A siRNA-loaded nanocarriers for anti-angiogenic cancer therapy.",
+      "authors": [
+        "Aggarwal R",
+        "Rehman U",
+        "Gupta S",
+        "Ramaiah R",
+        "Hani U"
+      ],
+      "journal": "International journal of pharmaceutics",
+      "date": "2026 Jul 28",
+      "abstract": "Angiogenesis is a fundamental hallmark of solid tumor progression, with vascular endothelial growth factor-A (VEGF-A) serving as a central regulator of tumor vascularization, immune suppression, and therapeutic resistance. Although monoclonal antibodies and tyrosine kinase inhibitors targeting VEGF have demonstrated clinical benefit, their efficacy is frequently limited by adaptive resistance, systemic toxicity, and incomplete suppression of VEGF signaling. Small interfering RNA (siRNA)-mediated silencing of vascular endothelial growth factor-A (VEGF-A), the predominant pro-angiogenic isoform in cancer, offers a gene-specific strategy capable of inhibiting angiogenesis at the mRNA level; however, its clinical translation is constrained by rapid nuclease degradation, poor cellular uptake, and endosomal entrapment. This review critically examines nanocarrier-based delivery systems developed for VEGF-A-targeted siRNA (siVEGF-A), including lipid nanoparticles, polymeric and dendrimer-based carriers, inorganic platforms, biomimetic systems, and hybrid nanostructures. Across multiple preclinical cancer models, these systems consistently achieve substantial VEGF knockdown (typically 60-80%), leading to marked reductions in tumor microvessel density and significant tumor growth inhibition. Co-delivery strategies integrating siVEGF-A with chemotherapeutic agents such as doxorubicin or irinotecan further enhance antitumor efficacy by synergistically suppressing angiogenesis while sensitizing tumours to cytotoxic therapy. Despite encouraging preclinical outcomes, challenges related to formulation stability, biodistribution, immune activation, endosomal escape efficiency, and scalable manufacturing remain major barriers to clinical translation. By synthesizing mechanistic insights, therapeutic outcomes, and translational limitations, this review highlights key design principles and future directions for the development and clinical translation of VEGF-A siRNA-loaded nanocarriers for anti-angiogenic cancer therapy.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42520865",
+      "title": "Application of mRNA vaccines in head and neck cancer immunotherapy: Current progress and challenges.",
+      "authors": [
+        "Wu L",
+        "Liu H",
+        "Wang Z",
+        "Yan J",
+        "Xu K"
+      ],
+      "journal": "Critical reviews in oncology/hematology",
+      "date": "2026 Jul 28",
+      "abstract": "Head and neck cancer (HNC) remains a significant global health burden, with high morbidity and mortality despite advances in conventional therapies. The immunosuppressive tumor microenvironment (TME) and tumor heterogeneity have limited the efficacy of current treatments, driving the exploration of novel immunotherapeutic strategies. Immune checkpoint inhibitors (ICIs) have established a role in recurrent/metastatic HNC, yet response rates remain modest and resistance is common. In this context, mRNA vaccines have emerged as a transformative approach due to their flexibility, rapid development, and ability to induce potent, antigen-specific immune responses. This review provides a comprehensive analysis of the application of mRNA vaccines in HNC immunotherapy, focusing on three major antigen sources: tumor-associated antigens (TAAs), tumor-specific neoantigens (TSAs), and virus-associated antigens such as HPV E6/E7. We examine the advantages and limitations of different delivery platforms-including lipid nanoparticles (LNPs), self-amplifying RNA (saRNA), and ex vivo dendritic cell (DC)-mRNA vaccines-and discuss their integration with other modalities such as ICIs, chemotherapy, and radiation therapy. Preclinical and clinical data demonstrate that personalized neoantigen vaccines can elicit robust T-cell responses and improve survival outcomes, particularly in HPV-positive HNSCC. However, challenges such as tumor heterogeneity, inefficient delivery, immunosuppressive TME, manufacturing complexity, and lack of predictive biomarkers hinder widespread translation. Future directions include the development of \"off-the-shelf\" shared-antigen vaccines, next-generation delivery systems with enhanced targeting, combination regimens, and biomarker-guided patient selection. With continued innovation in mRNA technology and translational research, mRNA vaccines hold immense potential to redefine the treatment paradigm for HNC, offering durable immune protection and improved clinical outcomes.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42520385",
+      "title": "Corrigendum to \"The replacement of helper lipids with charged alternatives in lipid nanoparticles facilitates targeted mRNA delivery to the spleen and lungs\" [J. Control. Release 345 (2022) 819-831].",
+      "authors": [
+        "LoPresti ST",
+        "Arral ML",
+        "Chaudhary N",
+        "Whitehead KA"
+      ],
+      "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+      "date": "2026 Jul 28",
+      "abstract": "",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42508766",
+      "title": "Engineering the blood: Lipid nanoparticle platforms for ex vivo immune and hematopoietic cell therapies.",
+      "authors": [
+        "Byeon Y",
+        "Peng N",
+        "Oh EB",
+        "Kim E",
+        "Gu D"
+      ],
+      "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+      "date": "2026 Jul 27",
+      "abstract": "Ex vivo gene delivery is a fundamental technology driving cellular therapeutics, required for CAR-T cells, engineered NK cells, reprogrammed macrophages, and genetically corrected HSPCs. Beyond nucleated immune effectors, this frontier is rapidly expanding to anucleate lineages like red blood cells and platelets. Traditionally, viral vectors have been widely utilized; however, their clinical translation is hindered by insertional mutagenesis, payload constraints, and complex manufacturing. As an alternative, electroporation has become the clinical standard for non-viral delivery, yet it intrinsically induces severe cytotoxicity and triggers a p53-dependent DNA damage response in HSPCs that compromises stem cell fitness. To address these critical bottlenecks, this review highlights LNP as a platform to overcome the limitations of conventional delivery methods. By facilitating physiological endocytosis and ultra-transient expression of nucleic acid payloads, LNP platforms abrogate p53 pathway activation and minimize cellular stress. Rationally designed LNPs achieve high delivery efficiencies across diverse blood lineages while preserving cell viability, innate functionality, and long-term in vivo repopulating capacity. By comprehensively discussing recent advancements in LNP formulation and next-generation RNA payload engineering, this review aims to provide actionable guidance to bench-side cell engineering to broad clinical applications.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle",
+        "electroporation"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42503852",
+      "title": "Decoding the Functional Roles of Individual Components in mRNA Lipid Nanoparticles.",
+      "authors": [
+        "Su K",
+        "Wang Z",
+        "Shi L",
+        "Fu X",
+        "Sheng X"
+      ],
+      "journal": "ACS nano",
+      "date": "2026 Jul 26",
+      "abstract": "Lipid nanoparticles (LNPs) have represented a leading platform for mRNA delivery and therapeutics. While extensive studies have focused on optimizing ionizable lipids, the specific roles of helper lipids such as cholesterol, phospholipid, and polyethylene glycol lipid (PEG-lipid) remain relatively poorly understood. To elucidate the distinct contributions of individual lipid components, we reengineer LNP formulations by selectively removing each lipid component, especially helper lipids, to systematically analyze their effects on physicochemical properties, in vivo mRNA delivery, and inflammatory responses. Results reveal that ionizable lipid plays a critical role in mRNA delivery efficacy. Cholesterol is essential for efficient liver-targeted delivery but dispensable for extrahepatic delivery. Phospholipid is not directly associated with organ tropism, whereas phospholipid-free LNPs significantly alleviate inflammation. PEG-lipid influences particle size, with PEG-lipid-free LNPs exhibiting preferential spleen tropism. This study comprehensively demonstrates the important roles of each lipid component in determining the in vivo fate of LNPs, guiding the rational design of next-generation LNP-based mRNA delivery systems.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42500975",
+      "title": "Innate immune responses underlying local and systemic adverse reactions to mRNA-lipid nanoparticle vaccines.",
+      "authors": [
+        "Takano T",
+        "Matsumura T",
+        "Takahashi Y"
+      ],
+      "journal": "International immunology",
+      "date": "2026 Jul 25",
+      "abstract": "Vaccine reactogenicity refers to the capacity of a vaccine to induce transient local and systemic adverse reactions (ARs). Although these ARs are often attributed to vaccine-induced innate inflammation, accumulating evidence indicates that the inflammatory pathways causing symptoms are not necessarily identical to those required for protective immunity. mRNA-lipid nanoparticle (LNP) vaccines provide a valuable framework for examining this relationship, because both the mRNA cargo and the LNP delivery system can contribute to innate immune activation. Early inflammatory responses following mRNA-LNP vaccination appear to reflect the interplay of multiple signals, including ionizable lipid-driven signaling, mRNA-associated interferon (IFN) responses, endosomal membrane perturbation, and tissue-derived danger signals. These upstream events can be amplified through cytokine networks that promote systemic symptoms. Interleukin-1 (IL-1) has emerged as a major contributor to this process, although IL-6, tumor necrosis factor-alpha (TNF-&#x3b1;), type I IFN, and prostaglandin-related pathways also contribute, depending on the experimental model and context. In this review, we summarize recent evidence linking upstream sensing pathways to local and systemic ARs, and discuss how these pathways intersect with vaccine-induced adaptive immunity. We also consider booster-associated amplification of ARs as an example in which immune memory may reshape innate cytokine responses after repeated vaccination. Understanding these relationships will help delineate the shared and distinct inflammatory circuits underlying ARs and protective immunity. These mechanistic insights may also inform the rational design of low-reactogenic mRNA-LNP formulations that retain sufficient immunogenicity.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42566150",
+      "title": "Survivin mRNA lipid nanoparticles and CTLA-4 inhibitor co-delivery activates anti-tumor cytotoxic T-lymphocytes for oral cancer immunotherapy.",
+      "authors": [
+        "Krishna V",
+        "Goyal SG",
+        "Venuganti VVK"
+      ],
+      "journal": "Medical oncology (Northwood, London, England)",
+      "date": "2026 Aug 7",
+      "abstract": "Oral carcinoma is the sixth most prevalent cancer type with a poor 5-year survival rate. mRNA-lipid nanoparticle-based immunotherapy can overcome the challenges associated with conventional treatment options. Here, we investigated the immunogenicity and antitumor efficacy of survivin antigen encoded mRNA lipid nanoparticles (LNPs) in combination with anti-CTLA-4 immune checkpoint inhibitor. Survivin mRNA was synthesized by in vitro transcription technique after cloning the antigenic target sequence into an expression vector. The mRNA-LNPs were prepared with lipids, ALC-0315, DOPE, and cholesterol using a droplet-based microfluidic device. The average particle size, polydispersity index and encapsulation efficiency of mRNA-LNPs was found to be 305&#x2009;&#xb1;&#x2009;68&#xa0;nm, 0.11, and 65&#x2009;&#xb1;&#x2009;3.9%, respectively. Survivin mRNA-LNPs incubated with mouse-derived bone marrow dendritic cells showed activation of tumor-associated antigen specific T-cells. The co-culture of splenocytes, and cheek cells derived from C57BL/6 mouse administered with survivin mRNA-LNPs and CTLA-4 inhibitor with MOC-1 oral carcinoma cells showed significant (P&#x2009;&lt;&#x2009;0.05) reduction in the cancer cell viability compared with control group. The oral cancer cytotoxicity is attributed to the upregulation of MHCI and MHCII, CD8&#x2009;+&#x2009;and CD4&#x2009;+&#x2009;T-lymphocytes and reduction in the T-regulatory cells. Taken together, this study provides preliminary evidence for further development of survivin mRNA-LNPs and CTLA-4 inhibitor combination for oral cancer immunotherapy.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42559754",
+      "title": "Ionizable Lipid-Dependent Optimization of Steroid Lipid Nanoparticles With Tunable Immunomodulatory Properties.",
+      "authors": [
+        "Thatte AS",
+        "Nachod BE",
+        "Baena J",
+        "Muscat-Rivera J",
+        "Chaboub L"
+      ],
+      "journal": "Advanced materials (Deerfield Beach, Fla.)",
+      "date": "2026 Aug 6",
+      "abstract": "Lipid nanoparticles (LNPs) are a leading platform for nucleic acid delivery, yet their intrinsic adjuvanticity poses a significant materials design challenge for applications requiring immunological quiescence. Here, we report a modular engineering strategy that incorporates FDA-approved corticosteroids into LNP formulations, creating a new class of steroid LNPs with tunable anti-inflammatory properties. Through systematic screening of steroid and cholesterol substitution ratios, we establish structure-property relationships governing mRNA encapsulation efficiency, physicochemical characteristics, and inflammation suppression. Triamcinolone (TRI) emerges as our lead steroid, with 50% cholesterol substitution in SM-102 LNPs preserving physicochemical characteristics. Importantly, we show that optimal substitution ratios are ionizable lipid-dependent-80% for MC3 and 50% for SM-102 and ALC-0315-revealing fundamental design principles for these dual-functional LNPs. In an endotoxemia mouse model, TRI LNPs administered intramuscularly maintain mRNA delivery efficacy while reducing inflammatory cytokines by &#x223c;4-fold compared to SM-102 LNPs. In a multiple sclerosis mouse model, TRI LNPs delivering therapeutic mRNA promote antigen-specific tolerance in spinal cord tissue and protect against paralysis. Compared to SM-102 LNPs, TRI LNPs reduce inflammatory cytokines by &#x223c;3-fold and prolong protection against paralysis. Together, our work introduces a generalizable materials design strategy for engineering LNPs with tunable immunomodulatory properties to expand their therapeutic utility.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42557300",
+      "title": "Engineered lipid nanoparticles for in vivo and durable editing of haematopoietic stem cells within humanized mice.",
+      "authors": [
+        "Du J",
+        "Luo Z",
+        "Xie D",
+        "Chen Y",
+        "Yang M"
+      ],
+      "journal": "Nature biomedical engineering",
+      "date": "2026 Aug 5",
+      "abstract": "In vivo genetic engineering of haematopoietic stem and progenitor cells (HSPCs) holds the potential to revolutionize the treatment landscape for numerous diseases. However, despite its transformative potential, it remains hindered by the difficulty in efficiently and specifically targeting quiescent human HSCs while maintaining their long-term functionality. Here, after screening 15 lipid nanoparticles (LNPs), we report an LNP that efficiently delivers reporter mRNA to human HSPCs both in ex vivo and in vivo settings when conjugated with the anti-CD34 antibody (CD34/LNPDP). Using CRISPR/Cas editing cargos, CD34/LNPDP achieves high editing efficiency in human HSPCs ex vivo. Intrafemoral administration of CD34/LNPDP in humanized mice results in efficient editing of the erythroid-specific BCL11A enhancer within human HSPCs, enabling the sustained long-term reactivation of fetal haemoglobin (HbF) expression in erythroid cells. In a humanized neutropaenia model harbouring an ELANE mutation, intrafemoral administration of CD34/LNPDP achieves robust editing, targeting exon 2 of ELANE in human HSPCs, partially restoring neutrophil development impairment under long-term observation. Collectively, CD34-targeted delivery enables in vivo HSPC modification without perturbing haematopoiesis, underscoring its suitability for clinical translation.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42556594",
+      "title": "mRNA vaccines targeting HPV E6/E7: A new frontier in cervical cancer immunotherapy.",
+      "authors": [
+        "Aftabsavad S",
+        "Arashkia A",
+        "Shokrgozar MA",
+        "Rahimi AA",
+        "Karimipoor M"
+      ],
+      "journal": "Critical reviews in oncology/hematology",
+      "date": "2026 Aug 5",
+      "abstract": "Human papillomavirus (HPV) infections, particularly high-risk types 16 and 18, are responsible for approximately 70% of cervical cancer cases worldwide. Despite the availability of effective prophylactic vaccines, therapeutic interventions for established HPV-associated malignancies remain limited. This mini-review synthesizes recent advances (2020-2026) in mRNA-LNP vaccine development targeting the HPV E6 and E7 oncoproteins. We examine the mechanistic basis for targeting E6/E7, technological advantages of mRNA-LNP platforms, and key preclinical evidence demonstrating potent T cell-mediated anti-tumor immunity. Recent clinical progress, including BioNTech's BNT113 vaccine which received FDA Fast Track designation for HPV16-positive head and neck cancer, is discussed alongside ongoing challenges in delivery optimization, tumor microenvironment immunosuppression, and manufacturing scalability. The review concludes with future perspectives on combination strategies with immune checkpoint inhibitors and the potential for personalized neoantigen approaches.",
+      "delivery_types": [
+        "lnp"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42546945",
+      "title": "Gene-activated porous scaffolds integrating SOX9 mRNA lipid nanoparticles enable uniformly distributed ectopic chondrogenesis in subcutaneous model.",
+      "authors": [
+        "Tan S",
+        "Tsai YC",
+        "Hung PJ",
+        "Lin YC",
+        "Chiang CY"
+      ],
+      "journal": "International journal of biological macromolecules",
+      "date": "2026 Aug 3",
+      "abstract": "The clinical translation of mesenchymal stem cell (MSC)-based therapies for cartilage repair is limited by inefficient lineage specification and the frequent formation of mechanically inferior fibrocartilage. Here, we present a gene-activated scaffold strategy that couples transient mRNA delivery with a structurally defined biomaterial to program ectopic chondrogenesis. Lipid nanoparticle-mediated delivery of SOX9 mRNA within a microfluidically engineered porous scaffold induces a transcriptional response in MSCs, initiating a chondrogenic program without the need for sustained growth factor stimulation. In three-dimensional spheroid and scaffold models, SOX9 mRNA drives robust upregulation of cartilage-specific genes, including ACAN and COL2A1, while limiting fibrocartilage- and hypertrophy-associated markers. Transcriptomic analysis reveals that this response is characterized by coordinated activation of extracellular matrix organization and regulatory signaling pathways, consistent with the establishment of a self-reinforcing differentiation trajectory. Importantly, this transcriptional program is preserved within the scaffold microenvironment, enabling efficient ectopic lineage specification. Following subcutaneous implantation, MSC-laden scaffolds exhibit progressive extracellular matrix deposition, sustained expression of chondrogenic markers, and the formation of lacunae-like structures over time, indicative of tissue maturation. While this ectopic model does not recapitulate the native joint environment, the persistence of cartilage-like features supports the durability of the initial transcriptional programming. Together, these findings demonstrate that a transient mRNA-encoded transcriptional cue, when combined with a permissive three-dimensional scaffold, is sufficient to initiate and sustain chondrogenesis across biological scales. This work establishes a framework for mRNA-enabled biomaterials to direct cell fate and provides a foundation for the development of single-stage strategies for cartilage regeneration.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42544423",
+      "title": "Pancreas-specific lipid nanoparticle-mediated interleukin-10 mRNA delivery ameliorates acute pancreatitis.",
+      "authors": [
+        "Men Y",
+        "Cao Z",
+        "Popoola DO",
+        "Chen L",
+        "Teng Y"
+      ],
+      "journal": "Journal of materials chemistry. B",
+      "date": "2026 Aug 3",
+      "abstract": "Acute pancreatitis (AP) is one of the leading gastrointestinal conditions requiring hospitalization. Current management relies mainly on supportive care, and no specific pharmacological treatment is available. Interleukin-10 (IL-10) is a well-studied cytokine with potent anti-inflammatory and immunomodulatory effects. Previous studies have demonstrated the beneficial roles of both endogenous and exogenous IL-10 in mitigating pancreatic and systemic injury during AP. However, clinical translation of IL-10 recombinant protein therapy has been limited. Here, we report the development of a sulfonium lipid nanoparticle (sLNP) system for pancreas-specific IL-10 mRNA delivery in AP. Through formulation optimization, we identified DHSEA-based sLNPs with excellent pancreas-specific mRNA delivery efficiency, high specificity, and good biocompatibility. Administration of IL-10 mRNA/DHSEA during the development and progression of cerulein-induced AP significantly reduced pro-inflammatory cytokine expression, serum amylase levels, and pancreatic tissue damage.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42490325",
+      "title": "Preparation of Antibody-Modified mRNA-LNPs via a Combination of Post-Encapsulation and Post-Insertion.",
+      "authors": [
+        "Ri Y",
+        "Oshima S",
+        "Tanaka H",
+        "Sugawara T",
+        "Hori M"
+      ],
+      "journal": "ACS applied bio materials",
+      "date": "2026 Aug 3",
+      "abstract": "Using ligand-modified lipid nanoparticles (LNPs) to encapsulate messenger RNA (mRNA) has become an important modality for tissue/organ/cell-specific gene delivery. Modifying mRNA-LNPs either with antibodies or their derivatives (Ab-mRNA-LNPs) has emerged as a promising drug delivery system (DDS) due to its efficacy and target specificity. Manufacturing Ab-mRNA-LNPs, however, involves complex and multi-step procedures that include the encapsulation of mRNA followed by the anchoring of antibodies via polyethylene glycol (PEG) linker-conjugated lipids. In this work, we present a seamless strategy for the production of Ab-mRNA-LNPs by integrating the post-encapsulation of mRNA into mRNA-free LNPs (fLNPs) with a post-insertion of ligand-conjugated PEG-lipid (Lig-PEG-lipid). Using a T-cell-targeting model, we further describe how targeting efficacy is influenced by controlling the surface nature of the Ab-mRNA-LNPs either via the modification of PEG-lipids or by replacing the phospholipids. Modification of the DSPE-PEG-methoxy and employment of either DSPC or DPPC significantly improves the accumulation of Ab-mRNA-LNPs in T cells. These findings highlight the importance of LNP surface engineering.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    },
+    {
+      "pmid": "42473281",
+      "title": "Targeted mRNA Delivery Using Bispecific Antibody-Lipid Nanoparticle Complexes.",
+      "authors": [
+        "Hickey JC",
+        "Roach T",
+        "Cassaidy B",
+        "Hergesheimer R",
+        "Franklin N"
+      ],
+      "journal": "Molecular pharmaceutics",
+      "date": "2026 Aug 3",
+      "abstract": "Lipid nanoparticles (LNPs) are highly modular drug nanocarriers that have significantly progressed in the development and application of novel RNA therapeutics. While instrumental in current vaccine and hepatic gene therapy applications, extrahepatic LNP delivery remains a challenging hurdle, severely limiting clinical applications for individualized therapies that require cellular- and tissue-specific enrichment. Novel platform development remains needed to generate targeted LNPs capable of modeling targeted uptake in vitro prior to in vivo applications. Herein, we developed and utilized an antibody-based targeting bispecific-LNP (TbsAb-LNP) platform simultaneously binding LNP polyethylene glycol motifs and desired cell surface markers. By colocalizing TbsAb-LNP complexes with desired cell surface markers, we enable mRNA-LNP accumulation in the desired cell types. We additionally assessed the endosomal efficiency kinetics of TbsAb-LNP complexes generated at various bispecific loading ratios in a Galectin-9 in vitro expression model. Leveraging this facile and modular platform that eliminates the need for complex chemical conjugation approaches, we successfully achieved targeted LNP delivery to xhuCD3-expressing lymphoblasts and xmTfR1-expressing cell lines in vitro as well as xmTfR1-expressing cells in vivo. Enrichment of TbsAb-LNPs to splenic cells demonstrates the potential utility of this platform for clinical vaccine and T-cell delivery applications.",
+      "delivery_types": [
+        "lnp",
+        "nanoparticle"
+      ],
+      "query_category": "lipid nanoparticle"
+    }
+  ]
+}

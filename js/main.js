@@ -94,6 +94,22 @@ async function generateDetailedAnalysis(cacheKey, prompt) {
     }
     pendingRequests.add(ANALYSIS_CACHE_PREFIX + cacheKey);
 
+    // 快速探测本机代理可达性(3秒超时)。
+    // Safari 会拦截 https 页面对 http://localhost 的"混合内容"请求,
+    // 非本机访客更没有这个代理 —— 探测失败直接给友好提示,不再硬闯
+    const UNAVAILABLE_MSG = '⏳ 该条目的 AI 解读暂未预生成。\n\n实时生成仅在本机可用(Safari 会拦截页面到本机代理的请求,可换 Chrome 立即生成)。\n\n下次定时更新(每日 7:00)将自动为本条目补齐解读,届时刷新即可查看。';
+    try {
+        const ctrl = new AbortController();
+        const probeTimer = setTimeout(() => ctrl.abort(), 3000);
+        const health = await fetch(CONFIG.proxyUrl + '/health', { signal: ctrl.signal });
+        clearTimeout(probeTimer);
+        if (!health.ok) throw new Error('proxy unhealthy');
+    } catch (probeErr) {
+        console.log('Local AI proxy unavailable, showing fallback message:', probeErr.message);
+        pendingRequests.delete(ANALYSIS_CACHE_PREFIX + cacheKey);
+        return { analysis: UNAVAILABLE_MSG, ephemeral: true };
+    }
+
     try {
         console.log('Calling AI proxy:', CONFIG.proxyUrl + '/v1/chat/completions');
         const response = await fetch(CONFIG.proxyUrl + '/v1/chat/completions', {
@@ -139,10 +155,10 @@ async function generateDetailedAnalysis(cacheKey, prompt) {
 
     } catch (error) {
         console.error('AI Analysis error:', error);
-        // 显示错误到页面
+        // 显示友好错误到页面(Safari 混合内容拦截/代理未运行都会走到这里)
         const errEl = document.getElementById('aiAnalysisStatus');
         if (errEl) {
-            errEl.textContent = '错误: ' + (error.message || 'unknown');
+            errEl.textContent = '实时生成暂不可用(本机代理未运行或浏览器拦截)。明日定时更新后将自动补齐解读,或换 Chrome 重试。';
             errEl.style.color = '#dc2626';
             errEl.style.fontSize = '0.7rem';
         }
@@ -381,38 +397,8 @@ function renderPapersBySection(data) {
     renderPaperSection('IOPapers', data.papers?.io || []);
     // 递送系统专题（包含 LNP、AAV、纳米、外泌体等）
     renderDeliverySection('deliveryPapers', data.papers?.delivery_systems || []);
-    // 行业新闻合并板块(无摘要的顶刊报道,不做 AI 解读)
-    renderNewsSection('newsList', data.news || []);
-}
-
-function renderNewsSection(containerId, items) {
-    const container = document.getElementById(containerId);
-    if (!container) return;
-
-    if (items.length === 0) {
-        container.innerHTML = '<div class="empty-card">暂无行业新闻</div>';
-        return;
-    }
-
-    const catLabels = {
-        'gene_editing': '基因编辑', 'cell_therapy': '细胞治疗', 'adc': 'ADC',
-        'glp1': 'GLP-1', 'io': '肿瘤免疫', 'delivery_systems': '递送系统'
-    };
-
-    container.innerHTML = items.map(n => {
-        const url = n.link || (n.pmid ? `https://pubmed.ncbi.nlm.nih.gov/${n.pmid}/` : '');
-        const cats = (n.news_categories || []).map(c => catLabels[c] || c).join(' / ');
-        return `
-            <div class="paper-card" ${url ? `onclick="window.open('${url}', '_blank')" style="cursor:pointer;"` : ''}>
-                <div class="paper-journal">${n.journal || '新闻'}</div>
-                <h4>${n.title || '无标题'}</h4>
-                <div class="paper-meta">
-                    ${cats ? `<span class="delivery-tags">${cats}</span>` : ''}
-                    <span class="date">${formatDate(n.date)}</span>
-                </div>
-            </div>
-        `;
-    }).join('');
+    // 行业新闻板块（期刊新闻 + 行业动态,论文板块只保留有摘要的研究论文）
+    renderPaperSection('newsPapers', data.news || []);
 }
 
 function renderDeliverySection(containerId, items) {
@@ -997,8 +983,8 @@ ${item.description || item.description_cn || '无详细信息'}
                     }
                 } else {
                     const statusEl = document.getElementById('aiAnalysisStatus');
-                    if (statusEl) {
-                        statusEl.textContent = '生成失败，请查看Console错误';
+                    if (statusEl && !statusEl.textContent.includes('暂不可用')) {
+                        statusEl.textContent = '实时生成暂不可用,明日定时更新后自动补齐解读。';
                         statusEl.style.color = '#dc2626';
                     }
                 }
